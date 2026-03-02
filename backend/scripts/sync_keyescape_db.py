@@ -18,7 +18,6 @@ API:
   python scripts/sync_keyescape_db.py --days 3
 """
 
-import asyncio
 import re
 import sys
 import time
@@ -29,12 +28,9 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 import requests
-from sqlalchemy import select
 
-from app.database import AsyncSessionLocal, engine, Base
-from app.models.cafe import Cafe
-from app.models.theme import Theme
-from app.models.schedule import Schedule
+from app.config import settings
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
 
 BASE_URL = "https://keyescape.com/controller/run_proc.php"
 HEADERS = {
@@ -114,167 +110,120 @@ def parse_difficulty(memo: str) -> int | None:
 
 # ── DB 동기화 함수 ─────────────────────────────────────────────────────────────
 
-async def sync_themes() -> dict[tuple[int, int], int]:
+def sync_themes() -> dict[tuple[int, int], str]:
     """
-    키이스케이프 테마를 theme 테이블에 upsert.
-    반환: {(zizum_num, theme_num) → db theme.id}
+    키이스케이프 테마를 Firestore에 upsert.
+    반환: {(zizum_num, theme_num) → theme_doc_id}
     """
-    key_to_db: dict[tuple[int, int], int] = {}
+    db = get_db()
+    key_to_doc_id: dict[tuple[int, int], str] = {}
     added = updated = 0
 
-    async with AsyncSessionLocal() as session:
-        for zizum_num, cafe_id in BRANCH_MAP.items():
-            cafe = await session.get(Cafe, cafe_id)
-            if not cafe:
-                print(f"  [WARN] cafe {cafe_id} DB 미존재 — 건너뜀")
-                continue
+    for zizum_num, cafe_id in BRANCH_MAP.items():
+        cafe_doc = db.collection("cafes").document(cafe_id).get()
+        if not cafe_doc.exists:
+            print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
+            continue
 
-            raw_themes = fetch_themes_for_branch(zizum_num)
-            time.sleep(REQUEST_DELAY)
+        raw_themes = fetch_themes_for_branch(zizum_num)
+        time.sleep(REQUEST_DELAY)
 
-            for rt in raw_themes:
-                theme_num = rt["theme_num"]
-                name = rt["info_name"]
-                memo = rt.get("memo", "")
+        for rt in raw_themes:
+            theme_num = rt["theme_num"]
+            name = rt["info_name"]
+            memo = rt.get("memo", "")
 
-                duration = parse_duration(memo)
-                difficulty = parse_difficulty(memo)
-                description = memo.strip() if memo else None
+            duration = parse_duration(memo)
+            difficulty = parse_difficulty(memo)
+            description = memo.strip() if memo else None
 
-                result = await session.execute(
-                    select(Theme).where(
-                        Theme.cafe_id == cafe_id,
-                        Theme.name == name,
-                    )
-                )
-                existing = result.scalar_one_or_none()
+            theme_doc_id = get_or_create_theme(db, cafe_id, name, {
+                "difficulty": difficulty,
+                "duration_min": duration,
+                "description": description,
+                "poster_url": None,
+                "is_active": True,
+            })
+            key_to_doc_id[(zizum_num, theme_num)] = theme_doc_id
+            print(f"  [UPSERT] {name} (cafe={cafe_id}) — {duration}분 난이도:{difficulty}")
 
-                if existing:
-                    existing.duration_min = duration
-                    existing.difficulty = difficulty
-                    existing.description = description
-                    existing.is_active = True
-                    key_to_db[(zizum_num, theme_num)] = existing.id
-                    updated += 1
-                else:
-                    theme = Theme(
-                        cafe_id=cafe_id,
-                        name=name,
-                        description=description,
-                        difficulty=difficulty,
-                        duration_min=duration,
-                        poster_url=None,
-                        is_active=True,
-                    )
-                    session.add(theme)
-                    await session.flush()
-                    key_to_db[(zizum_num, theme_num)] = theme.id
-                    added += 1
-
-                print(f"  {'[NEW]' if not existing else '[UPD]'} {name} ({cafe.name}) — {duration}분 난이도:{difficulty}")
-
-        await session.commit()
-
-    print(f"\n  테마 동기화 완료: {added}개 추가 / {updated}개 갱신")
-    return key_to_db
+    print(f"\n  테마 동기화 완료: {len(key_to_doc_id)}개")
+    return key_to_doc_id
 
 
-async def sync_schedules(key_to_db: dict[tuple[int, int], int], days: int = 6):
-    """키이스케이프 스케줄을 schedule 테이블에 upsert (오늘~days일 후)."""
+def sync_schedules(key_to_doc_id: dict[tuple[int, int], str], days: int = 6):
+    """키이스케이프 스케줄을 Firestore에 upsert (오늘~days일 후)."""
+    db = get_db()
     today = date.today()
     dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
     added = 0
 
-    async with AsyncSessionLocal() as session:
-        for zizum_num in BRANCH_MAP:
-            # 이 지점의 테마 목록 수집
-            raw_themes = fetch_themes_for_branch(zizum_num)
-            time.sleep(REQUEST_DELAY)
+    for zizum_num in BRANCH_MAP:
+        cafe_id = BRANCH_MAP[zizum_num]
+        # 이 지점의 테마 목록 수집
+        raw_themes = fetch_themes_for_branch(zizum_num)
+        time.sleep(REQUEST_DELAY)
 
-            for rt in raw_themes:
-                theme_num = rt["theme_num"]
-                db_theme_id = key_to_db.get((zizum_num, theme_num))
-                if not db_theme_id:
-                    continue
+        for rt in raw_themes:
+            theme_num = rt["theme_num"]
+            theme_doc_id = key_to_doc_id.get((zizum_num, theme_num))
+            if not theme_doc_id:
+                continue
 
-                booking_base = f"https://keyescape.com/reservation1.php?zizum_num={zizum_num}"
+            booking_base = f"https://keyescape.com/reservation1.php?zizum_num={zizum_num}"
 
-                for d in dates:
-                    slots = fetch_schedule_for_theme(zizum_num, theme_num, d)
-                    time.sleep(REQUEST_DELAY)
+            for d in dates:
+                slots = fetch_schedule_for_theme(zizum_num, theme_num, d)
+                time.sleep(REQUEST_DELAY)
 
-                    for slot in slots:
-                        hh = int(slot["hh"])
-                        mm = int(slot["mm"])
-                        time_obj = dtime(hh, mm)
-                        enable = slot.get("enable", "N")
+                for slot in slots:
+                    hh = int(slot["hh"])
+                    mm = int(slot["mm"])
+                    time_obj = dtime(hh, mm)
+                    enable = slot.get("enable", "N")
 
-                        if enable == "Y":
-                            status = "available"
-                            booking_url = booking_base
-                        else:
-                            status = "full"
-                            booking_url = None
+                    if enable == "Y":
+                        status = "available"
+                        booking_url = booking_base
+                    else:
+                        status = "full"
+                        booking_url = None
 
-                        result = await session.execute(
-                            select(Schedule).where(
-                                Schedule.theme_id == db_theme_id,
-                                Schedule.date == d,
-                                Schedule.time_slot == time_obj,
-                            ).order_by(Schedule.crawled_at.desc()).limit(1)
-                        )
-                        existing = result.scalar_one_or_none()
+                    upsert_schedule(
+                        db,
+                        date_str=d.strftime("%Y-%m-%d"),
+                        theme_doc_id=theme_doc_id,
+                        cafe_id=cafe_id,
+                        time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                        data={
+                            "status": status,
+                            "available_slots": None,
+                            "booking_url": booking_url,
+                            "crawled_at": crawled_at,
+                        },
+                    )
+                    added += 1
 
-                        if existing:
-                            if existing.status != status:
-                                session.add(Schedule(
-                                    theme_id=db_theme_id,
-                                    date=d,
-                                    time_slot=time_obj,
-                                    status=status,
-                                    available_slots=None,
-                                    total_slots=None,
-                                    booking_url=booking_url,
-                                    crawled_at=crawled_at,
-                                ))
-                                added += 1
-                        else:
-                            session.add(Schedule(
-                                theme_id=db_theme_id,
-                                date=d,
-                                time_slot=time_obj,
-                                status=status,
-                                available_slots=None,
-                                total_slots=None,
-                                booking_url=booking_url,
-                                crawled_at=crawled_at,
-                            ))
-                            added += 1
-
-                print(f"  zizum={zizum_num} theme={theme_num} {len(dates)}일치 완료")
-
-        await session.commit()
+            print(f"  zizum={zizum_num} theme={theme_num} {len(dates)}일치 완료")
 
     print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
 
 
-async def main(run_schedule: bool = True, days: int = 6):
+def main(run_schedule: bool = True, days: int = 6):
     print("=" * 60)
     print("keyescape.com → DB 동기화")
     print("=" * 60)
 
-    from app.models import cafe, theme, schedule, user, alert  # noqa
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    init_firestore(settings.firebase_credentials_path)
 
     print("\n[ 1단계 ] 테마 동기화")
-    key_to_db = await sync_themes()
-    print(f"  테마 ID 매핑: {len(key_to_db)}개")
+    key_to_doc_id = sync_themes()
+    print(f"  테마 ID 매핑: {len(key_to_doc_id)}개")
 
     if run_schedule:
         print(f"\n[ 2단계 ] 스케줄 동기화 (오늘~{days}일 후)")
-        await sync_schedules(key_to_db, days=days)
+        sync_schedules(key_to_doc_id, days=days)
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
@@ -287,4 +236,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-schedule", action="store_true", help="스케줄 동기화 생략")
     parser.add_argument("--days", type=int, default=6, help="스케줄 조회 일수")
     args = parser.parse_args()
-    asyncio.run(main(run_schedule=not args.no_schedule, days=args.days))
+    main(run_schedule=not args.no_schedule, days=args.days)

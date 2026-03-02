@@ -12,11 +12,10 @@ xdungeon.net 테마 + 스케줄을 DB에 동기화하는 스크립트.
   python scripts/sync_xdungeon_db.py --days 3        # 스케줄 3일치만
 """
 
-import asyncio
 import re
 import sys
 import time
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, time as dtime, timedelta
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).parent.parent
@@ -24,12 +23,9 @@ sys.path.insert(0, str(BACKEND_DIR))
 
 import requests
 from bs4 import BeautifulSoup
-from sqlalchemy import select, delete
 
-from app.database import AsyncSessionLocal, engine, Base
-from app.models.cafe import Cafe
-from app.models.theme import Theme
-from app.models.schedule import Schedule
+from app.config import settings
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
 
 BASE_URL = "https://xdungeon.net/layout/res/home.php"
 THEME_ACT_URL = "https://xdungeon.net/core/res/theme.act.php"
@@ -169,180 +165,126 @@ def fetch_schedule(zizum_id: int, target_date: date) -> list[dict]:
 
 # ── DB 동기화 함수 ─────────────────────────────────────────────────────────────
 
-async def sync_themes() -> dict[str, int]:
+def sync_themes() -> dict[str, str]:
     """
-    xdungeon 테마를 theme 테이블에 upsert.
-    반환: {xdungeon_id → db theme.id}
+    xdungeon 테마를 Firestore에 upsert.
+    반환: {xdungeon_id → theme_doc_id}
     """
-    xdungeon_to_db: dict[str, int] = {}
-    added = updated = 0
+    db = get_db()
+    xdungeon_to_doc_id: dict[str, str] = {}
 
-    async with AsyncSessionLocal() as session:
-        for zizum_id, cafe_id in BRANCH_MAP.items():
-            # cafe 존재 확인
-            cafe = await session.get(Cafe, cafe_id)
-            if not cafe:
-                print(f"  [WARN] cafe {cafe_id} DB 미존재 — 건너뜀")
-                continue
+    for zizum_id, cafe_id in BRANCH_MAP.items():
+        # cafe 존재 확인
+        cafe_doc = db.collection("cafes").document(cafe_id).get()
+        if not cafe_doc.exists:
+            print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
+            continue
 
-            raw_themes = fetch_themes_for_branch(zizum_id)
+        raw_themes = fetch_themes_for_branch(zizum_id)
+        time.sleep(REQUEST_DELAY)
+
+        for rt in raw_themes:
+            # 상세 정보 가져오기
+            detail = fetch_theme_detail(rt["xdungeon_id"])
             time.sleep(REQUEST_DELAY)
 
-            for rt in raw_themes:
-                # 상세 정보 가져오기
-                detail = fetch_theme_detail(rt["xdungeon_id"])
-                time.sleep(REQUEST_DELAY)
+            # 플레이타임 파싱: "75분" → 75
+            play_time_str = detail.get("play_time", "")
+            duration = None
+            m = re.search(r"(\d+)", play_time_str)
+            if m:
+                duration = int(m.group(1))
 
-                # 플레이타임 파싱: "75분" → 75
-                play_time_str = detail.get("play_time", "")
-                duration = None
-                m = re.search(r"(\d+)", play_time_str)
-                if m:
-                    duration = int(m.group(1))
+            synopsis = detail.get("synopsis", "")
+            notes = detail.get("notes", "")
+            description = synopsis + ("\n\n" + notes if notes else "")
 
-                synopsis = detail.get("synopsis", "")
-                notes = detail.get("notes", "")
-                description = synopsis + ("\n\n" + notes if notes else "")
+            # 포스터 URL: xdungeon 이미지 base URL 저장 (theme_id 포함)
+            poster = rt.get("poster_url") or f"https://xdungeon.net/file/theme/{rt['xdungeon_id']}/"
 
-                # 포스터 URL: xdungeon 이미지 base URL 저장 (theme_id 포함)
-                poster = rt.get("poster_url") or f"https://xdungeon.net/file/theme/{rt['xdungeon_id']}/"
+            difficulty_int = DIFFICULTY_MAP.get(rt["difficulty"], 3)
 
-                # 기존 테마 조회 (같은 cafe_id + 이름으로 찾기)
-                result = await session.execute(
-                    select(Theme).where(
-                        Theme.cafe_id == cafe_id,
-                        Theme.name == rt["name"],
-                    )
-                )
-                existing = result.scalar_one_or_none()
+            theme_doc_id = get_or_create_theme(db, cafe_id, rt["name"], {
+                "difficulty": difficulty_int,
+                "duration_min": duration,
+                "description": description,
+                "poster_url": poster,
+                "is_active": True,
+            })
+            xdungeon_to_doc_id[rt["xdungeon_id"]] = theme_doc_id
+            print(f"  [UPSERT] {rt['name']} (cafe={cafe_id}) — {duration}분")
 
-                difficulty_int = DIFFICULTY_MAP.get(rt["difficulty"], 3)
-
-                if existing:
-                    existing.difficulty   = difficulty_int
-                    existing.duration_min = duration
-                    existing.description  = description
-                    existing.poster_url   = poster
-                    existing.is_active    = True
-                    xdungeon_to_db[rt["xdungeon_id"]] = existing.id
-                    updated += 1
-                else:
-                    theme = Theme(
-                        cafe_id     = cafe_id,
-                        name        = rt["name"],
-                        description = description,
-                        difficulty  = difficulty_int,
-                        duration_min= duration,
-                        poster_url  = poster,
-                        is_active   = True,
-                    )
-                    session.add(theme)
-                    await session.flush()  # id 생성
-                    xdungeon_to_db[rt["xdungeon_id"]] = theme.id
-                    added += 1
-
-                print(f"  {'[NEW]' if not existing else '[UPD]'} {rt['name']} ({cafe.name}) — {duration}분")
-
-        await session.commit()
-
-    print(f"\n  테마 동기화 완료: {added}개 추가 / {updated}개 갱신")
-    return xdungeon_to_db
+    print(f"\n  테마 동기화 완료: {len(xdungeon_to_doc_id)}개")
+    return xdungeon_to_doc_id
 
 
-async def sync_schedules(xdungeon_to_db: dict[str, int], days: int = 6):
-    """xdungeon 스케줄을 schedule 테이블에 upsert (오늘~days일 후)."""
+def sync_schedules(xdungeon_to_doc_id: dict[str, str], days: int = 6):
+    """xdungeon 스케줄을 Firestore에 upsert (오늘~days일 후)."""
+    db = get_db()
     today = date.today()
     dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
     added = 0
 
-    async with AsyncSessionLocal() as session:
-        for zizum_id in BRANCH_MAP:
-            for d in dates:
-                raw = fetch_schedule(zizum_id, d)
-                time.sleep(REQUEST_DELAY)
+    for zizum_id, cafe_id in BRANCH_MAP.items():
+        for d in dates:
+            raw = fetch_schedule(zizum_id, d)
+            time.sleep(REQUEST_DELAY)
 
-                for theme_data in raw:
-                    xid = theme_data["xdungeon_id"]
-                    db_theme_id = xdungeon_to_db.get(xid)
-                    if not db_theme_id:
-                        continue
+            for theme_data in raw:
+                xid = theme_data["xdungeon_id"]
+                theme_doc_id = xdungeon_to_doc_id.get(xid)
+                if not theme_doc_id:
+                    continue
 
-                    # 지점 예약 메인 페이지 URL (날짜 포함)
-                    # crypt_data 방식은 세션 의존적이라 직접 접근 불가 → rev.main 으로 교체
-                    branch_url = (
-                        f"https://xdungeon.net/layout/res/home.php"
-                        f"?go=rev.main&s_zizum={zizum_id}&rev_days={d.strftime('%Y-%m-%d')}"
+                # 지점 예약 메인 페이지 URL (날짜 포함)
+                # crypt_data 방식은 세션 의존적이라 직접 접근 불가 → rev.main 으로 교체
+                branch_url = (
+                    f"https://xdungeon.net/layout/res/home.php"
+                    f"?go=rev.main&s_zizum={zizum_id}&rev_days={d.strftime('%Y-%m-%d')}"
+                )
+
+                for slot in theme_data["slots"]:
+                    h, mi = map(int, slot["time"].split(":"))
+                    time_obj = dtime(h, mi)
+
+                    # 예약 가능 슬롯만 booking_url 설정 (나머지는 None)
+                    booking_url = branch_url if slot["status"] == "available" else None
+
+                    upsert_schedule(
+                        db,
+                        date_str=d.strftime("%Y-%m-%d"),
+                        theme_doc_id=theme_doc_id,
+                        cafe_id=cafe_id,
+                        time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                        data={
+                            "status": slot["status"],
+                            "available_slots": None,
+                            "booking_url": booking_url,
+                            "crawled_at": crawled_at,
+                        },
                     )
+                    added += 1
 
-                    for slot in theme_data["slots"]:
-                        h, mi = map(int, slot["time"].split(":"))
-                        from datetime import time as dtime
-                        time_obj = dtime(h, mi)
-
-                        # 예약 가능 슬롯만 booking_url 설정 (나머지는 None)
-                        booking_url = branch_url if slot["status"] == "available" else None
-
-                        # 기존 스케줄 조회 (같은 날짜+시간의 가장 최근 것 업데이트)
-                        result = await session.execute(
-                            select(Schedule).where(
-                                Schedule.theme_id  == db_theme_id,
-                                Schedule.date      == d,
-                                Schedule.time_slot == time_obj,
-                            ).order_by(Schedule.crawled_at.desc()).limit(1)
-                        )
-                        existing = result.scalar_one_or_none()
-
-                        if existing:
-                            # 상태가 바뀐 경우만 새 레코드 추가 (히스토리 추적용)
-                            if existing.status != slot["status"]:
-                                session.add(Schedule(
-                                    theme_id       = db_theme_id,
-                                    date           = d,
-                                    time_slot      = time_obj,
-                                    status         = slot["status"],
-                                    available_slots= None,
-                                    total_slots    = None,
-                                    booking_url    = booking_url,
-                                    crawled_at     = crawled_at,
-                                ))
-                                added += 1
-                        else:
-                            session.add(Schedule(
-                                theme_id       = db_theme_id,
-                                date           = d,
-                                time_slot      = time_obj,
-                                status         = slot["status"],
-                                available_slots= None,
-                                total_slots    = None,
-                                booking_url    = booking_url,
-                                crawled_at     = crawled_at,
-                            ))
-                            added += 1
-
-                print(f"  {d} s_zizum={zizum_id} 완료")
-
-        await session.commit()
+            print(f"  {d} s_zizum={zizum_id} 완료")
 
     print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
 
 
-async def main(run_schedule: bool = True, days: int = 6):
+def main(run_schedule: bool = True, days: int = 6):
     print("=" * 60)
     print("xdungeon.net → DB 동기화")
     print("=" * 60)
 
-    from app.models import cafe, theme, schedule, user, alert  # noqa
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    init_firestore(settings.firebase_credentials_path)
 
     print("\n[ 1단계 ] 테마 동기화")
-    xdungeon_to_db = await sync_themes()
-    print(f"  테마 ID 매핑: {len(xdungeon_to_db)}개")
+    xdungeon_to_doc_id = sync_themes()
+    print(f"  테마 ID 매핑: {len(xdungeon_to_doc_id)}개")
 
     if run_schedule:
         print(f"\n[ 2단계 ] 스케줄 동기화 (오늘~{days}일 후)")
-        await sync_schedules(xdungeon_to_db, days=days)
+        sync_schedules(xdungeon_to_doc_id, days=days)
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
@@ -355,4 +297,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-schedule", action="store_true", help="스케줄 동기화 생략")
     parser.add_argument("--days", type=int, default=6, help="스케줄 조회 일수")
     args = parser.parse_args()
-    asyncio.run(main(run_schedule=not args.no_schedule, days=args.days))
+    main(run_schedule=not args.no_schedule, days=args.days)

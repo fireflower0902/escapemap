@@ -24,7 +24,6 @@ API:
   uv run python scripts/sync_fantastrick_db.py --days 3
 """
 
-import asyncio
 import re
 import sys
 import time
@@ -37,12 +36,9 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from bs4 import BeautifulSoup
-from sqlalchemy import select
 
-from app.database import AsyncSessionLocal, engine, Base
-from app.models.cafe import Cafe
-from app.models.theme import Theme
-from app.models.schedule import Schedule
+from app.config import settings
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
 
 AJAX_URL = "http://fantastrick.co.kr/wp-admin/admin-ajax.php"
 BOOKING_URL = "http://fantastrick.co.kr/booking/"
@@ -154,153 +150,111 @@ def _fetch_slots(calendar_id: int, target_date: date) -> list[dict]:
 
 # ── DB 동기화 ──────────────────────────────────────────────────────────────────
 
-async def sync_themes() -> dict[int, int]:
-    """판타스트릭 테마를 DB에 upsert.
-    반환: {calendar_id → db theme.id}
+def sync_themes() -> dict[int, str]:
+    """판타스트릭 테마를 Firestore에 upsert.
+    반환: {calendar_id → theme_doc_id}
     """
-    cal_to_db: dict[int, int] = {}
-    added = updated = 0
+    db = get_db()
+    cal_to_doc_id: dict[int, str] = {}
 
-    async with AsyncSessionLocal() as session:
-        for t in THEMES:
-            cafe_id = t["cafe_id"]
-            name = t["name"]
-            cal_id = t["calendar_id"]
-            poster = t.get("poster_url")
+    for t in THEMES:
+        cafe_id = t["cafe_id"]
+        name = t["name"]
+        cal_id = t["calendar_id"]
+        poster = t.get("poster_url")
 
-            cafe = await session.get(Cafe, cafe_id)
-            if not cafe:
-                print(f"  [ERROR] cafe {cafe_id} DB 미존재 — {name} 건너뜀")
-                continue
+        cafe_doc = db.collection("cafes").document(cafe_id).get()
+        if not cafe_doc.exists:
+            print(f"  [ERROR] cafe {cafe_id} Firestore 미존재 — {name} 건너뜀")
+            continue
 
-            # rooms 페이지에서 추가 정보 갱신
-            info = _fetch_room_info(t["slug"])
-            if info["calendar_id"]:
-                cal_id = info["calendar_id"]
-            if info["poster_url"]:
-                poster = info["poster_url"]
-            time.sleep(REQUEST_DELAY)
+        # rooms 페이지에서 추가 정보 갱신
+        info = _fetch_room_info(t["slug"])
+        if info["calendar_id"]:
+            cal_id = info["calendar_id"]
+        if info["poster_url"]:
+            poster = info["poster_url"]
+        time.sleep(REQUEST_DELAY)
 
-            result = await session.execute(
-                select(Theme).where(
-                    Theme.cafe_id == cafe_id,
-                    Theme.name == name,
-                )
-            )
-            existing = result.scalar_one_or_none()
+        theme_doc_id = get_or_create_theme(db, cafe_id, name, {
+            "difficulty": None,
+            "duration_min": None,
+            "poster_url": poster,
+            "is_active": True,
+        })
+        cal_to_doc_id[cal_id] = theme_doc_id
+        print(f"  [UPSERT] {name} (cafe={cafe_id}) calendar_id={cal_id}")
 
-            if existing:
-                existing.poster_url = poster or existing.poster_url
-                existing.is_active = True
-                cal_to_db[cal_id] = existing.id
-                updated += 1
-            else:
-                theme = Theme(
-                    cafe_id=cafe_id,
-                    name=name,
-                    description=None,
-                    difficulty=None,
-                    duration_min=None,
-                    poster_url=poster,
-                    is_active=True,
-                )
-                session.add(theme)
-                await session.flush()
-                cal_to_db[cal_id] = theme.id
-                added += 1
-
-            print(f"  {'[NEW]' if not existing else '[UPD]'} {name} ({cafe.name}) calendar_id={cal_id}")
-
-        await session.commit()
-
-    print(f"\n  테마 동기화 완료: {added}개 추가 / {updated}개 갱신")
-    return cal_to_db
+    print(f"\n  테마 동기화 완료: {len(cal_to_doc_id)}개")
+    return cal_to_doc_id
 
 
-async def sync_schedules(cal_to_db: dict[int, int], days: int = 6):
-    """판타스트릭 스케줄을 schedule 테이블에 upsert (오늘~days일 후)."""
+def sync_schedules(cal_to_doc_id: dict[int, str], days: int = 6):
+    """판타스트릭 스케줄을 Firestore에 upsert (오늘~days일 후)."""
+    db = get_db()
     today = date.today()
     target_dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
     added = 0
 
-    async with AsyncSessionLocal() as session:
-        for cal_id, db_theme_id in cal_to_db.items():
-            for target_date in target_dates:
-                slots = _fetch_slots(cal_id, target_date)
-                time.sleep(REQUEST_DELAY)
+    # calendar_id → cafe_id 역매핑 구성
+    cal_to_cafe: dict[int, str] = {}
+    for t in THEMES:
+        cal_to_cafe[t["calendar_id"]] = t["cafe_id"]
 
-                for slot in slots:
-                    time_obj = slot["time"]
-                    status = slot["status"]
+    for cal_id, theme_doc_id in cal_to_doc_id.items():
+        cafe_id = cal_to_cafe.get(cal_id, "")
+        for target_date in target_dates:
+            slots = _fetch_slots(cal_id, target_date)
+            time.sleep(REQUEST_DELAY)
 
-                    slot_dt = datetime(
-                        target_date.year, target_date.month, target_date.day,
-                        time_obj.hour, time_obj.minute,
-                    )
-                    if slot_dt <= datetime.now():
-                        continue
+            for slot in slots:
+                time_obj = slot["time"]
+                status = slot["status"]
 
-                    booking_url = BOOKING_URL if status == "available" else None
+                slot_dt = datetime(
+                    target_date.year, target_date.month, target_date.day,
+                    time_obj.hour, time_obj.minute,
+                )
+                if slot_dt <= datetime.now():
+                    continue
 
-                    result = await session.execute(
-                        select(Schedule).where(
-                            Schedule.theme_id == db_theme_id,
-                            Schedule.date == target_date,
-                            Schedule.time_slot == time_obj,
-                        ).order_by(Schedule.crawled_at.desc()).limit(1)
-                    )
-                    existing = result.scalar_one_or_none()
+                booking_url = BOOKING_URL if status == "available" else None
 
-                    if existing:
-                        if existing.status != status:
-                            session.add(Schedule(
-                                theme_id=db_theme_id,
-                                date=target_date,
-                                time_slot=time_obj,
-                                status=status,
-                                available_slots=None,
-                                total_slots=None,
-                                booking_url=booking_url,
-                                crawled_at=crawled_at,
-                            ))
-                            added += 1
-                    else:
-                        session.add(Schedule(
-                            theme_id=db_theme_id,
-                            date=target_date,
-                            time_slot=time_obj,
-                            status=status,
-                            available_slots=None,
-                            total_slots=None,
-                            booking_url=booking_url,
-                            crawled_at=crawled_at,
-                        ))
-                        added += 1
+                upsert_schedule(
+                    db,
+                    date_str=target_date.strftime("%Y-%m-%d"),
+                    theme_doc_id=theme_doc_id,
+                    cafe_id=cafe_id,
+                    time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                    data={
+                        "status": status,
+                        "available_slots": None,
+                        "booking_url": booking_url,
+                        "crawled_at": crawled_at,
+                    },
+                )
+                added += 1
 
-            print(f"  calendar_id={cal_id} 완료")
-
-        await session.commit()
+        print(f"  calendar_id={cal_id} 완료")
 
     print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
 
 
-async def main(run_schedule: bool = True, days: int = 6):
+def main(run_schedule: bool = True, days: int = 6):
     print("=" * 60)
     print("판타스트릭 강남1호점 → DB 동기화")
     print("=" * 60)
 
-    from app.models import cafe, theme, schedule, user, alert  # noqa
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    init_firestore(settings.firebase_credentials_path)
 
     print("\n[ 1단계 ] 테마 동기화")
-    cal_to_db = await sync_themes()
-    print(f"  calendar_id 매핑: {cal_to_db}")
+    cal_to_doc_id = sync_themes()
+    print(f"  calendar_id 매핑: {cal_to_doc_id}")
 
-    if run_schedule and cal_to_db:
+    if run_schedule and cal_to_doc_id:
         print(f"\n[ 2단계 ] 스케줄 동기화 (오늘~{days}일 후)")
-        await sync_schedules(cal_to_db, days=days)
+        sync_schedules(cal_to_doc_id, days=days)
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
@@ -313,4 +267,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-schedule", action="store_true")
     parser.add_argument("--days", type=int, default=6)
     args = parser.parse_args()
-    asyncio.run(main(run_schedule=not args.no_schedule, days=args.days))
+    main(run_schedule=not args.no_schedule, days=args.days)

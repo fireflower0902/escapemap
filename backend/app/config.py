@@ -9,8 +9,11 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    # ── 데이터베이스 ─────────────────────────────────────────
+    # ── 데이터베이스 (SQLite — User/Alert 전용) ──────────────
     database_url: str = "sqlite+aiosqlite:///./escape_aggregator.db"
+
+    # ── Firebase / Firestore ──────────────────────────────────
+    firebase_credentials_path: str = "./firebase_credentials.json"
 
     # ── Redis (캐싱 + 태스크 큐) ──────────────────────────────
     redis_url: str = "redis://localhost:6379/0"

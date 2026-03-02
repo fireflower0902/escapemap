@@ -7,36 +7,29 @@ dependencies = [
     # API 서버
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.32.0",
-
     # 데이터베이스
     "sqlalchemy[asyncio]>=2.0.0",
     "alembic>=1.13.0",
-    "aiosqlite>=0.20.0",       # SQLite 비동기 드라이버 (개발용)
+    "aiosqlite>=0.20.0",       # SQLite 비동기 드라이버 (User/Alert 테이블용)
     "asyncpg>=0.29.0",         # PostgreSQL 비동기 드라이버 (배포용)
-
+    "firebase-admin>=6.5.0",   # Firebase / Firestore (카페·테마·스케줄 저장)
     # HTTP 크롤러
     "aiohttp>=3.10.0",         # XHR 직접 호출용 (1순위)
     "playwright>=1.48.0",      # 브라우저 자동화 fallback (2순위)
     "beautifulsoup4>=4.12.0",  # HTML 파싱 (3순위)
-
     # 태스크 큐 & 캐싱
     "celery[redis]>=5.4.0",
     "redis>=5.0.0",
-
     # 이메일 검증
     "email-validator>=2.1.0",
-
     # 설정 & 유틸리티
     "pydantic-settings>=2.6.0",
     "pyyaml>=6.0.0",
     "python-dotenv>=1.0.0",
-
     # API 보호
     "slowapi>=0.1.9",          # Rate Limiting (과도한 API 요청 방지)
-
     # 알림
     "resend>=2.0.0",           # 이메일 발송
-
     # 모니터링
     "sentry-sdk[fastapi]>=2.0.0",
 ]

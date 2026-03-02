@@ -3,6 +3,7 @@
 *.db                    # SQLite 데이터베이스 파일
 *.db-shm
 *.db-wal
+firebase_credentials.json   # Firebase 서비스 계정 키 (절대 공개 금지)
 
 # ── Python 빌드/캐시 파일 ────────────────────────────────────
 __pycache__/

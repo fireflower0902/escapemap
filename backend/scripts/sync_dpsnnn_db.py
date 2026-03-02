@@ -24,7 +24,6 @@ API:
   uv run python scripts/sync_dpsnnn_db.py --days 14
 """
 
-import asyncio
 import json
 import ssl
 import sys
@@ -43,12 +42,8 @@ _SSL_CTX.verify_mode = ssl.CERT_NONE
 BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
-from sqlalchemy import select
-
-from app.database import AsyncSessionLocal, engine, Base
-from app.models.cafe import Cafe
-from app.models.theme import Theme
-from app.models.schedule import Schedule
+from app.config import settings
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
 
 CAFE_ID = "377197835"
 RESERVE_PAGE = "https://www.dpsnnn.com/reserve_g"
@@ -190,158 +185,109 @@ def _fetch_availability(opener: urllib.request.OpenerDirector, target_date: date
 
 # ── DB 동기화 ───────────────────────────────────────────────────────────────────
 
-async def sync_themes(themes_info: dict[str, dict]) -> dict[str, int]:
+def sync_themes(themes_info: dict[str, dict]) -> dict[str, str]:
     """
-    단편선 테마를 DB에 upsert.
-    반환: {테마명 → db theme.id}
+    단편선 테마를 Firestore에 upsert.
+    반환: {테마명 → theme_doc_id}
     """
-    name_to_id: dict[str, int] = {}
-    added = updated = 0
+    db = get_db()
+    cafe_doc = db.collection("cafes").document(CAFE_ID).get()
+    if not cafe_doc.exists:
+        print(f"  [ERROR] cafe {CAFE_ID} Firestore 미존재 — 스크립트를 중단합니다.")
+        return {}
 
-    async with AsyncSessionLocal() as session:
-        cafe = await session.get(Cafe, CAFE_ID)
-        if not cafe:
-            print(f"  [ERROR] cafe {CAFE_ID} DB 미존재 — 스크립트를 중단합니다.")
-            return {}
+    name_to_doc_id: dict[str, str] = {}
 
-        for theme_name, info in themes_info.items():
-            poster_url = info.get("thumbnail") or None
-            if poster_url and not poster_url.startswith("http"):
-                poster_url = None  # 상대 경로 무시
+    for theme_name, info in themes_info.items():
+        poster_url = info.get("thumbnail") or None
+        if poster_url and not poster_url.startswith("http"):
+            poster_url = None  # 상대 경로 무시
 
-            result = await session.execute(
-                select(Theme).where(
-                    Theme.cafe_id == CAFE_ID,
-                    Theme.name == theme_name,
-                )
-            )
-            existing = result.scalar_one_or_none()
+        theme_doc_id = get_or_create_theme(db, CAFE_ID, theme_name, {
+            "difficulty": None,
+            "duration_min": None,
+            "poster_url": poster_url,
+            "is_active": True,
+        })
+        name_to_doc_id[theme_name] = theme_doc_id
+        print(f"  [UPSERT] {theme_name} (doc_id={theme_doc_id})")
 
-            if existing:
-                if poster_url:
-                    existing.poster_url = poster_url
-                existing.is_active = True
-                name_to_id[theme_name] = existing.id
-                updated += 1
-                print(f"  [UPD] {theme_name} (id={existing.id})")
-            else:
-                theme = Theme(
-                    cafe_id=CAFE_ID,
-                    name=theme_name,
-                    description=None,
-                    difficulty=None,
-                    duration_min=None,
-                    poster_url=poster_url,
-                    is_active=True,
-                )
-                session.add(theme)
-                await session.flush()
-                name_to_id[theme_name] = theme.id
-                added += 1
-                print(f"  [NEW] {theme_name} (id={theme.id})")
-
-        await session.commit()
-
-    print(f"\n  테마 동기화 완료: {added}개 추가 / {updated}개 갱신")
-    return name_to_id
+    print(f"\n  테마 동기화 완료: {len(name_to_doc_id)}개")
+    return name_to_doc_id
 
 
-async def sync_schedules(
+def sync_schedules(
     opener: urllib.request.OpenerDirector,
     themes_info: dict[str, dict],
-    name_to_id: dict[str, int],
+    name_to_doc_id: dict[str, str],
     days: int = 14,
 ):
-    """단편선 스케줄을 schedule 테이블에 upsert (오늘~days일 후)."""
+    """단편선 스케줄을 Firestore에 upsert (오늘~days일 후)."""
+    db = get_db()
     today = date.today()
     target_dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
     added = 0
 
-    async with AsyncSessionLocal() as session:
-        for target_date in target_dates:
-            avail_map = _fetch_availability(opener, target_date)
-            time.sleep(REQUEST_DELAY)
+    for target_date in target_dates:
+        avail_map = _fetch_availability(opener, target_date)
+        time.sleep(REQUEST_DELAY)
 
-            date_str = target_date.strftime("%Y-%m-%d")
+        date_str = target_date.strftime("%Y-%m-%d")
 
-            for theme_name, info in themes_info.items():
-                db_theme_id = name_to_id.get(theme_name)
-                if db_theme_id is None:
+        for theme_name, info in themes_info.items():
+            theme_doc_id = name_to_doc_id.get(theme_name)
+            if theme_doc_id is None:
+                continue
+
+            for time_obj in info["times"]:
+                # 과거 시간 건너뜀
+                slot_dt = datetime(
+                    target_date.year, target_date.month, target_date.day,
+                    time_obj.hour, time_obj.minute,
+                )
+                if slot_dt <= datetime.now():
                     continue
 
-                for time_obj in info["times"]:
-                    # 과거 시간 건너뜀
-                    slot_dt = datetime(
-                        target_date.year, target_date.month, target_date.day,
-                        time_obj.hour, time_obj.minute,
-                    )
-                    if slot_dt <= datetime.now():
-                        continue
+                key = (theme_name, time_obj)
+                if key in avail_map:
+                    status = avail_map[key]
+                else:
+                    # 가용성 응답에 없으면 아직 오픈 안 됨 → closed
+                    status = "closed"
 
-                    key = (theme_name, time_obj)
-                    if key in avail_map:
-                        status = avail_map[key]
-                    else:
-                        # 가용성 응답에 없으면 아직 오픈 안 됨 → closed
-                        status = "closed"
+                booking_url = BOOKING_URL if status == "available" else None
 
-                    booking_url = BOOKING_URL if status == "available" else None
+                upsert_schedule(
+                    db,
+                    date_str=date_str,
+                    theme_doc_id=theme_doc_id,
+                    cafe_id=CAFE_ID,
+                    time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                    data={
+                        "status": status,
+                        "available_slots": None,
+                        "booking_url": booking_url,
+                        "crawled_at": crawled_at,
+                    },
+                )
+                added += 1
 
-                    result = await session.execute(
-                        select(Schedule).where(
-                            Schedule.theme_id == db_theme_id,
-                            Schedule.date == target_date,
-                            Schedule.time_slot == time_obj,
-                        ).order_by(Schedule.crawled_at.desc()).limit(1)
-                    )
-                    existing = result.scalar_one_or_none()
-
-                    if existing:
-                        if existing.status != status:
-                            session.add(Schedule(
-                                theme_id=db_theme_id,
-                                date=target_date,
-                                time_slot=time_obj,
-                                status=status,
-                                available_slots=None,
-                                total_slots=None,
-                                booking_url=booking_url,
-                                crawled_at=crawled_at,
-                            ))
-                            added += 1
-                    else:
-                        session.add(Schedule(
-                            theme_id=db_theme_id,
-                            date=target_date,
-                            time_slot=time_obj,
-                            status=status,
-                            available_slots=None,
-                            total_slots=None,
-                            booking_url=booking_url,
-                            crawled_at=crawled_at,
-                        ))
-                        added += 1
-
-            avail_cnt = sum(1 for v in avail_map.values() if v == "available")
-            full_cnt = sum(1 for v in avail_map.values() if v == "full")
-            print(f"  {date_str}: 가능 {avail_cnt}개 / 마감 {full_cnt}개")
-
-        await session.commit()
+        avail_cnt = sum(1 for v in avail_map.values() if v == "available")
+        full_cnt = sum(1 for v in avail_map.values() if v == "full")
+        print(f"  {date_str}: 가능 {avail_cnt}개 / 마감 {full_cnt}개")
 
     print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
 
 
 # ── 메인 ────────────────────────────────────────────────────────────────────────
 
-async def main(run_schedule: bool = True, days: int = 14):
+def main(run_schedule: bool = True, days: int = 14):
     print("=" * 60)
     print("단편선 방탈출 강남점 → DB 동기화")
     print("=" * 60)
 
-    from app.models import cafe, theme, schedule, user, alert  # noqa
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    init_firestore(settings.firebase_credentials_path)
 
     opener = _make_opener()
 
@@ -359,14 +305,14 @@ async def main(run_schedule: bool = True, days: int = 14):
     time.sleep(REQUEST_DELAY)
 
     print("\n[ 2단계 ] 테마 DB 동기화")
-    name_to_id = await sync_themes(themes_info)
-    if not name_to_id:
+    name_to_doc_id = sync_themes(themes_info)
+    if not name_to_doc_id:
         print("테마 동기화 실패, 종료.")
         return
 
     if run_schedule:
         print(f"\n[ 3단계 ] 스케줄 동기화 (오늘~{days}일 후)")
-        await sync_schedules(opener, themes_info, name_to_id, days=days)
+        sync_schedules(opener, themes_info, name_to_doc_id, days=days)
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
@@ -379,4 +325,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-schedule", action="store_true", help="스케줄 동기화 건너뜀")
     parser.add_argument("--days", type=int, default=14, help="오늘부터 며칠치 수집 (기본 14)")
     args = parser.parse_args()
-    asyncio.run(main(run_schedule=not args.no_schedule, days=args.days))
+    main(run_schedule=not args.no_schedule, days=args.days)

@@ -28,7 +28,6 @@ DB 정보:
   uv run python scripts/sync_mafiacafe_db.py --months 2
 """
 
-import asyncio
 import json
 import ssl
 import sys
@@ -45,12 +44,8 @@ _SSL_CTX.verify_mode = ssl.CERT_NONE
 BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
-from sqlalchemy import select
-
-from app.database import AsyncSessionLocal, engine, Base
-from app.models.cafe import Cafe
-from app.models.theme import Theme
-from app.models.schedule import Schedule
+from app.config import settings
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
 
 CAFE_ID = "1030963843"   # 강남1호점
 LOCATION_ID = 2          # API 상의 location_id
@@ -134,105 +129,63 @@ def _parse_meeting(meeting: dict) -> dict | None:
 
 # ── DB 동기화 ───────────────────────────────────────────────────────────────────
 
-async def sync_theme(title: str, poster_url: str | None) -> int | None:
-    """테마 upsert. 반환: db theme.id"""
-    async with AsyncSessionLocal() as session:
-        cafe = await session.get(Cafe, CAFE_ID)
-        if not cafe:
-            print(f"  [ERROR] cafe {CAFE_ID} DB 미존재")
-            return None
+def sync_theme(title: str, poster_url: str | None) -> str | None:
+    """테마 upsert. 반환: theme_doc_id"""
+    db = get_db()
+    cafe_doc = db.collection("cafes").document(CAFE_ID).get()
+    if not cafe_doc.exists:
+        print(f"  [ERROR] cafe {CAFE_ID} Firestore 미존재")
+        return None
 
-        result = await session.execute(
-            select(Theme).where(Theme.cafe_id == CAFE_ID, Theme.name == title)
-        )
-        existing = result.scalar_one_or_none()
-
-        if existing:
-            if poster_url:
-                existing.poster_url = poster_url
-            existing.is_active = True
-            await session.commit()
-            print(f"  [UPD] {title} (id={existing.id})")
-            return existing.id
-        else:
-            theme = Theme(
-                cafe_id=CAFE_ID,
-                name=title,
-                description=None,
-                difficulty=None,
-                duration_min=150,  # "2시간 30분"
-                poster_url=poster_url,
-                is_active=True,
-            )
-            session.add(theme)
-            await session.flush()
-            tid = theme.id
-            await session.commit()
-            print(f"  [NEW] {title} (id={tid})")
-            return tid
+    theme_doc_id = get_or_create_theme(db, CAFE_ID, title, {
+        "difficulty": None,
+        "duration_min": 150,  # "2시간 30분"
+        "poster_url": poster_url,
+        "is_active": True,
+    })
+    print(f"  [UPSERT] {title} (doc_id={theme_doc_id})")
+    return theme_doc_id
 
 
-async def sync_schedules(slots: list[dict], theme_id_map: dict[str, int]):
-    """슬롯 목록을 schedule 테이블에 upsert."""
+def sync_schedules(slots: list[dict], theme_id_map: dict[str, str]):
+    """슬롯 목록을 Firestore에 upsert."""
+    db = get_db()
     crawled_at = datetime.now()
     added = 0
 
-    async with AsyncSessionLocal() as session:
-        for slot in slots:
-            title = slot["title"]
-            db_theme_id = theme_id_map.get(title)
-            if db_theme_id is None:
-                continue
+    for slot in slots:
+        title = slot["title"]
+        theme_doc_id = theme_id_map.get(title)
+        if theme_doc_id is None:
+            continue
 
-            target_date = slot["date"]
-            time_obj = slot["time"]
-            status = slot["status"]
-            booking_url = slot["booking_url"]
+        target_date = slot["date"]
+        time_obj = slot["time"]
+        status = slot["status"]
+        booking_url = slot["booking_url"]
 
-            # 과거 시간 건너뜀
-            slot_dt = datetime(
-                target_date.year, target_date.month, target_date.day,
-                time_obj.hour, time_obj.minute,
-            )
-            if slot_dt <= datetime.now():
-                continue
+        # 과거 시간 건너뜀
+        slot_dt = datetime(
+            target_date.year, target_date.month, target_date.day,
+            time_obj.hour, time_obj.minute,
+        )
+        if slot_dt <= datetime.now():
+            continue
 
-            result = await session.execute(
-                select(Schedule).where(
-                    Schedule.theme_id == db_theme_id,
-                    Schedule.date == target_date,
-                    Schedule.time_slot == time_obj,
-                ).order_by(Schedule.crawled_at.desc()).limit(1)
-            )
-            existing = result.scalar_one_or_none()
-
-            if existing:
-                if existing.status != status:
-                    session.add(Schedule(
-                        theme_id=db_theme_id,
-                        date=target_date,
-                        time_slot=time_obj,
-                        status=status,
-                        available_slots=None,
-                        total_slots=None,
-                        booking_url=booking_url,
-                        crawled_at=crawled_at,
-                    ))
-                    added += 1
-            else:
-                session.add(Schedule(
-                    theme_id=db_theme_id,
-                    date=target_date,
-                    time_slot=time_obj,
-                    status=status,
-                    available_slots=None,
-                    total_slots=None,
-                    booking_url=booking_url,
-                    crawled_at=crawled_at,
-                ))
-                added += 1
-
-        await session.commit()
+        upsert_schedule(
+            db,
+            date_str=target_date.strftime("%Y-%m-%d"),
+            theme_doc_id=theme_doc_id,
+            cafe_id=CAFE_ID,
+            time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+            data={
+                "status": status,
+                "available_slots": None,
+                "booking_url": booking_url,
+                "crawled_at": crawled_at,
+            },
+        )
+        added += 1
 
     print(f"  스케줄 동기화 완료: {added}개 레코드 추가")
     return added
@@ -240,18 +193,16 @@ async def sync_schedules(slots: list[dict], theme_id_map: dict[str, int]):
 
 # ── 메인 ────────────────────────────────────────────────────────────────────────
 
-async def main(run_schedule: bool = True, months: int = 2):
+def main(run_schedule: bool = True, months: int = 2):
     print("=" * 60)
     print("마피아카페 강남1호점 → DB 동기화")
     print("=" * 60)
 
-    from app.models import cafe, theme, schedule, user, alert  # noqa
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    init_firestore(settings.firebase_credentials_path)
 
     # 이번 달 ~ months달치 캘린더 수집
     all_slots: list[dict] = []
-    theme_id_map: dict[str, int] = {}
+    theme_id_map: dict[str, str] = {}
 
     today = date.today()
     months_to_fetch = []
@@ -287,9 +238,9 @@ async def main(run_schedule: bool = True, months: int = 2):
     print(f"\n[ 2단계 ] 테마 동기화 ({len(theme_info)}개)")
     for title, poster_url in theme_info.items():
         print(f"  테마: {title!r} | poster={poster_url}")
-        db_id = await sync_theme(title, poster_url)
-        if db_id:
-            theme_id_map[title] = db_id
+        doc_id = sync_theme(title, poster_url)
+        if doc_id:
+            theme_id_map[title] = doc_id
 
     if not theme_id_map:
         print("  테마 없음, 종료.")
@@ -309,7 +260,7 @@ async def main(run_schedule: bool = True, months: int = 2):
             fl = by_date[d]["full"]
             print(f"  {d}: 가능 {av}개 / 마감 {fl}개")
 
-        await sync_schedules(all_slots, theme_id_map)
+        sync_schedules(all_slots, theme_id_map)
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
@@ -322,4 +273,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-schedule", action="store_true", help="스케줄 동기화 건너뜀")
     parser.add_argument("--months", type=int, default=2, help="몇 개월치 수집 (기본 2)")
     args = parser.parse_args()
-    asyncio.run(main(run_schedule=not args.no_schedule, months=args.months))
+    main(run_schedule=not args.no_schedule, months=args.months)

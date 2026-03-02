@@ -1,0 +1,151 @@
+"""
+Firestore 클라이언트 초기화 및 공통 helper 함수들.
+
+사용법 (API 엔드포인트):
+  from app.firestore_db import get_db
+
+사용법 (크롤 스크립트):
+  from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+  from app.config import settings
+  init_firestore(settings.firebase_credentials_path)
+  db = get_db()
+"""
+import re
+
+import firebase_admin
+from firebase_admin import credentials, firestore as _fs
+
+_db = None
+
+# ── 지역 코드 ↔ 주소 prefix 매핑 ─────────────────────────────────────────────
+# cafes.py 의 AREA_ADDRESS_MAP 과 동일하게 유지할 것
+AREA_ADDRESS_MAP: dict[str, list[str]] = {
+    "gangnam":    ["서울 강남구", "서울 서초구"],
+    "hongdae":    ["서울 마포구"],
+    "sinchon":    ["서울 서대문구"],
+    "jamsil":     ["서울 송파구", "서울 강동구"],
+    "itaewon":    ["서울 용산구"],
+    "myeongdong": ["서울 중구", "서울 종로구"],
+    "daehakro":   ["서울 종로구"],
+    "sinlim":     ["서울 관악구"],
+    "busan":      ["부산"],
+    "daegu":      ["대구"],
+    "gwangju":    ["광주"],
+    "daejeon":    ["대전"],
+    "incheon":    ["인천"],
+    "ulsan":      ["울산"],
+    "jeju":       ["제주"],
+    "gyeonggi":   ["경기"],
+    "gangwon":    ["강원"],
+}
+
+
+def address_to_area(address: str) -> str:
+    """주소 문자열에서 area 코드를 결정합니다. 매칭 없으면 'etc' 반환."""
+    if not address:
+        return "etc"
+    for area, prefixes in AREA_ADDRESS_MAP.items():
+        for prefix in prefixes:
+            if address.startswith(prefix):
+                return area
+    return "etc"
+
+
+def _theme_doc_id(cafe_id: str, theme_name: str) -> str:
+    """
+    테마 Firestore 문서 ID를 결정적으로 생성합니다.
+    같은 (cafe_id, theme_name) 조합은 항상 같은 ID를 반환합니다.
+    """
+    slug = re.sub(r"[^\w가-힣]", "_", theme_name)[:60]
+    return f"{cafe_id}__{slug}"
+
+
+# ── 초기화 ────────────────────────────────────────────────────────────────────
+
+
+def init_firestore(credentials_path: str) -> None:
+    """
+    Firebase Admin SDK를 초기화하고 Firestore 클라이언트를 설정합니다.
+    이미 초기화된 경우 재초기화 없이 클라이언트만 가져옵니다.
+    """
+    global _db
+    if not firebase_admin._apps:
+        cred = credentials.Certificate(credentials_path)
+        firebase_admin.initialize_app(cred)
+    _db = _fs.client()
+
+
+def get_db():
+    """Firestore 클라이언트를 반환합니다. init_firestore() 가 먼저 호출되어야 합니다."""
+    if _db is None:
+        raise RuntimeError(
+            "Firestore가 초기화되지 않았습니다. "
+            "init_firestore(settings.firebase_credentials_path)를 먼저 호출하세요."
+        )
+    return _db
+
+
+# ── 카페 ──────────────────────────────────────────────────────────────────────
+
+
+def upsert_cafe(db, cafe_id: str, data: dict) -> None:
+    """
+    카페 문서를 Firestore에 upsert합니다.
+    data 예시:
+      {name, branch_name, address, area, phone, website_url,
+       engine, crawled, lat, lng, is_active}
+    """
+    db.collection("cafes").document(cafe_id).set(data, merge=True)
+
+
+# ── 테마 ──────────────────────────────────────────────────────────────────────
+
+
+def get_or_create_theme(db, cafe_id: str, theme_name: str, data: dict) -> str:
+    """
+    테마를 Firestore에 upsert하고 문서 ID(str)를 반환합니다.
+    반환된 ID는 이후 upsert_schedule() 의 theme_doc_id 인수로 사용합니다.
+
+    data 예시:
+      {difficulty, duration_min, poster_url, is_active, description}
+    """
+    doc_id = _theme_doc_id(cafe_id, theme_name)
+    db.collection("themes").document(doc_id).set(
+        {"cafe_id": cafe_id, "name": theme_name, **data},
+        merge=True,
+    )
+    return doc_id
+
+
+# ── 스케줄 ────────────────────────────────────────────────────────────────────
+
+
+def upsert_schedule(
+    db,
+    date_str: str,        # "YYYY-MM-DD"
+    theme_doc_id: str,    # get_or_create_theme() 의 반환값
+    cafe_id: str,
+    time_slot: str,       # "HH:MM"
+    data: dict,           # status, available_slots, booking_url, crawled_at
+) -> None:
+    """
+    특정 날짜·테마·시간대의 슬롯을 Firestore에 덮어씁니다 (최신 상태만 유지).
+
+    Firestore 경로:
+      schedules/{YYYY-MM-DD}/slots/{theme_doc_id}__{HH}_{MM}
+
+    data 예시:
+      {status: "available"|"full"|"closed",
+       available_slots: int|None,
+       booking_url: str|None,
+       crawled_at: datetime}
+    """
+    slot_id = f"{theme_doc_id}__{time_slot.replace(':', '_')}"
+    db.collection("schedules").document(date_str).collection("slots").document(slot_id).set(
+        {
+            "theme_doc_id": theme_doc_id,
+            "cafe_id":      cafe_id,
+            "time_slot":    time_slot,
+            **data,
+        }
+    )

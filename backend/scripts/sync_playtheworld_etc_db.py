@@ -20,7 +20,6 @@ API: macro.playthe.world (doorescape.co.kr와 동일 플랫폼)
   uv run python scripts/sync_playtheworld_etc_db.py --days 3
 """
 
-import asyncio
 import base64
 import hashlib
 import hmac
@@ -38,12 +37,8 @@ from pathlib import Path
 BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
-from sqlalchemy import select
-
-from app.database import AsyncSessionLocal, engine, Base
-from app.models.cafe import Cafe
-from app.models.theme import Theme
-from app.models.schedule import Schedule
+from app.config import settings
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
 
 REQUEST_DELAY = 0.5
 BASE_URL = "https://macro.playthe.world"
@@ -152,89 +147,66 @@ def parse_difficulty(summary: str) -> int | None:
 
 # ── DB 동기화 ──────────────────────────────────────────────────────────────────
 
-async def sync_brand_themes(brand: dict) -> dict[str, dict[int, int]]:
-    """브랜드 내 지점들의 테마를 DB에 upsert.
-    반환: {shop_keycode → {api_theme_id → db theme.id}}
+def sync_brand_themes(brand: dict) -> dict[str, dict[int, str]]:
+    """브랜드 내 지점들의 테마를 Firestore에 upsert.
+    반환: {shop_keycode → {api_theme_id → theme_doc_id}}
     """
+    db = get_db()
     keycode = brand["keycode"]
     name = brand["name"]
     referer = brand["referer"]
     shop_map = brand["shop_map"]
 
-    shop_to_themes: dict[str, dict[int, int]] = {}
-    added = updated = 0
+    shop_to_themes: dict[str, dict[int, str]] = {}
 
-    async with AsyncSessionLocal() as session:
-        for shop_keycode, cafe_id in shop_map.items():
-            cafe = await session.get(Cafe, cafe_id)
-            if not cafe:
-                print(f"  [WARN] cafe {cafe_id} DB 미존재 — 건너뜀")
-                continue
+    for shop_keycode, cafe_id in shop_map.items():
+        cafe_doc = db.collection("cafes").document(cafe_id).get()
+        if not cafe_doc.exists:
+            print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
+            continue
 
-            detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
-            data = detail.get("data", {})
-            time.sleep(REQUEST_DELAY)
+        detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
+        data = detail.get("data", {})
+        time.sleep(REQUEST_DELAY)
 
-            themes = data.get("themes", [])
-            shop_to_themes[shop_keycode] = {}
+        themes = data.get("themes", [])
+        shop_to_themes[shop_keycode] = {}
 
-            for t in themes:
-                api_id = t["id"]
-                t_name = t["title"]
-                summary = t.get("summary") or ""
-                clean_summary = re.sub(r"<[^>]+>", "", summary).strip()
-                duration = parse_duration(clean_summary)
-                difficulty = parse_difficulty(clean_summary)
-                image_url = t.get("image_url") or None
+        for t in themes:
+            api_id = t["id"]
+            t_name = t["title"]
+            summary = t.get("summary") or ""
+            clean_summary = re.sub(r"<[^>]+>", "", summary).strip()
+            duration = parse_duration(clean_summary)
+            difficulty = parse_difficulty(clean_summary)
+            image_url = t.get("image_url") or None
 
-                result = await session.execute(
-                    select(Theme).where(
-                        Theme.cafe_id == cafe_id,
-                        Theme.name == t_name,
-                    )
-                )
-                existing = result.scalar_one_or_none()
+            theme_doc_id = get_or_create_theme(db, cafe_id, t_name, {
+                "difficulty": difficulty,
+                "duration_min": duration,
+                "description": clean_summary or None,
+                "poster_url": image_url,
+                "is_active": True,
+            })
+            shop_to_themes[shop_keycode][api_id] = theme_doc_id
+            print(f"  [UPSERT] {t_name} (cafe={cafe_id}) — {duration}분")
 
-                if existing:
-                    existing.duration_min = duration
-                    existing.difficulty = difficulty
-                    existing.description = clean_summary or None
-                    existing.poster_url = image_url or existing.poster_url
-                    existing.is_active = True
-                    shop_to_themes[shop_keycode][api_id] = existing.id
-                    updated += 1
-                else:
-                    theme = Theme(
-                        cafe_id=cafe_id,
-                        name=t_name,
-                        description=clean_summary or None,
-                        difficulty=difficulty,
-                        duration_min=duration,
-                        poster_url=image_url,
-                        is_active=True,
-                    )
-                    session.add(theme)
-                    await session.flush()
-                    shop_to_themes[shop_keycode][api_id] = theme.id
-                    added += 1
-
-                print(f"  {'[NEW]' if not existing else '[UPD]'} {t_name} ({cafe.name}) — {duration}분")
-
-        await session.commit()
-
-    print(f"  테마: {added}개 추가 / {updated}개 갱신")
+    added = sum(len(v) for v in shop_to_themes.values())
+    print(f"  테마: {added}개 upsert")
     return shop_to_themes
 
 
-async def sync_brand_schedules(
+def sync_brand_schedules(
     brand: dict,
-    shop_to_themes: dict[str, dict[int, int]],
+    shop_to_themes: dict[str, dict[int, str]],
     days: int = 6,
 ):
+    db = get_db()
     keycode = brand["keycode"]
     name = brand["name"]
     referer = brand["referer"]
     booking_base = brand["booking_base"]
+    shop_map = brand["shop_map"]
 
     today = date.today()
     target_dates = {
@@ -244,96 +216,72 @@ async def sync_brand_schedules(
     crawled_at = datetime.now()
     added = 0
 
-    async with AsyncSessionLocal() as session:
-        for shop_keycode, theme_id_map in shop_to_themes.items():
-            if not theme_id_map:
+    for shop_keycode, theme_id_map in shop_to_themes.items():
+        cafe_id = shop_map.get(shop_keycode, "")
+        if not theme_id_map:
+            continue
+
+        detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
+        data = detail.get("data", {})
+        time.sleep(REQUEST_DELAY)
+
+        for t in data.get("themes", []):
+            api_id = t["id"]
+            theme_doc_id = theme_id_map.get(api_id)
+            if not theme_doc_id:
                 continue
 
-            detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
-            data = detail.get("data", {})
-            time.sleep(REQUEST_DELAY)
-
-            for t in data.get("themes", []):
-                api_id = t["id"]
-                db_theme_id = theme_id_map.get(api_id)
-                if not db_theme_id:
+            for slot in t.get("slots", []):
+                day_str = slot.get("day_string", "")
+                if day_str not in target_dates:
                     continue
 
-                for slot in t.get("slots", []):
-                    day_str = slot.get("day_string", "")
-                    if day_str not in target_dates:
-                        continue
+                time_str = slot.get("integer_to_time", "")
+                if not time_str or ":" not in time_str:
+                    continue
 
-                    time_str = slot.get("integer_to_time", "")
-                    if not time_str or ":" not in time_str:
-                        continue
+                can_book = slot.get("can_book", False)
+                hh, mm = map(int, time_str.split(":"))
+                time_obj = dtime(hh, mm)
+                d = date.fromisoformat(day_str)
 
-                    can_book = slot.get("can_book", False)
-                    hh, mm = map(int, time_str.split(":"))
-                    time_obj = dtime(hh, mm)
-                    d = date.fromisoformat(day_str)
+                slot_dt = datetime(d.year, d.month, d.day, hh, mm)
+                if slot_dt <= datetime.now():
+                    continue
 
-                    slot_dt = datetime(d.year, d.month, d.day, hh, mm)
-                    if slot_dt <= datetime.now():
-                        continue
+                if can_book:
+                    status = "available"
+                    booking_url = booking_base
+                else:
+                    status = "full"
+                    booking_url = None
 
-                    if can_book:
-                        status = "available"
-                        booking_url = booking_base
-                    else:
-                        status = "full"
-                        booking_url = None
+                upsert_schedule(
+                    db,
+                    date_str=day_str,
+                    theme_doc_id=theme_doc_id,
+                    cafe_id=cafe_id,
+                    time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                    data={
+                        "status": status,
+                        "available_slots": None,
+                        "booking_url": booking_url,
+                        "crawled_at": crawled_at,
+                    },
+                )
+                added += 1
 
-                    result = await session.execute(
-                        select(Schedule).where(
-                            Schedule.theme_id == db_theme_id,
-                            Schedule.date == d,
-                            Schedule.time_slot == time_obj,
-                        ).order_by(Schedule.crawled_at.desc()).limit(1)
-                    )
-                    existing = result.scalar_one_or_none()
-
-                    if existing:
-                        if existing.status != status:
-                            session.add(Schedule(
-                                theme_id=db_theme_id,
-                                date=d,
-                                time_slot=time_obj,
-                                status=status,
-                                available_slots=None,
-                                total_slots=None,
-                                booking_url=booking_url,
-                                crawled_at=crawled_at,
-                            ))
-                            added += 1
-                    else:
-                        session.add(Schedule(
-                            theme_id=db_theme_id,
-                            date=d,
-                            time_slot=time_obj,
-                            status=status,
-                            available_slots=None,
-                            total_slots=None,
-                            booking_url=booking_url,
-                            crawled_at=crawled_at,
-                        ))
-                        added += 1
-
-            print(f"  {shop_keycode} 스케줄 완료")
-
-        await session.commit()
+        print(f"  {shop_keycode} 스케줄 완료")
 
     print(f"  스케줄: {added}개 레코드 추가")
 
 
-async def main(run_schedule: bool = True, days: int = 6):
+def main(run_schedule: bool = True, days: int = 6):
     print("=" * 60)
     print("macro.playthe.world 추가 브랜드 → DB 동기화")
     print("=" * 60)
 
-    from app.models import cafe, theme, schedule, user, alert  # noqa
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    init_firestore(settings.firebase_credentials_path)
 
     for brand in BRANDS:
         brand_name = brand["name"]
@@ -341,13 +289,13 @@ async def main(run_schedule: bool = True, days: int = 6):
         print(f"[ 브랜드: keycode={brand['keycode'][:8]}..., name={brand_name} ]")
 
         print("\n[ 테마 동기화 ]")
-        shop_to_themes = await sync_brand_themes(brand)
+        shop_to_themes = sync_brand_themes(brand)
         total = sum(len(v) for v in shop_to_themes.values())
         print(f"  테마 ID 매핑: {total}개")
 
         if run_schedule and total > 0:
             print(f"\n[ 스케줄 동기화 (오늘~{days}일 후) ]")
-            await sync_brand_schedules(brand, shop_to_themes, days=days)
+            sync_brand_schedules(brand, shop_to_themes, days=days)
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
@@ -360,4 +308,4 @@ if __name__ == "__main__":
     parser.add_argument("--no-schedule", action="store_true")
     parser.add_argument("--days", type=int, default=6)
     args = parser.parse_args()
-    asyncio.run(main(run_schedule=not args.no_schedule, days=args.days))
+    main(run_schedule=not args.no_schedule, days=args.days)

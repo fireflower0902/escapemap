@@ -14,6 +14,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.database import create_all_tables
+from app.firestore_db import init_firestore
 from app.api.v1 import cafes, schedules, alerts, auth
 
 # ── Sentry 에러 추적 초기화 ───────────────────────────────────
@@ -54,7 +55,14 @@ app.include_router(auth.router,      prefix="/api/v1", tags=["인증"])
 @app.on_event("startup")
 async def startup():
     """서버가 시작될 때 자동으로 실행됩니다."""
-    # 개발 환경에서 DB 테이블 자동 생성
+    # Firestore 초기화 (카페·테마·스케줄 데이터)
+    try:
+        init_firestore(settings.firebase_credentials_path)
+    except Exception as e:
+        import logging
+        logging.getLogger(__name__).warning(f"Firestore 초기화 실패: {e}")
+
+    # SQLite 테이블 자동 생성 (User·Alert 전용, 개발 환경)
     if settings.environment == "development":
         await create_all_tables()
 
