@@ -1,0 +1,60 @@
+[project]
+name = "escape-aggregator-backend"
+version = "0.1.0"
+description = "방탈출 예약 통합 플랫폼 백엔드"
+requires-python = ">=3.11"
+dependencies = [
+    # API 서버
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+
+    # 데이터베이스
+    "sqlalchemy[asyncio]>=2.0.0",
+    "alembic>=1.13.0",
+    "aiosqlite>=0.20.0",       # SQLite 비동기 드라이버 (개발용)
+    "asyncpg>=0.29.0",         # PostgreSQL 비동기 드라이버 (배포용)
+
+    # HTTP 크롤러
+    "aiohttp>=3.10.0",         # XHR 직접 호출용 (1순위)
+    "playwright>=1.48.0",      # 브라우저 자동화 fallback (2순위)
+    "beautifulsoup4>=4.12.0",  # HTML 파싱 (3순위)
+
+    # 태스크 큐 & 캐싱
+    "celery[redis]>=5.4.0",
+    "redis>=5.0.0",
+
+    # 이메일 검증
+    "email-validator>=2.1.0",
+
+    # 설정 & 유틸리티
+    "pydantic-settings>=2.6.0",
+    "pyyaml>=6.0.0",
+    "python-dotenv>=1.0.0",
+
+    # API 보호
+    "slowapi>=0.1.9",          # Rate Limiting (과도한 API 요청 방지)
+
+    # 알림
+    "resend>=2.0.0",           # 이메일 발송
+
+    # 모니터링
+    "sentry-sdk[fastapi]>=2.0.0",
+]
+
+[project.optional-dependencies]
+# 개발 환경에서만 필요한 패키지
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx>=0.27.0",           # FastAPI 테스트용 HTTP 클라이언트
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

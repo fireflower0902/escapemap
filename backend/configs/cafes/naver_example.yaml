@@ -1,0 +1,16 @@
+# 네이버 예약 시스템 사용 카페 예시
+# 실제 카페 정보로 교체 후 파일명도 변경하세요
+# 예: naver_roombreak_gangnam.yaml
+
+name: (카페명 입력)
+engine: naver_booking           # engines/naver_booking.py 사용 — 공통 엔진!
+base_url: https://booking.naver.com
+naver_biz_id: "123456789"      # 네이버 예약 사이트에서 확인 (URL에 포함된 숫자)
+crawl_interval_minutes: 15
+is_active: false                # 설정 완료 후 true로 변경
+
+kakao_place_id: ""
+
+address: (주소 입력)
+lat: 0.0
+lng: 0.0

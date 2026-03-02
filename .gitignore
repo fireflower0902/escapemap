@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Excel 임시 파일
+~$*
+
+# TypeScript build cache
+frontend/tsconfig.tsbuildinfo

@@ -1,0 +1,14 @@
+# 비트포비아 강남점 설정 파일
+
+name: 비트포비아 강남점
+engine: bitfobia                # engines/bitfobia.py 사용
+base_url: https://www.bitfobia.com
+branch_id: gangnam
+crawl_interval_minutes: 15
+is_active: true
+
+kakao_place_id: ""
+
+address: 서울특별시 강남구 (수집 후 기입)
+lat: 37.4984
+lng: 127.0270

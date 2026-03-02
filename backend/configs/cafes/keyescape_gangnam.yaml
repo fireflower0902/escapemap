@@ -1,0 +1,20 @@
+# 키이스케이프 강남점 설정 파일
+# ─────────────────────────────────────────────────────────────
+# 이 파일만 수정하면 크롤러 동작이 바뀝니다.
+# 코드를 건드릴 필요가 없습니다.
+# ─────────────────────────────────────────────────────────────
+
+name: 키이스케이프 강남점
+engine: keyescape               # engines/keyescape.py 사용
+base_url: https://keyescape.co.kr
+branch_id: gangnam
+crawl_interval_minutes: 15      # 15분마다 예약 현황 수집
+is_active: true
+
+# 카카오맵 장소 ID (Phase 1에서 수집 후 기입)
+kakao_place_id: ""
+
+# 위치 정보
+address: 서울특별시 강남구 강남대로 (수집 후 기입)
+lat: 37.4979
+lng: 127.0276
