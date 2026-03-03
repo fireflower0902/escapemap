@@ -167,7 +167,7 @@ function SearchResults() {
     setError(null);
     setCafes([]);
 
-    fetch(`/api/v1/search?date=${date}&area=${area}`)
+    fetch(`/api/search?date=${date}&area=${area}`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();

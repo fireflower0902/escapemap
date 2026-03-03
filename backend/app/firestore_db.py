@@ -120,32 +120,32 @@ def get_or_create_theme(db, cafe_id: str, theme_name: str, data: dict) -> str:
 # ── 스케줄 ────────────────────────────────────────────────────────────────────
 
 
-def upsert_schedule(
+def upsert_cafe_date_schedules(
     db,
-    date_str: str,        # "YYYY-MM-DD"
-    theme_doc_id: str,    # get_or_create_theme() 의 반환값
+    date_str: str,    # "YYYY-MM-DD"
     cafe_id: str,
-    time_slot: str,       # "HH:MM"
-    data: dict,           # status, available_slots, booking_url, crawled_at
+    themes: dict,     # {theme_doc_id: {"slots": [{"time":"HH:MM","status":...,"booking_url":...}]}}
+    crawled_at,       # datetime
 ) -> None:
     """
-    특정 날짜·테마·시간대의 슬롯을 Firestore에 덮어씁니다 (최신 상태만 유지).
+    특정 날짜의 카페 전체 스케줄을 Firestore에 1번 write로 저장합니다.
 
     Firestore 경로:
-      schedules/{YYYY-MM-DD}/slots/{theme_doc_id}__{HH}_{MM}
+      schedules/{YYYY-MM-DD}  (단일 문서, cafes.{cafe_id} 필드만 교체)
 
-    data 예시:
-      {status: "available"|"full"|"closed",
-       available_slots: int|None,
-       booking_url: str|None,
-       crawled_at: datetime}
-    """
-    slot_id = f"{theme_doc_id}__{time_slot.replace(':', '_')}"
-    db.collection("schedules").document(date_str).collection("slots").document(slot_id).set(
-        {
-            "theme_doc_id": theme_doc_id,
-            "cafe_id":      cafe_id,
-            "time_slot":    time_slot,
-            **data,
+    merge=True 덕분에 같은 날짜의 다른 카페 데이터는 유지됩니다.
+
+    themes 예시:
+      {
+        "1405262610__살랑살랑연구소": {
+          "slots": [
+            {"time": "14:00", "status": "available", "booking_url": "https://..."},
+            {"time": "16:00", "status": "full",      "booking_url": None},
+          ]
         }
+      }
+    """
+    db.collection("schedules").document(date_str).set(
+        {"cafes": {cafe_id: {"themes": themes, "crawled_at": str(crawled_at)}}},
+        merge=True,
     )

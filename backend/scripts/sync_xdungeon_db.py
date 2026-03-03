@@ -25,7 +25,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
 
 BASE_URL = "https://xdungeon.net/layout/res/home.php"
 THEME_ACT_URL = "https://xdungeon.net/core/res/theme.act.php"
@@ -224,12 +224,21 @@ def sync_schedules(xdungeon_to_doc_id: dict[str, str], days: int = 6):
     today = date.today()
     dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
-    added = 0
+    writes = 0
 
     for zizum_id, cafe_id in BRANCH_MAP.items():
+        # {date_str: {theme_doc_id: {"slots": [...]}}}
+        date_themes: dict[str, dict] = {}
+
         for d in dates:
             raw = fetch_schedule(zizum_id, d)
             time.sleep(REQUEST_DELAY)
+
+            date_str = d.strftime("%Y-%m-%d")
+            branch_url = (
+                f"https://xdungeon.net/layout/res/home.php"
+                f"?go=rev.main&s_zizum={zizum_id}&rev_days={date_str}"
+            )
 
             for theme_data in raw:
                 xid = theme_data["xdungeon_id"]
@@ -237,38 +246,23 @@ def sync_schedules(xdungeon_to_doc_id: dict[str, str], days: int = 6):
                 if not theme_doc_id:
                     continue
 
-                # 지점 예약 메인 페이지 URL (날짜 포함)
-                # crypt_data 방식은 세션 의존적이라 직접 접근 불가 → rev.main 으로 교체
-                branch_url = (
-                    f"https://xdungeon.net/layout/res/home.php"
-                    f"?go=rev.main&s_zizum={zizum_id}&rev_days={d.strftime('%Y-%m-%d')}"
-                )
-
                 for slot in theme_data["slots"]:
-                    h, mi = map(int, slot["time"].split(":"))
-                    time_obj = dtime(h, mi)
-
                     # 예약 가능 슬롯만 booking_url 설정 (나머지는 None)
                     booking_url = branch_url if slot["status"] == "available" else None
 
-                    upsert_schedule(
-                        db,
-                        date_str=d.strftime("%Y-%m-%d"),
-                        theme_doc_id=theme_doc_id,
-                        cafe_id=cafe_id,
-                        time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-                        data={
-                            "status": slot["status"],
-                            "available_slots": None,
-                            "booking_url": booking_url,
-                            "crawled_at": crawled_at,
-                        },
-                    )
-                    added += 1
+                    date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+                        "time": slot["time"],
+                        "status": slot["status"],
+                        "booking_url": booking_url,
+                    })
 
             print(f"  {d} s_zizum={zizum_id} 완료")
 
-    print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
+        for date_str, themes in date_themes.items():
+            upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at)
+            writes += 1
+
+    print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 
 
 def main(run_schedule: bool = True, days: int = 6):

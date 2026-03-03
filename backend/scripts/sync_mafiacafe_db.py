@@ -45,7 +45,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
 
 CAFE_ID = "1030963843"   # 강남1호점
 LOCATION_ID = 2          # API 상의 location_id
@@ -151,7 +151,10 @@ def sync_schedules(slots: list[dict], theme_id_map: dict[str, str]):
     """슬롯 목록을 Firestore에 upsert."""
     db = get_db()
     crawled_at = datetime.now()
-    added = 0
+    writes = 0
+
+    # {date_str: {theme_doc_id: {"slots": [...]}}}
+    date_themes: dict[str, dict] = {}
 
     for slot in slots:
         title = slot["title"]
@@ -172,23 +175,19 @@ def sync_schedules(slots: list[dict], theme_id_map: dict[str, str]):
         if slot_dt <= datetime.now():
             continue
 
-        upsert_schedule(
-            db,
-            date_str=target_date.strftime("%Y-%m-%d"),
-            theme_doc_id=theme_doc_id,
-            cafe_id=CAFE_ID,
-            time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-            data={
-                "status": status,
-                "available_slots": None,
-                "booking_url": booking_url,
-                "crawled_at": crawled_at,
-            },
-        )
-        added += 1
+        date_str = target_date.strftime("%Y-%m-%d")
+        date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+            "time": f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+            "status": status,
+            "booking_url": booking_url,
+        })
 
-    print(f"  스케줄 동기화 완료: {added}개 레코드 추가")
-    return added
+    for date_str, themes in date_themes.items():
+        upsert_cafe_date_schedules(db, date_str, CAFE_ID, themes, crawled_at)
+        writes += 1
+
+    print(f"  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
+    return writes
 
 
 # ── 메인 ────────────────────────────────────────────────────────────────────────

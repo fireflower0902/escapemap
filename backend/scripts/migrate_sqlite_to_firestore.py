@@ -4,7 +4,9 @@ SQLite(escape_aggregator.db) → Firebase Firestore 일회성 마이그레이션
 마이그레이션 대상:
   - cafes      → Firestore /cafes/{cafe_id}
   - themes     → Firestore /themes/{theme_doc_id}
-  - schedules  → Firestore /schedules/{date}/slots/{slot_id}  (날짜별 최신 스냅샷만)
+  - schedules  → Firestore /schedules/{date}
+                   구조: { cafes: { cafe_id: { themes: { theme_doc_id: { slots: [...] } }, crawled_at } } }
+                   (날짜 문서 1개에 모든 카페·테마·슬롯 포함 → 검색 시 read 1회)
 
 실행:
   cd escape-aggregator/backend
@@ -15,6 +17,7 @@ SQLite(escape_aggregator.db) → Firebase Firestore 일회성 마이그레이션
 import argparse
 import sqlite3
 import sys
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -123,11 +126,22 @@ def migrate_themes(db, cur, dry_run: bool) -> dict[int, str]:
 def migrate_schedules(db, cur, theme_id_map: dict[int, str], dry_run: bool) -> None:
     """
     schedules 테이블에서 (theme_id, date, time_slot) 기준 최신 스냅샷만
-    Firestore /schedules/{date}/slots/{slot_id} 에 마이그레이션합니다.
-    """
-    print("\n[ 3단계 ] 스케줄 마이그레이션 (최신 스냅샷만)...")
+    Firestore /schedules/{date} 에 마이그레이션합니다.
 
-    # 각 (theme_id, date, time_slot) 의 최신 레코드만 가져오기
+    새 스키마:
+      schedules/{date} → {
+        cafes: {
+          cafe_id: {
+            themes: { theme_doc_id: { slots: [{time, status, booking_url}] } },
+            crawled_at: str
+          }
+        }
+      }
+
+    날짜 1개 = Firestore 문서 1개 → 검색 시 read 1회로 충분.
+    """
+    print("\n[ 3단계 ] 스케줄 마이그레이션 (새 스키마: 날짜별 단일 문서)...")
+
     cur.execute("""
         SELECT s.*
         FROM schedule s
@@ -144,8 +158,10 @@ def migrate_schedules(db, cur, theme_id_map: dict[int, str], dry_run: bool) -> N
     rows = cur.fetchall()
     print(f"  대상 레코드: {len(rows)}개")
 
-    batch = db.batch() if not dry_run else None
-    count = 0
+    # 메모리에서 구조 조립: date → cafe_id → theme_doc_id → [slots]
+    date_cafe_theme: dict[str, dict[str, dict[str, list]]] = defaultdict(
+        lambda: defaultdict(lambda: defaultdict(list))
+    )
     skipped = 0
 
     for row in rows:
@@ -157,42 +173,58 @@ def migrate_schedules(db, cur, theme_id_map: dict[int, str], dry_run: bool) -> N
 
         date_str  = str(row["date"])
         time_slot = str(row["time_slot"])[:5]   # "HH:MM:SS" → "HH:MM"
-        cafe_id   = row.get("cafe_id") or ""    # 있으면 사용, 없으면 나중에 themes 에서 파악
 
-        # theme_doc_id 에서 cafe_id 추출 (cafe_id__slug 형식)
+        try:
+            cafe_id = row["cafe_id"] or ""
+        except (IndexError, KeyError):
+            cafe_id = ""
+
         if not cafe_id and "__" in theme_doc_id:
             cafe_id = theme_doc_id.split("__")[0]
 
-        slot_id = f"{theme_doc_id}__{time_slot.replace(':', '_')}"
+        date_cafe_theme[date_str][cafe_id][theme_doc_id].append({
+            "time":        time_slot,
+            "status":      row["status"],
+            "booking_url": row["booking_url"],
+        })
 
-        if not dry_run:
-            doc_ref = (
-                db.collection("schedules")
-                .document(date_str)
-                .collection("slots")
-                .document(slot_id)
-            )
-            batch.set(doc_ref, {
-                "theme_doc_id":    theme_doc_id,
-                "cafe_id":         cafe_id,
-                "time_slot":       time_slot,
-                "status":          row["status"],
-                "available_slots": row["available_slots"],
-                "booking_url":     row["booking_url"],
-                "crawled_at":      row["crawled_at"],
-            })
-            count += 1
-            batch, count = _batch_commit(db, batch, count, "schedules")
+    print(f"  날짜 수: {len(date_cafe_theme)}개")
 
-    if not dry_run and count % BATCH_SIZE != 0:
+    if dry_run:
+        total_writes = len(date_cafe_theme)
+        print(f"  예상 writes: {total_writes}개 날짜 문서 (dry-run — 실제 업로드 없음)")
+        print(f"  건너뜀: {skipped}개")
+        return
+
+    # Firestore batch write: 날짜 1개 = 문서 1개
+    batch = db.batch()
+    count = 0
+
+    for date_str, cafes_data in date_cafe_theme.items():
+        all_cafes_payload = {
+            cafe_id: {
+                "themes": {
+                    theme_doc_id: {"slots": slots}
+                    for theme_doc_id, slots in themes.items()
+                },
+                "crawled_at": datetime.now().isoformat(),
+            }
+            for cafe_id, themes in cafes_data.items()
+        }
+        doc_ref = db.collection("schedules").document(date_str)
+        batch.set(doc_ref, {"cafes": all_cafes_payload}, merge=True)
+        count += 1
+        batch, count = _batch_commit(db, batch, count, "schedules")
+
+    if count % BATCH_SIZE != 0:
         batch.commit()
 
-    print(f"  완료: {len(rows) - skipped}개 업로드, {skipped}개 건너뜀 {'(dry-run)' if dry_run else ''}")
+    print(f"  완료: {count}개 날짜 문서 업로드, {skipped}개 건너뜀")
 
 
 def main(dry_run: bool = False) -> None:
     print("=" * 60)
-    print("SQLite → Firestore 마이그레이션")
+    print("SQLite → Firestore 마이그레이션 (새 스키마)")
     print(f"  DB 경로: {DB_PATH}")
     print(f"  Dry-run: {dry_run}")
     print("=" * 60)
@@ -201,7 +233,6 @@ def main(dry_run: bool = False) -> None:
         print(f"[ERROR] DB 파일을 찾을 수 없습니다: {DB_PATH}")
         sys.exit(1)
 
-    # Firestore 초기화
     if not dry_run:
         init_firestore(settings.firebase_credentials_path)
         from app.firestore_db import get_db
@@ -209,14 +240,13 @@ def main(dry_run: bool = False) -> None:
     else:
         db = None
 
-    # SQLite 연결
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
 
     try:
-        cafe_area_map = migrate_cafes(db, cur, dry_run)
-        theme_id_map  = migrate_themes(db, cur, dry_run)
+        migrate_cafes(db, cur, dry_run)
+        theme_id_map = migrate_themes(db, cur, dry_run)
         migrate_schedules(db, cur, theme_id_map, dry_run)
     finally:
         conn.close()
@@ -226,8 +256,9 @@ def main(dry_run: bool = False) -> None:
     print("=" * 60)
     print("\n다음 단계:")
     print("  1. Firebase Console → Firestore → 데이터 확인")
-    print("  2. Firebase Console → Firestore → 인덱스 탭 → cafes (area + is_active) 복합 인덱스 생성")
-    print("  3. FastAPI 서버 재시작 후 GET /api/v1/search?date=YYYY-MM-DD&area=gangnam 테스트")
+    print("  2. FastAPI 서버 재시작 후 GET /api/v1/search?date=YYYY-MM-DD&area=gangnam 테스트")
+    if not dry_run:
+        print("  3. (선택) Firebase Console에서 기존 schedules/{date}/slots 서브컬렉션 삭제")
 
 
 if __name__ == "__main__":

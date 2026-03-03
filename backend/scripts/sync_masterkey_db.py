@@ -49,7 +49,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
 
 API_URL = "http://www.master-key.co.kr/booking/booking_list_new"
 BOOKING_URL_TEMPLATE = "http://www.master-key.co.kr/booking/bk_detail?bid={bid}"
@@ -240,16 +240,20 @@ def sync_schedules(bids: list[int], theme_map: dict[tuple[int, str], str], days:
     today = date.today()
     target_dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
-    added = 0
+    writes = 0
 
     for bid in bids:
         cafe_id = SHOP_MAP[bid]
         booking_url_base = BOOKING_URL_TEMPLATE.format(bid=bid)
 
+        # {date_str: {theme_doc_id: {"slots": [...]}}}
+        date_themes: dict[str, dict] = {}
+
         for target_date in target_dates:
             rows = _fetch_raw(bid, target_date)
             time.sleep(REQUEST_DELAY)
 
+            date_str = target_date.strftime("%Y-%m-%d")
             for r in rows:
                 room_id = r["room_id"] or r["name"]
                 theme_doc_id = theme_map.get((bid, room_id))
@@ -270,24 +274,19 @@ def sync_schedules(bids: list[int], theme_map: dict[tuple[int, str], str], days:
 
                     booking_url = booking_url_base if status == "available" else None
 
-                    upsert_schedule(
-                        db,
-                        date_str=target_date.strftime("%Y-%m-%d"),
-                        theme_doc_id=theme_doc_id,
-                        cafe_id=cafe_id,
-                        time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-                        data={
-                            "status": status,
-                            "available_slots": None,
-                            "booking_url": booking_url,
-                            "crawled_at": crawled_at,
-                        },
-                    )
-                    added += 1
+                    date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+                        "time": f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                        "status": status,
+                        "booking_url": booking_url,
+                    })
+
+        for date_str, themes in date_themes.items():
+            upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at)
+            writes += 1
 
         print(f"  bid={bid} 완료")
 
-    print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
+    print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 
 
 def main(bids: list[int], run_schedule: bool = True, days: int = 6):

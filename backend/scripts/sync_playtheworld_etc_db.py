@@ -38,7 +38,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
 
 REQUEST_DELAY = 0.5
 BASE_URL = "https://macro.playthe.world"
@@ -214,7 +214,7 @@ def sync_brand_schedules(
         for i in range(days + 1)
     }
     crawled_at = datetime.now()
-    added = 0
+    writes = 0
 
     for shop_keycode, theme_id_map in shop_to_themes.items():
         cafe_id = shop_map.get(shop_keycode, "")
@@ -224,6 +224,9 @@ def sync_brand_schedules(
         detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
         data = detail.get("data", {})
         time.sleep(REQUEST_DELAY)
+
+        # {date_str: {theme_doc_id: {"slots": [...]}}}
+        date_themes: dict[str, dict] = {}
 
         for t in data.get("themes", []):
             api_id = t["id"]
@@ -242,7 +245,6 @@ def sync_brand_schedules(
 
                 can_book = slot.get("can_book", False)
                 hh, mm = map(int, time_str.split(":"))
-                time_obj = dtime(hh, mm)
                 d = date.fromisoformat(day_str)
 
                 slot_dt = datetime(d.year, d.month, d.day, hh, mm)
@@ -256,24 +258,19 @@ def sync_brand_schedules(
                     status = "full"
                     booking_url = None
 
-                upsert_schedule(
-                    db,
-                    date_str=day_str,
-                    theme_doc_id=theme_doc_id,
-                    cafe_id=cafe_id,
-                    time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-                    data={
-                        "status": status,
-                        "available_slots": None,
-                        "booking_url": booking_url,
-                        "crawled_at": crawled_at,
-                    },
-                )
-                added += 1
+                date_themes.setdefault(day_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+                    "time": f"{hh:02d}:{mm:02d}",
+                    "status": status,
+                    "booking_url": booking_url,
+                })
+
+        for date_str, themes in date_themes.items():
+            upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at)
+            writes += 1
 
         print(f"  {shop_keycode} 스케줄 완료")
 
-    print(f"  스케줄: {added}개 레코드 추가")
+    print(f"  스케줄: {writes}개 날짜 문서 작성")
 
 
 def main(run_schedule: bool = True, days: int = 6):

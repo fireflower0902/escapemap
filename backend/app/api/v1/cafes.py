@@ -47,23 +47,34 @@ def _get_themes_by_cafe_sync(db, cafe_ids: list[str]) -> dict[str, list[dict]]:
 
 
 def _get_slots_for_date_sync(db, date_str: str, cafe_ids: list[str]) -> dict[str, list[dict]]:
-    """특정 날짜의 슬롯을 theme_doc_id 기준으로 그룹화하여 반환합니다 (동기)."""
+    """특정 날짜의 슬롯을 theme_doc_id 기준으로 그룹화하여 반환합니다 (동기).
+
+    schedules/{date} 단일 문서를 1회 read 후 Python에서 cafe_ids 필터링.
+    """
+    try:
+        doc = db.collection("schedules").document(date_str).get()
+        if not doc.exists:
+            return {}
+        cafes_data = (doc.to_dict() or {}).get("cafes", {})
+    except Exception:
+        return {}
+
+    cafe_ids_set = set(cafe_ids)
     slots_by_theme: dict[str, list[dict]] = {}
-    for i in range(0, len(cafe_ids), 30):
-        batch = cafe_ids[i : i + 30]
-        try:
-            for doc in (
-                db.collection("schedules")
-                .document(date_str)
-                .collection("slots")
-                .where("cafe_id", "in", batch)
-                .stream()
-            ):
-                d = doc.to_dict()
-                key = d.get("theme_doc_id", "")
-                slots_by_theme.setdefault(key, []).append(d)
-        except Exception:
-            pass
+
+    for cid, cafe_data in cafes_data.items():
+        if cid not in cafe_ids_set:
+            continue
+        for theme_doc_id, theme_data in (cafe_data.get("themes") or {}).items():
+            slots_by_theme[theme_doc_id] = [
+                {
+                    "time_slot":   s["time"],
+                    "status":      s["status"],
+                    "booking_url": s.get("booking_url"),
+                }
+                for s in (theme_data.get("slots") or [])
+            ]
+
     return slots_by_theme
 
 

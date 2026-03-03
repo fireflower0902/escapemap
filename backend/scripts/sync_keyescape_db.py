@@ -30,7 +30,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 import requests
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
 
 BASE_URL = "https://keyescape.com/controller/run_proc.php"
 HEADERS = {
@@ -157,7 +157,7 @@ def sync_schedules(key_to_doc_id: dict[tuple[int, int], str], days: int = 6):
     today = date.today()
     dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
-    added = 0
+    writes = 0
 
     for zizum_num in BRANCH_MAP:
         cafe_id = BRANCH_MAP[zizum_num]
@@ -165,22 +165,25 @@ def sync_schedules(key_to_doc_id: dict[tuple[int, int], str], days: int = 6):
         raw_themes = fetch_themes_for_branch(zizum_num)
         time.sleep(REQUEST_DELAY)
 
+        booking_base = f"https://keyescape.com/reservation1.php?zizum_num={zizum_num}"
+
+        # {date_str: {theme_doc_id: {"slots": [...]}}}
+        date_themes: dict[str, dict] = {}
+
         for rt in raw_themes:
             theme_num = rt["theme_num"]
             theme_doc_id = key_to_doc_id.get((zizum_num, theme_num))
             if not theme_doc_id:
                 continue
 
-            booking_base = f"https://keyescape.com/reservation1.php?zizum_num={zizum_num}"
-
             for d in dates:
                 slots = fetch_schedule_for_theme(zizum_num, theme_num, d)
                 time.sleep(REQUEST_DELAY)
 
+                date_str = d.strftime("%Y-%m-%d")
                 for slot in slots:
                     hh = int(slot["hh"])
                     mm = int(slot["mm"])
-                    time_obj = dtime(hh, mm)
                     enable = slot.get("enable", "N")
 
                     if enable == "Y":
@@ -190,24 +193,19 @@ def sync_schedules(key_to_doc_id: dict[tuple[int, int], str], days: int = 6):
                         status = "full"
                         booking_url = None
 
-                    upsert_schedule(
-                        db,
-                        date_str=d.strftime("%Y-%m-%d"),
-                        theme_doc_id=theme_doc_id,
-                        cafe_id=cafe_id,
-                        time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-                        data={
-                            "status": status,
-                            "available_slots": None,
-                            "booking_url": booking_url,
-                            "crawled_at": crawled_at,
-                        },
-                    )
-                    added += 1
+                    date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+                        "time": f"{hh:02d}:{mm:02d}",
+                        "status": status,
+                        "booking_url": booking_url,
+                    })
 
             print(f"  zizum={zizum_num} theme={theme_num} {len(dates)}일치 완료")
 
-    print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
+        for date_str, themes in date_themes.items():
+            upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at)
+            writes += 1
+
+    print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 
 
 def main(run_schedule: bool = True, days: int = 6):

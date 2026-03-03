@@ -43,7 +43,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_schedule
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
 
 CAFE_ID = "377197835"
 RESERVE_PAGE = "https://www.dpsnnn.com/reserve_g"
@@ -227,7 +227,10 @@ def sync_schedules(
     today = date.today()
     target_dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
-    added = 0
+    writes = 0
+
+    # {date_str: {theme_doc_id: {"slots": [...]}}}
+    date_themes: dict[str, dict] = {}
 
     for target_date in target_dates:
         avail_map = _fetch_availability(opener, target_date)
@@ -258,26 +261,21 @@ def sync_schedules(
 
                 booking_url = BOOKING_URL if status == "available" else None
 
-                upsert_schedule(
-                    db,
-                    date_str=date_str,
-                    theme_doc_id=theme_doc_id,
-                    cafe_id=CAFE_ID,
-                    time_slot=f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-                    data={
-                        "status": status,
-                        "available_slots": None,
-                        "booking_url": booking_url,
-                        "crawled_at": crawled_at,
-                    },
-                )
-                added += 1
+                date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+                    "time": f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                    "status": status,
+                    "booking_url": booking_url,
+                })
 
         avail_cnt = sum(1 for v in avail_map.values() if v == "available")
         full_cnt = sum(1 for v in avail_map.values() if v == "full")
         print(f"  {date_str}: 가능 {avail_cnt}개 / 마감 {full_cnt}개")
 
-    print(f"\n  스케줄 동기화 완료: {added}개 레코드 추가")
+    for date_str, themes in date_themes.items():
+        upsert_cafe_date_schedules(db, date_str, CAFE_ID, themes, crawled_at)
+        writes += 1
+
+    print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 
 
 # ── 메인 ────────────────────────────────────────────────────────────────────────
