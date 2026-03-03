@@ -144,6 +144,7 @@ function SearchResults() {
     themeName: string;
     time: string;
   }>({ open: false, themeId: 0, themeName: "", time: "" });
+  const [keyword, setKeyword] = useState("");
   const [timeFrom, setTimeFrom] = useState("");
   const [timeTo, setTimeTo] = useState("");
   const [timePickerOpen, setTimePickerOpen] = useState(false);
@@ -211,6 +212,21 @@ function SearchResults() {
   function openAlert(themeId: number, themeName: string, time: string) {
     setAlertModal({ open: true, themeId, themeName, time });
   }
+
+  // 키워드 필터: 카페명 매칭 시 전체 테마, 테마명 매칭 시 해당 테마만
+  const filteredCafes: ApiCafe[] = (() => {
+    const kw = keyword.trim().toLowerCase();
+    if (!kw) return cafes;
+    return cafes.flatMap((cafe) => {
+      const cafeNameMatch = `${cafe.name}${cafe.branch_name ?? ""}`.toLowerCase().includes(kw);
+      if (cafeNameMatch) return [cafe];
+      const matchingThemes = cafe.themes.filter((t) =>
+        t.name.toLowerCase().includes(kw)
+      );
+      if (matchingThemes.length > 0) return [{ ...cafe, themes: matchingThemes }];
+      return [];
+    });
+  })();
 
   return (
     <div className="min-h-screen bg-stone-50">
@@ -402,6 +418,33 @@ function SearchResults() {
         </div>
       </div>
 
+      {/* 키워드 필터 */}
+      <div className="bg-white border-b border-stone-100 py-3 px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="relative">
+            <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" />
+            <input
+              type="text"
+              value={keyword}
+              onChange={(e) => setKeyword(e.target.value)}
+              placeholder="카페명 또는 테마명으로 필터링"
+              className="w-full pl-9 pr-8 py-2.5 rounded-xl border border-stone-200
+                         bg-stone-50 text-stone-800 text-sm placeholder-stone-400
+                         focus:outline-none focus:border-brand-400 focus:bg-white transition-colors"
+            />
+            {keyword && (
+              <button
+                type="button"
+                onClick={() => setKeyword("")}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 transition-colors"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         {/* 검색 결과 헤더 */}
         <div className="flex items-end justify-between mb-6 gap-4">
@@ -454,7 +497,7 @@ function SearchResults() {
         )}
 
         {/* 결과 없음 */}
-        {!loading && !error && cafes.length === 0 && (
+        {!loading && !error && filteredCafes.length === 0 && (
           <div className="card p-8 text-center text-stone-500">
             <div className="text-4xl mb-3">🔐</div>
             <p className="font-semibold mb-1">예약 정보가 없습니다</p>
@@ -465,10 +508,10 @@ function SearchResults() {
         )}
 
         {/* 카페 목록 */}
-        {!loading && !error && cafes.length > 0 && (
+        {!loading && !error && filteredCafes.length > 0 && (
           <div className="space-y-4">
             {/* ── 크롤링 완료 카페 ── */}
-            {cafes.filter((c) => c.crawled).map((cafe) => {
+            {filteredCafes.filter((c) => c.crawled).map((cafe) => {
               const isExpanded = expandedCafe === cafe.id;
 
               // 시간 범위 내 슬롯만 집계
@@ -617,17 +660,17 @@ function SearchResults() {
             })}
 
             {/* ── 구현 예정 카페 구분선 + 목록 ── */}
-            {cafes.some((c) => !c.crawled) && (
+            {filteredCafes.some((c) => !c.crawled) && (
               <>
                 <div className="flex items-center gap-3 pt-2">
                   <div className="flex-1 h-px bg-stone-200" />
                   <span className="text-sm text-stone-400 font-medium shrink-0">
-                    구현 예정 ({cafes.filter((c) => !c.crawled).length}개)
+                    구현 예정 ({filteredCafes.filter((c) => !c.crawled).length}개)
                   </span>
                   <div className="flex-1 h-px bg-stone-200" />
                 </div>
 
-                {cafes.filter((c) => !c.crawled).map((cafe) => (
+                {filteredCafes.filter((c) => !c.crawled).map((cafe) => (
                   <div key={cafe.id} className="card overflow-hidden opacity-60">
                     <div className="p-5 flex items-center justify-between">
                       <div className="flex items-center gap-4">
