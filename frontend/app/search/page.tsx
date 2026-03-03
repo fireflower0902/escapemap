@@ -253,7 +253,7 @@ function SearchResults() {
                   value={formDate}
                   min={today}
                   onChange={(e) => setFormDate(e.target.value)}
-                  className="bg-transparent text-stone-800 font-semibold text-lg w-full outline-none cursor-pointer"
+                  className="bg-transparent text-stone-800 font-semibold text-lg w-full outline-none cursor-pointer text-left"
                 />
               </div>
             </div>
@@ -429,7 +429,7 @@ function SearchResults() {
               onChange={(e) => setKeyword(e.target.value)}
               placeholder="카페명 또는 테마명으로 필터링"
               className="w-full pl-9 pr-8 py-2.5 rounded-xl border border-stone-200
-                         bg-stone-50 text-stone-800 text-sm placeholder-stone-400
+                         bg-stone-50 text-stone-800 text-base placeholder-stone-400
                          focus:outline-none focus:border-brand-400 focus:bg-white transition-colors"
             />
             {keyword && (
@@ -534,43 +534,38 @@ function SearchResults() {
                     onClick={() =>
                       setExpandedCafe(isExpanded ? null : cafe.id)
                     }
-                    className="w-full p-5 flex items-center justify-between text-left hover:bg-stone-50 transition-colors"
+                    className="w-full p-5 flex items-center gap-4 text-left hover:bg-stone-50 transition-colors"
                   >
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center text-2xl shrink-0">
-                        🔐
-                      </div>
-                      <div>
-                        <div className="flex items-center gap-2 flex-wrap">
-                          <h2 className="font-extrabold text-stone-900 text-lg">
-                            {cafe.name}{cafe.branch_name ? ` ${cafe.branch_name}` : ""}
-                          </h2>
-                        </div>
-                        <p className="text-stone-500 text-sm flex items-center gap-1 mt-0.5">
-                          <MapPin size={12} />
+                    <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                      🔐
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h2 className="font-extrabold text-stone-900 text-lg leading-tight">
+                        {cafe.name}{cafe.branch_name ? ` ${cafe.branch_name}` : ""}
+                      </h2>
+                      <div className="flex items-center justify-between gap-2 mt-1">
+                        <p className="text-stone-500 text-sm flex items-center gap-1 min-w-0 truncate">
+                          <MapPin size={12} className="shrink-0" />
                           {cafe.address}
                         </p>
+                        <span
+                          className={`font-bold text-sm shrink-0 ${
+                            totalAvailable > 0
+                              ? "text-emerald-600"
+                              : "text-rose-500"
+                          }`}
+                        >
+                          {totalAvailable > 0
+                            ? `🟢 ${totalAvailable}개 가능`
+                            : "🔴 전체 마감"}
+                        </span>
                       </div>
                     </div>
-
-                    <div className="flex items-center gap-4 shrink-0">
-                      <span
-                        className={`font-bold text-sm ${
-                          totalAvailable > 0
-                            ? "text-emerald-600"
-                            : "text-rose-500"
-                        }`}
-                      >
-                        {totalAvailable > 0
-                          ? `🟢 ${totalAvailable}개 가능`
-                          : "🔴 전체 마감"}
-                      </span>
-                      {isExpanded ? (
-                        <ChevronUp size={20} className="text-stone-400" />
-                      ) : (
-                        <ChevronDown size={20} className="text-stone-400" />
-                      )}
-                    </div>
+                    {isExpanded ? (
+                      <ChevronUp size={20} className="text-stone-400 shrink-0" />
+                    ) : (
+                      <ChevronDown size={20} className="text-stone-400 shrink-0" />
+                    )}
                   </button>
 
                   {/* 테마 목록 (펼쳐졌을 때) */}
