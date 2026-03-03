@@ -1,0 +1,47 @@
+name: 방탈출 스케줄 크롤링
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # 매시 정각 (UTC 기준 = KST -9h)
+  workflow_dispatch:       # 수동 실행 버튼
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Install Python dependencies
+        run: uv sync --frozen
+
+      - name: Write Firebase credentials
+        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+
+      - name: 크롤링 실행
+        run: |
+          uv run python scripts/sync_keyescape_db.py
+          uv run python scripts/sync_xdungeon_db.py
+          uv run python scripts/sync_doorescape_db.py
+          uv run python scripts/sync_playtheworld_etc_db.py
+          uv run python scripts/sync_fantastrick_db.py
+          uv run python scripts/sync_masterkey_db.py
+          uv run python scripts/sync_frankantique_db.py
+          uv run python scripts/sync_dpsnnn_db.py
+          uv run python scripts/sync_studioesc_db.py
+          uv run python scripts/sync_mafiacafe_db.py
