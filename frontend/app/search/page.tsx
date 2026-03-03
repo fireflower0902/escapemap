@@ -543,23 +543,21 @@ function SearchResults() {
                       <h2 className="font-extrabold text-stone-900 text-lg leading-tight">
                         {cafe.name}{cafe.branch_name ? ` ${cafe.branch_name}` : ""}
                       </h2>
-                      <div className="flex items-center justify-between gap-2 mt-1">
-                        <p className="text-stone-500 text-sm flex items-center gap-1 min-w-0 truncate">
-                          <MapPin size={12} className="shrink-0" />
-                          {cafe.address}
-                        </p>
-                        <span
-                          className={`font-bold text-sm shrink-0 ${
-                            totalAvailable > 0
-                              ? "text-emerald-600"
-                              : "text-rose-500"
-                          }`}
-                        >
-                          {totalAvailable > 0
-                            ? `🟢 ${totalAvailable}개 가능`
-                            : "🔴 전체 마감"}
-                        </span>
-                      </div>
+                      <p className="text-stone-500 text-sm flex items-center gap-1 mt-1">
+                        <MapPin size={12} className="shrink-0" />
+                        {cafe.address}
+                      </p>
+                      <span
+                        className={`font-bold text-sm mt-1 block ${
+                          totalAvailable > 0
+                            ? "text-emerald-600"
+                            : "text-rose-500"
+                        }`}
+                      >
+                        {totalAvailable > 0
+                          ? `🟢 ${totalAvailable}개 가능`
+                          : "🔴 전체 마감"}
+                      </span>
                     </div>
                     {isExpanded ? (
                       <ChevronUp size={20} className="text-stone-400 shrink-0" />
