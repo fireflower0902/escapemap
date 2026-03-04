@@ -10,12 +10,16 @@ Firestore 클라이언트 초기화 및 공통 helper 함수들.
   init_firestore(settings.firebase_credentials_path)
   db = get_db()
 """
+import os
 import re
 
 import firebase_admin
 from firebase_admin import credentials, firestore as _fs
 
 _db = None
+
+# SKIP_META_WRITES=true 이면 cafe/theme upsert를 건너뜀 (schedule write만 수행)
+_SKIP_META = os.getenv("SKIP_META_WRITES", "").lower() in ("1", "true", "yes")
 
 # ── 지역 코드 ↔ 주소 prefix 매핑 ─────────────────────────────────────────────
 # cafes.py 의 AREA_ADDRESS_MAP 과 동일하게 유지할 것
@@ -91,10 +95,13 @@ def get_db():
 def upsert_cafe(db, cafe_id: str, data: dict) -> None:
     """
     카페 문서를 Firestore에 upsert합니다.
+    SKIP_META_WRITES=true 환경변수가 설정된 경우 건너뜁니다.
     data 예시:
       {name, branch_name, address, area, phone, website_url,
        engine, crawled, lat, lng, is_active}
     """
+    if _SKIP_META:
+        return
     db.collection("cafes").document(cafe_id).set(data, merge=True)
 
 
@@ -105,15 +112,17 @@ def get_or_create_theme(db, cafe_id: str, theme_name: str, data: dict) -> str:
     """
     테마를 Firestore에 upsert하고 문서 ID(str)를 반환합니다.
     반환된 ID는 이후 upsert_schedule() 의 theme_doc_id 인수로 사용합니다.
+    SKIP_META_WRITES=true 환경변수가 설정된 경우 Firestore write를 건너뜁니다.
 
     data 예시:
       {difficulty, duration_min, poster_url, is_active, description}
     """
     doc_id = _theme_doc_id(cafe_id, theme_name)
-    db.collection("themes").document(doc_id).set(
-        {"cafe_id": cafe_id, "name": theme_name, **data},
-        merge=True,
-    )
+    if not _SKIP_META:
+        db.collection("themes").document(doc_id).set(
+            {"cafe_id": cafe_id, "name": theme_name, **data},
+            merge=True,
+        )
     return doc_id
 
 

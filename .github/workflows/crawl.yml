@@ -2,8 +2,9 @@ name: 방탈출 스케줄 크롤링
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 매시 정각 (UTC 기준 = KST -9h)
-  workflow_dispatch:       # 수동 실행 버튼
+    - cron: "0 * * * *"    # 매시 정각 — 스케줄만 갱신 (SKIP_META_WRITES=true)
+    - cron: "0 15 * * *"   # 매일 자정 KST (UTC 15:00) — 카페/테마 포함 전체 동기화
+  workflow_dispatch:        # 수동 실행 버튼
 
 jobs:
   crawl:
@@ -32,6 +33,10 @@ jobs:
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
           echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
+          # 자정 KST(0 15 * * *) 실행이 아닌 경우 카페/테마 쓰기 건너뜀 → write 절약
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
 
       - name: 크롤링 실행
         run: |
