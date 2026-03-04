@@ -116,13 +116,16 @@ function ThemePoster({ url, name }: { url: string | null; name: string }) {
 function SearchResults() {
   const router = useRouter();
   const params = useSearchParams();
-  const date = params.get("date") || new Date().toISOString().split("T")[0];
+  // 로컬 시간 기준 오늘 날짜 (UTC 기준 사용 시 자정 전후로 날짜 오차 발생)
+  const today = new Date().toLocaleDateString("en-CA");
+  // URL 파라미터가 과거 날짜면 오늘로 클램프
+  const rawDate = params.get("date") || today;
+  const date = rawDate < today ? today : rawDate;
   const area = params.get("area") || "gangnam";
 
   // 폼 로컬 state (URL 파라미터 변경 전 편집 중인 값)
   const [formDate, setFormDate] = useState(date);
   const [formArea, setFormArea] = useState(area);
-  const today = new Date().toISOString().split("T")[0];
   const dateInputRef = useRef<HTMLInputElement>(null);
 
   // URL 파라미터가 바뀌면 폼도 동기화
