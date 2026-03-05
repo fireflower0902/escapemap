@@ -33,6 +33,7 @@ class Settings(BaseSettings):
     # ── 앱 동작 설정 ──────────────────────────────────────────
     environment: str = "development"
     cache_ttl_seconds: int = 300  # Redis 캐시 유지 시간 (기본 5분)
+    skip_meta_writes: bool = False  # True 시 cafe/theme Firestore 쓰기 건너뜀
 
     class Config:
         env_file = ".env"          # .env 파일에서 자동으로 값을 읽음
