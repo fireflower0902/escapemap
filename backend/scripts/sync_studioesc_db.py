@@ -45,7 +45,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
 
 CAFE_ID = "1908100709"
 BASE_URL = "https://studioesc.co.kr/layout/res/home.php"
@@ -240,6 +240,9 @@ def sync_schedules(
     crawled_at = datetime.now()
     writes = 0
 
+    known_hashes = load_cafe_hashes(db, CAFE_ID)
+    new_hashes: dict[str, str] = {}
+
     for target_date in target_dates:
         html = _fetch_reserve_page(opener, target_date)
         time.sleep(REQUEST_DELAY)
@@ -287,10 +290,17 @@ def sync_schedules(
                     full += 1
 
         if themes:
-            upsert_cafe_date_schedules(db, date_str, CAFE_ID, themes, crawled_at)
-            writes += 1
+            h = upsert_cafe_date_schedules(db, date_str, CAFE_ID, themes, crawled_at,
+                                           known_hash=known_hashes.get(date_str))
+            if h:
+                new_hashes[date_str] = h
+                writes += 1
 
         print(f"  {date_str}: 가능 {avail}개 / 마감 {full}개")
+
+    if new_hashes:
+        today_str = today.isoformat()
+        save_cafe_hashes(db, CAFE_ID, {k: v for k, v in {**known_hashes, **new_hashes}.items() if k >= today_str})
 
     print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 

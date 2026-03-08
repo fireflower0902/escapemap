@@ -10,8 +10,11 @@ Firestore 클라이언트 초기화 및 공통 helper 함수들.
   init_firestore(settings.firebase_credentials_path)
   db = get_db()
 """
+import hashlib
+import json
 import os
 import re
+from datetime import date as _date
 
 import firebase_admin
 from firebase_admin import credentials, firestore as _fs
@@ -129,32 +132,59 @@ def get_or_create_theme(db, cafe_id: str, theme_name: str, data: dict) -> str:
 # ── 스케줄 ────────────────────────────────────────────────────────────────────
 
 
+def _compute_hash(themes: dict) -> str:
+    """themes dict의 MD5 해시(16자)를 반환합니다. 변경 감지에 사용합니다."""
+    serialized = json.dumps(themes, sort_keys=True, ensure_ascii=False)
+    return hashlib.md5(serialized.encode()).hexdigest()[:16]
+
+
+def load_cafe_hashes(db, cafe_id: str) -> dict[str, str]:
+    """카페의 날짜별 이전 크롤 해시를 Firestore에서 로드합니다.
+
+    반환: {date_str: hash_str} — 미존재 시 빈 dict
+    """
+    doc = db.collection("cafe_hashes").document(cafe_id).get()
+    if not doc.exists:
+        return {}
+    return doc.to_dict() or {}
+
+
+def save_cafe_hashes(db, cafe_id: str, hashes: dict[str, str]) -> None:
+    """카페의 날짜별 해시를 Firestore에 저장합니다. 오늘 이전 날짜는 자동 제거합니다."""
+    today = _date.today().isoformat()
+    pruned = {k: v for k, v in hashes.items() if k >= today}
+    if pruned:
+        db.collection("cafe_hashes").document(cafe_id).set(pruned)
+
+
 def upsert_cafe_date_schedules(
     db,
-    date_str: str,    # "YYYY-MM-DD"
+    date_str: str,      # "YYYY-MM-DD"
     cafe_id: str,
-    themes: dict,     # {theme_doc_id: {"slots": [{"time":"HH:MM","status":...,"booking_url":...}]}}
-    crawled_at,       # datetime
-) -> None:
+    themes: dict,       # {theme_doc_id: {"slots": [{"time":"HH:MM","status":...,"booking_url":...}]}}
+    crawled_at,         # datetime
+    known_hash: str | None = None,  # 이전 크롤 해시 (일치 시 write skip)
+) -> str | None:
     """
     특정 날짜의 카페 전체 스케줄을 Firestore에 1번 write로 저장합니다.
+
+    known_hash가 주어지고 현재 데이터 해시와 일치하면 write를 건너뜁니다.
+
+    반환:
+      str  → 실제로 write한 경우 (새 해시 반환)
+      None → 변경 없이 skip한 경우
 
     Firestore 경로:
       schedules/{YYYY-MM-DD}  (단일 문서, cafes.{cafe_id} 필드만 교체)
 
     merge=True 덕분에 같은 날짜의 다른 카페 데이터는 유지됩니다.
-
-    themes 예시:
-      {
-        "1405262610__살랑살랑연구소": {
-          "slots": [
-            {"time": "14:00", "status": "available", "booking_url": "https://..."},
-            {"time": "16:00", "status": "full",      "booking_url": None},
-          ]
-        }
-      }
     """
+    new_hash = _compute_hash(themes)
+    if known_hash is not None and known_hash == new_hash:
+        return None  # 변경 없음 → skip
+
     db.collection("schedules").document(date_str).set(
         {"cafes": {cafe_id: {"themes": themes, "crawled_at": str(crawled_at)}}},
         merge=True,
     )
+    return new_hash

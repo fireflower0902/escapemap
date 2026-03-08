@@ -43,7 +43,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
 
 CAFE_ID = "377197835"
 RESERVE_PAGE = "https://www.dpsnnn.com/reserve_g"
@@ -271,9 +271,17 @@ def sync_schedules(
         full_cnt = sum(1 for v in avail_map.values() if v == "full")
         print(f"  {date_str}: 가능 {avail_cnt}개 / 마감 {full_cnt}개")
 
+    known_hashes = load_cafe_hashes(db, CAFE_ID)
+    new_hashes: dict[str, str] = {}
     for date_str, themes in date_themes.items():
-        upsert_cafe_date_schedules(db, date_str, CAFE_ID, themes, crawled_at)
-        writes += 1
+        h = upsert_cafe_date_schedules(db, date_str, CAFE_ID, themes, crawled_at,
+                                       known_hash=known_hashes.get(date_str))
+        if h:
+            new_hashes[date_str] = h
+            writes += 1
+    if new_hashes:
+        today_str = date.today().isoformat()
+        save_cafe_hashes(db, CAFE_ID, {k: v for k, v in {**known_hashes, **new_hashes}.items() if k >= today_str})
 
     print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 

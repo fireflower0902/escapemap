@@ -49,7 +49,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules
+from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
 
 API_URL = "http://www.master-key.co.kr/booking/booking_list_new"
 BOOKING_URL_TEMPLATE = "http://www.master-key.co.kr/booking/bk_detail?bid={bid}"
@@ -280,9 +280,17 @@ def sync_schedules(bids: list[int], theme_map: dict[tuple[int, str], str], days:
                         "booking_url": booking_url,
                     })
 
+        known_hashes = load_cafe_hashes(db, cafe_id)
+        new_hashes: dict[str, str] = {}
         for date_str, themes in date_themes.items():
-            upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at)
-            writes += 1
+            h = upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at,
+                                           known_hash=known_hashes.get(date_str))
+            if h:
+                new_hashes[date_str] = h
+                writes += 1
+        if new_hashes:
+            today_str = date.today().isoformat()
+            save_cafe_hashes(db, cafe_id, {k: v for k, v in {**known_hashes, **new_hashes}.items() if k >= today_str})
 
         print(f"  bid={bid} 완료")
 
