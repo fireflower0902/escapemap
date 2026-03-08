@@ -2,7 +2,7 @@ name: 방탈출 스케줄 크롤링
 
 on:
   schedule:
-    - cron: "0 * * * *"     # 매시 정각 — 스케줄만 갱신 (SKIP_META_WRITES=true, delta write)
+    - cron: "0 */2 * * *"   # 2시간마다 — 스케줄만 갱신 (SKIP_META_WRITES=true, delta write)
     - cron: "0 15 * * *"    # 매일 자정 KST (UTC 15:00) — 카페/테마 포함 전체 동기화
   workflow_dispatch:        # 수동 실행 버튼
 
