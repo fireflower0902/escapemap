@@ -13,8 +13,8 @@ Headers: Name=nextedition, Site-Referer=https://next-edition.co.kr
   건대 보네르관 (KBUDLjRFoSYfUXrD, 광진구 화양동 9-19)     → 1108129560
   신림점   (qN5HHMkKFyf8uyjj, 관악구 남부순환로 1598)      → 1224056973
   잠실점   (mC6ZzJXrCSRwvaGq, 송파구 올림픽로 118)         → 1460924995
-  부천점   → 경기 제외
-  분당서현점 → 경기 제외
+  부천점   (XKCRH8C1Hi4HMZ1S, 부천시 원미구 심곡동 175-9 6층)  → 1678997732
+  분당서현점 (timEGRUC2R7mzs7s, 성남시 분당구 황새울로342번길 19 B1) → 635335984
 
 실행:
   cd escape-aggregator/backend
@@ -57,8 +57,10 @@ SHOP_MAP: dict[str, str] = {
     "acBZTNkAVSAF1epy": "1973765277",  # 건대1호점
     "KAuTx3m4n65nuMNB": "287949141",   # 건대2호점
     "KBUDLjRFoSYfUXrD": "1108129560",  # 건대 보네르관
-    "qN5HHMkKFyf8uyjj": "1224056973",  # 신림점 (관악구 신림동 1640-1)
-    "mC6ZzJXrCSRwvaGq": "1460924995",  # 잠실점 (송파구 잠실동 184-3)
+    "qN5HHMkKFyf8uyjj": "1224056973",  # 신림점 (관악구 남부순환로 1598)
+    "mC6ZzJXrCSRwvaGq": "1460924995",  # 잠실점 (송파구 올림픽로 118)
+    "XKCRH8C1Hi4HMZ1S": "1678997732",  # 부천점 (경기 부천시 원미구 심곡동 175-9 6층)
+    "timEGRUC2R7mzs7s": "635335984",   # 분당서현점 (경기 성남시 분당구 황새울로342번길 19 B1)
 }
 
 # area 코드 매핑
@@ -68,6 +70,8 @@ SHOP_AREA: dict[str, str] = {
     "KBUDLjRFoSYfUXrD": "konkuk",
     "qN5HHMkKFyf8uyjj": "sinlim",
     "mC6ZzJXrCSRwvaGq": "jamsil",
+    "XKCRH8C1Hi4HMZ1S": "gyeonggi",
+    "timEGRUC2R7mzs7s": "gyeonggi",
 }
 
 _SSL_CTX = ssl.create_default_context()

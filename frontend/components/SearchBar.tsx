@@ -8,6 +8,7 @@ const AREAS = [
   { value: "gangnam",    label: "강남/역삼" },
   { value: "hongdae",    label: "홍대/합정" },
   { value: "sinchon",    label: "신촌/이대" },
+  { value: "konkuk",     label: "건대/광진" },
   { value: "jamsil",     label: "잠실/송파" },
   { value: "itaewon",    label: "이태원/한남" },
   { value: "myeongdong", label: "명동/종로" },
