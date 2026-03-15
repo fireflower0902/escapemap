@@ -3482,7 +3482,9 @@
       "homepage_url": "https://speakeasyescape.co.kr/",
       "lat": 37.5533585557131,
       "lng": 126.925028143004,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sinbiweb_db.py",
+      "note": "스피키지(1825220691) 중복 항목"
     },
     {
       "place_id": "1825220691",
