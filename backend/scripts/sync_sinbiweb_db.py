@@ -16,6 +16,8 @@ sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.
   상상의문 분당서현점 https://xn--z92b74ha268d.com  place_id=505122419   s_zizum=2
   상상의문 수원2호점  https://xn--z92b74ha268d.com  place_id=1121229740  s_zizum=7
   버스티드          http://busted.kr              place_id=1092766492
+  골든타임이스케이프 1호점 https://xn--bb0b44mb8pfwi.kr  place_id=1875954710  s_zizum=1
+  골든타임이스케이프 2호점 https://xn--bb0b44mb8pfwi.kr  place_id=1591055284  s_zizum=2
 
 공통 API 구조:
   GET {base_url}/layout/res/home.php?go=rev.make[&s_zizum={N}]&rev_days=YYYY-MM-DD
@@ -296,6 +298,28 @@ SITES: list[dict] = [
         "base_url":    "http://busted.kr",
         "s_zizum":     None,
         "use_ssl":     False,
+        "need_session": True,
+    },
+    {
+        "cafe_id":     "1875954710",
+        "cafe_name":   "골든타임이스케이프",
+        "branch_name": "1호점",
+        "address":     "경기 수원시 영통구 영통동 998-4",
+        "area":        "gyeonggi",
+        "base_url":    "https://xn--bb0b44mb8pfwi.kr",
+        "s_zizum":     1,
+        "use_ssl":     True,
+        "need_session": True,
+    },
+    {
+        "cafe_id":     "1591055284",
+        "cafe_name":   "골든타임이스케이프",
+        "branch_name": "2호점",
+        "address":     "경기 수원시 영통구 영통동 1011-6",
+        "area":        "gyeonggi",
+        "base_url":    "https://xn--bb0b44mb8pfwi.kr",
+        "s_zizum":     2,
+        "use_ssl":     True,
         "need_session": True,
     },
 ]
