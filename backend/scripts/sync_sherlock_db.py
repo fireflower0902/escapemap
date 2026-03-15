@@ -1,7 +1,7 @@
 """
 셜록홈즈 (sherlock-holmes.co.kr) 방탈출 테마 + 스케줄 DB 동기화 스크립트.
 
-지점 (서울):
+지점 (서울, sido=1):
   bno=107  잠실새내점  place_id=45777628   area=jamsil   (서울 송파구 올림픽로10길 13-1)
   bno=35   잠실1호점   place_id=466116790  area=jamsil   (서울 송파구 백제고분로7길 19)
   bno=69   종각점      place_id=462553617  area=myeongdong (서울 종로구 삼일대로17길 17)
@@ -9,6 +9,13 @@
   bno=48   노원점      place_id=1367009941 area=etc      (서울 노원구 노해로81길 12-20)
   bno=54   성신여대점  place_id=10098327   area=daehakro  (서울 성북구 동선동1가 87)
   bno=57   노량진점    place_id=8143798    area=etc      (서울 동작구 노량진동 118-8)
+
+지점 (경기, sido=9):
+  bno=62   분당야탑점  place_id=1396409942 area=gyeonggi (경기 성남시 분당구 야탑동 353-3)
+  bno=87   서현점      place_id=816654453  area=gyeonggi (경기 성남시 분당구 서현동 268-4)
+  bno=94   미사점      place_id=1954089927 area=gyeonggi (경기 하남시 망월동 1111)
+  bno=102  김포구래점  place_id=743084847  area=gyeonggi (경기 김포시 구래동 6882-16)
+  bno=106  수지구청점  place_id=582885260  area=gyeonggi (경기 용인시 수지구 풍덕천동 711-3)
 
 API:
   GET https://sherlock-holmes.co.kr/reservation/res_schedule.php
@@ -123,6 +130,52 @@ BRANCHES: list[dict] = [
         "area":        "etc",
         "sido":        1,
         "bno":         57,
+    },
+    # ── 경기 지점 ──
+    {
+        "cafe_id":     "1396409942",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "분당야탑점",
+        "address":     "경기 성남시 분당구 야탑동 353-3 3층",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         62,
+    },
+    {
+        "cafe_id":     "816654453",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "서현점",
+        "address":     "경기 성남시 분당구 서현동 268-4 4층",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         87,
+    },
+    {
+        "cafe_id":     "1954089927",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "미사점",
+        "address":     "경기 하남시 망월동 1111 미사강변도시 상업4블록 4층",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         94,
+    },
+    {
+        "cafe_id":     "743084847",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "김포구래점",
+        "address":     "경기 김포시 구래동 6882-16 킨텍스원시티몰 4층",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         102,
+    },
+    {
+        "cafe_id":     "582885260",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "수지구청점",
+        "address":     "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         106,
     },
 ]
 

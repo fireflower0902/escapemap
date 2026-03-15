@@ -5,8 +5,9 @@
 플랫폼: 자체 PHP CMS (JIJEM 코드 기반, puzzlefactory/signescape 동일 계열)
 
 지점:
-  영등포본점    R_JIJEM=S1  cafe_id=1444854771  area=etc       테마 A-F(6개)
-  성신여대점    R_JIJEM=s2  cafe_id=926754766   area=etc       테마 A-F
+  영등포본점      R_JIJEM=S1  cafe_id=1444854771  area=etc       테마 A-F(6개)
+  성신여대점      R_JIJEM=s2  cafe_id=926754766   area=etc       테마 A-F
+  부천신중동점    R_JIJEM=S3  cafe_id=1363823824  area=gyeonggi  테마 A-F
   그랜드시티신촌점 R_JIJEM=S4 cafe_id=1834149457 area=hongdae   테마 A-F
 
 API:
@@ -65,6 +66,13 @@ BRANCHES = [
         "jijem":       "s2",
         "area":        "etc",
         "address":     "서울 성북구 보문로34길 43",
+    },
+    {
+        "cafe_id":     "1363823824",
+        "branch_name": "부천신중동점",
+        "jijem":       "S3",
+        "area":        "gyeonggi",
+        "address":     "경기 부천시 원미구 중동 1138-1",
     },
     {
         "cafe_id":     "1834149457",

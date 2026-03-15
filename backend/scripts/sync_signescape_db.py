@@ -7,6 +7,7 @@
 지점:
   홍대점      R_JIJEM=S5  themes=A,B,C  cafe_id=678802397   area=hongdae
   강남시티점  R_JIJEM=S6  themes=A,B,C  cafe_id=1245109855  area=gangnam
+  성대역점    R_JIJEM=S2  themes=A,B,C  cafe_id=570522076   area=gyeonggi  (경기 수원시 장안구 율전동 292-7)
 
 API:
   GET http://www.signescape.com/sub/sub03_1.html
@@ -66,6 +67,14 @@ BRANCHES = [
         "themes":       ["A", "B", "C"],
         "area":         "gangnam",
         "address":      "서울 강남구 강남대로94길 67 도연빌딩 지하1층",
+    },
+    {
+        "cafe_id":      "570522076",
+        "branch_name":  "성대역점",
+        "jijem":        "S2",
+        "themes":       ["A", "B", "C"],
+        "area":         "gyeonggi",
+        "address":      "경기 수원시 장안구 율전동 292-7",
     },
 ]
 

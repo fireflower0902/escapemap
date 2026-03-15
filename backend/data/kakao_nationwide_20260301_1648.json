@@ -12,7 +12,8 @@
       "kakao_url": "http://place.map.kakao.com/1554942559",
       "homepage_url": "http://www.xn--vh3bw8qo2aba23i98on1f.com/",
       "lat": 33.4866583875411,
-      "lng": 126.490245461769
+      "lng": 126.490245461769,
+      "crawled": false
     },
     {
       "place_id": "166623372",
@@ -24,7 +25,8 @@
       "kakao_url": "http://place.map.kakao.com/166623372",
       "homepage_url": null,
       "lat": 33.5054385972164,
-      "lng": 126.540997415496
+      "lng": 126.540997415496,
+      "crawled": false
     },
     {
       "place_id": "1124781432",
@@ -36,7 +38,8 @@
       "kakao_url": "http://place.map.kakao.com/1124781432",
       "homepage_url": "https://naver.me/5rhz1olA",
       "lat": 34.80097944915506,
-      "lng": 126.42324920698731
+      "lng": 126.42324920698731,
+      "crawled": false
     },
     {
       "place_id": "902256384",
@@ -48,7 +51,8 @@
       "kakao_url": "http://place.map.kakao.com/902256384",
       "homepage_url": null,
       "lat": 34.9553716396503,
-      "lng": 127.484485751312
+      "lng": 127.484485751312,
+      "crawled": false
     },
     {
       "place_id": "1019017181",
@@ -60,7 +64,8 @@
       "kakao_url": "http://place.map.kakao.com/1019017181",
       "homepage_url": null,
       "lat": 35.0990061467249,
-      "lng": 129.029345082945
+      "lng": 129.029345082945,
+      "crawled": false
     },
     {
       "place_id": "1049164175",
@@ -72,7 +77,8 @@
       "kakao_url": "http://place.map.kakao.com/1049164175",
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 35.1066726796986,
-      "lng": 128.966358324694
+      "lng": 128.966358324694,
+      "crawled": false
     },
     {
       "place_id": "1023995566",
@@ -84,7 +90,8 @@
       "kakao_url": "http://place.map.kakao.com/1023995566",
       "homepage_url": null,
       "lat": 35.1083169384841,
-      "lng": 128.966661031518
+      "lng": 128.966661031518,
+      "crawled": false
     },
     {
       "place_id": "1544141348",
@@ -96,7 +103,8 @@
       "kakao_url": "http://place.map.kakao.com/1544141348",
       "homepage_url": null,
       "lat": 35.1904854927815,
-      "lng": 126.818342148097
+      "lng": 126.818342148097,
+      "crawled": false
     },
     {
       "place_id": "680681357",
@@ -108,7 +116,8 @@
       "kakao_url": "http://place.map.kakao.com/680681357",
       "homepage_url": "http://www.thecode-escape.com/",
       "lat": 35.1537451153988,
-      "lng": 126.852730208076
+      "lng": 126.852730208076,
+      "crawled": false
     },
     {
       "place_id": "1856406910",
@@ -120,7 +129,8 @@
       "kakao_url": "http://place.map.kakao.com/1856406910",
       "homepage_url": "http://kwangjutop.com/",
       "lat": 35.14846858127,
-      "lng": 126.914765741575
+      "lng": 126.914765741575,
+      "crawled": false
     },
     {
       "place_id": "632336157",
@@ -132,7 +142,8 @@
       "kakao_url": "http://place.map.kakao.com/632336157",
       "homepage_url": "http://naver.me/FOm9Wovi",
       "lat": 35.1472993501985,
-      "lng": 126.918454231448
+      "lng": 126.918454231448,
+      "crawled": false
     },
     {
       "place_id": "2102768222",
@@ -144,7 +155,8 @@
       "kakao_url": "http://place.map.kakao.com/2102768222",
       "homepage_url": null,
       "lat": 35.1477019818102,
-      "lng": 126.915420595704
+      "lng": 126.915420595704,
+      "crawled": false
     },
     {
       "place_id": "1393764461",
@@ -156,7 +168,8 @@
       "kakao_url": "http://place.map.kakao.com/1393764461",
       "homepage_url": null,
       "lat": 35.1475420012282,
-      "lng": 126.914793045424
+      "lng": 126.914793045424,
+      "crawled": false
     },
     {
       "place_id": "1459848720",
@@ -168,7 +181,8 @@
       "kakao_url": "http://place.map.kakao.com/1459848720",
       "homepage_url": "http://www.brain-escape.co.kr/",
       "lat": 35.1473185594744,
-      "lng": 126.914929356201
+      "lng": 126.914929356201,
+      "crawled": false
     },
     {
       "place_id": "79137052",
@@ -180,7 +194,8 @@
       "kakao_url": "http://place.map.kakao.com/79137052",
       "homepage_url": null,
       "lat": 35.14570859009939,
-      "lng": 126.9186665153119
+      "lng": 126.9186665153119,
+      "crawled": false
     },
     {
       "place_id": "942247508",
@@ -192,7 +207,8 @@
       "kakao_url": "http://place.map.kakao.com/942247508",
       "homepage_url": null,
       "lat": 35.175620094711256,
-      "lng": 126.91332127235876
+      "lng": 126.91332127235876,
+      "crawled": false
     },
     {
       "place_id": "786094598",
@@ -204,7 +220,8 @@
       "kakao_url": "http://place.map.kakao.com/786094598",
       "homepage_url": null,
       "lat": 35.1757000051403,
-      "lng": 126.912888660838
+      "lng": 126.912888660838,
+      "crawled": false
     },
     {
       "place_id": "923379950",
@@ -216,7 +233,8 @@
       "kakao_url": "http://place.map.kakao.com/923379950",
       "homepage_url": null,
       "lat": 35.1765940897478,
-      "lng": 126.914064543864
+      "lng": 126.914064543864,
+      "crawled": false
     },
     {
       "place_id": "100018735",
@@ -228,7 +246,8 @@
       "kakao_url": "http://place.map.kakao.com/100018735",
       "homepage_url": null,
       "lat": 35.177180119019,
-      "lng": 126.914272509779
+      "lng": 126.914272509779,
+      "crawled": false
     },
     {
       "place_id": "665041653",
@@ -240,7 +259,8 @@
       "kakao_url": "http://place.map.kakao.com/665041653",
       "homepage_url": "http://busantop.net/",
       "lat": 35.1546449229525,
-      "lng": 129.056088451415
+      "lng": 129.056088451415,
+      "crawled": false
     },
     {
       "place_id": "310013350",
@@ -252,7 +272,9 @@
       "kakao_url": "http://place.map.kakao.com/310013350",
       "homepage_url": null,
       "lat": 35.15522694994972,
-      "lng": 129.06065566700437
+      "lng": 129.06065566700437,
+      "crawled": true,
+      "script": "seoulescaperoom"
     },
     {
       "place_id": "1358303820",
@@ -264,7 +286,8 @@
       "kakao_url": "http://place.map.kakao.com/1358303820",
       "homepage_url": null,
       "lat": 35.1547145068696,
-      "lng": 129.060689922501
+      "lng": 129.060689922501,
+      "crawled": false
     },
     {
       "place_id": "1397923384",
@@ -276,7 +299,9 @@
       "kakao_url": "http://place.map.kakao.com/1397923384",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.1533460940538,
-      "lng": 129.060822185033
+      "lng": 129.060822185033,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "348406652",
@@ -288,7 +313,9 @@
       "kakao_url": "http://place.map.kakao.com/348406652",
       "homepage_url": "https://diaegg.com/",
       "lat": 35.1547268865528,
-      "lng": 129.061233378945
+      "lng": 129.061233378945,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "28574930",
@@ -300,7 +327,8 @@
       "kakao_url": "http://place.map.kakao.com/28574930",
       "homepage_url": "http://www.dumbndumber-sm.kr/",
       "lat": 35.1542033728041,
-      "lng": 129.061282712983
+      "lng": 129.061282712983,
+      "crawled": false
     },
     {
       "place_id": "629764977",
@@ -312,7 +340,9 @@
       "kakao_url": "http://place.map.kakao.com/629764977",
       "homepage_url": null,
       "lat": 35.1546417004784,
-      "lng": 129.061579060817
+      "lng": 129.061579060817,
+      "crawled": true,
+      "script": "xdungeon"
     },
     {
       "place_id": "886826713",
@@ -324,7 +354,8 @@
       "kakao_url": "http://place.map.kakao.com/886826713",
       "homepage_url": "https://playpointlab.com/",
       "lat": 35.1537407243543,
-      "lng": 129.061621061204
+      "lng": 129.061621061204,
+      "crawled": false
     },
     {
       "place_id": "1637143499",
@@ -336,7 +367,9 @@
       "kakao_url": "http://place.map.kakao.com/1637143499",
       "homepage_url": null,
       "lat": 35.2110193754337,
-      "lng": 129.007254905818
+      "lng": 129.007254905818,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "1495650283",
@@ -348,7 +381,8 @@
       "kakao_url": "http://place.map.kakao.com/1495650283",
       "homepage_url": null,
       "lat": 35.1504900299832,
-      "lng": 129.115303902946
+      "lng": 129.115303902946,
+      "crawled": false
     },
     {
       "place_id": "1502372343",
@@ -360,7 +394,8 @@
       "kakao_url": "http://place.map.kakao.com/1502372343",
       "homepage_url": null,
       "lat": 35.13632555156908,
-      "lng": 129.10138493110753
+      "lng": 129.10138493110753,
+      "crawled": false
     },
     {
       "place_id": "1865048385",
@@ -372,7 +407,8 @@
       "kakao_url": "http://place.map.kakao.com/1865048385",
       "homepage_url": null,
       "lat": 35.1364059638497,
-      "lng": 129.099553902412
+      "lng": 129.099553902412,
+      "crawled": false
     },
     {
       "place_id": "422613765",
@@ -384,7 +420,8 @@
       "kakao_url": "http://place.map.kakao.com/422613765",
       "homepage_url": "https://naver.me/FutFZ0bm",
       "lat": 35.1358010250439,
-      "lng": 129.10024483128
+      "lng": 129.10024483128,
+      "crawled": false
     },
     {
       "place_id": "1559912469",
@@ -396,7 +433,9 @@
       "kakao_url": "http://place.map.kakao.com/1559912469",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.1629603137861,
-      "lng": 129.158446705201
+      "lng": 129.158446705201,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "170158027",
@@ -408,7 +447,8 @@
       "kakao_url": "http://place.map.kakao.com/170158027",
       "homepage_url": "https://busan.breakoutescapegame.com/",
       "lat": 35.1606997562049,
-      "lng": 129.162515066175
+      "lng": 129.162515066175,
+      "crawled": false
     },
     {
       "place_id": "1097124167",
@@ -420,7 +460,8 @@
       "kakao_url": "http://place.map.kakao.com/1097124167",
       "homepage_url": "http://changwontop.net/",
       "lat": 35.2232887168606,
-      "lng": 128.685002123952
+      "lng": 128.685002123952,
+      "crawled": false
     },
     {
       "place_id": "27607543",
@@ -432,7 +473,8 @@
       "kakao_url": "http://place.map.kakao.com/27607543",
       "homepage_url": "http://www.timeescape.co.kr/",
       "lat": 35.2217154828727,
-      "lng": 128.685369356477
+      "lng": 128.685369356477,
+      "crawled": false
     },
     {
       "place_id": "1448469234",
@@ -444,7 +486,8 @@
       "kakao_url": "http://place.map.kakao.com/1448469234",
       "homepage_url": null,
       "lat": 35.2295772537064,
-      "lng": 129.08729289457474
+      "lng": 129.08729289457474,
+      "crawled": false
     },
     {
       "place_id": "1233678979",
@@ -456,7 +499,8 @@
       "kakao_url": "http://place.map.kakao.com/1233678979",
       "homepage_url": "http://www.thetimeescape.co.kr/",
       "lat": 35.3172176258087,
-      "lng": 129.002778510431
+      "lng": 129.002778510431,
+      "crawled": false
     },
     {
       "place_id": "27575809",
@@ -468,7 +512,8 @@
       "kakao_url": "http://place.map.kakao.com/27575809",
       "homepage_url": null,
       "lat": 35.5401320593061,
-      "lng": 129.336304482734
+      "lng": 129.336304482734,
+      "crawled": false
     },
     {
       "place_id": "284779798",
@@ -480,7 +525,8 @@
       "kakao_url": "http://place.map.kakao.com/284779798",
       "homepage_url": "http://www.ulsantop.net/",
       "lat": 35.540187572777,
-      "lng": 129.336601544315
+      "lng": 129.336601544315,
+      "crawled": false
     },
     {
       "place_id": "1713311920",
@@ -492,7 +538,8 @@
       "kakao_url": "http://place.map.kakao.com/1713311920",
       "homepage_url": "http://zescape.co.kr/",
       "lat": 35.5537442009091,
-      "lng": 129.319939804641
+      "lng": 129.319939804641,
+      "crawled": false
     },
     {
       "place_id": "27545114",
@@ -504,7 +551,8 @@
       "kakao_url": "http://place.map.kakao.com/27545114",
       "homepage_url": "http://www.murderparker.com/",
       "lat": 35.81335354377204,
-      "lng": 127.14668987378973
+      "lng": 127.14668987378973,
+      "crawled": false
     },
     {
       "place_id": "2055691742",
@@ -516,7 +564,9 @@
       "kakao_url": "http://place.map.kakao.com/2055691742",
       "homepage_url": "http://dcodeescape.co.kr/layout/res/home.php?go=main",
       "lat": 35.81923478089661,
-      "lng": 127.14251784651249
+      "lng": 127.14251784651249,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1292714537",
@@ -528,7 +578,8 @@
       "kakao_url": "http://place.map.kakao.com/1292714537",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.8195663247168,
-      "lng": 127.145625709002
+      "lng": 127.145625709002,
+      "crawled": false
     },
     {
       "place_id": "27522878",
@@ -540,7 +591,8 @@
       "kakao_url": "http://place.map.kakao.com/27522878",
       "homepage_url": "http://junju.cubeescape.co.kr/?sd=3&sc=2_1&rbranch=4",
       "lat": 35.8155336841633,
-      "lng": 127.110466358005
+      "lng": 127.110466358005,
+      "crawled": false
     },
     {
       "place_id": "48992610",
@@ -552,7 +604,9 @@
       "kakao_url": "http://place.map.kakao.com/48992610",
       "homepage_url": null,
       "lat": 35.81558879601471,
-      "lng": 127.10833748432503
+      "lng": 127.10833748432503,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "399727939",
@@ -564,7 +618,8 @@
       "kakao_url": "http://place.map.kakao.com/399727939",
       "homepage_url": "http://murderparker.com/",
       "lat": 35.815525263215264,
-      "lng": 127.10782950441292
+      "lng": 127.10782950441292,
+      "crawled": false
     },
     {
       "place_id": "625095198",
@@ -576,7 +631,8 @@
       "kakao_url": "http://place.map.kakao.com/625095198",
       "homepage_url": null,
       "lat": 35.8173331510539,
-      "lng": 127.108875422899
+      "lng": 127.108875422899,
+      "crawled": false
     },
     {
       "place_id": "431508316",
@@ -588,7 +644,8 @@
       "kakao_url": "http://place.map.kakao.com/431508316",
       "homepage_url": null,
       "lat": 35.8432550344227,
-      "lng": 127.125627345476
+      "lng": 127.125627345476,
+      "crawled": false
     },
     {
       "place_id": "929019886",
@@ -600,7 +657,8 @@
       "kakao_url": "http://place.map.kakao.com/929019886",
       "homepage_url": null,
       "lat": 35.8680396267761,
-      "lng": 128.594023857003
+      "lng": 128.594023857003,
+      "crawled": false
     },
     {
       "place_id": "7690632",
@@ -612,7 +670,8 @@
       "kakao_url": "http://place.map.kakao.com/7690632",
       "homepage_url": "http://xn--2e0b040a4xj.com/",
       "lat": 35.868349374051576,
-      "lng": 128.59465337103407
+      "lng": 128.59465337103407,
+      "crawled": false
     },
     {
       "place_id": "338628640",
@@ -624,7 +683,8 @@
       "kakao_url": "http://place.map.kakao.com/338628640",
       "homepage_url": "http://alice-escape.com/",
       "lat": 35.8688132365766,
-      "lng": 128.595620332138
+      "lng": 128.595620332138,
+      "crawled": false
     },
     {
       "place_id": "1443757324",
@@ -636,7 +696,8 @@
       "kakao_url": "http://place.map.kakao.com/1443757324",
       "homepage_url": null,
       "lat": 35.8677333477672,
-      "lng": 128.595576535882
+      "lng": 128.595576535882,
+      "crawled": false
     },
     {
       "place_id": "76631654",
@@ -648,7 +709,8 @@
       "kakao_url": "http://place.map.kakao.com/76631654",
       "homepage_url": "https://playthe.world/",
       "lat": 35.8677284444896,
-      "lng": 128.596962541838
+      "lng": 128.596962541838,
+      "crawled": false
     },
     {
       "place_id": "2039293420",
@@ -660,7 +722,8 @@
       "kakao_url": "http://place.map.kakao.com/2039293420",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.8677031015182,
-      "lng": 128.59697089014
+      "lng": 128.59697089014,
+      "crawled": false
     },
     {
       "place_id": "858962026",
@@ -672,7 +735,8 @@
       "kakao_url": "http://place.map.kakao.com/858962026",
       "homepage_url": "http://www.v-escape.co.kr/",
       "lat": 35.8673284563281,
-      "lng": 128.597224648638
+      "lng": 128.597224648638,
+      "crawled": false
     },
     {
       "place_id": "892545149",
@@ -684,7 +748,9 @@
       "kakao_url": "http://place.map.kakao.com/892545149",
       "homepage_url": "https://www.seoul-escape.com/reservation?branch=4#list",
       "lat": 35.8684597045386,
-      "lng": 128.598217194169
+      "lng": 128.598217194169,
+      "crawled": true,
+      "script": "seoulescaperoom"
     },
     {
       "place_id": "1958696909",
@@ -696,7 +762,8 @@
       "kakao_url": "http://place.map.kakao.com/1958696909",
       "homepage_url": "http://www.xn--jj0b998aq3cptw.com/",
       "lat": 35.8664275998598,
-      "lng": 128.596932008081
+      "lng": 128.596932008081,
+      "crawled": false
     },
     {
       "place_id": "1254330051",
@@ -708,7 +775,8 @@
       "kakao_url": "http://place.map.kakao.com/1254330051",
       "homepage_url": "http://v-escape.co.kr/",
       "lat": 35.8682883269716,
-      "lng": 128.598229251739
+      "lng": 128.598229251739,
+      "crawled": false
     },
     {
       "place_id": "363716272",
@@ -720,7 +788,8 @@
       "kakao_url": "http://place.map.kakao.com/363716272",
       "homepage_url": null,
       "lat": 35.8672282908109,
-      "lng": 128.597844831076
+      "lng": 128.597844831076,
+      "crawled": false
     },
     {
       "place_id": "1788375645",
@@ -732,7 +801,8 @@
       "kakao_url": "http://place.map.kakao.com/1788375645",
       "homepage_url": "http://murderparker.com/",
       "lat": 35.86582681031284,
-      "lng": 128.59711479905405
+      "lng": 128.59711479905405,
+      "crawled": false
     },
     {
       "place_id": "570199530",
@@ -744,7 +814,8 @@
       "kakao_url": "http://place.map.kakao.com/570199530",
       "homepage_url": null,
       "lat": 35.8477272478859,
-      "lng": 129.214141360981
+      "lng": 129.214141360981,
+      "crawled": false
     },
     {
       "place_id": "1394599334",
@@ -756,7 +827,8 @@
       "kakao_url": "http://place.map.kakao.com/1394599334",
       "homepage_url": "http://www.geniusescape.kr/",
       "lat": 35.95006790544734,
-      "lng": 126.93862813669142
+      "lng": 126.93862813669142,
+      "crawled": false
     },
     {
       "place_id": "1727885052",
@@ -768,7 +840,8 @@
       "kakao_url": "http://place.map.kakao.com/1727885052",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.9605883171265,
-      "lng": 126.958003972151
+      "lng": 126.958003972151,
+      "crawled": false
     },
     {
       "place_id": "130115446",
@@ -780,7 +853,8 @@
       "kakao_url": "http://place.map.kakao.com/130115446",
       "homepage_url": "http://www.murderparker.com/",
       "lat": 35.9606928779324,
-      "lng": 126.95805269273
+      "lng": 126.95805269273,
+      "crawled": false
     },
     {
       "place_id": "202030183",
@@ -792,7 +866,8 @@
       "kakao_url": "http://place.map.kakao.com/202030183",
       "homepage_url": null,
       "lat": 36.0934785693831,
-      "lng": 128.429770533129
+      "lng": 128.429770533129,
+      "crawled": false
     },
     {
       "place_id": "332798783",
@@ -804,7 +879,8 @@
       "kakao_url": "http://place.map.kakao.com/332798783",
       "homepage_url": null,
       "lat": 36.03798605077034,
-      "lng": 129.3646605001196
+      "lng": 129.3646605001196,
+      "crawled": false
     },
     {
       "place_id": "1266197087",
@@ -816,7 +892,8 @@
       "kakao_url": "http://place.map.kakao.com/1266197087",
       "homepage_url": null,
       "lat": 36.0357183174381,
-      "lng": 129.361870444431
+      "lng": 129.361870444431,
+      "crawled": false
     },
     {
       "place_id": "167846502",
@@ -828,7 +905,8 @@
       "kakao_url": "http://place.map.kakao.com/167846502",
       "homepage_url": "http://daejeon.cubeescape.co.kr/",
       "lat": 36.3507540874644,
-      "lng": 127.374974417144
+      "lng": 127.374974417144,
+      "crawled": false
     },
     {
       "place_id": "2024880532",
@@ -840,7 +918,8 @@
       "kakao_url": "http://place.map.kakao.com/2024880532",
       "homepage_url": "http://djdsesc.co.kr/",
       "lat": 36.3506412544482,
-      "lng": 127.376466688717
+      "lng": 127.376466688717,
+      "crawled": false
     },
     {
       "place_id": "1696389756",
@@ -852,7 +931,8 @@
       "kakao_url": "http://place.map.kakao.com/1696389756",
       "homepage_url": null,
       "lat": 36.351780760965696,
-      "lng": 127.37633291813582
+      "lng": 127.37633291813582,
+      "crawled": false
     },
     {
       "place_id": "1836271694",
@@ -864,7 +944,9 @@
       "kakao_url": "http://place.map.kakao.com/1836271694",
       "homepage_url": "https://www.doorescape.co.kr/reservation.html?keycode=fGDxtefVDEyWczai",
       "lat": 36.3537390289388,
-      "lng": 127.34403947776
+      "lng": 127.34403947776,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "27495854",
@@ -876,7 +958,9 @@
       "kakao_url": "http://place.map.kakao.com/27495854",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 36.3618178556047,
-      "lng": 127.3503134380965
+      "lng": 127.3503134380965,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "2143447304",
@@ -888,7 +972,8 @@
       "kakao_url": "http://place.map.kakao.com/2143447304",
       "homepage_url": null,
       "lat": 36.3303060111757,
-      "lng": 127.42516439151
+      "lng": 127.42516439151,
+      "crawled": false
     },
     {
       "place_id": "472522287",
@@ -900,7 +985,8 @@
       "kakao_url": "http://place.map.kakao.com/472522287",
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 36.3287929921833,
-      "lng": 127.428429412106
+      "lng": 127.428429412106,
+      "crawled": false
     },
     {
       "place_id": "2138163704",
@@ -912,7 +998,8 @@
       "kakao_url": "http://place.map.kakao.com/2138163704",
       "homepage_url": null,
       "lat": 36.3276817883439,
-      "lng": 127.42794109223
+      "lng": 127.42794109223,
+      "crawled": false
     },
     {
       "place_id": "27523824",
@@ -924,7 +1011,9 @@
       "kakao_url": "http://place.map.kakao.com/27523824",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 36.3273665576773,
-      "lng": 127.427638667932
+      "lng": 127.427638667932,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "1973717836",
@@ -936,7 +1025,8 @@
       "kakao_url": "http://place.map.kakao.com/1973717836",
       "homepage_url": "http://daejeontop.net/",
       "lat": 36.3274755253461,
-      "lng": 127.427407612249
+      "lng": 127.427407612249,
+      "crawled": false
     },
     {
       "place_id": "1908328454",
@@ -948,7 +1038,8 @@
       "kakao_url": "http://place.map.kakao.com/1908328454",
       "homepage_url": null,
       "lat": 36.3279407902734,
-      "lng": 127.427335534438
+      "lng": 127.427335534438,
+      "crawled": false
     },
     {
       "place_id": "1224388097",
@@ -960,7 +1051,8 @@
       "kakao_url": "http://place.map.kakao.com/1224388097",
       "homepage_url": null,
       "lat": 36.3276139265632,
-      "lng": 127.427009660188
+      "lng": 127.427009660188,
+      "crawled": false
     },
     {
       "place_id": "2011481622",
@@ -972,7 +1064,8 @@
       "kakao_url": "http://place.map.kakao.com/2011481622",
       "homepage_url": null,
       "lat": 36.6345500226719,
-      "lng": 127.489014718413
+      "lng": 127.489014718413,
+      "crawled": false
     },
     {
       "place_id": "164781377",
@@ -984,7 +1077,9 @@
       "kakao_url": "http://place.map.kakao.com/164781377",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 36.6342308498254,
-      "lng": 127.490372315226
+      "lng": 127.490372315226,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "1574310774",
@@ -996,7 +1091,8 @@
       "kakao_url": "http://place.map.kakao.com/1574310774",
       "homepage_url": null,
       "lat": 36.6362419818775,
-      "lng": 127.488663135938
+      "lng": 127.488663135938,
+      "crawled": false
     },
     {
       "place_id": "964420524",
@@ -1008,7 +1104,8 @@
       "kakao_url": "http://place.map.kakao.com/964420524",
       "homepage_url": null,
       "lat": 36.6365247212016,
-      "lng": 127.489154665322
+      "lng": 127.489154665322,
+      "crawled": false
     },
     {
       "place_id": "1488706210",
@@ -1020,7 +1117,8 @@
       "kakao_url": "http://place.map.kakao.com/1488706210",
       "homepage_url": "https://cheongju.realworld.to/",
       "lat": 36.62694406013932,
-      "lng": 127.4302627431935
+      "lng": 127.4302627431935,
+      "crawled": false
     },
     {
       "place_id": "27583768",
@@ -1032,7 +1130,8 @@
       "kakao_url": "http://place.map.kakao.com/27583768",
       "homepage_url": "https://naver.me/55Iy560r",
       "lat": 36.8183512343265,
-      "lng": 127.155529409898
+      "lng": 127.155529409898,
+      "crawled": false
     },
     {
       "place_id": "49858990",
@@ -1044,7 +1143,8 @@
       "kakao_url": "http://place.map.kakao.com/49858990",
       "homepage_url": null,
       "lat": 36.8183903957671,
-      "lng": 127.155901590441
+      "lng": 127.155901590441,
+      "crawled": false
     },
     {
       "place_id": "908334376",
@@ -1056,7 +1156,8 @@
       "kakao_url": "http://place.map.kakao.com/908334376",
       "homepage_url": "https://naver.me/GgeP8002",
       "lat": 36.8184946594779,
-      "lng": 127.156103543852
+      "lng": 127.156103543852,
+      "crawled": false
     },
     {
       "place_id": "27559974",
@@ -1068,7 +1169,8 @@
       "kakao_url": "http://place.map.kakao.com/27559974",
       "homepage_url": "http://www.caesc.co.kr/",
       "lat": 36.8183885181645,
-      "lng": 127.157327227734
+      "lng": 127.157327227734,
+      "crawled": false
     },
     {
       "place_id": "77278349",
@@ -1080,7 +1182,8 @@
       "kakao_url": "http://place.map.kakao.com/77278349",
       "homepage_url": null,
       "lat": 36.832398440128,
-      "lng": 127.135015671934
+      "lng": 127.135015671934,
+      "crawled": false
     },
     {
       "place_id": "2030700012",
@@ -1092,7 +1195,8 @@
       "kakao_url": "http://place.map.kakao.com/2030700012",
       "homepage_url": "https://playpointlab.com/office/detail?bid=7",
       "lat": 36.8339852226794,
-      "lng": 127.136651779187
+      "lng": 127.136651779187,
+      "crawled": false
     },
     {
       "place_id": "1741880444",
@@ -1104,7 +1208,8 @@
       "kakao_url": "http://place.map.kakao.com/1741880444",
       "homepage_url": null,
       "lat": 36.8935722300859,
-      "lng": 126.62967497188
+      "lng": 126.62967497188,
+      "crawled": false
     },
     {
       "place_id": "1850589033",
@@ -1116,7 +1221,9 @@
       "kakao_url": "http://place.map.kakao.com/1850589033",
       "homepage_url": "http://www.master-key.co.kr/booking/bk_detail?bid=27",
       "lat": 36.99196867011943,
-      "lng": 127.0894698573269
+      "lng": 127.0894698573269,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "767938268",
@@ -1128,7 +1235,8 @@
       "kakao_url": "http://place.map.kakao.com/767938268",
       "homepage_url": "https://playthe.world/",
       "lat": 36.9919744539883,
-      "lng": 127.088967735706
+      "lng": 127.088967735706,
+      "crawled": false
     },
     {
       "place_id": "1314964065",
@@ -1140,7 +1248,8 @@
       "kakao_url": "http://place.map.kakao.com/1314964065",
       "homepage_url": null,
       "lat": 36.9926559311617,
-      "lng": 127.088622540826
+      "lng": 127.088622540826,
+      "crawled": false
     },
     {
       "place_id": "728789378",
@@ -1152,7 +1261,8 @@
       "kakao_url": "http://place.map.kakao.com/728789378",
       "homepage_url": null,
       "lat": 36.992041877521785,
-      "lng": 127.0879702965413
+      "lng": 127.0879702965413,
+      "crawled": false
     },
     {
       "place_id": "136198096",
@@ -1164,7 +1274,8 @@
       "kakao_url": "http://place.map.kakao.com/136198096",
       "homepage_url": "http://routeescape.com/",
       "lat": 36.9911198248742,
-      "lng": 127.087079567424
+      "lng": 127.087079567424,
+      "crawled": false
     },
     {
       "place_id": "1231888375",
@@ -1176,7 +1287,8 @@
       "kakao_url": "http://place.map.kakao.com/1231888375",
       "homepage_url": null,
       "lat": 37.11515053613487,
-      "lng": 126.91247818814807
+      "lng": 126.91247818814807,
+      "crawled": false
     },
     {
       "place_id": "1599918263",
@@ -1188,7 +1300,9 @@
       "kakao_url": "http://place.map.kakao.com/1599918263",
       "homepage_url": "https://xcape.kr/sw",
       "lat": 37.2637893812232,
-      "lng": 127.031602003699
+      "lng": 127.031602003699,
+      "crawled": true,
+      "script": "xcape"
     },
     {
       "place_id": "1166453549",
@@ -1200,7 +1314,8 @@
       "kakao_url": "http://place.map.kakao.com/1166453549",
       "homepage_url": null,
       "lat": 37.2639426413036,
-      "lng": 127.031289789894
+      "lng": 127.031289789894,
+      "crawled": false
     },
     {
       "place_id": "1121229740",
@@ -1212,7 +1327,8 @@
       "kakao_url": "http://place.map.kakao.com/1121229740",
       "homepage_url": null,
       "lat": 37.2640617021611,
-      "lng": 127.030819730609
+      "lng": 127.030819730609,
+      "crawled": false
     },
     {
       "place_id": "27324626",
@@ -1224,7 +1340,8 @@
       "kakao_url": "http://place.map.kakao.com/27324626",
       "homepage_url": "http://www.no1escape.com/",
       "lat": 37.2648525938977,
-      "lng": 127.031665580708
+      "lng": 127.031665580708,
+      "crawled": false
     },
     {
       "place_id": "444802506",
@@ -1236,7 +1353,8 @@
       "kakao_url": "http://place.map.kakao.com/444802506",
       "homepage_url": "https://xn--h32b25mu4dba377gzscs2k.com/",
       "lat": 37.2649858113239,
-      "lng": 127.03217295406
+      "lng": 127.03217295406,
+      "crawled": false
     },
     {
       "place_id": "776353707",
@@ -1248,7 +1366,9 @@
       "kakao_url": "http://place.map.kakao.com/776353707",
       "homepage_url": "https://xn--z92b74ha268d.com/",
       "lat": 37.2650796226147,
-      "lng": 127.031791941629
+      "lng": 127.031791941629,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "836762242",
@@ -1260,7 +1380,8 @@
       "kakao_url": "http://place.map.kakao.com/836762242",
       "homepage_url": "http://suwontop.net/",
       "lat": 37.26525129833335,
-      "lng": 127.02996002723235
+      "lng": 127.02996002723235,
+      "crawled": false
     },
     {
       "place_id": "115701517",
@@ -1272,7 +1393,8 @@
       "kakao_url": "http://place.map.kakao.com/115701517",
       "homepage_url": "http://www.signescape.com/",
       "lat": 37.2652491922625,
-      "lng": 127.031138134649
+      "lng": 127.031138134649,
+      "crawled": false
     },
     {
       "place_id": "1458988059",
@@ -1284,7 +1406,8 @@
       "kakao_url": "http://place.map.kakao.com/1458988059",
       "homepage_url": null,
       "lat": 37.265518583571,
-      "lng": 127.031214907429
+      "lng": 127.031214907429,
+      "crawled": false
     },
     {
       "place_id": "901719185",
@@ -1296,7 +1419,8 @@
       "kakao_url": "http://place.map.kakao.com/901719185",
       "homepage_url": null,
       "lat": 37.2667859116457,
-      "lng": 127.032833248416
+      "lng": 127.032833248416,
+      "crawled": false
     },
     {
       "place_id": "1834906043",
@@ -1308,7 +1432,9 @@
       "kakao_url": "http://place.map.kakao.com/1834906043",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 37.206529379546,
-      "lng": 127.073064933767
+      "lng": 127.073064933767,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "1945917235",
@@ -1320,7 +1446,8 @@
       "kakao_url": "http://place.map.kakao.com/1945917235",
       "homepage_url": "http://signalhunter.co.kr/",
       "lat": 37.20580231736612,
-      "lng": 127.07292567442839
+      "lng": 127.07292567442839,
+      "crawled": false
     },
     {
       "place_id": "1875954710",
@@ -1332,7 +1459,8 @@
       "kakao_url": "http://place.map.kakao.com/1875954710",
       "homepage_url": "http://xn--bb0b44mb8pfwi.kr/",
       "lat": 37.2526557877126,
-      "lng": 127.074512802644
+      "lng": 127.074512802644,
+      "crawled": false
     },
     {
       "place_id": "1956789824",
@@ -1344,7 +1472,8 @@
       "kakao_url": "http://place.map.kakao.com/1956789824",
       "homepage_url": "http://movieescape.co.kr/",
       "lat": 37.2056568617354,
-      "lng": 127.073550735913
+      "lng": 127.073550735913,
+      "crawled": false
     },
     {
       "place_id": "1591055284",
@@ -1356,7 +1485,8 @@
       "kakao_url": "http://place.map.kakao.com/1591055284",
       "homepage_url": null,
       "lat": 37.2526476879386,
-      "lng": 127.075916144109
+      "lng": 127.075916144109,
+      "crawled": false
     },
     {
       "place_id": "779900297",
@@ -1368,7 +1498,8 @@
       "kakao_url": "http://place.map.kakao.com/779900297",
       "homepage_url": null,
       "lat": 37.267203126002,
-      "lng": 127.001917716736
+      "lng": 127.001917716736,
+      "crawled": false
     },
     {
       "place_id": "475592733",
@@ -1380,7 +1511,8 @@
       "kakao_url": "http://place.map.kakao.com/475592733",
       "homepage_url": "http://rememberesc.com/",
       "lat": 37.2681257577486,
-      "lng": 127.003454412562
+      "lng": 127.003454412562,
+      "crawled": false
     },
     {
       "place_id": "857573680",
@@ -1392,7 +1524,8 @@
       "kakao_url": "http://place.map.kakao.com/857573680",
       "homepage_url": "http://route-sw.com/",
       "lat": 37.2677869868703,
-      "lng": 127.002649423354
+      "lng": 127.002649423354,
+      "crawled": false
     },
     {
       "place_id": "716398207",
@@ -1404,7 +1537,8 @@
       "kakao_url": "http://place.map.kakao.com/716398207",
       "homepage_url": "https://naver.me/FHAi48Sx",
       "lat": 37.267836554657784,
-      "lng": 127.00212855939164
+      "lng": 127.00212855939164,
+      "crawled": false
     },
     {
       "place_id": "1855837227",
@@ -1416,7 +1550,8 @@
       "kakao_url": "http://place.map.kakao.com/1855837227",
       "homepage_url": "http://movieescape.kr/",
       "lat": 37.201069865957216,
-      "lng": 127.0716629092662
+      "lng": 127.0716629092662,
+      "crawled": false
     },
     {
       "place_id": "2021007589",
@@ -1428,7 +1563,8 @@
       "kakao_url": "http://place.map.kakao.com/2021007589",
       "homepage_url": null,
       "lat": 37.27773451698202,
-      "lng": 127.15317932136549
+      "lng": 127.15317932136549,
+      "crawled": false
     },
     {
       "place_id": "461296797",
@@ -1440,7 +1576,8 @@
       "kakao_url": "http://place.map.kakao.com/461296797",
       "homepage_url": null,
       "lat": 37.2014719007146,
-      "lng": 128.853605774715
+      "lng": 128.853605774715,
+      "crawled": false
     },
     {
       "place_id": "1767938917",
@@ -1452,7 +1589,8 @@
       "kakao_url": "http://place.map.kakao.com/1767938917",
       "homepage_url": "http://dreampicnicescape.com/",
       "lat": 37.3179435779109,
-      "lng": 126.835644776617
+      "lng": 126.835644776617,
+      "crawled": false
     },
     {
       "place_id": "1772504569",
@@ -1464,7 +1602,8 @@
       "kakao_url": "http://place.map.kakao.com/1772504569",
       "homepage_url": "http://reverseesc.com/",
       "lat": 37.3184319371783,
-      "lng": 126.83760221459
+      "lng": 126.83760221459,
+      "crawled": false
     },
     {
       "place_id": "1609773844",
@@ -1476,7 +1615,8 @@
       "kakao_url": "http://place.map.kakao.com/1609773844",
       "homepage_url": "http://www.routeescape.co.kr/",
       "lat": 37.3180545788333,
-      "lng": 126.83772938076
+      "lng": 126.83772938076,
+      "crawled": false
     },
     {
       "place_id": "1900192470",
@@ -1488,7 +1628,8 @@
       "kakao_url": "http://place.map.kakao.com/1900192470",
       "homepage_url": null,
       "lat": 37.3185667905929,
-      "lng": 126.838039654803
+      "lng": 126.838039654803,
+      "crawled": false
     },
     {
       "place_id": "27609271",
@@ -1500,7 +1641,9 @@
       "kakao_url": "http://place.map.kakao.com/27609271",
       "homepage_url": "http://doorescape.co.kr/",
       "lat": 37.3176809290009,
-      "lng": 126.838592096552
+      "lng": 126.838592096552,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "163640808",
@@ -1512,7 +1655,8 @@
       "kakao_url": "http://place.map.kakao.com/163640808",
       "homepage_url": "http://bit.ly/3z5y45w",
       "lat": 37.3597473801199,
-      "lng": 126.931301945857
+      "lng": 126.931301945857,
+      "crawled": false
     },
     {
       "place_id": "570522076",
@@ -1524,7 +1668,9 @@
       "kakao_url": "http://place.map.kakao.com/570522076",
       "homepage_url": "http://www.signescape.com/",
       "lat": 37.29820957232622,
-      "lng": 126.97025247922491
+      "lng": 126.97025247922491,
+      "crawled": true,
+      "script": "signescape"
     },
     {
       "place_id": "215947527",
@@ -1536,7 +1682,8 @@
       "kakao_url": "http://place.map.kakao.com/215947527",
       "homepage_url": "http://signalhunter.co.kr/",
       "lat": 37.2895096533147,
-      "lng": 127.047536420266
+      "lng": 127.047536420266,
+      "crawled": false
     },
     {
       "place_id": "582885260",
@@ -1548,7 +1695,9 @@
       "kakao_url": "http://place.map.kakao.com/582885260",
       "homepage_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=106#reservation",
       "lat": 37.3241223520003,
-      "lng": 127.096025793167
+      "lng": 127.096025793167,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "1831030495",
@@ -1560,7 +1709,8 @@
       "kakao_url": "http://place.map.kakao.com/1831030495",
       "homepage_url": null,
       "lat": 37.3207499157597,
-      "lng": 127.110342928387
+      "lng": 127.110342928387,
+      "crawled": false
     },
     {
       "place_id": "636394528",
@@ -1572,7 +1722,9 @@
       "kakao_url": "http://place.map.kakao.com/636394528",
       "homepage_url": "http://legendescape.com/",
       "lat": 37.2806539373307,
-      "lng": 127.442990139842
+      "lng": 127.442990139842,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1416262413",
@@ -1584,7 +1736,8 @@
       "kakao_url": "http://place.map.kakao.com/1416262413",
       "homepage_url": "http://www.playescape.co.kr/",
       "lat": 37.3474661976531,
-      "lng": 127.931837123657
+      "lng": 127.931837123657,
+      "crawled": false
     },
     {
       "place_id": "588118043",
@@ -1596,7 +1749,8 @@
       "kakao_url": "http://place.map.kakao.com/588118043",
       "homepage_url": "https://sherlock-holmes.co.kr/reservation/",
       "lat": 37.32452601791517,
-      "lng": 127.98053652825116
+      "lng": 127.98053652825116,
+      "crawled": false
     },
     {
       "place_id": "776644226",
@@ -1608,7 +1762,8 @@
       "kakao_url": "http://place.map.kakao.com/776644226",
       "homepage_url": null,
       "lat": 37.4015158014326,
-      "lng": 126.722062661366
+      "lng": 126.722062661366,
+      "crawled": false
     },
     {
       "place_id": "1321479252",
@@ -1620,7 +1775,9 @@
       "kakao_url": "http://place.map.kakao.com/1321479252",
       "homepage_url": "http://www.doomescape.com/",
       "lat": 37.4440052063118,
-      "lng": 126.703257497191
+      "lng": 126.703257497191,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "27564986",
@@ -1632,7 +1789,8 @@
       "kakao_url": "http://place.map.kakao.com/27564986",
       "homepage_url": "http://incheon.cubeescape.co.kr/",
       "lat": 37.4441445246855,
-      "lng": 126.702764244741
+      "lng": 126.702764244741,
+      "crawled": false
     },
     {
       "place_id": "1475074228",
@@ -1644,7 +1802,8 @@
       "kakao_url": "http://place.map.kakao.com/1475074228",
       "homepage_url": "http://www.code-k.co.kr/",
       "lat": 37.4442390997788,
-      "lng": 126.701679020305
+      "lng": 126.701679020305,
+      "crawled": false
     },
     {
       "place_id": "997136500",
@@ -1656,7 +1815,9 @@
       "kakao_url": "http://place.map.kakao.com/997136500",
       "homepage_url": "http://www.doomescape.com/",
       "lat": 37.446429630150696,
-      "lng": 126.70174716845813
+      "lng": 126.70174716845813,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1425246210",
@@ -1668,7 +1829,9 @@
       "kakao_url": "http://place.map.kakao.com/1425246210",
       "homepage_url": "http://oclock-escape.com/",
       "lat": 37.3692240043034,
-      "lng": 126.730185921928
+      "lng": 126.730185921928,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "455356224",
@@ -1680,7 +1843,8 @@
       "kakao_url": "http://place.map.kakao.com/455356224",
       "homepage_url": "http://cold-case.co.kr/",
       "lat": 37.4514846322409,
-      "lng": 126.657031501481
+      "lng": 126.657031501481,
+      "crawled": false
     },
     {
       "place_id": "255097329",
@@ -1692,7 +1856,8 @@
       "kakao_url": "http://place.map.kakao.com/255097329",
       "homepage_url": null,
       "lat": 37.4001626799309,
-      "lng": 126.922332693405
+      "lng": 126.922332693405,
+      "crawled": false
     },
     {
       "place_id": "442981346",
@@ -1704,7 +1869,8 @@
       "kakao_url": "http://place.map.kakao.com/442981346",
       "homepage_url": "http://www.darockesc.com/",
       "lat": 37.398724959352,
-      "lng": 126.922805125389
+      "lng": 126.922805125389,
+      "crawled": false
     },
     {
       "place_id": "52252534",
@@ -1716,7 +1882,8 @@
       "kakao_url": "http://place.map.kakao.com/52252534",
       "homepage_url": null,
       "lat": 37.3917835286896,
-      "lng": 126.951766684208
+      "lng": 126.951766684208,
+      "crawled": false
     },
     {
       "place_id": "1888259527",
@@ -1728,7 +1895,8 @@
       "kakao_url": "http://place.map.kakao.com/1888259527",
       "homepage_url": null,
       "lat": 37.3911410965725,
-      "lng": 126.954021096357
+      "lng": 126.954021096357,
+      "crawled": false
     },
     {
       "place_id": "713424921",
@@ -1740,7 +1908,8 @@
       "kakao_url": "http://place.map.kakao.com/713424921",
       "homepage_url": "https://nabijam.com/",
       "lat": 37.391140197315,
-      "lng": 126.954025613941
+      "lng": 126.954025613941,
+      "crawled": false
     },
     {
       "place_id": "704757588",
@@ -1752,7 +1921,8 @@
       "kakao_url": "http://place.map.kakao.com/704757588",
       "homepage_url": "https://nabijam.com/",
       "lat": 37.3903275153335,
-      "lng": 126.954130000914
+      "lng": 126.954130000914,
+      "crawled": false
     },
     {
       "place_id": "1396409942",
@@ -1764,7 +1934,9 @@
       "kakao_url": "http://place.map.kakao.com/1396409942",
       "homepage_url": "http://sherlock-holmes.co.kr/",
       "lat": 37.4116097380947,
-      "lng": 127.12704904689
+      "lng": 127.12704904689,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "657876723",
@@ -1776,7 +1948,8 @@
       "kakao_url": "http://place.map.kakao.com/657876723",
       "homepage_url": null,
       "lat": 37.4326022612831,
-      "lng": 127.131427780657
+      "lng": 127.131427780657,
+      "crawled": false
     },
     {
       "place_id": "1411698841",
@@ -1788,7 +1961,8 @@
       "kakao_url": "http://place.map.kakao.com/1411698841",
       "homepage_url": null,
       "lat": 37.3865491212185,
-      "lng": 127.125001308546
+      "lng": 127.125001308546,
+      "crawled": false
     },
     {
       "place_id": "505122419",
@@ -1800,7 +1974,9 @@
       "kakao_url": "http://place.map.kakao.com/505122419",
       "homepage_url": "https://xn--z92b74ha268d.com/",
       "lat": 37.3862261780538,
-      "lng": 127.123645751053
+      "lng": 127.123645751053,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1968639091",
@@ -1812,7 +1988,9 @@
       "kakao_url": "http://place.map.kakao.com/1968639091",
       "homepage_url": "http://legendescape.com/",
       "lat": 37.3859192746863,
-      "lng": 127.124175961622
+      "lng": 127.124175961622,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "816654453",
@@ -1824,7 +2002,9 @@
       "kakao_url": "http://place.map.kakao.com/816654453",
       "homepage_url": "http://sherlock-holmes.co.kr/",
       "lat": 37.383830976850355,
-      "lng": 127.12218295810966
+      "lng": 127.12218295810966,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "802938757",
@@ -1836,7 +2016,8 @@
       "kakao_url": "http://place.map.kakao.com/802938757",
       "homepage_url": "http://roomsa.co.kr/",
       "lat": 37.4937462104866,
-      "lng": 126.723293053491
+      "lng": 126.723293053491,
+      "crawled": false
     },
     {
       "place_id": "1460830485",
@@ -1848,7 +2029,9 @@
       "kakao_url": "http://place.map.kakao.com/1460830485",
       "homepage_url": "https://doorescape.co.kr/",
       "lat": 37.4932510710547,
-      "lng": 126.723854621735
+      "lng": 126.723854621735,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "892126854",
@@ -1860,7 +2043,9 @@
       "kakao_url": "http://place.map.kakao.com/892126854",
       "homepage_url": "http://doomescape.com/",
       "lat": 37.4942811007357,
-      "lng": 126.72470458827
+      "lng": 126.72470458827,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "2127065864",
@@ -1872,7 +2057,8 @@
       "kakao_url": "http://place.map.kakao.com/2127065864",
       "homepage_url": "http://www.sherlock-holmes.co.kr/",
       "lat": 37.4943122245569,
-      "lng": 126.724914804136
+      "lng": 126.724914804136,
+      "crawled": false
     },
     {
       "place_id": "1637776603",
@@ -1884,7 +2070,8 @@
       "kakao_url": "http://place.map.kakao.com/1637776603",
       "homepage_url": null,
       "lat": 37.4929667990536,
-      "lng": 126.724431238793
+      "lng": 126.724431238793,
+      "crawled": false
     },
     {
       "place_id": "399640253",
@@ -1896,7 +2083,8 @@
       "kakao_url": "http://place.map.kakao.com/399640253",
       "homepage_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=101#reservation",
       "lat": 37.49292064844408,
-      "lng": 126.72473219743976
+      "lng": 126.72473219743976,
+      "crawled": false
     },
     {
       "place_id": "1387240933",
@@ -1908,7 +2096,8 @@
       "kakao_url": "http://place.map.kakao.com/1387240933",
       "homepage_url": "https://xn--z92b74ha268d.com/",
       "lat": 37.4921210741669,
-      "lng": 126.72495450198
+      "lng": 126.72495450198,
+      "crawled": false
     },
     {
       "place_id": "427897815",
@@ -1920,7 +2109,9 @@
       "kakao_url": "http://place.map.kakao.com/427897815",
       "homepage_url": "http://seoul-escape.com/",
       "lat": 37.4932549233238,
-      "lng": 126.725895685475
+      "lng": 126.725895685475,
+      "crawled": true,
+      "script": "seoulescaperoom"
     },
     {
       "place_id": "2138418097",
@@ -1932,7 +2123,8 @@
       "kakao_url": "http://place.map.kakao.com/2138418097",
       "homepage_url": null,
       "lat": 37.4937981624032,
-      "lng": 126.72625555594
+      "lng": 126.72625555594,
+      "crawled": false
     },
     {
       "place_id": "1992606174",
@@ -1944,7 +2136,8 @@
       "kakao_url": "http://place.map.kakao.com/1992606174",
       "homepage_url": null,
       "lat": 37.5075592968255,
-      "lng": 126.73539813797
+      "lng": 126.73539813797,
+      "crawled": false
     },
     {
       "place_id": "1568417037",
@@ -1956,7 +2149,8 @@
       "kakao_url": "http://place.map.kakao.com/1568417037",
       "homepage_url": null,
       "lat": 37.5032600928584,
-      "lng": 126.76138088262
+      "lng": 126.76138088262,
+      "crawled": false
     },
     {
       "place_id": "1620988252",
@@ -1968,7 +2162,8 @@
       "kakao_url": "http://place.map.kakao.com/1620988252",
       "homepage_url": null,
       "lat": 37.5037614701541,
-      "lng": 126.762483094516
+      "lng": 126.762483094516,
+      "crawled": false
     },
     {
       "place_id": "59939450",
@@ -1980,7 +2175,8 @@
       "kakao_url": "http://place.map.kakao.com/59939450",
       "homepage_url": "http://dreampicnicescape.com/",
       "lat": 37.487585419253,
-      "lng": 126.781461217969
+      "lng": 126.781461217969,
+      "crawled": false
     },
     {
       "place_id": "1678997732",
@@ -1992,7 +2188,9 @@
       "kakao_url": "http://place.map.kakao.com/1678997732",
       "homepage_url": "https://www.nextedition.co.kr/",
       "lat": 37.4855100361272,
-      "lng": 126.781751063026
+      "lng": 126.781751063026,
+      "crawled": true,
+      "script": "nextedition"
     },
     {
       "place_id": "1092766492",
@@ -2004,7 +2202,8 @@
       "kakao_url": "http://place.map.kakao.com/1092766492",
       "homepage_url": "http://busted.kr/",
       "lat": 37.4873523036542,
-      "lng": 126.779652771683
+      "lng": 126.779652771683,
+      "crawled": false
     },
     {
       "place_id": "1363823824",
@@ -2016,7 +2215,9 @@
       "kakao_url": "http://place.map.kakao.com/1363823824",
       "homepage_url": "http://escapecity.kr/",
       "lat": 37.5012435828934,
-      "lng": 126.774654035062
+      "lng": 126.774654035062,
+      "crawled": true,
+      "script": "escapecity"
     },
     {
       "place_id": "27178625",
@@ -2028,7 +2229,9 @@
       "kakao_url": "http://place.map.kakao.com/27178625",
       "homepage_url": "http://www.panicescape.com/main",
       "lat": 37.5261813339901,
-      "lng": 126.86251646259
+      "lng": 126.86251646259,
+      "crawled": true,
+      "script": "panicescape"
     },
     {
       "place_id": "1735229345",
@@ -2040,7 +2243,8 @@
       "kakao_url": "http://place.map.kakao.com/1735229345",
       "homepage_url": "http://www.roomlescape.com/",
       "lat": 37.489957734035,
-      "lng": 126.927971561206
+      "lng": 126.927971561206,
+      "crawled": false
     },
     {
       "place_id": "628138029",
@@ -2052,7 +2256,9 @@
       "kakao_url": "http://place.map.kakao.com/628138029",
       "homepage_url": "http://www.roomlescape.com/",
       "lat": 37.4830826871443,
-      "lng": 126.930384165518
+      "lng": 126.930384165518,
+      "crawled": true,
+      "script": "roomlescape"
     },
     {
       "place_id": "1045036053",
@@ -2064,7 +2270,9 @@
       "kakao_url": "http://place.map.kakao.com/1045036053",
       "homepage_url": "https://escapebro.co.kr/",
       "lat": 37.5178128652995,
-      "lng": 126.909167462357
+      "lng": 126.909167462357,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1444854771",
@@ -2076,7 +2284,9 @@
       "kakao_url": "http://place.map.kakao.com/1444854771",
       "homepage_url": "http://escapecity.kr/",
       "lat": 37.5183637463384,
-      "lng": 126.906180498142
+      "lng": 126.906180498142,
+      "crawled": true,
+      "script": "escapecity"
     },
     {
       "place_id": "1757443413",
@@ -2088,7 +2298,9 @@
       "kakao_url": "http://place.map.kakao.com/1757443413",
       "homepage_url": "http://conanescape.kr/",
       "lat": 37.4844879940488,
-      "lng": 126.899904735861
+      "lng": 126.899904735861,
+      "crawled": true,
+      "script": "conanescape"
     },
     {
       "place_id": "880372928",
@@ -2100,7 +2312,8 @@
       "kakao_url": "http://place.map.kakao.com/880372928",
       "homepage_url": null,
       "lat": 37.4804180312595,
-      "lng": 126.953453156798
+      "lng": 126.953453156798,
+      "crawled": false
     },
     {
       "place_id": "763904207",
@@ -2112,7 +2325,8 @@
       "kakao_url": "http://place.map.kakao.com/763904207",
       "homepage_url": null,
       "lat": 37.4802128489705,
-      "lng": 126.954086418865
+      "lng": 126.954086418865,
+      "crawled": false
     },
     {
       "place_id": "888192913",
@@ -2124,7 +2338,8 @@
       "kakao_url": "http://place.map.kakao.com/888192913",
       "homepage_url": null,
       "lat": 37.5298709510827,
-      "lng": 126.964873937546
+      "lng": 126.964873937546,
+      "crawled": false
     },
     {
       "place_id": "751793807",
@@ -2136,7 +2351,9 @@
       "kakao_url": "http://place.map.kakao.com/751793807",
       "homepage_url": "http://www.master-key.co.kr/booking/bk_detail?bid=20",
       "lat": 37.54802286167883,
-      "lng": 126.92091099177382
+      "lng": 126.92091099177382,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "200411443",
@@ -2148,7 +2365,9 @@
       "kakao_url": "http://place.map.kakao.com/200411443",
       "homepage_url": "http://keyescape.co.kr/",
       "lat": 37.5489545131649,
-      "lng": 126.920939429924
+      "lng": 126.920939429924,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "848848018",
@@ -2160,7 +2379,8 @@
       "kakao_url": "http://place.map.kakao.com/848848018",
       "homepage_url": "https://oasismuseum.com/",
       "lat": 37.5490872979376,
-      "lng": 126.920103009829
+      "lng": 126.920103009829,
+      "crawled": false
     },
     {
       "place_id": "28201117",
@@ -2172,7 +2392,9 @@
       "kakao_url": "http://place.map.kakao.com/28201117",
       "homepage_url": "https://ledasquare.com/",
       "lat": 37.5494431085065,
-      "lng": 126.919979281003
+      "lng": 126.919979281003,
+      "crawled": true,
+      "script": "ledasquare"
     },
     {
       "place_id": "727312827",
@@ -2184,7 +2406,8 @@
       "kakao_url": "http://place.map.kakao.com/727312827",
       "homepage_url": null,
       "lat": 37.54964549757982,
-      "lng": 126.91948566716717
+      "lng": 126.91948566716717,
+      "crawled": false
     },
     {
       "place_id": "153136502",
@@ -2196,7 +2419,9 @@
       "kakao_url": "http://place.map.kakao.com/153136502",
       "homepage_url": "http://hongdae.doorescape.co.kr/",
       "lat": 37.550122148552,
-      "lng": 126.920852191008
+      "lng": 126.920852191008,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "1351400084",
@@ -2208,7 +2433,9 @@
       "kakao_url": "http://place.map.kakao.com/1351400084",
       "homepage_url": "http://seoul-escape.com/",
       "lat": 37.5501195691292,
-      "lng": 126.922395768091
+      "lng": 126.922395768091,
+      "crawled": true,
+      "script": "seoulescaperoom"
     },
     {
       "place_id": "190103388",
@@ -2220,7 +2447,9 @@
       "kakao_url": "http://place.map.kakao.com/190103388",
       "homepage_url": "http://www.doorescape.co.kr/",
       "lat": 37.48690753604882,
-      "lng": 126.98104948778209
+      "lng": 126.98104948778209,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "678802397",
@@ -2232,7 +2461,9 @@
       "kakao_url": "http://place.map.kakao.com/678802397",
       "homepage_url": "http://www.signescape.com/",
       "lat": 37.5504189940142,
-      "lng": 126.922843593932
+      "lng": 126.922843593932,
+      "crawled": true,
+      "script": "signescape"
     },
     {
       "place_id": "887263854",
@@ -2244,7 +2475,9 @@
       "kakao_url": "http://place.map.kakao.com/887263854",
       "homepage_url": "https://showroom404.com/",
       "lat": 37.550519566668,
-      "lng": 126.922326322184
+      "lng": 126.922326322184,
+      "crawled": true,
+      "script": "showroom404"
     },
     {
       "place_id": "1987907479",
@@ -2256,7 +2489,9 @@
       "kakao_url": "http://place.map.kakao.com/1987907479",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 37.5511306576787,
-      "lng": 126.922652740086
+      "lng": 126.922652740086,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "759455993",
@@ -2268,7 +2503,9 @@
       "kakao_url": "http://place.map.kakao.com/759455993",
       "homepage_url": null,
       "lat": 37.5511306576787,
-      "lng": 126.922652740086
+      "lng": 126.922652740086,
+      "crawled": true,
+      "script": "teraspace"
     },
     {
       "place_id": "1654390566",
@@ -2280,7 +2517,9 @@
       "kakao_url": "http://place.map.kakao.com/1654390566",
       "homepage_url": null,
       "lat": 37.5513479583469,
-      "lng": 126.921529897567
+      "lng": 126.921529897567,
+      "crawled": true,
+      "script": "xescape"
     },
     {
       "place_id": "987374256",
@@ -2292,7 +2531,8 @@
       "kakao_url": "http://place.map.kakao.com/987374256",
       "homepage_url": null,
       "lat": 37.5513751089074,
-      "lng": 126.923082522731
+      "lng": 126.923082522731,
+      "crawled": false
     },
     {
       "place_id": "1611418578",
@@ -2304,7 +2544,8 @@
       "kakao_url": "http://place.map.kakao.com/1611418578",
       "homepage_url": null,
       "lat": 37.5515409344392,
-      "lng": 126.923146857749
+      "lng": 126.923146857749,
+      "crawled": false
     },
     {
       "place_id": "596589943",
@@ -2316,7 +2557,9 @@
       "kakao_url": "http://place.map.kakao.com/596589943",
       "homepage_url": "http://www.roomlescape.com/",
       "lat": 37.551729166489444,
-      "lng": 126.9189888828544
+      "lng": 126.9189888828544,
+      "crawled": true,
+      "script": "roomlescape"
     },
     {
       "place_id": "1732671994",
@@ -2328,7 +2571,9 @@
       "kakao_url": "http://place.map.kakao.com/1732671994",
       "homepage_url": "https://www.zerohongdae.com/",
       "lat": 37.5518807649622,
-      "lng": 126.920655682478
+      "lng": 126.920655682478,
+      "crawled": true,
+      "script": "zeroworld"
     },
     {
       "place_id": "1541961243",
@@ -2340,7 +2585,9 @@
       "kakao_url": "http://place.map.kakao.com/1541961243",
       "homepage_url": "https://happyanding.co.kr/layout/res/home.php?go=main",
       "lat": 37.5519646286865,
-      "lng": 126.922115461609
+      "lng": 126.922115461609,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1478483341",
@@ -2352,7 +2599,9 @@
       "kakao_url": "http://place.map.kakao.com/1478483341",
       "homepage_url": "https://xdungeon.net/",
       "lat": 37.4994276866333,
-      "lng": 127.029029883925
+      "lng": 127.029029883925,
+      "crawled": true,
+      "script": "xdungeon"
     },
     {
       "place_id": "874592991",
@@ -2364,7 +2613,9 @@
       "kakao_url": "http://place.map.kakao.com/874592991",
       "homepage_url": "https://thefrank.co.kr/",
       "lat": 37.500157617287,
-      "lng": 127.028555189115
+      "lng": 127.028555189115,
+      "crawled": true,
+      "script": "frankantique"
     },
     {
       "place_id": "1030963843",
@@ -2376,7 +2627,9 @@
       "kakao_url": "http://place.map.kakao.com/1030963843",
       "homepage_url": "https://www.mafiacafe.kr/",
       "lat": 37.5001639237822,
-      "lng": 127.028557453314
+      "lng": 127.028557453314,
+      "crawled": true,
+      "script": "mafiacafe"
     },
     {
       "place_id": "1405262610",
@@ -2388,7 +2641,9 @@
       "kakao_url": "http://place.map.kakao.com/1405262610",
       "homepage_url": "http://keyescape.co.kr/",
       "lat": 37.5001035869388,
-      "lng": 127.028430769789
+      "lng": 127.028430769789,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "260184665",
@@ -2400,7 +2655,8 @@
       "kakao_url": "http://place.map.kakao.com/260184665",
       "homepage_url": null,
       "lat": 37.5000874176391,
-      "lng": 127.028227202109
+      "lng": 127.028227202109,
+      "crawled": false
     },
     {
       "place_id": "1213158520",
@@ -2412,7 +2668,9 @@
       "kakao_url": "http://place.map.kakao.com/1213158520",
       "homepage_url": "https://www.codehunter-escape.com/",
       "lat": 37.4999640092052,
-      "lng": 127.028103888029
+      "lng": 127.028103888029,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "2006661572",
@@ -2424,7 +2682,8 @@
       "kakao_url": "http://place.map.kakao.com/2006661572",
       "homepage_url": null,
       "lat": 37.4999640094742,
-      "lng": 127.02810275713385
+      "lng": 127.02810275713385,
+      "crawled": false
     },
     {
       "place_id": "225341934",
@@ -2436,7 +2695,9 @@
       "kakao_url": "http://place.map.kakao.com/225341934",
       "homepage_url": "http://lastescape.co.kr/",
       "lat": 37.50080281636902,
-      "lng": 127.0282274714139
+      "lng": 127.0282274714139,
+      "crawled": true,
+      "script": "lastescape"
     },
     {
       "place_id": "320987184",
@@ -2448,7 +2709,9 @@
       "kakao_url": "http://place.map.kakao.com/320987184",
       "homepage_url": "http://keyescape.co.kr/",
       "lat": 37.5007434070249,
-      "lng": 127.02798769668273
+      "lng": 127.02798769668273,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "99889048",
@@ -2460,7 +2723,9 @@
       "kakao_url": "http://place.map.kakao.com/99889048",
       "homepage_url": "http://keyescape.co.kr/",
       "lat": 37.500734399109,
-      "lng": 127.027978646062
+      "lng": 127.027978646062,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "1277196871",
@@ -2472,7 +2737,8 @@
       "kakao_url": "http://place.map.kakao.com/1277196871",
       "homepage_url": null,
       "lat": 37.5005363156219,
-      "lng": 127.027390501933
+      "lng": 127.027390501933,
+      "crawled": false
     },
     {
       "place_id": "1245109855",
@@ -2484,7 +2750,9 @@
       "kakao_url": "http://place.map.kakao.com/1245109855",
       "homepage_url": "http://www.signescape.com/",
       "lat": 37.5008233323577,
-      "lng": 127.032536240863
+      "lng": 127.032536240863,
+      "crawled": true,
+      "script": "signescape"
     },
     {
       "place_id": "1466171651",
@@ -2496,7 +2764,9 @@
       "kakao_url": "http://place.map.kakao.com/1466171651",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 37.5008786768572,
-      "lng": 127.027481099747
+      "lng": 127.027481099747,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "103606910",
@@ -2508,7 +2778,9 @@
       "kakao_url": "http://place.map.kakao.com/103606910",
       "homepage_url": "https://exodusescape.co.kr/",
       "lat": 37.5015995130162,
-      "lng": 127.027345653498
+      "lng": 127.027345653498,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1908100709",
@@ -2520,7 +2792,9 @@
       "kakao_url": "http://place.map.kakao.com/1908100709",
       "homepage_url": "https://studioesc.co.kr/",
       "lat": 37.5022337181255,
-      "lng": 127.027786947444
+      "lng": 127.027786947444,
+      "crawled": true,
+      "script": "studioesc"
     },
     {
       "place_id": "123477337",
@@ -2532,7 +2806,8 @@
       "kakao_url": "http://place.map.kakao.com/123477337",
       "homepage_url": null,
       "lat": 37.4970033258976,
-      "lng": 127.031577883554
+      "lng": 127.031577883554,
+      "crawled": false
     },
     {
       "place_id": "400448256",
@@ -2544,7 +2819,9 @@
       "kakao_url": "http://place.map.kakao.com/400448256",
       "homepage_url": "http://keyescape.com/",
       "lat": 37.4966142182906,
-      "lng": 127.03109824138642
+      "lng": 127.03109824138642,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "377197835",
@@ -2556,7 +2833,9 @@
       "kakao_url": "http://place.map.kakao.com/377197835",
       "homepage_url": "https://www.dpsnnn.com/",
       "lat": 37.502514154376954,
-      "lng": 127.02682010271623
+      "lng": 127.02682010271623,
+      "crawled": true,
+      "script": "dpsnnn"
     },
     {
       "place_id": "1872221698",
@@ -2568,7 +2847,9 @@
       "kakao_url": "http://place.map.kakao.com/1872221698",
       "homepage_url": "https://www.keyescape.com/",
       "lat": 37.5001249784373,
-      "lng": 127.025502882806
+      "lng": 127.025502882806,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "2012633570",
@@ -2580,7 +2861,9 @@
       "kakao_url": "http://place.map.kakao.com/2012633570",
       "homepage_url": "https://page-today.co.kr/#reserve",
       "lat": 37.5033114706894,
-      "lng": 127.027142707568
+      "lng": 127.027142707568,
+      "crawled": true,
+      "script": "playtheworld_etc"
     },
     {
       "place_id": "27367643",
@@ -2592,7 +2875,9 @@
       "kakao_url": "http://place.map.kakao.com/27367643",
       "homepage_url": "http://mysteryroomescape.com/",
       "lat": 37.5009945342165,
-      "lng": 127.025106228726
+      "lng": 127.025106228726,
+      "crawled": true,
+      "script": "mysteryroom"
     },
     {
       "place_id": "436025860",
@@ -2604,7 +2889,9 @@
       "kakao_url": "http://place.map.kakao.com/436025860",
       "homepage_url": "https://xdungeon.net/",
       "lat": 37.4971739503309,
-      "lng": 127.033631585443
+      "lng": 127.033631585443,
+      "crawled": true,
+      "script": "xdungeon"
     },
     {
       "place_id": "916422770",
@@ -2616,7 +2903,9 @@
       "kakao_url": "http://place.map.kakao.com/916422770",
       "homepage_url": "http://keyescape.co.kr/",
       "lat": 37.4956788806596,
-      "lng": 127.031448411152
+      "lng": 127.031448411152,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "298789057",
@@ -2628,7 +2917,9 @@
       "kakao_url": "http://place.map.kakao.com/298789057",
       "homepage_url": "http://www.keyescape.co.kr/",
       "lat": 37.5014740465421,
-      "lng": 127.024258200466
+      "lng": 127.024258200466,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "1871864524",
@@ -2640,7 +2931,8 @@
       "kakao_url": "http://place.map.kakao.com/1871864524",
       "homepage_url": null,
       "lat": 37.4953453624502,
-      "lng": 127.03199106777
+      "lng": 127.03199106777,
+      "crawled": false
     },
     {
       "place_id": "459642234",
@@ -2652,7 +2944,9 @@
       "kakao_url": "http://place.map.kakao.com/459642234",
       "homepage_url": "http://keyescape.co.kr/",
       "lat": 37.5042308224732,
-      "lng": 127.025684101999
+      "lng": 127.025684101999,
+      "crawled": true,
+      "script": "keyescape"
     },
     {
       "place_id": "841734382",
@@ -2664,7 +2958,9 @@
       "kakao_url": "http://place.map.kakao.com/841734382",
       "homepage_url": "https://reservation.playthe.world/",
       "lat": 37.5028086477666,
-      "lng": 127.023204597522
+      "lng": 127.023204597522,
+      "crawled": true,
+      "script": "playtheworld_etc"
     },
     {
       "place_id": "691418241",
@@ -2676,7 +2972,9 @@
       "kakao_url": "http://place.map.kakao.com/691418241",
       "homepage_url": null,
       "lat": 37.5030564627987,
-      "lng": 127.023007890259
+      "lng": 127.023007890259,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "765336936",
@@ -2688,7 +2986,9 @@
       "kakao_url": "http://place.map.kakao.com/765336936",
       "homepage_url": "http://www.doorescape.co.kr/",
       "lat": 37.5035737646368,
-      "lng": 127.022358883649
+      "lng": 127.022358883649,
+      "crawled": true,
+      "script": "doorescape"
     },
     {
       "place_id": "212176813",
@@ -2700,7 +3000,9 @@
       "kakao_url": "http://place.map.kakao.com/212176813",
       "homepage_url": null,
       "lat": 37.5070778214757,
-      "lng": 127.026488089458
+      "lng": 127.026488089458,
+      "crawled": true,
+      "script": "playtheworld_etc"
     },
     {
       "place_id": "1421844037",
@@ -2712,7 +3014,9 @@
       "kakao_url": "http://place.map.kakao.com/1421844037",
       "homepage_url": "http://fantastrick.co.kr/",
       "lat": 37.5042964284153,
-      "lng": 127.022053739691
+      "lng": 127.022053739691,
+      "crawled": true,
+      "script": "fantastrick"
     },
     {
       "place_id": "1796437751",
@@ -2724,7 +3028,9 @@
       "kakao_url": "http://place.map.kakao.com/1796437751",
       "homepage_url": "http://murderparker.com/",
       "lat": 37.5135003212202,
-      "lng": 127.108336730245
+      "lng": 127.108336730245,
+      "crawled": true,
+      "script": "murderparker"
     },
     {
       "place_id": "1857201893",
@@ -2736,7 +3042,9 @@
       "kakao_url": "http://place.map.kakao.com/1857201893",
       "homepage_url": "http://cheonho.cubeescape.co.kr/",
       "lat": 37.5386479906941,
-      "lng": 127.127476994736
+      "lng": 127.127476994736,
+      "crawled": true,
+      "script": "cubeescape"
     },
     {
       "place_id": "1331705130",
@@ -2748,7 +3056,8 @@
       "kakao_url": "http://place.map.kakao.com/1331705130",
       "homepage_url": "https://naver.me/xbjXQceE",
       "lat": 37.5385998135392,
-      "lng": 127.127034504748
+      "lng": 127.127034504748,
+      "crawled": false
     },
     {
       "place_id": "1682203426",
@@ -2760,7 +3069,8 @@
       "kakao_url": "http://place.map.kakao.com/1682203426",
       "homepage_url": null,
       "lat": 37.5104560886759,
-      "lng": 127.084885590652
+      "lng": 127.084885590652,
+      "crawled": false
     },
     {
       "place_id": "1460924995",
@@ -2772,7 +3082,9 @@
       "kakao_url": "http://place.map.kakao.com/1460924995",
       "homepage_url": "https://next-edition.co.kr/",
       "lat": 37.5114119116348,
-      "lng": 127.083823469131
+      "lng": 127.083823469131,
+      "crawled": true,
+      "script": "nextedition"
     },
     {
       "place_id": "967129600",
@@ -2784,7 +3096,9 @@
       "kakao_url": "http://place.map.kakao.com/967129600",
       "homepage_url": "https://playpointlab.com/",
       "lat": 37.5108834939654,
-      "lng": 127.081866144247
+      "lng": 127.081866144247,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "45777628",
@@ -2796,7 +3110,9 @@
       "kakao_url": "http://place.map.kakao.com/45777628",
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 37.5103081183422,
-      "lng": 127.081336183778
+      "lng": 127.081336183778,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "466116790",
@@ -2808,7 +3124,9 @@
       "kakao_url": "http://place.map.kakao.com/466116790",
       "homepage_url": "http://jamsil.cubeescape.co.kr/",
       "lat": 37.5108343486279,
-      "lng": 127.079952338133
+      "lng": 127.079952338133,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "870806933",
@@ -2820,7 +3138,9 @@
       "kakao_url": "http://place.map.kakao.com/870806933",
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 37.632375063937936,
-      "lng": 126.83123886844804
+      "lng": 126.83123886844804,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "300855776",
@@ -2832,7 +3152,8 @@
       "kakao_url": "http://place.map.kakao.com/300855776",
       "homepage_url": null,
       "lat": 37.63722298589963,
-      "lng": 126.78756546103767
+      "lng": 126.78756546103767,
+      "crawled": false
     },
     {
       "place_id": "1078153820",
@@ -2844,7 +3165,8 @@
       "kakao_url": "http://place.map.kakao.com/1078153820",
       "homepage_url": null,
       "lat": 37.5759108787864,
-      "lng": 126.930071430992
+      "lng": 126.930071430992,
+      "crawled": false
     },
     {
       "place_id": "1560724472",
@@ -2856,7 +3178,8 @@
       "kakao_url": "http://place.map.kakao.com/1560724472",
       "homepage_url": null,
       "lat": 37.6192591720085,
-      "lng": 126.918543009124
+      "lng": 126.918543009124,
+      "crawled": false
     },
     {
       "place_id": "969459474",
@@ -2868,7 +3191,9 @@
       "kakao_url": "http://place.map.kakao.com/969459474",
       "homepage_url": "http://www.escapers.co.kr/",
       "lat": 37.5595715925137,
-      "lng": 126.926075619971
+      "lng": 126.926075619971,
+      "crawled": true,
+      "script": "escapers"
     },
     {
       "place_id": "617331855",
@@ -2880,7 +3205,8 @@
       "kakao_url": "http://place.map.kakao.com/617331855",
       "homepage_url": "https://mysteryzip.com/main.html",
       "lat": 37.5589622026099,
-      "lng": 126.922766878316
+      "lng": 126.922766878316,
+      "crawled": false
     },
     {
       "place_id": "554838835",
@@ -2892,7 +3218,8 @@
       "kakao_url": "http://place.map.kakao.com/554838835",
       "homepage_url": "http://fuzzyline.co.kr/",
       "lat": 37.5581586456178,
-      "lng": 126.920255168717
+      "lng": 126.920255168717,
+      "crawled": false
     },
     {
       "place_id": "1719351380",
@@ -2904,7 +3231,8 @@
       "kakao_url": "http://place.map.kakao.com/1719351380",
       "homepage_url": "https://naver.me/FTMAY9rE",
       "lat": 37.55720474844449,
-      "lng": 126.9219911731789
+      "lng": 126.9219911731789,
+      "crawled": false
     },
     {
       "place_id": "1834149457",
@@ -2916,7 +3244,9 @@
       "kakao_url": "http://place.map.kakao.com/1834149457",
       "homepage_url": "http://escapecity.kr/",
       "lat": 37.5589063271965,
-      "lng": 126.934684639158
+      "lng": 126.934684639158,
+      "crawled": true,
+      "script": "escapecity"
     },
     {
       "place_id": "1336760672",
@@ -2928,7 +3258,8 @@
       "kakao_url": "http://place.map.kakao.com/1336760672",
       "homepage_url": null,
       "lat": 37.5586632956314,
-      "lng": 126.936776384513
+      "lng": 126.936776384513,
+      "crawled": false
     },
     {
       "place_id": "97734177",
@@ -2940,7 +3271,9 @@
       "kakao_url": "http://place.map.kakao.com/97734177",
       "homepage_url": "http://www.master-key.co.kr/booking/bk_detail?bid=32",
       "lat": 37.5582257334808,
-      "lng": 126.93570496289
+      "lng": 126.93570496289,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "280887856",
@@ -2952,7 +3285,9 @@
       "kakao_url": "http://place.map.kakao.com/280887856",
       "homepage_url": "http://www.secret-code.co.kr/",
       "lat": 37.5561656666695,
-      "lng": 126.925825473947
+      "lng": 126.925825473947,
+      "crawled": true,
+      "script": "secretcode"
     },
     {
       "place_id": "949587061",
@@ -2964,7 +3299,9 @@
       "kakao_url": "http://place.map.kakao.com/949587061",
       "homepage_url": "https://clevertown.co.kr/",
       "lat": 37.5582688494697,
-      "lng": 126.937133227257
+      "lng": 126.937133227257,
+      "crawled": true,
+      "script": "clevertown"
     },
     {
       "place_id": "17410648",
@@ -2976,7 +3313,8 @@
       "kakao_url": "http://place.map.kakao.com/17410648",
       "homepage_url": null,
       "lat": 37.5574004999017,
-      "lng": 126.935851669367
+      "lng": 126.935851669367,
+      "crawled": false
     },
     {
       "place_id": "690123759",
@@ -2988,7 +3326,9 @@
       "kakao_url": "http://place.map.kakao.com/690123759",
       "homepage_url": null,
       "lat": 37.557206548048185,
-      "lng": 126.93541610802885
+      "lng": 126.93541610802885,
+      "crawled": true,
+      "script": "playtheworld_etc"
     },
     {
       "place_id": "1521613397",
@@ -3000,7 +3340,9 @@
       "kakao_url": "http://place.map.kakao.com/1521613397",
       "homepage_url": "https://xn--910bj3tlmfz4e.com/",
       "lat": 37.557391667796665,
-      "lng": 126.93617988815402
+      "lng": 126.93617988815402,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "2000674643",
@@ -3012,7 +3354,8 @@
       "kakao_url": "http://place.map.kakao.com/2000674643",
       "homepage_url": "http://withescaper.com/",
       "lat": 37.55762198800955,
-      "lng": 126.93723562967803
+      "lng": 126.93723562967803,
+      "crawled": false
     },
     {
       "place_id": "273855007",
@@ -3024,7 +3367,9 @@
       "kakao_url": "http://place.map.kakao.com/273855007",
       "homepage_url": "http://www.roomescape.net/",
       "lat": 37.5580361824726,
-      "lng": 126.93844514714
+      "lng": 126.93844514714,
+      "crawled": true,
+      "script": "roomescape"
     },
     {
       "place_id": "1462418270",
@@ -3036,7 +3381,9 @@
       "kakao_url": "http://place.map.kakao.com/1462418270",
       "homepage_url": "https://playpointlab.com/office/detail?bid=11",
       "lat": 37.554576594465566,
-      "lng": 126.92628426391478
+      "lng": 126.92628426391478,
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "315548029",
@@ -3048,7 +3395,9 @@
       "kakao_url": "http://place.map.kakao.com/315548029",
       "homepage_url": null,
       "lat": 37.5539249561403,
-      "lng": 126.920398880481
+      "lng": 126.920398880481,
+      "crawled": true,
+      "script": "puzzlefactory"
     },
     {
       "place_id": "399012410",
@@ -3060,7 +3409,9 @@
       "kakao_url": "http://place.map.kakao.com/399012410",
       "homepage_url": "https://xn--2e0b040a4xj.com/",
       "lat": 37.55398906461822,
-      "lng": 126.92332994446495
+      "lng": 126.92332994446495,
+      "crawled": true,
+      "script": "jigobyeol"
     },
     {
       "place_id": "27369058",
@@ -3072,7 +3423,8 @@
       "kakao_url": "http://place.map.kakao.com/27369058",
       "homepage_url": "http://www.rec-escape.com/",
       "lat": 37.55417346486832,
-      "lng": 126.92711760256185
+      "lng": 126.92711760256185,
+      "crawled": false
     },
     {
       "place_id": "27413260",
@@ -3084,7 +3436,9 @@
       "kakao_url": "http://place.map.kakao.com/27413260",
       "homepage_url": "http://www.cubeescape.co.kr/",
       "lat": 37.5534232173959,
-      "lng": 126.920572564647
+      "lng": 126.920572564647,
+      "crawled": true,
+      "script": "cubeescape"
     },
     {
       "place_id": "327610610",
@@ -3096,7 +3450,9 @@
       "kakao_url": "http://place.map.kakao.com/327610610",
       "homepage_url": null,
       "lat": 37.5536054339682,
-      "lng": 126.925035817631
+      "lng": 126.925035817631,
+      "crawled": true,
+      "script": "ttescape"
     },
     {
       "place_id": "367178846",
@@ -3108,7 +3464,8 @@
       "kakao_url": "http://place.map.kakao.com/367178846",
       "homepage_url": "https://speakeasyescape.co.kr/",
       "lat": 37.5533585557131,
-      "lng": 126.925028143004
+      "lng": 126.925028143004,
+      "crawled": false
     },
     {
       "place_id": "1825220691",
@@ -3120,7 +3477,9 @@
       "kakao_url": "http://place.map.kakao.com/1825220691",
       "homepage_url": "https://speakeasyescape.co.kr/",
       "lat": 37.55335044458262,
-      "lng": 126.92502475602444
+      "lng": 126.92502475602444,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "340303350",
@@ -3132,7 +3491,9 @@
       "kakao_url": "http://place.map.kakao.com/340303350",
       "homepage_url": "http://www.escapehouse.co.kr/",
       "lat": 37.5528260849967,
-      "lng": 126.922270738876
+      "lng": 126.922270738876,
+      "crawled": true,
+      "script": "escapehouse"
     },
     {
       "place_id": "187287513",
@@ -3144,7 +3505,9 @@
       "kakao_url": "http://place.map.kakao.com/187287513",
       "homepage_url": "https://www.rabbitholeescape.co.kr/",
       "lat": 37.5531642816031,
-      "lng": 126.927011073949
+      "lng": 126.927011073949,
+      "crawled": true,
+      "script": "rabbithole"
     },
     {
       "place_id": "451924760",
@@ -3156,7 +3519,8 @@
       "kakao_url": "http://place.map.kakao.com/451924760",
       "homepage_url": null,
       "lat": 37.5529394761745,
-      "lng": 126.92484635985
+      "lng": 126.92484635985,
+      "crawled": false
     },
     {
       "place_id": "289742025",
@@ -3168,7 +3532,9 @@
       "kakao_url": "http://place.map.kakao.com/289742025",
       "homepage_url": "https://www.horrorswitch.com/ko",
       "lat": 37.552779516931636,
-      "lng": 126.92270309395771
+      "lng": 126.92270309395771,
+      "crawled": true,
+      "script": "horrorswitch"
     },
     {
       "place_id": "1772415237",
@@ -3180,7 +3546,9 @@
       "kakao_url": "http://place.map.kakao.com/1772415237",
       "homepage_url": "http://xescape.com/",
       "lat": 37.552635335148885,
-      "lng": 126.92266929214243
+      "lng": 126.92266929214243,
+      "crawled": true,
+      "script": "xescape"
     },
     {
       "place_id": "1548712469",
@@ -3192,7 +3560,8 @@
       "kakao_url": "http://place.map.kakao.com/1548712469",
       "homepage_url": null,
       "lat": 37.5526281212411,
-      "lng": 126.922660246071
+      "lng": 126.922660246071,
+      "crawled": false
     },
     {
       "place_id": "926754766",
@@ -3204,7 +3573,9 @@
       "kakao_url": "http://place.map.kakao.com/926754766",
       "homepage_url": "http://www.escapecity.kr/",
       "lat": 37.5908254890579,
-      "lng": 127.017676984818
+      "lng": 127.017676984818,
+      "crawled": true,
+      "script": "escapecity"
     },
     {
       "place_id": "203642029",
@@ -3216,7 +3587,9 @@
       "kakao_url": "http://place.map.kakao.com/203642029",
       "homepage_url": "http://www.dumbndumber.kr/",
       "lat": 37.5832656559139,
-      "lng": 127.002436396644
+      "lng": 127.002436396644,
+      "crawled": true,
+      "script": "dumbndumber"
     },
     {
       "place_id": "458997744",
@@ -3228,7 +3601,9 @@
       "kakao_url": "http://place.map.kakao.com/458997744",
       "homepage_url": "https://epilogueescape.com/",
       "lat": 37.5829268826698,
-      "lng": 127.002422799811
+      "lng": 127.002422799811,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "1944665207",
@@ -3240,7 +3615,8 @@
       "kakao_url": "http://place.map.kakao.com/1944665207",
       "homepage_url": null,
       "lat": 37.574342155638014,
-      "lng": 126.98477999829184
+      "lng": 126.98477999829184,
+      "crawled": false
     },
     {
       "place_id": "462553617",
@@ -3252,7 +3628,9 @@
       "kakao_url": "http://place.map.kakao.com/462553617",
       "homepage_url": "http://sherlock-holmes.co.kr/reservation/",
       "lat": 37.5690580275726,
-      "lng": 126.986493698008
+      "lng": 126.986493698008,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "660859780",
@@ -3264,7 +3642,8 @@
       "kakao_url": "http://place.map.kakao.com/660859780",
       "homepage_url": "http://alcatraz.co.kr/",
       "lat": 37.5636157548121,
-      "lng": 126.984407536023
+      "lng": 126.984407536023,
+      "crawled": false
     },
     {
       "place_id": "4331171",
@@ -3276,7 +3655,9 @@
       "kakao_url": "http://place.map.kakao.com/4331171",
       "homepage_url": "http://suyu.cubeescape.co.kr/",
       "lat": 37.6383315131476,
-      "lng": 127.024894047779
+      "lng": 127.024894047779,
+      "crawled": true,
+      "script": "cubeescape"
     },
     {
       "place_id": "2022859547",
@@ -3288,7 +3669,9 @@
       "kakao_url": "http://place.map.kakao.com/2022859547",
       "homepage_url": null,
       "lat": 37.5445646229493,
-      "lng": 127.051828124018
+      "lng": 127.051828124018,
+      "crawled": true,
+      "script": "puzzlefactory"
     },
     {
       "place_id": "1168819420",
@@ -3300,7 +3683,9 @@
       "kakao_url": "http://place.map.kakao.com/1168819420",
       "homepage_url": "http://hotelletoh.co.kr/",
       "lat": 37.5445865451555,
-      "lng": 127.053183759172
+      "lng": 127.053183759172,
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "911063716",
@@ -3312,7 +3697,9 @@
       "kakao_url": "http://place.map.kakao.com/911063716",
       "homepage_url": "http://www.thetrapsy.co.kr/",
       "lat": 37.639938349142,
-      "lng": 127.027251253028
+      "lng": 127.027251253028,
+      "crawled": true,
+      "script": "thetrapsy"
     },
     {
       "place_id": "259983085",
@@ -3324,7 +3711,9 @@
       "kakao_url": "http://place.map.kakao.com/259983085",
       "homepage_url": null,
       "lat": 37.5438637365951,
-      "lng": 127.057471851749
+      "lng": 127.057471851749,
+      "crawled": true,
+      "script": "dpsnnn"
     },
     {
       "place_id": "716654663",
@@ -3336,7 +3725,8 @@
       "kakao_url": "http://place.map.kakao.com/716654663",
       "homepage_url": null,
       "lat": 37.5997568449555,
-      "lng": 127.140381874446
+      "lng": 127.140381874446,
+      "crawled": false
     },
     {
       "place_id": "1954089927",
@@ -3348,7 +3738,9 @@
       "kakao_url": "http://place.map.kakao.com/1954089927",
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 37.561460947972016,
-      "lng": 127.19169703064144
+      "lng": 127.19169703064144,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "743084847",
@@ -3360,7 +3752,9 @@
       "kakao_url": "http://place.map.kakao.com/743084847",
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 37.643820400132,
-      "lng": 126.625473607314
+      "lng": 126.625473607314,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "1436082735",
@@ -3372,7 +3766,8 @@
       "kakao_url": "http://place.map.kakao.com/1436082735",
       "homepage_url": null,
       "lat": 37.6457168345738,
-      "lng": 126.788726495336
+      "lng": 126.788726495336,
+      "crawled": false
     },
     {
       "place_id": "1252080396",
@@ -3384,7 +3779,8 @@
       "kakao_url": "http://place.map.kakao.com/1252080396",
       "homepage_url": null,
       "lat": 37.6618315734849,
-      "lng": 126.767539424787
+      "lng": 126.767539424787,
+      "crawled": false
     },
     {
       "place_id": "302959300",
@@ -3396,7 +3792,8 @@
       "kakao_url": "http://place.map.kakao.com/302959300",
       "homepage_url": null,
       "lat": 37.66454693968043,
-      "lng": 126.76562460238965
+      "lng": 126.76562460238965,
+      "crawled": false
     },
     {
       "place_id": "351145232",
@@ -3408,7 +3805,8 @@
       "kakao_url": "http://place.map.kakao.com/351145232",
       "homepage_url": "http://www.qescapeilsan.co.kr/",
       "lat": 37.65669887975531,
-      "lng": 126.77132353848808
+      "lng": 126.77132353848808,
+      "crawled": false
     },
     {
       "place_id": "164116124",
@@ -3420,7 +3818,8 @@
       "kakao_url": "http://place.map.kakao.com/164116124",
       "homepage_url": "http://everestescape.com/",
       "lat": 37.6442802717883,
-      "lng": 126.789008168261
+      "lng": 126.789008168261,
+      "crawled": false
     },
     {
       "place_id": "1367009941",
@@ -3432,7 +3831,9 @@
       "kakao_url": "http://place.map.kakao.com/1367009941",
       "homepage_url": "http://sherlock-holmes.co.kr/",
       "lat": 37.6555652058527,
-      "lng": 127.064006037472
+      "lng": 127.064006037472,
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "27504980",
@@ -3444,7 +3845,8 @@
       "kakao_url": "http://place.map.kakao.com/27504980",
       "homepage_url": "http://www.trickescape.com/",
       "lat": 37.7410792474241,
-      "lng": 127.047392582289
+      "lng": 127.047392582289,
+      "crawled": false
     },
     {
       "place_id": "1501825629",
@@ -3456,7 +3858,8 @@
       "kakao_url": "http://place.map.kakao.com/1501825629",
       "homepage_url": null,
       "lat": 37.7550737621722,
-      "lng": 128.897277718894
+      "lng": 128.897277718894,
+      "crawled": false
     },
     {
       "place_id": "1415278100",
@@ -3468,7 +3871,8 @@
       "kakao_url": "http://place.map.kakao.com/1415278100",
       "homepage_url": null,
       "lat": 37.8744923223115,
-      "lng": 127.740184272242
+      "lng": 127.740184272242,
+      "crawled": false
     },
     {
       "place_id": "230738333",
@@ -3480,9 +3884,431 @@
       "kakao_url": "http://place.map.kakao.com/230738333",
       "homepage_url": null,
       "lat": 37.873157632843,
-      "lng": 127.743965866813
+      "lng": 127.743965866813,
+      "crawled": false
+    },
+    {
+      "place_id": "1442041275",
+      "place_name": "딥띵커",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 마포구 잔다리로 23 4층",
+      "road_address": "서울 마포구 잔다리로 23 4층",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1442041275",
+      "homepage_url": "https://deepthinker.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "deepthinker"
+    },
+    {
+      "place_id": "192767471",
+      "place_name": "판타스트릭 2호점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구 사평대로 353",
+      "road_address": "서울 강남구 사평대로 353",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/192767471",
+      "homepage_url": "http://fantastrick.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "fantastrick"
+    },
+    {
+      "place_id": "2020129484",
+      "place_name": "판타스트릭TGC 3호점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구 강남대로83길 34",
+      "road_address": "서울 강남구 강남대로83길 34",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/2020129484",
+      "homepage_url": "http://fantastrick.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "fantastrick"
+    },
+    {
+      "place_id": "2070697879",
+      "place_name": "지구별방탈출 홍대어드벤처점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 마포구 잔다리로",
+      "road_address": "서울 마포구 잔다리로",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/2070697879",
+      "homepage_url": "https://www.xn--2e0b040a4xj.com",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "jigobyeol"
+    },
+    {
+      "place_id": "671151862",
+      "place_name": "마스터키 건대점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 화양동",
+      "road_address": "서울 광진구 화양동",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/671151862",
+      "homepage_url": "http://www.master-key.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "masterkey"
+    },
+    {
+      "place_id": "1973765277",
+      "place_name": "넥스트에디션 건대1호점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 자양동 17-5",
+      "road_address": "서울 광진구 자양동 17-5",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1973765277",
+      "homepage_url": "https://www.nextedition.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "nextedition"
+    },
+    {
+      "place_id": "287949141",
+      "place_name": "넥스트에디션 건대2호점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 아차산로 192",
+      "road_address": "서울 광진구 아차산로 192",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/287949141",
+      "homepage_url": "https://www.nextedition.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "nextedition"
+    },
+    {
+      "place_id": "1108129560",
+      "place_name": "넥스트에디션 건대보네르관",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 화양동 9-19",
+      "road_address": "서울 광진구 화양동 9-19",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1108129560",
+      "homepage_url": "https://www.nextedition.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "nextedition"
+    },
+    {
+      "place_id": "1224056973",
+      "place_name": "넥스트에디션 신림점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 관악구 남부순환로 1598",
+      "road_address": "서울 관악구 남부순환로 1598",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1224056973",
+      "homepage_url": "https://www.nextedition.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "nextedition"
+    },
+    {
+      "place_id": "635335984",
+      "place_name": "넥스트에디션 분당서현점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "경기 성남시 분당구 황새울로342번길 19",
+      "road_address": "경기 성남시 분당구 황새울로342번길 19",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/635335984",
+      "homepage_url": "https://www.nextedition.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "nextedition"
+    },
+    {
+      "place_id": "1385414031",
+      "place_name": "플레이33",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울",
+      "road_address": "서울",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1385414031",
+      "homepage_url": null,
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "play33"
+    },
+    {
+      "place_id": "1000900386",
+      "place_name": "이스케이프샾 신사점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구 신사동",
+      "road_address": "서울 강남구 신사동",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1000900386",
+      "homepage_url": "https://macro.playthe.world",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "playtheworld_etc"
+    },
+    {
+      "place_id": "270131531",
+      "place_name": "셜록홈즈 대학로점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 종로구 대학로10길 5",
+      "road_address": "서울 종로구 대학로10길 5",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/270131531",
+      "homepage_url": "https://sherlock-holmes.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "sherlock"
+    },
+    {
+      "place_id": "10098327",
+      "place_name": "셜록홈즈 성신여대점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 성북구 동선동1가 87",
+      "road_address": "서울 성북구 동선동1가 87",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/10098327",
+      "homepage_url": "https://sherlock-holmes.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "sherlock"
+    },
+    {
+      "place_id": "8143798",
+      "place_name": "셜록홈즈 노량진점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 동작구 노량진동 118-8",
+      "road_address": "서울 동작구 노량진동 118-8",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/8143798",
+      "homepage_url": "https://sherlock-holmes.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "sherlock"
+    },
+    {
+      "place_id": "1271584354",
+      "place_name": "황금열쇠 건대점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 화양동 9-90",
+      "road_address": "서울 광진구 화양동 9-90",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1271584354",
+      "homepage_url": "http://xn--jj0b998aq3cptw.com",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "sinbiweb"
+    },
+    {
+      "place_id": "138006966",
+      "place_name": "더메이즈지디",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 마포구",
+      "road_address": "서울 마포구",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/138006966",
+      "homepage_url": null,
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "themazegd"
+    },
+    {
+      "place_id": "1551717206",
+      "place_name": "엑스케이프 강남점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구 봉은사로2길 16",
+      "road_address": "서울 강남구 봉은사로2길 16",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1551717206",
+      "homepage_url": "https://xcape.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xcape"
+    },
+    {
+      "place_id": "27354377",
+      "place_name": "엑스케이프 건대점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 동일로 112",
+      "road_address": "서울 광진구 동일로 112",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/27354377",
+      "homepage_url": "https://xcape.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xcape"
+    },
+    {
+      "place_id": "361428621",
+      "place_name": "엑스케이프 건대2호 엑스크라임",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 광진구 아차산로29길 38",
+      "road_address": "서울 광진구 아차산로29길 38",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/361428621",
+      "homepage_url": "https://xcape.co.kr",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xcape"
+    },
+    {
+      "place_id": "1772808576",
+      "place_name": "비트포비아 던전101",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울",
+      "road_address": "서울",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1772808576",
+      "homepage_url": "https://xdungeon.net",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xdungeon"
+    },
+    {
+      "place_id": "27413263",
+      "place_name": "비트포비아 강남던전",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구",
+      "road_address": "서울 강남구",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/27413263",
+      "homepage_url": "https://xdungeon.net",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xdungeon"
+    },
+    {
+      "place_id": "1246652450",
+      "place_name": "비트포비아 홍대던전",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 마포구",
+      "road_address": "서울 마포구",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1246652450",
+      "homepage_url": "https://xdungeon.net",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xdungeon"
+    },
+    {
+      "place_id": "1769092819",
+      "place_name": "비트포비아 강남던전Ⅱ",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구",
+      "road_address": "서울 강남구",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1769092819",
+      "homepage_url": "https://xdungeon.net",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xdungeon"
+    },
+    {
+      "place_id": "2070160321",
+      "place_name": "비트포비아 홍대던전Ⅲ",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 마포구",
+      "road_address": "서울 마포구",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/2070160321",
+      "homepage_url": "https://xdungeon.net",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xdungeon"
+    },
+    {
+      "place_id": "1322241204",
+      "place_name": "비트포비아 던전루나",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울",
+      "road_address": "서울",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1322241204",
+      "homepage_url": "https://xdungeon.net",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xdungeon"
+    },
+    {
+      "place_id": "1183396756",
+      "place_name": "엑스포비아 명동점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 중구 명동10길 13",
+      "road_address": "서울 중구 명동10길 13",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1183396756",
+      "homepage_url": null,
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xphobia"
+    },
+    {
+      "place_id": "1432484184",
+      "place_name": "엑스포비아 대학로점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 종로구 대학로10길 12",
+      "road_address": "서울 종로구 대학로10길 12",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1432484184",
+      "homepage_url": null,
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "xphobia"
+    },
+    {
+      "place_id": "1345840219",
+      "place_name": "제로월드 강남점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 강남구",
+      "road_address": "서울 강남구",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/1345840219",
+      "homepage_url": "https://zerogangnam.com",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "zeroworld"
+    },
+    {
+      "place_id": "890251040",
+      "place_name": "제로월드 롯데월드점",
+      "category_name": "가정,생활 > 여가시설 > 방탈출카페",
+      "address": "서울 송파구 잠실동",
+      "road_address": "서울 송파구 잠실동",
+      "phone": null,
+      "kakao_url": "http://place.map.kakao.com/890251040",
+      "homepage_url": "https://zerolotteworld.com",
+      "lat": null,
+      "lng": null,
+      "crawled": true,
+      "script": "zeroworld"
     }
   ],
   "homepage_enriched_at": "2026-03-01T17:14:02",
-  "homepage_found": 188
+  "homepage_found": 188,
+  "crawl_status_updated_at": "2026-03-15"
 }
