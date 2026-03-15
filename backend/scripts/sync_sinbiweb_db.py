@@ -15,6 +15,7 @@ sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.
   상상의문 수원점    https://xn--z92b74ha268d.com  place_id=776353707   s_zizum=5
   상상의문 분당서현점 https://xn--z92b74ha268d.com  place_id=505122419   s_zizum=2
   상상의문 수원2호점  https://xn--z92b74ha268d.com  place_id=1121229740  s_zizum=7
+  버스티드          http://busted.kr              place_id=1092766492
 
 공통 API 구조:
   GET {base_url}/layout/res/home.php?go=rev.make[&s_zizum={N}]&rev_days=YYYY-MM-DD
@@ -284,6 +285,17 @@ SITES: list[dict] = [
         "base_url":    "https://xn--z92b74ha268d.com",
         "s_zizum":     7,
         "use_ssl":     True,
+        "need_session": True,
+    },
+    {
+        "cafe_id":     "1092766492",
+        "cafe_name":   "버스티드",
+        "branch_name": None,
+        "address":     "경기 부천시 원미구 부일로445번길 22",
+        "area":        "gyeonggi",
+        "base_url":    "http://busted.kr",
+        "s_zizum":     None,
+        "use_ssl":     False,
         "need_session": True,
     },
 ]
