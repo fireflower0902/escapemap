@@ -1345,7 +1345,8 @@
       "homepage_url": "http://www.no1escape.com/",
       "lat": 37.2648525938977,
       "lng": 127.031665580708,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_no1escape_db.py"
     },
     {
       "place_id": "444802506",
@@ -1464,7 +1465,8 @@
       "homepage_url": "http://xn--bb0b44mb8pfwi.kr/",
       "lat": 37.2526557877126,
       "lng": 127.074512802644,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sinbiweb_db.py"
     },
     {
       "place_id": "1956789824",
@@ -1490,7 +1492,8 @@
       "homepage_url": null,
       "lat": 37.2526476879386,
       "lng": 127.075916144109,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sinbiweb_db.py"
     },
     {
       "place_id": "779900297",
