@@ -1262,7 +1262,8 @@
       "homepage_url": null,
       "lat": 36.992041877521785,
       "lng": 127.0879702965413,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sherlock_db.py"
     },
     {
       "place_id": "136198096",
@@ -1275,7 +1276,8 @@
       "homepage_url": "http://routeescape.com/",
       "lat": 36.9911198248742,
       "lng": 127.087079567424,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_movieescape_db.py"
     },
     {
       "place_id": "1231888375",
@@ -1315,7 +1317,8 @@
       "homepage_url": null,
       "lat": 37.2639426413036,
       "lng": 127.031289789894,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sherlock_db.py"
     },
     {
       "place_id": "1121229740",
@@ -1328,7 +1331,8 @@
       "homepage_url": null,
       "lat": 37.2640617021611,
       "lng": 127.030819730609,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sinbiweb_db.py"
     },
     {
       "place_id": "27324626",
@@ -1525,7 +1529,8 @@
       "homepage_url": "http://route-sw.com/",
       "lat": 37.2677869868703,
       "lng": 127.002649423354,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_movieescape_db.py"
     },
     {
       "place_id": "716398207",
@@ -1538,7 +1543,8 @@
       "homepage_url": "https://naver.me/FHAi48Sx",
       "lat": 37.267836554657784,
       "lng": 127.00212855939164,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sherlock_db.py"
     },
     {
       "place_id": "1855837227",
@@ -1551,7 +1557,8 @@
       "homepage_url": "http://movieescape.kr/",
       "lat": 37.201069865957216,
       "lng": 127.0716629092662,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_movieescape_db.py"
     },
     {
       "place_id": "2021007589",
@@ -1564,7 +1571,8 @@
       "homepage_url": null,
       "lat": 37.27773451698202,
       "lng": 127.15317932136549,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sherlock_db.py"
     },
     {
       "place_id": "461296797",
@@ -1590,7 +1598,8 @@
       "homepage_url": "http://dreampicnicescape.com/",
       "lat": 37.3179435779109,
       "lng": 126.835644776617,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_dreampicnic_db.py"
     },
     {
       "place_id": "1772504569",
@@ -1616,7 +1625,8 @@
       "homepage_url": "http://www.routeescape.co.kr/",
       "lat": 37.3180545788333,
       "lng": 126.83772938076,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_movieescape_db.py"
     },
     {
       "place_id": "1900192470",
@@ -1896,7 +1906,8 @@
       "homepage_url": null,
       "lat": 37.3911410965725,
       "lng": 126.954021096357,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sherlock_db.py"
     },
     {
       "place_id": "713424921",
@@ -2163,7 +2174,8 @@
       "homepage_url": null,
       "lat": 37.5037614701541,
       "lng": 126.762483094516,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sherlock_db.py"
     },
     {
       "place_id": "59939450",
@@ -2176,7 +2188,8 @@
       "homepage_url": "http://dreampicnicescape.com/",
       "lat": 37.487585419253,
       "lng": 126.781461217969,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_dreampicnic_db.py"
     },
     {
       "place_id": "1678997732",
@@ -2203,7 +2216,8 @@
       "homepage_url": "http://busted.kr/",
       "lat": 37.4873523036542,
       "lng": 126.779652771683,
-      "crawled": false
+      "crawled": true,
+      "script": "sync_sinbiweb_db.py"
     },
     {
       "place_id": "1363823824",
