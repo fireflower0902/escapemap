@@ -5,6 +5,9 @@ macro.playthe.world 플랫폼을 사용하는 추가 방탈출 브랜드 동기�
   1. 플레이더월드 강남점    keycode=kQHQReY6D1jPJKs4  Name=playtheworld
   2. 개꿀이스케이프         keycode=Xk8AiGgdQDjyBgZy  Name=playtheworld
   3. 이스케이프샾 신사점    keycode=nwGhWo2rSj4xGDAK  Name=escapeshop
+  4. 이스케이프샾 건대점    keycode=nwGhWo2rSj4xGDAK  shop=tS5DajzuHqnhrnjH
+  5. 룸익스케이프(ex-cape)  keycode=CKRwHMB3FGpytPrP  Name=room-excape  (신촌 4지점)
+  6. 오늘의한페이지         keycode=jCEMud1hyJKnxYGu  Name=page-today   (강남)
 
 API: macro.playthe.world (doorescape.co.kr와 동일 플랫폼)
   GET /v2/shops.json?keycode={BRAND_KEYCODE}   → 지점 목록
@@ -76,6 +79,28 @@ BRANDS = [
         "booking_base": "https://escapeshop.co.kr/reservation.html",
         "shop_map": {
             "Jmas3Q5kHnfxQhFZ": "1000900386",  # 이스케이프샾 신사점
+            "tS5DajzuHqnhrnjH": "2016521022",   # 이스케이프샾 건대점
+        },
+    },
+    {
+        "keycode": "CKRwHMB3FGpytPrP",
+        "name": "room-excape",
+        "referer": "https://ex-cape.com",
+        "booking_base": "https://ex-cape.com/reservation.html",
+        "shop_map": {
+            "Z5dmpFTTqzaSqaa4": "27329834",     # 룸익스케이프 신촌 블랙점
+            "p8j31JZAgRCJWnUc": "1542251042",   # 룸익스케이프 신촌 화이트점
+            "vG4SZyg8jem2YYuo": "912842418",    # 룸익스케이프 신촌 올리브점
+            "mpu5Jvr5DzANeHRL": "690123759",    # 룸익스케이프 신촌 인디고블루점
+        },
+    },
+    {
+        "keycode": "jCEMud1hyJKnxYGu",
+        "name": "page-today",
+        "referer": "https://page-today.co.kr",
+        "booking_base": "https://page-today.co.kr/#reserve",
+        "shop_map": {
+            "rjwaaAh3mVPbCdHA": "2012633570",   # 오늘의한페이지 강남점
         },
     },
 ]
@@ -119,8 +144,12 @@ def _make_auth_headers(keycode: str, name: str, referer: str) -> dict[str, str]:
 def _api_get(path: str, keycode: str, name: str, referer: str) -> dict:
     url = BASE_URL + path
     req = urllib.request.Request(url, headers=_make_auth_headers(keycode, name, referer))
-    with urllib.request.urlopen(req, context=_SSL_CTX, timeout=15) as r:
-        return json.loads(r.read().decode())
+    try:
+        with urllib.request.urlopen(req, context=_SSL_CTX, timeout=15) as r:
+            return json.loads(r.read().decode())
+    except Exception as e:
+        print(f"  [WARN] GET {path} 실패: {e}")
+        return {}
 
 
 # ── 파싱 유틸 ──────────────────────────────────────────────────────────────────

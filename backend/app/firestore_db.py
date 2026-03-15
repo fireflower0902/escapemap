@@ -30,6 +30,7 @@ AREA_ADDRESS_MAP: dict[str, list[str]] = {
     "gangnam":    ["서울 강남구", "서울 서초구"],
     "hongdae":    ["서울 마포구"],
     "sinchon":    ["서울 서대문구"],
+    "konkuk":     ["서울 광진구"],
     "jamsil":     ["서울 송파구", "서울 강동구"],
     "itaewon":    ["서울 용산구"],
     "myeongdong": ["서울 중구", "서울 종로구"],

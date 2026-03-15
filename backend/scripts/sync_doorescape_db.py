@@ -97,8 +97,12 @@ def _make_auth_headers() -> dict[str, str]:
 def _api_get(path: str) -> dict:
     url = BASE_URL + path
     req = urllib.request.Request(url, headers=_make_auth_headers())
-    with urllib.request.urlopen(req, context=_SSL_CTX, timeout=15) as r:
-        return json.loads(r.read().decode())
+    try:
+        with urllib.request.urlopen(req, context=_SSL_CTX, timeout=15) as r:
+            return json.loads(r.read().decode())
+    except Exception as e:
+        print(f"  [WARN] GET {path} 실패: {e}")
+        return {}
 
 
 # ── 크롤링 함수 ────────────────────────────────────────────────────────────────

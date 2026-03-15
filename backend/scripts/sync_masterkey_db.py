@@ -17,7 +17,10 @@ API:
 지점 매핑 (bid → DB cafe_id):
   35 → 1466171651  플레이포인트랩 강남점
   41 → 1987907479  노바홍대점
+  11 → 1462418270  플레이포인트랩 홍대점
   26 → 671151862   건대점
+  20 → 751793807   홍대상수점
+  32 → 97734177    마스터키프라임 신촌퍼플릭
   40 → 1559912469  해운대 블루오션스테이션
   43 → 1397923384  서면탄탄스트리트점
    1 → 27495854    궁동직영점 (대전)
@@ -49,7 +52,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
+from app.firestore_db import init_firestore, get_db, upsert_cafe, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
 
 API_URL = "http://www.master-key.co.kr/booking/booking_list_new"
 BOOKING_URL_TEMPLATE = "http://www.master-key.co.kr/booking/bk_detail?bid={bid}"
@@ -57,11 +60,14 @@ POSTER_URL_TEMPLATE = "http://www.master-key.co.kr/upload/room/{room_id}_img1.gi
 REQUEST_DELAY = 1.0
 
 # bid(마스터키 지점 ID) → DB cafe_id 매핑
-# DB에 없는 지점(bid=31 노원, 21 잠실, 18 천안프리미엄, 13 안양, 7 천안두정, 44 서면오리진, 11 홍대)은 제외
+# DB에 없는 지점(bid=31 노원, 18 천안프리미엄, 13 안양, 7 천안두정, 44 서면오리진)은 제외
 SHOP_MAP: dict[int, str] = {
     35: "1466171651",  # 플레이포인트랩 강남점
     41: "1987907479",  # 노바홍대점
+    11: "1462418270",  # 플레이포인트랩 홍대점
     26: "671151862",   # 건대점
+    20: "751793807",   # 홍대상수점
+    32: "97734177",    # 마스터키프라임 신촌퍼플릭
     40: "1559912469",  # 해운대 블루오션스테이션
     43: "1397923384",  # 서면탄탄스트리트점
     1:  "27495854",    # 궁동직영점 (대전)
@@ -70,6 +76,37 @@ SHOP_MAP: dict[int, str] = {
     27: "1850589033",  # 평택점
     30: "1834906043",  # 동탄프라임
     23: "870806933",   # 화정점
+    21: "967129600",   # 플레이포인트랩 잠실점
+}
+
+# 새로 추가된 지점의 카페 메타 (Firestore에 카페 문서가 없는 경우 자동 생성)
+CAFE_META: dict[int, dict] = {
+    20: {
+        "name":        "마스터키",
+        "branch_name": "홍대상수점",
+        "address":     "서울 마포구 상수동 317-4 상수동오피스텔 지하1층",
+        "area":        "hongdae",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=20",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
+    32: {
+        "name":        "마스터키프라임",
+        "branch_name": "신촌퍼플릭",
+        "address":     "서울 서대문구 창천동 52-130 지하1층",
+        "area":        "sinchon",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=32",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
 }
 
 
@@ -211,6 +248,10 @@ def sync_themes(bids: list[int]) -> dict[tuple[int, str], str]:
 
     for bid, themes_by_room in discovered.items():
         cafe_id = SHOP_MAP[bid]
+        # 신규 지점은 카페 메타 먼저 upsert
+        if bid in CAFE_META:
+            upsert_cafe(db, cafe_id, CAFE_META[bid])
+            print(f"  [UPSERT] 카페 메타 bid={bid} (id={cafe_id})")
         cafe_doc = db.collection("cafes").document(cafe_id).get()
         if not cafe_doc.exists:
             print(f"  [ERROR] cafe {cafe_id} Firestore 미존재 — bid={bid} 건너뜀")
