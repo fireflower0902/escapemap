@@ -12,8 +12,9 @@ sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.
   호텔레토 성수점  http://hotelletoh.co.kr          place_id=1168819420
   탈출브라더스 영등포점 https://escapebro.co.kr    place_id=1045036053
   어클락이스케이프 http://oclock-escape.com         place_id=1425246210
-  상상의문 수원점  https://xn--z92b74ha268d.com     place_id=776353707   s_zizum=5
+  상상의문 수원점    https://xn--z92b74ha268d.com  place_id=776353707   s_zizum=5
   상상의문 분당서현점 https://xn--z92b74ha268d.com  place_id=505122419   s_zizum=2
+  상상의문 수원2호점  https://xn--z92b74ha268d.com  place_id=1121229740  s_zizum=7
 
 공통 API 구조:
   GET {base_url}/layout/res/home.php?go=rev.make[&s_zizum={N}]&rev_days=YYYY-MM-DD
@@ -271,6 +272,17 @@ SITES: list[dict] = [
         "area":        "gyeonggi",
         "base_url":    "https://xn--z92b74ha268d.com",
         "s_zizum":     2,
+        "use_ssl":     True,
+        "need_session": True,
+    },
+    {
+        "cafe_id":     "1121229740",
+        "cafe_name":   "상상의문",
+        "branch_name": "수원2호점",
+        "address":     "경기 수원시 팔달구 효원로249번길 46-18",
+        "area":        "gyeonggi",
+        "base_url":    "https://xn--z92b74ha268d.com",
+        "s_zizum":     7,
         "use_ssl":     True,
         "need_session": True,
     },

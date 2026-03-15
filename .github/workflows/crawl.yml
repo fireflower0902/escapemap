@@ -86,3 +86,4 @@ jobs:
           uv run python scripts/sync_thetrapsy_db.py
           uv run python scripts/sync_escapehouse_db.py
           uv run python scripts/sync_conanescape_db.py
+          uv run python scripts/sync_dreampicnic_db.py

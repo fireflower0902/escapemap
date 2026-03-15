@@ -9,11 +9,12 @@
 
 API:
   GET https://api.ttescape.co.kr/api/availability/list?mode=date&date={YYYY-MM-DD}
-  응답: [{
+  응답: {"slots": [{
     "시간": "HHMM",           ← 4자리 숫자 (콜론 없음)
     "입장가능": true/false,
     "테마": "테마명"
-  }, ...]
+  }, ...]}
+  (구 응답 형식: 배열 직접 반환도 처리)
 
 예약 URL: https://www.ttescape.co.kr (슬롯별 직접 링크 없음)
 
@@ -80,7 +81,13 @@ def fetch_slots(target_date: date) -> list[dict]:
     req = urllib.request.Request(url, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=15, context=_SSL_CTX) as resp:
-            return json.loads(resp.read().decode("utf-8", errors="replace"))
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+        # API 응답 형식: {"slots": [...]} 또는 [...]
+        if isinstance(data, dict):
+            return data.get("slots", [])
+        if isinstance(data, list):
+            return data
+        return []
     except Exception as e:
         print(f"  [WARN] GET {url} 실패: {e}")
         return []

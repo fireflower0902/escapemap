@@ -12,10 +12,18 @@
 
 지점 (경기, sido=9):
   bno=62   분당야탑점  place_id=1396409942 area=gyeonggi (경기 성남시 분당구 야탑동 353-3)
+  bno=79   동탄점      place_id=?          area=gyeonggi (경기 화성시 동탄)
+  bno=80   평택점      place_id=728789378  area=gyeonggi (경기 평택시 평택2로10번길 10-4)
+  bno=81   뉴안양점    place_id=?          area=gyeonggi (경기 안양시)
   bno=87   서현점      place_id=816654453  area=gyeonggi (경기 성남시 분당구 서현동 268-4)
   bno=94   미사점      place_id=1954089927 area=gyeonggi (경기 하남시 망월동 1111)
+  bno=96   용인동백점  place_id=2021007589 area=gyeonggi (경기 용인시 기흥구 동백중앙로 283)
+  bno=100  수원역점    place_id=716398207  area=gyeonggi (경기 수원시 팔달구 향교로 9)
   bno=102  김포구래점  place_id=743084847  area=gyeonggi (경기 김포시 구래동 6882-16)
+  bno=104  부천중동점  place_id=1620988252 area=gyeonggi (경기 부천시 원미구 석천로183번길 11)
   bno=106  수지구청점  place_id=582885260  area=gyeonggi (경기 용인시 수지구 풍덕천동 711-3)
+  bno=108  수원인계점  place_id=1166453549 area=gyeonggi (경기 수원시 팔달구 효원로265번길 41)
+  bno=109  안양범계점  place_id=1888259527 area=gyeonggi (경기 안양시 동안구 평촌대로223번길 28)
 
 API:
   GET https://sherlock-holmes.co.kr/reservation/res_schedule.php
@@ -176,6 +184,60 @@ BRANCHES: list[dict] = [
         "area":        "gyeonggi",
         "sido":        9,
         "bno":         106,
+    },
+    {
+        "cafe_id":     "728789378",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "평택점",
+        "address":     "경기 평택시 평택2로10번길 10-4",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         80,
+    },
+    {
+        "cafe_id":     "2021007589",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "용인동백점",
+        "address":     "경기 용인시 기흥구 동백중앙로 283",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         96,
+    },
+    {
+        "cafe_id":     "716398207",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "수원역점",
+        "address":     "경기 수원시 팔달구 향교로 9",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         100,
+    },
+    {
+        "cafe_id":     "1620988252",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "부천중동점",
+        "address":     "경기 부천시 원미구 석천로183번길 11",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         104,
+    },
+    {
+        "cafe_id":     "1166453549",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "수원인계점",
+        "address":     "경기 수원시 팔달구 효원로265번길 41",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         108,
+    },
+    {
+        "cafe_id":     "1888259527",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "안양범계점",
+        "address":     "경기 안양시 동안구 평촌대로223번길 28",
+        "area":        "gyeonggi",
+        "sido":        9,
+        "bno":         109,
     },
 ]
 
