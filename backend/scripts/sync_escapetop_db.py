@@ -23,6 +23,13 @@
   시그널헌터 광교중앙점            businessId=1556188  cafe_id=215947527  area=gyeonggi
   타임이스케이프 창원점            businessId=1325475  cafe_id=27607543   area=gyeongnam
   브레인이스케이프 광주점          businessId=427883   cafe_id=1459848720 area=gwangju
+  방탈출추리존 대전              businessId=509345   cafe_id=2138163704 area=daejeon
+  러시아워방탈출 3호점 광주        businessId=1370021  cafe_id=2102768222 area=gwangju
+  러시아워방탈출 로드맨션 광주      businessId=540364   cafe_id=942247508  area=gwangju
+  카타르시스이스케이프 서면 부산     businessId=737799   cafe_id=1358303820 area=busan
+  판타지아방탈출카페 광주           businessId=795803   cafe_id=100018735  area=gwangju
+  시간의문 광주점                 businessId=1181539  cafe_id=1393764461 area=gwangju
+  시간의문 대구동성로점            businessId=1197639  cafe_id=929019886  area=daegu
 
 API:
   POST https://booking.naver.com/graphql
@@ -275,6 +282,83 @@ BRANCHES = [
         "address":          "광주 동구 황금동 20",
         "area":             "gwangju",
         "site_url":         "http://www.brain-escape.co.kr",
+    },
+    # 방탈출추리존 대전 (네이버 예약)
+    {
+        "cafe_id":          "2138163704",
+        "business_id":      "509345",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "방탈출추리존",
+        "address":          "대전 중구 은행동 168-5",
+        "area":             "daejeon",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/509345",
+    },
+    # 러시아워방탈출카페 3호점 광주 (네이버 예약)
+    {
+        "cafe_id":          "2102768222",
+        "business_id":      "1370021",
+        "business_type_id": 12,
+        "branch_name":      "3호점",
+        "name":             "러시아워방탈출",
+        "address":          "광주 동구 황금동 23-4",
+        "area":             "gwangju",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1370021",
+    },
+    # 러시아워방탈출카페 로드맨션 광주 (네이버 예약)
+    {
+        "cafe_id":          "942247508",
+        "business_id":      "540364",
+        "business_type_id": 12,
+        "branch_name":      "로드맨션",
+        "name":             "러시아워방탈출",
+        "address":          "광주 북구 용봉동 159-13",
+        "area":             "gwangju",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/540364",
+    },
+    # 카타르시스이스케이프 서면점 부산 (네이버 예약)
+    {
+        "cafe_id":          "1358303820",
+        "business_id":      "737799",
+        "business_type_id": 12,
+        "branch_name":      "서면점",
+        "name":             "카타르시스이스케이프",
+        "address":          "부산 부산진구 부전동 187-10",
+        "area":             "busan",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/737799",
+    },
+    # 판타지아방탈출카페 광주 (네이버 예약)
+    {
+        "cafe_id":          "100018735",
+        "business_id":      "795803",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "판타지아방탈출카페",
+        "address":          "광주 북구 용봉동 153-9",
+        "area":             "gwangju",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/795803",
+    },
+    # 시간의문 광주점 (gateoftime.kr - 네이버 예약, playtheworld API에 실질 데이터 없음)
+    {
+        "cafe_id":          "1393764461",
+        "business_id":      "1181539",
+        "business_type_id": 12,
+        "branch_name":      "광주점",
+        "name":             "시간의문",
+        "address":          "광주 동구 황금동 19-1",
+        "area":             "gwangju",
+        "site_url":         "https://gateoftime.kr",
+    },
+    # 시간의문 대구동성로점 (gateoftime.kr - 네이버 예약, playtheworld API에 실질 데이터 없음)
+    {
+        "cafe_id":          "929019886",
+        "business_id":      "1197639",
+        "business_type_id": 12,
+        "branch_name":      "대구동성로점",
+        "name":             "시간의문",
+        "address":          "대구 중구 동성로3가 16-10",
+        "area":             "daegu",
+        "site_url":         "https://gateoftime.kr",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {

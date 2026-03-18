@@ -160,7 +160,8 @@
       "homepage_url": null,
       "lat": 35.1477019818102,
       "lng": 126.915420595704,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "1393764461",
@@ -213,7 +214,8 @@
       "homepage_url": null,
       "lat": 35.175620094711256,
       "lng": 126.91332127235876,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "786094598",
@@ -252,7 +254,8 @@
       "homepage_url": null,
       "lat": 35.177180119019,
       "lng": 126.914272509779,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "665041653",
@@ -292,7 +295,8 @@
       "homepage_url": null,
       "lat": 35.1547145068696,
       "lng": 129.060689922501,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "1397923384",
@@ -1026,7 +1030,8 @@
       "homepage_url": null,
       "lat": 36.3276817883439,
       "lng": 127.42794109223,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "27523824",
