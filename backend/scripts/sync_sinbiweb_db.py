@@ -2,7 +2,8 @@
 sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.
 
 지원 사이트:
-  황금열쇠 건대점  http://xn--jj0b998aq3cptw.com  place_id=1271584354
+  황금열쇠 건대점  http://xn--jj0b998aq3cptw.com  place_id=1271584354  s_zizum=7
+  황금열쇠 동성로점 http://xn--jj0b998aq3cptw.com  place_id=1958696909  s_zizum=1
   나의신방 신촌점  https://xn--910bj3tlmfz4e.com  place_id=1521613397
   엑소더스 강남점  https://exodusescape.co.kr      place_id=103606910
   코드헌터 강남점  https://codehunter-escape.com   place_id=1213158520  (rev_subpath=layout/kor)
@@ -79,6 +80,17 @@ SITES: list[dict] = [
         "area":        "konkuk",
         "base_url":    "http://xn--jj0b998aq3cptw.com",
         "s_zizum":     7,
+        "use_ssl":     False,
+        "need_session": False,
+    },
+    {
+        "cafe_id":     "1958696909",
+        "cafe_name":   "황금열쇠",
+        "branch_name": "동성로점",
+        "address":     "대구 중구 봉산동 22-1",
+        "area":        "daegu",
+        "base_url":    "http://xn--jj0b998aq3cptw.com",
+        "s_zizum":     1,
         "use_ssl":     False,
         "need_session": False,
     },

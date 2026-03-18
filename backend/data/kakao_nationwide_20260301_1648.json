@@ -787,7 +787,8 @@
       "homepage_url": "http://www.xn--jj0b998aq3cptw.com/",
       "lat": 35.8664275998598,
       "lng": 128.596932008081,
-      "crawled": false
+      "crawled": true,
+      "engine": "sinbiweb"
     },
     {
       "place_id": "1254330051",
