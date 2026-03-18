@@ -69,7 +69,8 @@
       "homepage_url": null,
       "lat": 35.0990061467249,
       "lng": 129.029345082945,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1049164175",
@@ -206,7 +207,8 @@
       "homepage_url": null,
       "lat": 35.14570859009939,
       "lng": 126.9186665153119,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "942247508",
@@ -674,7 +676,8 @@
       "homepage_url": null,
       "lat": 35.8432550344227,
       "lng": 127.125627345476,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "929019886",
@@ -2638,7 +2641,8 @@
       "homepage_url": null,
       "lat": 37.5513751089074,
       "lng": 126.923082522731,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1611418578",
@@ -2790,7 +2794,8 @@
       "homepage_url": null,
       "lat": 37.4999640094742,
       "lng": 127.02810275713385,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "225341934",
@@ -2915,7 +2920,8 @@
       "homepage_url": null,
       "lat": 37.4970033258976,
       "lng": 127.031577883554,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "400448256",
@@ -3166,7 +3172,8 @@
       "homepage_url": "https://naver.me/xbjXQceE",
       "lat": 37.5385998135392,
       "lng": 127.127034504748,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1682203426",
@@ -3289,7 +3296,8 @@
       "homepage_url": null,
       "lat": 37.6192591720085,
       "lng": 126.918543009124,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "969459474",
@@ -3674,7 +3682,8 @@
       "homepage_url": null,
       "lat": 37.5526281212411,
       "lng": 126.922660246071,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "926754766",
@@ -3757,7 +3766,8 @@
       "homepage_url": "http://alcatraz.co.kr/",
       "lat": 37.5636157548121,
       "lng": 126.984407536023,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "4331171",
@@ -3895,7 +3905,8 @@
       "homepage_url": null,
       "lat": 37.6618315734849,
       "lng": 126.767539424787,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "302959300",
