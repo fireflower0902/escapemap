@@ -38,6 +38,7 @@ API:
 """
 
 import json
+import re
 import ssl
 import sys
 import time
@@ -132,6 +133,42 @@ BRANCHES = [
         "area":             "gyeonggi",
         "site_url":         "http://everestescape.com",
     },
+    # 괴담저장소 한강대 담력훈련 (서울 마포구)
+    {
+        "cafe_id":          "617331855",
+        "business_id":      "1204854",
+        "business_type_id": 12,
+        "branch_name":      "한강대점",
+        "name":             "괴담저장소",
+        "address":          "서울 마포구 동교동 198-1",
+        "area":             "hongdae",
+        "site_url":         "https://mysteryzip.com",
+        "normalize_theme":  True,  # "[월] 테마명" → "테마명" 정규화
+    },
+    # 괴담저장소 제일기숙학원 (별도 businessId)
+    {
+        "cafe_id":          "617331855",  # 같은 카카오 장소
+        "business_id":      "1335513",
+        "business_type_id": 12,
+        "branch_name":      "한강대점",
+        "name":             "괴담저장소",
+        "address":          "서울 마포구 동교동 198-1",
+        "area":             "hongdae",
+        "site_url":         "https://mysteryzip.com",
+        "normalize_theme":  True,
+    },
+    # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
+    {
+        "cafe_id":          "554838835",
+        "business_id":      "594531",
+        "business_type_id": 12,
+        "branch_name":      "홍대점",
+        "name":             "하이드앤시크",
+        "address":          "서울 마포구 동교동 203-57",
+        "area":             "hongdae",
+        "site_url":         "http://withescaper.com",
+        "normalize_theme":  True,  # "[N월 예약]" 제거
+    },
 ]
 
 _SSL_CTX = ssl.create_default_context()
@@ -148,6 +185,20 @@ HEADERS = {
 
 # 이름에 이 문자열이 포함된 아이템은 중복(이벤트전용 등) 처리 → 스킵
 _SKIP_KEYWORDS = ["오전이벤트", "이벤트전용", "이벤트 전용", "오전할인", "이벤트"]
+
+
+def _normalize_theme_name(name: str) -> str:
+    """
+    월별 bizItem 접두/접미 제거.
+    - "[N월] 테마명" → "테마명"
+    - "테마명 [N월 예약]" → "테마명"
+    - "테마명 [N월]" → "테마명"
+    """
+    # 앞쪽 "[N월] " 패턴 제거
+    name = re.sub(r"^\[\d+월\]\s*", "", name)
+    # 뒤쪽 " [N월...]" 패턴 제거
+    name = re.sub(r"\s*\[\d+월[^\]]*\]\s*$", "", name)
+    return name.strip()
 
 
 def _graphql(query: str, variables: dict) -> dict:
@@ -214,6 +265,7 @@ def sync_one_branch(branch: dict, days: int) -> int:
     cafe_id = branch["cafe_id"]
     business_id = branch["business_id"]
     branch_name = branch["branch_name"]
+    do_normalize = branch.get("normalize_theme", False)
 
     # 카페 meta upsert
     upsert_cafe(db, cafe_id, {
@@ -247,7 +299,8 @@ def sync_one_branch(branch: dict, days: int) -> int:
     biz_item_to_doc: dict[str, str] = {}
     for item in regular_items:
         biz_item_id = item["bizItemId"]
-        theme_name = item["name"].strip()
+        raw_name = item["name"].strip()
+        theme_name = _normalize_theme_name(raw_name) if do_normalize else raw_name
         doc_id = get_or_create_theme(db, cafe_id, theme_name, {
             "poster_url": None,
             "is_active":  True,
