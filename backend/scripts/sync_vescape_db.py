@@ -1,30 +1,28 @@
 """
-이스케이프시티(escapecity.kr) 테마 + 스케줄 DB 동기화 스크립트.
+방탈출브이(v-escape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.
 
-사이트: http://escapecity.kr
-플랫폼: 자체 PHP CMS (JIJEM 코드 기반, puzzlefactory/signescape 동일 계열)
+사이트: http://www.v-escape.co.kr
+플랫폼: JIJEM 계열 PHP (EUC-KR) — signescape와 동일 계열
 
 지점:
-  영등포본점      R_JIJEM=S1  cafe_id=1444854771  area=etc       테마 A-F(6개)
-  성신여대점      R_JIJEM=s2  cafe_id=926754766   area=etc       테마 A-F
-  부천신중동점    R_JIJEM=S3  cafe_id=1363823824  area=gyeonggi  테마 A-F
-  그랜드시티신촌점 R_JIJEM=S4 cafe_id=1834149457 area=hongdae   테마 A-F
+  삼덕점  R_JIJEM=S1  themes=A~G  cafe_id=858962026   area=daegu  (대구 중구 삼덕동1가 17-16)
+  공평점  R_JIJEM=S2  themes=A~E  cafe_id=1254330051  area=daegu  (대구 중구 공평동 62-11)
 
 API:
-  GET http://escapecity.kr/sub/sub03_1.html
-      ?R_JIJEM={code}&chois_date={YYYY-MM-DD}&R_THEMA={A|B|C...}
+  GET http://www.v-escape.co.kr/sub/sub03_1.html
+      ?R_JIJEM={code}&R_THEMA={A|B|C...}&chois_date={YYYY-MM-DD}
   응답: EUC-KR HTML
-    li.timeOn a[href="sub03_2.html?...room_time=HH:MM..."] → 예약가능
-    li.timeOff → 예약불가
-    테마명: a[href^="sub03_1.html"] + li.thema1 텍스트
-
-예약 URL: http://escapecity.kr/sub/sub03_2.html?chois_date={DATE}&room_time={HH:MM}&jijem_code={code}&room_code={THEMA}
+    div#reser2 → 테마 정보
+      img src="/upload_file/room/NN{테마명}.png" → 테마명 파싱
+      div.timeOn → 예약가능 슬롯 (a href 포함)
+      div.timeOff → 예약불가 슬롯 (a href 없음)
+  예약 URL: sub03_2.html?chois_date={DATE}&room_time={HH:MM [suffix]}&jijem_code={code}&room_code={thema}&room_name=&room_week={주말/평일}
 
 실행:
   cd escape-aggregator/backend
-  uv run python scripts/sync_escapecity_db.py
-  uv run python scripts/sync_escapecity_db.py --no-schedule
-  uv run python scripts/sync_escapecity_db.py --days 14
+  uv run python scripts/sync_vescape_db.py
+  uv run python scripts/sync_vescape_db.py --no-schedule
+  uv run python scripts/sync_vescape_db.py --days 14
 """
 
 import re
@@ -45,41 +43,26 @@ from app.firestore_db import (
     load_cafe_hashes, save_cafe_hashes,
 )
 
-SITE_URL = "http://escapecity.kr"
+SITE_URL = "http://www.v-escape.co.kr"
 REV_URL = SITE_URL + "/sub/sub03_1.html"
 REQUEST_DELAY = 0.8
 
-# 테마코드: A~F 시도 (실제 없는 테마는 빈 응답)
-THEME_CODES = ["A", "B", "C", "D", "E", "F"]
-
 BRANCHES = [
     {
-        "cafe_id":     "1444854771",
-        "branch_name": "영등포본점",
-        "jijem":       "S1",
-        "area":        "etc",
-        "address":     "서울 영등포구 영중로8길 6",
+        "cafe_id":      "858962026",
+        "branch_name":  "삼덕점",
+        "jijem":        "S1",
+        "themes":       ["A", "B", "C", "D", "E", "F", "G"],
+        "area":         "daegu",
+        "address":      "대구 중구 삼덕동1가 17-16",
     },
     {
-        "cafe_id":     "926754766",
-        "branch_name": "성신여대점",
-        "jijem":       "s2",
-        "area":        "etc",
-        "address":     "서울 성북구 보문로34길 43",
-    },
-    {
-        "cafe_id":     "1363823824",
-        "branch_name": "부천신중동점",
-        "jijem":       "S3",
-        "area":        "gyeonggi",
-        "address":     "경기 부천시 원미구 중동 1138-1",
-    },
-    {
-        "cafe_id":     "1834149457",
-        "branch_name": "그랜드시티신촌점",
-        "jijem":       "S4",
-        "area":        "hongdae",
-        "address":     "서울 서대문구 연세로11길 39",
+        "cafe_id":      "1254330051",
+        "branch_name":  "공평점",
+        "jijem":        "S2",
+        "themes":       ["A", "B", "C", "D", "E"],
+        "area":         "daegu",
+        "address":      "대구 중구 공평동 62-11",
     },
 ]
 
@@ -95,62 +78,67 @@ HEADERS = {
     ),
     "Accept": "text/html,application/xhtml+xml",
     "Accept-Language": "ko-KR,ko;q=0.9",
-    "Referer": SITE_URL + "/sub/sub03_1.html",
+    "Referer": SITE_URL + "/",
 }
 
 
-def _fetch(jijem: str, thema: str, target_date: date) -> str:
+def _fetch(jijem: str, thema: str, target_date: date) -> bytes:
+    """날짜 + 테마코드별 예약 페이지 원시 바이트 반환."""
     date_str = target_date.strftime("%Y-%m-%d")
-    url = f"{REV_URL}?R_JIJEM={jijem}&chois_date={date_str}&R_THEMA={thema}"
+    url = f"{REV_URL}?R_JIJEM={jijem}&R_THEMA={thema}&chois_date={date_str}"
     req = urllib.request.Request(url, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=15, context=_SSL_CTX) as resp:
-            raw = resp.read()
-        try:
-            return raw.decode("euc-kr", errors="replace")
-        except Exception:
-            return raw.decode("utf-8", errors="replace")
+            return resp.read()
     except Exception as e:
         print(f"  [WARN] GET {url} 실패: {e}")
-        return ""
+        return b""
 
 
-def _parse_page(html: str, jijem: str, thema: str, target_date: date) -> dict | None:
+def _extract_theme_name(raw: bytes, thema_code: str) -> str | None:
     """
-    HTML에서 테마명 + 슬롯 목록 파싱.
-    반환: {name: str, slots: [{time, status, booking_url}]} or None
+    HTML raw bytes에서 테마명 추출.
+    /upload_file/room/NN{테마명}.png 형식 → EUC-KR 디코드 후 leading 숫자 제거.
     """
-    # 테마명: li.thema1 텍스트 (또는 room_name URL 파라미터)
-    m_name = re.search(r'<li[^>]+class="[^"]*thema1[^"]*"[^>]*>([^<]+)</li>', html)
-    if m_name:
-        theme_name = m_name.group(1).strip()
-    else:
-        # URL room_name 파라미터에서 추출
-        m_rn = re.search(r'room_name=([^&"\'\\s]+)', html)
-        if not m_rn:
-            return None
-        theme_name = m_rn.group(1).strip()
-        try:
-            from urllib.parse import unquote
-            theme_name = unquote(theme_name, encoding="euc-kr")
-        except Exception:
-            pass
-
-    if not theme_name:
+    # Find img src containing upload_file/room/
+    m = re.search(rb'upload_file/room/([^"<>]+?)\.(png|jpg|jpeg)', raw, re.IGNORECASE)
+    if not m:
         return None
+    filename_bytes = m.group(1)
+    try:
+        filename = filename_bytes.decode("euc-kr", errors="replace")
+    except Exception:
+        filename = filename_bytes.decode("utf-8", errors="replace")
+    # Strip leading 2-digit number prefix (e.g., "01" from "01퍽댓쉿")
+    name = re.sub(r"^\d+\s*-*\s*", "", filename).strip()
+    return name if name else f"테마{thema_code}"
 
-    date_str = target_date.strftime("%Y-%m-%d")
+
+def _parse_slots(raw: bytes, jijem: str, thema: str, target_date: date) -> list[dict]:
+    """
+    HTML raw bytes에서 슬롯 목록 파싱.
+    반환: [{time, status, booking_url}]
+    """
+    try:
+        html = raw.decode("euc-kr", errors="replace")
+    except Exception:
+        html = raw.decode("utf-8", errors="replace")
+
     slots: list[dict] = []
+    date_str = target_date.strftime("%Y-%m-%d")
 
-    # 예약가능: li.timeOn > a[href="sub03_2.html?...room_time=HH:MM..."]
+    # 예약가능: <a href="sub03_2.html?...room_time=HH:MM..."><div class="timeOn">
     avail_pattern = re.compile(
-        r'<li[^>]+class="[^"]*timeOn[^"]*"[^>]*>.*?'
-        r'<a\s+href="(sub03_2\.html\?[^"]+room_time=(\d{2}:\d{2})[^"]*)"',
+        r'<a\s+href="(sub03_2\.html\?[^"]+)">\s*<div\s+class="timeOn"',
         re.DOTALL,
     )
     for m in avail_pattern.finditer(html):
         href = m.group(1)
-        time_str = m.group(2)
+        # Extract time from room_time parameter (may include suffix like " (조조)")
+        t_match = re.search(r"room_time=(\d{2}:\d{2})", href)
+        if not t_match:
+            continue
+        time_str = t_match.group(1)
         booking_url = SITE_URL + "/sub/" + href
         slots.append({
             "time":        time_str,
@@ -158,65 +146,62 @@ def _parse_page(html: str, jijem: str, thema: str, target_date: date) -> dict | 
             "booking_url": booking_url,
         })
 
-    # 예약불가: li.timeOff 내 시간 텍스트
-    off_pattern = re.compile(
-        r'<li[^>]+class="[^"]*timeOff[^"]*"[^>]*>.*?(\d{2}:\d{2})',
-        re.DOTALL,
-    )
-    for m in off_pattern.finditer(html):
+    # 예약불가: div.timeOff without preceding <a>
+    # Pattern: timeOff div containing HH:MM
+    for m in re.finditer(r'<div\s+class="timeOff"[^>]*>[^<]*(\d{2}:\d{2})', html):
+        # Check that this is NOT inside an <a> tag
+        before = html[max(0, m.start()-50):m.start()]
+        if "<a " in before:
+            continue
+        time_str = m.group(1)
         slots.append({
-            "time":        m.group(1),
+            "time":        time_str,
             "status":      "full",
             "booking_url": None,
         })
 
-    if not slots:
-        return None
-
-    return {"name": theme_name, "slots": slots}
+    return slots
 
 
 # ── DB 동기화 ─────────────────────────────────────────────────────────────────
 
 def sync_cafe_meta(db, branch: dict) -> None:
     upsert_cafe(db, branch["cafe_id"], {
-        "name":        "이스케이프시티",
+        "name":        "방탈출브이",
         "branch_name": branch["branch_name"],
         "address":     branch["address"],
         "area":        branch["area"],
         "website_url": SITE_URL,
-        "engine":      "escapecity",
+        "engine":      "vescape",
         "crawled":     True,
         "is_active":   True,
     })
-    print(f"  [UPSERT] 카페: 이스케이프시티 {branch['branch_name']} (id={branch['cafe_id']})")
+    print(f"  [UPSERT] 카페: 방탈출브이 {branch['branch_name']} (id={branch['cafe_id']})")
 
 
 def sync_one_branch(branch: dict, days: int) -> int:
     db = get_db()
     cafe_id = branch["cafe_id"]
     jijem = branch["jijem"]
+    theme_codes = branch["themes"]
     today = date.today()
     crawled_at = datetime.now()
 
-    cafe_doc = db.collection("cafes").document(cafe_id).get()
-    if not cafe_doc.exists:
-        print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
-        return 0
-
-    # 테마 이름 발견: 가장 가까운 날짜 fallback
-    theme_name_map: dict[str, str] = {}  # thema_code → theme_name
+    # 테마 이름 발견: 가장 가까운 날짜에서 시도
+    theme_name_map: dict[str, str] = {}  # theme_code → theme_name
     for i in range(8):
         target = today + timedelta(days=i)
-        for code in THEME_CODES:
+        for code in theme_codes:
             if code in theme_name_map:
                 continue
-            html = _fetch(jijem, code, target)
+            raw = _fetch(jijem, code, target)
             time.sleep(REQUEST_DELAY)
-            parsed = _parse_page(html, jijem, code, target)
-            if parsed:
-                theme_name_map[code] = parsed["name"]
-        if len(theme_name_map) >= 2:
+            if not raw:
+                continue
+            name = _extract_theme_name(raw, code)
+            if name:
+                theme_name_map[code] = name
+        if len(theme_name_map) == len(theme_codes):
             break
 
     if not theme_name_map:
@@ -224,13 +209,13 @@ def sync_one_branch(branch: dict, days: int) -> int:
         return 0
 
     # 테마 upsert
-    code_to_doc: dict[str, str] = {}
+    name_to_doc: dict[str, str] = {}
     for code, tname in theme_name_map.items():
         doc_id = get_or_create_theme(db, cafe_id, tname, {
             "poster_url": None,
             "is_active":  True,
         })
-        code_to_doc[code] = doc_id
+        name_to_doc[code] = doc_id
         print(f"  [UPSERT] 테마: {tname} (code={code})")
 
     # 스케줄 upsert
@@ -244,20 +229,22 @@ def sync_one_branch(branch: dict, days: int) -> int:
         date_str = target_date.strftime("%Y-%m-%d")
         avail = full = 0
 
-        for code, doc_id in code_to_doc.items():
-            html = _fetch(jijem, code, target_date)
-            time.sleep(REQUEST_DELAY)
-            parsed = _parse_page(html, jijem, code, target_date)
-            if not parsed:
+        for code in theme_codes:
+            doc_id = name_to_doc.get(code)
+            if not doc_id:
                 continue
+            raw = _fetch(jijem, code, target_date)
+            time.sleep(REQUEST_DELAY)
+            if not raw:
+                continue
+            slots = _parse_slots(raw, jijem, code, target_date)
 
-            for slot in parsed["slots"]:
+            for slot in slots:
                 time_str = slot["time"]
                 try:
                     hh, mm = int(time_str[:2]), int(time_str[3:5])
                 except Exception:
                     continue
-
                 slot_dt = datetime(
                     target_date.year, target_date.month, target_date.day, hh, mm,
                 )
@@ -302,7 +289,7 @@ def sync_one_branch(branch: dict, days: int) -> int:
 
 def main(run_schedule: bool = True, days: int = 14):
     print("=" * 60)
-    print("이스케이프시티(escapecity.kr) → DB 동기화")
+    print("방탈출브이(v-escape.co.kr) → DB 동기화")
     print("=" * 60)
 
     init_firestore(settings.firebase_credentials_path)
@@ -316,11 +303,8 @@ def main(run_schedule: bool = True, days: int = 14):
         for branch in BRANCHES:
             print(f"\n[ 2단계 ] {branch['branch_name']} 스케줄 동기화 (오늘~{days}일 후)")
             try:
-    
-            sync_one_branch(branch, days=days)
-
+                sync_one_branch(branch, days=days)
             except Exception as e:
-    
                 print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
@@ -330,7 +314,7 @@ def main(run_schedule: bool = True, days: int = 14):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="이스케이프시티 DB 동기화")
+    parser = argparse.ArgumentParser(description="방탈출브이 DB 동기화")
     parser.add_argument("--no-schedule", action="store_true", help="스케줄 동기화 건너뜀")
     parser.add_argument("--days", type=int, default=14, help="오늘부터 며칠치 수집 (기본 14)")
     args = parser.parse_args()

@@ -18,6 +18,8 @@ sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.
   버스티드          http://busted.kr              place_id=1092766492
   골든타임이스케이프 1호점 https://xn--bb0b44mb8pfwi.kr  place_id=1875954710  s_zizum=1
   골든타임이스케이프 2호점 https://xn--bb0b44mb8pfwi.kr  place_id=1591055284  s_zizum=2
+  상상의문 부평점          https://xn--z92b74ha268d.com  place_id=1387240933  s_zizum=6
+  콜드케이스              http://cold-case.co.kr        place_id=455356224
 
 공통 API 구조:
   GET {base_url}/layout/res/home.php?go=rev.make[&s_zizum={N}]&rev_days=YYYY-MM-DD
@@ -322,6 +324,65 @@ SITES: list[dict] = [
         "use_ssl":     True,
         "need_session": True,
     },
+    {
+        "cafe_id":     "1387240933",
+        "cafe_name":   "상상의문",
+        "branch_name": "부평점",
+        "address":     "인천 부평구 부평대로 293 3층",
+        "area":        "incheon",
+        "base_url":    "https://xn--z92b74ha268d.com",
+        "s_zizum":     6,
+        "use_ssl":     True,
+        "need_session": True,
+    },
+    {
+        "cafe_id":     "455356224",
+        "cafe_name":   "콜드케이스",
+        "branch_name": "인하대점",
+        "address":     "인천 남구 인하로 100",
+        "area":        "incheon",
+        "base_url":    "http://cold-case.co.kr",
+        "s_zizum":     None,
+        "use_ssl":     False,
+        "need_session": True,
+    },
+    {
+        "cafe_id":     "444802506",
+        "cafe_name":   "메타이스케이프",
+        "branch_name": None,
+        "address":     "경기 수원시 팔달구 인계동 1038-11",
+        "area":        "gyeonggi",
+        "base_url":    "https://xn--h32b25mu4dba377gzscs2k.com",
+        "s_zizum":     None,
+        "use_ssl":     True,
+        "need_session": True,
+    },
+    {
+        # 큐방탈출카페 일산 웨스턴돔점 — sinbiweb POST variant (/reserve/)
+        "cafe_id":     "351145232",
+        "cafe_name":   "큐방탈출카페",
+        "branch_name": "일산점",
+        "address":     "경기 고양시 일산서구 킨텍스로 217-60",
+        "area":        "gyeonggi",
+        "base_url":    "http://www.qescapeilsan.co.kr",
+        "s_zizum":     None,
+        "use_ssl":     False,
+        "need_session": True,
+        "rev_use_post": True,
+        "rev_subpath":  "reserve",
+    },
+    {
+        # 제주방탈출 제원점 — sinbiweb (EUC-KR)
+        "cafe_id":     "1554942559",
+        "cafe_name":   "제주방탈출",
+        "branch_name": "제원점",
+        "address":     "제주특별자치도 제주시 연동 273-15",
+        "area":        "jeju",
+        "base_url":    "http://www.xn--vh3bw8qo2aba23i98on1f.com",
+        "s_zizum":     None,
+        "use_ssl":     False,
+        "need_session": True,
+    },
 ]
 
 
@@ -363,11 +424,24 @@ def _reserve_url(site: dict, target_date: date) -> str:
 
 
 def _fetch_page(opener: urllib.request.OpenerDirector, site: dict, target_date: date) -> str:
-    url = _reserve_url(site, target_date)
-    req = urllib.request.Request(
-        url,
-        headers={**HEADERS, "Referer": site["base_url"] + "/"},
-    )
+    date_str = target_date.strftime("%Y-%m-%d")
+    if site.get("rev_use_post"):
+        # POST variant: /reserve/ with rdate=YYYY-MM-DD&theme=
+        subpath = site.get("rev_subpath", "reserve")
+        url = site["base_url"] + f"/{subpath}/"
+        post_data = f"rdate={date_str}&theme=".encode()
+        req = urllib.request.Request(
+            url,
+            data=post_data,
+            headers={**HEADERS, "Referer": site["base_url"] + "/",
+                     "Content-Type": "application/x-www-form-urlencoded"},
+        )
+    else:
+        url = _reserve_url(site, target_date)
+        req = urllib.request.Request(
+            url,
+            headers={**HEADERS, "Referer": site["base_url"] + "/"},
+        )
     try:
         with opener.open(req, timeout=15) as r:
             return r.read().decode("utf-8", errors="ignore")
@@ -607,7 +681,10 @@ def main(run_schedule: bool = True, days: int = 14):
     init_firestore(settings.firebase_credentials_path)
 
     for site in SITES:
-        sync_one_site(site, run_schedule, days)
+        try:
+            sync_one_site(site, run_schedule, days)
+        except Exception as e:
+            print(f"  [ERROR] {site['cafe_name']} {site['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("모든 사이트 동기화 완료!")

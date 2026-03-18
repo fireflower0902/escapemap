@@ -297,32 +297,34 @@ def main(run_schedule: bool = True, days: int = 14) -> None:
         print(f"\n{'=' * 40}")
         print(f"[ {branch['cafe_name']} {branch['branch_name']} ]")
         print(f"{'=' * 40}")
+        try:
+            # 테마 목록 먼저 조회 (오늘 기준)
+            opener = _make_opener()
+            csrf = _get_csrf(opener, branch["base_url"])
+            today_data = _fetch_day(opener, branch["base_url"], csrf, date.today())
+            if today_data is None:
+                print("  테마 조회 실패, 건너뜀.")
+                continue
 
-        # 테마 목록 먼저 조회 (오늘 기준)
-        opener = _make_opener()
-        csrf = _get_csrf(opener, branch["base_url"])
-        today_data = _fetch_day(opener, branch["base_url"], csrf, date.today())
-        if today_data is None:
-            print("  테마 조회 실패, 건너뜀.")
-            continue
+            theme_data = today_data.get("data", [])
+            if not theme_data:
+                print("  테마 없음, 건너뜀.")
+                continue
 
-        theme_data = today_data.get("data", [])
-        if not theme_data:
-            print("  테마 없음, 건너뜀.")
-            continue
+            print("\n[ 1단계 ] 카페 메타 동기화")
+            sync_cafe_meta(branch)
 
-        print("\n[ 1단계 ] 카페 메타 동기화")
-        sync_cafe_meta(branch)
+            print("\n[ 2단계 ] 테마 동기화")
+            pk_to_doc = sync_themes(branch, theme_data)
+            if not pk_to_doc:
+                print("  테마 동기화 실패, 건너뜀.")
+                continue
 
-        print("\n[ 2단계 ] 테마 동기화")
-        pk_to_doc = sync_themes(branch, theme_data)
-        if not pk_to_doc:
-            print("  테마 동기화 실패, 건너뜀.")
-            continue
-
-        if run_schedule:
-            print(f"\n[ 3단계 ] 스케줄 동기화 (오늘~{days}일 후)")
-            sync_schedules(branch, pk_to_doc, days=days)
+            if run_schedule:
+                print(f"\n[ 3단계 ] 스케줄 동기화 (오늘~{days}일 후)")
+                sync_schedules(branch, pk_to_doc, days=days)
+        except Exception as e:
+            print(f"  [ERROR] {branch['cafe_name']} {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")

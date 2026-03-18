@@ -307,7 +307,10 @@ def main(run_schedule: bool = True, days: int = 14):
 
     for branch in BRANCHES:
         print(f"\n── {branch['branch_name']} ──")
-        sync_branch(branch, run_schedule=run_schedule, days=days)
+        try:
+            sync_branch(branch, run_schedule=run_schedule, days=days)
+        except Exception as e:
+            print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")

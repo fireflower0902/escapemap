@@ -175,12 +175,12 @@ def sync_branch(branch: dict, days: int = 14) -> int:
 
             try:
                 hh, mm = int(time_str[:2]), int(time_str[3:5])
+                slot_dt = datetime(
+                    target_date.year, target_date.month, target_date.day, hh, mm,
+                )
             except Exception:
                 continue
 
-            slot_dt = datetime(
-                target_date.year, target_date.month, target_date.day, hh, mm,
-            )
             if slot_dt <= datetime.now():
                 continue
 

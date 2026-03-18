@@ -13,7 +13,8 @@
       "homepage_url": "http://www.xn--vh3bw8qo2aba23i98on1f.com/",
       "lat": 33.4866583875411,
       "lng": 126.490245461769,
-      "crawled": false
+      "crawled": true,
+      "engine": "sinbiweb"
     },
     {
       "place_id": "166623372",
@@ -78,7 +79,8 @@
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 35.1066726796986,
       "lng": 128.966358324694,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_sherlock_db"
     },
     {
       "place_id": "1023995566",
@@ -104,7 +106,8 @@
       "homepage_url": null,
       "lat": 35.1904854927815,
       "lng": 126.818342148097,
-      "crawled": false
+      "crawled": true,
+      "engine": "playtheworld"
     },
     {
       "place_id": "680681357",
@@ -117,7 +120,8 @@
       "homepage_url": "http://www.thecode-escape.com/",
       "lat": 35.1537451153988,
       "lng": 126.852730208076,
-      "crawled": false
+      "crawled": true,
+      "engine": "thecode"
     },
     {
       "place_id": "1856406910",
@@ -328,7 +332,8 @@
       "homepage_url": "http://www.dumbndumber-sm.kr/",
       "lat": 35.1542033728041,
       "lng": 129.061282712983,
-      "crawled": false
+      "crawled": true,
+      "script": "dumbndumber"
     },
     {
       "place_id": "629764977",
@@ -355,7 +360,8 @@
       "homepage_url": "https://playpointlab.com/",
       "lat": 35.1537407243543,
       "lng": 129.061621061204,
-      "crawled": false
+      "crawled": true,
+      "script": "masterkey"
     },
     {
       "place_id": "1637143499",
@@ -500,7 +506,8 @@
       "homepage_url": "http://www.thetimeescape.co.kr/",
       "lat": 35.3172176258087,
       "lng": 129.002778510431,
-      "crawled": false
+      "crawled": true,
+      "engine": "thetimeescape"
     },
     {
       "place_id": "27575809",
@@ -539,7 +546,8 @@
       "homepage_url": "http://zescape.co.kr/",
       "lat": 35.5537442009091,
       "lng": 129.319939804641,
-      "crawled": false
+      "crawled": true,
+      "engine": "zescape"
     },
     {
       "place_id": "27545114",
@@ -552,7 +560,8 @@
       "homepage_url": "http://www.murderparker.com/",
       "lat": 35.81335354377204,
       "lng": 127.14668987378973,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_murderparker_db"
     },
     {
       "place_id": "2055691742",
@@ -579,7 +588,8 @@
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.8195663247168,
       "lng": 127.145625709002,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_masterkey_db"
     },
     {
       "place_id": "27522878",
@@ -592,7 +602,8 @@
       "homepage_url": "http://junju.cubeescape.co.kr/?sd=3&sc=2_1&rbranch=4",
       "lat": 35.8155336841633,
       "lng": 127.110466358005,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_cubeescape_db"
     },
     {
       "place_id": "48992610",
@@ -619,7 +630,8 @@
       "homepage_url": "http://murderparker.com/",
       "lat": 35.815525263215264,
       "lng": 127.10782950441292,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_murderparker_db"
     },
     {
       "place_id": "625095198",
@@ -671,7 +683,8 @@
       "homepage_url": "http://xn--2e0b040a4xj.com/",
       "lat": 35.868349374051576,
       "lng": 128.59465337103407,
-      "crawled": false
+      "crawled": true,
+      "engine": "jigobyeol"
     },
     {
       "place_id": "338628640",
@@ -684,7 +697,8 @@
       "homepage_url": "http://alice-escape.com/",
       "lat": 35.8688132365766,
       "lng": 128.595620332138,
-      "crawled": false
+      "crawled": true,
+      "engine": "aliceescape"
     },
     {
       "place_id": "1443757324",
@@ -697,7 +711,8 @@
       "homepage_url": null,
       "lat": 35.8677333477672,
       "lng": 128.595576535882,
-      "crawled": false
+      "crawled": true,
+      "engine": "mafiacafe"
     },
     {
       "place_id": "76631654",
@@ -710,7 +725,8 @@
       "homepage_url": "https://playthe.world/",
       "lat": 35.8677284444896,
       "lng": 128.596962541838,
-      "crawled": false
+      "crawled": true,
+      "engine": "playtheworld"
     },
     {
       "place_id": "2039293420",
@@ -723,7 +739,8 @@
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.8677031015182,
       "lng": 128.59697089014,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_masterkey_db"
     },
     {
       "place_id": "858962026",
@@ -736,7 +753,8 @@
       "homepage_url": "http://www.v-escape.co.kr/",
       "lat": 35.8673284563281,
       "lng": 128.597224648638,
-      "crawled": false
+      "crawled": true,
+      "engine": "vescape"
     },
     {
       "place_id": "892545149",
@@ -776,7 +794,8 @@
       "homepage_url": "http://v-escape.co.kr/",
       "lat": 35.8682883269716,
       "lng": 128.598229251739,
-      "crawled": false
+      "crawled": true,
+      "engine": "vescape"
     },
     {
       "place_id": "363716272",
@@ -802,7 +821,8 @@
       "homepage_url": "http://murderparker.com/",
       "lat": 35.86582681031284,
       "lng": 128.59711479905405,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_murderparker_db"
     },
     {
       "place_id": "570199530",
@@ -828,7 +848,8 @@
       "homepage_url": "http://www.geniusescape.kr/",
       "lat": 35.95006790544734,
       "lng": 126.93862813669142,
-      "crawled": false
+      "crawled": true,
+      "engine": "geniusescape"
     },
     {
       "place_id": "1727885052",
@@ -841,7 +862,8 @@
       "homepage_url": "http://www.master-key.co.kr/",
       "lat": 35.9605883171265,
       "lng": 126.958003972151,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_masterkey_db"
     },
     {
       "place_id": "130115446",
@@ -854,7 +876,8 @@
       "homepage_url": "http://www.murderparker.com/",
       "lat": 35.9606928779324,
       "lng": 126.95805269273,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_murderparker_db"
     },
     {
       "place_id": "202030183",
@@ -906,7 +929,8 @@
       "homepage_url": "http://daejeon.cubeescape.co.kr/",
       "lat": 36.3507540874644,
       "lng": 127.374974417144,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_cubeescape_db"
     },
     {
       "place_id": "2024880532",
@@ -986,7 +1010,8 @@
       "homepage_url": "https://sherlock-holmes.co.kr/",
       "lat": 36.3287929921833,
       "lng": 127.428429412106,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_sherlock_db"
     },
     {
       "place_id": "2138163704",
@@ -1052,7 +1077,8 @@
       "homepage_url": null,
       "lat": 36.3276139265632,
       "lng": 127.427009660188,
-      "crawled": false
+      "crawled": true,
+      "engine": "playtheworld"
     },
     {
       "place_id": "2011481622",
@@ -1131,7 +1157,8 @@
       "homepage_url": "https://naver.me/55Iy560r",
       "lat": 36.8183512343265,
       "lng": 127.155529409898,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_sherlock_db"
     },
     {
       "place_id": "49858990",
@@ -1157,7 +1184,8 @@
       "homepage_url": "https://naver.me/GgeP8002",
       "lat": 36.8184946594779,
       "lng": 127.156103543852,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_sherlock_db"
     },
     {
       "place_id": "27559974",
@@ -1196,7 +1224,8 @@
       "homepage_url": "https://playpointlab.com/office/detail?bid=7",
       "lat": 36.8339852226794,
       "lng": 127.136651779187,
-      "crawled": false
+      "crawled": true,
+      "engine": "masterkey"
     },
     {
       "place_id": "1741880444",
@@ -1236,7 +1265,8 @@
       "homepage_url": "https://playthe.world/",
       "lat": 36.9919744539883,
       "lng": 127.088967735706,
-      "crawled": false
+      "crawled": true,
+      "engine": "playtheworld"
     },
     {
       "place_id": "1314964065",
@@ -1359,7 +1389,8 @@
       "homepage_url": "https://xn--h32b25mu4dba377gzscs2k.com/",
       "lat": 37.2649858113239,
       "lng": 127.03217295406,
-      "crawled": false
+      "crawled": true,
+      "engine": "sinbiweb"
     },
     {
       "place_id": "776353707",
@@ -1399,7 +1430,8 @@
       "homepage_url": "http://www.signescape.com/",
       "lat": 37.2652491922625,
       "lng": 127.031138134649,
-      "crawled": false
+      "crawled": true,
+      "engine": "signescape"
     },
     {
       "place_id": "1458988059",
@@ -1479,7 +1511,8 @@
       "homepage_url": "http://movieescape.co.kr/",
       "lat": 37.2056568617354,
       "lng": 127.073550735913,
-      "crawled": false
+      "crawled": true,
+      "engine": "movieescape_cokr"
     },
     {
       "place_id": "1591055284",
@@ -1750,7 +1783,8 @@
       "homepage_url": "http://www.playescape.co.kr/",
       "lat": 37.3474661976531,
       "lng": 127.931837123657,
-      "crawled": false
+      "crawled": true,
+      "engine": "playescape"
     },
     {
       "place_id": "588118043",
@@ -1763,7 +1797,8 @@
       "homepage_url": "https://sherlock-holmes.co.kr/reservation/",
       "lat": 37.32452601791517,
       "lng": 127.98053652825116,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_sherlock_db"
     },
     {
       "place_id": "776644226",
@@ -1803,7 +1838,8 @@
       "homepage_url": "http://incheon.cubeescape.co.kr/",
       "lat": 37.4441445246855,
       "lng": 126.702764244741,
-      "crawled": false
+      "crawled": true,
+      "script": "cubeescape"
     },
     {
       "place_id": "1475074228",
@@ -1857,7 +1893,8 @@
       "homepage_url": "http://cold-case.co.kr/",
       "lat": 37.4514846322409,
       "lng": 126.657031501481,
-      "crawled": false
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "255097329",
@@ -2031,7 +2068,8 @@
       "homepage_url": "http://roomsa.co.kr/",
       "lat": 37.4937462104866,
       "lng": 126.723293053491,
-      "crawled": false
+      "crawled": true,
+      "script": "playtheworld_etc"
     },
     {
       "place_id": "1460830485",
@@ -2072,7 +2110,8 @@
       "homepage_url": "http://www.sherlock-holmes.co.kr/",
       "lat": 37.4943122245569,
       "lng": 126.724914804136,
-      "crawled": false
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "1637776603",
@@ -2085,7 +2124,8 @@
       "homepage_url": null,
       "lat": 37.4929667990536,
       "lng": 126.724431238793,
-      "crawled": false
+      "crawled": true,
+      "engine": "playtheworld"
     },
     {
       "place_id": "399640253",
@@ -2098,7 +2138,8 @@
       "homepage_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=101#reservation",
       "lat": 37.49292064844408,
       "lng": 126.72473219743976,
-      "crawled": false
+      "crawled": true,
+      "script": "sherlock"
     },
     {
       "place_id": "1387240933",
@@ -2111,7 +2152,8 @@
       "homepage_url": "https://xn--z92b74ha268d.com/",
       "lat": 37.4921210741669,
       "lng": 126.72495450198,
-      "crawled": false
+      "crawled": true,
+      "script": "sinbiweb"
     },
     {
       "place_id": "427897815",
@@ -2261,7 +2303,8 @@
       "homepage_url": "http://www.roomlescape.com/",
       "lat": 37.489957734035,
       "lng": 126.927971561206,
-      "crawled": false
+      "crawled": true,
+      "engine": "sync_roomlescape_db"
     },
     {
       "place_id": "628138029",
@@ -2397,7 +2440,9 @@
       "homepage_url": "https://oasismuseum.com/",
       "lat": 37.5490872979376,
       "lng": 126.920103009829,
-      "crawled": false
+      "crawled": true,
+      "area": "hongdae",
+      "script": "oasisescape"
     },
     {
       "place_id": "28201117",
@@ -3825,7 +3870,8 @@
       "homepage_url": "http://www.qescapeilsan.co.kr/",
       "lat": 37.65669887975531,
       "lng": 126.77132353848808,
-      "crawled": false
+      "crawled": true,
+      "engine": "sinbiweb"
     },
     {
       "place_id": "164116124",
@@ -3865,7 +3911,8 @@
       "homepage_url": "http://www.trickescape.com/",
       "lat": 37.7410792474241,
       "lng": 127.047392582289,
-      "crawled": false
+      "crawled": true,
+      "engine": "trickescape"
     },
     {
       "place_id": "1501825629",

@@ -2,12 +2,13 @@
 macro.playthe.world 플랫폼을 사용하는 추가 방탈출 브랜드 동기화 스크립트.
 
 대상 브랜드:
-  1. 플레이더월드 강남점    keycode=kQHQReY6D1jPJKs4  Name=playtheworld
+  1. 플레이더월드 강남/평택/동성로/부평  keycode=kQHQReY6D1jPJKs4  Name=playtheworld
   2. 개꿀이스케이프         keycode=Xk8AiGgdQDjyBgZy  Name=playtheworld
   3. 이스케이프샾 신사점    keycode=nwGhWo2rSj4xGDAK  Name=escapeshop
   4. 이스케이프샾 건대점    keycode=nwGhWo2rSj4xGDAK  shop=tS5DajzuHqnhrnjH
   5. 룸익스케이프(ex-cape)  keycode=CKRwHMB3FGpytPrP  Name=room-excape  (신촌 4지점)
   6. 오늘의한페이지         keycode=jCEMud1hyJKnxYGu  Name=page-today   (강남)
+  7. 룸즈에이 부평점        keycode=LmnDt6wGgVEUpPC5  Name=roomsa       (인천 부평구)
 
 API: macro.playthe.world (doorescape.co.kr와 동일 플랫폼)
   GET /v2/shops.json?keycode={BRAND_KEYCODE}   → 지점 목록
@@ -41,7 +42,11 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
+from app.firestore_db import (
+    init_firestore, get_db, upsert_cafe, get_or_create_theme,
+    upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes,
+    address_to_area,
+)
 
 REQUEST_DELAY = 0.5
 BASE_URL = "https://macro.playthe.world"
@@ -61,6 +66,10 @@ BRANDS = [
         "booking_base": "https://reservation.playthe.world/reservation.html",
         "shop_map": {
             "m86eCeH4SoNCqVVX": "841734382",   # 플레이더월드 강남점
+            "eerYSTbbLAQnqZv3": "767938268",    # 플레이더월드 평택점
+            "bF9P9ARTDcgrbcDR": "76631654",     # 플레이더월드 동성로점 (대구)
+            "fsGEtW3EXJiFXVCZ": "1637776603",   # 플레이더월드 부평점 (인천)
+            "U9cZjMPWeVZbij6X": "1224388097",   # 플레이더월드 대전은행점
         },
     },
     {
@@ -101,6 +110,16 @@ BRANDS = [
         "booking_base": "https://page-today.co.kr/#reserve",
         "shop_map": {
             "rjwaaAh3mVPbCdHA": "2012633570",   # 오늘의한페이지 강남점
+        },
+    },
+    {
+        "keycode": "LmnDt6wGgVEUpPC5",
+        "name": "roomsa",
+        "referer": "https://roomsa.co.kr",
+        "booking_base": "https://roomsa.co.kr/reservation.html",
+        "shop_map": {
+            "HUSqfLY6kenWuw5q": "802938757",    # 룸즈에이 부평점
+            "N22seZPUEfSe1jKQ": "1544141348",   # 룸즈에이 광주수완 2호점
         },
     },
 ]
@@ -189,14 +208,30 @@ def sync_brand_themes(brand: dict) -> dict[str, dict[int, str]]:
     shop_to_themes: dict[str, dict[int, str]] = {}
 
     for shop_keycode, cafe_id in shop_map.items():
+        detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
+        data = detail.get("data", {})
+        time.sleep(REQUEST_DELAY)
+
+        # 카페 meta upsert (신규 cafe 포함)
+        shop_info = data.get("shop", {})
+        if shop_info:
+            address = shop_info.get("address") or ""
+            upsert_cafe(db, cafe_id, {
+                "name":        name,
+                "branch_name": shop_info.get("name") or "",
+                "address":     address,
+                "area":        address_to_area(address),
+                "phone":       shop_info.get("contact") or "",
+                "website_url": shop_info.get("brand_site_url") or brand.get("referer", ""),
+                "engine":      "playtheworld",
+                "crawled":     True,
+                "is_active":   True,
+            })
+
         cafe_doc = db.collection("cafes").document(cafe_id).get()
         if not cafe_doc.exists:
             print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
             continue
-
-        detail = _api_get(f"/v2/shops/{shop_keycode}", keycode, name, referer)
-        data = detail.get("data", {})
-        time.sleep(REQUEST_DELAY)
 
         themes = data.get("themes", [])
         shop_to_themes[shop_keycode] = {}

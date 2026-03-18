@@ -5,7 +5,7 @@
 플랫폼: 자체 PHP (EUC-KR)
 
 API: POST http://murderparker.com/sub_02/sub02_1.html
-  Body: JIJEM=S11&H_Date=YYYY-MM-DD  (EUC-KR 인코딩)
+  Body: JIJEM={code}&H_Date=YYYY-MM-DD  (EUC-KR 인코딩)
   응답: EUC-KR HTML
     div.reservTime → 테마 블록
     h3 → 테마명
@@ -15,7 +15,20 @@ API: POST http://murderparker.com/sub_02/sub02_1.html
     li[style*="border: 1px solid #757575"] → 예약마감 슬롯
 
 지점:
-  잠실점  cafe_id=1796437751  JIJEM=S11  (서울 송파구 올림픽로35다길 14 지하 1층)
+  S1   전주1호점    cafe_id=27545114    (전북 전주시 완산구 전동 168-5)
+  S2   전주2호점    cafe_id=605934214   (전북 전주시 완산구 풍남문2길 60 2층)
+  S3   양산점       cafe_id=583591672   (경남 양산시 물금읍 범어로 64 한양프라자 3층)
+  S4   전주3호점    cafe_id=399727939   (전북 전주시 완산구 효자동2가 1155-4)
+  S5   대구1호점    cafe_id=1788375645  (대구 중구 봉산동 24-7)
+  S6   건대1호점    cafe_id=1016102948  (서울 광진구 아차산로 213 지하1층)
+  S7   광주점       cafe_id=3373516     (광주 동구 충장로안길 14)
+  S8   건대2호점    cafe_id=1862264503  (서울 광진구 동일로22길 68 지하1층)
+  S9   홍대1호점    cafe_id=1604521778  (서울 마포구 어울마당로 55-4 3층)
+  S10  대구2호점    cafe_id=1450292038  (대구 중구 동성로3길 8 3층)
+  S11  잠실점       cafe_id=1796437751  (서울 송파구 올림픽로35다길 14 지하 1층)  ※ S14(WOW잠실점)와 동일 지점
+  S12  부산점       cafe_id=1250945647  (부산 부산진구 중앙대로680번길 45-8 3층)
+  S13  WOW 홍대점  cafe_id=64956517    (서울 마포구 잔다리로6길 25 3층)
+  S15  익산점       cafe_id=130115446   (전북 익산시 신동 801-1)
 
 실행:
   cd escape-aggregator/backend
@@ -48,9 +61,6 @@ SLOT_API_URL = SITE_URL + "/sub_02/sub02_1.html"
 BOOKING_BASE_URL = SITE_URL + "/sub_02/sub02_2.html"
 REQUEST_DELAY = 0.7
 
-CAFE_ID = "1796437751"
-JIJEM_CODE = "S11"
-
 _SSL_CTX = ssl.create_default_context()
 _SSL_CTX.check_hostname = False
 _SSL_CTX.verify_mode = ssl.CERT_NONE
@@ -64,31 +74,129 @@ HEADERS = {
     "Referer": SITE_URL + "/sub_02/sub02_1.html",
 }
 
+BRANCHES: list[dict] = [
+    {
+        "cafe_id":     "27545114",
+        "branch_name": "전주1호점",
+        "jijem":       "S1",
+        "address":     "전북특별자치도 전주시 완산구 전동 168-5",
+        "area":        "etc",
+    },
+    {
+        "cafe_id":     "605934214",
+        "branch_name": "전주2호점",
+        "jijem":       "S2",
+        "address":     "전북특별자치도 전주시 완산구 풍남문2길 60 2층",
+        "area":        "etc",
+    },
+    {
+        "cafe_id":     "583591672",
+        "branch_name": "양산점",
+        "jijem":       "S3",
+        "address":     "경남 양산시 물금읍 범어로 64 한양프라자 3층",
+        "area":        "etc",
+    },
+    {
+        "cafe_id":     "399727939",
+        "branch_name": "전주3호점",
+        "jijem":       "S4",
+        "address":     "전북특별자치도 전주시 완산구 효자동2가 1155-4",
+        "area":        "etc",
+    },
+    {
+        "cafe_id":     "1788375645",
+        "branch_name": "대구1호점",
+        "jijem":       "S5",
+        "address":     "대구 중구 봉산동 24-7",
+        "area":        "daegu",
+    },
+    {
+        "cafe_id":     "1016102948",
+        "branch_name": "건대1호점",
+        "jijem":       "S6",
+        "address":     "서울 광진구 아차산로 213 지하1층",
+        "area":        "konkuk",
+    },
+    {
+        "cafe_id":     "3373516",
+        "branch_name": "광주점",
+        "jijem":       "S7",
+        "address":     "광주 동구 충장로안길 14",
+        "area":        "gwangju",
+    },
+    {
+        "cafe_id":     "1862264503",
+        "branch_name": "건대2호점",
+        "jijem":       "S8",
+        "address":     "서울 광진구 동일로22길 68 지하1층",
+        "area":        "konkuk",
+    },
+    {
+        "cafe_id":     "1604521778",
+        "branch_name": "홍대1호점",
+        "jijem":       "S9",
+        "address":     "서울 마포구 어울마당로 55-4 3층",
+        "area":        "hongdae",
+    },
+    {
+        "cafe_id":     "1450292038",
+        "branch_name": "대구2호점",
+        "jijem":       "S10",
+        "address":     "대구 중구 동성로3길 8 3층",
+        "area":        "daegu",
+    },
+    {
+        "cafe_id":     "1796437751",
+        "branch_name": "잠실점",
+        "jijem":       "S11",
+        "address":     "서울 송파구 올림픽로35다길 14 지하 1층",
+        "area":        "jamsil",
+    },
+    {
+        "cafe_id":     "1250945647",
+        "branch_name": "부산점",
+        "jijem":       "S12",
+        "address":     "부산 부산진구 중앙대로680번길 45-8 3층",
+        "area":        "busan",
+    },
+    {
+        "cafe_id":     "64956517",
+        "branch_name": "WOW 홍대점",
+        "jijem":       "S13",
+        "address":     "서울 마포구 잔다리로6길 25 3층",
+        "area":        "hongdae",
+    },
+    {
+        "cafe_id":     "130115446",
+        "branch_name": "익산점",
+        "jijem":       "S15",
+        "address":     "전북특별자치도 익산시 신동 801-1",
+        "area":        "etc",
+    },
+]
+
 
 def _strip_tags(html: str) -> str:
     return re.sub(r"<[^>]+>", "", html)
 
 
-def fetch_slots(target_date: date) -> list[dict]:
+def fetch_slots(jijem: str, target_date: date) -> list[dict]:
     """날짜별 슬롯 조회. 반환: [{name, poster_url, slots: [{time, status, booking_url}]}]"""
     date_str = target_date.strftime("%Y-%m-%d")
-    # EUC-KR 인코딩으로 POST body 구성
-    body_str = f"JIJEM={JIJEM_CODE}&H_Date={date_str}"
+    body_str = f"JIJEM={jijem}&H_Date={date_str}"
     body = body_str.encode("euc-kr")
     req = urllib.request.Request(SLOT_API_URL, data=body, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=15, context=_SSL_CTX) as resp:
             html = resp.read().decode("euc-kr", errors="replace")
     except Exception as e:
-        print(f"  [WARN] POST 실패 (date={date_str}): {e}")
+        print(f"  [WARN] POST 실패 JIJEM={jijem} (date={date_str}): {e}")
         return []
 
     themes: list[dict] = []
 
-    # 테마 블록 분리 (div.reservTime 기준)
     blocks = re.split(r'<div\s+class=["\']reservTime["\']', html)
     for block in blocks[1:]:
-        # 테마명: h3 태그
         m_name = re.search(r'<h3[^>]*>\s*(.*?)\s*</h3>', block, re.DOTALL)
         if not m_name:
             continue
@@ -96,7 +204,6 @@ def fetch_slots(target_date: date) -> list[dict]:
         if not name:
             continue
 
-        # 포스터: /upload_file/room/ 경로
         poster_url = None
         m_img = re.search(r'<img[^>]+src=["\'](/upload_file/room/[^"\']+)["\']', block)
         if m_img:
@@ -104,10 +211,6 @@ def fetch_slots(target_date: date) -> list[dict]:
 
         slots: list[dict] = []
 
-        # 슬롯 추출: a 태그 + li 태그 쌍으로 파싱
-        # 예약가능: a[href=/sub_02/sub02_2.html?...ROOM_TIME=HH:MM...] + li[style*="1px solid #222"]
-        # 예약마감: a[href=#] + li[style*="1px solid #757575"]
-        # li 블록 단위로 파싱
         li_pattern = re.compile(
             r'<a\s+href=["\']([^"\']*)["\'][^>]*>\s*<li\s+style=["\']([^"\']*)["\'][^>]*>.*?</li>',
             re.DOTALL
@@ -118,15 +221,11 @@ def fetch_slots(target_date: date) -> list[dict]:
             style = m_li.group(2).strip()
             li_content = m_li.group(0)
 
-            # 시간 추출 - span.time 또는 href의 ROOM_TIME 파라미터
             time_str = None
-
-            # href에서 ROOM_TIME 파라미터 추출 (예약가능 슬롯)
             m_room_time = re.search(r'ROOM_TIME=(\d{2}:\d{2})', href)
             if m_room_time:
                 time_str = m_room_time.group(1)
             else:
-                # span.time에서 시간 추출
                 m_span_time = re.search(
                     r'<span[^>]*class=["\'][^"\']*time[^"\']*["\'][^>]*>([^<]+)</span>',
                     li_content
@@ -140,7 +239,6 @@ def fetch_slots(target_date: date) -> list[dict]:
             if not time_str:
                 continue
 
-            # 상태 판별
             if "1px solid #222" in style and href.startswith("/sub_02/sub02_2.html"):
                 status = "available"
                 booking_url = SITE_URL + href
@@ -160,38 +258,39 @@ def fetch_slots(target_date: date) -> list[dict]:
 
 # ── DB 동기화 ─────────────────────────────────────────────────────────────────
 
-def sync_cafe_meta(db) -> None:
-    upsert_cafe(db, CAFE_ID, {
+def sync_branch(branch: dict, days: int = 14) -> int:
+    db = get_db()
+    cafe_id = branch["cafe_id"]
+    jijem = branch["jijem"]
+
+    upsert_cafe(db, cafe_id, {
         "name":        "머더파커",
-        "branch_name": "잠실점",
-        "address":     "서울 송파구 올림픽로35다길 14 지하 1층",
-        "area":        "jamsil",
+        "branch_name": branch["branch_name"],
+        "address":     branch["address"],
+        "area":        branch["area"],
         "website_url": SITE_URL,
         "engine":      "murderparker",
         "crawled":     True,
         "is_active":   True,
     })
-    print(f"  [UPSERT] 카페: 머더파커 잠실점 (id={CAFE_ID})")
+    print(f"  [UPSERT] 카페: 머더파커 {branch['branch_name']} (id={cafe_id})")
 
+    cafe_doc = db.collection("cafes").document(cafe_id).get()
+    if not cafe_doc.exists:
+        print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
+        return 0
 
-def sync_schedules(days: int = 14) -> None:
-    db = get_db()
     today = date.today()
     target_dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
     total_writes = 0
-
-    cafe_doc = db.collection("cafes").document(CAFE_ID).get()
-    if not cafe_doc.exists:
-        print(f"  [WARN] cafe {CAFE_ID} Firestore 미존재 — 건너뜀")
-        return
 
     theme_cache: dict[str, str] = {}
     date_themes: dict[str, dict] = {}
 
     for target_date in target_dates:
         date_str = target_date.strftime("%Y-%m-%d")
-        raw_themes = fetch_slots(target_date)
+        raw_themes = fetch_slots(jijem, target_date)
         time.sleep(REQUEST_DELAY)
 
         if not raw_themes:
@@ -203,7 +302,7 @@ def sync_schedules(days: int = 14) -> None:
         for t in raw_themes:
             name = t["name"]
             if name not in theme_cache:
-                doc_id = get_or_create_theme(db, CAFE_ID, name, {
+                doc_id = get_or_create_theme(db, cafe_id, name, {
                     "poster_url": t.get("poster_url"),
                     "is_active":  True,
                 })
@@ -240,11 +339,11 @@ def sync_schedules(days: int = 14) -> None:
 
         print(f"  {date_str}: 가능 {avail_cnt} / 마감 {full_cnt}")
 
-    known_hashes = load_cafe_hashes(db, CAFE_ID)
+    known_hashes = load_cafe_hashes(db, cafe_id)
     new_hashes: dict[str, str] = {}
     for date_str, themes_map in date_themes.items():
         h = upsert_cafe_date_schedules(
-            db, date_str, CAFE_ID, themes_map, crawled_at,
+            db, date_str, cafe_id, themes_map, crawled_at,
             known_hash=known_hashes.get(date_str),
         )
         if h:
@@ -253,12 +352,13 @@ def sync_schedules(days: int = 14) -> None:
 
     if new_hashes:
         today_str = today.isoformat()
-        save_cafe_hashes(db, CAFE_ID, {
+        save_cafe_hashes(db, cafe_id, {
             k: v for k, v in {**known_hashes, **new_hashes}.items()
             if k >= today_str
         })
 
     print(f"  스케줄 동기화 완료: {total_writes}개 날짜 문서 작성")
+    return total_writes
 
 
 # ── 메인 ──────────────────────────────────────────────────────────────────────
@@ -269,14 +369,27 @@ def main(run_schedule: bool = True, days: int = 14):
     print("=" * 60)
 
     init_firestore(settings.firebase_credentials_path)
-    db = get_db()
 
-    print("\n[ 1단계 ] 카페 메타 동기화")
-    sync_cafe_meta(db)
-
-    if run_schedule:
-        print(f"\n[ 2단계 ] 스케줄 동기화 (오늘~{days}일 후)")
-        sync_schedules(days=days)
+    for branch in BRANCHES:
+        print(f"\n{'=' * 40}")
+        print(f"[ 머더파커 {branch['branch_name']} (JIJEM={branch['jijem']}) ]")
+        print(f"{'=' * 40}")
+        try:
+            if run_schedule:
+                sync_branch(branch, days=days)
+            else:
+                upsert_cafe(get_db(), branch["cafe_id"], {
+                    "name":        "머더파커",
+                    "branch_name": branch["branch_name"],
+                    "address":     branch["address"],
+                    "area":        branch["area"],
+                    "website_url": SITE_URL,
+                    "engine":      "murderparker",
+                    "crawled":     True,
+                    "is_active":   True,
+                })
+        except Exception as e:
+            print(f"  [ERROR] 머더파커 {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")

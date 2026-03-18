@@ -5,9 +5,11 @@
 플랫폼: 자체 PHP CMS (JIJEM 코드 기반, 시크릿코드·퍼즐팩토리와 동일 계열)
 
 지점:
-  홍대점      R_JIJEM=S5  themes=A,B,C  cafe_id=678802397   area=hongdae
-  강남시티점  R_JIJEM=S6  themes=A,B,C  cafe_id=1245109855  area=gangnam
+  홍대점      R_JIJEM=S5  themes=A,B,C  cafe_id=678802397   area=hongdae   (서울 마포구 와우산로 65 6층)
+  강남시티점  R_JIJEM=S6  themes=A,B,C  cafe_id=1245109855  area=gangnam   (서울 강남구 강남대로94길 67)
   성대역점    R_JIJEM=S2  themes=A,B,C  cafe_id=570522076   area=gyeonggi  (경기 수원시 장안구 율전동 292-7)
+  상수점      R_JIJEM=S7  themes=A,B    cafe_id=2400000001  area=hongdae   (서울 마포구 와우산로 65 3층, 카카오 미등록)
+  인계시티점  R_JIJEM=S1  themes=A,B,C  cafe_id=115701517   area=gyeonggi  (경기 수원시 팔달구 인계동 1041-8)
 
 API:
   GET http://www.signescape.com/sub/sub03_1.html
@@ -75,6 +77,23 @@ BRANCHES = [
         "themes":       ["A", "B", "C"],
         "area":         "gyeonggi",
         "address":      "경기 수원시 장안구 율전동 292-7",
+    },
+    {
+        # 카카오맵 미등록 (홍대점과 같은 건물 3층) — Firestore 신규 생성됨
+        "cafe_id":      "2400000001",
+        "branch_name":  "상수점",
+        "jijem":        "S7",
+        "themes":       ["A", "B"],
+        "area":         "hongdae",
+        "address":      "서울 마포구 와우산로 65 3층",
+    },
+    {
+        "cafe_id":      "115701517",
+        "branch_name":  "인계시티점",
+        "jijem":        "S1",
+        "themes":       ["A", "B", "C"],
+        "area":         "gyeonggi",
+        "address":      "경기 수원시 팔달구 인계동 1041-8",
     },
 ]
 
@@ -309,7 +328,10 @@ def main(run_schedule: bool = True, days: int = 14):
     if run_schedule:
         for branch in BRANCHES:
             print(f"\n[ 2단계 ] {branch['branch_name']} 스케줄 동기화 (오늘~{days}일 후)")
-            sync_one_branch(branch, days=days)
+            try:
+                sync_one_branch(branch, days=days)
+            except Exception as e:
+                print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")

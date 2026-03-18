@@ -1,10 +1,9 @@
 """
 덤앤더머 방탈출카페(dumbndumber.kr) 테마 + 스케줄 DB 동기화 스크립트.
 
-사이트: http://www.dumbndumber.kr
 플랫폼: 자체 PHP (sinbiweb 유사 구조)
 
-API: GET http://www.dumbndumber.kr/reservation.html?k_shopno={N}&rdate={YYYY-MM-DD}
+API: GET {site_url}/reservation.html?k_shopno={N}&rdate={YYYY-MM-DD}
   응답: HTML
     div.theme_box → 테마 블록
       h3.h3_theme → 테마명
@@ -13,10 +12,9 @@ API: GET http://www.dumbndumber.kr/reservation.html?k_shopno={N}&rdate={YYYY-MM-
         - a[href^="reservation_02.html?..."] → 예약가능
         - a.end[href="javascript:;"] → 예약마감
 
-예약 URL: http://www.dumbndumber.kr/reservation_02.html?prdno={N}&rdate={YYYY-MM-DD}&rtime={HH:MM}
-
 지점:
-  k_shopno=1: 대학로점  cafe_id=203642029  (서울 종로구 대학로 12길 40 3층)
+  http://www.dumbndumber.kr    k_shopno=1: 대학로점  cafe_id=203642029  (서울 종로구 대학로12길 40 3층)
+  http://www.dumbndumber-sm.kr k_shopno=1: 서면점    cafe_id=28574930   (부산 부산진구 서면문화로 27)
 
 실행:
   cd escape-aggregator/backend
@@ -43,7 +41,6 @@ from app.firestore_db import (
     load_cafe_hashes, save_cafe_hashes,
 )
 
-SITE_URL = "http://www.dumbndumber.kr"
 REQUEST_DELAY = 0.8
 
 BRANCHES = [
@@ -53,6 +50,15 @@ BRANCHES = [
         "shopno":      1,
         "area":        "myeongdong",
         "address":     "서울 종로구 대학로12길 40 3층",
+        "site_url":    "http://www.dumbndumber.kr",
+    },
+    {
+        "cafe_id":     "28574930",
+        "branch_name": "서면점",
+        "shopno":      1,
+        "area":        "busan",
+        "address":     "부산 부산진구 서면문화로 27",
+        "site_url":    "http://www.dumbndumber-sm.kr",
     },
 ]
 
@@ -60,12 +66,11 @@ _SSL_CTX = ssl.create_default_context()
 _SSL_CTX.check_hostname = False
 _SSL_CTX.verify_mode = ssl.CERT_NONE
 
-HEADERS = {
+_BASE_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                   "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml",
     "Accept-Language": "ko-KR,ko;q=0.9",
-    "Referer": SITE_URL + "/",
 }
 
 
@@ -73,11 +78,12 @@ def _strip_tags(s: str) -> str:
     return re.sub(r"<[^>]+>", "", s).strip()
 
 
-def fetch_slots(shopno: int, target_date: date) -> list[dict]:
+def fetch_slots(site_url: str, shopno: int, target_date: date) -> list[dict]:
     """날짜별 슬롯 조회. 반환: [{name, poster_url, slots: [{time, status, booking_url}]}]"""
     date_str = target_date.strftime("%Y-%m-%d")
-    url = f"{SITE_URL}/reservation.html?k_shopno={shopno}&rdate={date_str}"
-    req = urllib.request.Request(url, headers=HEADERS)
+    url = f"{site_url}/reservation.html?k_shopno={shopno}&rdate={date_str}"
+    headers = {**_BASE_HEADERS, "Referer": site_url + "/"}
+    req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=15, context=_SSL_CTX) as resp:
             body = resp.read().decode("utf-8", errors="replace")
@@ -106,9 +112,9 @@ def fetch_slots(shopno: int, target_date: date) -> list[dict]:
             if src.startswith("http"):
                 poster_url = src
             elif src.startswith("/"):
-                poster_url = SITE_URL + src
+                poster_url = site_url + src
             else:
-                poster_url = SITE_URL + "/" + src
+                poster_url = site_url + "/" + src
 
         slots: list[dict] = []
 
@@ -135,7 +141,7 @@ def fetch_slots(shopno: int, target_date: date) -> list[dict]:
                 booking_url = None
             elif "reservation_02.html" in href:
                 status = "available"
-                booking_url = SITE_URL + "/" + href if not href.startswith("http") else href
+                booking_url = site_url + "/" + href if not href.startswith("http") else href
             else:
                 continue
 
@@ -155,7 +161,7 @@ def sync_cafe_meta(db, branch: dict) -> None:
         "branch_name": branch["branch_name"],
         "address":     branch["address"],
         "area":        branch["area"],
-        "website_url": SITE_URL,
+        "website_url": branch["site_url"],
         "engine":      "dumbndumber",
         "crawled":     True,
         "is_active":   True,
@@ -167,6 +173,7 @@ def sync_branch(branch: dict, days: int = 14) -> int:
     db = get_db()
     cafe_id = branch["cafe_id"]
     shopno = branch["shopno"]
+    site_url = branch["site_url"]
     today = date.today()
     target_dates = [today + timedelta(days=i) for i in range(days + 1)]
     crawled_at = datetime.now()
@@ -182,7 +189,7 @@ def sync_branch(branch: dict, days: int = 14) -> int:
 
     for target_date in target_dates:
         date_str = target_date.strftime("%Y-%m-%d")
-        raw_themes = fetch_slots(shopno, target_date)
+        raw_themes = fetch_slots(site_url, shopno, target_date)
         time.sleep(REQUEST_DELAY)
 
         if not raw_themes:
@@ -270,7 +277,10 @@ def main(run_schedule: bool = True, days: int = 14):
     if run_schedule:
         for branch in BRANCHES:
             print(f"\n[ 2단계 ] {branch['branch_name']} 스케줄 동기화 (오늘~{days}일 후)")
-            sync_branch(branch, days=days)
+            try:
+                sync_branch(branch, days=days)
+            except Exception as e:
+                print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")

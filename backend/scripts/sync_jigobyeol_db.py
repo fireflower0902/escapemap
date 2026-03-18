@@ -7,6 +7,8 @@
     주소: 서울 마포구 와우산로21길 31 3층
   - 홍대라스트시티점 (branch=4): 카카오맵 place_id=399012410
     주소: 서울 마포구 홍익로 10 지하2층
+  - 대구점 (branch=1): 카카오맵 place_id=7690632, 테마=[잉카(20)]
+    주소: 대구 중구 동성로2가 127-2
 
 ⚠️  제한사항:
   이 사이트는 오늘 날짜의 슬롯만 표시합니다 (날짜 파라미터 미지원).
@@ -72,6 +74,16 @@ BRANCHES = [
         "area": "hongdae",
         "website_url": "https://xn--2e0b040a4xj.com",
         "theme_ids": [24, 22, 21, 19, 15, 14, 13, 12],
+    },
+    {
+        "branch": 1,
+        "cafe_id": "7690632",
+        "name": "지구별방탈출",
+        "branch_name": "대구점",
+        "address": "대구 중구 동성로2가 127-2",
+        "area": "daegu",
+        "website_url": "https://xn--2e0b040a4xj.com",
+        "theme_ids": [20],
     },
 ]
 
@@ -291,13 +303,15 @@ def main(run_schedule: bool = True):
     total_writes = 0
     for branch_info in BRANCHES:
         print(f"\n[ {branch_info['branch_name']} (branch={branch_info['branch']}) ]")
+        try:
+            print("  카페 메타 동기화 중...")
+            sync_cafe_meta(branch_info)
 
-        print("  카페 메타 동기화 중...")
-        sync_cafe_meta(branch_info)
-
-        if run_schedule:
-            w = sync_branch(branch_info)
-            total_writes += w
+            if run_schedule:
+                w = sync_branch(branch_info)
+                total_writes += w
+        except Exception as e:
+            print(f"  [ERROR] {branch_info['branch_name']} 크롤링 실패: {e}")
 
     print(f"\n총 {total_writes}개 날짜 문서 작성")
     print("\n" + "=" * 60)

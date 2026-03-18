@@ -35,7 +35,11 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
-from app.firestore_db import init_firestore, get_db, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
+from app.firestore_db import (
+    init_firestore, get_db, upsert_cafe, get_or_create_theme,
+    upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes,
+    address_to_area,
+)
 
 BRAND_KEYCODE = "MmtAku42Sc4f1V2N"
 BASE_URL = "https://macro.playthe.world"
@@ -146,13 +150,24 @@ def sync_themes() -> dict[str, dict[int, str]]:
     added = updated = 0
 
     for shop_keycode, cafe_id in SHOP_MAP.items():
-        cafe_doc = db.collection("cafes").document(cafe_id).get()
-        if not cafe_doc.exists:
-            print(f"  [WARN] cafe {cafe_id} Firestore 미존재 — 건너뜀")
-            continue
-
         detail = fetch_shop_detail(shop_keycode)
         time.sleep(REQUEST_DELAY)
+
+        # 카페 meta upsert (신규 cafe 포함)
+        shop_info = detail.get("shop", {})
+        if shop_info:
+            address = shop_info.get("address") or ""
+            upsert_cafe(db, cafe_id, {
+                "name":        "도어이스케이프",
+                "branch_name": shop_info.get("name") or "",
+                "address":     address,
+                "area":        address_to_area(address),
+                "phone":       shop_info.get("contact") or "",
+                "website_url": "https://doorescape.co.kr",
+                "engine":      "playtheworld",
+                "crawled":     True,
+                "is_active":   True,
+            })
 
         themes = detail.get("themes", [])
         shop_to_themes[shop_keycode] = {}

@@ -5,8 +5,10 @@
 플랫폼: 자체 PHP CMS (rev.theme.*.php REST-like API)
 
 지점:
-  홍대1호점  showroomSeq=2  cafe_id=596589943  area=hongdae
-  신림점     showroomSeq=1  cafe_id=628138029  area=etc
+  홍대1호점  showroomSeq=2  cafe_id=596589943  area=hongdae  (서울 마포구 잔다리로 4 2층)
+  신림점     showroomSeq=1  cafe_id=628138029  area=etc      (서울 관악구 신림동)
+  당곡점     showroomSeq=3  cafe_id=1735229345 area=etc      (서울 관악구 보라매로 4 2-3층)
+  신림2호점  showroomSeq=6  cafe_id=782208965  area=etc      (서울 관악구 신림로59길 15-12 1층)
 
 API:
   1) POST http://www.roomlescape.com/rev.theme.list.php
@@ -64,6 +66,20 @@ BRANCHES = [
         "showroom_seq": "1",
         "area":         "etc",
         "address":      "서울 관악구 신림동",
+    },
+    {
+        "cafe_id":      "1735229345",
+        "branch_name":  "당곡점",
+        "showroom_seq": "3",
+        "area":         "etc",
+        "address":      "서울 관악구 보라매로 4 2-3층",
+    },
+    {
+        "cafe_id":      "782208965",
+        "branch_name":  "신림2호점",
+        "showroom_seq": "6",
+        "area":         "etc",
+        "address":      "서울 관악구 신림로59길 15-12 1층",
     },
 ]
 
@@ -264,7 +280,10 @@ def main(run_schedule: bool = True, days: int = 14):
     if run_schedule:
         for branch in BRANCHES:
             print(f"\n[ 2단계 ] {branch['branch_name']} 스케줄 동기화 (오늘~{days}일 후)")
-            sync_one_branch(branch, days=days)
+                try:
+                sync_one_branch(branch, days=days)
+            except Exception as e:
+                print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")

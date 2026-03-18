@@ -23,12 +23,17 @@ API:
   32 → 97734177    마스터키프라임 신촌퍼플릭
   40 → 1559912469  해운대 블루오션스테이션
   43 → 1397923384  서면탄탄스트리트점
+  44 → 886826713   플레이포인트랩 서면점
    1 → 27495854    궁동직영점 (대전)
    2 → 27523824    은행직영점 (대전)
   24 → 164781377   프라임청주점
   27 → 1850589033  평택점
   30 → 1834906043  동탄프라임
   23 → 870806933   화정점
+   8 → 1292714537  전주고사점    (전주시 완산구 전주객사5길 30-2)
+  12 → 1727885052  익산점        (익산시 동서로19길 74-1)
+  14 → 2039293420  동성로2호점   (대구 중구 동성로5길 43)
+  21 → 967129600   플레이포인트랩 잠실점
 
 실행:
   cd escape-aggregator/backend
@@ -60,7 +65,7 @@ POSTER_URL_TEMPLATE = "http://www.master-key.co.kr/upload/room/{room_id}_img1.gi
 REQUEST_DELAY = 1.0
 
 # bid(마스터키 지점 ID) → DB cafe_id 매핑
-# DB에 없는 지점(bid=31 노원, 18 천안프리미엄, 13 안양, 7 천안두정, 44 서면오리진)은 제외
+# DB에 없는 지점(bid=31 노원, 18 천안프리미엄, 13 안양)은 제외
 SHOP_MAP: dict[int, str] = {
     35: "1466171651",  # 플레이포인트랩 강남점
     41: "1987907479",  # 노바홍대점
@@ -70,6 +75,7 @@ SHOP_MAP: dict[int, str] = {
     32: "97734177",    # 마스터키프라임 신촌퍼플릭
     40: "1559912469",  # 해운대 블루오션스테이션
     43: "1397923384",  # 서면탄탄스트리트점
+    44: "886826713",   # 플레이포인트랩 서면점
     1:  "27495854",    # 궁동직영점 (대전)
     2:  "27523824",    # 은행직영점 (대전)
     24: "164781377",   # 프라임청주점
@@ -77,6 +83,10 @@ SHOP_MAP: dict[int, str] = {
     30: "1834906043",  # 동탄프라임
     23: "870806933",   # 화정점
     21: "967129600",   # 플레이포인트랩 잠실점
+    8:  "1292714537",  # 전주고사점
+    12: "1727885052",  # 익산점
+    14: "2039293420",  # 동성로2호점 (대구 중구 동성로5길 43)
+    7:  "2030700012",  # 플레이포인트랩 두정점 (충남 천안시 서북구)
 }
 
 # 새로 추가된 지점의 카페 메타 (Firestore에 카페 문서가 없는 경우 자동 생성)
@@ -101,6 +111,71 @@ CAFE_META: dict[int, dict] = {
         "area":        "sinchon",
         "phone":       None,
         "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=32",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
+    44: {
+        "name":        "플레이포인트랩",
+        "branch_name": "서면점",
+        "address":     "부산 부산진구 서면로68번길 18",
+        "area":        "busan",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=44",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
+    8: {
+        "name":        "마스터키",
+        "branch_name": "전주고사점",
+        "address":     "전북특별자치도 전주시 완산구 전주객사5길 30-2",
+        "area":        "etc",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=8",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
+    12: {
+        "name":        "마스터키",
+        "branch_name": "익산점",
+        "address":     "전북특별자치도 익산시 동서로19길 74-1",
+        "area":        "etc",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=12",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
+    14: {
+        "name":        "마스터키",
+        "branch_name": "동성로2호점",
+        "address":     "대구 중구 동성로5길 43",
+        "area":        "daegu",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=14",
+        "engine":      "masterkey",
+        "crawled":     True,
+        "lat":         None,
+        "lng":         None,
+        "is_active":   True,
+    },
+    7: {
+        "name":        "플레이포인트랩",
+        "branch_name": "두정점",
+        "address":     "충남 천안시 서북구 두정동",
+        "area":        "etc",
+        "phone":       None,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=7",
         "engine":      "masterkey",
         "crawled":     True,
         "lat":         None,
@@ -286,54 +361,56 @@ def sync_schedules(bids: list[int], theme_map: dict[tuple[int, str], str], days:
     for bid in bids:
         cafe_id = SHOP_MAP[bid]
         booking_url_base = BOOKING_URL_TEMPLATE.format(bid=bid)
+        try:
+            # {date_str: {theme_doc_id: {"slots": [...]}}}
+            date_themes: dict[str, dict] = {}
 
-        # {date_str: {theme_doc_id: {"slots": [...]}}}
-        date_themes: dict[str, dict] = {}
+            for target_date in target_dates:
+                rows = _fetch_raw(bid, target_date)
+                time.sleep(REQUEST_DELAY)
 
-        for target_date in target_dates:
-            rows = _fetch_raw(bid, target_date)
-            time.sleep(REQUEST_DELAY)
-
-            date_str = target_date.strftime("%Y-%m-%d")
-            for r in rows:
-                room_id = r["room_id"] or r["name"]
-                theme_doc_id = theme_map.get((bid, room_id))
-                if theme_doc_id is None:
-                    print(f"  [WARN] theme_map 미존재 bid={bid} room_id={room_id} — 건너뜀")
-                    continue
-
-                for slot in r["slots"]:
-                    time_obj = slot["time"]
-                    status = slot["status"]
-
-                    slot_dt = datetime(
-                        target_date.year, target_date.month, target_date.day,
-                        time_obj.hour, time_obj.minute,
-                    )
-                    if slot_dt <= datetime.now():
+                date_str = target_date.strftime("%Y-%m-%d")
+                for r in rows:
+                    room_id = r["room_id"] or r["name"]
+                    theme_doc_id = theme_map.get((bid, room_id))
+                    if theme_doc_id is None:
+                        print(f"  [WARN] theme_map 미존재 bid={bid} room_id={room_id} — 건너뜀")
                         continue
 
-                    booking_url = booking_url_base if status == "available" else None
+                    for slot in r["slots"]:
+                        time_obj = slot["time"]
+                        status = slot["status"]
 
-                    date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
-                        "time": f"{time_obj.hour:02d}:{time_obj.minute:02d}",
-                        "status": status,
-                        "booking_url": booking_url,
-                    })
+                        slot_dt = datetime(
+                            target_date.year, target_date.month, target_date.day,
+                            time_obj.hour, time_obj.minute,
+                        )
+                        if slot_dt <= datetime.now():
+                            continue
 
-        known_hashes = load_cafe_hashes(db, cafe_id)
-        new_hashes: dict[str, str] = {}
-        for date_str, themes in date_themes.items():
-            h = upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at,
-                                           known_hash=known_hashes.get(date_str))
-            if h:
-                new_hashes[date_str] = h
-                writes += 1
-        if new_hashes:
-            today_str = date.today().isoformat()
-            save_cafe_hashes(db, cafe_id, {k: v for k, v in {**known_hashes, **new_hashes}.items() if k >= today_str})
+                        booking_url = booking_url_base if status == "available" else None
 
-        print(f"  bid={bid} 완료")
+                        date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
+                            "time": f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                            "status": status,
+                            "booking_url": booking_url,
+                        })
+
+            known_hashes = load_cafe_hashes(db, cafe_id)
+            new_hashes: dict[str, str] = {}
+            for date_str, themes in date_themes.items():
+                h = upsert_cafe_date_schedules(db, date_str, cafe_id, themes, crawled_at,
+                                               known_hash=known_hashes.get(date_str))
+                if h:
+                    new_hashes[date_str] = h
+                    writes += 1
+            if new_hashes:
+                today_str = date.today().isoformat()
+                save_cafe_hashes(db, cafe_id, {k: v for k, v in {**known_hashes, **new_hashes}.items() if k >= today_str})
+
+            print(f"  bid={bid} 완료")
+        except Exception as e:
+            print(f"  [ERROR] bid={bid} (cafe_id={cafe_id}) 스케줄 동기화 실패: {e}")
 
     print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 

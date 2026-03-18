@@ -2,10 +2,14 @@
 큐브이스케이프(cubeescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.
 
 지점:
-  홍대점  http://www.cubeescape.co.kr    rFfice=1  place_id=27413260    area=hongdae
-  잠실점  http://jamsil.cubeescape.co.kr rFfice=5  place_id=?           area=jamsil
-  천호점  http://cheonho.cubeescape.co.kr rFfice=7 place_id=1857201893  area=jamsil
-  수유점  http://suyu.cubeescape.co.kr    rFfice=8  place_id=4331171    area=etc
+  홍대점    http://www.cubeescape.co.kr        rFfice=1  place_id=27413260    area=hongdae
+  잠실점    http://jamsil.cubeescape.co.kr    rFfice=5  place_id=?           area=jamsil
+  천호점    http://cheonho.cubeescape.co.kr   rFfice=7  place_id=1857201893  area=jamsil
+  수유점    http://suyu.cubeescape.co.kr      rFfice=8  place_id=4331171     area=etc
+  인천점    http://incheon.cubeescape.co.kr   rFfice=3  place_id=27564986    area=incheon
+  전주점    http://junju.cubeescape.co.kr     rFfice=4  place_id=27522878    area=etc      (전북 전주시 완산구 홍산남로 78 다올빌딩 4층)
+  대전둔산점 http://daejeon.cubeescape.co.kr  rFfice=6  place_id=167846502   area=daejeon  (대전 서구 대덕대로185번길 47 5층)
+  대구점    http://daegu.cubeescape.co.kr     rFfice=2  place_id=?           area=daegu    (대구 중구 동성로2길 81 3층, 카카오 미등록)
 
 API:
   1) GET  http://{subdomain}.cubeescape.co.kr/
@@ -99,6 +103,43 @@ BRANCHES: list[dict] = [
         "area":        "etc",
         "subdomain":   "suyu",
         "office":      8,
+    },
+    {
+        "cafe_id":     "27564986",
+        "cafe_name":   "큐브이스케이프",
+        "branch_name": "인천점",
+        "address":     "인천 남동구 구월동 1407",
+        "area":        "incheon",
+        "subdomain":   "incheon",
+        "office":      3,
+    },
+    {
+        "cafe_id":     "27522878",
+        "cafe_name":   "큐브이스케이프",
+        "branch_name": "전주점",
+        "address":     "전북특별자치도 전주시 완산구 홍산남로 78 다올빌딩 4층",
+        "area":        "etc",
+        "subdomain":   "junju",
+        "office":      4,
+    },
+    {
+        "cafe_id":     "167846502",
+        "cafe_name":   "큐브이스케이프",
+        "branch_name": "대전둔산점",
+        "address":     "대전 서구 대덕대로185번길 47 5층",
+        "area":        "daejeon",
+        "subdomain":   "daejeon",
+        "office":      6,
+    },
+    {
+        # 카카오맵 미등록 — Firestore 신규 생성됨
+        "cafe_id":     "2100000004",
+        "cafe_name":   "큐브이스케이프",
+        "branch_name": "대구점",
+        "address":     "대구 중구 동성로2길 81 3층",
+        "area":        "daegu",
+        "subdomain":   "daegu",
+        "office":      2,
     },
 ]
 
@@ -347,7 +388,10 @@ def main(run_schedule: bool = True, days: int = 14) -> None:
     init_firestore(settings.firebase_credentials_path)
 
     for branch in BRANCHES:
-        sync_one_branch(branch, run_schedule, days)
+        try:
+            sync_one_branch(branch, run_schedule, days)
+        except Exception as e:
+            print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("모든 지점 동기화 완료!")

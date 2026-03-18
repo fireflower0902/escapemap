@@ -6,8 +6,16 @@ on:
     - cron: "0 15 * * *"    # 매일 자정 KST (UTC 15:00) — 카페/테마 포함 전체 동기화
   workflow_dispatch:        # 수동 실행 버튼
 
+# ── 공통 설정 ─────────────────────────────────────────────────────────────────
+# 각 job은 독립적으로 ubuntu-latest runner에서 병렬 실행됩니다.
+# 총 분(minutes) 소비량 = 기존 단일 job과 동일 (N개 runner × 짧은 시간 = 1개 × 긴 시간)
+# 단, 벽시계 시간(wall-clock)은 ~4배 단축됩니다.
+
 jobs:
-  crawl:
+
+  # ── Job 1: 셜록홈즈 + 서울 기타 ─────────────────────────────────────────────
+  crawl-1:
+    name: "크롤링 1 — 셜록홈즈 + 서울기타"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -33,59 +41,227 @@ jobs:
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
           echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
-          # 자정 KST(0 15 * * *) 실행이 아닌 경우 카페/테마 쓰기 건너뜀 → write 절약
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
 
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_keyescape_db.py
-          uv run python scripts/sync_xdungeon_db.py
-          uv run python scripts/sync_doorescape_db.py
-          uv run python scripts/sync_playtheworld_etc_db.py
-          uv run python scripts/sync_fantastrick_db.py
-          uv run python scripts/sync_masterkey_db.py
-          uv run python scripts/sync_frankantique_db.py
-          uv run python scripts/sync_dpsnnn_db.py
-          uv run python scripts/sync_studioesc_db.py
-          uv run python scripts/sync_mafiacafe_db.py
-          uv run python scripts/sync_deepthinker_db.py
-          uv run python scripts/sync_jigobyeol_db.py
-          uv run python scripts/sync_xcape_db.py
-          uv run python scripts/sync_nextedition_db.py
-          uv run python scripts/sync_clevertown_db.py
-          uv run python scripts/sync_play33_db.py
-          uv run python scripts/sync_sinbiweb_db.py
-          uv run python scripts/sync_rabbithole_db.py
-          uv run python scripts/sync_seoulesc_db.py
-          uv run python scripts/sync_showroom404_db.py
-          uv run python scripts/sync_horrorswitch_db.py
-          uv run python scripts/sync_zeroworld_db.py
-          uv run python scripts/sync_mysteryroom_db.py
-          uv run python scripts/sync_sherlock_db.py
-          uv run python scripts/sync_cubeescape_db.py
-          uv run python scripts/sync_xphobia_db.py
-          uv run python scripts/sync_xescape_db.py
-          uv run python scripts/sync_puzzlefactory_db.py
-          uv run python scripts/sync_teraspace_db.py
-          uv run python scripts/sync_escapers_db.py
-          uv run python scripts/sync_lastescape_db.py
-          uv run python scripts/sync_murderparker_db.py
-          uv run python scripts/sync_seoulescaperoom_db.py
-          uv run python scripts/sync_dumbndumber_db.py
-          uv run python scripts/sync_secretcode_db.py
-          uv run python scripts/sync_signescape_db.py
-          uv run python scripts/sync_roomlescape_db.py
-          uv run python scripts/sync_roomescape_db.py
-          uv run python scripts/sync_ttescape_db.py
-          uv run python scripts/sync_panicescape_db.py
-          uv run python scripts/sync_ledasquare_db.py
-          uv run python scripts/sync_themazegd_db.py
-          uv run python scripts/sync_escapecity_db.py
-          uv run python scripts/sync_thetrapsy_db.py
-          uv run python scripts/sync_escapehouse_db.py
-          uv run python scripts/sync_conanescape_db.py
-          uv run python scripts/sync_dreampicnic_db.py
-          uv run python scripts/sync_movieescape_db.py
-          uv run python scripts/sync_no1escape_db.py
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+
+          # 셜록홈즈 (지점 多 → 무거움)
+          run_script sync_sherlock_db.py
+
+          # 서울 홍대/마포/신촌 계열
+          run_script sync_keyescape_db.py
+          run_script sync_frankantique_db.py
+          run_script sync_dpsnnn_db.py
+          run_script sync_clevertown_db.py
+          run_script sync_rabbithole_db.py
+          run_script sync_roomlescape_db.py
+          run_script sync_ledasquare_db.py
+
+          # 테마/장르 특화 소규모
+          run_script sync_deepthinker_db.py
+          run_script sync_showroom404_db.py
+          run_script sync_horrorswitch_db.py
+          run_script sync_mysteryroom_db.py
+          run_script sync_xphobia_db.py
+
+  # ── Job 2: 마스터키 + 서울 강남/잠실 계열 ────────────────────────────────────
+  crawl-2:
+    name: "크롤링 2 — 마스터키 + 강남/잠실"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Install Python dependencies
+        run: uv sync --frozen
+
+      - name: Write Firebase credentials
+        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+
+          # 마스터키 (지점 多 → 무거움)
+          run_script sync_masterkey_db.py
+
+          # 서울 강남/잠실/건대 계열
+          run_script sync_xdungeon_db.py
+          run_script sync_mafiacafe_db.py
+          run_script sync_jigobyeol_db.py
+          run_script sync_seoulesc_db.py
+          run_script sync_zeroworld_db.py
+          run_script sync_signescape_db.py
+          run_script sync_studioesc_db.py
+
+          # 기타 소규모
+          run_script sync_nextedition_db.py
+          run_script sync_sinbiweb_db.py
+          run_script sync_play33_db.py
+          run_script sync_seoulescaperoom_db.py
+
+  # ── Job 3: 머더파커 + 큐브이스케이프 + 경기/지방 ─────────────────────────────
+  crawl-3:
+    name: "크롤링 3 — 머더파커 + 큐브 + 경기/지방"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Install Python dependencies
+        run: uv sync --frozen
+
+      - name: Write Firebase credentials
+        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+
+          # 머더파커 (지점 多 → 무거움)
+          run_script sync_murderparker_db.py
+
+          # 큐브이스케이프
+          run_script sync_cubeescape_db.py
+
+          # xcape (지점 多)
+          run_script sync_xcape_db.py
+
+          # 경기/인천/지방 계열
+          run_script sync_escapers_db.py
+          run_script sync_lastescape_db.py
+          run_script sync_dumbndumber_db.py
+          run_script sync_secretcode_db.py
+          run_script sync_escapecity_db.py
+          run_script sync_teraspace_db.py
+          run_script sync_xescape_db.py
+          run_script sync_puzzlefactory_db.py
+
+  # ── Job 4: 나머지 스크립트 ──────────────────────────────────────────────────
+  crawl-4:
+    name: "크롤링 4 — 나머지"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      - name: Install Python dependencies
+        run: uv sync --frozen
+
+      - name: Write Firebase credentials
+        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+
+          run_script sync_doorescape_db.py
+          run_script sync_playtheworld_etc_db.py
+          run_script sync_fantastrick_db.py
+          run_script sync_roomescape_db.py
+          run_script sync_ttescape_db.py
+          run_script sync_panicescape_db.py
+          run_script sync_themazegd_db.py
+          run_script sync_thetrapsy_db.py
+          run_script sync_escapehouse_db.py
+          run_script sync_conanescape_db.py
+          run_script sync_dreampicnic_db.py
+          run_script sync_movieescape_db.py
+          run_script sync_no1escape_db.py
+          run_script sync_oasisescape_db.py
+          run_script sync_thecode_db.py
+          run_script sync_thetimeescape_db.py
+          run_script sync_zescape_db.py
+          run_script sync_playescape_db.py
+          run_script sync_geniusescape_db.py
+          run_script sync_trickescape_db.py
+          run_script sync_movieescape_cokr_db.py
+          run_script sync_aliceescape_db.py
+          run_script sync_vescape_db.py
+          run_script sync_reverseesc_db.py

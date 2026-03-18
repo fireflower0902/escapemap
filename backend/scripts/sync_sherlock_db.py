@@ -10,6 +10,10 @@
   bno=54   성신여대점  place_id=10098327   area=daehakro  (서울 성북구 동선동1가 87)
   bno=57   노량진점    place_id=8143798    area=etc      (서울 동작구 노량진동 118-8)
 
+지점 (인천, sido=4):
+  bno=45   부평점      place_id=2127065864 area=incheon  (인천 부평구 부평대로 293 3층)
+  bno=101  부평2호점   place_id=399640253  area=incheon  (인천 부평구 경인로 570)
+
 지점 (경기, sido=9):
   bno=62   분당야탑점  place_id=1396409942 area=gyeonggi (경기 성남시 분당구 야탑동 353-3)
   bno=79   동탄점      place_id=?          area=gyeonggi (경기 화성시 동탄)
@@ -24,6 +28,18 @@
   bno=106  수지구청점  place_id=582885260  area=gyeonggi (경기 용인시 수지구 풍덕천동 711-3)
   bno=108  수원인계점  place_id=1166453549 area=gyeonggi (경기 수원시 팔달구 효원로265번길 41)
   bno=109  안양범계점  place_id=1888259527 area=gyeonggi (경기 안양시 동안구 평촌대로223번길 28)
+
+지점 (충청/대전, sido=12):
+  bno=103  대전은행점    place_id=472522287  area=daejeon  (대전 중구 은행동 52-5)
+  bno=14   천안1호점     place_id=27583768   area=etc      (충남 천안시 동남구 신부동 461-10)
+  bno=74   천안2호점     place_id=908334376  area=etc      (충남 천안시 동남구 신부동 461-9)
+
+지점 (부산/대구, sido=15):
+  bno=95   부산아트몰링점  place_id=1049164175 area=busan   (부산 사하구 하단동 526-6)
+  bno=91   부산기장정관점  place_id=?          area=busan   (부산 기장군 정관읍)
+
+지점 (강원, sido=17):
+  bno=92   원주점        place_id=588118043  area=etc      (강원 원주시 반곡동 1880-8)
 
 API:
   GET https://sherlock-holmes.co.kr/reservation/res_schedule.php
@@ -139,6 +155,25 @@ BRANCHES: list[dict] = [
         "sido":        1,
         "bno":         57,
     },
+    # ── 인천 지점 ──
+    {
+        "cafe_id":     "2127065864",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "부평점",
+        "address":     "인천 부평구 부평대로 293 3층",
+        "area":        "incheon",
+        "sido":        4,
+        "bno":         45,
+    },
+    {
+        "cafe_id":     "399640253",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "부평2호점",
+        "address":     "인천 부평구 경인로 570",
+        "area":        "incheon",
+        "sido":        4,
+        "bno":         101,
+    },
     # ── 경기 지점 ──
     {
         "cafe_id":     "1396409942",
@@ -238,6 +273,64 @@ BRANCHES: list[dict] = [
         "area":        "gyeonggi",
         "sido":        9,
         "bno":         109,
+    },
+    # ── 충청/대전/세종 지점 (sido=12) ──
+    {
+        "cafe_id":     "472522287",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "대전은행점",
+        "address":     "대전 중구 은행동 52-5",
+        "area":        "daejeon",
+        "sido":        12,
+        "bno":         103,
+    },
+    {
+        "cafe_id":     "27583768",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "천안1호점",
+        "address":     "충남 천안시 동남구 신부동 461-10",
+        "area":        "etc",
+        "sido":        12,
+        "bno":         14,
+    },
+    {
+        "cafe_id":     "908334376",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "천안2호점",
+        "address":     "충남 천안시 동남구 신부동 461-9",
+        "area":        "etc",
+        "sido":        12,
+        "bno":         74,
+    },
+    # ── 부산/대구 지점 (sido=15) ──
+    {
+        "cafe_id":     "1049164175",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "부산아트몰링점",
+        "address":     "부산 사하구 하단동 526-6",
+        "area":        "busan",
+        "sido":        15,
+        "bno":         95,
+    },
+    {
+        # TODO: 카카오 place_id 미확인 — Firestore 신규 생성됨
+        "cafe_id":     "2200000001",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "부산기장정관점",
+        "address":     "부산 기장군 정관읍",
+        "area":        "busan",
+        "sido":        15,
+        "bno":         91,
+    },
+    # ── 강원 지점 (sido=17) ──
+    {
+        "cafe_id":     "588118043",
+        "cafe_name":   "셜록홈즈",
+        "branch_name": "원주점",
+        "address":     "강원특별자치도 원주시 반곡동 1880-8",
+        "area":        "etc",
+        "sido":        17,
+        "bno":         92,
     },
 ]
 
@@ -452,7 +545,10 @@ def main(run_schedule: bool = True, days: int = 14) -> None:
     init_firestore(settings.firebase_credentials_path)
 
     for branch in BRANCHES:
-        sync_one_branch(branch, run_schedule, days)
+        try:
+            sync_one_branch(branch, run_schedule, days)
+        except Exception as e:
+            print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("모든 지점 동기화 완료!")

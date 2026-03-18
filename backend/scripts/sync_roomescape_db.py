@@ -285,7 +285,13 @@ def main(run_schedule: bool = True, days: int = 14):
     if run_schedule:
         for branch in BRANCHES:
             print(f"\n[ 2단계 ] {branch['branch_name']} 스케줄 동기화 (오늘~{days}일 후)")
+            try:
+    
             sync_branch(branch, days=days)
+
+            except Exception as e:
+    
+                print(f"  [ERROR] {branch['branch_name']} 크롤링 실패: {e}")
 
     print("\n" + "=" * 60)
     print("동기화 완료!")
