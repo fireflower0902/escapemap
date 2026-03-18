@@ -15,6 +15,9 @@
 기타 네이버예약 지점:
   에베레스트이스케이프            businessId=900300   bizTypeId=6  cafe_id=164116124  area=gyeonggi
   브레이크아웃이스케이프 해운대본점  businessId=27519    cafe_id=170158027  area=busan
+  브레이크아웃이스케이프 홍대점     businessId=110544   cafe_id=451924760  area=hongdae
+  나비잠 방탈출 1호점             businessId=1564927  cafe_id=713424921  area=gyeonggi
+  나비잠방탈출 2호점              businessId=1583178  cafe_id=704757588  area=gyeonggi
 
 API:
   POST https://booking.naver.com/graphql
@@ -179,6 +182,39 @@ BRANCHES = [
         "address":          "부산 해운대구 중동 1394-286",
         "area":             "busan",
         "site_url":         "https://busan.breakoutescapegame.com",
+    },
+    # 브레이크아웃이스케이프 홍대점 (hongdae.breakoutescapegame.com)
+    {
+        "cafe_id":          "451924760",
+        "business_id":      "110544",
+        "business_type_id": 12,
+        "branch_name":      "홍대점",
+        "name":             "브레이크아웃이스케이프",
+        "address":          "서울 마포구 서교동 338-48",
+        "area":             "hongdae",
+        "site_url":         "https://hongdae.breakoutescapegame.com",
+    },
+    # 나비잠 방탈출 1호점 (nabijam.com - 네이버 예약)
+    {
+        "cafe_id":          "713424921",
+        "business_id":      "1564927",
+        "business_type_id": 12,
+        "branch_name":      "1호점",
+        "name":             "나비잠",
+        "address":          "경기 안양시 동안구 호계동 1044-1",
+        "area":             "gyeonggi",
+        "site_url":         "https://nabijam.com",
+    },
+    # 나비잠방탈출 2호점 (nabijam.com - 네이버 예약)
+    {
+        "cafe_id":          "704757588",
+        "business_id":      "1583178",
+        "business_type_id": 12,
+        "branch_name":      "2호점",
+        "name":             "나비잠",
+        "address":          "경기 안양시 동안구 호계동 1049",
+        "area":             "gyeonggi",
+        "site_url":         "https://nabijam.com",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {

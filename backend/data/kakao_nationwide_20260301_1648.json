@@ -134,7 +134,7 @@
       "homepage_url": "http://kwangjutop.com/",
       "lat": 35.14846858127,
       "lng": 126.914765741575,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "632336157",
@@ -264,7 +264,7 @@
       "homepage_url": "http://busantop.net/",
       "lat": 35.1546449229525,
       "lng": 129.056088451415,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "310013350",
@@ -454,7 +454,7 @@
       "homepage_url": "https://busan.breakoutescapegame.com/",
       "lat": 35.1606997562049,
       "lng": 129.162515066175,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1097124167",
@@ -467,7 +467,7 @@
       "homepage_url": "http://changwontop.net/",
       "lat": 35.2232887168606,
       "lng": 128.685002123952,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "27607543",
@@ -533,7 +533,7 @@
       "homepage_url": "http://www.ulsantop.net/",
       "lat": 35.540187572777,
       "lng": 129.336601544315,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1713311920",
@@ -943,7 +943,7 @@
       "homepage_url": "http://djdsesc.co.kr/",
       "lat": 36.3506412544482,
       "lng": 127.376466688717,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1696389756",
@@ -1051,7 +1051,7 @@
       "homepage_url": "http://daejeontop.net/",
       "lat": 36.3274755253461,
       "lng": 127.427407612249,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1908328454",
@@ -1171,7 +1171,7 @@
       "homepage_url": null,
       "lat": 36.8183903957671,
       "lng": 127.155901590441,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "908334376",
@@ -1198,7 +1198,7 @@
       "homepage_url": "http://www.caesc.co.kr/",
       "lat": 36.8183885181645,
       "lng": 127.157327227734,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "77278349",
@@ -1320,7 +1320,7 @@
       "homepage_url": null,
       "lat": 37.11515053613487,
       "lng": 126.91247818814807,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1599918263",
@@ -1417,7 +1417,7 @@
       "homepage_url": "http://suwontop.net/",
       "lat": 37.26525129833335,
       "lng": 127.02996002723235,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "115701517",
@@ -1552,7 +1552,7 @@
       "homepage_url": "http://rememberesc.com/",
       "lat": 37.2681257577486,
       "lng": 127.003454412562,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "857573680",
@@ -1648,7 +1648,7 @@
       "homepage_url": "http://reverseesc.com/",
       "lat": 37.3184319371783,
       "lng": 126.83760221459,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1609773844",
@@ -1702,7 +1702,7 @@
       "homepage_url": "http://bit.ly/3z5y45w",
       "lat": 37.3597473801199,
       "lng": 126.931301945857,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "570522076",
@@ -1852,7 +1852,7 @@
       "homepage_url": "http://www.code-k.co.kr/",
       "lat": 37.4442390997788,
       "lng": 126.701679020305,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "997136500",
@@ -1960,7 +1960,7 @@
       "homepage_url": "https://nabijam.com/",
       "lat": 37.391140197315,
       "lng": 126.954025613941,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "704757588",
@@ -1973,7 +1973,7 @@
       "homepage_url": "https://nabijam.com/",
       "lat": 37.3903275153335,
       "lng": 126.954130000914,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1396409942",
@@ -3268,7 +3268,7 @@
       "homepage_url": "https://mysteryzip.com/main.html",
       "lat": 37.5589622026099,
       "lng": 126.922766878316,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "554838835",
@@ -3281,7 +3281,7 @@
       "homepage_url": "http://fuzzyline.co.kr/",
       "lat": 37.5581586456178,
       "lng": 126.920255168717,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1719351380",
@@ -3584,7 +3584,7 @@
       "homepage_url": null,
       "lat": 37.5529394761745,
       "lng": 126.92484635985,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "289742025",
@@ -3884,7 +3884,7 @@
       "homepage_url": "http://everestescape.com/",
       "lat": 37.6442802717883,
       "lng": 126.789008168261,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1367009941",
