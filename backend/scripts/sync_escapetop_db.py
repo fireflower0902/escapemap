@@ -611,6 +611,61 @@ BRANCHES = [
         "area":             "gyeongbuk",
         "site_url":         "https://booking.naver.com/booking/10/bizes/52738",
     },
+    # 체셔캣방탈출카페 용인 (네이버 예약)
+    {
+        "cafe_id":          "1831030495",
+        "business_id":      "601362",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "체셔캣방탈출카페",
+        "address":          "경기 용인시 기흥구 죽전로 15 3층 302호",
+        "area":             "gyeonggi",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/601362",
+    },
+    # 씨이스케이프 성남 (네이버 예약)
+    {
+        "cafe_id":          "657876723",
+        "business_id":      "727743",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "씨이스케이프",
+        "address":          "경기 성남시 중원구 제일로35번길 56 3층",
+        "area":             "gyeonggi",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/727743",
+    },
+    # 월투월방탈출 관악 (네이버 예약)
+    {
+        "cafe_id":          "763904207",
+        "business_id":      "570203",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "월투월방탈출",
+        "address":          "서울 관악구 남부순환로226길 9 지하 1층",
+        "area":             "sinlim",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/570203",
+    },
+    # 미스터리담 일산 (네이버 예약)
+    {
+        "cafe_id":          "1436082735",
+        "business_id":      "1575275",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "미스터리담",
+        "address":          "경기 고양시 일산동구 강송로73번길 34 1층",
+        "area":             "gyeonggi",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1575275",
+    },
+    # 찰리이스케이프 잠실 (네이버 예약)
+    {
+        "cafe_id":          "1682203426",
+        "business_id":      "1105850",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "찰리이스케이프",
+        "address":          "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "area":             "jamsil",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1105850",
+    },
 ]
 
 _SSL_CTX = ssl.create_default_context()
