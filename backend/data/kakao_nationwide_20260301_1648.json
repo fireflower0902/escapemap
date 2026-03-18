@@ -235,7 +235,8 @@
       "homepage_url": null,
       "lat": 35.1757000051403,
       "lng": 126.912888660838,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "923379950",
@@ -442,7 +443,8 @@
       "homepage_url": "https://naver.me/FutFZ0bm",
       "lat": 35.1358010250439,
       "lng": 129.10024483128,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1559912469",
@@ -1491,7 +1493,8 @@
       "homepage_url": null,
       "lat": 37.2667859116457,
       "lng": 127.032833248416,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "1834906043",
@@ -1518,7 +1521,8 @@
       "homepage_url": "http://signalhunter.co.kr/",
       "lat": 37.20580231736612,
       "lng": 127.07292567442839,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1875954710",
@@ -1960,7 +1964,8 @@
       "homepage_url": "http://www.darockesc.com/",
       "lat": 37.398724959352,
       "lng": 126.922805125389,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "52252534",
@@ -1973,7 +1978,8 @@
       "homepage_url": null,
       "lat": 37.3917835286896,
       "lng": 126.951766684208,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1888259527",
@@ -2222,7 +2228,8 @@
       "homepage_url": null,
       "lat": 37.4937981624032,
       "lng": 126.72625555594,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1992606174",
@@ -2445,7 +2452,8 @@
       "homepage_url": null,
       "lat": 37.5298709510827,
       "lng": 126.964873937546,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "751793807",
@@ -2767,7 +2775,8 @@
       "homepage_url": null,
       "lat": 37.5000874176391,
       "lng": 127.028227202109,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1213158520",
@@ -3283,7 +3292,8 @@
       "homepage_url": null,
       "lat": 37.5759108787864,
       "lng": 126.930071430992,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1560724472",
@@ -3378,7 +3388,8 @@
       "homepage_url": null,
       "lat": 37.5586632956314,
       "lng": 126.936776384513,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "97734177",
@@ -3433,7 +3444,8 @@
       "homepage_url": null,
       "lat": 37.5574004999017,
       "lng": 126.935851669367,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "690123759",
@@ -3474,7 +3486,8 @@
       "homepage_url": "http://withescaper.com/",
       "lat": 37.55762198800955,
       "lng": 126.93723562967803,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "273855007",
@@ -3543,7 +3556,8 @@
       "homepage_url": "http://www.rec-escape.com/",
       "lat": 37.55417346486832,
       "lng": 126.92711760256185,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "27413260",
@@ -3850,7 +3864,8 @@
       "homepage_url": null,
       "lat": 37.5997568449555,
       "lng": 127.140381874446,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "1954089927",
@@ -3919,7 +3934,8 @@
       "homepage_url": null,
       "lat": 37.66454693968043,
       "lng": 126.76562460238965,
-      "crawled": false
+      "crawled": true,
+      "engine": "not_crawlable"
     },
     {
       "place_id": "351145232",
