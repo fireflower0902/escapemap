@@ -19,6 +19,7 @@
   나비잠 방탈출 1호점             businessId=1564927  cafe_id=713424921  area=gyeonggi
   나비잠방탈출 2호점              businessId=1583178  cafe_id=704757588  area=gyeonggi
   리얼월드 커넥트현대 청주점       businessId=1438216  cafe_id=1488706210 area=chungbuk
+  오늘탈출 고양점                 businessId=284482   cafe_id=300855776  area=gyeonggi
 
 API:
   POST https://booking.naver.com/graphql
@@ -227,6 +228,17 @@ BRANCHES = [
         "address":          "충북 청주시",
         "area":             "chungbuk",
         "site_url":         "https://cheongju.realworld.to",
+    },
+    # 오늘탈출 고양점 (todayescape.com - 네이버 예약, 4시간 방탈출)
+    {
+        "cafe_id":          "300855776",
+        "business_id":      "284482",
+        "business_type_id": 12,
+        "branch_name":      "고양점",
+        "name":             "오늘탈출",
+        "address":          "경기 고양시",
+        "area":             "gyeonggi",
+        "site_url":         "https://www.todayescape.com",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {

@@ -3215,7 +3215,7 @@
       "homepage_url": null,
       "lat": 37.63722298589963,
       "lng": 126.78756546103767,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1078153820",
