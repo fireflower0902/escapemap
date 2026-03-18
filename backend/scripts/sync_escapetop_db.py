@@ -446,6 +446,72 @@ BRANCHES = [
         "area":             "gyeonggi",
         "site_url":         "https://booking.naver.com/booking/12/bizes/1379992",
     },
+    # 하일이스케이프 목포 (네이버 예약)
+    {
+        "cafe_id":          "1124781432",
+        "business_id":      "20197",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "하일이스케이프",
+        "address":          "전남 목포시 비파로43번길 40",
+        "area":             "jeonnam",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/20197",
+    },
+    # 더리얼방탈출카페 순천점 (네이버 예약)
+    {
+        "cafe_id":          "902256384",
+        "business_id":      "638554",
+        "business_type_id": 12,
+        "branch_name":      "순천점",
+        "name":             "더리얼방탈출카페",
+        "address":          "전남 순천시 중앙6길 3-1",
+        "area":             "jeonnam",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/638554",
+    },
+    # 원타임방탈출카페 전주신시가지점 (네이버 예약)
+    {
+        "cafe_id":          "625095198",
+        "business_id":      "1205871",
+        "business_type_id": 12,
+        "branch_name":      "전주신시가지점",
+        "name":             "원타임방탈출카페",
+        "address":          "전북 전주시 완산구 홍산중앙로 41",
+        "area":             "jeonbuk",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1205871",
+    },
+    # 어디든가게 경주 (네이버 예약)
+    {
+        "cafe_id":          "570199530",
+        "business_id":      "303872",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "어디든가게",
+        "address":          "경북 경주시 동문로 38",
+        "area":             "gyeongbuk",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/303872",
+    },
+    # 구미랑방탈출카페 (네이버 예약)
+    {
+        "cafe_id":          "202030183",
+        "business_id":      "491000",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "구미랑방탈출카페",
+        "address":          "경북 구미시 인동32길 22-12",
+        "area":             "gyeongbuk",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/491000",
+    },
+    # 더와이방탈출카페 포항 (네이버 예약)
+    {
+        "cafe_id":          "332798783",
+        "business_id":      "1316365",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "더와이방탈출카페",
+        "address":          "경북 포항시 북구 중앙상가4길 15",
+        "area":             "gyeongbuk",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1316365",
+    },
     # 트랩코리아 삼산점 울산 (네이버 예약)
     {
         "cafe_id":          "27575809",
