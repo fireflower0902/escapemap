@@ -666,14 +666,14 @@ BRANCHES = [
         "area":             "jamsil",
         "site_url":         "https://booking.naver.com/booking/12/bizes/1105850",
     },
-    # 이스케이프월드 (네이버 예약)
+    # 이스케이프월드 수원 (네이버 예약)
     {
         "cafe_id":          "901719185",
         "business_id":      "1413691",
         "business_type_id": 12,
         "branch_name":      "",
         "name":             "이스케이프월드",
-        "address":          "경기 고양시 일산동구 정발산로 24",
+        "address":          "경기 수원시 팔달구 인계로 140",
         "area":             "gyeonggi",
         "site_url":         "https://booking.naver.com/booking/12/bizes/1413691",
     },
