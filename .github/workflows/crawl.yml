@@ -268,3 +268,4 @@ jobs:
           run_script sync_codek_db.py
           run_script sync_rememberesc_db.py
           run_script sync_escapetop_db.py
+          run_script sync_escbangtalul_db.py

@@ -13,7 +13,8 @@
   대전점  businessId=44773   cafe_id=1973717836  area=daejeon
 
 기타 네이버예약 지점:
-  에베레스트이스케이프  businessId=900300  bizTypeId=6  cafe_id=164116124  area=gyeonggi
+  에베레스트이스케이프            businessId=900300   bizTypeId=6  cafe_id=164116124  area=gyeonggi
+  브레이크아웃이스케이프 해운대본점  businessId=27519    cafe_id=170158027  area=busan
 
 API:
   POST https://booking.naver.com/graphql
@@ -156,6 +157,17 @@ BRANCHES = [
         "area":             "hongdae",
         "site_url":         "https://mysteryzip.com",
         "normalize_theme":  True,
+    },
+    # 브레이크아웃이스케이프 해운대본점 (busan.breakoutescapegame.com)
+    {
+        "cafe_id":          "170158027",
+        "business_id":      "27519",
+        "business_type_id": 12,
+        "branch_name":      "해운대본점",
+        "name":             "브레이크아웃이스케이프",
+        "address":          "부산 해운대구 중동 1394-286",
+        "area":             "busan",
+        "site_url":         "https://busan.breakoutescapegame.com",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {
