@@ -388,7 +388,7 @@
       "homepage_url": null,
       "lat": 35.1504900299832,
       "lng": 129.115303902946,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1502372343",
@@ -1144,7 +1144,8 @@
       "homepage_url": "https://cheongju.realworld.to/",
       "lat": 36.62694406013932,
       "lng": 127.4302627431935,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "27583768",
