@@ -3,7 +3,8 @@
 
 사이트: http://mysteryroomescape.com
 지점:
-  a=27  강남점  (서울 강남구 역삼동 823-17 강남파인애플 B1F, 카카오 place_id=27367643)
+  a=27  강남점   (서울 강남구 역삼동 823-17 강남파인애플 B1F, 카카오 place_id=27367643)
+  a=44  홍대2호점 (서울 마포구 서교동 398-1, 카카오 place_id=727312827)
 
 API:
   GET http://mysteryroomescape.com/reservation/reservation.html?a={N}&select_date={YYYY-MM-DD}
@@ -55,6 +56,13 @@ BRANCH_MAP: dict[int, dict] = {
         "branch_name": "강남점",
         "address":     "서울 강남구 역삼동 823-17 강남파인애플 B1F",
         "area":        "gangnam",
+    },
+    44: {
+        "cafe_id":     "727312827",
+        "cafe_name":   "미스터리룸이스케이프",
+        "branch_name": "홍대2호점",
+        "address":     "서울 마포구 서교동 398-1",
+        "area":        "hongdae",
     },
 }
 
