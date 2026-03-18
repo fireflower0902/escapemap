@@ -20,6 +20,7 @@
   나비잠방탈출 2호점              businessId=1583178  cafe_id=704757588  area=gyeonggi
   리얼월드 커넥트현대 청주점       businessId=1438216  cafe_id=1488706210 area=chungbuk
   오늘탈출 고양점                 businessId=284482   cafe_id=300855776  area=gyeonggi
+  시그널헌터 광교중앙점            businessId=1556188  cafe_id=215947527  area=gyeonggi
 
 API:
   POST https://booking.naver.com/graphql
@@ -239,6 +240,17 @@ BRANCHES = [
         "address":          "경기 고양시",
         "area":             "gyeonggi",
         "site_url":         "https://www.todayescape.com",
+    },
+    # 시그널헌터 광교중앙점 (signalhunter.co.kr - 네이버 예약)
+    {
+        "cafe_id":          "215947527",
+        "business_id":      "1556188",
+        "business_type_id": 12,
+        "branch_name":      "광교중앙점",
+        "name":             "시그널헌터",
+        "address":          "경기 수원시 영통구 이의동 1347-2",
+        "area":             "gyeonggi",
+        "site_url":         "https://www.signalhunter.co.kr",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {

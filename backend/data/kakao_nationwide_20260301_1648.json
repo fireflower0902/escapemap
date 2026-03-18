@@ -1730,7 +1730,8 @@
       "homepage_url": "http://signalhunter.co.kr/",
       "lat": 37.2895096533147,
       "lng": 127.047536420266,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "582885260",
