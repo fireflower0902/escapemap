@@ -347,6 +347,17 @@ BRANCHES = [
         "site_url":         "http://withescaper.com",
         "normalize_theme":  True,  # "[N월 예약]" 제거
     },
+    # 에피소드방탈출 강남점 (epsd.co.kr - 네이버 예약)
+    {
+        "cafe_id":          "1277196871",
+        "business_id":      "704325",
+        "business_type_id": 12,
+        "branch_name":      "강남점",
+        "name":             "에피소드방탈출",
+        "address":          "서울 강남구 강남대로98길 8",
+        "area":             "gangnam",
+        "site_url":         "https://www.epsd.co.kr",
+    },
 ]
 
 _SSL_CTX = ssl.create_default_context()
