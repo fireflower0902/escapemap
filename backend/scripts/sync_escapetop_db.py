@@ -446,6 +446,17 @@ BRANCHES = [
         "area":             "gyeonggi",
         "site_url":         "https://booking.naver.com/booking/12/bizes/1379992",
     },
+    # 트랩코리아 삼산점 울산 (네이버 예약)
+    {
+        "cafe_id":          "27575809",
+        "business_id":      "72634",
+        "business_type_id": 12,
+        "branch_name":      "삼산점",
+        "name":             "트랩코리아",
+        "address":          "울산 남구 삼산중로74번길 6",
+        "area":             "ulsan",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/72634",
+    },
     # 더챕터 홍대점 (네이버 예약)
     {
         "cafe_id":          "1611418578",
