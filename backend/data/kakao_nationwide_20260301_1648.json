@@ -3006,7 +3006,8 @@
       "homepage_url": null,
       "lat": 37.4953453624502,
       "lng": 127.03199106777,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "459642234",

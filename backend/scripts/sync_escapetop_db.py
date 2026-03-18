@@ -358,6 +358,17 @@ BRANCHES = [
         "area":             "gangnam",
         "site_url":         "https://www.epsd.co.kr",
     },
+    # 겟어웨이방탈출카페 강남 (getawayesc.com - 네이버 예약)
+    {
+        "cafe_id":          "1871864524",
+        "business_id":      "1073090",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "겟어웨이방탈출카페",
+        "address":          "서울 강남구 역삼동 830-38",
+        "area":             "gangnam",
+        "site_url":         "https://getawayesc.com",
+    },
     # 인스테이지 방탈출 춘천 (네이버 예약)
     {
         "cafe_id":          "1415278100",
