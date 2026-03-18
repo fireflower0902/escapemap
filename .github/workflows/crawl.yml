@@ -265,3 +265,6 @@ jobs:
           run_script sync_aliceescape_db.py
           run_script sync_vescape_db.py
           run_script sync_reverseesc_db.py
+          run_script sync_codek_db.py
+          run_script sync_rememberesc_db.py
+          run_script sync_escapetop_db.py
