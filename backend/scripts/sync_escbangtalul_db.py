@@ -4,6 +4,7 @@ ESC방탈출카페 테마 + 스케줄 DB 동기화 스크립트.
 지점:
   대전둔산점  cafe_id=2024880532  http://djdsesc.co.kr/
   천안점      cafe_id=27559974    http://www.caesc.co.kr/
+  평택점      cafe_id=1314964065  http://ptesc.co.kr/
 
 예약 시스템: 자체 PHP 게시판
 
@@ -72,6 +73,15 @@ BRANCHES = [
         "address":   "충남 천안시 동남구 신부동 462-1",
         "base_url":  "http://www.caesc.co.kr",
         "wr_1":      "천안점",
+    },
+    {
+        "cafe_id":   "1314964065",
+        "name":      "ESC방탈출카페",
+        "branch_name": "평택점",
+        "area":      "gyeonggi",
+        "address":   "경기 평택시",
+        "base_url":  "http://ptesc.co.kr",
+        "wr_1":      "평택점",
     },
 ]
 

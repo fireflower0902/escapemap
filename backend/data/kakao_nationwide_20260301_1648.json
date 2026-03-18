@@ -173,7 +173,7 @@
       "homepage_url": null,
       "lat": 35.1475420012282,
       "lng": 126.914793045424,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1459848720",
@@ -670,7 +670,7 @@
       "homepage_url": null,
       "lat": 35.8680396267761,
       "lng": 128.594023857003,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "7690632",
@@ -808,7 +808,7 @@
       "homepage_url": null,
       "lat": 35.8672282908109,
       "lng": 128.597844831076,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1788375645",
@@ -956,7 +956,7 @@
       "homepage_url": null,
       "lat": 36.351780760965696,
       "lng": 127.37633291813582,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1836271694",
@@ -1064,7 +1064,7 @@
       "homepage_url": null,
       "lat": 36.3279407902734,
       "lng": 127.427335534438,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "1224388097",
@@ -1279,7 +1279,7 @@
       "homepage_url": null,
       "lat": 36.9926559311617,
       "lng": 127.088622540826,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "728789378",
@@ -1539,7 +1539,7 @@
       "homepage_url": null,
       "lat": 37.267203126002,
       "lng": 127.001917716736,
-      "crawled": false
+      "crawled": true
     },
     {
       "place_id": "475592733",

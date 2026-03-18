@@ -269,3 +269,6 @@ jobs:
           run_script sync_rememberesc_db.py
           run_script sync_escapetop_db.py
           run_script sync_escbangtalul_db.py
+          run_script sync_theqescape_db.py
+          run_script sync_escapedetective_db.py
+          run_script sync_orangetb_db.py
