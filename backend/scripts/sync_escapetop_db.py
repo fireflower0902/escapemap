@@ -347,6 +347,105 @@ BRANCHES = [
         "site_url":         "http://withescaper.com",
         "normalize_theme":  True,  # "[N월 예약]" 제거
     },
+    # 더락이스케이프 하단점 (부산 - 네이버 예약)
+    {
+        "cafe_id":          "1023995566",
+        "business_id":      "762346",
+        "business_type_id": 12,
+        "branch_name":      "하단점",
+        "name":             "더락이스케이프",
+        "address":          "부산 사하구 하단동 511-4",
+        "area":             "busan",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/762346",
+    },
+    # 더락이스케이프 경성대점 (부산 - 네이버 예약)
+    {
+        "cafe_id":          "1502372343",
+        "business_id":      "263451",
+        "business_type_id": 12,
+        "branch_name":      "경성대점",
+        "name":             "더락이스케이프",
+        "address":          "부산 남구 대연동 58-35",
+        "area":             "busan",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/263451",
+    },
+    # 더락이스케이프 부산대점 (부산 - 네이버 예약)
+    {
+        "cafe_id":          "1448469234",
+        "business_id":      "237839",
+        "business_type_id": 12,
+        "branch_name":      "부산대점",
+        "name":             "더락이스케이프",
+        "address":          "부산 금정구 장전동 302-13",
+        "area":             "busan",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/237839",
+    },
+    # 방탈출카페 숨바꼭질 3호점 광주 (네이버 예약)
+    {
+        "cafe_id":          "632336157",
+        "business_id":      "634218",
+        "business_type_id": 12,
+        "branch_name":      "3호점",
+        "name":             "숨바꼭질",
+        "address":          "광주 동구 금남로 250-9",
+        "area":             "gwangju",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/634218",
+    },
+    # 방탈출카페 숨바꼭질 2호점 광주 (네이버 예약)
+    {
+        "cafe_id":          "923379950",
+        "business_id":      "416289",
+        "business_type_id": 12,
+        "branch_name":      "2호점",
+        "name":             "숨바꼭질",
+        "address":          "광주 북구 우치로100번길 27",
+        "area":             "gwangju",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/416289",
+    },
+    # 루팡방탈출카페 청주 본점 (네이버 예약)
+    {
+        "cafe_id":          "2011481622",
+        "business_id":      "765025",
+        "business_type_id": 12,
+        "branch_name":      "본점",
+        "name":             "루팡방탈출카페",
+        "address":          "충북 청주시 상당구 성안로 26-1",
+        "area":             "chungbuk",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/765025",
+    },
+    # 루팡방탈출카페 청주 1호점 (네이버 예약)
+    {
+        "cafe_id":          "1574310774",
+        "business_id":      "751404",
+        "business_type_id": 12,
+        "branch_name":      "1호점",
+        "name":             "루팡방탈출카페",
+        "address":          "충북 청주시 상당구 상당로91번길 29",
+        "area":             "chungbuk",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/751404",
+    },
+    # 코드미스터리 부산 (네이버 예약)
+    {
+        "cafe_id":          "1865048385",
+        "business_id":      "84222",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "코드미스터리",
+        "address":          "부산 남구 용소로8번길 14 3층",
+        "area":             "busan",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/84222",
+    },
+    # 수원방탈출연구소 (네이버 예약)
+    {
+        "cafe_id":          "1458988059",
+        "business_id":      "1379992",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "수원방탈출연구소",
+        "address":          "경기 수원시 팔달구 인계로124번길 41-13",
+        "area":             "gyeonggi",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1379992",
+    },
     # 더챕터 홍대점 (네이버 예약)
     {
         "cafe_id":          "1611418578",
