@@ -358,6 +358,28 @@ BRANCHES = [
         "area":             "gangnam",
         "site_url":         "https://www.epsd.co.kr",
     },
+    # 인스테이지 방탈출 춘천 (네이버 예약)
+    {
+        "cafe_id":          "1415278100",
+        "business_id":      "891433",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "인스테이지방탈출",
+        "address":          "강원 춘천시 서부대성로 196 3층",
+        "area":             "gangwon",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/891433",
+    },
+    # 더패닉방탈출카페 포항 (네이버 예약, bizTypeId=10)
+    {
+        "cafe_id":          "1266197087",
+        "business_id":      "52738",
+        "business_type_id": 10,
+        "branch_name":      "",
+        "name":             "더패닉방탈출카페",
+        "address":          "경북 포항시 북구 대흥동 605-2",
+        "area":             "gyeongbuk",
+        "site_url":         "https://booking.naver.com/booking/10/bizes/52738",
+    },
 ]
 
 _SSL_CTX = ssl.create_default_context()
