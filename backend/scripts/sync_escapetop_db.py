@@ -18,6 +18,7 @@
   브레이크아웃이스케이프 홍대점     businessId=110544   cafe_id=451924760  area=hongdae
   나비잠 방탈출 1호점             businessId=1564927  cafe_id=713424921  area=gyeonggi
   나비잠방탈출 2호점              businessId=1583178  cafe_id=704757588  area=gyeonggi
+  리얼월드 커넥트현대 청주점       businessId=1438216  cafe_id=1488706210 area=chungbuk
 
 API:
   POST https://booking.naver.com/graphql
@@ -215,6 +216,17 @@ BRANCHES = [
         "address":          "경기 안양시 동안구 호계동 1049",
         "area":             "gyeonggi",
         "site_url":         "https://nabijam.com",
+    },
+    # 리얼월드 커넥트현대 청주점 (cheongju.realworld.to - 네이버 예약)
+    {
+        "cafe_id":          "1488706210",
+        "business_id":      "1438216",
+        "business_type_id": 12,
+        "branch_name":      "커넥트현대 청주점",
+        "name":             "리얼월드",
+        "address":          "충북 청주시",
+        "area":             "chungbuk",
+        "site_url":         "https://cheongju.realworld.to",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {
