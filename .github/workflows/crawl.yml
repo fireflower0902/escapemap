@@ -7,35 +7,26 @@ on:
   workflow_dispatch:        # 수동 실행 버튼
 
 # ── 공통 설정 ─────────────────────────────────────────────────────────────────
-# 각 job은 독립적으로 ubuntu-latest runner에서 병렬 실행됩니다.
-# 총 분(minutes) 소비량 = 기존 단일 job과 동일 (N개 runner × 짧은 시간 = 1개 × 긴 시간)
-# 단, 벽시계 시간(wall-clock)은 ~4배 단축됩니다.
+# 10개 job 병렬 실행 → 벽시계 시간 ~10배 단축 (목표: 최장 job ≤ 15분)
+# setup 시간(checkout + uv sync): job당 약 40~60초 소요
 
 jobs:
 
-  # ── Job 1: 셜록홈즈 + 서울 기타 ─────────────────────────────────────────────
+  # ── Job 1: 셜록홈즈 (지점 多, 단독 실행) ─────────────────────────────────
   crawl-1:
-    name: "크롤링 1 — 셜록홈즈 + 서울기타"
+    name: "크롤링 1 — 셜록홈즈"
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: backend
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v4
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
-
-      - name: Install Python dependencies
-        run: uv sync --frozen
-
-      - name: Write Firebase credentials
-        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
-
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
@@ -44,7 +35,6 @@ jobs:
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
-
       - name: 크롤링 실행
         run: |
           run_script() {
@@ -55,11 +45,148 @@ jobs:
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
-
-          # 셜록홈즈 (지점 多 → 무거움)
           run_script sync_sherlock_db.py
 
-          # 서울 홍대/마포/신촌 계열
+  # ── Job 2: 마스터키 (지점 多, 단독 실행) ─────────────────────────────────
+  crawl-2:
+    name: "크롤링 2 — 마스터키"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+          run_script sync_masterkey_db.py
+
+  # ── Job 3: 머더파커 + xcape (지점 多) ────────────────────────────────────
+  crawl-3:
+    name: "크롤링 3 — 머더파커 + xcape"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+          run_script sync_murderparker_db.py
+          run_script sync_xcape_db.py
+
+  # ── Job 4: Naver Booking (escapetop) + sinbiweb ───────────────────────────
+  crawl-4:
+    name: "크롤링 4 — Naver Booking + sinbiweb"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
+          run_script sync_escapetop_db.py
+          run_script sync_sinbiweb_db.py
+
+  # ── Job 5: 서울 홍대/마포/신촌 계열 ─────────────────────────────────────
+  crawl-5:
+    name: "크롤링 5 — 홍대/마포/신촌"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
           run_script sync_keyescape_db.py
           run_script sync_frankantique_db.py
           run_script sync_dpsnnn_db.py
@@ -67,37 +194,27 @@ jobs:
           run_script sync_rabbithole_db.py
           run_script sync_roomlescape_db.py
           run_script sync_ledasquare_db.py
-
-          # 테마/장르 특화 소규모
           run_script sync_deepthinker_db.py
           run_script sync_showroom404_db.py
           run_script sync_horrorswitch_db.py
           run_script sync_mysteryroom_db.py
           run_script sync_xphobia_db.py
 
-  # ── Job 2: 마스터키 + 서울 강남/잠실 계열 ────────────────────────────────────
-  crawl-2:
-    name: "크롤링 2 — 마스터키 + 강남/잠실"
+  # ── Job 6: 서울 강남/잠실/건대 + 큐브 ───────────────────────────────────
+  crawl-6:
+    name: "크롤링 6 — 강남/잠실/건대 + 큐브"
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: backend
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v4
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
-
-      - name: Install Python dependencies
-        run: uv sync --frozen
-
-      - name: Write Firebase credentials
-        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
-
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
@@ -106,7 +223,6 @@ jobs:
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
-
       - name: 크롤링 실행
         run: |
           run_script() {
@@ -117,11 +233,7 @@ jobs:
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
-
-          # 마스터키 (지점 多 → 무거움)
-          run_script sync_masterkey_db.py
-
-          # 서울 강남/잠실/건대 계열
+          run_script sync_cubeescape_db.py
           run_script sync_xdungeon_db.py
           run_script sync_mafiacafe_db.py
           run_script sync_jigobyeol_db.py
@@ -129,36 +241,25 @@ jobs:
           run_script sync_zeroworld_db.py
           run_script sync_signescape_db.py
           run_script sync_studioesc_db.py
-
-          # 기타 소규모
           run_script sync_nextedition_db.py
-          run_script sync_sinbiweb_db.py
           run_script sync_play33_db.py
           run_script sync_seoulescaperoom_db.py
 
-  # ── Job 3: 머더파커 + 큐브이스케이프 + 경기/지방 ─────────────────────────────
-  crawl-3:
-    name: "크롤링 3 — 머더파커 + 큐브 + 경기/지방"
+  # ── Job 7: 경기/인천/지방 계열 ──────────────────────────────────────────
+  crawl-7:
+    name: "크롤링 7 — 경기/인천/지방"
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: backend
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v4
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
-
-      - name: Install Python dependencies
-        run: uv sync --frozen
-
-      - name: Write Firebase credentials
-        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
-
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
@@ -167,7 +268,6 @@ jobs:
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
-
       - name: 크롤링 실행
         run: |
           run_script() {
@@ -178,17 +278,6 @@ jobs:
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
-
-          # 머더파커 (지점 多 → 무거움)
-          run_script sync_murderparker_db.py
-
-          # 큐브이스케이프
-          run_script sync_cubeescape_db.py
-
-          # xcape (지점 多)
-          run_script sync_xcape_db.py
-
-          # 경기/인천/지방 계열
           run_script sync_escapers_db.py
           run_script sync_lastescape_db.py
           run_script sync_dumbndumber_db.py
@@ -198,29 +287,21 @@ jobs:
           run_script sync_xescape_db.py
           run_script sync_puzzlefactory_db.py
 
-  # ── Job 4: 나머지 스크립트 ──────────────────────────────────────────────────
-  crawl-4:
-    name: "크롤링 4 — 나머지"
+  # ── Job 8: playthe.world 계열 + 소규모 1 ────────────────────────────────
+  crawl-8:
+    name: "크롤링 8 — playtheworld + 소규모1"
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: backend
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up uv
-        uses: astral-sh/setup-uv@v4
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
         with:
           version: "latest"
-
-      - name: Install Python dependencies
-        run: uv sync --frozen
-
-      - name: Write Firebase credentials
-        run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
-
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
@@ -229,7 +310,6 @@ jobs:
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
-
       - name: 크롤링 실행
         run: |
           run_script() {
@@ -240,7 +320,6 @@ jobs:
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
-
           run_script sync_doorescape_db.py
           run_script sync_playtheworld_etc_db.py
           run_script sync_fantastrick_db.py
@@ -252,6 +331,40 @@ jobs:
           run_script sync_escapehouse_db.py
           run_script sync_conanescape_db.py
           run_script sync_dreampicnic_db.py
+
+  # ── Job 9: 소규모 2 ──────────────────────────────────────────────────────
+  crawl-9:
+    name: "크롤링 9 — 소규모2"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
           run_script sync_movieescape_db.py
           run_script sync_no1escape_db.py
           run_script sync_oasisescape_db.py
@@ -261,14 +374,47 @@ jobs:
           run_script sync_playescape_db.py
           run_script sync_geniusescape_db.py
           run_script sync_trickescape_db.py
+          run_script sync_escbangtalul_db.py
+          run_script sync_theqescape_db.py
+          run_script sync_escapedetective_db.py
+
+  # ── Job 10: 소규모 3 + 지방 ─────────────────────────────────────────────
+  crawl-10:
+    name: "크롤링 10 — 소규모3 + 지방"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
           run_script sync_movieescape_cokr_db.py
           run_script sync_aliceescape_db.py
           run_script sync_vescape_db.py
           run_script sync_reverseesc_db.py
           run_script sync_codek_db.py
           run_script sync_rememberesc_db.py
-          run_script sync_escapetop_db.py
-          run_script sync_escbangtalul_db.py
-          run_script sync_theqescape_db.py
-          run_script sync_escapedetective_db.py
           run_script sync_orangetb_db.py
