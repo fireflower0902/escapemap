@@ -28,9 +28,6 @@
   러시아워방탈출 로드맨션 광주      businessId=540364   cafe_id=942247508  area=gwangju
   카타르시스이스케이프 서면 부산     businessId=737799   cafe_id=1358303820 area=busan
   판타지아방탈출카페 광주           businessId=795803   cafe_id=100018735  area=gwangju
-  시간의문 광주점                 businessId=1181539  cafe_id=1393764461 area=gwangju
-  시간의문 대구동성로점            businessId=1197639  cafe_id=929019886  area=daegu
-
 API:
   POST https://booking.naver.com/graphql
   - bizItems 쿼리: 지점별 테마 목록 반환
@@ -337,28 +334,6 @@ BRANCHES = [
         "address":          "광주 북구 용봉동 153-9",
         "area":             "gwangju",
         "site_url":         "https://booking.naver.com/booking/12/bizes/795803",
-    },
-    # 시간의문 광주점 (gateoftime.kr - 네이버 예약, playtheworld API에 실질 데이터 없음)
-    {
-        "cafe_id":          "1393764461",
-        "business_id":      "1181539",
-        "business_type_id": 12,
-        "branch_name":      "광주점",
-        "name":             "시간의문",
-        "address":          "광주 동구 황금동 19-1",
-        "area":             "gwangju",
-        "site_url":         "https://gateoftime.kr",
-    },
-    # 시간의문 대구동성로점 (gateoftime.kr - 네이버 예약, playtheworld API에 실질 데이터 없음)
-    {
-        "cafe_id":          "929019886",
-        "business_id":      "1197639",
-        "business_type_id": 12,
-        "branch_name":      "대구동성로점",
-        "name":             "시간의문",
-        "address":          "대구 중구 동성로3가 16-10",
-        "area":             "daegu",
-        "site_url":         "https://gateoftime.kr",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {
