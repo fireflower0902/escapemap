@@ -358,6 +358,17 @@ BRANCHES = [
         "area":             "gangnam",
         "site_url":         "https://www.epsd.co.kr",
     },
+    # 에피소드방탈출 분당점 (네이버 예약)
+    {
+        "cafe_id":          "1411698841",
+        "business_id":      "280688",
+        "business_type_id": 12,
+        "branch_name":      "분당점",
+        "name":             "에피소드방탈출",
+        "address":          "경기 성남시 분당구 황새울로360번길 12",
+        "area":             "gyeonggi",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/280688",
+    },
     # 겟어웨이방탈출카페 강남 (getawayesc.com - 네이버 예약)
     {
         "cafe_id":          "1871864524",

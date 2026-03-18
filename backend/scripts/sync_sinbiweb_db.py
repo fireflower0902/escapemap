@@ -16,6 +16,7 @@ sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.
   상상의문 분당서현점 https://xn--z92b74ha268d.com  place_id=505122419   s_zizum=2
   상상의문 수원2호점  https://xn--z92b74ha268d.com  place_id=1121229740  s_zizum=7
   버스티드          http://busted.kr              place_id=1092766492
+  라비린스이스케이프 http://labyrinth.15440835.com  place_id=1568417037
   골든타임이스케이프 1호점 https://xn--bb0b44mb8pfwi.kr  place_id=1875954710  s_zizum=1
   골든타임이스케이프 2호점 https://xn--bb0b44mb8pfwi.kr  place_id=1591055284  s_zizum=2
   상상의문 부평점          https://xn--z92b74ha268d.com  place_id=1387240933  s_zizum=6
@@ -370,6 +371,18 @@ SITES: list[dict] = [
         "need_session": True,
         "rev_use_post": True,
         "rev_subpath":  "reserve",
+    },
+    {
+        # 라비린스이스케이프 부천 — sinbiweb
+        "cafe_id":     "1568417037",
+        "cafe_name":   "라비린스이스케이프",
+        "branch_name": "",
+        "address":     "경기 부천시 원미구 중동 1162",
+        "area":        "gyeonggi",
+        "base_url":    "http://labyrinth.15440835.com",
+        "s_zizum":     None,
+        "use_ssl":     False,
+        "need_session": True,
     },
     {
         # 제주방탈출 제원점 — sinbiweb (EUC-KR)

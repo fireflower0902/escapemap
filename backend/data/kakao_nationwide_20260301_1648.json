@@ -2023,7 +2023,8 @@
       "homepage_url": null,
       "lat": 37.3865491212185,
       "lng": 127.125001308546,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "505122419",
@@ -2216,7 +2217,8 @@
       "homepage_url": null,
       "lat": 37.5032600928584,
       "lng": 126.76138088262,
-      "crawled": false
+      "crawled": true,
+      "engine": "sinbiweb"
     },
     {
       "place_id": "1620988252",
