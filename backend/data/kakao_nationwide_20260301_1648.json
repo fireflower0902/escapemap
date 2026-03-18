@@ -2621,7 +2621,8 @@
       "homepage_url": null,
       "lat": 37.5515409344392,
       "lng": 126.923146857749,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "596589943",
@@ -3310,7 +3311,8 @@
       "homepage_url": "https://naver.me/FTMAY9rE",
       "lat": 37.55720474844449,
       "lng": 126.9219911731789,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "1834149457",
@@ -3696,7 +3698,8 @@
       "homepage_url": null,
       "lat": 37.574342155638014,
       "lng": 126.98477999829184,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "462553617",

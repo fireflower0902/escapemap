@@ -347,6 +347,39 @@ BRANCHES = [
         "site_url":         "http://withescaper.com",
         "normalize_theme":  True,  # "[N월 예약]" 제거
     },
+    # 더챕터 홍대점 (네이버 예약)
+    {
+        "cafe_id":          "1611418578",
+        "business_id":      "1473904",
+        "business_type_id": 12,
+        "branch_name":      "홍대점",
+        "name":             "더챕터",
+        "address":          "서울 마포구 와우산로 79 5층",
+        "area":             "hongdae",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1473904",
+    },
+    # 필더블랭크 (네이버 예약)
+    {
+        "cafe_id":          "1719351380",
+        "business_id":      "1548412",
+        "business_type_id": 12,
+        "branch_name":      "",
+        "name":             "필더블랭크",
+        "address":          "서울 마포구 동교동 201-6",
+        "area":             "hongdae",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/1548412",
+    },
+    # 하이드앤시크 쌈지길점 (fuzzyline.co.kr - 네이버 예약)
+    {
+        "cafe_id":          "1944665207",
+        "business_id":      "792647",
+        "business_type_id": 12,
+        "branch_name":      "쌈지길점",
+        "name":             "하이드앤시크",
+        "address":          "서울 종로구 관훈동 38",
+        "area":             "daehakro",
+        "site_url":         "https://fuzzyline.co.kr",
+    },
     # 에피소드방탈출 강남점 (epsd.co.kr - 네이버 예약)
     {
         "cafe_id":          "1277196871",
