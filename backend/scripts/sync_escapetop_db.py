@@ -158,6 +158,17 @@ BRANCHES = [
         "site_url":         "https://mysteryzip.com",
         "normalize_theme":  True,
     },
+    # 시크릿도어 방탈출카페 군포산본점 (bit.ly/3z5y45w → booking.naver.com/booking/12/bizes/731521)
+    {
+        "cafe_id":          "163640808",
+        "business_id":      "731521",
+        "business_type_id": 12,
+        "branch_name":      "군포산본점",
+        "name":             "시크릿도어",
+        "address":          "경기 군포시 산본동 1136-2",
+        "area":             "gyeonggi",
+        "site_url":         "https://booking.naver.com/booking/12/bizes/731521",
+    },
     # 브레이크아웃이스케이프 해운대본점 (busan.breakoutescapegame.com)
     {
         "cafe_id":          "170158027",
