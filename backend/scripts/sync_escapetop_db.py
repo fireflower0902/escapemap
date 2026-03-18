@@ -21,6 +21,8 @@
   리얼월드 커넥트현대 청주점       businessId=1438216  cafe_id=1488706210 area=chungbuk
   오늘탈출 고양점                 businessId=284482   cafe_id=300855776  area=gyeonggi
   시그널헌터 광교중앙점            businessId=1556188  cafe_id=215947527  area=gyeonggi
+  타임이스케이프 창원점            businessId=1325475  cafe_id=27607543   area=gyeongnam
+  브레인이스케이프 광주점          businessId=427883   cafe_id=1459848720 area=gwangju
 
 API:
   POST https://booking.naver.com/graphql
@@ -251,6 +253,28 @@ BRANCHES = [
         "address":          "경기 수원시 영통구 이의동 1347-2",
         "area":             "gyeonggi",
         "site_url":         "https://www.signalhunter.co.kr",
+    },
+    # 타임이스케이프 창원점 (timeescape.co.kr - 네이버 예약)
+    {
+        "cafe_id":          "27607543",
+        "business_id":      "1325475",
+        "business_type_id": 12,
+        "branch_name":      "창원점",
+        "name":             "타임이스케이프",
+        "address":          "경남 창원시 성산구 상남동 17-4",
+        "area":             "gyeongnam",
+        "site_url":         "http://www.timeescape.co.kr",
+    },
+    # 브레인이스케이프 광주점 (brain-escape.co.kr - 네이버 예약)
+    {
+        "cafe_id":          "1459848720",
+        "business_id":      "427883",
+        "business_type_id": 12,
+        "branch_name":      "광주점",
+        "name":             "브레인이스케이프",
+        "address":          "광주 동구 황금동 20",
+        "area":             "gwangju",
+        "site_url":         "http://www.brain-escape.co.kr",
     },
     # 하이드앤시크 홍대점 / 위드방탈출카페 (withescaper.com)
     {

@@ -186,7 +186,8 @@
       "homepage_url": "http://www.brain-escape.co.kr/",
       "lat": 35.1473185594744,
       "lng": 126.914929356201,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "79137052",
@@ -480,7 +481,8 @@
       "homepage_url": "http://www.timeescape.co.kr/",
       "lat": 35.2217154828727,
       "lng": 128.685369356477,
-      "crawled": false
+      "crawled": true,
+      "engine": "naver_booking"
     },
     {
       "place_id": "1448469234",
