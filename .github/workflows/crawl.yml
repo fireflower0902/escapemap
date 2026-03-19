@@ -7,7 +7,8 @@ on:
   workflow_dispatch:        # 수동 실행 버튼
 
 # ── 공통 설정 ─────────────────────────────────────────────────────────────────
-# 13개 job 병렬 실행 → 벽시계 시간 ~13배 단축 (목표: 최장 job ≤ 15분)
+# 16개 job 병렬 실행 → 벽시계 시간 ~16배 단축 (목표: 최장 job ≤ 15분)
+# Naver Booking 55개 지점 → 11개씩 5분할 (각 ~13분)
 # setup 시간(checkout + uv sync): job당 약 40~60초 소요
 
 env:
@@ -121,9 +122,9 @@ jobs:
           run_script sync_murderparker_db.py
           run_script sync_xcape_db.py
 
-  # ── Job 4: Naver Booking — 인덱스 0~13 (14개 지점) ───────────────────────
+  # ── Job 4: Naver Booking — 인덱스 0~10 (11개 지점) ───────────────────────
   crawl-4:
-    name: "크롤링 4 — Naver Booking (0~13)"
+    name: "크롤링 4 — Naver Booking (0~10)"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -146,11 +147,11 @@ jobs:
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 0 --end 14
+          uv run python scripts/sync_escapetop_db.py --start 0 --end 11
 
-  # ── Job 5: Naver Booking — 인덱스 14~27 (14개 지점) ──────────────────────
+  # ── Job 5: Naver Booking — 인덱스 11~21 (11개 지점) ──────────────────────
   crawl-5:
-    name: "크롤링 5 — Naver Booking (14~27)"
+    name: "크롤링 5 — Naver Booking (11~21)"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -173,11 +174,11 @@ jobs:
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 14 --end 28
+          uv run python scripts/sync_escapetop_db.py --start 11 --end 22
 
-  # ── Job 6: Naver Booking — 인덱스 28~41 (14개 지점) ──────────────────────
+  # ── Job 6: Naver Booking — 인덱스 22~32 (11개 지점) ──────────────────────
   crawl-6:
-    name: "크롤링 6 — Naver Booking (28~41)"
+    name: "크롤링 6 — Naver Booking (22~32)"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -200,11 +201,65 @@ jobs:
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 28 --end 42
+          uv run python scripts/sync_escapetop_db.py --start 22 --end 33
 
-  # ── Job 7: Naver Booking — 인덱스 42~ (13개 지점) + sinbiweb ─────────────
+  # ── Job 7: Naver Booking — 인덱스 33~43 (11개 지점) ──────────────────────
   crawl-7:
-    name: "크롤링 7 — Naver Booking (42~) + sinbiweb"
+    name: "크롤링 7 — Naver Booking (33~43)"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          uv run python scripts/sync_escapetop_db.py --start 33 --end 44
+
+  # ── Job 8: Naver Booking — 인덱스 44~ (11개 지점) ────────────────────────
+  crawl-8:
+    name: "크롤링 8 — Naver Booking (44~)"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          uv run python scripts/sync_escapetop_db.py --start 44
+
+  # ── Job 9: sinbiweb (9개 사이트, 단독 실행) ──────────────────────────────
+  crawl-9:
+    name: "크롤링 9 — sinbiweb"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -235,12 +290,11 @@ jobs:
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
-          uv run python scripts/sync_escapetop_db.py --start 42
           run_script sync_sinbiweb_db.py
 
-  # ── Job 8: 서울 홍대/마포/신촌 계열 ─────────────────────────────────────
-  crawl-8:
-    name: "크롤링 8 — 홍대/마포/신촌"
+  # ── Job 10: 서울 홍대/마포/신촌 계열 ────────────────────────────────────
+  crawl-10:
+    name: "크롤링 10 — 홍대/마포/신촌"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -284,9 +338,9 @@ jobs:
           run_script sync_mysteryroom_db.py
           run_script sync_xphobia_db.py
 
-  # ── Job 9: 서울 강남/잠실/건대 + 큐브 ───────────────────────────────────
-  crawl-9:
-    name: "크롤링 9 — 강남/잠실/건대 + 큐브"
+  # ── Job 11: 서울 강남/잠실/건대 + 큐브 ──────────────────────────────────
+  crawl-11:
+    name: "크롤링 11 — 강남/잠실/건대 + 큐브"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -329,9 +383,9 @@ jobs:
           run_script sync_play33_db.py
           run_script sync_seoulescaperoom_db.py
 
-  # ── Job 10: 경기/인천/지방 계열 ──────────────────────────────────────────
-  crawl-10:
-    name: "크롤링 10 — 경기/인천/지방"
+  # ── Job 12: 경기/인천/지방 계열 ─────────────────────────────────────────
+  crawl-12:
+    name: "크롤링 12 — 경기/인천/지방"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -371,9 +425,9 @@ jobs:
           run_script sync_xescape_db.py
           run_script sync_puzzlefactory_db.py
 
-  # ── Job 11: playthe.world 계열 + 소규모 1 ────────────────────────────────
-  crawl-11:
-    name: "크롤링 11 — playtheworld + 소규모1"
+  # ── Job 13: playthe.world 계열 + 소규모 1 ───────────────────────────────
+  crawl-13:
+    name: "크롤링 13 — playtheworld + 소규모1"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -416,9 +470,9 @@ jobs:
           run_script sync_conanescape_db.py
           run_script sync_dreampicnic_db.py
 
-  # ── Job 12: 소규모 2 ──────────────────────────────────────────────────────
-  crawl-12:
-    name: "크롤링 12 — 소규모2"
+  # ── Job 14: 소규모 2a ────────────────────────────────────────────────────
+  crawl-14:
+    name: "크롤링 14 — 소규모2a"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -455,6 +509,40 @@ jobs:
           run_script sync_thecode_db.py
           run_script sync_thetimeescape_db.py
           run_script sync_zescape_db.py
+
+  # ── Job 15: 소규모 2b ────────────────────────────────────────────────────
+  crawl-15:
+    name: "크롤링 15 — 소규모2b"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          run_script() {
+            local script="$1"
+            echo "::group::$script"
+            uv run python "scripts/$script" \
+              && echo "✅ $script 완료" \
+              || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
+            echo "::endgroup::"
+          }
           run_script sync_playescape_db.py
           run_script sync_geniusescape_db.py
           run_script sync_trickescape_db.py
@@ -462,9 +550,9 @@ jobs:
           run_script sync_theqescape_db.py
           run_script sync_escapedetective_db.py
 
-  # ── Job 13: 소규모 3 + 지방 ─────────────────────────────────────────────
-  crawl-13:
-    name: "크롤링 13 — 소규모3 + 지방"
+  # ── Job 16: 소규모 3 + 지방 ─────────────────────────────────────────────
+  crawl-16:
+    name: "크롤링 16 — 소규모3 + 지방"
     runs-on: ubuntu-latest
     defaults:
       run:
