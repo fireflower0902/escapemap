@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { Menu, X, LogOut } from "lucide-react";
+import { useAuth } from "@/contexts/AuthContext";
 
 // 자물쇠 + 돋보기 로고 SVG
 function LogoIcon() {
@@ -29,6 +31,13 @@ function LogoIcon() {
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { user, loading, logout } = useAuth();
+  const router = useRouter();
+
+  async function handleLogout() {
+    await logout();
+    router.push("/");
+  }
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-stone-100 shadow-sm">
@@ -70,12 +79,39 @@ export default function Header() {
 
           {/* 데스크탑 CTA */}
           <div className="hidden md:flex items-center gap-3">
-            <Link href="/login" className="text-stone-600 hover:text-stone-900 font-medium transition-colors">
-              로그인
-            </Link>
-            <Link href="/register" className="btn-primary text-sm py-2">
-              무료 가입
-            </Link>
+            {!loading && (
+              user ? (
+                <>
+                  {user.photoURL && (
+                    <img
+                      src={user.photoURL}
+                      alt="프로필"
+                      className="w-8 h-8 rounded-full border border-stone-200"
+                    />
+                  )}
+                  <span className="text-sm text-stone-600 font-medium max-w-[120px] truncate">
+                    {user.displayName ?? user.email}
+                  </span>
+                  <button
+                    onClick={handleLogout}
+                    className="flex items-center gap-1.5 text-stone-500 hover:text-stone-800
+                               text-sm font-medium transition-colors"
+                  >
+                    <LogOut size={15} />
+                    로그아웃
+                  </button>
+                </>
+              ) : (
+                <>
+                  <Link href="/login" className="text-stone-600 hover:text-stone-900 font-medium transition-colors">
+                    로그인
+                  </Link>
+                  <Link href="/login" className="btn-primary text-sm py-2">
+                    무료 가입
+                  </Link>
+                </>
+              )
+            )}
           </div>
 
           {/* 모바일 메뉴 버튼 */}
@@ -95,7 +131,6 @@ export default function Header() {
               { href: "/search", label: "예약 현황 조회" },
               { href: "/cafes", label: "카페 목록" },
               { href: "/alerts", label: "내 알림" },
-              { href: "/login", label: "로그인" },
             ].map((item) => (
               <Link
                 key={item.href}
@@ -108,9 +143,27 @@ export default function Header() {
               </Link>
             ))}
             <div className="pt-2 px-4">
-              <Link href="/register" className="btn-primary block text-center text-sm">
-                무료 가입
-              </Link>
+              {!loading && (
+                user ? (
+                  <button
+                    onClick={() => { handleLogout(); setMobileMenuOpen(false); }}
+                    className="w-full flex items-center justify-center gap-2
+                               py-2.5 text-stone-600 hover:bg-stone-100
+                               rounded-lg font-medium transition-colors text-sm"
+                  >
+                    <LogOut size={15} />
+                    로그아웃
+                  </button>
+                ) : (
+                  <Link
+                    href="/login"
+                    className="btn-primary block text-center text-sm"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    로그인 / 무료 가입
+                  </Link>
+                )
+              )}
             </div>
           </div>
         )}
