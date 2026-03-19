@@ -10,6 +10,9 @@ on:
 # 13개 job 병렬 실행 → 벽시계 시간 ~13배 단축 (목표: 최장 job ≤ 15분)
 # setup 시간(checkout + uv sync): job당 약 40~60초 소요
 
+env:
+  TZ: Asia/Seoul   # 모든 job/step에 KST 적용 → datetime.now(), date.today() KST 기준
+
 jobs:
 
   # ── Job 1: 셜록홈즈 (지점 多, 단독 실행) ─────────────────────────────────
