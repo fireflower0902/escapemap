@@ -511,10 +511,21 @@ function SearchResults() {
         )}
 
         {/* 카페 목록 */}
-        {!loading && !error && filteredCafes.length > 0 && (
+        {!loading && !error && filteredCafes.length > 0 && (() => {
+          // 3개 그룹으로 분류
+          const crawledCafes = filteredCafes.filter((c) => c.crawled);
+          const hasSlotsCafes = crawledCafes.filter((c) =>
+            c.themes.some((t) => t.slots.some((s) => isSlotInRange(s.time)))
+          );
+          const noSlotsCafes = crawledCafes.filter((c) =>
+            !c.themes.some((t) => t.slots.some((s) => isSlotInRange(s.time)))
+          );
+          const notCrawledCafes = filteredCafes.filter((c) => !c.crawled);
+
+          return (
           <div className="space-y-4">
-            {/* ── 크롤링 완료 카페 ── */}
-            {filteredCafes.filter((c) => c.crawled).map((cafe) => {
+            {/* ── 크롤링 완료 + 슬롯 있는 카페 ── */}
+            {hasSlotsCafes.map((cafe) => {
               const isExpanded = expandedCafe === cafe.id;
 
               // 시간 범위 내 슬롯만 집계
@@ -526,9 +537,6 @@ function SearchResults() {
               const visibleThemes = cafe.themes.filter((t) =>
                 t.slots.some((s) => isSlotInRange(s.time))
               );
-
-              // 시간 범위에 해당하는 슬롯이 하나도 없으면 카드 숨김
-              if (visibleThemes.length === 0) return null;
 
               return (
                 <div key={cafe.id} className="card overflow-hidden">
@@ -655,18 +663,69 @@ function SearchResults() {
               );
             })}
 
-            {/* ── 구현 예정 카페 구분선 + 목록 ── */}
-            {filteredCafes.some((c) => !c.crawled) && (
+            {/* ── 예약 미오픈 카페 구분선 + 목록 ── */}
+            {noSlotsCafes.length > 0 && (
               <>
                 <div className="flex items-center gap-3 pt-2">
                   <div className="flex-1 h-px bg-stone-200" />
                   <span className="text-sm text-stone-400 font-medium shrink-0">
-                    구현 예정 ({filteredCafes.filter((c) => !c.crawled).length}개)
+                    예약 미오픈 ({noSlotsCafes.length}개)
                   </span>
                   <div className="flex-1 h-px bg-stone-200" />
                 </div>
 
-                {filteredCafes.filter((c) => !c.crawled).map((cafe) => (
+                {noSlotsCafes.map((cafe) => (
+                  <div key={cafe.id} className="card overflow-hidden opacity-70">
+                    <div className="p-5 flex items-center justify-between">
+                      <div className="flex items-center gap-4">
+                        <div className="w-12 h-12 bg-stone-100 rounded-xl flex items-center justify-center text-2xl shrink-0">
+                          🔐
+                        </div>
+                        <div>
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <h2 className="font-extrabold text-stone-700 text-lg">
+                              {cafe.name}{cafe.branch_name ? ` ${cafe.branch_name}` : ""}
+                            </h2>
+                            <span className="text-xs bg-sky-100 text-sky-700 px-2 py-0.5 rounded-full font-medium">
+                              예약 미오픈
+                            </span>
+                          </div>
+                          <p className="text-stone-400 text-sm flex items-center gap-1 mt-0.5">
+                            <MapPin size={12} />
+                            {cafe.address}
+                          </p>
+                        </div>
+                      </div>
+                      {cafe.website_url && (
+                        <a
+                          href={cafe.website_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          className="flex items-center gap-1.5 text-sm text-stone-500 hover:text-brand-600 transition-colors shrink-0 ml-4"
+                        >
+                          <ExternalLink size={14} />
+                          <span className="hidden sm:inline">예약 사이트</span>
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </>
+            )}
+
+            {/* ── 구현 예정 카페 구분선 + 목록 ── */}
+            {notCrawledCafes.length > 0 && (
+              <>
+                <div className="flex items-center gap-3 pt-2">
+                  <div className="flex-1 h-px bg-stone-200" />
+                  <span className="text-sm text-stone-400 font-medium shrink-0">
+                    구현 예정 ({notCrawledCafes.length}개)
+                  </span>
+                  <div className="flex-1 h-px bg-stone-200" />
+                </div>
+
+                {notCrawledCafes.map((cafe) => (
                   <div key={cafe.id} className="card overflow-hidden opacity-60">
                     <div className="p-5 flex items-center justify-between">
                       <div className="flex items-center gap-4">
@@ -706,7 +765,8 @@ function SearchResults() {
               </>
             )}
           </div>
-        )}
+          );
+        })()}
       </div>
 
       {/* 알림 모달 */}
