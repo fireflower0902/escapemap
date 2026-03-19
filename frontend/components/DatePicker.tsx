@@ -149,8 +149,8 @@ export default function DatePicker({
                       : disabled
                       ? "bg-red-50 text-red-300 cursor-pointer hover:bg-red-100"
                       : isToday
-                      ? "ring-2 ring-brand-400 text-brand-600 hover:bg-brand-50"
-                      : "hover:bg-brand-50 text-stone-700",
+                      ? "bg-emerald-100 ring-2 ring-emerald-400 text-emerald-700 hover:bg-emerald-200"
+                      : "bg-emerald-50 text-emerald-800 hover:bg-emerald-100",
                   ].join(" ")}
                 >
                   {day}
