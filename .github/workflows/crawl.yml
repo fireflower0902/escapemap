@@ -118,9 +118,90 @@ jobs:
           run_script sync_murderparker_db.py
           run_script sync_xcape_db.py
 
-  # ── Job 4: Naver Booking (escapetop) + sinbiweb ───────────────────────────
-  crawl-4:
-    name: "크롤링 4 — Naver Booking + sinbiweb"
+  # ── Job 4a: Naver Booking — 인덱스 0~13 (14개 지점) ──────────────────────
+  crawl-4a:
+    name: "크롤링 4a — Naver Booking (0~13)"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          uv run python scripts/sync_escapetop_db.py --start 0 --end 14
+
+  # ── Job 4b: Naver Booking — 인덱스 14~27 (14개 지점) ─────────────────────
+  crawl-4b:
+    name: "크롤링 4b — Naver Booking (14~27)"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          uv run python scripts/sync_escapetop_db.py --start 14 --end 28
+
+  # ── Job 4c: Naver Booking — 인덱스 28~41 (14개 지점) ─────────────────────
+  crawl-4c:
+    name: "크롤링 4c — Naver Booking (28~41)"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+      - run: uv sync --frozen
+      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
+      - name: Write .env
+        run: |
+          echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
+          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
+          echo "ENVIRONMENT=production" >> .env
+          if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
+            echo "SKIP_META_WRITES=true" >> .env
+          fi
+      - name: 크롤링 실행
+        run: |
+          uv run python scripts/sync_escapetop_db.py --start 28 --end 42
+
+  # ── Job 4d: Naver Booking — 인덱스 42~ (13개 지점) + sinbiweb ─────────────
+  crawl-4d:
+    name: "크롤링 4d — Naver Booking (42~) + sinbiweb"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -151,7 +232,7 @@ jobs:
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
-          run_script sync_escapetop_db.py
+          uv run python scripts/sync_escapetop_db.py --start 42
           run_script sync_sinbiweb_db.py
 
   # ── Job 5: 서울 홍대/마포/신촌 계열 ─────────────────────────────────────

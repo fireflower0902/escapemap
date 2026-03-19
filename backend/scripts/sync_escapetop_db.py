@@ -898,14 +898,17 @@ def sync_one_branch(branch: dict, days: int) -> int:
 
 # ── 메인 ──────────────────────────────────────────────────────────────────────
 
-def main(run_schedule: bool = True, days: int = 14) -> None:
+def main(run_schedule: bool = True, days: int = 14, start: int = 0, end: int | None = None) -> None:
+    branches = BRANCHES[start:end]
+    total = len(BRANCHES)
+    end_idx = end if end is not None else total
     print("=" * 60)
-    print("이스케이프탑 → DB 동기화")
+    print(f"이스케이프탑 → DB 동기화 (인덱스 {start}~{end_idx - 1} / 전체 {total}개)")
     print("=" * 60)
 
     init_firestore(settings.firebase_credentials_path)
 
-    for branch in BRANCHES:
+    for branch in branches:
         print(f"\n[ {branch['branch_name']} ] 동기화")
         try:
             sync_one_branch(branch, days=days if run_schedule else 0)
@@ -922,5 +925,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="이스케이프탑 DB 동기화")
     parser.add_argument("--no-schedule", action="store_true", help="스케줄 동기화 건너뜀")
     parser.add_argument("--days", type=int, default=14, help="오늘부터 며칠치 수집 (기본 14)")
+    parser.add_argument("--start", type=int, default=0, help="BRANCHES 시작 인덱스 (포함, 기본 0)")
+    parser.add_argument("--end", type=int, default=None, help="BRANCHES 종료 인덱스 (미포함, 기본 전체)")
     args = parser.parse_args()
-    main(run_schedule=not args.no_schedule, days=args.days)
+    main(run_schedule=not args.no_schedule, days=args.days, start=args.start, end=args.end)
