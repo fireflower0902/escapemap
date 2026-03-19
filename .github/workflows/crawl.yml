@@ -7,7 +7,7 @@ on:
   workflow_dispatch:        # 수동 실행 버튼
 
 # ── 공통 설정 ─────────────────────────────────────────────────────────────────
-# 10개 job 병렬 실행 → 벽시계 시간 ~10배 단축 (목표: 최장 job ≤ 15분)
+# 13개 job 병렬 실행 → 벽시계 시간 ~13배 단축 (목표: 최장 job ≤ 15분)
 # setup 시간(checkout + uv sync): job당 약 40~60초 소요
 
 jobs:
@@ -118,9 +118,9 @@ jobs:
           run_script sync_murderparker_db.py
           run_script sync_xcape_db.py
 
-  # ── Job 4a: Naver Booking — 인덱스 0~13 (14개 지점) ──────────────────────
-  crawl-4a:
-    name: "크롤링 4a — Naver Booking (0~13)"
+  # ── Job 4: Naver Booking — 인덱스 0~13 (14개 지점) ───────────────────────
+  crawl-4:
+    name: "크롤링 4 — Naver Booking (0~13)"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -145,9 +145,9 @@ jobs:
         run: |
           uv run python scripts/sync_escapetop_db.py --start 0 --end 14
 
-  # ── Job 4b: Naver Booking — 인덱스 14~27 (14개 지점) ─────────────────────
-  crawl-4b:
-    name: "크롤링 4b — Naver Booking (14~27)"
+  # ── Job 5: Naver Booking — 인덱스 14~27 (14개 지점) ──────────────────────
+  crawl-5:
+    name: "크롤링 5 — Naver Booking (14~27)"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -172,9 +172,9 @@ jobs:
         run: |
           uv run python scripts/sync_escapetop_db.py --start 14 --end 28
 
-  # ── Job 4c: Naver Booking — 인덱스 28~41 (14개 지점) ─────────────────────
-  crawl-4c:
-    name: "크롤링 4c — Naver Booking (28~41)"
+  # ── Job 6: Naver Booking — 인덱스 28~41 (14개 지점) ──────────────────────
+  crawl-6:
+    name: "크롤링 6 — Naver Booking (28~41)"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -199,9 +199,9 @@ jobs:
         run: |
           uv run python scripts/sync_escapetop_db.py --start 28 --end 42
 
-  # ── Job 4d: Naver Booking — 인덱스 42~ (13개 지점) + sinbiweb ─────────────
-  crawl-4d:
-    name: "크롤링 4d — Naver Booking (42~) + sinbiweb"
+  # ── Job 7: Naver Booking — 인덱스 42~ (13개 지점) + sinbiweb ─────────────
+  crawl-7:
+    name: "크롤링 7 — Naver Booking (42~) + sinbiweb"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -235,9 +235,9 @@ jobs:
           uv run python scripts/sync_escapetop_db.py --start 42
           run_script sync_sinbiweb_db.py
 
-  # ── Job 5: 서울 홍대/마포/신촌 계열 ─────────────────────────────────────
-  crawl-5:
-    name: "크롤링 5 — 홍대/마포/신촌"
+  # ── Job 8: 서울 홍대/마포/신촌 계열 ─────────────────────────────────────
+  crawl-8:
+    name: "크롤링 8 — 홍대/마포/신촌"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -281,9 +281,9 @@ jobs:
           run_script sync_mysteryroom_db.py
           run_script sync_xphobia_db.py
 
-  # ── Job 6: 서울 강남/잠실/건대 + 큐브 ───────────────────────────────────
-  crawl-6:
-    name: "크롤링 6 — 강남/잠실/건대 + 큐브"
+  # ── Job 9: 서울 강남/잠실/건대 + 큐브 ───────────────────────────────────
+  crawl-9:
+    name: "크롤링 9 — 강남/잠실/건대 + 큐브"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -326,9 +326,9 @@ jobs:
           run_script sync_play33_db.py
           run_script sync_seoulescaperoom_db.py
 
-  # ── Job 7: 경기/인천/지방 계열 ──────────────────────────────────────────
-  crawl-7:
-    name: "크롤링 7 — 경기/인천/지방"
+  # ── Job 10: 경기/인천/지방 계열 ──────────────────────────────────────────
+  crawl-10:
+    name: "크롤링 10 — 경기/인천/지방"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -368,9 +368,9 @@ jobs:
           run_script sync_xescape_db.py
           run_script sync_puzzlefactory_db.py
 
-  # ── Job 8: playthe.world 계열 + 소규모 1 ────────────────────────────────
-  crawl-8:
-    name: "크롤링 8 — playtheworld + 소규모1"
+  # ── Job 11: playthe.world 계열 + 소규모 1 ────────────────────────────────
+  crawl-11:
+    name: "크롤링 11 — playtheworld + 소규모1"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -413,9 +413,9 @@ jobs:
           run_script sync_conanescape_db.py
           run_script sync_dreampicnic_db.py
 
-  # ── Job 9: 소규모 2 ──────────────────────────────────────────────────────
-  crawl-9:
-    name: "크롤링 9 — 소규모2"
+  # ── Job 12: 소규모 2 ──────────────────────────────────────────────────────
+  crawl-12:
+    name: "크롤링 12 — 소규모2"
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -459,9 +459,9 @@ jobs:
           run_script sync_theqescape_db.py
           run_script sync_escapedetective_db.py
 
-  # ── Job 10: 소규모 3 + 지방 ─────────────────────────────────────────────
-  crawl-10:
-    name: "크롤링 10 — 소규모3 + 지방"
+  # ── Job 13: 소규모 3 + 지방 ─────────────────────────────────────────────
+  crawl-13:
+    name: "크롤링 13 — 소규모3 + 지방"
     runs-on: ubuntu-latest
     defaults:
       run:
