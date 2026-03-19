@@ -26,7 +26,7 @@ def _get_cafes_sync(db, area: str | None) -> list[dict]:
     docs = list(q.stream())
     return sorted(
         [{"id": d.id, **d.to_dict()} for d in docs],
-        key=lambda c: (c.get("address") or "", c.get("name") or ""),
+        key=lambda c: (c.get("name") or "", c.get("branch_name") or ""),
     )
 
 
