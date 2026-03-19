@@ -26,8 +26,9 @@ const AREAS = [
 export default function SearchBar({ className = "" }: { className?: string }) {
   const router = useRouter();
 
-  // 오늘 날짜를 기본값으로
+  // 오늘 날짜를 기본값으로, 최대 +14일까지 선택 가능
   const today = new Date().toISOString().split("T")[0];
+  const maxDate = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString().split("T")[0];
   const [date, setDate] = useState(today);
   const [area, setArea] = useState("gangnam");
 
@@ -53,6 +54,7 @@ export default function SearchBar({ className = "" }: { className?: string }) {
               type="date"
               value={date}
               min={today}
+              max={maxDate}
               onChange={(e) => setDate(e.target.value)}
               className="bg-transparent text-stone-800 font-semibold text-base w-full
                          outline-none cursor-pointer"
