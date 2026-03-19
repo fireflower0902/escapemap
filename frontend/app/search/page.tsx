@@ -2,10 +2,11 @@
 
 import { useState, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { Clock, ChevronDown, ChevronUp, MapPin, Star, Timer, ExternalLink, Calendar, Search } from "lucide-react";
+import { Clock, ChevronDown, ChevronUp, MapPin, Star, Timer, ExternalLink, Search } from "lucide-react";
 import TimeSlotGrid from "@/components/TimeSlotGrid";
 import AlertModal from "@/components/AlertModal";
 import DetectiveBoy from "@/components/DetectiveBoy";
+import DatePicker from "@/components/DatePicker";
 
 const AREAS = [
   { value: "gangnam",    label: "강남/역삼" },
@@ -126,7 +127,6 @@ function SearchResults() {
   // 폼 로컬 state (URL 파라미터 변경 전 편집 중인 값)
   const [formDate, setFormDate] = useState(date);
   const [formArea, setFormArea] = useState(area);
-  const dateInputRef = useRef<HTMLInputElement>(null);
 
   // URL 파라미터가 바뀌면 폼도 동기화
   useEffect(() => { setFormDate(date); }, [date]);
@@ -242,23 +242,13 @@ function SearchResults() {
                        flex flex-col sm:flex-row items-stretch gap-2"
           >
             {/* 날짜 */}
-            <div
-              className="flex items-center gap-3 px-4 py-3 rounded-xl
-                         bg-stone-50 hover:bg-brand-50 transition-colors cursor-pointer sm:flex-1"
-              onClick={() => { try { dateInputRef.current?.showPicker(); } catch {} }}
-            >
-              <Calendar size={20} className="text-brand-500 shrink-0" />
-              <div className="min-w-0 flex-1">
-                <p className="text-sm text-stone-400 font-medium leading-none mb-1">날짜</p>
-                <input
-                  ref={dateInputRef}
-                  type="date"
-                  value={formDate}
-                  min={today}
-                  onChange={(e) => setFormDate(e.target.value)}
-                  className="bg-transparent text-stone-800 font-semibold text-lg w-full outline-none cursor-pointer text-left"
-                />
-              </div>
+            <div className="px-4 py-3 rounded-xl bg-stone-50 hover:bg-brand-50 transition-colors sm:flex-1">
+              <DatePicker
+                value={formDate}
+                onChange={(d) => setFormDate(d || today)}
+                label="날짜"
+                dateClassName="text-lg"
+              />
             </div>
 
             <div className="hidden sm:block w-px bg-stone-200 my-2" />

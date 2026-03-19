@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Search, MapPin, Calendar } from "lucide-react";
+import { Search, MapPin } from "lucide-react";
+import DatePicker from "@/components/DatePicker";
 
 const AREAS = [
   { value: "gangnam",    label: "강남/역삼" },
@@ -26,9 +27,7 @@ const AREAS = [
 export default function SearchBar({ className = "" }: { className?: string }) {
   const router = useRouter();
 
-  // 오늘 날짜를 기본값으로, 최대 +14일까지 선택 가능
-  const today = new Date().toISOString().split("T")[0];
-  const maxDate = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString().split("T")[0];
+  const today = new Date().toLocaleDateString("en-CA");
   const [date, setDate] = useState(today);
   const [area, setArea] = useState("gangnam");
 
@@ -45,22 +44,14 @@ export default function SearchBar({ className = "" }: { className?: string }) {
       <div className="flex flex-col sm:flex-row gap-2">
 
         {/* 날짜 선택 */}
-        <label className="flex-1 flex items-center gap-2 px-4 py-3 rounded-xl
-                           bg-stone-50 hover:bg-brand-50 transition-colors cursor-pointer group">
-          <Calendar size={20} className="text-brand-500 shrink-0" />
-          <div className="min-w-0">
-            <p className="text-sm text-stone-400 font-medium">날짜</p>
-            <input
-              type="date"
-              value={date}
-              min={today}
-              max={maxDate}
-              onChange={(e) => setDate(e.target.value)}
-              className="bg-transparent text-stone-800 font-semibold text-base w-full
-                         outline-none cursor-pointer"
-            />
-          </div>
-        </label>
+        <div className="flex-1 px-4 py-3 rounded-xl bg-stone-50 hover:bg-brand-50 transition-colors">
+          <DatePicker
+            value={date}
+            onChange={(d) => setDate(d || today)}
+            label="날짜"
+            dateClassName="text-base"
+          />
+        </div>
 
         {/* 구분선 */}
         <div className="hidden sm:block w-px bg-stone-200 my-2" />
