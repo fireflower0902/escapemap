@@ -28,3 +28,12 @@ Hyperdrive ID는 `wrangler.jsonc`에 기록한다. DB 비밀번호는 Hyperdrive
 ## 크롤러 배포
 
 GitHub Actions의 `SUPABASE_DATABASE_URL` Secret을 사용한다. 스케줄 워크플로는 main에 반영된 뒤 자동 실행된다. 테스트 브랜치 푸시만으로 main의 예약 크롤러가 전환되지는 않는다.
+
+## Cloudflare 전용 운영 전환 (2026-11-15)
+
+- main에 `vercel.json`의 `git.deploymentEnabled=false` 적용: Vercel Git 자동 배포 중지.
+- 운영 Worker `escapemap`, main의 frontend 디렉터리에서 `npm run build:cloudflare`, `npm run deploy:cloudflare`.
+- 정기 수집은 검증된 232개 지점을 `data/scheduled-crawlers.json`으로 관리. 매시 17분에 오늘~2일 후, 매일 00:43 KST에 오늘~14일 후 조회.
+- 8개 분할, 동시 4개 작업, 작업당 2개 지점으로 수집량 제한. 실패 지점을 숨기지 않고 작업 실패 및 7일 보관 artifact에 기록.
+- 지점별 실패는 다른 지점의 성공 결과를 취소하지 않음. 웹앱은 성공 및 90분 이내 수집 정보만 사용.
+- Cloudflare Git 빌드 설정 API는 현재 OAuth 권한으로 403이므로 대시보드의 명령 설정 저장이 필요.

@@ -46,3 +46,5 @@ reports/crawlers/history/
 
 # 원시 실행 로그는 로컬 보관
 reports/**/*.log
+
+reports/scheduled/
