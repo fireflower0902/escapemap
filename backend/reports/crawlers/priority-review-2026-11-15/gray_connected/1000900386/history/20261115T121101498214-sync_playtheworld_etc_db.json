@@ -1,0 +1,45 @@
+{
+  "script": "sync_playtheworld_etc_db",
+  "checked_at": "2026-11-15T12:11:00.821981+09:00",
+  "scope": "selected cafe IDs: 1000900386 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1000900386"
+  ],
+  "selected": {
+    "BRANDS": [
+      {
+        "keycode": "nwGhWo2rSj4xGDAK",
+        "name": "escapeshop",
+        "referer": "https://escapeshop.co.kr",
+        "booking_base": "https://escapeshop.co.kr/reservation.html",
+        "shop_map": {
+          "Jmas3Q5kHnfxQhFZ": "1000900386"
+        }
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/Jmas3Q5kHnfxQhFZ",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 0.57,
+  "log_errors": [
+    "[WARN] GET /v2/shops/Jmas3Q5kHnfxQhFZ 실패: HTTP Error 500: Internal Server Error"
+  ],
+  "status": "needs_review"
+}

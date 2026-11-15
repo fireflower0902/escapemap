@@ -1,0 +1,154 @@
+{
+  "script": "sync_play33_db",
+  "checked_at": "2026-11-15T16:07:54.611831+09:00",
+  "scope": "selected cafe IDs: official_play33_5 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_play33_5"
+  ],
+  "selected": {
+    "BRANCH_MAP": [
+      "5"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 141,
+  "statuses": {
+    "full": 54,
+    "available": 87
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_play33_5": {
+      "themes": 5,
+      "slots": 141,
+      "statuses": {
+        "full": 54,
+        "available": 87
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "I am Still Here, ELLEN",
+    "강천여자고등학교",
+    "우울해서 빵 샀어",
+    "자각몽(自覺夢)",
+    "좌충우돌 꼬마마법사"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 16.03,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

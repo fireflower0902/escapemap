@@ -1,0 +1,70 @@
+{
+  "script": "sync_nextedition_db",
+  "checked_at": "2026-11-15T12:07:11.458150+09:00",
+  "scope": "selected cafe IDs: 1108129560 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1108129560"
+  ],
+  "selected": {
+    "SHOP_MAP": [
+      "KBUDLjRFoSYfUXrD"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 31,
+  "statuses": {
+    "full": 5,
+    "available": 26
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1108129560": {
+      "themes": 1,
+      "slots": 31,
+      "statuses": {
+        "full": 5,
+        "available": 26
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "세렌디피티(SERENDIPITY)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/KBUDLjRFoSYfUXrD",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/KBUDLjRFoSYfUXrD",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/KBUDLjRFoSYfUXrD",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.74,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

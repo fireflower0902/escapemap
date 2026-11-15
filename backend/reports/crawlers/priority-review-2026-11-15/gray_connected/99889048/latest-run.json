@@ -1,0 +1,103 @@
+[
+  {
+    "script": "sync_keyescape_db",
+    "checked_at": "2026-11-15T12:12:25.869461+09:00",
+    "scope": "selected cafe IDs: 99889048 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "99889048"
+    ],
+    "selected": {
+      "BRANCH_MAP": [
+        "19"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 66,
+    "statuses": {
+      "full": 59,
+      "available": 7
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "99889048": {
+        "themes": 2,
+        "slots": 66,
+        "statuses": {
+          "full": 59,
+          "available": 7
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "FOR FREE",
+      "머니머니패키지"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.65,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,472 @@
+[
+  {
+    "script": "sync_zeroworld_current_db",
+    "checked_at": "2026-11-15T11:02:30.077161+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 4,
+    "themes_fetched": 28,
+    "themes_with_slots": 28,
+    "slots": 467,
+    "statuses": {
+      "full": 212,
+      "available": 255
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_zeroworld_1": {
+        "themes": 11,
+        "slots": 169,
+        "statuses": {
+          "full": 39,
+          "available": 130
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1345840219": {
+        "themes": 9,
+        "slots": 148,
+        "statuses": {
+          "full": 68,
+          "available": 80
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1732671994": {
+        "themes": 5,
+        "slots": 90,
+        "statuses": {
+          "available": 26,
+          "full": 64
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_zeroworld_2": {
+        "themes": 3,
+        "slots": 60,
+        "statuses": {
+          "full": 41,
+          "available": 19
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "DONE",
+      "나비효과",
+      "링",
+      "아이엠",
+      "어느겨울밤2",
+      "제로호텔L",
+      "콜러",
+      "포레스트 (FORREST)"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "zeroworldkorea.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 18.73,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -239,6 +239,24 @@ def sync_schedules(branch: int, theme_id_to_doc: dict[int, str], days: int = 14)
     print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 
 
+def refresh_theme_ids(branch):
+    """고정 숫자 대신 현재 공식 선택 상자에서 테마 ID를 확인."""
+    html = _fetch_page(branch, '', date.today())
+    soup = BeautifulSoup(html, 'html.parser')
+    options = soup.select('select[name="theme"] option[value]')
+    old = {re.sub(r'\s+', '', t['name']): t['name'] for t in THEME_MAP.get(branch, [])}
+    themes = []
+    for option in options:
+        value = option.get('value', '')
+        if not value.isdigit():
+            continue
+        name = option.get_text(strip=True)
+        themes.append({'theme_id': int(value), 'name': old.get(re.sub(r'\s+', '', name), name)})
+    if not themes:
+        raise ValueError('공식 테마 선택 목록을 읽지 못했습니다.')
+    THEME_MAP[branch] = themes
+
+
 # ── 메인 ─────────────────────────────────────────────────────────────────────────
 
 def main(run_schedule: bool = True, days: int = 14):
@@ -255,6 +273,7 @@ def main(run_schedule: bool = True, days: int = 14):
         print(f"{'='*40}")
 
         print("\n[ 1단계 ] 카페 메타 동기화")
+        refresh_theme_ids(branch)
         sync_cafe_meta(branch)
 
         print("\n[ 2단계 ] 테마 동기화")

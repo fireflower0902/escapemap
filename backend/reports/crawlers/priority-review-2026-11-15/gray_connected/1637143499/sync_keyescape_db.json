@@ -1,0 +1,156 @@
+{
+  "script": "sync_keyescape_db",
+  "checked_at": "2026-11-15T12:12:38.404048+09:00",
+  "scope": "selected cafe IDs: 1637143499 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1637143499"
+  ],
+  "selected": {
+    "BRANCH_MAP": [
+      "9"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 85,
+  "statuses": {
+    "full": 5,
+    "available": 80
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1637143499": {
+      "themes": 5,
+      "slots": 85,
+      "statuses": {
+        "full": 5,
+        "available": 80
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "난쟁이의 장난-영문병행표기",
+    "셜록 죽음의 전화",
+    "신비의숲 고대마법의 비밀",
+    "정신병동",
+    "파파라치"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 10.02,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

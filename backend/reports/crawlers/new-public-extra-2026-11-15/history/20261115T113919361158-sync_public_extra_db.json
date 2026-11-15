@@ -1,0 +1,81 @@
+{
+  "script": "sync_public_extra_db",
+  "checked_at": "2026-11-15T11:39:12.698388+09:00",
+  "scope": "all configured branches / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 2,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 37,
+  "statuses": {
+    "full": 20,
+    "available": 17
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_plus": {
+      "themes": 1,
+      "slots": 5,
+      "statuses": {
+        "full": 3,
+        "available": 2
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_exploria": {
+      "themes": 2,
+      "slots": 32,
+      "statuses": {
+        "full": 17,
+        "available": 15
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "외로움과고독사이",
+    "포리프",
+    "루나빌리지"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.plus-escape.com",
+      "path": "/api/themes/30002/available-slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.plus-escape.com",
+      "path": "/api/themes/30002/available-slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.exploria-escape.kr",
+      "path": "/theme/2026-11-15/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.exploria-escape.kr",
+      "path": "/theme/2026-11-16/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.56,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

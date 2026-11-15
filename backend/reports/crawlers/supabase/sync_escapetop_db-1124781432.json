@@ -1,0 +1,144 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T16:11:06.337859+09:00",
+  "scope": "selected cafe IDs: 1124781432 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1124781432"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1124781432",
+        "business_id": "20197",
+        "business_type_id": 12,
+        "branch_name": "",
+        "name": "하일이스케이프",
+        "address": "전남 목포시 비파로43번길 40",
+        "area": "jeonnam",
+        "site_url": "https://booking.naver.com/booking/12/bizes/20197"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 84,
+  "statuses": {
+    "available": 80,
+    "full": 4
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1124781432": {
+      "themes": 4,
+      "slots": 84,
+      "statuses": {
+        "available": 80,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "더 룸 0 1 4",
+    "시크릿 가든",
+    "외 출",
+    "헬 리 콥 터"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 8.01,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

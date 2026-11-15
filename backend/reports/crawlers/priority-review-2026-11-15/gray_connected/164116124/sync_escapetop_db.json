@@ -1,0 +1,83 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T12:10:37.699529+09:00",
+  "scope": "selected cafe IDs: 164116124 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "164116124"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "164116124",
+        "business_id": "900300",
+        "business_type_id": 6,
+        "branch_name": "",
+        "name": "에베레스트이스케이프",
+        "address": "경기 고양시 일산동구 백석동 1283-1",
+        "area": "gyeonggi",
+        "site_url": "http://everestescape.com"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 18,
+  "statuses": {
+    "available": 17,
+    "full": 1
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "164116124": {
+      "themes": 1,
+      "slots": 18,
+      "statuses": {
+        "available": 17,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "EVEREST"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.44,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

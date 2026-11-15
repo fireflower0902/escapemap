@@ -1,0 +1,98 @@
+{
+  "script": "sync_cubeescape_db",
+  "checked_at": "2026-11-15T12:12:15.348614+09:00",
+  "scope": "selected cafe IDs: 2100000001 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "2100000001"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "2100000001",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "잠실점",
+        "address": "서울 송파구 잠실동 177-5",
+        "area": "jamsil",
+        "subdomain": "jamsil",
+        "office": 5
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "2100000001": {
+      "themes": 0,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "jamsil.cubeescape.co.kr",
+      "path": "/theme/basic_room2/_content/makeThemeTime.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 11.73,
+  "log_errors": [],
+  "status": "needs_review"
+}

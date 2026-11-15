@@ -1,0 +1,91 @@
+{
+  "script": "sync_play33_db",
+  "checked_at": "2026-11-15T11:07:27.864416+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCH_MAP": [
+      "1"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 55,
+  "statuses": {
+    "full": 44,
+    "available": 11
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1385414031": {
+      "themes": 3,
+      "slots": 55,
+      "statuses": {
+        "full": 44,
+        "available": 11
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "그 날",
+    "다이얼",
+    "목격자"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.48,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

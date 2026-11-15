@@ -1,0 +1,79 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T12:09:43.454201+09:00",
+  "scope": "selected cafe IDs: 64956517 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "64956517"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "64956517",
+        "branch_name": "WOW 홍대점",
+        "jijem": "S13",
+        "address": "서울 마포구 잔다리로6길 25 3층",
+        "area": "hongdae"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 78,
+  "statuses": {
+    "available": 69,
+    "full": 9
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "64956517": {
+      "themes": 4,
+      "slots": 78,
+      "statuses": {
+        "available": 69,
+        "full": 9
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "선택받은 자60분_WOW홍대점",
+    "선택받은 자 60분_WOW홍대점",
+    "하(HA) 60분_WOW홍대점",
+    "홈그라운드(Home Ground) 60분_WOW홍대점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.49,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

@@ -1,0 +1,67 @@
+{
+  "queries": [
+    "일상탈출방탈출카페",
+    "블랙헤이븐",
+    "룸즈에이 안양범계점",
+    "제로월드 김포점"
+  ],
+  "sources": [
+    {
+      "title": "제로월드 김포점 : 예약하기",
+      "url": "https://zeroesc.com/reservation"
+    },
+    {
+      "title": "룸즈에이 안양범계점",
+      "url": "https://web.zamfit.kr/stores/1810/%EB%A3%B8%EC%A6%88%EC%97%90%EC%9D%B4-%EC%95%88%EC%96%91%EB%B2%94%EA%B3%84%EC%A0%90"
+    },
+    {
+      "title": "제로월드 김포점 : ABOUT",
+      "url": "https://www.zeroesc.com/about"
+    },
+    {
+      "title": "띵가띵가 방탈출 테마 정보 | 룸즈에이 안양범계점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/6e09c74e/"
+    },
+    {
+      "title": "제로월드 김포점 (김포) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/26"
+    },
+    {
+      "title": "룸즈에이 안양범계점 (범계) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/34"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "제로월드",
+      "url": "https://zeroworldkorea.com/layout/res/home.php"
+    },
+    {
+      "title": "뽀득뽀득 | 룸즈에이 안양범계점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5094/%EB%BD%80%EB%93%9D%EB%BD%80%EB%93%9D"
+    },
+    {
+      "title": "홈 | 룸즈에이",
+      "url": "https://roomsa.co.kr/"
+    },
+    {
+      "title": "룸즈에이 안양범계점 - 안양시 동안구 방탈출 정보 | 당구장 찾기",
+      "url": "https://pool.ipsitalk.net/activity/5630"
+    },
+    {
+      "title": "띵가띵가 | 룸즈에이 안양범계점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5092/%EB%9D%B5%EA%B0%80%EB%9D%B5%EA%B0%80"
+    },
+    {
+      "title": "<table id=\"e1\">",
+      "url": "https://www.kocaca.or.kr/shop_contents/multi_file_download.php"
+    },
+    {
+      "title": "○ 개최기간: 6. 8.(월)～6. 11.(목)/ 3박 4일",
+      "url": "https://www.kocaca.or.kr/shop_contents/multi_file_download.php"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T12:05:51.746489+09:00",
+    "scope": "selected cafe IDs: 1554942559 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1554942559"
+    ],
+    "selected": {
+      "SITES": [
+        {
+          "cafe_id": "1554942559",
+          "cafe_name": "제주방탈출",
+          "branch_name": "제원점",
+          "address": "제주특별자치도 제주시 연동 273-15",
+          "area": "jeju",
+          "base_url": "http://www.xn--vh3bw8qo2aba23i98on1f.com",
+          "s_zizum": null,
+          "use_ssl": false,
+          "need_session": true
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 120,
+    "statuses": {
+      "full": 1,
+      "available": 119
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1554942559": {
+        "themes": 5,
+        "slots": 120,
+        "statuses": {
+          "full": 1,
+          "available": 119
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "빛과그림자",
+      "산속의여인",
+      "신입사원출근기",
+      "웨딩크루즈살인사건-2탄",
+      "저주받은집"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.42,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

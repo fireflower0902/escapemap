@@ -1,0 +1,125 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T16:11:15.660361+09:00",
+  "scope": "selected cafe IDs: 100018735 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "100018735"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "100018735",
+        "business_id": "795803",
+        "business_type_id": 12,
+        "branch_name": "",
+        "name": "판타지아방탈출카페",
+        "address": "광주 북구 용봉동 153-9",
+        "area": "gwangju",
+        "site_url": "https://booking.naver.com/booking/12/bizes/795803"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 50,
+  "statuses": {
+    "available": 45,
+    "full": 5
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "100018735": {
+      "themes": 3,
+      "slots": 50,
+      "statuses": {
+        "available": 45,
+        "full": 5
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "Get O, Get O!(90분 테마)",
+    "Inspecto :The 2nd case(80분 테마)",
+    "찬미특수진료센터 :The 1st Case(80분 테마)"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.1,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

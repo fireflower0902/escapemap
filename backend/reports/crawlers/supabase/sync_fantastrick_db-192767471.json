@@ -1,0 +1,78 @@
+{
+  "script": "sync_fantastrick_db",
+  "checked_at": "2026-11-15T16:05:40.263092+09:00",
+  "scope": "selected cafe IDs: 192767471 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "192767471"
+  ],
+  "selected": {
+    "THEMES": [
+      {
+        "cafe_id": "192767471",
+        "name": "사자의 서",
+        "calendar_id": 23,
+        "slug": "bookofduat",
+        "poster_url": null
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 27,
+  "statuses": {
+    "full": 21,
+    "available": 6
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "192767471": {
+      "themes": 1,
+      "slots": 27,
+      "statuses": {
+        "full": 21,
+        "available": 6
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "사자의 서"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "fantastrick.co.kr",
+      "path": "/api/slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "fantastrick.co.kr",
+      "path": "/api/slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "fantastrick.co.kr",
+      "path": "/api/slots",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.06,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

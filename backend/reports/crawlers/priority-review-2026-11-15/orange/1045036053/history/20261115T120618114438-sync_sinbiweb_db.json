@@ -1,0 +1,103 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:06:12.353532+09:00",
+  "scope": "selected cafe IDs: 1045036053 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1045036053"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1045036053",
+        "cafe_name": "탈출브라더스",
+        "branch_name": "영등포점",
+        "address": "서울 영등포구 영등포동4가 433 4층",
+        "area": "etc",
+        "base_url": "https://escapebro.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 138,
+  "statuses": {
+    "available": 133,
+    "full": 5
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1045036053": {
+      "themes": 6,
+      "slots": 138,
+      "statuses": {
+        "available": 133,
+        "full": 5
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "달의제단",
+    "도둑들",
+    "미드나잇콜링",
+    "원혼의저주",
+    "지하감옥",
+    "파라오의비밀"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "escapebro.co.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "escapebro.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "escapebro.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "escapebro.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "escapebro.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "escapebro.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.66,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

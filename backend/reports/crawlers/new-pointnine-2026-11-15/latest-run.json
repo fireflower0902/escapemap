@@ -1,0 +1,166 @@
+[
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T11:02:52.772505+09:00",
+    "scope": "selected cafe IDs: official_pointnine_1, official_pointnine_5, official_pointnine_6 / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "SITES": [
+        {
+          "cafe_id": "official_pointnine_1",
+          "cafe_name": "포인트나인",
+          "branch_name": "강남점",
+          "address": "서울시 강남구 역삼동 618-3 지하1층",
+          "area": "gangnam",
+          "base_url": "https://point-nine.com",
+          "s_zizum": 1,
+          "use_ssl": true,
+          "need_session": false
+        },
+        {
+          "cafe_id": "official_pointnine_5",
+          "cafe_name": "포인트나인",
+          "branch_name": "건대점",
+          "address": "서울시 광진구 화양동 11-7 3층",
+          "area": "konkuk",
+          "base_url": "https://point-nine.com",
+          "s_zizum": 5,
+          "use_ssl": true,
+          "need_session": false
+        },
+        {
+          "cafe_id": "official_pointnine_6",
+          "cafe_name": "포인트나인",
+          "branch_name": "홍대점",
+          "address": "서울 마포구 독막로 7길 40, 지하1층",
+          "area": "hongdae",
+          "base_url": "https://point-nine.com",
+          "s_zizum": 6,
+          "use_ssl": true,
+          "need_session": false
+        }
+      ]
+    },
+    "cafes_with_slots": 3,
+    "themes_fetched": 9,
+    "themes_with_slots": 9,
+    "slots": 196,
+    "statuses": {
+      "available": 119,
+      "full": 77
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_pointnine_1": {
+        "themes": 4,
+        "slots": 63,
+        "statuses": {
+          "available": 38,
+          "full": 25
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_pointnine_5": {
+        "themes": 3,
+        "slots": 65,
+        "statuses": {
+          "full": 29,
+          "available": 36
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_pointnine_6": {
+        "themes": 2,
+        "slots": 68,
+        "statuses": {
+          "full": 23,
+          "available": 45
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "EP1 : 시간이 멈춘 마을",
+      "EP2 : 열쇠공의 이중생활",
+      "EP3 : 눈 먼 귀금속상인의 후회",
+      "EP4 : 주인 없는 낡은 서점",
+      "ALBA",
+      "Jack in the Show",
+      "RETURN",
+      "LISTEN"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 11.97,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

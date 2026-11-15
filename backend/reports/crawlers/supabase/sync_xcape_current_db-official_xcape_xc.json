@@ -1,0 +1,115 @@
+{
+  "script": "sync_xcape_current_db",
+  "checked_at": "2026-11-15T16:07:45.168614+09:00",
+  "scope": "selected cafe IDs: official_xcape_xc / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_xcape_xc"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_xcape_xc",
+        "cafe_name": "엑스케이프",
+        "branch_name": "건대1호점",
+        "source_id": "cb1f93e5-21fe-44cf-8b8c-82af18356de8",
+        "code": "xc",
+        "address": "서울 광진구 동일로 112 엑스케이프 건대점",
+        "phone": "024639366"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 120,
+  "statuses": {
+    "closed": 28,
+    "full": 48,
+    "available": 44
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_xcape_xc": {
+      "themes": 4,
+      "slots": 120,
+      "statuses": {
+        "closed": 28,
+        "full": 48,
+        "available": 44
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "501동 사람들",
+    "숨바꼭질",
+    "이도공간",
+    "짜불성설"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/assets/index-JO-9ahxJ.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.98,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

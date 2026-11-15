@@ -1,0 +1,48 @@
+{
+  "script": "sync_xphobia_db",
+  "checked_at": "2026-11-15T10:49:42.479815+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "SHOP_MAP": [
+      "Phobia 명동"
+    ]
+  },
+  "error": "RuntimeError: 비트포비아 API 조회 실패: /reservation/ck_no1.php",
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.xphobia.net",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xphobia.net",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.xphobia.net",
+      "path": "/reservation/ck_no1.php",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 0.49,
+  "log_errors": [
+    "Traceback (most recent call last):",
+    "Traceback (most recent call last):"
+  ],
+  "status": "error"
+}

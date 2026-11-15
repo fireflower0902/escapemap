@@ -1,0 +1,89 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T12:04:56.683171+09:00",
+    "scope": "selected cafe IDs: 10098327 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "10098327"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "10098327",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "성신여대점",
+          "address": "서울 성북구 동선동1가 87 4층",
+          "area": "daehakro",
+          "sido": 1,
+          "bno": 54
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 100,
+    "statuses": {
+      "available": 96,
+      "full": 4
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "10098327": {
+        "themes": 4,
+        "slots": 100,
+        "statuses": {
+          "available": 96,
+          "full": 4
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "보헤미아 왕국의 스캔들",
+      "빛과 그림자:화이트의죽음2",
+      "크라임씬",
+      "호텔:사라진 다이아몬드"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 7.19,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -11,7 +11,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import get_db
-from app.firestore_db import get_db as get_firestore
+from app.firestore_db import get_auth_db as get_firestore
 from app.models.user import User
 
 router = APIRouter()
@@ -26,6 +26,7 @@ def _verify_token(request: Request) -> dict:
         raise HTTPException(status_code=401, detail="인증 토큰이 없습니다.")
     token = auth_header.removeprefix("Bearer ").strip()
     try:
+        get_firestore()  # Firebase 인증 앱 초기화 (크롤링 DB와 분리)
         return firebase_auth.verify_id_token(token)
     except Exception:
         raise HTTPException(status_code=401, detail="유효하지 않은 토큰입니다.")

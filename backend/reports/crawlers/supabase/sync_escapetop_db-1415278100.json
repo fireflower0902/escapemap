@@ -1,0 +1,87 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T16:13:03.481045+09:00",
+  "scope": "selected cafe IDs: 1415278100 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1415278100"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1415278100",
+        "business_id": "891433",
+        "business_type_id": 12,
+        "branch_name": "",
+        "name": "인스테이지방탈출",
+        "address": "강원 춘천시 서부대성로 196 3층",
+        "area": "gangwon",
+        "site_url": "https://booking.naver.com/booking/12/bizes/891433"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 16,
+  "statuses": {
+    "full": 8,
+    "available": 8
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1415278100": {
+      "themes": 1,
+      "slots": 16,
+      "statuses": {
+        "full": 8,
+        "available": 8
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "감자의 꿈 예약 (예약금 무료/상세정보 참고)"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.4,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

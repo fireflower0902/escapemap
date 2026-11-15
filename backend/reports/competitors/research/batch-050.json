@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "파노라마 롯데월드점",
+    "익스플로리아 이스케이프 수원점",
+    "무비무드",
+    "플레이포인트랩 서면탄탄스트리트점"
+  ],
+  "sources": [
+    {
+      "title": "익스플로리아 이스케이프 수원 | 인계동 방탈출 카페",
+      "url": "https://exploria-escape.kr/"
+    },
+    {
+      "title": "플레이포인트랩",
+      "url": "https://playpointlab.com/office/detail"
+    },
+    {
+      "title": "방탈출 카페",
+      "url": "https://exploria-escape.kr/theme/2026-09-07/%EC%99%B8%EB%A1%9C%EC%9B%80%EA%B3%BC%EA%B3%A0%EB%8F%85%EC%82%AC%EC%9D%B4/"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "F등급킬러:다정리 — 플레이포인트랩 서면탄탄스트리트점 | 부산 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/517"
+    },
+    {
+      "title": "플레이포인트랩 서면탄탄스트리트점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/W30wSyPn"
+    },
+    {
+      "title": "F등급킬러:다정리 — 플레이포인트랩 서면탄탄스트리트점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/1114"
+    },
+    {
+      "title": "근비빌라401호 방탈출 테마 정보 | 플레이포인트랩 서면탄탄스트리트점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/ccce36ae/"
+    },
+    {
+      "title": "무비무드 - 강남역 카페, 방탈출카페 맛집 - 다이닝코드",
+      "url": "https://www.diningcode.com/profile.php"
+    },
+    {
+      "title": "서면 공포 방탈출 | 테마 10개·공포도·예약 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/busan/busanjin/escape-room/horror/"
+    },
+    {
+      "title": "방탈출 매장 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes"
+    },
+    {
+      "title": "토이메이커 방탈출 테마 정보 | 플레이포인트랩 서면탄탄스트리트점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/a983d41f/"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

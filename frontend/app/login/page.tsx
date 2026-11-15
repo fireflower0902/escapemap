@@ -33,6 +33,10 @@ export default function LoginPage() {
   }, [user, loading, router]);
 
   async function handleGoogleLogin() {
+    if (!auth) {
+      setError("현재 로그인을 사용할 수 없습니다. 잠시 후 다시 시도해 주세요.");
+      return;
+    }
     setIsLoading(true);
     setError("");
     try {
@@ -69,7 +73,7 @@ export default function LoginPage() {
 
   async function handleTermsCancel() {
     // 약관 거부 → Firebase 로그아웃 후 모달 닫기
-    await auth.signOut();
+    await auth?.signOut();
     setPendingCredential(null);
   }
 

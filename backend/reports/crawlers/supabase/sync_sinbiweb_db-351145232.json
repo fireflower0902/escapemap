@@ -1,0 +1,101 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T16:07:24.242108+09:00",
+  "scope": "selected cafe IDs: 351145232 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "351145232"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "351145232",
+        "cafe_name": "큐방탈출카페",
+        "branch_name": "일산점",
+        "address": "경기 고양시 일산서구 킨텍스로 217-60",
+        "area": "gyeonggi",
+        "base_url": "http://www.qescapeilsan.co.kr",
+        "s_zizum": null,
+        "use_ssl": false,
+        "need_session": true,
+        "rev_use_post": true,
+        "rev_subpath": "reserve"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 10,
+  "themes_with_slots": 10,
+  "slots": 158,
+  "statuses": {
+    "available": 158
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "351145232": {
+      "themes": 10,
+      "slots": 158,
+      "statuses": {
+        "available": 158
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "Z 월드",
+    "군함도",
+    "꿈꾸는 다락방",
+    "밀정",
+    "백조의 호수",
+    "사쿠라 하우스",
+    "서커스",
+    "소녀의 꿈"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.qescapeilsan.co.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.qescapeilsan.co.kr",
+      "path": "/reserve/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.qescapeilsan.co.kr",
+      "path": "/reserve/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.qescapeilsan.co.kr",
+      "path": "/reserve/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.qescapeilsan.co.kr",
+      "path": "/reserve/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.65,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

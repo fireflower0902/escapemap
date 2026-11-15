@@ -1,0 +1,33 @@
+[
+  {
+    "script": "sync_movieescape_cokr_db",
+    "checked_at": "2026-11-15T11:13:35.548903+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "error": "ValueError: 알 수 없는 공식 예약 상태",
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {},
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.27,
+    "log_errors": [
+      "Traceback (most recent call last):"
+    ],
+    "status": "error"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:06:03.809719+09:00",
+  "scope": "selected cafe IDs: 455356224 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "455356224"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "455356224",
+        "cafe_name": "콜드케이스",
+        "branch_name": "인하대점",
+        "address": "인천 남구 인하로 100",
+        "area": "incheon",
+        "base_url": "http://cold-case.co.kr",
+        "s_zizum": null,
+        "use_ssl": false,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 140,
+  "statuses": {
+    "available": 121,
+    "full": 19
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "455356224": {
+      "themes": 5,
+      "slots": 140,
+      "statuses": {
+        "available": 121,
+        "full": 19
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "바티칸",
+    "악몽",
+    "알카트라즈",
+    "인하로 77번 길",
+    "피라미드의 비밀"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "cold-case.co.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "cold-case.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "cold-case.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "cold-case.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "cold-case.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "cold-case.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 8.04,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

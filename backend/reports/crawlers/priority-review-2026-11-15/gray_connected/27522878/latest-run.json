@@ -1,0 +1,100 @@
+[
+  {
+    "script": "sync_cubeescape_db",
+    "checked_at": "2026-11-15T12:12:15.348610+09:00",
+    "scope": "selected cafe IDs: 27522878 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "27522878"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "27522878",
+          "cafe_name": "큐브이스케이프",
+          "branch_name": "전주점",
+          "address": "전북특별자치도 전주시 완산구 홍산남로 78 다올빌딩 4층",
+          "area": "etc",
+          "subdomain": "junju",
+          "office": 4
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "27522878": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "junju.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 11.58,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

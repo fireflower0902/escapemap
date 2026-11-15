@@ -1,0 +1,80 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T10:53:14.864538+09:00",
+    "scope": "selected cafe IDs: official_sherlock_116 / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "official_sherlock_116",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "광명철산점",
+          "address": "경기도 광명시 오리로856번길 8 금봉빌딩 4층",
+          "area": "gyeonggi",
+          "sido": 9,
+          "bno": 116
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 120,
+    "statuses": {
+      "available": 85,
+      "full": 35
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_sherlock_116": {
+        "themes": 6,
+        "slots": 120,
+        "statuses": {
+          "available": 85,
+          "full": 35
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "HELL.O",
+      "RETURNS",
+      "단지약방",
+      "에테르늄",
+      "종점행",
+      "히키코모리"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.46,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

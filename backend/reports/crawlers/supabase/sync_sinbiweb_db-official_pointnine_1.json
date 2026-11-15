@@ -1,0 +1,91 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T16:05:39.106702+09:00",
+  "scope": "selected cafe IDs: official_pointnine_1 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_pointnine_1"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_pointnine_1",
+        "cafe_name": "포인트나인",
+        "branch_name": "강남점",
+        "address": "서울시 강남구 역삼동 618-3 지하1층",
+        "area": "gangnam",
+        "base_url": "https://point-nine.com",
+        "s_zizum": 1,
+        "use_ssl": true,
+        "need_session": false
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 80,
+  "statuses": {
+    "full": 25,
+    "available": 55
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_pointnine_1": {
+      "themes": 4,
+      "slots": 80,
+      "statuses": {
+        "full": 25,
+        "available": 55
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "EP1 : 시간이 멈춘 마을",
+    "EP2 : 열쇠공의 이중생활",
+    "EP3 : 눈 먼 귀금속상인의 후회",
+    "EP4 : 주인 없는 낡은 서점"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.35,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

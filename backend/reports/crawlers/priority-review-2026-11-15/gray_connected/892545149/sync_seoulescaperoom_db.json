@@ -1,0 +1,83 @@
+{
+  "script": "sync_seoulescaperoom_db",
+  "checked_at": "2026-11-15T12:10:02.382181+09:00",
+  "scope": "selected cafe IDs: 892545149 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "892545149"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "892545149",
+        "branch_name": "대구동성로점",
+        "branch": 4,
+        "area": "daegu",
+        "address": "대구 중구 동성로2가 144"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 8,
+  "themes_with_slots": 8,
+  "slots": 213,
+  "statuses": {
+    "full": 50,
+    "available": 163
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "892545149": {
+      "themes": 8,
+      "slots": 213,
+      "statuses": {
+        "full": 50,
+        "available": 163
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "만찬",
+    "엘리베이터",
+    "오모테나시",
+    "접견",
+    "춘단화",
+    "카지노",
+    "파킹랏",
+    "팩토리"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.34,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

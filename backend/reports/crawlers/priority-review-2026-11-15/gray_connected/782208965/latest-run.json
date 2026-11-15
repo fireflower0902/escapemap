@@ -1,0 +1,60 @@
+[
+  {
+    "script": "sync_roomlescape_db",
+    "checked_at": "2026-11-15T12:08:05.036670+09:00",
+    "scope": "selected cafe IDs: 782208965 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "782208965"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "782208965",
+          "branch_name": "신림2호점",
+          "showroom_seq": "6",
+          "area": "etc",
+          "address": "서울 관악구 신림로59길 15-12 1층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 1,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "782208965": {
+        "themes": 1,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [
+      "귀장고"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.list.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.time.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.05,
+    "log_errors": [
+      "[ERROR] 신림2호점 크롤링 실패: hour must be in 0..23, not 24"
+    ],
+    "status": "needs_review"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "script": "sync_murderparker_db",
+    "checked_at": "2026-11-15T12:09:10.907479+09:00",
+    "scope": "selected cafe IDs: 1016102948 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1016102948"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1016102948",
+          "branch_name": "건대1호점",
+          "jijem": "S6",
+          "address": "서울 광진구 아차산로 213 지하1층",
+          "area": "konkuk"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 165,
+    "statuses": {
+      "available": 136,
+      "full": 29
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1016102948": {
+        "themes": 6,
+        "slots": 165,
+        "statuses": {
+          "available": 136,
+          "full": 29
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "꽁노리_건대점",
+      "어은꿈이진루다_건대점",
+      "여행(70분 Premium)_건대점",
+      "우리 꼰대 진분홍_건대점",
+      "음대출신 김수학_건대점",
+      "파커4(80분 Premium)_건대점"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.21,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

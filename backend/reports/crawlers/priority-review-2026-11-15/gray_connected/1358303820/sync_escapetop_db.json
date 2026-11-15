@@ -1,0 +1,123 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T12:11:48.636984+09:00",
+  "scope": "selected cafe IDs: 1358303820 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1358303820"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1358303820",
+        "business_id": "737799",
+        "business_type_id": 12,
+        "branch_name": "서면점",
+        "name": "카타르시스이스케이프",
+        "address": "부산 부산진구 부전동 187-10",
+        "area": "busan",
+        "site_url": "https://booking.naver.com/booking/12/bizes/737799"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 86,
+  "statuses": {
+    "available": 84,
+    "full": 2
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1358303820": {
+      "themes": 3,
+      "slots": 86,
+      "statuses": {
+        "available": 84,
+        "full": 2
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "당신의 인생테마를 찾아드립니다",
+    "똑똑! 계시나요?",
+    "왠지 출근하기 싫은날"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.11,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

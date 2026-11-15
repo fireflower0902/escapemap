@@ -122,12 +122,11 @@ def fetch_closed_schedule_ids(tm: int, target_date: date) -> set[str]:
         with urllib.request.urlopen(req, context=_SSL_CTX, timeout=15) as resp:
             raw = resp.read().decode("utf-8", errors="replace").strip()
         data = json.loads(raw)
-        if data is None:
-            return set()
+        if not isinstance(data, list) or any(isinstance(x, bool) or not isinstance(x, (str, int)) for x in data):
+            raise ValueError('마감 목록 응답 형식 변경')
         return {str(x) for x in data}
     except Exception as e:
-        print(f"  [WARN] POST getSchedule tm={tm} {date_str} 실패: {e}")
-        return set()
+        raise RuntimeError(f'마감 목록 조회 실패: tm={tm}, date={date_str}') from e
 
 
 def parse_ticket_page(html: str, tm: int) -> dict:

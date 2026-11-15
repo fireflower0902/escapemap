@@ -1,0 +1,79 @@
+{
+  "queries": [
+    "공간 방탈출카페",
+    "시간의문 동성로2호점",
+    "The FLIGHT(더 플라이트)",
+    "룸즈에이 대구스테이지점"
+  ],
+  "sources": [
+    {
+      "title": "룸즈에이 대구스테이지점 | 대구 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/venue-e18415c3233e425683a6881656c4d344"
+    },
+    {
+      "title": "룸즈에이 대구스테이지점 방탈출 테마 5개 | 장르·시간·난이도·후기 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/store/cafedc/"
+    },
+    {
+      "title": "홈 | 룸즈에이",
+      "url": "https://roomsa.co.kr/"
+    },
+    {
+      "title": "룸즈에이 대구스테이지점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/INJ5KhTa"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "우정 게임 방탈출 | 룸즈에이 대구스테이지점 | 대구 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/1697fcc4-94ce-48ba-be4a-c84f98830bab"
+    },
+    {
+      "title": "시간의문 동성로2호점 채용정보 : [신규매장] 방탈출 시간의문 1&2호점 직원 모집 - 알바천국",
+      "url": "https://www.alba.co.kr/job/Detail"
+    },
+    {
+      "title": "흑신소 (시간의문 대구동성로2호점, 동성로) 방탈출 테마 · 점수·가격 | 방도장",
+      "url": "https://bangdojang.com/theme/cms7sexiy026g4mpc21s6pot2"
+    },
+    {
+      "title": "방탈출 매장 찾기 | 지역·브랜드별 매장 탐색 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues"
+    },
+    {
+      "title": "더 플라이트 (The Flight) 상세정보 | 씨네21",
+      "url": "https://cine21.com/movie/info/"
+    },
+    {
+      "title": "대전 둔산동 방탈출 신데렐라 테마 도전, 큐브이스케이프 대전둔산점 · Superchart",
+      "url": "https://superchart.com/ko/%40beyond-the-doorstep/cube-escape-daejeon-dunsan-cinderella/"
+    },
+    {
+      "title": "* ੈ♡‧₊˚* · ✧₊♡* ੈ✧‧₊˚ 블로그 분석 - 엔덱스",
+      "url": "https://www.ndex.kr/data/choochooesc"
+    },
+    {
+      "title": "○ 건축물 안전정보 DB구축으로 소방활동 강화",
+      "url": "https://evaluation.go.kr/upload2/atch/eval/20220314150752077.pdf"
+    },
+    {
+      "title": "동아일보 사내보 東友 제231호 2019년 3월 5일 화요일",
+      "url": "https://dimg.donga.com/carriage/NEWS/content/DAMG/newsletter/2019/03/06/15518516963.pdf"
+    },
+    {
+      "title": "한국문화관광연구원 (Korea Culture & Tourism Institute)",
+      "url": "https://www.tour.go.kr/FileSystem/UploadTemp/SendNewsLetter/week_poliy%282018_05_01%29.pdf"
+    },
+    {
+      "title": "2. 프랑스어의 형태 구조",
+      "url": "https://www.afbusan.co.kr/wp-content/uploads/2021/09/A2-Article-EunSoon-KR.pdf"
+    },
+    {
+      "title": "# 부산의 상점 간판 속 프랑스로 문화읽기",
+      "url": "https://afbusan.co.kr/wp-content/uploads/2021/09/A2-Article-EunSoon-KR.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

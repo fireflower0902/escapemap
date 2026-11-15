@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-06-13T15:27:26.155588",
+  "cafes": [
+    {
+      "name": "쿠쿠룸190000",
+      "website": "http://place.map.kakao.com/2006661572",
+      "type": "kakao_map",
+      "status_code": 400,
+      "accessible": false,
+      "content_length": 9747,
+      "url_final": "https://place.map.kakao.com/2006661572",
+      "title": "ì¹´ì¹´ì¤ë§µ",
+      "possibly_closed": false,
+      "has_booking": false,
+      "has_theme": false,
+      "diagnosis": "폐업 또는 서버 문제"
+    },
+    {
+      "name": "초상화",
+      "website": "http://place.map.kakao.com/260184665",
+      "type": "kakao_map",
+      "status_code": 200,
+      "accessible": true,
+      "content_length": 3730,
+      "url_final": "https://place.map.kakao.com/260184665",
+      "title": "초상화 | 카카오맵",
+      "possibly_closed": false,
+      "has_booking": false,
+      "has_theme": false,
+      "diagnosis": "운영 중단 또는 폐업"
+    },
+    {
+      "name": "파라박스",
+      "website": "https://parabox.kr/",
+      "type": "website",
+      "error": "Connection error - 도메인 없음 또는 서버 다운",
+      "diagnosis": "폐업 가능성 높음"
+    },
+    {
+      "name": "개꿀이스케이프",
+      "website": "https://doghoneyescape.com/",
+      "type": "website",
+      "status_code": 200,
+      "accessible": true,
+      "content_length": 13216,
+      "url_final": "https://doghoneyescape.com/",
+      "title": "ê°ê¿ì´ì¤ì¼ì´í | í",
+      "possibly_closed": false,
+      "has_booking": true,
+      "has_theme": true,
+      "diagnosis": "운영 중"
+    },
+    {
+      "name": "시그널헌터",
+      "website": "https://www.signalhunter.co.kr/",
+      "type": "website",
+      "status_code": 200,
+      "accessible": true,
+      "content_length": 324770,
+      "url_final": "https://www.signalhunter.co.kr/?v=38dd815e66db",
+      "title": "Signal Hunter",
+      "possibly_closed": true,
+      "has_booking": true,
+      "has_theme": true,
+      "diagnosis": "폐업"
+    },
+    {
+      "name": "플레이더월드",
+      "website": "https://reservation.playthe.world/",
+      "type": "website",
+      "status_code": 200,
+      "accessible": true,
+      "content_length": 10518,
+      "url_final": "https://reservation.playthe.world/",
+      "title": "íë ì´ëìë ë°©íì¶ ì¹´í",
+      "possibly_closed": false,
+      "has_booking": true,
+      "has_theme": true,
+      "diagnosis": "운영 중"
+    },
+    {
+      "name": "리얼이스케이프챌린지",
+      "website": "http://www.rec-escape.com/",
+      "type": "website",
+      "status_code": 200,
+      "accessible": true,
+      "content_length": 61971,
+      "url_final": "http://www.rec-escape.com/",
+      "title": "리얼 이스케이프 첼린지",
+      "possibly_closed": false,
+      "has_booking": true,
+      "has_theme": true,
+      "diagnosis": "운영 중"
+    }
+  ]
+}

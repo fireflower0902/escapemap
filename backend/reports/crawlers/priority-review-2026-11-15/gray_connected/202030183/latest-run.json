@@ -1,0 +1,144 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:07:06.691257+09:00",
+    "scope": "selected cafe IDs: 202030183 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "202030183"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "202030183",
+          "business_id": "491000",
+          "business_type_id": 12,
+          "branch_name": "",
+          "name": "구미랑방탈출카페",
+          "address": "경북 구미시 인동32길 22-12",
+          "area": "gyeongbuk",
+          "site_url": "https://booking.naver.com/booking/12/bizes/491000"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 88,
+    "statuses": {
+      "available": 83,
+      "full": 5
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "202030183": {
+        "themes": 4,
+        "slots": 88,
+        "statuses": {
+          "available": 83,
+          "full": 5
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "THE WAY HOME",
+      "모태솔로 탈출기",
+      "반하셨군요?",
+      "역대급 사생팬"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 7.97,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

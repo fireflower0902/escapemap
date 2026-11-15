@@ -1,0 +1,79 @@
+{
+  "script": "sync_xescape_db",
+  "checked_at": "2026-11-15T16:10:46.668985+09:00",
+  "scope": "selected cafe IDs: 1654390566 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1654390566"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1654390566",
+        "branch_name": "홍대상상마당점",
+        "zzcd": "20170223001",
+        "area": "hongdae",
+        "address": "서울 마포구 어울마당로 70"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 126,
+  "statuses": {
+    "available": 126
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1654390566": {
+      "themes": 4,
+      "slots": 126,
+      "statuses": {
+        "available": 126
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "몬스터탐험가",
+    "애인탈옥",
+    "인육판매자",
+    "타로술사의비밀"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xescape.com",
+      "path": "/web/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xescape.com",
+      "path": "/web/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xescape.com",
+      "path": "/web/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 16.11,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

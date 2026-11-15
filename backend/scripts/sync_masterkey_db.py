@@ -48,7 +48,7 @@ import sys
 import time
 import urllib.request
 import urllib.parse
-from datetime import date, datetime, time as dtime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).parent.parent
@@ -57,6 +57,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
+from app.crawl_availability import service_slot_datetime
 from app.firestore_db import init_firestore, get_db, upsert_cafe, get_or_create_theme, upsert_cafe_date_schedules, load_cafe_hashes, save_cafe_hashes
 
 API_URL = "http://www.master-key.co.kr/booking/booking_list_new"
@@ -195,8 +196,8 @@ def _fetch_raw(bid: int, target_date: date) -> list[dict]:
             "poster_url": "http://...", # 포스터 이미지 URL
             "duration_min": 70,        # 소요 시간 (None이면 정보 없음)
             "slots": [                 # 슬롯 목록
-                {"time": dtime(11, 55), "status": "full"},
-                {"time": dtime(14, 45), "status": "available"},
+                {"time": "11:55", "status": "full"},
+                {"time": "14:45", "status": "available"},
             ],
         },
         ...
@@ -272,7 +273,8 @@ def _fetch_raw(bid: int, target_date: date) -> list[dict]:
             hh, mm = map(int, time_str.split(":"))
             classes = p.get("class", [])
             status = "available" if "true" in classes else "full"
-            slots.append({"time": dtime(hh, mm), "status": status})
+            service_slot_datetime(target_date, f"{hh:02d}:{mm:02d}")
+            slots.append({"time": f"{hh:02d}:{mm:02d}", "status": status})
 
         results.append({
             "room_id": room_id,
@@ -381,17 +383,14 @@ def sync_schedules(bids: list[int], theme_map: dict[tuple[int, str], str], days:
                         time_obj = slot["time"]
                         status = slot["status"]
 
-                        slot_dt = datetime(
-                            target_date.year, target_date.month, target_date.day,
-                            time_obj.hour, time_obj.minute,
-                        )
+                        slot_dt = service_slot_datetime(target_date, time_obj)
                         if slot_dt <= datetime.now():
                             continue
 
                         booking_url = booking_url_base if status == "available" else None
 
                         date_themes.setdefault(date_str, {}).setdefault(theme_doc_id, {"slots": []})["slots"].append({
-                            "time": f"{time_obj.hour:02d}:{time_obj.minute:02d}",
+                            "time": time_obj,
                             "status": status,
                             "booking_url": booking_url,
                         })

@@ -1,0 +1,144 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:06:58.035517+09:00",
+    "scope": "selected cafe IDs: 1871864524 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1871864524"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1871864524",
+          "business_id": "1073090",
+          "business_type_id": 12,
+          "branch_name": "",
+          "name": "겟어웨이방탈출카페",
+          "address": "서울 강남구 역삼동 830-38",
+          "area": "gangnam",
+          "site_url": "https://getawayesc.com"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 76,
+    "statuses": {
+      "full": 20,
+      "available": 56
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1871864524": {
+        "themes": 4,
+        "slots": 76,
+        "statuses": {
+          "full": 20,
+          "available": 56
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "기억을 잃은 자들",
+      "사라진 성물",
+      "악마와 싸우는 자",
+      "클라바리오 봉쇄수도원"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 8.2,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

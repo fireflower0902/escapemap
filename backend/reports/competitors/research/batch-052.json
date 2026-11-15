@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "엔터팟",
+    "레다스퀘어",
+    "Ticket To Escape(티켓투이스케이프)",
+    "어메이즈드 부평3호점"
+  ],
+  "sources": [
+    {
+      "title": "티켓투이스케이프",
+      "url": "https://www.ttescape.co.kr/faq"
+    },
+    {
+      "title": "티켓투이스케이프",
+      "url": "https://www.ttescape.co.kr/reservation"
+    },
+    {
+      "title": "엔터팟 | EnterPot",
+      "url": "https://enterpot.co.kr/notice.html"
+    },
+    {
+      "title": "어메이즈드 부평 3호점 (인천) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/116"
+    },
+    {
+      "title": "레다스퀘어",
+      "url": "https://ledasquare.com/layout/res/home.php"
+    },
+    {
+      "title": "레다스퀘어",
+      "url": "https://ledasquare.com/layout/res/home.php"
+    },
+    {
+      "title": "레다스퀘어",
+      "url": "https://ledasquare.com/layout/res/home.php"
+    },
+    {
+      "title": "엔터팟 | EnterPot",
+      "url": "https://enterpot.co.kr/reservation.html"
+    },
+    {
+      "title": "엔터팟 | EnterPot",
+      "url": "https://enterpot.co.kr/"
+    },
+    {
+      "title": "레다스퀘어",
+      "url": "https://ledasquare.com/layout/res/home.php"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "레다스퀘어",
+      "url": "https://ledasquare.com/layout/res/home.php"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,123 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T12:07:53.097908+09:00",
+  "scope": "selected cafe IDs: 2102768222 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "2102768222"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "2102768222",
+        "business_id": "1370021",
+        "business_type_id": 12,
+        "branch_name": "3호점",
+        "name": "러시아워방탈출",
+        "address": "광주 동구 황금동 23-4",
+        "area": "gwangju",
+        "site_url": "https://booking.naver.com/booking/12/bizes/1370021"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 64,
+  "statuses": {
+    "full": 30,
+    "available": 34
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "2102768222": {
+      "themes": 3,
+      "slots": 64,
+      "statuses": {
+        "full": 30,
+        "available": 34
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "빨간집 (赤い家)",
+    "악녀 - 은화기숙학원",
+    "투스타(TO STAR)"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.13,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

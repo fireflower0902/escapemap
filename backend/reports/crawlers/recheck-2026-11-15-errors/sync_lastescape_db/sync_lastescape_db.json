@@ -1,0 +1,44 @@
+{
+  "script": "sync_lastescape_db",
+  "checked_at": "2026-11-15T10:49:34.103376+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "225341934": {
+      "themes": 0,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "lastescape.co.kr",
+      "path": "/g5/plugin/wz.bookingC.prm/step.1.skin.room.php",
+      "error": "URLError"
+    },
+    {
+      "method": "POST",
+      "host": "lastescape.co.kr",
+      "path": "/g5/plugin/wz.bookingC.prm/step.1.skin.room.php",
+      "error": "URLError"
+    }
+  ],
+  "duration_seconds": 1.45,
+  "log_errors": [
+    "[WARN] POST 실패 (date=2026-11-15): <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "[WARN] POST 실패 (date=2026-11-16): <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ],
+  "status": "needs_review"
+}

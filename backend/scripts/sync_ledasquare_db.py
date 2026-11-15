@@ -39,6 +39,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
+from app.sinbi_reservation import parse_theme_list, parse_time_list
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -109,25 +110,7 @@ def get_slots(zizum_num: str, theme_num: str, target_date: date) -> list[dict]:
         "rev_days": date_str,
         "theme_num": theme_num,
     })
-    slots = []
-
-    # 가용: <a href="javascript:fun_theme_time_select(...)"><span>HH:MM</span></a>
-    avail_pattern = re.compile(
-        r'<a\s+href="javascript:fun_theme_time_select[^"]*"[^>]*>.*?<span[^>]*>(\d{2}:\d{2})</span>',
-        re.DOTALL,
-    )
-    for m in avail_pattern.finditer(html):
-        slots.append({"time": m.group(1), "status": "available"})
-
-    # 마감: <a class="none"...><span>HH:MM</span></a>
-    full_pattern = re.compile(
-        r'<a[^>]+class="[^"]*none[^"]*"[^>]*>.*?<span[^>]*>(\d{2}:\d{2})</span>',
-        re.DOTALL,
-    )
-    for m in full_pattern.finditer(html):
-        slots.append({"time": m.group(1), "status": "full"})
-
-    return slots
+    return parse_time_list(html)
 
 
 def get_theme_name_from_list(zizum_num: str, theme_num: str, target_date: date) -> str | None:
@@ -139,14 +122,7 @@ def get_theme_name_from_list(zizum_num: str, theme_num: str, target_date: date) 
         "rev_days": date_str,
         "theme_num": "",
     })
-    # <a href="javascript:fun_theme_select('{theme_num}','{i}')">테마명</a>
-    m = re.search(
-        rf"fun_theme_select\('{re.escape(theme_num)}'[^)]*\)[^>]*>([^<]+)</a>",
-        html,
-    )
-    if m:
-        return m.group(1).strip()
-    return None
+    return (parse_theme_list(html).get(theme_num) or {}).get('name')
 
 
 # ── DB 동기화 ─────────────────────────────────────────────────────────────────
@@ -192,15 +168,7 @@ def sync_branch(branch: dict, days: int = 14) -> int:
                 "rev_days": target.strftime("%Y-%m-%d"),
                 "theme_num": "",
             })
-            # 테마명 추출: fun_theme_select 뒤 텍스트
-            for tn in theme_nums:
-                if tn not in theme_num_to_name:
-                    m = re.search(
-                        rf"fun_theme_select\('{re.escape(tn)}'[^)]*\)[^>]*>([^<]+)</a>",
-                        html,
-                    )
-                    if m:
-                        theme_num_to_name[tn] = m.group(1).strip()
+            theme_num_to_name.update({k:v['name'] for k,v in parse_theme_list(html).items()})
             if theme_num_to_name:
                 break
 

@@ -1,0 +1,90 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T12:05:04.330830+09:00",
+  "scope": "selected cafe IDs: 1166453549 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1166453549"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1166453549",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "수원인계점",
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 108
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 7,
+  "themes_with_slots": 7,
+  "slots": 221,
+  "statuses": {
+    "full": 33,
+    "available": 188
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1166453549": {
+      "themes": 7,
+      "slots": 221,
+      "statuses": {
+        "full": 33,
+        "available": 188
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "A TOY (테마 설명 필독)",
+    "WHO ARE U?",
+    "[프리미엄]아트마와 위대한 유산",
+    "그는 남쪽을 꿈꾸지 않았다.",
+    "기담",
+    "라이트랠리",
+    "무제"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 7.22,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

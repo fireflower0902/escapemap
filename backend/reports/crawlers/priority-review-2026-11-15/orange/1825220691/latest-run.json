@@ -1,0 +1,99 @@
+[
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T12:05:39.466246+09:00",
+    "scope": "selected cafe IDs: 1825220691 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1825220691"
+    ],
+    "selected": {
+      "SITES": [
+        {
+          "cafe_id": "1825220691",
+          "cafe_name": "스피키지",
+          "branch_name": null,
+          "address": "서울 마포구 어울마당로 138 4층",
+          "area": "hongdae",
+          "base_url": "https://speakeasyescape.co.kr",
+          "s_zizum": null,
+          "use_ssl": true,
+          "need_session": true
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 39,
+    "statuses": {
+      "available": 39
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1825220691": {
+        "themes": 2,
+        "slots": 39,
+        "statuses": {
+          "available": 39
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "급X",
+      "올림픽 시즌2 - 1988"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.55,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "루팡 이스케이프 1호점",
+    "루팡 이스케이프 본점",
+    "두잇 이스케이프 1호점",
+    "두잇 이스케이프 2호점"
+  ],
+  "sources": [
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "방탈출 테마 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes"
+    },
+    {
+      "title": "두잇 이스케이프 1호점 (구리) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/22"
+    },
+    {
+      "title": "두잇 이스케이프 2호점 (구리) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/23"
+    },
+    {
+      "title": "루팡 이스케이프 본점 (청주) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/463"
+    },
+    {
+      "title": "루팡 이스케이프 본점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/RJAjvJZQ"
+    },
+    {
+      "title": "루팡 | 루팡 이스케이프 1호점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/6138/%EB%A3%A8%ED%8C%A1"
+    },
+    {
+      "title": "방탈출 테마 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes"
+    },
+    {
+      "title": "루팡 이스케이프 본점",
+      "url": "https://web.zamfit.kr/stores/2148/%EB%A3%A8%ED%8C%A1-%EC%9D%B4%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84-%EB%B3%B8%EC%A0%90"
+    },
+    {
+      "title": "루팡이스케이프 1호점 | 방탈 위키 | Fandom",
+      "url": "https://roomesc.fandom.com/ko/wiki/%EB%A3%A8%ED%8C%A1%EC%9D%B4%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84_1%ED%98%B8%EC%A0%90"
+    },
+    {
+      "title": "엘리베이터(부제:귀신놀음) — 루팡 이스케이프 1호점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/2613"
+    },
+    {
+      "title": "방탈소년단 - 두잇 이스케이프 1호점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/VcKgDVUf/themes/gliQNebL"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,51 @@
+{
+  "script": "sync_zeroworld_db",
+  "checked_at": "2026-11-15T12:11:37.199148+09:00",
+  "scope": "selected cafe IDs: 890251040 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "890251040"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "890251040",
+        "cafe_name": "제로월드",
+        "branch_name": "롯데월드점",
+        "address": "서울 송파구 잠실동 40-1 3층",
+        "area": "jamsil",
+        "base_url": "https://zerolotteworld.com"
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "zerolotteworld.com",
+      "path": "/reservation",
+      "error": "URLError"
+    },
+    {
+      "method": "POST",
+      "host": "zerolotteworld.com",
+      "path": "/reservation/theme",
+      "error": "URLError"
+    }
+  ],
+  "duration_seconds": 0.12,
+  "log_errors": [
+    "[WARN] CSRF 획득 실패 https://zerolotteworld.com: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "[WARN] 슬롯 조회 실패 https://zerolotteworld.com 2026-11-15: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ],
+  "status": "needs_review"
+}

@@ -1,0 +1,89 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T16:05:47.149020+09:00",
+  "scope": "selected cafe IDs: 1271584354 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1271584354"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1271584354",
+        "cafe_name": "황금열쇠",
+        "branch_name": "건대점",
+        "address": "서울 광진구 화양동 9-90 4층",
+        "area": "konkuk",
+        "base_url": "http://xn--jj0b998aq3cptw.com",
+        "s_zizum": 7,
+        "use_ssl": false,
+        "need_session": false
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 2,
+  "themes_with_slots": 2,
+  "slots": 50,
+  "statuses": {
+    "full": 17,
+    "available": 33
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1271584354": {
+      "themes": 2,
+      "slots": 50,
+      "statuses": {
+        "full": 17,
+        "available": 33
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "NOW HERE",
+    "fl[ae]sh"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xn--jj0b998aq3cptw.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--jj0b998aq3cptw.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--jj0b998aq3cptw.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--jj0b998aq3cptw.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 11.49,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

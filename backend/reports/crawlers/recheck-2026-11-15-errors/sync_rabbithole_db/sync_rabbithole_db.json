@@ -1,0 +1,47 @@
+{
+  "script": "sync_rabbithole_db",
+  "checked_at": "2026-11-15T10:49:15.197673+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCH_MAP": [
+      "1"
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 1,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "187287513": {
+      "themes": 1,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [
+    "두껍아 두껍아 헌집줄게 새집다오"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.rabbitholeescape.co.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.rabbitholeescape.co.kr",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.18,
+  "log_errors": [],
+  "status": "needs_review"
+}

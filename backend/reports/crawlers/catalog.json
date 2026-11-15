@@ -1,0 +1,5334 @@
+[
+  {
+    "id": "sync_aliceescape_db",
+    "name": "앨리스이스케이프(alice-escape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://alice-escape.com"
+    ],
+    "cafe_ids": [
+      "338628640"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "338628640",
+        "name": "앨리스이스케이프",
+        "branch_name": "",
+        "address": "대구 중구 동성로2가 151-3",
+        "area": "daegu",
+        "website_url": "http://alice-escape.com",
+        "engine": "aliceescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_clevertown_db",
+    "name": "클레버타운 (clevertown.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://clevertown.co.kr"
+    ],
+    "cafe_ids": [
+      "949587061"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "949587061",
+        "name": "클레버타운",
+        "branch_name": "신촌점",
+        "address": "서울 서대문구 신촌동 57-7",
+        "area": "sinchon",
+        "website_url": "https://clevertown.co.kr/",
+        "engine": "clevertown",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_codek_db",
+    "name": "코드케이 공식 지점별 CQ 예약표. UTF-8·공식 지점 코드·테마별 CQ 블록을 구분.",
+    "urls": [
+      "http://codek5678.cafe24.com",
+      "http://www.code-k.co.kr"
+    ],
+    "cafe_ids": [
+      "1475074228",
+      "official_codek_S1",
+      "official_codek_S3"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1475074228",
+        "cafe_name": "코드케이",
+        "branch_name": "인천구월점",
+        "address": "인천시 남동구 구월동 1467-1 5층",
+        "area": "incheon",
+        "name": "코드케이",
+        "website_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S2&CHOIS_DATE=2026-11-15&DIS_T=A",
+        "engine": "codek",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_codek_S1",
+        "cafe_name": "코드케이",
+        "branch_name": "강남점",
+        "address": "서울시 강남구 역삼동 813-4 지층",
+        "area": "gangnam",
+        "name": "코드케이",
+        "website_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S1&CHOIS_DATE=2026-11-15&DIS_T=A",
+        "engine": "codek",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_codek_S3",
+        "cafe_name": "코드케이",
+        "branch_name": "홍대점",
+        "address": "서울시 마포구 상수동 86-22 3층",
+        "area": "hongdae",
+        "name": "코드케이",
+        "website_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S3&CHOIS_DATE=2026-11-15&DIS_T=A",
+        "engine": "codek",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_conanescape_db",
+    "name": "코난방탈출(conanescape.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://conanescape.kr"
+    ],
+    "cafe_ids": [
+      "1757443413"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1757443413",
+        "branch_name": "구로디지털단지역점",
+        "address": "서울 구로구 구로동 1124-54 3층",
+        "area": "seoul_other",
+        "name": "코난방탈출",
+        "website_url": "http://conanescape.kr",
+        "engine": "conanescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_cubeescape_db",
+    "name": "큐브이스케이프(cubeescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [],
+    "cafe_ids": [
+      "167846502",
+      "1857201893",
+      "2100000001",
+      "2100000004",
+      "27413260",
+      "27522878",
+      "27564986",
+      "4331171"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "27413260",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로29나길 9 2층",
+        "area": "hongdae",
+        "name": "큐브이스케이프",
+        "website_url": "http://www.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2100000001",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "잠실점",
+        "address": "서울 송파구 잠실동 177-5",
+        "area": "jamsil",
+        "name": "큐브이스케이프",
+        "website_url": "http://jamsil.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1857201893",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "천호점",
+        "address": "서울 강동구 천호동 488-1 3층",
+        "area": "jamsil",
+        "name": "큐브이스케이프",
+        "website_url": "http://cheonho.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "4331171",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "수유점",
+        "address": "서울 강북구 수유동 174-3 3층",
+        "area": "seoul_other",
+        "name": "큐브이스케이프",
+        "website_url": "http://suyu.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27564986",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "인천점",
+        "address": "인천 남동구 구월동 1407",
+        "area": "incheon",
+        "name": "큐브이스케이프",
+        "website_url": "http://incheon.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27522878",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "전주점",
+        "address": "전북특별자치도 전주시 완산구 홍산남로 78 다올빌딩 4층",
+        "area": "jeonbuk",
+        "name": "큐브이스케이프",
+        "website_url": "http://junju.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "167846502",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "대전둔산점",
+        "address": "대전 서구 대덕대로185번길 47 5층",
+        "area": "daejeon",
+        "name": "큐브이스케이프",
+        "website_url": "http://daejeon.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2100000004",
+        "cafe_name": "큐브이스케이프",
+        "branch_name": "대구점",
+        "address": "대구 중구 동성로2길 81 3층",
+        "area": "daegu",
+        "name": "큐브이스케이프",
+        "website_url": "http://daegu.cubeescape.co.kr/",
+        "engine": "cubeescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_deepthinker_db",
+    "name": "딥띵커 홍대점 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://deepthinker.co.kr"
+    ],
+    "cafe_ids": [
+      "1442041275"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1442041275",
+        "name": "딥띵커",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 잔다리로 23 4층",
+        "area": "hongdae",
+        "phone": null,
+        "website_url": "https://deepthinker.co.kr/",
+        "engine": "deepthinker",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_doorescape_db",
+    "name": "doorescape.co.kr 테마 + 스케줄을 DB에 동기화하는 스크립트.",
+    "urls": [
+      "https://macro.playthe.world"
+    ],
+    "cafe_ids": [
+      "1460830485",
+      "153136502",
+      "1836271694",
+      "190103388",
+      "2058736611",
+      "27609271",
+      "691418241",
+      "765336936"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "691418241",
+        "name": "도어이스케이프",
+        "branch_name": "강남 가든점",
+        "address": "서울 서초구 사평대로56길 10, 지하 1층",
+        "area": "gangnam",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "765336936",
+        "name": "도어이스케이프",
+        "branch_name": "신논현 레드점",
+        "address": "서울 서초구 사평대로 360, 지하 1층",
+        "area": "gangnam",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2058736611",
+        "name": "도어이스케이프",
+        "branch_name": "신논현 블루점",
+        "address": "서울 서초구 사평대로53길 8-1, 지하 1층(제이제이739 빌딩)",
+        "area": "gangnam",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "153136502",
+        "name": "도어이스케이프",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 서교동 403-1",
+        "area": "hongdae",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "190103388",
+        "name": "도어이스케이프",
+        "branch_name": "이수역점",
+        "address": "서울 동작구 동작대로27가길 14, 3층(이수역 13번 출구)",
+        "area": "seoul_other",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27609271",
+        "name": "도어이스케이프",
+        "branch_name": "안산점",
+        "address": "경기 안산시 단원구 고잔2길 65, 경신프라자 2층",
+        "area": "gyeonggi",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1836271694",
+        "name": "도어이스케이프",
+        "branch_name": "대전유성 NC백화점",
+        "address": "대전 유성구 계룡로 119 NC백화점 10층",
+        "area": "daejeon",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1460830485",
+        "name": "도어이스케이프",
+        "branch_name": "부평점",
+        "address": "인천광역시 부평구 부평문화로66번길 17, 3층",
+        "area": "incheon",
+        "website_url": "https://doorescape.co.kr",
+        "engine": "playtheworld",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "SHOP_MAP": {
+        "aAo1RDEnfyPkbeix": [
+          "691418241"
+        ],
+        "NeZqzMtPCBsSvbAq": [
+          "765336936"
+        ],
+        "yGozPSZSJXwrzbin": [
+          "2058736611"
+        ],
+        "o83TaXbnod8DtEX5": [
+          "153136502"
+        ],
+        "h1i4d4YyEfBctnpQ": [
+          "190103388"
+        ],
+        "DGpkkgMQYaNLYXTZ": [
+          "27609271"
+        ],
+        "fGDxtefVDEyWczai": [
+          "1836271694"
+        ],
+        "FgBZDHfrR8p5UDmF": [
+          "1460830485"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_dpsnnn_db",
+    "name": "단편선 방탈출 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [],
+    "cafe_ids": [
+      "259983085",
+      "377197835"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "377197835",
+        "branch_name": "강남점",
+        "address": "서울 강남구 봉은사로4길 36",
+        "area": "gangnam",
+        "name": "단편선 방탈출",
+        "website_url": "https://www.dpsnnn.com/reserve_g",
+        "engine": "dpsnnn",
+        "is_active": true
+      },
+      {
+        "cafe_id": "259983085",
+        "branch_name": "성수점",
+        "address": "서울 성동구 아차산로 122",
+        "area": "seongsu",
+        "name": "단편선 방탈출",
+        "website_url": "https://dpsnnn-s.imweb.me/reserve_ss",
+        "engine": "dpsnnn",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_dreampicnic_db",
+    "name": "꿈소풍(dreampicnicescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://dreampicnicescape.com"
+    ],
+    "cafe_ids": [
+      "1767938917",
+      "59939450"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "59939450",
+        "address": "경기 부천시 원미구 부일로459번길 33 4층",
+        "area": "gyeonggi",
+        "name": "꿈소풍",
+        "branch_name": "부천점",
+        "website_url": "https://dreampicnicescape.com",
+        "engine": "dreampicnic",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1767938917",
+        "address": "경기 안산시 단원구 고잔2길 41 6층",
+        "area": "gyeonggi",
+        "name": "꿈소풍",
+        "branch_name": "안산1호점",
+        "website_url": "https://dreampicnicescape.com",
+        "engine": "dreampicnic",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "부천점": [
+          "59939450"
+        ],
+        "안산1호점": [
+          "1767938917"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_dumbndumber_db",
+    "name": "덤앤더머 방탈출카페(dumbndumber.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.dumbndumber-sm.kr",
+      "http://www.dumbndumber.kr"
+    ],
+    "cafe_ids": [
+      "203642029",
+      "28574930"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "203642029",
+        "branch_name": "대학로점",
+        "address": "서울 종로구 대학로12길 40 3층",
+        "area": "myeongdong",
+        "name": "덤앤더머 방탈출카페",
+        "website_url": "http://www.dumbndumber.kr",
+        "engine": "dumbndumber",
+        "is_active": true
+      },
+      {
+        "cafe_id": "28574930",
+        "branch_name": "서면점",
+        "address": "부산 부산진구 서면문화로 27",
+        "area": "busan",
+        "name": "덤앤더머 방탈출카페",
+        "website_url": "http://www.dumbndumber-sm.kr",
+        "engine": "dumbndumber",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_escapecity_db",
+    "name": "이스케이프시티(escapecity.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://escapecity.kr"
+    ],
+    "cafe_ids": [
+      "1363823824",
+      "1444854771",
+      "1834149457",
+      "926754766"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1444854771",
+        "branch_name": "영등포본점",
+        "address": "서울 영등포구 영중로8길 6",
+        "area": "seoul_other",
+        "name": "이스케이프시티",
+        "website_url": "http://escapecity.kr",
+        "engine": "escapecity",
+        "is_active": true
+      },
+      {
+        "cafe_id": "926754766",
+        "branch_name": "성신여대점",
+        "address": "서울 성북구 보문로34길 43",
+        "area": "seoul_other",
+        "name": "이스케이프시티",
+        "website_url": "http://escapecity.kr",
+        "engine": "escapecity",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1363823824",
+        "branch_name": "부천신중동점",
+        "address": "경기 부천시 원미구 중동 1138-1",
+        "area": "gyeonggi",
+        "name": "이스케이프시티",
+        "website_url": "http://escapecity.kr",
+        "engine": "escapecity",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1834149457",
+        "branch_name": "그랜드시티신촌점",
+        "address": "서울 서대문구 연세로11길 39",
+        "area": "sinchon",
+        "name": "이스케이프시티",
+        "website_url": "http://escapecity.kr",
+        "engine": "escapecity",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_escapedetective_db",
+    "name": "방탈출탐정(escapecafe.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.escapecafe.co.kr"
+    ],
+    "cafe_ids": [
+      "779900297"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "779900297",
+        "name": "방탈출탐정",
+        "branch_name": "수원점",
+        "address": "경기 수원시",
+        "area": "gyeonggi",
+        "website_url": "https://www.escapecafe.co.kr",
+        "engine": "escapedetective",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_escapehouse_db",
+    "name": "이스케이프하우스(escapehouse.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.escapehouse.co.kr"
+    ],
+    "cafe_ids": [
+      "340303350"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "340303350",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로21길 28-9",
+        "area": "hongdae",
+        "name": "이스케이프하우스",
+        "website_url": "http://www.escapehouse.co.kr",
+        "engine": "escapehouse",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_escapers_db",
+    "name": "이스케이퍼스(escapers.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.escapers.co.kr"
+    ],
+    "cafe_ids": [
+      "969459474"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "969459474",
+        "branch_name": "홍대1호점",
+        "address": "서울 마포구 연희로1길 7",
+        "area": "hongdae",
+        "name": "이스케이퍼스",
+        "website_url": "http://www.escapers.co.kr",
+        "engine": "escapers",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_escapetop_db",
+    "name": "이스케이프탑 + 에베레스트이스케이프 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://busantop.net",
+      "http://changwontop.net",
+      "http://daejeontop.net",
+      "http://everestescape.com",
+      "http://kwangjutop.com",
+      "http://suwontop.net",
+      "http://withescaper.com",
+      "http://www.brain-escape.co.kr",
+      "http://www.timeescape.co.kr",
+      "http://www.ulsantop.net",
+      "https://booking.naver.com",
+      "https://busan.breakoutescapegame.com",
+      "https://cheongju.realworld.to",
+      "https://fuzzyline.co.kr",
+      "https://getawayesc.com",
+      "https://hongdae.breakoutescapegame.com",
+      "https://mysteryzip.com",
+      "https://nabijam.com",
+      "https://www.epsd.co.kr",
+      "https://www.signalhunter.co.kr",
+      "https://www.todayescape.com"
+    ],
+    "cafe_ids": [
+      "100018735",
+      "1023995566",
+      "1097124167",
+      "1124781432",
+      "1266197087",
+      "1277196871",
+      "1358303820",
+      "1411698841",
+      "1415278100",
+      "1436082735",
+      "1448469234",
+      "1458988059",
+      "1459848720",
+      "1488706210",
+      "1502372343",
+      "1574310774",
+      "1611418578",
+      "163640808",
+      "164116124",
+      "1682203426",
+      "170158027",
+      "1719351380",
+      "1831030495",
+      "1856406910",
+      "1865048385",
+      "1871864524",
+      "1944665207",
+      "1973717836",
+      "2011481622",
+      "202030183",
+      "2102768222",
+      "2138163704",
+      "215947527",
+      "27575809",
+      "27607543",
+      "284779798",
+      "300855776",
+      "332798783",
+      "451924760",
+      "554838835",
+      "570199530",
+      "617331855",
+      "625095198",
+      "632336157",
+      "657876723",
+      "665041653",
+      "704757588",
+      "713424921",
+      "763904207",
+      "836762242",
+      "901719185",
+      "902256384",
+      "923379950",
+      "942247508"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1856406910",
+        "name": "이스케이프탑",
+        "branch_name": "광주점",
+        "address": "광주 동구 충장로3가 38-14",
+        "area": "gwangju",
+        "website_url": "http://kwangjutop.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "665041653",
+        "name": "이스케이프탑",
+        "branch_name": "부산점",
+        "address": "부산 부산진구 부전동 520-14",
+        "area": "busan",
+        "website_url": "http://busantop.net",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1097124167",
+        "name": "이스케이프탑",
+        "branch_name": "창원점",
+        "address": "경남 창원시 성산구 상남동 13-4",
+        "area": "gyeongnam",
+        "website_url": "http://changwontop.net",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "284779798",
+        "name": "이스케이프탑",
+        "branch_name": "울산점",
+        "address": "울산 남구 삼산동 1522-2",
+        "area": "ulsan",
+        "website_url": "http://www.ulsantop.net",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "836762242",
+        "name": "이스케이프탑",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 인계동 1032-8",
+        "area": "gyeonggi",
+        "website_url": "http://suwontop.net",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1973717836",
+        "name": "이스케이프탑",
+        "branch_name": "대전점",
+        "address": "대전 중구 은행동 166-2",
+        "area": "daejeon",
+        "website_url": "http://daejeontop.net",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "164116124",
+        "name": "에베레스트이스케이프",
+        "branch_name": "",
+        "address": "경기 고양시 일산동구 백석동 1283-1",
+        "area": "gyeonggi",
+        "website_url": "http://everestescape.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "617331855",
+        "name": "괴담저장소",
+        "branch_name": "한강대점",
+        "address": "서울 마포구 동교동 198-1",
+        "area": "hongdae",
+        "website_url": "https://mysteryzip.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "163640808",
+        "name": "시크릿도어",
+        "branch_name": "군포산본점",
+        "address": "경기 군포시 산본동 1136-2",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/731521",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "170158027",
+        "name": "브레이크아웃이스케이프",
+        "branch_name": "해운대본점",
+        "address": "부산 해운대구 중동 1394-286",
+        "area": "busan",
+        "website_url": "https://busan.breakoutescapegame.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "451924760",
+        "name": "브레이크아웃이스케이프",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 서교동 338-48",
+        "area": "hongdae",
+        "website_url": "https://hongdae.breakoutescapegame.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "713424921",
+        "name": "나비잠",
+        "branch_name": "1호점",
+        "address": "경기 안양시 동안구 호계동 1044-1",
+        "area": "gyeonggi",
+        "website_url": "https://nabijam.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "704757588",
+        "name": "나비잠",
+        "branch_name": "2호점",
+        "address": "경기 안양시 동안구 호계동 1049",
+        "area": "gyeonggi",
+        "website_url": "https://nabijam.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1488706210",
+        "name": "리얼월드",
+        "branch_name": "커넥트현대 청주점",
+        "address": "충북 청주시",
+        "area": "chungbuk",
+        "website_url": "https://cheongju.realworld.to",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "300855776",
+        "name": "오늘탈출",
+        "branch_name": "고양점",
+        "address": "경기 고양시",
+        "area": "gyeonggi",
+        "website_url": "https://www.todayescape.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "215947527",
+        "name": "시그널헌터",
+        "branch_name": "광교중앙점",
+        "address": "경기 수원시 영통구 이의동 1347-2",
+        "area": "gyeonggi",
+        "website_url": "https://www.signalhunter.co.kr",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27607543",
+        "name": "타임이스케이프",
+        "branch_name": "창원점",
+        "address": "경남 창원시 성산구 상남동 17-4",
+        "area": "gyeongnam",
+        "website_url": "http://www.timeescape.co.kr",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1459848720",
+        "name": "브레인이스케이프",
+        "branch_name": "광주점",
+        "address": "광주 동구 황금동 20",
+        "area": "gwangju",
+        "website_url": "http://www.brain-escape.co.kr",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2138163704",
+        "name": "방탈출추리존",
+        "branch_name": "",
+        "address": "대전 중구 은행동 168-5",
+        "area": "daejeon",
+        "website_url": "https://booking.naver.com/booking/12/bizes/509345",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2102768222",
+        "name": "러시아워방탈출",
+        "branch_name": "3호점",
+        "address": "광주 동구 황금동 23-4",
+        "area": "gwangju",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1370021",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "942247508",
+        "name": "러시아워방탈출",
+        "branch_name": "로드맨션",
+        "address": "광주 북구 용봉동 159-13",
+        "area": "gwangju",
+        "website_url": "https://booking.naver.com/booking/12/bizes/540364",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1358303820",
+        "name": "카타르시스이스케이프",
+        "branch_name": "서면점",
+        "address": "부산 부산진구 부전동 187-10",
+        "area": "busan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/737799",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "100018735",
+        "name": "판타지아방탈출카페",
+        "branch_name": "",
+        "address": "광주 북구 용봉동 153-9",
+        "area": "gwangju",
+        "website_url": "https://booking.naver.com/booking/12/bizes/795803",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "554838835",
+        "name": "하이드앤시크",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 동교동 203-57",
+        "area": "hongdae",
+        "website_url": "http://withescaper.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1023995566",
+        "name": "더락이스케이프",
+        "branch_name": "하단점",
+        "address": "부산 사하구 하단동 511-4",
+        "area": "busan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/762346",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1502372343",
+        "name": "더락이스케이프",
+        "branch_name": "경성대점",
+        "address": "부산 남구 대연동 58-35",
+        "area": "busan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/263451",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1448469234",
+        "name": "더락이스케이프",
+        "branch_name": "부산대점",
+        "address": "부산 금정구 장전동 302-13",
+        "area": "busan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/237839",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "632336157",
+        "name": "숨바꼭질",
+        "branch_name": "3호점",
+        "address": "광주 동구 금남로 250-9",
+        "area": "gwangju",
+        "website_url": "https://booking.naver.com/booking/12/bizes/634218",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "923379950",
+        "name": "숨바꼭질",
+        "branch_name": "2호점",
+        "address": "광주 북구 우치로100번길 27",
+        "area": "gwangju",
+        "website_url": "https://booking.naver.com/booking/12/bizes/416289",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2011481622",
+        "name": "루팡방탈출카페",
+        "branch_name": "본점",
+        "address": "충북 청주시 상당구 성안로 26-1",
+        "area": "chungbuk",
+        "website_url": "https://booking.naver.com/booking/12/bizes/765025",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1574310774",
+        "name": "루팡방탈출카페",
+        "branch_name": "1호점",
+        "address": "충북 청주시 상당구 상당로91번길 29",
+        "area": "chungbuk",
+        "website_url": "https://booking.naver.com/booking/12/bizes/751404",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1865048385",
+        "name": "코드미스터리",
+        "branch_name": "",
+        "address": "부산 남구 용소로8번길 14 3층",
+        "area": "busan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/84222",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1458988059",
+        "name": "수원방탈출연구소",
+        "branch_name": "",
+        "address": "경기 수원시 팔달구 인계로124번길 41-13",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1379992",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1124781432",
+        "name": "하일이스케이프",
+        "branch_name": "",
+        "address": "전남 목포시 비파로43번길 40",
+        "area": "jeonnam",
+        "website_url": "https://booking.naver.com/booking/12/bizes/20197",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "902256384",
+        "name": "더리얼방탈출카페",
+        "branch_name": "순천점",
+        "address": "전남 순천시 중앙6길 3-1",
+        "area": "jeonnam",
+        "website_url": "https://booking.naver.com/booking/12/bizes/638554",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "625095198",
+        "name": "원타임방탈출카페",
+        "branch_name": "전주신시가지점",
+        "address": "전북 전주시 완산구 홍산중앙로 41",
+        "area": "jeonbuk",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1205871",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "570199530",
+        "name": "어디든가게",
+        "branch_name": "",
+        "address": "경북 경주시 동문로 38",
+        "area": "gyeongbuk",
+        "website_url": "https://booking.naver.com/booking/12/bizes/303872",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "202030183",
+        "name": "구미랑방탈출카페",
+        "branch_name": "",
+        "address": "경북 구미시 인동32길 22-12",
+        "area": "gyeongbuk",
+        "website_url": "https://booking.naver.com/booking/12/bizes/491000",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "332798783",
+        "name": "더와이방탈출카페",
+        "branch_name": "",
+        "address": "경북 포항시 북구 중앙상가4길 15",
+        "area": "gyeongbuk",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1316365",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27575809",
+        "name": "트랩코리아",
+        "branch_name": "삼산점",
+        "address": "울산 남구 삼산중로74번길 6",
+        "area": "ulsan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/72634",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1611418578",
+        "name": "더챕터",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로 79 5층",
+        "area": "hongdae",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1473904",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1719351380",
+        "name": "필더블랭크",
+        "branch_name": "",
+        "address": "서울 마포구 동교동 201-6",
+        "area": "hongdae",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1548412",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1944665207",
+        "name": "하이드앤시크",
+        "branch_name": "쌈지길점",
+        "address": "서울 종로구 관훈동 38",
+        "area": "daehakro",
+        "website_url": "https://fuzzyline.co.kr",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1277196871",
+        "name": "에피소드방탈출",
+        "branch_name": "강남점",
+        "address": "서울 강남구 강남대로98길 8",
+        "area": "gangnam",
+        "website_url": "https://www.epsd.co.kr",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1411698841",
+        "name": "에피소드방탈출",
+        "branch_name": "분당점",
+        "address": "경기 성남시 분당구 황새울로360번길 12",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/280688",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1871864524",
+        "name": "겟어웨이방탈출카페",
+        "branch_name": "",
+        "address": "서울 강남구 역삼동 830-38",
+        "area": "gangnam",
+        "website_url": "https://getawayesc.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1415278100",
+        "name": "인스테이지방탈출",
+        "branch_name": "",
+        "address": "강원 춘천시 서부대성로 196 3층",
+        "area": "gangwon",
+        "website_url": "https://booking.naver.com/booking/12/bizes/891433",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1266197087",
+        "name": "더패닉방탈출카페",
+        "branch_name": "",
+        "address": "경북 포항시 북구 대흥동 605-2",
+        "area": "gyeongbuk",
+        "website_url": "https://booking.naver.com/booking/10/bizes/52738",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1831030495",
+        "name": "체셔캣방탈출카페",
+        "branch_name": "",
+        "address": "경기 용인시 기흥구 죽전로 15 3층 302호",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/601362",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "657876723",
+        "name": "씨이스케이프",
+        "branch_name": "",
+        "address": "경기 성남시 중원구 제일로35번길 56 3층",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/727743",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "763904207",
+        "name": "월투월방탈출",
+        "branch_name": "",
+        "address": "서울 관악구 남부순환로226길 9 지하 1층",
+        "area": "sinlim",
+        "website_url": "https://booking.naver.com/booking/12/bizes/570203",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1436082735",
+        "name": "미스터리담",
+        "branch_name": "",
+        "address": "경기 고양시 일산동구 강송로73번길 34 1층",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1575275",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1682203426",
+        "name": "찰리이스케이프",
+        "branch_name": "",
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "area": "jamsil",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1105850",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "901719185",
+        "name": "이스케이프월드",
+        "branch_name": "",
+        "address": "경기 수원시 팔달구 인계로 140",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1413691",
+        "engine": "naver_booking",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_escbangtalul_db",
+    "name": "ESC방탈출카페 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://djdsesc.co.kr",
+      "http://ptesc.co.kr",
+      "http://www.caesc.co.kr"
+    ],
+    "cafe_ids": [
+      "1314964065",
+      "2024880532",
+      "27559974"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "2024880532",
+        "name": "ESC방탈출카페",
+        "branch_name": "대전둔산점",
+        "address": "대전 서구 둔산동 1062",
+        "area": "daejeon",
+        "website_url": "http://djdsesc.co.kr",
+        "engine": "escbangtalul",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27559974",
+        "name": "ESC방탈출카페",
+        "branch_name": "천안점",
+        "address": "충남 천안시 동남구 신부동 462-1",
+        "area": "cheonan",
+        "website_url": "http://www.caesc.co.kr",
+        "engine": "escbangtalul",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1314964065",
+        "name": "ESC방탈출카페",
+        "branch_name": "평택점",
+        "address": "경기 평택시",
+        "area": "gyeonggi",
+        "website_url": "http://ptesc.co.kr",
+        "engine": "escbangtalul",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_fantastrick_db",
+    "name": "판타스트릭 개편 공개 예약 API. 공식 slots/open/blocked 응답만 사용.",
+    "urls": [
+      "https://fantastrick.co.kr"
+    ],
+    "cafe_ids": [
+      "1421844037",
+      "192767471",
+      "2020129484"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1421844037",
+        "name": "판타스트릭",
+        "branch_name": "강남1호점",
+        "address": "서울 서초구 강남대로79길 39",
+        "area": "gangnam",
+        "website_url": "http://fantastrick.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "192767471",
+        "name": "판타스트릭",
+        "branch_name": "2호점",
+        "address": "서울 서초구 사평대로 353",
+        "area": "gangnam",
+        "website_url": "http://fantastrick.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2020129484",
+        "name": "판타스트릭TGC",
+        "address": "서울 서초구 강남대로83길 34",
+        "area": "gangnam",
+        "website_url": "http://fantastrick.co.kr",
+        "engine": "fantastrick",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_frankantique_db",
+    "name": "프랭크의골동품가게 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://thefrank.co.kr"
+    ],
+    "cafe_ids": [
+      "874592991"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "874592991",
+        "name": "프랭크의골동품가게",
+        "address": "서울 강남구 강남대로96길 19",
+        "area": "gangnam",
+        "website_url": "https://thefrank.co.kr/",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_geniusescape_db",
+    "name": "지니어스이스케이프(geniusescape.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.geniusescape.kr"
+    ],
+    "cafe_ids": [
+      "1394599334"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1394599334",
+        "name": "지니어스이스케이프",
+        "branch_name": "",
+        "address": "전북특별자치도 익산시 모현동1가 868",
+        "area": "jeonbuk",
+        "website_url": "http://www.geniusescape.kr",
+        "engine": "geniusescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_horrorswitch_db",
+    "name": "호러스위치 (horrorswitch.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.horrorswitch.com"
+    ],
+    "cafe_ids": [
+      "289742025"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "289742025",
+        "cafe_name": "호러스위치",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 서교동 358-121 철록헌 지하1층",
+        "area": "hongdae",
+        "name": "호러스위치",
+        "website_url": "https://www.horrorswitch.com/ko/",
+        "engine": "horrorswitch",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "1": [
+          "289742025"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_jigobyeol_db",
+    "name": "지구별방탈출 홍대 두 지점 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.xn--2e0b040a4xj.com",
+      "https://xn--2e0b040a4xj.com"
+    ],
+    "cafe_ids": [
+      "2070697879",
+      "399012410",
+      "7690632"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "2070697879",
+        "name": "지구별방탈출",
+        "branch_name": "홍대어드벤처점",
+        "address": "서울 마포구 와우산로21길 31 3층",
+        "area": "hongdae",
+        "website_url": "https://xn--2e0b040a4xj.com",
+        "engine": "jigobyeol",
+        "is_active": true
+      },
+      {
+        "cafe_id": "399012410",
+        "name": "지구별방탈출",
+        "branch_name": "홍대라스트시티점",
+        "address": "서울 마포구 홍익로 10 지하2층",
+        "area": "hongdae",
+        "website_url": "https://xn--2e0b040a4xj.com",
+        "engine": "jigobyeol",
+        "is_active": true
+      },
+      {
+        "cafe_id": "7690632",
+        "name": "지구별방탈출",
+        "branch_name": "대구점",
+        "address": "대구 중구 동성로2가 127-2",
+        "area": "daegu",
+        "website_url": "https://xn--2e0b040a4xj.com",
+        "engine": "jigobyeol",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_keyescape_db",
+    "name": "keyescape.com 테마 + 스케줄을 DB에 동기화하는 스크립트.",
+    "urls": [
+      "https://keyescape.com"
+    ],
+    "cafe_ids": [
+      "1405262610",
+      "1637143499",
+      "1872221698",
+      "200411443",
+      "298789057",
+      "320987184",
+      "400448256",
+      "459642234",
+      "48992610",
+      "916422770",
+      "99889048"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1405262610",
+        "name": "키이스케이프",
+        "branch_name": "강남점",
+        "address": "서울 강남구 강남대로96길 17",
+        "area": "gangnam",
+        "website_url": "http://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "400448256",
+        "name": "키이스케이프 강남 더오름",
+        "address": "서울 강남구 테헤란로6길 30",
+        "area": "gangnam",
+        "website_url": "http://keyescape.com/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "916422770",
+        "name": "키이스케이프",
+        "branch_name": "우주라이크점",
+        "address": "서울 강남구 테헤란로6길 46",
+        "area": "gangnam",
+        "website_url": "http://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "459642234",
+        "name": "키이스케이프 메모리컴퍼니",
+        "address": "서울 강남구 봉은사로2길 7",
+        "area": "gangnam",
+        "website_url": "http://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "99889048",
+        "name": "키이스케이프 로그인1",
+        "address": "서울 강남구 강남대로98길 16",
+        "area": "gangnam",
+        "website_url": "http://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "320987184",
+        "name": "키이스케이프 로그인2",
+        "address": "서울 강남구 강남대로98길 16",
+        "area": "gangnam",
+        "website_url": "http://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "298789057",
+        "name": "키이스케이프 스테이션",
+        "address": "서울 서초구 강남대로69길 11",
+        "area": "gangnam",
+        "website_url": "http://www.keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1872221698",
+        "name": "후즈데어",
+        "address": "서울 서초구 서초대로77길 27",
+        "area": "gangnam",
+        "website_url": "https://www.keyescape.com/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "200411443",
+        "name": "키이스케이프",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 어울마당로 44-1",
+        "area": "hongdae",
+        "website_url": "http://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1637143499",
+        "name": "키이스케이프",
+        "branch_name": "부산점",
+        "address": "부산 북구 만덕대로 21-1",
+        "area": "busan",
+        "website_url": "https://keyescape.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "48992610",
+        "name": "키이스케이프",
+        "branch_name": "전주점",
+        "address": "전북특별자치도 전주시 완산구 홍산남로 60",
+        "area": "jeonbuk",
+        "website_url": "https://keyescape.co.kr/",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "3": [
+          "1405262610"
+        ],
+        "14": [
+          "400448256"
+        ],
+        "16": [
+          "916422770"
+        ],
+        "18": [
+          "459642234"
+        ],
+        "19": [
+          "99889048"
+        ],
+        "20": [
+          "320987184"
+        ],
+        "22": [
+          "298789057"
+        ],
+        "23": [
+          "1872221698"
+        ],
+        "10": [
+          "200411443"
+        ],
+        "9": [
+          "1637143499"
+        ],
+        "7": [
+          "48992610"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_lastescape_db",
+    "name": "라스트이스케이프(lastescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://lastescape.co.kr"
+    ],
+    "cafe_ids": [
+      "225341934"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "225341934",
+        "name": "라스트이스케이프",
+        "branch_name": "강남점",
+        "address": "서울 강남구 강남대로98길 20",
+        "area": "gangnam",
+        "website_url": "http://lastescape.co.kr",
+        "engine": "lastescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_ledasquare_db",
+    "name": "레다스퀘어(ledasquare.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://ledasquare.com"
+    ],
+    "cafe_ids": [
+      "28201117"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "28201117",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 독막로9길 23",
+        "area": "hongdae",
+        "name": "레다스퀘어",
+        "website_url": "https://ledasquare.com",
+        "engine": "ledasquare",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_mafiacafe_db",
+    "name": "마피아카페 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://api.realmafia.kr",
+      "https://www.mafiacafe.kr"
+    ],
+    "cafe_ids": [
+      "1030963843",
+      "1443757324"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1030963843",
+        "branch_name": "강남1호점",
+        "address": "서울시 강남구 강남대로 96길 19, 4층",
+        "area": "gangnam",
+        "name": "마피아카페",
+        "website_url": "https://www.mafiacafe.kr",
+        "engine": "mafiacafe",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1443757324",
+        "branch_name": "대구동성로점",
+        "address": "대구 중구 동성로1길 29-40, 3층",
+        "area": "daegu",
+        "name": "마피아카페",
+        "website_url": "https://www.mafiacafe.kr",
+        "engine": "mafiacafe",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_masterkey_db",
+    "name": "마스터키(플레이포인트랩) 전 지점 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.master-key.co.kr"
+    ],
+    "cafe_ids": [
+      "1292714537",
+      "1397923384",
+      "1462418270",
+      "1466171651",
+      "1559912469",
+      "164781377",
+      "1727885052",
+      "1834906043",
+      "1850589033",
+      "1987907479",
+      "2030700012",
+      "2039293420",
+      "27495854",
+      "27523824",
+      "671151862",
+      "751793807",
+      "870806933",
+      "886826713",
+      "967129600",
+      "97734177"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1466171651",
+        "name": "플레이포인트랩",
+        "branch_name": "강남점",
+        "address": "서울 강남구 강남대로98길 11",
+        "area": "gangnam",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1987907479",
+        "name": "마스터키",
+        "branch_name": "노바홍대점",
+        "address": "서울 마포구 와우산로19길 9",
+        "area": "hongdae",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1462418270",
+        "name": "플레이포인트랩",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로27길 39",
+        "area": "hongdae",
+        "website_url": "https://playpointlab.com/office/detail?bid=11",
+        "is_active": true
+      },
+      {
+        "cafe_id": "671151862",
+        "name": "마스터키",
+        "branch_name": "건대점",
+        "address": "서울 광진구 동일로 96",
+        "area": "konkuk",
+        "website_url": "https://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "751793807",
+        "name": "마스터키",
+        "branch_name": "홍대상수점",
+        "address": "서울 마포구 상수동 317-4 상수동오피스텔 지하1층",
+        "area": "hongdae",
+        "phone": null,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=20",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      },
+      {
+        "cafe_id": "97734177",
+        "name": "마스터키프라임",
+        "branch_name": "신촌퍼플릭",
+        "address": "서울 서대문구 창천동 52-130 지하1층",
+        "area": "sinchon",
+        "phone": null,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=32",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      },
+      {
+        "cafe_id": "1559912469",
+        "name": "플레이포인트랩 해운대",
+        "branch_name": "블루오션스테이션점",
+        "address": "부산 해운대구 해운대로 620",
+        "area": "busan",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1397923384",
+        "name": "플레이포인트랩",
+        "branch_name": "부산서면오리진점",
+        "address": "부산 부산진구 중앙대로680번길 30",
+        "area": "busan",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "886826713",
+        "name": "플레이포인트랩",
+        "branch_name": "서면점",
+        "address": "부산 부산진구 서면로68번길 18",
+        "area": "busan",
+        "phone": null,
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=44",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      },
+      {
+        "cafe_id": "27495854",
+        "name": "마스터키",
+        "branch_name": "궁동직영점",
+        "address": "대전 유성구 대학로151번길 26",
+        "area": "daejeon",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27523824",
+        "name": "마스터키",
+        "branch_name": "은행직영점",
+        "address": "대전 중구 중앙로156번길 40",
+        "area": "daejeon",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "164781377",
+        "name": "마스터키",
+        "branch_name": "프라임청주점",
+        "address": "충북 청주시 상당구 상당로69번길 3",
+        "area": "chungbuk",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1850589033",
+        "name": "마스터키",
+        "branch_name": "평택점",
+        "address": "경기 평택시 평택2로10번길 34",
+        "area": "gyeonggi",
+        "website_url": "http://www.master-key.co.kr/booking/bk_detail?bid=27",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1834906043",
+        "name": "마스터키",
+        "branch_name": "동탄프레임점",
+        "address": "경기 화성시 동탄구 동탄중심상가2길 37",
+        "area": "gyeonggi",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "870806933",
+        "name": "마스터키",
+        "branch_name": "화정점",
+        "address": "경기 고양시 덕양구 화신로272번길 29",
+        "area": "gyeonggi",
+        "website_url": "http://www.master-key.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "967129600",
+        "name": "플레이포인트랩",
+        "branch_name": "잠실점",
+        "address": "서울 송파구 백제고분로7길 27",
+        "area": "jamsil",
+        "website_url": "https://playpointlab.com/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1292714537",
+        "name": "마스터키",
+        "branch_name": "전주고사점",
+        "address": "전북특별자치도 전주시 완산구 전주객사5길 30-2",
+        "area": "jeonbuk",
+        "phone": null,
+        "website_url": "http://www.master-key.co.kr/",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      },
+      {
+        "cafe_id": "1727885052",
+        "name": "마스터키",
+        "branch_name": "익산점",
+        "address": "전북특별자치도 익산시 동서로19길 74-1",
+        "area": "jeonbuk",
+        "phone": null,
+        "website_url": "http://www.master-key.co.kr/",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      },
+      {
+        "cafe_id": "2039293420",
+        "name": "마스터키",
+        "branch_name": "동성로2호점",
+        "address": "대구 중구 동성로5길 43",
+        "area": "daegu",
+        "phone": null,
+        "website_url": "http://www.master-key.co.kr/",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      },
+      {
+        "cafe_id": "2030700012",
+        "name": "플레이포인트랩",
+        "branch_name": "두정점",
+        "address": "충남 천안시 서북구 두정로 177",
+        "area": "chungnam",
+        "phone": null,
+        "website_url": "https://playpointlab.com/office/detail?bid=7",
+        "engine": "masterkey",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "SHOP_MAP": {
+        "35": [
+          "1466171651"
+        ],
+        "41": [
+          "1987907479"
+        ],
+        "11": [
+          "1462418270"
+        ],
+        "26": [
+          "671151862"
+        ],
+        "20": [
+          "751793807"
+        ],
+        "32": [
+          "97734177"
+        ],
+        "40": [
+          "1559912469"
+        ],
+        "43": [
+          "1397923384"
+        ],
+        "44": [
+          "886826713"
+        ],
+        "1": [
+          "27495854"
+        ],
+        "2": [
+          "27523824"
+        ],
+        "24": [
+          "164781377"
+        ],
+        "27": [
+          "1850589033"
+        ],
+        "30": [
+          "1834906043"
+        ],
+        "23": [
+          "870806933"
+        ],
+        "21": [
+          "967129600"
+        ],
+        "8": [
+          "1292714537"
+        ],
+        "12": [
+          "1727885052"
+        ],
+        "14": [
+          "2039293420"
+        ],
+        "7": [
+          "2030700012"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_movieescape_cokr_db",
+    "name": "무비이스케이프 동탄점(movieescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://movieescape.co.kr"
+    ],
+    "cafe_ids": [
+      "1956789824"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1956789824",
+        "name": "무비이스케이프",
+        "branch_name": "동탄점",
+        "address": "경기도 화성시 동탄중심상가2길 15 수성프라자 5층",
+        "area": "gyeonggi",
+        "website_url": "https://movieescape.co.kr",
+        "engine": "movieescape_cokr",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_movieescape_db",
+    "name": "bucheonroute Django 플랫폼 방탈출 카페 통합 동기화 스크립트.",
+    "urls": [
+      "http://movieescape.kr",
+      "http://route-sw.com",
+      "http://routeescape.com",
+      "http://www.routeescape.co.kr"
+    ],
+    "cafe_ids": [
+      "136198096",
+      "1609773844",
+      "1855837227",
+      "857573680"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1855837227",
+        "cafe_name": "무비이스케이프",
+        "branch_name": "동탄남광장점",
+        "address": "경기 화성시 동탄구 동탄중심상가1길 35",
+        "area": "gyeonggi",
+        "name": "무비이스케이프",
+        "website_url": "http://movieescape.kr",
+        "engine": "bucheonroute",
+        "is_active": true
+      },
+      {
+        "cafe_id": "857573680",
+        "cafe_name": "루트이스케이프",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 향교로 12-1",
+        "area": "gyeonggi",
+        "name": "루트이스케이프",
+        "website_url": "http://route-sw.com",
+        "engine": "bucheonroute",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1609773844",
+        "cafe_name": "루트이스케이프",
+        "branch_name": "안산점",
+        "address": "경기 안산시 단원구 고잔1길 40",
+        "area": "gyeonggi",
+        "name": "루트이스케이프",
+        "website_url": "http://www.routeescape.co.kr",
+        "engine": "bucheonroute",
+        "is_active": true
+      },
+      {
+        "cafe_id": "136198096",
+        "cafe_name": "루트이스케이프",
+        "branch_name": "평택점",
+        "address": "경기 평택시 평택로 41",
+        "area": "gyeonggi",
+        "name": "루트이스케이프",
+        "website_url": "http://routeescape.com",
+        "engine": "bucheonroute",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_murderparker_db",
+    "name": "머더파커(murderparker.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://murderparker.com"
+    ],
+    "cafe_ids": [
+      "1016102948",
+      "1250945647",
+      "130115446",
+      "1450292038",
+      "1604521778",
+      "1788375645",
+      "1796437751",
+      "1862264503",
+      "27545114",
+      "3373516",
+      "399727939",
+      "583591672",
+      "605934214",
+      "64956517"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "27545114",
+        "branch_name": "전주1호점",
+        "address": "전북특별자치도 전주시 완산구 전동 168-5",
+        "area": "jeonbuk",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "605934214",
+        "branch_name": "전주2호점",
+        "address": "전북특별자치도 전주시 완산구 풍남문2길 60 2층",
+        "area": "jeonbuk",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "583591672",
+        "branch_name": "양산점",
+        "address": "경남 양산시 물금읍 범어로 64 한양프라자 3층",
+        "area": "gyeongnam",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "399727939",
+        "branch_name": "전주3호점",
+        "address": "전북특별자치도 전주시 완산구 효자동2가 1155-4",
+        "area": "jeonbuk",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1788375645",
+        "branch_name": "대구1호점",
+        "address": "대구 중구 봉산동 24-7",
+        "area": "daegu",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1016102948",
+        "branch_name": "건대1호점",
+        "address": "서울 광진구 아차산로 213 지하1층",
+        "area": "konkuk",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "3373516",
+        "branch_name": "광주점",
+        "address": "광주 동구 충장로안길 14",
+        "area": "gwangju",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1862264503",
+        "branch_name": "건대2호점",
+        "address": "서울 광진구 동일로22길 68 지하1층",
+        "area": "konkuk",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1604521778",
+        "branch_name": "홍대1호점",
+        "address": "서울 마포구 어울마당로 55-4 3층",
+        "area": "hongdae",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1450292038",
+        "branch_name": "대구2호점",
+        "address": "대구 중구 동성로3길 8 3층",
+        "area": "daegu",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1796437751",
+        "branch_name": "잠실점",
+        "address": "서울 송파구 올림픽로35다길 14 지하 1층",
+        "area": "jamsil",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1250945647",
+        "branch_name": "부산점",
+        "address": "부산 부산진구 중앙대로680번길 45-8 3층",
+        "area": "busan",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "64956517",
+        "branch_name": "WOW 홍대점",
+        "address": "서울 마포구 잔다리로6길 25 3층",
+        "area": "hongdae",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      },
+      {
+        "cafe_id": "130115446",
+        "branch_name": "익산점",
+        "address": "전북특별자치도 익산시 신동 801-1",
+        "area": "jeonbuk",
+        "name": "머더파커",
+        "website_url": "http://murderparker.com",
+        "engine": "murderparker",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_mysteryroom_db",
+    "name": "미스터리룸이스케이프 (mysteryroomescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://mysteryroomescape.com"
+    ],
+    "cafe_ids": [
+      "27367643",
+      "727312827"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "27367643",
+        "cafe_name": "미스터리룸이스케이프",
+        "branch_name": "강남점",
+        "address": "서울 강남구 역삼동 823-17 강남파인애플 B1F",
+        "area": "gangnam",
+        "name": "미스터리룸이스케이프",
+        "website_url": "http://mysteryroomescape.com/",
+        "engine": "mysteryroom",
+        "is_active": true
+      },
+      {
+        "cafe_id": "727312827",
+        "cafe_name": "미스터리룸이스케이프",
+        "branch_name": "홍대2호점",
+        "address": "서울 마포구 독막로7길 41",
+        "area": "hongdae",
+        "name": "미스터리룸이스케이프",
+        "website_url": "http://www.mysteryroomescape.com/",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "27": [
+          "27367643"
+        ],
+        "44": [
+          "727312827"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_nextedition_db",
+    "name": "넥스트에디션(nextedition.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://macro.playthe.world",
+      "https://www.nextedition.co.kr"
+    ],
+    "cafe_ids": [
+      "1108129560",
+      "1224056973",
+      "1460924995",
+      "1678997732",
+      "1973765277",
+      "287949141",
+      "635335984"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1973765277",
+        "name": "넥스트에디션",
+        "branch_name": "건대1호점",
+        "address": "서울 광진구 자양동 17-5, 지하 1층",
+        "area": "konkuk",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=acBZTNkAVSAF1epy",
+        "engine": "nextedition",
+        "is_active": true
+      },
+      {
+        "cafe_id": "287949141",
+        "name": "넥스트에디션",
+        "branch_name": "건대2호점",
+        "address": "서울 광진구 아차산로 192, 별관 2,3층",
+        "area": "konkuk",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=KAuTx3m4n65nuMNB",
+        "engine": "nextedition",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1108129560",
+        "name": "넥스트에디션",
+        "branch_name": "건대 보네르관",
+        "address": "서울 광진구 화양동 9-19, 지하 1층",
+        "area": "konkuk",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=KBUDLjRFoSYfUXrD",
+        "engine": "nextedition",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1224056973",
+        "name": "넥스트에디션",
+        "branch_name": "신림점",
+        "address": "서울 관악구 남부순환로 1598, 지하 1층",
+        "area": "sinlim",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=qN5HHMkKFyf8uyjj",
+        "engine": "nextedition",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1460924995",
+        "name": "넥스트에디션",
+        "branch_name": "잠실점",
+        "address": "서울 송파구 올림픽로 118, 지하 1층",
+        "area": "jamsil",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=mC6ZzJXrCSRwvaGq",
+        "engine": "nextedition",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1678997732",
+        "name": "넥스트에디션",
+        "branch_name": "부천점",
+        "address": "경기 부천시 원미구 심곡동 175-9, 6층",
+        "area": "gyeonggi",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=XKCRH8C1Hi4HMZ1S",
+        "engine": "nextedition",
+        "is_active": true
+      },
+      {
+        "cafe_id": "635335984",
+        "name": "넥스트에디션",
+        "branch_name": "분당서현점",
+        "address": "경기 성남시 분당구 황새울로342번길 19 지하1층 101호 넥스트에디션",
+        "area": "gyeonggi",
+        "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=timEGRUC2R7mzs7s",
+        "engine": "nextedition",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "SHOP_MAP": {
+        "acBZTNkAVSAF1epy": [
+          "1973765277"
+        ],
+        "KAuTx3m4n65nuMNB": [
+          "287949141"
+        ],
+        "KBUDLjRFoSYfUXrD": [
+          "1108129560"
+        ],
+        "qN5HHMkKFyf8uyjj": [
+          "1224056973"
+        ],
+        "mC6ZzJXrCSRwvaGq": [
+          "1460924995"
+        ],
+        "XKCRH8C1Hi4HMZ1S": [
+          "1678997732"
+        ],
+        "timEGRUC2R7mzs7s": [
+          "635335984"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_no1escape_db",
+    "name": "방탈출 넘버원(수원) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.no1escape.com"
+    ],
+    "cafe_ids": [
+      "27324626"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "27324626",
+        "name": "방탈출NO1",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 향교로 47",
+        "area": "gyeonggi",
+        "website_url": "http://www.no1escape.com",
+        "engine": "no1escape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_oasisescape_db",
+    "name": "오아시스 뮤지엄 방탈출 (oasismuseum.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://oasismuseum.com"
+    ],
+    "cafe_ids": [
+      "848848018"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "848848018",
+        "name": "오아시스 뮤지엄",
+        "address": "서울 마포구 서교동 403-21",
+        "area": "hongdae",
+        "website_url": "https://oasismuseum.com",
+        "engine": "oasisescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_orangetb_db",
+    "name": "오렌지티비 방탈출(orangetb.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://orangetb.com"
+    ],
+    "cafe_ids": [
+      "1908328454",
+      "363716272"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "363716272",
+        "name": "오렌지티비",
+        "branch_name": "대구동성로점",
+        "address": "대구 중구 동성로5길 62 4층",
+        "area": "daegu",
+        "website_url": "http://orangetb.com",
+        "engine": "orangetb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1908328454",
+        "name": "오렌지티비",
+        "branch_name": "대전은행점",
+        "address": "대전 중구 중앙로156번길24 3층",
+        "area": "daejeon",
+        "website_url": "http://orangetb.com",
+        "engine": "orangetb",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_panicescape_db",
+    "name": "패닉이스케이프(panicescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.panicescape.com"
+    ],
+    "cafe_ids": [
+      "27178625"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "27178625",
+        "branch_name": "목동점",
+        "address": "서울 양천구 목동동로 343 3층",
+        "area": "seoul_other",
+        "name": "패닉이스케이프",
+        "website_url": "http://www.panicescape.com",
+        "engine": "panicescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_play33_db",
+    "name": "플레이33 (play33.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://play33.kr"
+    ],
+    "cafe_ids": [
+      "1385414031",
+      "official_play33_4",
+      "official_play33_5",
+      "official_play33_7"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1385414031",
+        "cafe_name": "플레이33",
+        "branch_name": "건대점",
+        "address": "서울 광진구 자양동 13-3 지하1층",
+        "area": "konkuk",
+        "name": "플레이33",
+        "website_url": "https://play33.kr/reservation",
+        "engine": "play33",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_play33_4",
+        "cafe_name": "플레이33",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로21길 36-8 (레디안트) 3층",
+        "area": "hongdae",
+        "name": "플레이33",
+        "website_url": "https://play33.kr/reservation",
+        "engine": "play33",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_play33_5",
+        "cafe_name": "플레이33",
+        "branch_name": "대전점",
+        "address": "대전 중구 중앙로164번길 17 지하1층",
+        "area": "daejeon",
+        "name": "플레이33",
+        "website_url": "https://play33.kr/reservation",
+        "engine": "play33",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_play33_7",
+        "cafe_name": "플레이33",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 인계로138번길 36 2층 방탈출카페 플레이33 PLAY33",
+        "area": "gyeonggi",
+        "name": "플레이33",
+        "website_url": "https://play33.kr/reservation",
+        "engine": "play33",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "1": [
+          "1385414031"
+        ],
+        "4": [
+          "official_play33_4"
+        ],
+        "5": [
+          "official_play33_5"
+        ],
+        "7": [
+          "official_play33_7"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_playescape_db",
+    "name": "플레이이스케이프(playescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.playescape.co.kr"
+    ],
+    "cafe_ids": [
+      "1416262413"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1416262413",
+        "name": "플레이이스케이프",
+        "branch_name": "원주점",
+        "address": "강원특별자치도 원주시 단계동 855-1",
+        "area": "gangwon",
+        "website_url": "http://www.playescape.co.kr",
+        "engine": "playescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_playtheworld_etc_db",
+    "name": "macro.playthe.world 플랫폼을 사용하는 추가 방탈출 브랜드 동기화 스크립트.",
+    "urls": [
+      "https://macro.playthe.world"
+    ],
+    "cafe_ids": [
+      "1000900386",
+      "1224388097",
+      "1393764461",
+      "1542251042",
+      "1544141348",
+      "1637776603",
+      "2012633570",
+      "2016521022",
+      "212176813",
+      "27329834",
+      "690123759",
+      "76631654",
+      "767938268",
+      "802938757",
+      "841734382",
+      "912842418",
+      "929019886"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "841734382",
+        "name": "플레이더월드",
+        "branch_name": "강남점",
+        "address": "서울 서초구 사평대로56길 14",
+        "area": "gangnam",
+        "website_url": "https://reservation.playthe.world/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "767938268",
+        "name": "플레이더월드",
+        "branch_name": "평택점",
+        "address": "경기 평택시 평택2로10번길 34",
+        "area": "gyeonggi",
+        "website_url": "https://playthe.world/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "76631654",
+        "name": "플레이더월드",
+        "branch_name": "동성로점",
+        "address": "대구 중구 동성로5길 43",
+        "area": "daegu",
+        "website_url": "https://playthe.world/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1637776603",
+        "name": "플레이더월드",
+        "branch_name": "부평점",
+        "address": "인천 부평구 부평문화로80번길 31",
+        "area": "incheon",
+        "website_url": "https://playthe.world/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1224388097",
+        "name": "플레이더월드",
+        "branch_name": "대전은행점",
+        "address": "대전 중구 대종로480번길 7",
+        "area": "daejeon",
+        "website_url": "https://playthe.world/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "212176813",
+        "name": "개꿀이스케이프",
+        "address": "서울 강남구 강남대로118길 40",
+        "area": "gangnam",
+        "website_url": "https://doghoneyescape.com/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1000900386",
+        "name": "이스케이프샾",
+        "address": "서울 강남구 논현로175길 93",
+        "area": "gangnam",
+        "website_url": "https://escapeshop.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2016521022",
+        "name": "이스케이프샾",
+        "branch_name": "건대점",
+        "address": "서울 광진구 능동로 129-1",
+        "area": "konkuk",
+        "website_url": "https://escapeshop.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27329834",
+        "name": "룸익스케이프",
+        "branch_name": "신촌 블랙점",
+        "address": "서울 서대문구 연세로4길 6 3층",
+        "area": "sinchon",
+        "website_url": "https://ex-cape.com/",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1542251042",
+        "name": "룸익스케이프",
+        "branch_name": "신촌 화이트점",
+        "address": "서울 서대문구 명물길 66 2층",
+        "area": "sinchon",
+        "website_url": "https://ex-cape.com/",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "912842418",
+        "name": "룸익스케이프",
+        "branch_name": "신촌 올리브점",
+        "address": "서울 서대문구 연세로9길 25 지하 1층",
+        "area": "sinchon",
+        "website_url": "https://ex-cape.com/",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "690123759",
+        "name": "룸익스케이프",
+        "branch_name": "인디고블루점",
+        "address": "서울 서대문구 연세로5가길 21",
+        "area": "sinchon",
+        "website_url": "https://www.ex-cape.com/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2012633570",
+        "name": "오늘의한페이지 방탈출카페",
+        "address": "서울 강남구 봉은사로6길 26",
+        "area": "gangnam",
+        "website_url": "https://page-today.co.kr/#reserve",
+        "is_active": true
+      },
+      {
+        "cafe_id": "802938757",
+        "name": "룸즈에이",
+        "branch_name": "부평점",
+        "address": "인천 부평구 부평대로 26",
+        "area": "incheon",
+        "website_url": "http://roomsa.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1544141348",
+        "name": "룸즈에이",
+        "branch_name": "광주수완2호점",
+        "address": "광주 광산구 장신로 76",
+        "area": "gwangju",
+        "website_url": "https://www.roomsa.co.kr/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1393764461",
+        "name": "gateoftime",
+        "branch_name": "광주점",
+        "address": "광주 동구 중앙로160번길 15-3, 3층",
+        "area": "gwangju",
+        "website_url": "https://gateoftime.kr/reservation.html?keycode=YybEYe16XjtuRV7S",
+        "engine": "playtheworld",
+        "is_active": true
+      },
+      {
+        "cafe_id": "929019886",
+        "name": "gateoftime",
+        "branch_name": "대구동성로점",
+        "address": "대구 중구 중앙대로 394-8, 2층",
+        "area": "daegu",
+        "website_url": "https://gateoftime.kr/reservation.html?keycode=HiJhoQFf8ThapVG3",
+        "engine": "playtheworld",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_public_extra_db",
+    "name": "공식 공개 예약표: 플러스이스케이프(날짜 JSON), 익스플로리아(날짜 HTML).",
+    "urls": [
+      "https://www.exploria-escape.kr",
+      "https://www.plus-escape.com"
+    ],
+    "cafe_ids": [
+      "official_exploria",
+      "official_plus"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "official_plus",
+        "cafe_name": "플러스이스케이프",
+        "branch_name": "",
+        "address": "대구광역시 동구 장등로 36-1 6층",
+        "name": "플러스이스케이프",
+        "area": "daegu",
+        "website_url": "https://www.plus-escape.com",
+        "engine": "plus_public",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_exploria",
+        "cafe_name": "익스플로리아이스케이프",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 효원로235번길 51 3층",
+        "name": "익스플로리아이스케이프",
+        "area": "gyeonggi",
+        "website_url": "https://www.exploria-escape.kr",
+        "engine": "exploria_public",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_puzzlefactory_db",
+    "name": "크라임씬카페 퍼즐팩토리(puzzlefactory.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.puzzlefactory.co.kr"
+    ],
+    "cafe_ids": [
+      "2022859547",
+      "315548029"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "315548029",
+        "branch_name": "홍대3호점",
+        "address": "서울 마포구 양화로 120",
+        "area": "hongdae",
+        "name": "크라임씬카페 퍼즐팩토리",
+        "website_url": "http://www.puzzlefactory.co.kr",
+        "engine": "puzzlefactory",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2022859547",
+        "branch_name": "성수점",
+        "address": "서울 성동구 연무장3길 10-1",
+        "area": "seongsu",
+        "name": "크라임씬카페 퍼즐팩토리",
+        "website_url": "http://www.puzzlefactory.co.kr",
+        "engine": "puzzlefactory",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_rabbithole_db",
+    "name": "방탈출토끼굴 (rabbitholeescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.rabbitholeescape.co.kr"
+    ],
+    "cafe_ids": [
+      "187287513"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "187287513",
+        "cafe_name": "방탈출토끼굴",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 창전동 6-137 지하1층",
+        "area": "hongdae",
+        "name": "방탈출토끼굴",
+        "website_url": "https://www.rabbitholeescape.co.kr/",
+        "engine": "rabbithole",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "1": [
+          "187287513"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_rememberesc_db",
+    "name": "리멤버방탈출(rememberesc.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://rememberesc.com"
+    ],
+    "cafe_ids": [
+      "475592733",
+      "49858990"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "475592733",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구",
+        "area": "gyeonggi",
+        "name": "리멤버방탈출",
+        "website_url": "http://rememberesc.com",
+        "engine": "rememberesc",
+        "is_active": true
+      },
+      {
+        "cafe_id": "49858990",
+        "branch_name": "천안점",
+        "address": "충남 천안시 동남구",
+        "area": "cheonan",
+        "name": "리멤버방탈출",
+        "website_url": "http://rememberesc.com",
+        "engine": "rememberesc",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_reverseesc_db",
+    "name": "리버스이스케이프(reverseesc.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://reverseesc.com"
+    ],
+    "cafe_ids": [
+      "1231888375",
+      "1772504569"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1231888375",
+        "branch_name": "향남점",
+        "address": "경기 화성시 향남읍",
+        "area": "gyeonggi",
+        "name": "리버스이스케이프",
+        "website_url": "http://reverseesc.com",
+        "engine": "reverseesc",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1772504569",
+        "branch_name": "안산점",
+        "address": "경기 안산시",
+        "area": "gyeonggi",
+        "name": "리버스이스케이프",
+        "website_url": "http://reverseesc.com",
+        "engine": "reverseesc",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_roomescape_db",
+    "name": "방탈출ESC(roomescape.net) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://roomescape.net"
+    ],
+    "cafe_ids": [
+      "273855007"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "273855007",
+        "branch_name": "신촌점",
+        "address": "서울 서대문구 창천동 19-10",
+        "area": "sinchon",
+        "name": "방탈출ESC",
+        "website_url": "http://roomescape.net",
+        "engine": "roomescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_roomlescape_db",
+    "name": "룸엘이스케이프(roomlescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.roomlescape.com"
+    ],
+    "cafe_ids": [
+      "1735229345",
+      "596589943",
+      "628138029",
+      "782208965"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "596589943",
+        "branch_name": "홍대1호점",
+        "address": "서울 마포구 잔다리로 4 2층",
+        "area": "hongdae",
+        "name": "룸엘이스케이프",
+        "website_url": "http://www.roomlescape.com",
+        "engine": "roomlescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "628138029",
+        "branch_name": "신림점",
+        "address": "서울 관악구 신림동",
+        "area": "sinlim",
+        "name": "룸엘이스케이프",
+        "website_url": "http://www.roomlescape.com",
+        "engine": "roomlescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1735229345",
+        "branch_name": "당곡점",
+        "address": "서울 관악구 보라매로 4 2-3층",
+        "area": "sinlim",
+        "name": "룸엘이스케이프",
+        "website_url": "http://www.roomlescape.com",
+        "engine": "roomlescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "782208965",
+        "branch_name": "신림2호점",
+        "address": "서울 관악구 신림로59길 15-12 1층",
+        "area": "sinlim",
+        "name": "룸엘이스케이프",
+        "website_url": "http://www.roomlescape.com",
+        "engine": "roomlescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_roomsa_catalog_db",
+    "name": "룸즈에이 공개 목록 전용. 예약 화면 보호 상태에서 빈자리를 추정하지 않습니다.",
+    "urls": [
+      "https://roomsa.co.kr"
+    ],
+    "cafe_ids": [
+      "official_roomsa_41",
+      "official_roomsa_42",
+      "official_roomsa_43",
+      "official_roomsa_44",
+      "official_roomsa_46",
+      "official_roomsa_47",
+      "official_roomsa_48",
+      "official_roomsa_49",
+      "official_roomsa_50",
+      "official_roomsa_51",
+      "official_roomsa_52",
+      "official_roomsa_53",
+      "official_roomsa_54",
+      "official_roomsa_55",
+      "official_roomsa_56",
+      "official_roomsa_57",
+      "official_roomsa_58",
+      "official_roomsa_69",
+      "official_roomsa_83"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "official_roomsa_41",
+        "cafe_name": "룸즈에이",
+        "branch_name": "강남점",
+        "address": "서울 강남구 역삼동 827-14, 지하 2층",
+        "area": "gangnam",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_42",
+        "cafe_name": "룸즈에이",
+        "branch_name": "대학로점",
+        "address": "서울 종로구 동숭동 1-65 해안빌딩, 지하 1층",
+        "area": "myeongdong",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_43",
+        "cafe_name": "룸즈에이",
+        "branch_name": "안양범계점",
+        "address": "경기 안양시 동안구 호계동 1041-2, 5층",
+        "area": "gyeonggi",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_44",
+        "cafe_name": "룸즈에이",
+        "branch_name": "일산 웨스턴돔점",
+        "address": "경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호",
+        "area": "gyeonggi",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_46",
+        "cafe_name": "룸즈에이",
+        "branch_name": "의정부점",
+        "address": "경기 의정부시 의정부동 158-10, 4층",
+        "area": "gyeonggi",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_47",
+        "cafe_name": "룸즈에이",
+        "branch_name": "수원역점",
+        "address": "경기 수원시 팔달구 매산로1가 30-1, 3층",
+        "area": "gyeonggi",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_48",
+        "cafe_name": "룸즈에이",
+        "branch_name": "수원역 2호점",
+        "address": "경기 수원시 팔달구 매산로1가 40-1, 3층",
+        "area": "gyeonggi",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_49",
+        "cafe_name": "룸즈에이",
+        "branch_name": "대전둔산점",
+        "address": "대전 서구 둔산동 1063, 태형빌딩 7층",
+        "area": "daejeon",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_50",
+        "cafe_name": "룸즈에이",
+        "branch_name": "대전은행점",
+        "address": "대전 중구 은행동 33-2, 4층",
+        "area": "daejeon",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_51",
+        "cafe_name": "룸즈에이",
+        "branch_name": "부산남포점",
+        "address": "부산 중구 창선동2가 46-1",
+        "area": "busan",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_52",
+        "cafe_name": "룸즈에이",
+        "branch_name": "부산서면점",
+        "address": "부산 부산진구 부전동 198-1 3층",
+        "area": "busan",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_53",
+        "cafe_name": "룸즈에이",
+        "branch_name": "광주수완점",
+        "address": "광주 광산구 수완동 1096 잭슨스테이크 건물5층",
+        "area": "gwangju",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_54",
+        "cafe_name": "룸즈에이",
+        "branch_name": "광주상무점",
+        "address": "광주 서구 상무번영로 37 나우빌딩 6층",
+        "area": "gwangju",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_55",
+        "cafe_name": "룸즈에이",
+        "branch_name": "대구동성로점",
+        "address": "대구 중구 공평동 34-2, 4층",
+        "area": "daegu",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_56",
+        "cafe_name": "룸즈에이",
+        "branch_name": "동성로2호점",
+        "address": "대구 중구 삼덕동1가 18-1, 4층",
+        "area": "daegu",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_57",
+        "cafe_name": "룸즈에이",
+        "branch_name": "동성로 아카데미점",
+        "address": "대구 중구 사일동 54-1, 3층",
+        "area": "daegu",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_83",
+        "cafe_name": "룸즈에이",
+        "branch_name": "대구스테이지점",
+        "address": "대구 중구 동성로2길 28 3층",
+        "area": "daegu",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_58",
+        "cafe_name": "룸즈에이",
+        "branch_name": "포항점",
+        "address": "경북 포항시 북구 상원동 462-5, 스타타워 5층",
+        "area": "gyeongbuk",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_roomsa_69",
+        "cafe_name": "룸즈에이",
+        "branch_name": "부평 2호점",
+        "address": "인천 부평구 부평문화로 75, 3층",
+        "area": "incheon",
+        "name": "룸즈에이",
+        "website_url": "https://roomsa.co.kr/reservation",
+        "engine": "roomsa_catalog",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_secretcode_db",
+    "name": "시크릿코드(secret-code.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.secret-code.co.kr"
+    ],
+    "cafe_ids": [
+      "280887856"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "280887856",
+        "branch_name": "홍대직영점",
+        "address": "서울 마포구 어울마당로 66",
+        "area": "hongdae",
+        "name": "시크릿코드",
+        "website_url": "http://www.secret-code.co.kr",
+        "engine": "secretcode",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_secretgarden_db",
+    "name": "비밀의화원 공식 지점별 공개 예약표. 예약 제출 없이 GET만 수행합니다.",
+    "urls": [
+      "https://www.secretgardenescape.com"
+    ],
+    "cafe_ids": [
+      "official_secretgarden_10",
+      "official_secretgarden_11",
+      "official_secretgarden_12",
+      "official_secretgarden_3",
+      "official_secretgarden_4",
+      "official_secretgarden_5",
+      "official_secretgarden_6"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "official_secretgarden_3",
+        "cafe_name": "비밀의화원",
+        "branch_name": "서면점",
+        "address": "부산 부산진구 중앙대로 700 (부전동) 지하1층",
+        "area": "busan",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_secretgarden_4",
+        "cafe_name": "비밀의화원",
+        "branch_name": "대학로점",
+        "address": "서울 종로구 대학로 130 (동숭동, 맥도널드) 지하 1층",
+        "area": "myeongdong",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_secretgarden_5",
+        "cafe_name": "비밀의화원",
+        "branch_name": "건대점",
+        "address": "서울 광진구 아차산로 235 (화양동) 3층",
+        "area": "konkuk",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_secretgarden_6",
+        "cafe_name": "비밀의화원",
+        "branch_name": "동성로점",
+        "address": "대구 중구 동성로5길 55 (삼덕동1가) 4층",
+        "area": "daegu",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_secretgarden_10",
+        "cafe_name": "비밀의화원",
+        "branch_name": "광주점",
+        "address": "광주 동구 충장로 90 (충장로2가, 갤러리존) 4층",
+        "area": "gwangju",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_secretgarden_11",
+        "cafe_name": "비밀의화원",
+        "branch_name": "시네마틱 혜화점",
+        "address": "서울 종로구 대명길 9 (명륜4가) 지하2층 방탈출",
+        "area": "myeongdong",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_secretgarden_12",
+        "cafe_name": "비밀의화원",
+        "branch_name": "전주점",
+        "address": "전북 전주시 완산구 문화광장로 2 (고사동) 지하층",
+        "area": "jeonbuk",
+        "name": "비밀의화원",
+        "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12&rdate=2026-11-15",
+        "engine": "secretgarden",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_seoulesc_db",
+    "name": "서울이스케이프룸 (seoul-escape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://seoul-escape.com"
+    ],
+    "cafe_ids": [
+      "1351400084"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1351400084",
+        "cafe_name": "서울이스케이프룸",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 어울마당로 138",
+        "area": "hongdae",
+        "name": "서울이스케이프룸",
+        "website_url": "https://www.seoul-escape.com",
+        "engine": "seoulescaperoom",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "1": [
+          "1351400084"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_seoulescaperoom_db",
+    "name": "서울이스케이프룸(seoul-escape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.seoul-escape.com"
+    ],
+    "cafe_ids": [
+      "1351400084",
+      "310013350",
+      "427897815",
+      "892545149"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1351400084",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 어울마당로 138",
+        "area": "hongdae",
+        "name": "서울이스케이프룸",
+        "website_url": "https://www.seoul-escape.com",
+        "engine": "seoulescaperoom",
+        "is_active": true
+      },
+      {
+        "cafe_id": "427897815",
+        "branch_name": "인천부평점",
+        "address": "인천 부평구 부평대로 153",
+        "area": "incheon",
+        "name": "서울이스케이프룸",
+        "website_url": "https://www.seoul-escape.com",
+        "engine": "seoulescaperoom",
+        "is_active": true
+      },
+      {
+        "cafe_id": "892545149",
+        "branch_name": "대구동성로점",
+        "address": "대구 중구 동성로2가 144",
+        "area": "daegu",
+        "name": "서울이스케이프룸",
+        "website_url": "https://www.seoul-escape.com",
+        "engine": "seoulescaperoom",
+        "is_active": true
+      },
+      {
+        "cafe_id": "310013350",
+        "branch_name": "부산서면점",
+        "address": "부산 부산진구 서면로68번길 38",
+        "area": "busan",
+        "name": "서울이스케이프룸",
+        "website_url": "https://www.seoul-escape.com",
+        "engine": "seoulescaperoom",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_sherlock_db",
+    "name": "셜록홈즈 (sherlock-holmes.co.kr) 방탈출 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://sherlock-holmes.co.kr"
+    ],
+    "cafe_ids": [
+      "10098327",
+      "1049164175",
+      "1166453549",
+      "1367009941",
+      "1396409942",
+      "1620988252",
+      "1888259527",
+      "1954089927",
+      "2021007589",
+      "2127065864",
+      "2200000001",
+      "270131531",
+      "27583768",
+      "399640253",
+      "45777628",
+      "462553617",
+      "466116790",
+      "472522287",
+      "582885260",
+      "588118043",
+      "716398207",
+      "728789378",
+      "743084847",
+      "8143798",
+      "816654453",
+      "908334376",
+      "official_sherlock_105",
+      "official_sherlock_110",
+      "official_sherlock_111",
+      "official_sherlock_112",
+      "official_sherlock_113",
+      "official_sherlock_114",
+      "official_sherlock_115",
+      "official_sherlock_116",
+      "official_sherlock_13",
+      "official_sherlock_41",
+      "official_sherlock_44",
+      "official_sherlock_61",
+      "official_sherlock_70",
+      "official_sherlock_79",
+      "official_sherlock_81",
+      "official_sherlock_84",
+      "official_sherlock_86"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "45777628",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "잠실새내점",
+        "address": "서울 송파구 올림픽로10길 13-1 은성빌딩 2층",
+        "area": "jamsil",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=107#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "466116790",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "잠실1호점",
+        "address": "서울 송파구 백제고분로7길 19 3,4층",
+        "area": "jamsil",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=35#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "462553617",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "종각점",
+        "address": "서울 종로구 삼일대로17길 17 4층",
+        "area": "myeongdong",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=69#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "270131531",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대학로점",
+        "address": "서울 종로구 대학로10길 5 4층",
+        "area": "daehakro",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=88#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1367009941",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "노원점",
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "area": "seoul_other",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=48#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "10098327",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "성신여대점",
+        "address": "서울 성북구 동선동1가 87 4층",
+        "area": "seoul_other",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=54#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "8143798",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "노량진점",
+        "address": "서울 동작구 노량진동 118-8 지하1층",
+        "area": "seoul_other",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2127065864",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "부평점",
+        "address": "인천 부평구 부평대로 293 3층",
+        "area": "incheon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=45#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "399640253",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "부평2호점",
+        "address": "인천 부평구 경인로 570",
+        "area": "incheon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=101#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1396409942",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "분당야탑점",
+        "address": "경기 성남시 분당구 야탑동 353-3 3층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "816654453",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "서현점",
+        "address": "경기 성남시 분당구 서현동 268-4 4층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=87#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1954089927",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "미사점",
+        "address": "경기 하남시 망월동 1111 미사강변도시 상업4블록 4층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=94#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "743084847",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "김포구래점",
+        "address": "경기 김포시 구래동 6882-16 킨텍스원시티몰 4층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=102#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "582885260",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "수지구청점",
+        "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=106#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "728789378",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "평택점",
+        "address": "경기 평택시 평택2로10번길 10-4",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=80#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2021007589",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "용인동백점",
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=96#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "716398207",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "수원역점",
+        "address": "경기 수원시 팔달구 향교로 9",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=100#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1620988252",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "부천중동점",
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=104#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1166453549",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "수원인계점",
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=108#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1888259527",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "안양범계점",
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=109#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "472522287",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대전은행점",
+        "address": "대전 중구 은행동 52-5",
+        "area": "daejeon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=103#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27583768",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "천안1호점",
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "area": "chungnam",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=14#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "908334376",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "천안2호점",
+        "address": "충남 천안시 동남구 신부동 461-9",
+        "area": "chungnam",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=74#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1049164175",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "부산아트몰링점",
+        "address": "부산 사하구 하단동 526-6",
+        "area": "busan",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=95#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2200000001",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "부산기장정관점",
+        "address": "부산 기장군 정관읍",
+        "area": "busan",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "588118043",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "원주점",
+        "address": "강원특별자치도 원주시 반곡동 1880-8",
+        "area": "gangwon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=17&bno=92#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_116",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "광명철산점",
+        "address": "경기도 광명시 오리로856번길 8 금봉빌딩 4층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=116#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_41",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "구리점",
+        "address": "경기도 구리시 경춘로 218-5 3층 셜록홈즈 구리점",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=41#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_13",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "구월인천점",
+        "address": "인천광역시 남동구 성말로 10 (구월동 1463)  효명프라자 5층, 셜록홈즈 구월인천점",
+        "area": "incheon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=13#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_110",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "군산수송점",
+        "address": "전북특별자치도 군산시 동수송안길 23. 4층",
+        "area": "jeonbuk",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=13&bno=110#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_111",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "뉴부천점",
+        "address": "경기도 부천시 원미구 심곡동 383-5. 5층",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=111#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_81",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "뉴안양점",
+        "address": "경기도 안양시 만안구 안양로304번길 25 (안양동) 3층 셜록홈즈 뉴안양점",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=81#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_84",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대구동성로점",
+        "address": "대구광역시 중구 동성로5길 45. 3층 셜록홈즈 대구동성로점",
+        "area": "daegu",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=84#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_115",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대전둔산점",
+        "address": "대전광역시 서구 대덕대로185번길 23, 4층",
+        "area": "daejeon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=115#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_79",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "동탄점",
+        "address": "경기도 화성시 동탄중심상가2길 5, 리더스 프라자 3층 셜록홈즈 동탄점",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=79#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_105",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "송도트리플점",
+        "address": "인천광역시 연수구 송도과학로16번길 33-4,  D동 204,205호(송도동, 송도 트리플스트리트)",
+        "area": "incheon",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=105#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_113",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "수원역2호점",
+        "address": "경기도 수원시 팔달구 향교로 18-1(2,3층)",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=113#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_86",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "아산점",
+        "address": "충청남도 아산시 번영로 220, 3층",
+        "area": "chungnam",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=86#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_114",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "안산점",
+        "address": "경기도 안산시 단원구 중앙대로 915, 월드코아빌딩 4층 13호",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=114#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_44",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "여수점",
+        "address": "전라남도 여수시 시청동3길 35-18(학동) 대형빌딩 2층",
+        "area": "jeonnam",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=13&bno=44#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_112",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "용인역북점",
+        "address": "경기도 용인시 처인구 역북동749 파스텔시티 304호, 305호",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=112#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_61",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "의정부점",
+        "address": "경기 의정부시 행복로 16 삼성빌딩 4층,  셜록홈즈 의정부점",
+        "area": "gyeonggi",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=61#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sherlock_70",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "청주점",
+        "address": "충북 청주시 상당구 상당로 81번길 58, 3층",
+        "area": "chungbuk",
+        "name": "셜록홈즈",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=70#reservation",
+        "engine": "sherlock",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_showroom404_db",
+    "name": "쇼룸404 (showroom404.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://showroom404.com"
+    ],
+    "cafe_ids": [
+      "887263854"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "887263854",
+        "name": "쇼룸404",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 서교동 407-27 5층",
+        "area": "hongdae",
+        "phone": null,
+        "website_url": "https://showroom404.com/",
+        "engine": "showroom404",
+        "crawled": true,
+        "lat": null,
+        "lng": null,
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_signescape_db",
+    "name": "싸인이스케이프(signescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.signescape.com"
+    ],
+    "cafe_ids": [
+      "115701517",
+      "1245109855",
+      "2400000001",
+      "570522076",
+      "678802397"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "678802397",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로 65 6층",
+        "area": "hongdae",
+        "name": "싸인이스케이프",
+        "website_url": "http://www.signescape.com",
+        "engine": "signescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1245109855",
+        "branch_name": "강남시티점",
+        "address": "서울 강남구 강남대로94길 67 도연빌딩 지하1층",
+        "area": "gangnam",
+        "name": "싸인이스케이프",
+        "website_url": "http://www.signescape.com",
+        "engine": "signescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "570522076",
+        "branch_name": "성대역점",
+        "address": "경기 수원시 장안구 율전동 292-7",
+        "area": "gyeonggi",
+        "name": "싸인이스케이프",
+        "website_url": "http://www.signescape.com",
+        "engine": "signescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2400000001",
+        "branch_name": "상수점",
+        "address": "서울 마포구 와우산로 65 3층",
+        "area": "hongdae",
+        "name": "싸인이스케이프",
+        "website_url": "http://www.signescape.com",
+        "engine": "signescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "115701517",
+        "branch_name": "인계시티점",
+        "address": "경기 수원시 팔달구 인계동 1041-8",
+        "area": "gyeonggi",
+        "name": "싸인이스케이프",
+        "website_url": "http://www.signescape.com",
+        "engine": "signescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_sinbiweb_db",
+    "name": "sinbiweb PHP CMS 방탈출 카페 통합 동기화 스크립트.",
+    "urls": [
+      "http://busted.kr",
+      "http://cold-case.co.kr",
+      "http://dcodeescape.co.kr",
+      "http://hotelletoh.co.kr",
+      "http://labyrinth.15440835.com",
+      "http://legendescape.com",
+      "http://oclock-escape.com",
+      "http://www.qescapeilsan.co.kr",
+      "http://www.xn--vh3bw8qo2aba23i98on1f.com",
+      "http://xn--jj0b998aq3cptw.com",
+      "https://codehunter-escape.com",
+      "https://doloescape.co.kr",
+      "https://doomescape.com",
+      "https://epilogueescape.com",
+      "https://eroom8.co.kr",
+      "https://escapebro.co.kr",
+      "https://exodusescape.co.kr",
+      "https://happyanding.co.kr",
+      "https://mysterytown.co.kr",
+      "https://point-nine.com",
+      "https://speakeasyescape.co.kr",
+      "https://sslone.co.kr",
+      "https://weyol.com",
+      "https://xn--910bj3tlmfz4e.com",
+      "https://xn--bb0b44mb8pfwi.kr",
+      "https://xn--h32b25mu4dba377gzscs2k.com",
+      "https://xn--z92b74ha268d.com"
+    ],
+    "cafe_ids": [
+      "103606910",
+      "1045036053",
+      "1092766492",
+      "1121229740",
+      "1168819420",
+      "1213158520",
+      "1271584354",
+      "1321479252",
+      "1387240933",
+      "1425246210",
+      "1521613397",
+      "1541961243",
+      "1554942559",
+      "1568417037",
+      "1591055284",
+      "1825220691",
+      "1875954710",
+      "1958696909",
+      "1968639091",
+      "2055691742",
+      "348406652",
+      "351145232",
+      "444802506",
+      "455356224",
+      "458997744",
+      "505122419",
+      "636394528",
+      "776353707",
+      "892126854",
+      "997136500",
+      "official_dolo",
+      "official_eroom8",
+      "official_pointnine_1",
+      "official_pointnine_5",
+      "official_pointnine_6",
+      "official_sslone_1",
+      "official_sslone_2",
+      "official_sslone_4",
+      "official_sslone_5",
+      "official_weyol"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1271584354",
+        "cafe_name": "황금열쇠",
+        "branch_name": "건대점",
+        "address": "서울 광진구 화양동 9-90 4층",
+        "area": "konkuk",
+        "name": "황금열쇠",
+        "website_url": "http://xn--jj0b998aq3cptw.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1958696909",
+        "cafe_name": "황금열쇠",
+        "branch_name": "동성로점",
+        "address": "대구 중구 봉산동 22-1",
+        "area": "daegu",
+        "name": "황금열쇠",
+        "website_url": "http://xn--jj0b998aq3cptw.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1521613397",
+        "cafe_name": "나의신방",
+        "branch_name": "신촌점",
+        "address": "서울 서대문구 창천동 57-3 3층",
+        "area": "sinchon",
+        "name": "나의신방",
+        "website_url": "https://xn--910bj3tlmfz4e.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "103606910",
+        "cafe_name": "엑소더스",
+        "branch_name": "강남1호점",
+        "address": "서울 강남구 역삼동 619-23 지하 1층",
+        "area": "gangnam",
+        "name": "엑소더스",
+        "website_url": "https://exodusescape.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1213158520",
+        "cafe_name": "코드헌터",
+        "branch_name": "강남점",
+        "address": "서울 강남구 역삼동 817-17 3층",
+        "area": "gangnam",
+        "name": "코드헌터",
+        "website_url": "https://codehunter-escape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1541961243",
+        "cafe_name": "해피앤딩",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로21길 31-11",
+        "area": "hongdae",
+        "name": "해피앤딩",
+        "website_url": "https://happyanding.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "458997744",
+        "cafe_name": "에필로그",
+        "address": "서울 종로구 대학로8가길 48",
+        "area": "myeongdong",
+        "name": "에필로그",
+        "website_url": "https://epilogueescape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1825220691",
+        "cafe_name": "스피키지",
+        "address": "서울 마포구 어울마당로 138 4층",
+        "area": "hongdae",
+        "name": "스피키지",
+        "website_url": "https://speakeasyescape.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1168819420",
+        "cafe_name": "호텔레토",
+        "branch_name": "성수점",
+        "address": "서울 성동구 성수이로 78 2층",
+        "area": "seongsu",
+        "name": "호텔레토",
+        "website_url": "http://hotelletoh.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1045036053",
+        "cafe_name": "탈출브라더스",
+        "branch_name": "영등포점",
+        "address": "서울 영등포구 영등포동4가 433 4층",
+        "area": "seoul_other",
+        "name": "탈출브라더스",
+        "website_url": "https://escapebro.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1425246210",
+        "cafe_name": "어클락이스케이프",
+        "address": "경기 시흥시 서울대학로278번길 43-13",
+        "area": "gyeonggi",
+        "name": "어클락이스케이프",
+        "website_url": "http://oclock-escape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "997136500",
+        "cafe_name": "둠이스케이프",
+        "branch_name": "1호점",
+        "address": "인천 남동구 성말로13번길 15",
+        "area": "incheon",
+        "name": "둠이스케이프",
+        "website_url": "https://doomescape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1321479252",
+        "cafe_name": "둠이스케이프",
+        "branch_name": "2호점",
+        "address": "인천 남동구 인하로507번길 18",
+        "area": "incheon",
+        "name": "둠이스케이프",
+        "website_url": "https://doomescape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "892126854",
+        "cafe_name": "둠이스케이프",
+        "branch_name": "DTH점",
+        "address": "인천 부평구 부평문화로 75",
+        "area": "incheon",
+        "name": "둠이스케이프",
+        "website_url": "https://doomescape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2055691742",
+        "cafe_name": "디코드이스케이프",
+        "branch_name": "전주점",
+        "address": "전북 전주시 완산구 전주객사3길 46-10",
+        "area": "jeonbuk",
+        "name": "디코드이스케이프",
+        "website_url": "http://dcodeescape.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "348406652",
+        "cafe_name": "다이아에그",
+        "branch_name": "미스테리인점",
+        "address": "부산 부산진구 중앙대로692번길 37",
+        "area": "busan",
+        "name": "다이아에그",
+        "website_url": "https://mysterytown.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "636394528",
+        "cafe_name": "레전드이스케이프",
+        "branch_name": "이천점",
+        "address": "경기 이천시 서희로 58",
+        "area": "gyeonggi",
+        "name": "레전드이스케이프",
+        "website_url": "http://legendescape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1968639091",
+        "cafe_name": "레전드이스케이프",
+        "branch_name": "서현점",
+        "address": "경기 성남시 분당구 서현로210번길 20",
+        "area": "gyeonggi",
+        "name": "레전드이스케이프",
+        "website_url": "http://legendescape.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "776353707",
+        "cafe_name": "상상의문",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 인계동 1041-12",
+        "area": "gyeonggi",
+        "name": "상상의문",
+        "website_url": "https://xn--z92b74ha268d.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "505122419",
+        "cafe_name": "상상의문",
+        "branch_name": "분당서현점",
+        "address": "경기 성남시 분당구 서현동 250-4",
+        "area": "gyeonggi",
+        "name": "상상의문",
+        "website_url": "https://xn--z92b74ha268d.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1121229740",
+        "cafe_name": "상상의문",
+        "branch_name": "수원2호점",
+        "address": "경기 수원시 팔달구 효원로249번길 46-18",
+        "area": "gyeonggi",
+        "name": "상상의문",
+        "website_url": "https://xn--z92b74ha268d.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1092766492",
+        "cafe_name": "버스티드",
+        "address": "경기 부천시 원미구 부일로445번길 22",
+        "area": "gyeonggi",
+        "name": "버스티드",
+        "website_url": "http://busted.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1875954710",
+        "cafe_name": "골든타임이스케이프",
+        "branch_name": "1호점",
+        "address": "경기 수원시 영통구 영통동 998-4",
+        "area": "gyeonggi",
+        "name": "골든타임이스케이프",
+        "website_url": "https://xn--bb0b44mb8pfwi.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1591055284",
+        "cafe_name": "골든타임이스케이프",
+        "branch_name": "2호점",
+        "address": "경기 수원시 영통구 영통동 1011-6",
+        "area": "gyeonggi",
+        "name": "골든타임이스케이프",
+        "website_url": "https://xn--bb0b44mb8pfwi.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1387240933",
+        "cafe_name": "상상의문",
+        "branch_name": "부평점",
+        "address": "인천 부평구 부평대로 293 3층",
+        "area": "incheon",
+        "name": "상상의문",
+        "website_url": "https://xn--z92b74ha268d.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "455356224",
+        "cafe_name": "콜드케이스",
+        "branch_name": "인하대점",
+        "address": "인천 남구 인하로 100",
+        "area": "incheon",
+        "name": "콜드케이스",
+        "website_url": "http://cold-case.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "444802506",
+        "cafe_name": "메타이스케이프",
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "area": "gyeonggi",
+        "name": "메타이스케이프",
+        "website_url": "https://xn--h32b25mu4dba377gzscs2k.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "351145232",
+        "cafe_name": "큐방탈출카페",
+        "branch_name": "일산점",
+        "address": "경기 고양시 일산서구 킨텍스로 217-60",
+        "area": "gyeonggi",
+        "name": "큐방탈출카페",
+        "website_url": "http://www.qescapeilsan.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1568417037",
+        "cafe_name": "라비린스이스케이프",
+        "branch_name": "",
+        "address": "경기 부천시 원미구 중동 1162",
+        "area": "gyeonggi",
+        "name": "라비린스이스케이프",
+        "website_url": "http://labyrinth.15440835.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1554942559",
+        "cafe_name": "제주방탈출",
+        "branch_name": "제원점",
+        "address": "제주특별자치도 제주시 연동 273-15",
+        "area": "jeju",
+        "name": "제주방탈출",
+        "website_url": "http://www.xn--vh3bw8qo2aba23i98on1f.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sslone_4",
+        "cafe_name": "상상락원",
+        "branch_name": "잠실점",
+        "address": "서울특별시 송파구 백제고분로 41길 6-5 2층",
+        "area": "jamsil",
+        "name": "상상락원",
+        "website_url": "https://sslone.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sslone_2",
+        "cafe_name": "상상락원",
+        "branch_name": "익산 원광대점",
+        "address": "전북특별자치도 익산시 동서로5길 96(신동) 2층",
+        "area": "jeonbuk",
+        "name": "상상락원",
+        "website_url": "https://sslone.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sslone_1",
+        "cafe_name": "상상락원",
+        "branch_name": "전주객사점",
+        "address": "전북특별자치도 전주시 완산구 전주객사1길 48",
+        "area": "jeonbuk",
+        "name": "상상락원",
+        "website_url": "https://sslone.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_sslone_5",
+        "cafe_name": "상상락원",
+        "branch_name": "전주 한옥마을점",
+        "address": "전북특별자치도 전주시 완산구 전동 310-2 1층",
+        "area": "jeonbuk",
+        "name": "상상락원",
+        "website_url": "https://sslone.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_pointnine_1",
+        "cafe_name": "포인트나인",
+        "branch_name": "강남점",
+        "address": "서울시 강남구 역삼동 618-3 지하1층",
+        "area": "gangnam",
+        "name": "포인트나인",
+        "website_url": "https://point-nine.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_pointnine_5",
+        "cafe_name": "포인트나인",
+        "branch_name": "건대점",
+        "address": "서울시 광진구 화양동 11-7 3층",
+        "area": "konkuk",
+        "name": "포인트나인",
+        "website_url": "https://point-nine.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_pointnine_6",
+        "cafe_name": "포인트나인",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 독막로 7길 40, 지하1층",
+        "area": "hongdae",
+        "name": "포인트나인",
+        "website_url": "https://point-nine.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_weyol",
+        "cafe_name": "위욜",
+        "branch_name": "",
+        "address": "서울시 마포구 와우산로27길 7 지하1층",
+        "area": "hongdae",
+        "name": "위욜",
+        "website_url": "https://weyol.com/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_dolo",
+        "cafe_name": "돌로이스케이프",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로6길 34 지하1층",
+        "area": "gangnam",
+        "name": "돌로이스케이프",
+        "website_url": "https://doloescape.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_eroom8",
+        "cafe_name": "이룸에이트",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로115 노벨테크 B2F",
+        "area": "gangnam",
+        "name": "이룸에이트",
+        "website_url": "https://eroom8.co.kr/",
+        "engine": "sinbiweb",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_studioesc_db",
+    "name": "스튜디오이에스씨 (Studio ESC) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://studioesc.co.kr"
+    ],
+    "cafe_ids": [
+      "1908100709"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1908100709",
+        "name": "스튜디오이에스씨",
+        "address": "서울 강남구 봉은사로18길 70",
+        "area": "gangnam",
+        "website_url": "https://studioesc.co.kr/",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_teraspace_db",
+    "name": "테라스페이스(teraspace.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://teraspace.co.kr"
+    ],
+    "cafe_ids": [
+      "759455993"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "759455993",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로19길 9 지하1층",
+        "area": "hongdae",
+        "name": "테라스페이스",
+        "website_url": "https://teraspace.co.kr",
+        "engine": "teraspace",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_thecode_db",
+    "name": "더코드(thecode-escape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.thecode-escape.com"
+    ],
+    "cafe_ids": [
+      "680681357"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "680681357",
+        "name": "더코드",
+        "branch_name": "",
+        "address": "광주 서구 치평동 1230-2",
+        "area": "gwangju",
+        "website_url": "http://www.thecode-escape.com",
+        "engine": "thecode",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_themazegd_db",
+    "name": "더메이즈 건대점(themazegd.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.themazegd.co.kr"
+    ],
+    "cafe_ids": [
+      "138006966"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "138006966",
+        "branch_name": "건대점",
+        "address": "서울 광진구 아차산로26길 13 지하1층",
+        "area": "konkuk",
+        "name": "더메이즈",
+        "website_url": "http://www.themazegd.co.kr",
+        "engine": "themazegd",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_theqescape_db",
+    "name": "더큐이스케이프(the-qescapedj.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.the-qescapedj.co.kr"
+    ],
+    "cafe_ids": [
+      "1696389756"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1696389756",
+        "name": "더큐이스케이프",
+        "branch_name": "대전둔산점",
+        "address": "대전 서구 둔산동 1060-3",
+        "area": "daejeon",
+        "website_url": "https://www.the-qescapedj.co.kr",
+        "engine": "theqescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_thetimeescape_db",
+    "name": "더타임이스케이프(thetimeescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.thetimeescape.co.kr"
+    ],
+    "cafe_ids": [
+      "1233678979"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1233678979",
+        "name": "더타임이스케이프",
+        "branch_name": "",
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "area": "gyeongnam",
+        "website_url": "http://www.thetimeescape.co.kr",
+        "engine": "thetimeescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_thetrapsy_db",
+    "name": "더트랩 수유점(thetrapsy.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.thetrapsy.co.kr"
+    ],
+    "cafe_ids": [
+      "911063716"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "911063716",
+        "branch_name": "수유점",
+        "address": "서울 강북구 도봉로 363 구봉빌딩 4층",
+        "area": "seoul_other",
+        "name": "더트랩",
+        "website_url": "http://www.thetrapsy.co.kr",
+        "engine": "thetrapsy",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_trickescape_db",
+    "name": "트릭이스케이프(trickescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.trickescape.com"
+    ],
+    "cafe_ids": [
+      "27504980"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "27504980",
+        "name": "트릭이스케이프",
+        "branch_name": "",
+        "address": "경기 의정부시 의정부동 197-4",
+        "area": "gyeonggi",
+        "website_url": "http://www.trickescape.com",
+        "engine": "trickescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_ttescape_db",
+    "name": "티켓투이스케이프(ttescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://api.ttescape.co.kr",
+      "https://www.ttescape.co.kr"
+    ],
+    "cafe_ids": [
+      "327610610"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "327610610",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로29가길 83",
+        "area": "hongdae",
+        "name": "티켓투이스케이프",
+        "website_url": "https://www.ttescape.co.kr",
+        "engine": "ttescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_vescape_db",
+    "name": "방탈출브이(v-escape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.v-escape.co.kr"
+    ],
+    "cafe_ids": [
+      "1254330051",
+      "858962026"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "858962026",
+        "branch_name": "삼덕점",
+        "address": "대구 중구 삼덕동1가 17-16",
+        "area": "daegu",
+        "name": "방탈출브이",
+        "website_url": "http://www.v-escape.co.kr",
+        "engine": "vescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1254330051",
+        "branch_name": "공평점",
+        "address": "대구 중구 공평동 62-11",
+        "area": "daegu",
+        "name": "방탈출브이",
+        "website_url": "http://www.v-escape.co.kr",
+        "engine": "vescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_xcape_current_db",
+    "name": "엑스케이프 개편 공식 공개 예약표. 익명 공개 정보만 조회하며 고객 예약 정보는 읽지 않습니다.",
+    "urls": [
+      "https://xcape.kr"
+    ],
+    "cafe_ids": [
+      "official_xcape_gn",
+      "official_xcape_nc",
+      "official_xcape_sw",
+      "official_xcape_xc",
+      "official_xcape_xr"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "official_xcape_xc",
+        "cafe_name": "엑스케이프",
+        "branch_name": "건대1호점",
+        "address": "서울 광진구 동일로 112 엑스케이프 건대점",
+        "name": "엑스케이프",
+        "area": "konkuk",
+        "website_url": "https://xcape.kr/booking/xc",
+        "engine": "xcape_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_xcape_xr",
+        "cafe_name": "엑스크라임",
+        "branch_name": "건대2호점",
+        "address": "서울 광진구 아차산로29길 38 B1 엑스크라임 방탈출카페",
+        "name": "엑스크라임",
+        "area": "konkuk",
+        "website_url": "https://xcape.kr/booking/xr",
+        "engine": "xcape_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_xcape_nc",
+        "cafe_name": "뉴케이스",
+        "branch_name": "건대3호점",
+        "address": "서울 광진구 아차산로 191 B1층 뉴케이스 방탈출카페",
+        "name": "뉴케이스",
+        "area": "konkuk",
+        "website_url": "https://xcape.kr/booking/nc",
+        "engine": "xcape_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_xcape_gn",
+        "cafe_name": "엑스케이프",
+        "branch_name": "강남점",
+        "address": "서울 강남구 봉은사로2길 16 현도빌딩 지하1층 엑스케이프 방탈출카페",
+        "name": "엑스케이프",
+        "area": "gangnam",
+        "website_url": "https://xcape.kr/booking/gn",
+        "engine": "xcape_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_xcape_sw",
+        "cafe_name": "엑스케이프",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 효원로265번길 40 4층 엑스케이프 방탈출카페",
+        "name": "엑스케이프",
+        "area": "gyeonggi",
+        "website_url": "https://xcape.kr/booking/sw",
+        "engine": "xcape_current",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_xcape_db",
+    "name": "엑스케이프(xcape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://api.xcape-apps.com",
+      "https://xcape.co.kr"
+    ],
+    "cafe_ids": [
+      "1551717206",
+      "1599918263",
+      "27354377",
+      "361428621"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1551717206",
+        "name": "강남점",
+        "address": "서울 강남구 봉은사로2길 16, 현도빌딩, B1",
+        "area": "gangnam",
+        "website_url": "https://xcape.co.kr",
+        "engine": "xcape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27354377",
+        "name": "건대점",
+        "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
+        "area": "konkuk",
+        "website_url": "https://xcape.co.kr",
+        "engine": "xcape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "361428621",
+        "name": "건대2호",
+        "address": "서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페",
+        "area": "konkuk",
+        "website_url": "https://xcape.co.kr",
+        "engine": "xcape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1599918263",
+        "name": "수원점",
+        "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
+        "area": "gyeonggi",
+        "website_url": "https://xcape.co.kr",
+        "engine": "xcape",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "MERCHANT_MAP": {
+        "1": [
+          "1551717206"
+        ],
+        "2": [
+          "27354377"
+        ],
+        "3": [
+          "361428621"
+        ],
+        "4": [
+          "1599918263"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_xdungeon_db",
+    "name": "xdungeon.net 테마 + 스케줄을 DB에 동기화하는 스크립트.",
+    "urls": [
+      "https://xdungeon.net"
+    ],
+    "cafe_ids": [
+      "1246652450",
+      "1322241204",
+      "1478483341",
+      "1769092819",
+      "1772808576",
+      "2070160321",
+      "27413263",
+      "436025860",
+      "629764977"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1772808576",
+        "name": "비트포비아 던전101",
+        "address": "서울 마포구 와우산로 74",
+        "area": "hongdae",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "27413263",
+        "name": "비트포비아",
+        "branch_name": "강남던전점",
+        "address": "서울 강남구 강남대로84길 33",
+        "area": "gangnam",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1246652450",
+        "name": "비트포비아",
+        "branch_name": "홍대던전점",
+        "address": "서울 마포구 독막로3길 30",
+        "area": "hongdae",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1769092819",
+        "name": "비트포비아",
+        "branch_name": "강남던전2",
+        "address": "서울 강남구 테헤란로4길 32",
+        "area": "gangnam",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "2070160321",
+        "name": "비트포비아",
+        "branch_name": "홍대던전3",
+        "address": "서울 마포구 와우산로29길 21",
+        "area": "hongdae",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1478483341",
+        "name": "비트포비아 던전루나",
+        "address": "서울 강남구 강남대로94길 20",
+        "area": "gangnam",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1322241204",
+        "name": "비트포비아",
+        "branch_name": "서면던전점",
+        "address": "부산 부산진구 동천로 66",
+        "area": "busan",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "436025860",
+        "name": "비트포비아 던전스텔라",
+        "address": "서울 강남구 테헤란로14길 34",
+        "area": "gangnam",
+        "website_url": "https://xdungeon.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "629764977",
+        "name": "비트포비아 레드던전",
+        "branch_name": "서면점",
+        "address": "부산 부산진구 중앙대로692번길 43",
+        "area": "busan",
+        "website_url": "https://www.xphobia.net/",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "BRANCH_MAP": {
+        "1": [
+          "1772808576"
+        ],
+        "2": [
+          "27413263"
+        ],
+        "3": [
+          "1246652450"
+        ],
+        "4": [
+          "1769092819"
+        ],
+        "5": [
+          "2070160321"
+        ],
+        "6": [
+          "1478483341"
+        ],
+        "7": [
+          "1322241204"
+        ],
+        "9": [
+          "436025860"
+        ],
+        "10": [
+          "629764977"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_xescape_db",
+    "name": "엑스이스케이프(xescape.com) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://xescape.com"
+    ],
+    "cafe_ids": [
+      "1654390566",
+      "1772415237"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1772415237",
+        "branch_name": "홍대놀이터점",
+        "address": "서울 마포구 와우산로21길 20-5",
+        "area": "hongdae",
+        "name": "엑스이스케이프",
+        "website_url": "https://xescape.com",
+        "engine": "xescape",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1654390566",
+        "branch_name": "홍대상상마당점",
+        "address": "서울 마포구 어울마당로 70",
+        "area": "hongdae",
+        "name": "엑스이스케이프",
+        "website_url": "https://xescape.com",
+        "engine": "xescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_xphobia_db",
+    "name": "비트포비아(xphobia.net) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "https://www.xphobia.net"
+    ],
+    "cafe_ids": [
+      "1183396756",
+      "1432484184"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1183396756",
+        "cafe_name": "비트포비아",
+        "branch_name": "명동점",
+        "address": "서울 중구 명동10길 13",
+        "area": "myeongdong",
+        "name": "비트포비아",
+        "website_url": "https://www.xphobia.net/",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1432484184",
+        "cafe_name": "비트포비아",
+        "branch_name": "대학로점",
+        "address": "서울 종로구 대학로10길 12",
+        "area": "myeongdong",
+        "name": "비트포비아",
+        "website_url": "https://www.xphobia.net/",
+        "is_active": true
+      }
+    ],
+    "selections": {
+      "SHOP_MAP": {
+        "Phobia 명동": [
+          "1183396756"
+        ],
+        "Phobia 대학로": [
+          "1432484184"
+        ]
+      }
+    }
+  },
+  {
+    "id": "sync_zeroworld_current_db",
+    "name": "제로월드 개편 공식 예약표. 읽기 전용 theme_list/theme_time_list만 요청합니다.",
+    "urls": [
+      "https://zeroworldkorea.com"
+    ],
+    "cafe_ids": [
+      "1345840219",
+      "1732671994",
+      "official_zeroworld_1",
+      "official_zeroworld_2"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "official_zeroworld_1",
+        "cafe_name": "제로월드",
+        "branch_name": "김포본점",
+        "address": "경기도 김포시 김포한강9로75번길 180 405호, 406호(구래동, 두원타워)",
+        "area": "gyeonggi",
+        "name": "제로월드",
+        "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&zizum_num=1&s_subj=A&rev_days=2026-11-15",
+        "engine": "zeroworld_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1345840219",
+        "cafe_name": "제로월드",
+        "branch_name": "강남점",
+        "address": "서울특별시 서초구 서초대로72길 40 지하1층 1비1호, 비2호, 비3호, 비4호(서초동, 강남오피스텔)",
+        "area": "gangnam",
+        "name": "제로월드",
+        "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&zizum_num=4&s_subj=A&rev_days=2026-11-15",
+        "engine": "zeroworld_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1732671994",
+        "cafe_name": "제로월드",
+        "branch_name": "홍대점",
+        "address": "서울특별시 마포구 잔다리로6길 20-9 지하 2층 전체(서교동)",
+        "area": "hongdae",
+        "name": "제로월드",
+        "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&zizum_num=5&s_subj=A&rev_days=2026-11-15",
+        "engine": "zeroworld_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "official_zeroworld_2",
+        "cafe_name": "제로월드",
+        "branch_name": "다이브 건대점",
+        "address": "서울특별시 광진구 아차산로26길 22 1층 1지층 전호(자양동)",
+        "area": "konkuk",
+        "name": "제로월드",
+        "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&zizum_num=2&s_subj=B&rev_days=2026-11-15",
+        "engine": "zeroworld_current",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_zeroworld_db",
+    "name": "제로월드 (zerohongdae.com / zerogangnam.com / zerolotteworld.com) 테마 + 스케줄 DB 동기화.",
+    "urls": [
+      "https://www.zerohongdae.com",
+      "https://zerogangnam.com",
+      "https://zerolotteworld.com"
+    ],
+    "cafe_ids": [
+      "1345840219",
+      "1732671994",
+      "890251040"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1732671994",
+        "cafe_name": "제로월드",
+        "branch_name": "홍대점",
+        "address": "서울특별시 마포구 잔다리로6길 20-9 지하 2층 전체(서교동)",
+        "area": "hongdae",
+        "name": "제로월드",
+        "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&zizum_num=5&s_subj=A&rev_days=2026-11-15",
+        "engine": "zeroworld_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1345840219",
+        "cafe_name": "제로월드",
+        "branch_name": "강남점",
+        "address": "서울특별시 서초구 서초대로72길 40 지하1층 1비1호, 비2호, 비3호, 비4호(서초동, 강남오피스텔)",
+        "area": "gangnam",
+        "name": "제로월드",
+        "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&zizum_num=4&s_subj=A&rev_days=2026-11-15",
+        "engine": "zeroworld_current",
+        "is_active": true
+      },
+      {
+        "cafe_id": "890251040",
+        "cafe_name": "제로월드",
+        "branch_name": "롯데월드점",
+        "address": "서울 송파구 잠실동 40-1 3층",
+        "area": "jamsil",
+        "name": "제로월드",
+        "website_url": "https://zerolotteworld.com/",
+        "engine": "zeroworld",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_zescape_db",
+    "name": "제트방탈출카페(zescape.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
+    "urls": [
+      "http://www.zescape.co.kr"
+    ],
+    "cafe_ids": [
+      "1713311920"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "1713311920",
+        "name": "제트방탈출카페",
+        "branch_name": "",
+        "address": "울산 중구 성남동 219-158",
+        "area": "ulsan",
+        "website_url": "http://www.zescape.co.kr",
+        "engine": "zescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  }
+]

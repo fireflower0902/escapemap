@@ -1,0 +1,78 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T10:53:14.864533+09:00",
+  "scope": "selected cafe IDs: official_sherlock_13 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_13",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "구월인천점",
+        "address": "인천광역시 남동구 성말로 10 (구월동 1463)  효명프라자 5층, 셜록홈즈 구월인천점",
+        "area": "incheon",
+        "sido": 4,
+        "bno": 13
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 96,
+  "statuses": {
+    "available": 92,
+    "full": 4
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_13": {
+      "themes": 6,
+      "slots": 96,
+      "statuses": {
+        "available": 92,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "던전을 부탁해",
+    "사라민",
+    "좀비여친",
+    "지옥의 라이더",
+    "파란지붕집",
+    "호텔:사라진 다이아몬드"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.85,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

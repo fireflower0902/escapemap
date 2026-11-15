@@ -1,0 +1,75 @@
+[
+  {
+    "script": "sync_nextedition_db",
+    "checked_at": "2026-11-15T12:07:15.216095+09:00",
+    "scope": "selected cafe IDs: 1678997732 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1678997732"
+    ],
+    "selected": {
+      "SHOP_MAP": [
+        "XKCRH8C1Hi4HMZ1S"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 116,
+    "statuses": {
+      "available": 112,
+      "full": 4
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1678997732": {
+        "themes": 4,
+        "slots": 116,
+        "statuses": {
+          "available": 112,
+          "full": 4
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "쌩얼",
+      "주르륵",
+      "진시황",
+      "집으로"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/XKCRH8C1Hi4HMZ1S",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/XKCRH8C1Hi4HMZ1S",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/XKCRH8C1Hi4HMZ1S",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.07,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

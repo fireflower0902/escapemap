@@ -1,0 +1,39 @@
+[
+  {
+    "script": "sync_mysteryroom_db",
+    "checked_at": "2026-11-15T12:03:36.226366+09:00",
+    "scope": "selected cafe IDs: 27367643 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "27367643"
+    ],
+    "selected": {
+      "BRANCH_MAP": [
+        "27"
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {},
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "mysteryroomescape.com",
+        "path": "/reservation/reservation.html",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 0.04,
+    "log_errors": [
+      "[WARN] 페이지 로드 실패 a=27 2026-11-15: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ],
+    "status": "needs_review"
+  }
+]

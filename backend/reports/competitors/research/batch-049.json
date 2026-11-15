@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "링크월드",
+    "퍼즐팩토리 홍대본점",
+    "PLAY33 건대점",
+    "메모리카니발(키이스케이프X에버랜드)"
+  ],
+  "sources": [
+    {
+      "title": "키이스케이프",
+      "url": "https://keyescape.com/boardview.php"
+    },
+    {
+      "title": "건대점 예약 : 플레이33",
+      "url": "https://play33.kr/reservation"
+    },
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/notice.php"
+    },
+    {
+      "title": "그 날 - 플레이33 건대점 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/4301"
+    },
+    {
+      "title": "목격자 · PLAY33 건대점 | 서울 광진구 방탈출 추천 테마 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/7c1e805e-3b62-4039-9706-77a83eebb3d0"
+    },
+    {
+      "title": "다이얼 방탈출 | PLAY33 건대점 | 서울 공포·스릴러·추천 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/0ef91d42-72e9-415d-a9a4-c2c3a4f9acbc"
+    },
+    {
+      "title": "건대 방탈출 · 테마와 매장 찾기 | EZCAPE",
+      "url": "https://ezcape.co.kr/escape-room/konkuk"
+    },
+    {
+      "title": "메모리카니발(키이스케이프X에버랜드) 방탈출 후기 (경기 기타) - 전국방탈출",
+      "url": "https://www.roomescape.co.kr/cafe/detail"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "건대점 테마 : 플레이33",
+      "url": "https://play33.kr/theme"
+    },
+    {
+      "title": "링크월드 | 서울특별시 강서구 마곡동 | 기타 공간 대여 | 당근 동네 업체",
+      "url": "https://www.daangn.com/kr/local-profile/%EB%A7%81%ED%81%AC%EC%9B%94%EB%93%9C-3mfzw152o7nm/"
+    },
+    {
+      "title": "방탈출 테마 찾기 | 장르·지역·난이도별 탐색 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

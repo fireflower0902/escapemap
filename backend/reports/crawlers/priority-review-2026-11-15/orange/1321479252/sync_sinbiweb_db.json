@@ -1,0 +1,106 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:03:03.144389+09:00",
+  "scope": "selected cafe IDs: 1321479252 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1321479252"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1321479252",
+        "cafe_name": "둠이스케이프",
+        "branch_name": "2호점",
+        "address": "인천 남동구 인하로507번길 18",
+        "area": "incheon",
+        "base_url": "https://doomescape.com",
+        "s_zizum": 2,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "1321479252": {
+      "themes": 0,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doomescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 10.26,
+  "log_errors": [],
+  "status": "needs_review"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T12:05:24.485396+09:00",
+    "scope": "selected cafe IDs: 466116790 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "466116790"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "466116790",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "잠실1호점",
+          "address": "서울 송파구 백제고분로7길 19 3,4층",
+          "area": "jamsil",
+          "sido": 1,
+          "bno": 35
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 7,
+    "themes_with_slots": 7,
+    "slots": 182,
+    "statuses": {
+      "available": 162,
+      "full": 20
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "466116790": {
+        "themes": 7,
+        "slots": 182,
+        "statuses": {
+          "available": 162,
+          "full": 20
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "무속인 살인사건",
+      "미대교수의 비밀",
+      "빛과 그림자",
+      "산속의 여인",
+      "웨딩크루즈 살인사건",
+      "위험한 레시피",
+      "학교괴담 태훈이의 죽음"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.67,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

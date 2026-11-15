@@ -11,17 +11,14 @@
  *   FIREBASE_SERVICE_ACCOUNT_JSON — Firebase 서비스 계정 JSON 전체 내용
  */
 import { NextRequest, NextResponse } from "next/server";
-import { getDb } from "@/lib/firestore-server";
+import { usesSupabase, loadPostgresLiveData, assembleSearch } from "@/lib/supabase-server";
+import { AREA_VALUES, areaMatches, resolveCafeArea } from "@/lib/areas";
 
 const CACHE_HEADERS = {
-  "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+  "Cache-Control": "public, s-maxage=30, stale-while-revalidate=30",
 };
 
-const VALID_AREAS = new Set([
-  "gangnam", "hongdae", "sinchon", "jamsil", "itaewon",
-  "myeongdong", "daehakro", "sinlim", "busan", "daegu",
-  "gwangju", "daejeon", "incheon", "gyeonggi", "gangwon",
-]);
+const VALID_AREAS = new Set(AREA_VALUES);
 
 type ThemeDoc = {
   id: string; cafe_id: string; name: string;
@@ -29,24 +26,35 @@ type ThemeDoc = {
 };
 type CafeDoc = {
   id: string; name: string; branch_name?: string;
-  address: string; website_url?: string;
+  address: string; website_url?: string; area?: string;
 };
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const date = searchParams.get("date") ?? "";
-  const area = searchParams.get("area") ?? "";
+  const area = searchParams.get("area")?.trim().toLowerCase() || "all";
+  if (!VALID_AREAS.has(area)) {
+    return NextResponse.json({ error: "지원하지 않는 지역 코드입니다." }, { status: 400 });
+  }
 
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0,10) !== date) {
+    return NextResponse.json({ error: "날짜는 YYYY-MM-DD 형식이어야 합니다." }, { status: 400 });
+  }
   try {
+    if (usesSupabase()) {
+      const data = await loadPostgresLiveData(date, area, false);
+      return NextResponse.json(assembleSearch(date, area, data), { headers: CACHE_HEADERS });
+    }
+    const {getDb}=await import("@/lib/firestore-server");
     const db = getDb();
 
     // 1. 카페 목록 (area 필터)
-    let cafesQuery = db.collection("cafes").where("is_active", "==", true) as FirebaseFirestore.Query;
-    if (area && VALID_AREAS.has(area)) {
-      cafesQuery = cafesQuery.where("area", "==", area);
-    }
+    // 과거 서울 전용 플래그나 etc 분류와 무관하게 주소로 전국 지역을 보완.
+    const cafesQuery = db.collection("cafes").where("is_active", "==", true);
     const cafeDocs = await cafesQuery.get();
-    const cafes = (cafeDocs.docs.map((d) => ({ id: d.id, ...d.data() })) as CafeDoc[]).sort(
+    const cafes = (cafeDocs.docs.map((d) => ({ id: d.id, ...d.data() })) as CafeDoc[]).filter(
+      cafe => areaMatches(area, resolveCafeArea(cafe.area, cafe.address))
+    ).sort(
       (a, b) => ((a.address ?? "") + (a.name ?? "")).localeCompare((b.address ?? "") + (b.name ?? ""))
     );
 
@@ -132,7 +140,7 @@ export async function GET(request: NextRequest) {
       { headers: CACHE_HEADERS }
     );
   } catch (err) {
-    console.error("[/api/search] error:", err);
+    console.error("[/api/search] database query failed", {name:err instanceof Error?err.name:"Error",code:typeof err === "object" && err && "code" in err ? String(err.code) : "unknown"});
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });
   }
 }

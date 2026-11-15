@@ -1,0 +1,79 @@
+{
+  "queries": [
+    "비밀코드1",
+    "제주방탈출 시청점",
+    "어메이징 이스케이프",
+    "무비무드 전주점"
+  ],
+  "sources": [
+    {
+      "title": "무비무드 전주점 방탈출 | 테마·가격·예약·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/places/ls4dvyv2thy4gecsqp/"
+    },
+    {
+      "title": "디너의여왕 - [전북 전주] 무비무드 전주점 23차",
+      "url": "https://dinnerqueen.net/taste/1618817"
+    },
+    {
+      "title": "제주방탈출 시청점 | 제주 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/venue-430daff73dc049809b2b522fbccb3f8d"
+    },
+    {
+      "title": "제주방탈출 시청점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/CaQJWNNq"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "전주 방탈출 카페 | 가격·예약·주차·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/jeonbuk/jeonju/escape-room/"
+    },
+    {
+      "title": "무비무드 전주점 - 전주 방탈출카페 맛집 - 다이닝코드",
+      "url": "https://www.diningcode.com/profile.php"
+    },
+    {
+      "title": "5관 E열 4번(전주) — 무비무드 전주점 | 전주 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/675"
+    },
+    {
+      "title": "방탈출 매장 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes"
+    },
+    {
+      "title": "Have a good tape, Dave — 무비무드 전주점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/2332"
+    },
+    {
+      "title": "위험한 레시피 — 제주방탈출 시청점 | 제주 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/1199"
+    },
+    {
+      "title": "반 고흐의 방 | 제주방탈출 시청점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/6212/%EB%B0%98-%EA%B3%A0%ED%9D%90%EC%9D%98-%EB%B0%A9"
+    },
+    {
+      "title": "05 한글사랑 대작전",
+      "url": "https://www.hellomaple.org/files/education/subject/%5B%ED%97%AC%EB%A1%9C%EB%A9%94%EC%9D%B4%ED%94%8C%5D%20%EB%B2%94%EA%B5%90%EA%B3%BC%EC%A3%BC%EC%A0%9C%EA%B5%90%EC%9C%A1_05%20%ED%95%9C%EA%B8%80%EB%82%A0%EA%B5%90%EC%9C%A1.pdf"
+    },
+    {
+      "title": "시민이 만드는 꿀잼도시 익산   1",
+      "url": "https://www.culturecityiksan.or.kr/2024/filedown.php"
+    },
+    {
+      "title": "2025. 4",
+      "url": "https://mcst.go.kr/servlets/eduport/front/upload/UplDownloadFile"
+    },
+    {
+      "title": "AI역량검사 체험 프로그램",
+      "url": "https://youth.seoul.go.kr/resource/file/AI_conts.pdf"
+    },
+    {
+      "title": "독일형법면지",
+      "url": "https://www.moj.go.kr/bbs/moj/175/319192/download.do"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

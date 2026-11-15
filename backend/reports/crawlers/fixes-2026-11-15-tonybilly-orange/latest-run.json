@@ -1,0 +1,161 @@
+[
+  {
+    "script": "sync_rabbithole_db",
+    "checked_at": "2026-11-15T11:06:09.822263+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "1"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 32,
+    "statuses": {
+      "full": 32
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "187287513": {
+        "themes": 2,
+        "slots": 32,
+        "statuses": {
+          "full": 32
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "두껍아 두껍아 헌집줄게 새집다오",
+      "행운만물상"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.47,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_play33_db",
+    "checked_at": "2026-11-15T11:06:14.926637+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "1"
+      ]
+    },
+    "error": "NameError: name 're' is not defined",
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {},
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.11,
+    "log_errors": [
+      "Traceback (most recent call last):"
+    ],
+    "status": "error"
+  },
+  {
+    "script": "sync_orangetb_db",
+    "checked_at": "2026-11-15T11:06:15.382511+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "363716272",
+          "o_id": 1,
+          "name": "오렌지티비",
+          "branch_name": "대구동성로점",
+          "area": "daegu",
+          "address": "대구 중구 동성로5길 62 4층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "363716272": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "orangetb.com",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.08,
+    "log_errors": [
+      "[ERROR] 테마 파싱 실패"
+    ],
+    "status": "needs_review"
+  }
+]

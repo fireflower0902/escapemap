@@ -1,0 +1,1165 @@
+[
+  {
+    "cafe_id": "official_sslone_2",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sslone_4",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_weyol",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_pointnine_6",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_dolo",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_eroom8",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_3",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_4",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_5",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sslone_5",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sslone_1",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_10",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_6",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "192767471",
+    "script": "sync_fantastrick_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1421844037",
+    "script": "sync_fantastrick_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_11",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_pointnine_1",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_secretgarden_12",
+    "script": "sync_secretgarden_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_pointnine_5",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2020129484",
+    "script": "sync_fantastrick_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1956789824",
+    "script": "sync_movieescape_cokr_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1345840219",
+    "script": "sync_zeroworld_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_zeroworld_1",
+    "script": "sync_zeroworld_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1271584354",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_zeroworld_2",
+    "script": "sync_zeroworld_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1732671994",
+    "script": "sync_zeroworld_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1958696909",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1541961243",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1045036053",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1425246210",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2055691742",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "348406652",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "636394528",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "505122419",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "776353707",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1092766492",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1875954710",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1121229740",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1591055284",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1387240933",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "455356224",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "444802506",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "351145232",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "363716272",
+    "script": "sync_orangetb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1554942559",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1213158520",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1908328454",
+    "script": "sync_orangetb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1521613397",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "458997744",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1772808576",
+    "script": "sync_xdungeon_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_plus",
+    "script": "sync_public_extra_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_xcape_xc",
+    "script": "sync_xcape_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_xcape_xr",
+    "script": "sync_xcape_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1825220691",
+    "script": "sync_sinbiweb_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_xcape_gn",
+    "script": "sync_xcape_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2039293420",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_xcape_sw",
+    "script": "sync_xcape_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1385414031",
+    "script": "sync_play33_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_xcape_nc",
+    "script": "sync_xcape_current_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_exploria",
+    "script": "sync_public_extra_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_play33_4",
+    "script": "sync_play33_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1475074228",
+    "script": "sync_codek_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_codek_S3",
+    "script": "sync_codek_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_play33_7",
+    "script": "sync_play33_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_codek_S1",
+    "script": "sync_codek_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "187287513",
+    "script": "sync_rabbithole_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1442041275",
+    "script": "sync_deepthinker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_13",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_70",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_play33_5",
+    "script": "sync_play33_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_114",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_113",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_115",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_105",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_44",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_86",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_81",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_61",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_110",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_116",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_111",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2021007589",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1954089927",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "728789378",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "270131531",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2127065864",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "45777628",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "716398207",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "588118043",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "466116790",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "472522287",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "908334376",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27583768",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "399640253",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "582885260",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1166453549",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "816654453",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "743084847",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1049164175",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "462553617",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1367009941",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1620988252",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1888259527",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "10098327",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1277196871",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_84",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_79",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1358303820",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1682203426",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "320987184",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_41",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "official_sherlock_112",
+    "script": "sync_sherlock_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "7690632",
+    "script": "sync_jigobyeol_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2030700012",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "836762242",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "713424921",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1987907479",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1604521778",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1654390566",
+    "script": "sync_xescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1224056973",
+    "script": "sync_nextedition_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1108129560",
+    "script": "sync_nextedition_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27495854",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1767938917",
+    "script": "sync_dreampicnic_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1124781432",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1834906043",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1459848720",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "657876723",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1292714537",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "100018735",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2022859547",
+    "script": "sync_puzzlefactory_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27559974",
+    "script": "sync_escbangtalul_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "632336157",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "459642234",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "870806933",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "399012410",
+    "script": "sync_jigobyeol_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "617331855",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1502372343",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1574310774",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "886826713",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2058736611",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27607543",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "451924760",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27523824",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "153136502",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "570522076",
+    "script": "sync_signescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1023995566",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "665041653",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1836271694",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "200411443",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "164116124",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1016102948",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1314964065",
+    "script": "sync_escbangtalul_db",
+    "status": "published",
+    "initial_status": "review",
+    "recovered": true,
+    "fix": "ignore empty theme dropdown options"
+  },
+  {
+    "cafe_id": "902256384",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1443757324",
+    "script": "sync_mafiacafe_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "704757588",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1460830485",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "901719185",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "967129600",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "99889048",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1559912469",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "765336936",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1448469234",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "892545149",
+    "script": "sync_seoulescaperoom_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1458988059",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2400000001",
+    "script": "sync_signescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1462418270",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1245109855",
+    "script": "sync_signescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "916422770",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "202030183",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "64956517",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1637143499",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "298789057",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1850589033",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "427897815",
+    "script": "sync_seoulescaperoom_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1973717836",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1865048385",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "136198096",
+    "script": "sync_movieescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1872221698",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "163640808",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1735229345",
+    "script": "sync_roomlescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "923379950",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "583591672",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "400448256",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1415278100",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1788375645",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "215947527",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2102768222",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "28574930",
+    "script": "sync_dumbndumber_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "3373516",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1488706210",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1397923384",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "259983085",
+    "script": "sync_dpsnnn_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "310013350",
+    "script": "sync_seoulescaperoom_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1871864524",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "625095198",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "287949141",
+    "script": "sync_nextedition_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "164781377",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "399727939",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "130115446",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "782208965",
+    "script": "sync_roomlescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "605934214",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "635335984",
+    "script": "sync_nextedition_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1727885052",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "332798783",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "751793807",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27609271",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1250945647",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "284779798",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "671151862",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "97734177",
+    "script": "sync_masterkey_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1862264503",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "170158027",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1796437751",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1678997732",
+    "script": "sync_nextedition_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "190103388",
+    "script": "sync_doorescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2138163704",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1460924995",
+    "script": "sync_nextedition_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1266197087",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "857573680",
+    "script": "sync_movieescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1611418578",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "2011481622",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1450292038",
+    "script": "sync_murderparker_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1609773844",
+    "script": "sync_movieescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "942247508",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "48992610",
+    "script": "sync_keyescape_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "969459474",
+    "script": "sync_escapers_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "475592733",
+    "script": "sync_rememberesc_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "49858990",
+    "script": "sync_rememberesc_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1097124167",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "570199530",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "27575809",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  },
+  {
+    "cafe_id": "1411698841",
+    "script": "sync_escapetop_db",
+    "status": "published"
+  }
+]

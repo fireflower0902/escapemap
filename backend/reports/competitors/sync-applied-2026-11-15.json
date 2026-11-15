@@ -1,0 +1,71 @@
+{
+  "applied_at": "2026-11-15T02:08:24.507605+00:00",
+  "days": 1,
+  "jobs": [
+    {
+      "script": "sync_sherlock_db",
+      "cafe_ids": [
+        "official_sherlock_116",
+        "official_sherlock_41",
+        "official_sherlock_13",
+        "official_sherlock_110",
+        "official_sherlock_111",
+        "official_sherlock_81",
+        "official_sherlock_84",
+        "official_sherlock_115",
+        "official_sherlock_79",
+        "official_sherlock_105",
+        "official_sherlock_113",
+        "official_sherlock_86",
+        "official_sherlock_114",
+        "official_sherlock_44",
+        "official_sherlock_112",
+        "official_sherlock_61",
+        "official_sherlock_70"
+      ]
+    },
+    {
+      "script": "sync_sinbiweb_db",
+      "cafe_ids": [
+        "official_sslone_4",
+        "official_sslone_2",
+        "official_sslone_1",
+        "official_sslone_5",
+        "official_pointnine_1",
+        "official_pointnine_5",
+        "official_pointnine_6"
+      ]
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_ids": [
+        "official_secretgarden_3",
+        "official_secretgarden_4",
+        "official_secretgarden_5",
+        "official_secretgarden_6",
+        "official_secretgarden_10",
+        "official_secretgarden_11",
+        "official_secretgarden_12"
+      ]
+    },
+    {
+      "script": "sync_xcape_current_db",
+      "cafe_ids": [
+        "official_xcape_xc",
+        "official_xcape_xr",
+        "official_xcape_nc",
+        "official_xcape_gn",
+        "official_xcape_sw"
+      ]
+    },
+    {
+      "script": "sync_zeroworld_current_db",
+      "cafe_ids": [
+        "official_zeroworld_1",
+        "1345840219",
+        "1732671994",
+        "official_zeroworld_2"
+      ]
+    }
+  ]
+}

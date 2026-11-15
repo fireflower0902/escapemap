@@ -10,7 +10,10 @@ const firebaseConfig = {
   appId:             process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+// 로그인 설정이 없어도 검색·개발 현황판은 열 수 있습니다.
+const app = firebaseConfig.apiKey?.trim()
+  ? (getApps().length ? getApps()[0] : initializeApp(firebaseConfig))
+  : null;
 
-export const auth = getAuth(app);
+export const auth = app ? getAuth(app) : null;
 export const googleProvider = new GoogleAuthProvider();

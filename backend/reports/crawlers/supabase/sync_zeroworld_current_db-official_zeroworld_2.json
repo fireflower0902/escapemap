@@ -1,0 +1,137 @@
+{
+  "script": "sync_zeroworld_current_db",
+  "checked_at": "2026-11-15T16:05:59.140706+09:00",
+  "scope": "selected cafe IDs: official_zeroworld_2 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_zeroworld_2"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_zeroworld_2",
+        "cafe_name": "제로월드",
+        "branch_name": "다이브 건대점",
+        "address": "서울특별시 광진구 아차산로26길 22 1층 1지층 전호(자양동)",
+        "phone": "02-499-1223",
+        "area": "konkuk",
+        "zizum_num": "2",
+        "s_subj": "B"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 90,
+  "statuses": {
+    "full": 60,
+    "available": 30
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_zeroworld_2": {
+      "themes": 3,
+      "slots": 90,
+      "statuses": {
+        "full": 60,
+        "available": 30
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "오르골 (ORGEL)",
+    "인터뷰 (INTERVIEW)",
+    "타쿠의 심야괴담"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "zeroworldkorea.com",
+      "path": "/core/res/rev.make.sel.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.83,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

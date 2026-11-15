@@ -48,7 +48,7 @@ from app.firestore_db import (
 
 CAFE_ID = "1442041275"
 AJAX_URL = "https://deepthinker.co.kr/wp-admin/admin-ajax.php"
-BOOKING_URL = "https://deepthinker.co.kr/booking/"
+BOOKING_URL = "https://deepthinker.co.kr/reservation/"
 LOCATION_ID = 24
 REQUEST_DELAY = 1.0
 
@@ -83,7 +83,7 @@ CAFE_META = {
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-    "Referer": "https://deepthinker.co.kr/booking/",
+    "Referer": "https://deepthinker.co.kr/reservation/",
     "Content-Type": "application/x-www-form-urlencoded",
     "Accept": "text/html,*/*",
     "X-Requested-With": "XMLHttpRequest",

@@ -1,0 +1,83 @@
+{
+  "queries": [
+    "마스터키 프라임 동탄점",
+    "EXIT 의정부",
+    "룸즈에이 의정부점",
+    "키앤노크"
+  ],
+  "sources": [
+    {
+      "title": "룸즈에이 의정부점",
+      "url": "https://web.zamfit.kr/stores/1814"
+    },
+    {
+      "title": "마스터키 프라임 동탄점",
+      "url": "https://web.zamfit.kr/stores/1832/%EB%A7%88%EC%8A%A4%ED%84%B0%ED%82%A4-%ED%94%84%EB%9D%BC%EC%9E%84-%EB%8F%99%ED%83%84%EC%A0%90"
+    },
+    {
+      "title": "타임키퍼 | 룸즈에이 의정부점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5109/%ED%83%80%EC%9E%84%ED%82%A4%ED%8D%BC"
+    },
+    {
+      "title": "동탄 방탈출 카페 | 가격·예약·주차·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/gyeonggi/hwaseong/escape-room/"
+    },
+    {
+      "title": "룸즈에이 의정부점 방탈출 테마 5개 | 장르·시간·난이도·후기 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/store/605abe/"
+    },
+    {
+      "title": "룸즈에이 의정부점 (의정부) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/94"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "의정부 방탈출 추천 | 매장 3곳 테마 12개 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/region/uijeongbu/"
+    },
+    {
+      "title": "낭랑카페 (룸즈에이 의정부점, 의정부) 방탈출 테마 · 점수·가격 | 방도장",
+      "url": "https://bangdojang.com/theme/cms7sex6601e54mpcilqic56g"
+    },
+    {
+      "title": "룸즈에이 의정부점 - 의정부시 방탈출 정보 | 당구장 찾기",
+      "url": "https://pool.ipsitalk.net/activity/6966"
+    },
+    {
+      "title": "EXIT 의정부 (의정부) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/93"
+    },
+    {
+      "title": "종이왕국 | 마스터키 프라임 동탄점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5188"
+    },
+    {
+      "title": "KB발해인프라투융자회사",
+      "url": "https://kbif.co.kr/upload/2025/4/20250429050448007732.pdf"
+    },
+    {
+      "title": "2024 외국인건강보험 제도안내 리플렛-영문",
+      "url": "https://klec.mju.ac.kr/home_up_file/2025/20251103_104356_9.pdf"
+    },
+    {
+      "title": "Phone: 031-8",
+      "url": "https://api.army.mil/e2/c/downloads/575282.pdf"
+    },
+    {
+      "title": "KB발해인프라투융자회사",
+      "url": "https://www.kbif.co.kr/upload/2025/2/20250207064236033290.pdf"
+    },
+    {
+      "title": "NAVIGATING KOREAN HOSPITALS  HANDBOOK",
+      "url": "https://8tharmy.korea.army.mil/site/assets/doc/newcomers/Navigating-Korean-Hospitals-Handbook.pdf"
+    },
+    {
+      "title": "untitled",
+      "url": "https://www.jeonmae.co.kr/pdf/viewer/load.php"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

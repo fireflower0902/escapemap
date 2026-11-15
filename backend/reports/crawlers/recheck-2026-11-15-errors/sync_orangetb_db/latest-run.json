@@ -1,0 +1,50 @@
+[
+  {
+    "script": "sync_orangetb_db",
+    "checked_at": "2026-11-15T10:49:36.076102+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "363716272",
+          "o_id": 1,
+          "name": "오렌지티비",
+          "branch_name": "대구동성로점",
+          "area": "daegu",
+          "address": "대구 중구 동성로5길 62 4층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "363716272": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "orangetb.com",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.17,
+    "log_errors": [
+      "[ERROR] 테마 파싱 실패"
+    ],
+    "status": "needs_review"
+  }
+]

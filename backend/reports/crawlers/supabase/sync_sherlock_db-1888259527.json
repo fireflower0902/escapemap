@@ -1,0 +1,91 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:10:24.950362+09:00",
+  "scope": "selected cafe IDs: 1888259527 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1888259527"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1888259527",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "안양범계점",
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 109
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 168,
+  "statuses": {
+    "available": 141,
+    "full": 27
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1888259527": {
+      "themes": 6,
+      "slots": 168,
+      "statuses": {
+        "available": 141,
+        "full": 27
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "1111",
+    "Play or Die",
+    "나는야 천재 테러리스트",
+    "버튼을 누르세요",
+    "우리",
+    "햄즈 살찌우기"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.37,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

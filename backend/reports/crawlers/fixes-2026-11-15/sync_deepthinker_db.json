@@ -1,0 +1,61 @@
+{
+  "script": "sync_deepthinker_db",
+  "checked_at": "2026-11-15T10:50:53.338018+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 25,
+  "statuses": {
+    "full": 15,
+    "available": 10
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1442041275": {
+      "themes": 1,
+      "slots": 25,
+      "statuses": {
+        "full": 15,
+        "available": 10
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "옹이의 꿈"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "deepthinker.co.kr",
+      "path": "/reservation/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "deepthinker.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "deepthinker.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 8.4,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

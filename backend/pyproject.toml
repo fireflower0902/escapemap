@@ -14,6 +14,8 @@ dependencies = [
     "asyncpg>=0.29.0",         # PostgreSQL 비동기 드라이버 (배포용)
     "firebase-admin>=6.5.0",   # Firebase / Firestore (카페·테마·스케줄 저장)
     # HTTP 크롤러
+    "certifi>=2025.1.31",
+    "requests>=2.32.0",       # 동기 HTTP 크롤러에서 직접 사용
     "aiohttp>=3.10.0",         # XHR 직접 호출용 (1순위)
     "playwright>=1.48.0",      # 브라우저 자동화 fallback (2순위)
     "beautifulsoup4>=4.12.0",  # HTML 파싱 (3순위)

@@ -1,0 +1,8212 @@
+[
+  {
+    "key": "더코드춘천점",
+    "name": "더코드 춘천점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "강원 춘천시 퇴계농공로 16"
+    ],
+    "candidates": [
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      },
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "이스케이프존강원대점",
+    "name": "이스케이프 존 강원대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "강원 춘천시 서부대성로 231-1"
+    ],
+    "candidates": [
+      {
+        "id": "230738333",
+        "name": "이스케이프존 강대점",
+        "score": 0.95,
+        "address": "강원특별자치도 춘천시 서부대성로 231-1",
+        "same_address": true
+      },
+      {
+        "id": "1097124167",
+        "name": "이스케이프탑 창원점",
+        "score": 0.737,
+        "address": "경남 창원시 성산구 상남동 13-4",
+        "same_address": false
+      },
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.737,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더메이즈제주점",
+    "name": "더메이즈 제주점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "제주특별자치도 제주시 신성로13길 25"
+    ],
+    "candidates": [
+      {
+        "id": "138006966",
+        "name": "더메이즈 건대점",
+        "score": 0.714,
+        "address": "서울 광진구 아차산로26길 13 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "138006966",
+        "name": "더메이즈 건대점",
+        "score": 0.714,
+        "address": "서울 광진구 아차산로26길 13 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더코드서귀포점",
+    "name": "더코드 서귀포점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "제주특별자치도 서귀포시 이중섭로 4-1"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "비밀코드1",
+    "name": "비밀코드1",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "제주 서귀포시 태평로431번길 28 2층 202호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "제주시청점",
+    "name": "제주방탈출 시청점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "제주특별자치도 제주시 중앙로 206"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈여수점",
+    "name": "셜록홈즈 여수점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전남 여수시 시청동3길 35-18"
+    ],
+    "candidates": [
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.8,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "10098327",
+        "name": "셜록홈즈 성신여대점",
+        "score": 0.75,
+        "address": "서울 성북구 동선동1가 87 4층",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.75,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.8,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "10098327",
+        "name": "셜록홈즈 성신여대점",
+        "score": 0.75,
+        "address": "서울 성북구 동선동1가 87 4층",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.75,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_44",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=44&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "어메이징이스케이프",
+    "name": "어메이징 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전남 여수시 시청동5길 17"
+    ],
+    "candidates": [
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.75,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.714,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1425246210",
+        "name": "어클락이스케이프",
+        "score": 0.706,
+        "address": "경기 시흥시 서울대학로278번길 43-13",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.75,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.714,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1425246210",
+        "name": "어클락이스케이프",
+        "score": 0.706,
+        "address": "경기 시흥시 서울대학로278번길 43-13",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "셜록홈즈군산수송점",
+    "name": "셜록홈즈 군산수송점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전북 군산시 수송동 832-2"
+    ],
+    "candidates": [
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.706,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "582885260",
+        "name": "셜록홈즈 수지구청점",
+        "score": 0.667,
+        "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "same_address": false
+      },
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.706,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "582885260",
+        "name": "셜록홈즈 수지구청점",
+        "score": 0.667,
+        "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_110",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=110&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "상상락원익산원광대점",
+    "name": "상상락원 익산 원광대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전북특별자치도 익산시 동서로5길 96(신동) 2층"
+    ],
+    "candidates": [],
+    "our_id": "official_sslone_2",
+    "verification_sources": [
+      "https://sslone.co.kr/layout/res/home.php?go=main",
+      "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=2"
+    ]
+  },
+  {
+    "key": "무비무드전주점",
+    "name": "무비무드 전주점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "전북 전주시 완산구 홍산남로 60"
+    ],
+    "candidates": [
+      {
+        "id": "48992610",
+        "name": "키이스케이프 전주점",
+        "score": 0.95,
+        "address": "전북특별자치도 전주시 완산구 홍산남로 60",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "비밀의화원전주점",
+    "name": "비밀의 화원 전주점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전북 전주시 완산구 문화광장로 2 지하층"
+    ],
+    "candidates": [],
+    "our_id": "official_secretgarden_12",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=12"
+    ]
+  },
+  {
+    "key": "상상락원전주객사점",
+    "name": "상상락원 전주객사점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전북특별자치도 전주시 완산구 전주객사1길 48"
+    ],
+    "candidates": [],
+    "our_id": "official_sslone_1",
+    "verification_sources": [
+      "https://sslone.co.kr/layout/res/home.php?go=main",
+      "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=1"
+    ]
+  },
+  {
+    "key": "상상락원전주한옥마을점",
+    "name": "상상락원 전주한옥마을점 ",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전북특별자치도 전주시 완산구 풍남문2길 45-1"
+    ],
+    "candidates": [],
+    "our_id": "official_sslone_5",
+    "verification_sources": [
+      "https://sslone.co.kr/layout/res/home.php?go=main",
+      "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=5"
+    ]
+  },
+  {
+    "key": "카오스이스케이프2호점",
+    "name": "카오스 이스케이프 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "전북 전주시 덕진구 명륜5길 10-2"
+    ],
+    "candidates": [
+      {
+        "id": "431508316",
+        "name": "카오스이스케이프",
+        "score": 0.95,
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "same_address": true
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.8,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.7,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "431508316",
+        "name": "카오스이스케이프",
+        "score": 0.842,
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.8,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.7,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더코드한신포차점",
+    "name": "더코드 한신포차점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 서구 시청로60번길 10"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "러시아워",
+    "name": "러시아워 방탈출 카페",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 동구 충장로 100-1 4층"
+    ],
+    "candidates": [
+      {
+        "id": "2102768222",
+        "name": "러시아워방탈출 3호점",
+        "score": 0.727,
+        "address": "광주 동구 황금동 23-4",
+        "same_address": false
+      },
+      {
+        "id": "942247508",
+        "name": "러시아워방탈출 로드맨션",
+        "score": 0.667,
+        "address": "광주 북구 용봉동 159-13",
+        "same_address": false
+      },
+      {
+        "id": "2102768222",
+        "name": "러시아워방탈출 3호점",
+        "score": 0.727,
+        "address": "광주 동구 황금동 23-4",
+        "same_address": false
+      },
+      {
+        "id": "942247508",
+        "name": "러시아워방탈출 로드맨션",
+        "score": 0.667,
+        "address": "광주 북구 용봉동 159-13",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "러시아워시네마틱",
+    "name": "러시아워 시네마틱",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 동구 황금동 23-4 3층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이광주상무점",
+    "name": "룸즈에이 광주상무점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 서구 상무번영로 37"
+    ],
+    "candidates": [
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.7,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      },
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.7,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_54",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "룸즈에이광주수완점",
+    "name": "룸즈에이 광주수완점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 광산구 장신로147번길 5-12"
+    ],
+    "candidates": [
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.9,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      },
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.9,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_53",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "비밀의화원광주점",
+    "name": "비밀의 화원 광주점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 동구 충장로 90 4층"
+    ],
+    "candidates": [],
+    "our_id": "official_secretgarden_10",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=10"
+    ]
+  },
+  {
+    "key": "식스센스",
+    "name": "식스센스",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "광주 동구 중앙로 158-1"
+    ],
+    "candidates": [
+      {
+        "id": "786094598",
+        "name": "광주방탈출카페 식스센스",
+        "score": 0.8,
+        "address": "광주 북구 우치로90번길 5",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "시간의문광주점",
+    "name": "시간의문 광주점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 동구 중앙로160번길 15-3 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1393764461",
+        "name": "gateoftime 광주점",
+        "score": 0.95,
+        "address": "광주 동구 중앙로160번길 15-3, 3층",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "ascape",
+    "name": "ascape",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "광주 동구 서석로 34-3 4층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "키드키득",
+    "name": "키드키득 방탈출",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "광주 서구 풍암1로21번길 7 3층 1호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "더코드경주점",
+    "name": "더코드 경주점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경북 경주시 계림로 99"
+    ],
+    "candidates": [
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      },
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더코드진주점",
+    "name": "더코드 진주점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경남 진주시 촉석로186번길 3"
+    ],
+    "candidates": [
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      },
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "코드이스케이프마산점",
+    "name": "코드이스케이프 마산점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경남 창원시 마산회원구 양덕북4길 11 3층"
+    ],
+    "candidates": [
+      {
+        "id": "2055691742",
+        "name": "디코드이스케이프 전주점",
+        "score": 0.762,
+        "address": "전북 전주시 완산구 전주객사3길 46-10",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.737,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "284779798",
+        "name": "이스케이프탑 울산점",
+        "score": 0.737,
+        "address": "울산 남구 삼산동 1522-2",
+        "same_address": false
+      },
+      {
+        "id": "2055691742",
+        "name": "디코드이스케이프 전주점",
+        "score": 0.762,
+        "address": "전북 전주시 완산구 전주객사3길 46-10",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.737,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "284779798",
+        "name": "이스케이프탑 울산점",
+        "score": 0.737,
+        "address": "울산 남구 삼산동 1522-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "타임이스케이프",
+    "name": "타임 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경남 창원시 성산구 마디미로21번길 10"
+    ],
+    "candidates": [
+      {
+        "id": "1233678979",
+        "name": "더타임이스케이프",
+        "score": 0.933,
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.857,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.833,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1233678979",
+        "name": "더타임이스케이프",
+        "score": 0.933,
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.857,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.833,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더패닉이스케이프",
+    "name": "더패닉 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경북 포항시 북구 중앙상가길 2"
+    ],
+    "candidates": [
+      {
+        "id": "27178625",
+        "name": "패닉이스케이프 목동점",
+        "score": 0.778,
+        "address": "서울 양천구 목동동로 343 3층",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1233678979",
+        "name": "더타임이스케이프",
+        "score": 0.75,
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "same_address": false
+      },
+      {
+        "id": "27178625",
+        "name": "패닉이스케이프 목동점",
+        "score": 0.778,
+        "address": "서울 양천구 목동동로 343 3층",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1233678979",
+        "name": "더타임이스케이프",
+        "score": 0.75,
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "트랩코리아울산점",
+    "name": "트랩코리아 울산점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "울산 남구 삼산중로74번길 6"
+    ],
+    "candidates": [
+      {
+        "id": "27575809",
+        "name": "트랩코리아 삼산점",
+        "score": 0.95,
+        "address": "울산 남구 삼산중로74번길 6",
+        "same_address": true
+      },
+      {
+        "id": "27575809",
+        "name": "트랩코리아 삼산점",
+        "score": 0.875,
+        "address": "울산 남구 삼산중로74번길 6",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이대구동성로2호점",
+    "name": "룸즈에이 대구동성로 2호점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대구 중구 동성로2길 50-18 4층"
+    ],
+    "candidates": [],
+    "our_id": "official_roomsa_56",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "룸즈에이대구동성로점",
+    "name": "룸즈에이 대구동성로점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대구 중구 동성로6길 16 4층"
+    ],
+    "candidates": [],
+    "our_id": "official_roomsa_55",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "시간의문대구동성로2호점",
+    "name": "시간의문 대구동성로2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대구 중구 중앙대로 394-8 4층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "시간의문대구동성로점",
+    "name": "시간의문 대구동성로점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대구 중구 중앙대로 394-8 2층"
+    ],
+    "candidates": [
+      {
+        "id": "929019886",
+        "name": "gateoftime 대구동성로점",
+        "score": 0.95,
+        "address": "대구 중구 중앙대로 394-8, 2층",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "오렌지티비",
+    "name": "오렌지티비",
+    "status": "verified_existing",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대구 중구 동성로5길 62 4층"
+    ],
+    "candidates": [
+      {
+        "id": "363716272",
+        "name": "오렌지티비 대구동성로점",
+        "score": 0.95,
+        "address": "대구 중구 동성로5길 62 4층",
+        "same_address": true
+      },
+      {
+        "id": "1908328454",
+        "name": "오렌지티비 대전은행점",
+        "score": 0.667,
+        "address": "대전 중구 중앙로156번길24 3층",
+        "same_address": false
+      }
+    ],
+    "our_id": "363716272",
+    "verification_sources": [
+      "http://orangetb.com/reservation"
+    ]
+  },
+  {
+    "key": "이스케이퍼스대구점",
+    "name": "이스케이퍼스 대구점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대구시 중구 동성로6길 22, 4층"
+    ],
+    "candidates": [
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.8,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": false
+      },
+      {
+        "id": "2100000004",
+        "name": "큐브이스케이프 대구점",
+        "score": 0.737,
+        "address": "대구 중구 동성로2길 81 3층",
+        "same_address": false
+      },
+      {
+        "id": "340303350",
+        "name": "이스케이프하우스 홍대점",
+        "score": 0.7,
+        "address": "서울 마포구 와우산로21길 28-9",
+        "same_address": false
+      },
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.8,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": false
+      },
+      {
+        "id": "2100000004",
+        "name": "큐브이스케이프 대구점",
+        "score": 0.737,
+        "address": "대구 중구 동성로2길 81 3층",
+        "same_address": false
+      },
+      {
+        "id": "340303350",
+        "name": "이스케이프하우스 홍대점",
+        "score": 0.7,
+        "address": "서울 마포구 와우산로21길 28-9",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "지구별",
+    "name": "지구별 방탈출",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대구 중구 동성로 15-1 3층 4층 5층"
+    ],
+    "candidates": [
+      {
+        "id": "7690632",
+        "name": "지구별방탈출 대구점",
+        "score": 0.667,
+        "address": "대구 중구 동성로2가 127-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "플러스이스케이프",
+    "name": "플러스이스케이프",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대구 동구 장등로 36-1 6층"
+    ],
+    "candidates": [
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "338628640",
+        "name": "앨리스이스케이프",
+        "score": 0.75,
+        "address": "대구 중구 동성로2가 151-3",
+        "same_address": false
+      },
+      {
+        "id": "431508316",
+        "name": "카오스이스케이프",
+        "score": 0.75,
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "338628640",
+        "name": "앨리스이스케이프",
+        "score": 0.75,
+        "address": "대구 중구 동성로2가 151-3",
+        "same_address": false
+      },
+      {
+        "id": "431508316",
+        "name": "카오스이스케이프",
+        "score": 0.75,
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_plus",
+    "verification_sources": [
+      "https://www.plus-escape.com",
+      "https://www.plus-escape.com/reservation"
+    ]
+  },
+  {
+    "key": "황금열쇠대구점",
+    "name": "황금열쇠 대구점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대구 중구 동성로2길 18-12"
+    ],
+    "candidates": [
+      {
+        "id": "1271584354",
+        "name": "황금열쇠 건대점",
+        "score": 0.857,
+        "address": "서울 광진구 화양동 9-90 4층",
+        "same_address": false
+      },
+      {
+        "id": "1958696909",
+        "name": "황금열쇠 동성로점",
+        "score": 0.667,
+        "address": "대구 중구 봉산동 22-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "게임오브마인드서면점",
+    "name": "게임오브마인드 서면점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 중앙대로680번가길 11-5"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "다이아에그",
+    "name": "다이아에그",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 동천로 61"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이부산남포점",
+    "name": "룸즈에이 부산남포점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 중구 광복로 36"
+    ],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.75,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.75,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_51",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "미션이스케이프부산대점",
+    "name": "미션 이스케이프 부산대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 금정구 금정로68번길 5"
+    ],
+    "candidates": [
+      {
+        "id": "1448469234",
+        "name": "더락이스케이프 부산대점",
+        "score": 0.818,
+        "address": "부산 금정구 장전동 302-13",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.8,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "665041653",
+        "name": "이스케이프탑 부산점",
+        "score": 0.8,
+        "address": "부산 부산진구 부전동 520-14",
+        "same_address": false
+      },
+      {
+        "id": "1448469234",
+        "name": "더락이스케이프 부산대점",
+        "score": 0.818,
+        "address": "부산 금정구 장전동 302-13",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.8,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "665041653",
+        "name": "이스케이프탑 부산점",
+        "score": 0.8,
+        "address": "부산 부산진구 부전동 520-14",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "미스테리인",
+    "name": "미스테리인",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 중앙대로692번길 37 4층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "브레이크아웃이스케이프해운대점",
+    "name": "브레이크아웃 이스케이프 해운대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 해운대구 해운대해변로 291"
+    ],
+    "candidates": [
+      {
+        "id": "170158027",
+        "name": "브레이크아웃이스케이프 해운대본점",
+        "score": 0.968,
+        "address": "부산 해운대구 중동 1394-286",
+        "same_address": false
+      },
+      {
+        "id": "451924760",
+        "name": "브레이크아웃이스케이프 홍대점",
+        "score": 0.897,
+        "address": "서울 마포구 서교동 338-48",
+        "same_address": false
+      },
+      {
+        "id": "170158027",
+        "name": "브레이크아웃이스케이프 해운대본점",
+        "score": 0.968,
+        "address": "부산 해운대구 중동 1394-286",
+        "same_address": false
+      },
+      {
+        "id": "451924760",
+        "name": "브레이크아웃이스케이프 홍대점",
+        "score": 0.897,
+        "address": "서울 마포구 서교동 338-48",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비트포비아서면던전레드",
+    "name": "비트포비아 서면 던전 레드",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 중앙대로692번길 43"
+    ],
+    "candidates": [
+      {
+        "id": "629764977",
+        "name": "비트포비아 레드던전 서면점",
+        "score": 0.95,
+        "address": "부산 부산진구 중앙대로692번길 43",
+        "same_address": true
+      },
+      {
+        "id": "1322241204",
+        "name": "비트포비아 서면던전점",
+        "score": 0.857,
+        "address": "부산 부산진구 동천로 66",
+        "same_address": false
+      },
+      {
+        "id": "1478483341",
+        "name": "비트포비아 던전루나",
+        "score": 0.7,
+        "address": "서울 강남구 강남대로94길 20",
+        "same_address": false
+      },
+      {
+        "id": "1322241204",
+        "name": "비트포비아 서면던전점",
+        "score": 0.857,
+        "address": "부산 부산진구 동천로 66",
+        "same_address": false
+      },
+      {
+        "id": "1478483341",
+        "name": "비트포비아 던전루나",
+        "score": 0.7,
+        "address": "서울 강남구 강남대로94길 20",
+        "same_address": false
+      },
+      {
+        "id": "1246652450",
+        "name": "비트포비아 홍대던전점",
+        "score": 0.667,
+        "address": "서울 마포구 독막로3길 30",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "서울이스케이프룸서면점",
+    "name": "서울 이스케이프 룸 서면점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "부산 부산진구 서전로10번길 61"
+    ],
+    "candidates": [
+      {
+        "id": "310013350",
+        "name": "서울이스케이프룸 부산서면점",
+        "score": 0.917,
+        "address": "부산 부산진구 서면로68번길 38",
+        "same_address": false
+      },
+      {
+        "id": "1351400084",
+        "name": "서울이스케이프룸 홍대점",
+        "score": 0.818,
+        "address": "서울 마포구 어울마당로 138",
+        "same_address": false
+      },
+      {
+        "id": "427897815",
+        "name": "서울이스케이프룸 인천부평점",
+        "score": 0.75,
+        "address": "인천 부평구 부평대로 153",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "성야학원",
+    "name": "성야학원",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 중앙대로680번길 35 1층 103호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "육향찻집",
+    "name": "육향찻집",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 동천로 65 4층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "이스케이프탑부산1호점",
+    "name": "이스케이프탑 부산 1호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 중앙대로691번길 54"
+    ],
+    "candidates": [
+      {
+        "id": "665041653",
+        "name": "이스케이프탑 부산점",
+        "score": 0.9,
+        "address": "부산 부산진구 부전동 520-14",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.8,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "284779798",
+        "name": "이스케이프탑 울산점",
+        "score": 0.8,
+        "address": "울산 남구 삼산동 1522-2",
+        "same_address": false
+      },
+      {
+        "id": "665041653",
+        "name": "이스케이프탑 부산점",
+        "score": 0.9,
+        "address": "부산 부산진구 부전동 520-14",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.8,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "284779798",
+        "name": "이스케이프탑 울산점",
+        "score": 0.8,
+        "address": "울산 남구 삼산동 1522-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "카타르시스이스케이프",
+    "name": "카타르시스 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "부산 부산진구 중앙대로680번가길 29"
+    ],
+    "candidates": [
+      {
+        "id": "1358303820",
+        "name": "카타르시스이스케이프 서면점",
+        "score": 0.87,
+        "address": "부산 부산진구 부전동 187-10",
+        "same_address": false
+      },
+      {
+        "id": "431508316",
+        "name": "카오스이스케이프",
+        "score": 0.778,
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.706,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      },
+      {
+        "id": "1358303820",
+        "name": "카타르시스이스케이프 서면점",
+        "score": 0.87,
+        "address": "부산 부산진구 부전동 187-10",
+        "same_address": false
+      },
+      {
+        "id": "431508316",
+        "name": "카오스이스케이프",
+        "score": 0.778,
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.706,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "파노라마부산점",
+    "name": "파노라마 부산점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "부산 남구 용소로14번길 9 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "422613765",
+        "name": "파노라마 부산",
+        "score": 0.923,
+        "address": "부산 남구 용소로14번길 9",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "플레이포인트랩천안두정점",
+    "name": "플레이포인트랩 천안두정점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "충남 천안시 서북구 두정로 177"
+    ],
+    "candidates": [
+      {
+        "id": "2030700012",
+        "name": "플레이포인트랩 두정점",
+        "score": 0.95,
+        "address": "충남 천안시 서북구 두정로 177",
+        "same_address": true
+      },
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.727,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      },
+      {
+        "id": "1466171651",
+        "name": "플레이포인트랩 강남점",
+        "score": 0.727,
+        "address": "서울 강남구 강남대로98길 11",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "셜록홈즈아산점",
+    "name": "셜록홈즈 아산점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "충남 아산시 번영로 220 씨티1빌딩 3층 셜록홈즈 아산점"
+    ],
+    "candidates": [
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      },
+      {
+        "id": "1954089927",
+        "name": "셜록홈즈 미사점",
+        "score": 0.714,
+        "address": "경기 하남시 망월동 1111 미사강변도시 상업4블록 4층",
+        "same_address": false
+      },
+      {
+        "id": "2127065864",
+        "name": "셜록홈즈 부평점",
+        "score": 0.714,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      },
+      {
+        "id": "1954089927",
+        "name": "셜록홈즈 미사점",
+        "score": 0.714,
+        "address": "경기 하남시 망월동 1111 미사강변도시 상업4블록 4층",
+        "same_address": false
+      },
+      {
+        "id": "2127065864",
+        "name": "셜록홈즈 부평점",
+        "score": 0.714,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_86",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=86&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "다락방",
+    "name": "다락방 방탈출 카페",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "충북 청주시 상당구 성안로 3 3층"
+    ],
+    "candidates": [
+      {
+        "id": "442981346",
+        "name": "다락방 안양점",
+        "score": 0.667,
+        "address": "경기 안양시 만안구 안양로292번길 18",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "루팡이스케이프1호점",
+    "name": "루팡 이스케이프 1호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "충북 청주시 상당구 성안로 10"
+    ],
+    "candidates": [
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.842,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.737,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1875954710",
+        "name": "골든타임이스케이프 1호점",
+        "score": 0.727,
+        "address": "경기 수원시 영통구 영통동 998-4",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "루팡이스케이프본점",
+    "name": "루팡 이스케이프 본점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "충북 청주시 상당구 성안로 26-1"
+    ],
+    "candidates": [
+      {
+        "id": "2011481622",
+        "name": "루팡방탈출카페 본점",
+        "score": 0.95,
+        "address": "충북 청주시 상당구 성안로 26-1",
+        "same_address": true
+      },
+      {
+        "id": "136198096",
+        "name": "루트이스케이프 평택점",
+        "score": 0.737,
+        "address": "경기 평택시 평택로 41",
+        "same_address": false
+      },
+      {
+        "id": "1609773844",
+        "name": "루트이스케이프 안산점",
+        "score": 0.737,
+        "address": "경기 안산시 단원구 고잔1길 40",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "두잇이스케이프1호점",
+    "name": "두잇 이스케이프 1호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 구리시 검배로6번길 23"
+    ],
+    "candidates": [
+      {
+        "id": "716654663",
+        "name": "두잇이스케이프",
+        "score": 0.95,
+        "address": "경기 구리시 검배로6번길 23",
+        "same_address": true
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.842,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.737,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.842,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "716654663",
+        "name": "두잇이스케이프",
+        "score": 0.824,
+        "address": "경기 구리시 검배로6번길 23",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.737,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "두잇이스케이프2호점",
+    "name": "두잇 이스케이프 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 구리시 체육관로172번길 40"
+    ],
+    "candidates": [
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.842,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "716654663",
+        "name": "두잇이스케이프",
+        "score": 0.824,
+        "address": "경기 구리시 검배로6번길 23",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.737,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.842,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "716654663",
+        "name": "두잇이스케이프",
+        "score": 0.824,
+        "address": "경기 구리시 검배로6번길 23",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.737,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "셜록홈즈구리점",
+    "name": "셜록홈즈 구리점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 구리시 경춘로 218-5"
+    ],
+    "candidates": [
+      {
+        "id": "582885260",
+        "name": "셜록홈즈 수지구청점",
+        "score": 0.75,
+        "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "same_address": false
+      },
+      {
+        "id": "743084847",
+        "name": "셜록홈즈 김포구래점",
+        "score": 0.75,
+        "address": "경기 김포시 구래동 6882-16 킨텍스원시티몰 4층",
+        "same_address": false
+      },
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      },
+      {
+        "id": "582885260",
+        "name": "셜록홈즈 수지구청점",
+        "score": 0.75,
+        "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "same_address": false
+      },
+      {
+        "id": "743084847",
+        "name": "셜록홈즈 김포구래점",
+        "score": 0.75,
+        "address": "경기 김포시 구래동 6882-16 킨텍스원시티몰 4층",
+        "same_address": false
+      },
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_41",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=41&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "일상탈출",
+    "name": "일상탈출방탈출카페",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 안양시 만안구 장내로149번길 49"
+    ],
+    "candidates": [
+      {
+        "id": "255097329",
+        "name": "방탈출카페 일상탈출 안양일번가점",
+        "score": 0.95,
+        "address": "경기 안양시 만안구 장내로149번길 49",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "블랙헤이븐",
+    "name": "블랙헤이븐",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 안양시 만안구 소곡로 40"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈뉴안양점",
+    "name": "셜록홈즈 뉴안양점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 안양시 만안구 안양로304번길 25 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1888259527",
+        "name": "셜록홈즈 안양범계점",
+        "score": 0.824,
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "same_address": false
+      },
+      {
+        "id": "27583768",
+        "name": "셜록홈즈 천안1호점",
+        "score": 0.706,
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "same_address": false
+      },
+      {
+        "id": "908334376",
+        "name": "셜록홈즈 천안2호점",
+        "score": 0.706,
+        "address": "충남 천안시 동남구 신부동 461-9",
+        "same_address": false
+      },
+      {
+        "id": "1888259527",
+        "name": "셜록홈즈 안양범계점",
+        "score": 0.824,
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "same_address": false
+      },
+      {
+        "id": "27583768",
+        "name": "셜록홈즈 천안1호점",
+        "score": 0.706,
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "same_address": false
+      },
+      {
+        "id": "908334376",
+        "name": "셜록홈즈 천안2호점",
+        "score": 0.706,
+        "address": "충남 천안시 동남구 신부동 461-9",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_81",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=81&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "룸즈에이안양범계점",
+    "name": "룸즈에이 안양범계점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 안양시 동안구 평촌대로227번길 48"
+    ],
+    "candidates": [
+      {
+        "id": "1888259527",
+        "name": "셜록홈즈 안양범계점",
+        "score": 0.667,
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "same_address": false
+      },
+      {
+        "id": "1888259527",
+        "name": "셜록홈즈 안양범계점",
+        "score": 0.667,
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_43",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "제로월드김포점",
+    "name": "제로월드 김포점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 김포시 김포한강9로75번길 180 4층"
+    ],
+    "candidates": [
+      {
+        "id": "1345840219",
+        "name": "제로월드 강남점",
+        "score": 0.714,
+        "address": "서울 서초구 서초동 1308 강남오피스텔 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1732671994",
+        "name": "제로월드 홍대점",
+        "score": 0.714,
+        "address": "서울 마포구 동교동 203-13 5층",
+        "same_address": false
+      },
+      {
+        "id": "1345840219",
+        "name": "제로월드 강남점",
+        "score": 0.714,
+        "address": "서울 서초구 서초동 1308 강남오피스텔 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1732671994",
+        "name": "제로월드 홍대점",
+        "score": 0.714,
+        "address": "서울 마포구 동교동 203-13 5층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_zeroworld_1",
+    "verification_sources": [
+      "https://zeroworldkorea.com/layout/res/home.php?go=location",
+      "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=A&zizum_num=1"
+    ]
+  },
+  {
+    "key": "마스터키프라임동탄점",
+    "name": "마스터키 프라임 동탄점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기도 화성시 동탄중심상가2길 37"
+    ],
+    "candidates": [
+      {
+        "id": "164781377",
+        "name": "마스터키 프라임청주점",
+        "score": 0.8,
+        "address": "충북 청주시 상당구 상당로69번길 3",
+        "same_address": false
+      },
+      {
+        "id": "1834906043",
+        "name": "마스터키 동탄프레임점",
+        "score": 0.7,
+        "address": "경기 화성시 동탄구 동탄중심상가2길 37",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "셜록홈즈동탄점",
+    "name": "셜록홈즈 동탄점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 화성시 동탄중심상가2길 5 3층 셜록홈즈 동탄점"
+    ],
+    "candidates": [
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.75,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "2021007589",
+        "name": "셜록홈즈 용인동백점",
+        "score": 0.75,
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "same_address": false
+      },
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      },
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.75,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "2021007589",
+        "name": "셜록홈즈 용인동백점",
+        "score": 0.75,
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "same_address": false
+      },
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_79",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=79&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "exit의정부",
+    "name": "EXIT 의정부",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기 의정부시 태평로89번길 38"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이의정부점",
+    "name": "룸즈에이 의정부점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 의정부시 시민로121번길 52"
+    ],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.8,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.8,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_46",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "셜록홈즈의정부점",
+    "name": "셜록홈즈 의정부점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 의정부시 행복로 16 삼성빌딩 4층"
+    ],
+    "candidates": [
+      {
+        "id": "2127065864",
+        "name": "셜록홈즈 부평점",
+        "score": 0.8,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.706,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "399640253",
+        "name": "셜록홈즈 부평2호점",
+        "score": 0.706,
+        "address": "인천 부평구 경인로 570",
+        "same_address": false
+      },
+      {
+        "id": "2127065864",
+        "name": "셜록홈즈 부평점",
+        "score": 0.8,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.706,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "399640253",
+        "name": "셜록홈즈 부평2호점",
+        "score": 0.706,
+        "address": "인천 부평구 경인로 570",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_61",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=61&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "키앤노크",
+    "name": "키앤노크",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 의정부시 호국로1298번길 60, 2층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "메모리카니발",
+    "name": "메모리카니발",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기 용인시 처인구 포곡읍 에버랜드로 199 삼성에버랜드"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈용인역북점",
+    "name": "셜록홈즈 용인역북점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 용인시 처인구 명지로40번길 16 3층 304, 305호"
+    ],
+    "candidates": [
+      {
+        "id": "2021007589",
+        "name": "셜록홈즈 용인동백점",
+        "score": 0.778,
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "same_address": false
+      },
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.706,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "2021007589",
+        "name": "셜록홈즈 용인동백점",
+        "score": 0.778,
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "same_address": false
+      },
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.706,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_112",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=112&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "제로월드서현점",
+    "name": "제로월드 서현점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 성남시 분당구 서현로210번길 17"
+    ],
+    "candidates": [
+      {
+        "id": "1345840219",
+        "name": "제로월드 강남점",
+        "score": 0.714,
+        "address": "서울 서초구 서초동 1308 강남오피스텔 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1732671994",
+        "name": "제로월드 홍대점",
+        "score": 0.714,
+        "address": "서울 마포구 동교동 203-13 5층",
+        "same_address": false
+      },
+      {
+        "id": "1345840219",
+        "name": "제로월드 강남점",
+        "score": 0.714,
+        "address": "서울 서초구 서초동 1308 강남오피스텔 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1732671994",
+        "name": "제로월드 홍대점",
+        "score": 0.714,
+        "address": "서울 마포구 동교동 203-13 5층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸엘이스케이프",
+    "name": "룸엘이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 관악구 신림로 322-4 2층"
+    ],
+    "candidates": [
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.833,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1735229345",
+        "name": "룸엘이스케이프 당곡점",
+        "score": 0.824,
+        "address": "서울 관악구 보라매로 4 2-3층",
+        "same_address": false
+      },
+      {
+        "id": "628138029",
+        "name": "룸엘이스케이프 신림점",
+        "score": 0.824,
+        "address": "서울 관악구 신림동",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸엘이스케이프신림3호점",
+    "name": "룸엘이스케이프 신림3호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 관악구 봉천동 971-1 2~3층"
+    ],
+    "candidates": [
+      {
+        "id": "782208965",
+        "name": "룸엘이스케이프 신림2호점",
+        "score": 0.917,
+        "address": "서울 관악구 신림로59길 15-12 1층",
+        "same_address": false
+      },
+      {
+        "id": "628138029",
+        "name": "룸엘이스케이프 신림점",
+        "score": 0.909,
+        "address": "서울 관악구 신림동",
+        "same_address": false
+      },
+      {
+        "id": "596589943",
+        "name": "룸엘이스케이프 홍대1호점",
+        "score": 0.75,
+        "address": "서울 마포구 잔다리로 4 2층",
+        "same_address": false
+      },
+      {
+        "id": "782208965",
+        "name": "룸엘이스케이프 신림2호점",
+        "score": 0.917,
+        "address": "서울 관악구 신림로59길 15-12 1층",
+        "same_address": false
+      },
+      {
+        "id": "628138029",
+        "name": "룸엘이스케이프 신림점",
+        "score": 0.909,
+        "address": "서울 관악구 신림동",
+        "same_address": false
+      },
+      {
+        "id": "596589943",
+        "name": "룸엘이스케이프 홍대1호점",
+        "score": 0.75,
+        "address": "서울 마포구 잔다리로 4 2층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "체셔하우스",
+    "name": "체셔하우스",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 관악구 신림로 322-4, 3층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "결",
+    "name": "방탈출결",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 중구 명동10길 13"
+    ],
+    "candidates": [
+      {
+        "id": "1183396756",
+        "name": "비트포비아 명동점",
+        "score": 0.95,
+        "address": "서울 중구 명동10길 13",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "탈출브라더스",
+    "name": "탈출 브라더스",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 영등포구 영중로4길 25"
+    ],
+    "candidates": [
+      {
+        "id": "1045036053",
+        "name": "탈출브라더스 영등포점",
+        "score": 0.75,
+        "address": "서울 영등포구 영등포동4가 433 4층",
+        "same_address": false
+      },
+      {
+        "id": "1045036053",
+        "name": "탈출브라더스 영등포점",
+        "score": 0.75,
+        "address": "서울 영등포구 영등포동4가 433 4층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "이스케이프시티영등포점",
+    "name": "이스케이프시티 영등포점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 영등포구 영중로8길 6"
+    ],
+    "candidates": [
+      {
+        "id": "1444854771",
+        "name": "이스케이프시티 영등포본점",
+        "score": 0.957,
+        "address": "서울 영등포구 영중로8길 6",
+        "same_address": true
+      },
+      {
+        "id": "115701517",
+        "name": "싸인이스케이프 인계시티점",
+        "score": 0.696,
+        "address": "경기 수원시 팔달구 인계동 1041-8",
+        "same_address": false
+      },
+      {
+        "id": "1245109855",
+        "name": "싸인이스케이프 강남시티점",
+        "score": 0.696,
+        "address": "서울 강남구 강남대로94길 67 도연빌딩 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "리얼월드성수",
+    "name": "리얼월드 성수",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 성동구 연무장13길 8 메리히어 1층 리얼월드 성수"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "체키성수",
+    "name": "체키 성수",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 성동구 연무장3길 13 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "더메이즈노원점",
+    "name": "더메이즈 노원점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 노원구 상계로5길 26"
+    ],
+    "candidates": [
+      {
+        "id": "138006966",
+        "name": "더메이즈 건대점",
+        "score": 0.714,
+        "address": "서울 광진구 아차산로26길 13 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "138006966",
+        "name": "더메이즈 건대점",
+        "score": 0.714,
+        "address": "서울 광진구 아차산로26길 13 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "플레이포인트랩노원점",
+    "name": "플레이포인트랩 노원점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 노원구 상계로3길 21, B1"
+    ],
+    "candidates": [
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.8,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      },
+      {
+        "id": "1466171651",
+        "name": "플레이포인트랩 강남점",
+        "score": 0.8,
+        "address": "서울 강남구 강남대로98길 11",
+        "same_address": false
+      },
+      {
+        "id": "2030700012",
+        "name": "플레이포인트랩 두정점",
+        "score": 0.8,
+        "address": "충남 천안시 서북구 두정로 177",
+        "same_address": false
+      },
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.8,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      },
+      {
+        "id": "1466171651",
+        "name": "플레이포인트랩 강남점",
+        "score": 0.8,
+        "address": "서울 강남구 강남대로98길 11",
+        "same_address": false
+      },
+      {
+        "id": "2030700012",
+        "name": "플레이포인트랩 두정점",
+        "score": 0.8,
+        "address": "충남 천안시 서북구 두정로 177",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "나의신방",
+    "name": "나의신방",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 연세로5가길 8-3 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1521613397",
+        "name": "나의신방 신촌점",
+        "score": 0.727,
+        "address": "서울 서대문구 창천동 57-3 3층",
+        "same_address": false
+      },
+      {
+        "id": "1521613397",
+        "name": "나의신방 신촌점",
+        "score": 0.727,
+        "address": "서울 서대문구 창천동 57-3 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸익스케이프블랙점",
+    "name": "룸익스케이프 블랙점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 연세로4길 6"
+    ],
+    "candidates": [
+      {
+        "id": "690123759",
+        "name": "룸익스케이프 인디고블루점",
+        "score": 0.762,
+        "address": "서울 서대문구 연세로5가길 21",
+        "same_address": false
+      },
+      {
+        "id": "690123759",
+        "name": "룸익스케이프 인디고블루점",
+        "score": 0.762,
+        "address": "서울 서대문구 연세로5가길 21",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸익스케이프올리브점",
+    "name": "룸익스케이프 올리브점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 연세로9길 25 지하 1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸익스케이프화이트점",
+    "name": "룸익스케이프 화이트점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 명물길 66"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "신촌퍼플릭",
+    "name": "신촌퍼플릭",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 연세로7안길 20 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "esc",
+    "name": "방탈출 ESC",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 명물길 32"
+    ],
+    "candidates": [
+      {
+        "id": "1314964065",
+        "name": "ESC방탈출카페 평택점",
+        "score": 0.667,
+        "address": "경기 평택시",
+        "same_address": false
+      },
+      {
+        "id": "273855007",
+        "name": "방탈출ESC 신촌점",
+        "score": 0.667,
+        "address": "서울 서대문구 창천동 19-10",
+        "same_address": false
+      },
+      {
+        "id": "27559974",
+        "name": "ESC방탈출카페 천안점",
+        "score": 0.667,
+        "address": "충남 천안시 동남구 신부동 462-1",
+        "same_address": false
+      },
+      {
+        "id": "1314964065",
+        "name": "ESC방탈출카페 평택점",
+        "score": 0.667,
+        "address": "경기 평택시",
+        "same_address": false
+      },
+      {
+        "id": "273855007",
+        "name": "방탈출ESC 신촌점",
+        "score": 0.667,
+        "address": "서울 서대문구 창천동 19-10",
+        "same_address": false
+      },
+      {
+        "id": "27559974",
+        "name": "ESC방탈출카페 천안점",
+        "score": 0.667,
+        "address": "충남 천안시 동남구 신부동 462-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "아워즈",
+    "name": "아워즈 방탈출카페",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 서대문구 신촌로11길 35-7 1층,우측"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "클레버타운",
+    "name": "클레버타운",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 연세로 30 4층"
+    ],
+    "candidates": [
+      {
+        "id": "949587061",
+        "name": "클레버타운 신촌점",
+        "score": 0.769,
+        "address": "서울 서대문구 신촌동 57-7",
+        "same_address": false
+      },
+      {
+        "id": "949587061",
+        "name": "클레버타운 신촌점",
+        "score": 0.769,
+        "address": "서울 서대문구 신촌동 57-7",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "탐정크루신촌2호점",
+    "name": "탐정크루 신촌 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서대문구 명물길 19 나동 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이대학로점",
+    "name": "룸즈에이 대학로점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 종로구 대학로10길 15-15"
+    ],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.667,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.667,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_42",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "비밀의화원시네마틱혜화점",
+    "name": "비밀의 화원 시네마틱 혜화점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 종로구 대명길 9 지하2층"
+    ],
+    "candidates": [],
+    "our_id": "official_secretgarden_11",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=11"
+    ]
+  },
+  {
+    "key": "비밀의화원대학로점",
+    "name": "비밀의 화원 대학로점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 종로구 대학로 130"
+    ],
+    "candidates": [],
+    "our_id": "official_secretgarden_4",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=4"
+    ]
+  },
+  {
+    "key": "상상의문대학로점",
+    "name": "상상의문 대학로점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 종로구 창경궁로34길 18-5, 지하"
+    ],
+    "candidates": [
+      {
+        "id": "1387240933",
+        "name": "상상의문 부평점",
+        "score": 0.667,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "776353707",
+        "name": "상상의문 수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 인계동 1041-12",
+        "same_address": false
+      },
+      {
+        "id": "1387240933",
+        "name": "상상의문 부평점",
+        "score": 0.667,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "776353707",
+        "name": "상상의문 수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 인계동 1041-12",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "전국자체컨텐츠",
+    "name": "전국방탈출 자체컨텐츠",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 종로구 대학로 120 (명륜4가, 4호선 혜화역)"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "탐정의방",
+    "name": "탐정의방",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 종로구 대명길 35 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "머더파커잠실wow점",
+    "name": "머더파커 잠실 WOW점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울특별시 송파구 올림픽로32길 22-23"
+    ],
+    "candidates": [
+      {
+        "id": "1796437751",
+        "name": "머더파커 잠실점",
+        "score": 0.824,
+        "address": "서울 송파구 올림픽로35다길 14 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "64956517",
+        "name": "머더파커 WOW 홍대점",
+        "score": 0.8,
+        "address": "서울 마포구 잔다리로6길 25 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "머더파커잠실새내점",
+    "name": "머더파커 잠실새내점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 송파구 백제고분로7길 32-10 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1796437751",
+        "name": "머더파커 잠실점",
+        "score": 0.875,
+        "address": "서울 송파구 올림픽로35다길 14 지하 1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "상상락원잠실점",
+    "name": "상상락원 잠실점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 송파구 백제고분로 41길 6-5 2층"
+    ],
+    "candidates": [],
+    "our_id": "official_sslone_4",
+    "verification_sources": [
+      "https://sslone.co.kr/layout/res/home.php?go=main",
+      "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=4"
+    ]
+  },
+  {
+    "key": "찰리이스케이프2호점",
+    "name": "찰리이스케이프 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 송파구 삼전동 58-4"
+    ],
+    "candidates": [
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.842,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.824,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.737,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.842,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.824,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.737,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "롯데월드",
+    "name": "롯데월드 방탈출",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 송파구 올림픽로 240 롯데월드 민속박물관"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "넥스트에디션보네르관",
+    "name": "넥스트에디션 보네르관",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로31길 9-1 , 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "1108129560",
+        "name": "넥스트에디션 건대 보네르관",
+        "score": 0.909,
+        "address": "서울 광진구 화양동 9-19, 지하 1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "백스테이지",
+    "name": "백스테이지",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로21길 15 1층"
+    ],
+    "candidates": [
+      {
+        "id": "1415278100",
+        "name": "인스테이지방탈출",
+        "score": 0.8,
+        "address": "강원 춘천시 서부대성로 196 3층",
+        "same_address": false
+      },
+      {
+        "id": "1415278100",
+        "name": "인스테이지방탈출",
+        "score": 0.8,
+        "address": "강원 춘천시 서부대성로 196 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비밀의화원건대포레스트점",
+    "name": "비밀의 화원 건대 포레스트점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 광진구 동일로24길 102, 2층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "비밀의화원건대점",
+    "name": "비밀의 화원 건대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 광진구 아차산로 235 3층"
+    ],
+    "candidates": [],
+    "our_id": "official_secretgarden_5",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=5"
+    ]
+  },
+  {
+    "key": "솔버1호점",
+    "name": "솔버 1호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로 201"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "솔버2호점",
+    "name": "솔버 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로 209"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "엑스케이프건대점",
+    "name": "엑스케이프 건대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 광진구 동일로 112"
+    ],
+    "candidates": [
+      {
+        "id": "2016521022",
+        "name": "이스케이프샾 건대점",
+        "score": 0.824,
+        "address": "서울 광진구 능동로 129-1",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.706,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      },
+      {
+        "id": "200411443",
+        "name": "키이스케이프 홍대점",
+        "score": 0.706,
+        "address": "서울 마포구 어울마당로 44-1",
+        "same_address": false
+      },
+      {
+        "id": "2016521022",
+        "name": "이스케이프샾 건대점",
+        "score": 0.824,
+        "address": "서울 광진구 능동로 129-1",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.706,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      },
+      {
+        "id": "200411443",
+        "name": "키이스케이프 홍대점",
+        "score": 0.706,
+        "address": "서울 마포구 어울마당로 44-1",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_xcape_xc",
+    "verification_sources": [
+      "https://xcape.kr/directions",
+      "https://xcape.kr/booking/xc"
+    ]
+  },
+  {
+    "key": "엑스케이프뉴케이스",
+    "name": "엑스케이프 뉴케이스",
+    "status": "added_verified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로 191 B1층"
+    ],
+    "candidates": [],
+    "our_id": "official_xcape_nc",
+    "verification_sources": [
+      "https://xcape.kr/directions",
+      "https://xcape.kr/booking/nc"
+    ]
+  },
+  {
+    "key": "엑스크라임",
+    "name": "엑스크라임",
+    "status": "added_verified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로29길 38"
+    ],
+    "candidates": [
+      {
+        "id": "1336760672",
+        "name": "방탈출크라임씬",
+        "score": 0.667,
+        "address": "서울 서대문구 연세로 35",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_xcape_xr",
+    "verification_sources": [
+      "https://xcape.kr/directions",
+      "https://xcape.kr/booking/xr"
+    ]
+  },
+  {
+    "key": "이스케이프건대점",
+    "name": "이스케이프 # 건대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 광진구 능동로 129-1 포토에이스 건물 2층, 3층"
+    ],
+    "candidates": [
+      {
+        "id": "2016521022",
+        "name": "이스케이프샾 건대점",
+        "score": 0.941,
+        "address": "서울 광진구 능동로 129-1",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.824,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      },
+      {
+        "id": "200411443",
+        "name": "키이스케이프 홍대점",
+        "score": 0.824,
+        "address": "서울 마포구 어울마당로 44-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "제로월드다이브건대점",
+    "name": "제로월드 다이브 건대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로26길 22 1층, 지하층"
+    ],
+    "candidates": [
+      {
+        "id": "1732671994",
+        "name": "제로월드 홍대점",
+        "score": 0.706,
+        "address": "서울 마포구 동교동 203-13 5층",
+        "same_address": false
+      },
+      {
+        "id": "1732671994",
+        "name": "제로월드 홍대점",
+        "score": 0.706,
+        "address": "서울 마포구 동교동 203-13 5층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_zeroworld_2",
+    "verification_sources": [
+      "https://zeroworldkorea.com/layout/res/home.php?go=location",
+      "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=B&zizum_num=2"
+    ]
+  },
+  {
+    "key": "포인트나인건대점",
+    "name": "포인트나인 건대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 광진구 아차산로33길 49 3층"
+    ],
+    "candidates": [],
+    "our_id": "official_pointnine_5",
+    "verification_sources": [
+      "https://point-nine.com/layout/res/home.php?go=location",
+      "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=5"
+    ]
+  },
+  {
+    "key": "황금열쇠건대점유토피아호",
+    "name": "황금열쇠 건대점 (유토피아호)",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 광진구 아차산로 29길 12 4층 황금열쇠 방탈출카페"
+    ],
+    "candidates": [
+      {
+        "id": "1271584354",
+        "name": "황금열쇠 건대점",
+        "score": 0.737,
+        "address": "서울 광진구 화양동 9-90 4층",
+        "same_address": false
+      },
+      {
+        "id": "1271584354",
+        "name": "황금열쇠 건대점",
+        "score": 0.737,
+        "address": "서울 광진구 화양동 9-90 4층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "꿈소풍안산2호점",
+    "name": "꿈소풍 안산 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기도 안산시 단원구 고잔1길 52 시민빌딩, 3층 방탈출 꿈소풍 2호점"
+    ],
+    "candidates": [
+      {
+        "id": "1767938917",
+        "name": "꿈소풍 안산1호점",
+        "score": 0.875,
+        "address": "경기 안산시 단원구 고잔2길 41 6층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "미스터리추리클럽",
+    "name": "미스터리추리클럽",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 안산시 단원구 고잔1길 42 2층 204, 205호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈안산점",
+    "name": "셜록홈즈 안산점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 안산시 단원구 중앙대로 915 4층 13호"
+    ],
+    "candidates": [
+      {
+        "id": "1888259527",
+        "name": "셜록홈즈 안양범계점",
+        "score": 0.75,
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "same_address": false
+      },
+      {
+        "id": "27583768",
+        "name": "셜록홈즈 천안1호점",
+        "score": 0.75,
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "same_address": false
+      },
+      {
+        "id": "908334376",
+        "name": "셜록홈즈 천안2호점",
+        "score": 0.75,
+        "address": "충남 천안시 동남구 신부동 461-9",
+        "same_address": false
+      },
+      {
+        "id": "1888259527",
+        "name": "셜록홈즈 안양범계점",
+        "score": 0.75,
+        "address": "경기 안양시 동안구 평촌대로223번길 28",
+        "same_address": false
+      },
+      {
+        "id": "27583768",
+        "name": "셜록홈즈 천안1호점",
+        "score": 0.75,
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "same_address": false
+      },
+      {
+        "id": "908334376",
+        "name": "셜록홈즈 천안2호점",
+        "score": 0.75,
+        "address": "충남 천안시 동남구 신부동 461-9",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_114",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=114&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "셜록홈즈뉴부천점",
+    "name": "셜록홈즈 뉴부천점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 부천시 원미구 부일로460번길 12 5층"
+    ],
+    "candidates": [
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.824,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "2127065864",
+        "name": "셜록홈즈 부평점",
+        "score": 0.8,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "27583768",
+        "name": "셜록홈즈 천안1호점",
+        "score": 0.706,
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "same_address": false
+      },
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.824,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "2127065864",
+        "name": "셜록홈즈 부평점",
+        "score": 0.8,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "27583768",
+        "name": "셜록홈즈 천안1호점",
+        "score": 0.706,
+        "address": "충남 천안시 동남구 신부동 461-10",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_111",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=111&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "코드네임",
+    "name": "코드네임",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 부천시 부일로459번길 40"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이일산라페스타점",
+    "name": "룸즈에이 일산라페스타점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 고양시 일산동구 무궁화로 19-14"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이일산웨스턴돔점",
+    "name": "룸즈에이 일산웨스턴돔점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 고양시 일산동구 정발산로 47"
+    ],
+    "candidates": [],
+    "our_id": "official_roomsa_44",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "스토리메이커스",
+    "name": "스토리메이커스",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 고양시 일산동구 중앙로1261번길 59 201호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "괴담저장소한강대담력훈련",
+    "name": "괴담저장소 한강대 담력훈련",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 월드컵북로4길 72 B1"
+    ],
+    "candidates": [
+      {
+        "id": "617331855",
+        "name": "괴담저장소 한강대점",
+        "score": 0.762,
+        "address": "서울 마포구 동교동 198-1",
+        "same_address": false
+      },
+      {
+        "id": "617331855",
+        "name": "괴담저장소 한강대점",
+        "score": 0.762,
+        "address": "서울 마포구 동교동 198-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더챕터",
+    "name": "더챕터",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 와우산로 79, 5층"
+    ],
+    "candidates": [
+      {
+        "id": "1611418578",
+        "name": "더챕터 홍대점",
+        "score": 0.95,
+        "address": "서울 마포구 와우산로 79 5층",
+        "same_address": true
+      },
+      {
+        "id": "1611418578",
+        "name": "더챕터 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로 79 5층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "덤앤더머홍대점",
+    "name": "덤앤더머 홍대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 독막로7길 48"
+    ],
+    "candidates": [
+      {
+        "id": "203642029",
+        "name": "덤앤더머 방탈출카페 대학로점",
+        "score": 0.8,
+        "address": "서울 종로구 대학로12길 40 3층",
+        "same_address": false
+      },
+      {
+        "id": "28574930",
+        "name": "덤앤더머 방탈출카페 서면점",
+        "score": 0.714,
+        "address": "부산 부산진구 서면문화로 27",
+        "same_address": false
+      },
+      {
+        "id": "203642029",
+        "name": "덤앤더머 방탈출카페 대학로점",
+        "score": 0.8,
+        "address": "서울 종로구 대학로12길 40 3층",
+        "same_address": false
+      },
+      {
+        "id": "28574930",
+        "name": "덤앤더머 방탈출카페 서면점",
+        "score": 0.714,
+        "address": "부산 부산진구 서면문화로 27",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "디코더",
+    "name": "디코더",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로 88-1"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "딥띵커",
+    "name": "딥띵커",
+    "status": "verified_existing",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 잔다리로 23 4층"
+    ],
+    "candidates": [
+      {
+        "id": "1442041275",
+        "name": "딥띵커 홍대점",
+        "score": 0.95,
+        "address": "서울 마포구 잔다리로 23 4층",
+        "same_address": true
+      },
+      {
+        "id": "1442041275",
+        "name": "딥띵커 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 잔다리로 23 4층",
+        "same_address": false
+      }
+    ],
+    "our_id": "1442041275",
+    "verification_sources": [
+      "https://deepthinker.co.kr/"
+    ]
+  },
+  {
+    "key": "라이브시네마",
+    "name": "라이브시네마",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 양화로 176 8층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "위센트이머시브",
+    "name": "위센트 이머시브",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울특별시 마포구 독막로9길 23"
+    ],
+    "candidates": [
+      {
+        "id": "28201117",
+        "name": "레다스퀘어 홍대점",
+        "score": 0.95,
+        "address": "서울 마포구 독막로9길 23",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "로드유미플레이1",
+    "name": "로드 유미플레이 1",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 독막로7길 23 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "로드유미플레이2",
+    "name": "로드 유미플레이 2",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로 70 2층 유미플레이 2관"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "리얼이스케이프첼린지",
+    "name": "리얼이스케이프 첼린지",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로27길 21"
+    ],
+    "candidates": [
+      {
+        "id": "27369058",
+        "name": "리얼이스케이프챌린지",
+        "score": 0.95,
+        "address": "서울 마포구 와우산로27길 21",
+        "same_address": true
+      },
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.706,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.667,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "27369058",
+        "name": "리얼이스케이프챌린지",
+        "score": 0.9,
+        "address": "서울 마포구 와우산로27길 21",
+        "same_address": false
+      },
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.706,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.667,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "메이플스토리이스케이프",
+    "name": "메이플스토리 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로 90"
+    ],
+    "candidates": [
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.667,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      },
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.667,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "444802506",
+        "name": "메타이스케이프",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 인계동 1038-11",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "쇼룸404",
+    "name": "쇼룸404",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 잔다리로 5-1"
+    ],
+    "candidates": [
+      {
+        "id": "887263854",
+        "name": "쇼룸404 홍대점",
+        "score": 0.769,
+        "address": "서울 마포구 서교동 407-27 5층",
+        "same_address": false
+      },
+      {
+        "id": "887263854",
+        "name": "쇼룸404 홍대점",
+        "score": 0.769,
+        "address": "서울 마포구 서교동 407-27 5층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비밀의숲",
+    "name": "비밀의 숲",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 잔다리로6길 30"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "비밀의화원미드나잇합정점",
+    "name": "비밀의 화원 미드나잇 합정점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 독막로7길 27 3층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "서울이스케이프룸홍대2호점",
+    "name": "서울 이스케이프 룸 홍대 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로17길 11"
+    ],
+    "candidates": [
+      {
+        "id": "1351400084",
+        "name": "서울이스케이프룸 홍대점",
+        "score": 0.917,
+        "address": "서울 마포구 어울마당로 138",
+        "same_address": false
+      },
+      {
+        "id": "892545149",
+        "name": "서울이스케이프룸 대구동성로점",
+        "score": 0.741,
+        "address": "대구 중구 동성로2가 144",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.727,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1351400084",
+        "name": "서울이스케이프룸 홍대점",
+        "score": 0.917,
+        "address": "서울 마포구 어울마당로 138",
+        "same_address": false
+      },
+      {
+        "id": "892545149",
+        "name": "서울이스케이프룸 대구동성로점",
+        "score": 0.741,
+        "address": "대구 중구 동성로2가 144",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.727,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "엑스케이프홍대점",
+    "name": "엑스케이프 홍대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 홍익로3길 44"
+    ],
+    "candidates": [
+      {
+        "id": "200411443",
+        "name": "키이스케이프 홍대점",
+        "score": 0.824,
+        "address": "서울 마포구 어울마당로 44-1",
+        "same_address": false
+      },
+      {
+        "id": "153136502",
+        "name": "도어이스케이프 홍대점",
+        "score": 0.778,
+        "address": "서울 마포구 서교동 403-1",
+        "same_address": false
+      },
+      {
+        "id": "27413260",
+        "name": "큐브이스케이프 홍대점",
+        "score": 0.778,
+        "address": "서울 마포구 와우산로29나길 9 2층",
+        "same_address": false
+      },
+      {
+        "id": "200411443",
+        "name": "키이스케이프 홍대점",
+        "score": 0.824,
+        "address": "서울 마포구 어울마당로 44-1",
+        "same_address": false
+      },
+      {
+        "id": "153136502",
+        "name": "도어이스케이프 홍대점",
+        "score": 0.778,
+        "address": "서울 마포구 서교동 403-1",
+        "same_address": false
+      },
+      {
+        "id": "27413260",
+        "name": "큐브이스케이프 홍대점",
+        "score": 0.778,
+        "address": "서울 마포구 와우산로29나길 9 2층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "오아시스",
+    "name": "오아시스",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울시 마포구 독막로9길 18, 지하 1층"
+    ],
+    "candidates": [
+      {
+        "id": "848848018",
+        "name": "오아시스 뮤지엄",
+        "score": 0.727,
+        "address": "서울 마포구 서교동 403-21",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "위욜",
+    "name": "위욜",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울시 마포구 와우산로27길 7, 지하1층(서교동, 베뉴에스)"
+    ],
+    "candidates": [],
+    "our_id": "official_weyol",
+    "verification_sources": [
+      "https://weyol.com/layout/res/home.php?go=rev.make"
+    ]
+  },
+  {
+    "key": "이머시브스튜디오홍대2극장",
+    "name": "이머시브스튜디오 홍대2극장",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 양화로 114, 지하1층 비01, 비02, 비03, 비04호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "이머시브스튜디오홍대점",
+    "name": "이머시브스튜디오 홍대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 와우산로21길 19-16, 지하2층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "이스케이퍼스1호점",
+    "name": "이스케이퍼스 1호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 연희로1길 7"
+    ],
+    "candidates": [
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.95,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": true
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.778,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.667,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.9,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.778,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.667,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "이스케이퍼스2호점",
+    "name": "이스케이퍼스 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울시 마포구 와우산로 17길 19-24 지하"
+    ],
+    "candidates": [
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.8,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.778,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1591055284",
+        "name": "골든타임이스케이프 2호점",
+        "score": 0.667,
+        "address": "경기 수원시 영통구 영통동 1011-6",
+        "same_address": false
+      },
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.8,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.778,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1591055284",
+        "name": "골든타임이스케이프 2호점",
+        "score": 0.667,
+        "address": "경기 수원시 영통구 영통동 1011-6",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "이스케이프하우스",
+    "name": "이스케이프 하우스",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로21길 28-9"
+    ],
+    "candidates": [
+      {
+        "id": "340303350",
+        "name": "이스케이프하우스 홍대점",
+        "score": 0.95,
+        "address": "서울 마포구 와우산로21길 28-9",
+        "same_address": true
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.714,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      },
+      {
+        "id": "340303350",
+        "name": "이스케이프하우스 홍대점",
+        "score": 0.842,
+        "address": "서울 마포구 와우산로21길 28-9",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.714,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "채널27버터플라이점",
+    "name": "채널27 버터플라이점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로17길 14 3층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "코드케이홍대점",
+    "name": "코드케이 홍대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 와우산로 64 3층 코드케이 홍대점"
+    ],
+    "candidates": [],
+    "our_id": "official_codek_S3",
+    "verification_sources": [
+      "http://www.code-k.co.kr",
+      "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S3&CHOIS_DATE=2026-11-15&DIS_T=A"
+    ]
+  },
+  {
+    "key": "퀘스천마크",
+    "name": "퀘스천마크",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로17길 15"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "키이스케이프백산방역",
+    "name": "키이스케이프 백산방역",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로29마길 27 지하1층, 1층"
+    ],
+    "candidates": [
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.737,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.667,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1637143499",
+        "name": "키이스케이프 부산점",
+        "score": 0.737,
+        "address": "부산 북구 만덕대로 21-1",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.667,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "토끼굴",
+    "name": "토끼굴",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 와우산로 122 B1층"
+    ],
+    "candidates": [
+      {
+        "id": "187287513",
+        "name": "방탈출토끼굴 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 창전동 6-137 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "187287513",
+        "name": "방탈출토끼굴 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 창전동 6-137 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "티켓투이스케이프",
+    "name": "티켓 투 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울특별시 마포구 와우산로29가길 83"
+    ],
+    "candidates": [
+      {
+        "id": "327610610",
+        "name": "티켓투이스케이프 홍대점",
+        "score": 0.95,
+        "address": "서울 마포구 와우산로29가길 83",
+        "same_address": true
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.769,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.714,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "파노라마홍대삼거리점",
+    "name": "파노라마 홍대삼거리점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로 77 2층"
+    ],
+    "candidates": [
+      {
+        "id": "987374256",
+        "name": "파노라마 홍대",
+        "score": 0.75,
+        "address": "서울 마포구 와우산로 77",
+        "same_address": false
+      },
+      {
+        "id": "987374256",
+        "name": "파노라마 홍대",
+        "score": 0.75,
+        "address": "서울 마포구 와우산로 77",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "파노라마홍대입구점",
+    "name": "파노라마 홍대입구점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 양화로18길 12 3층"
+    ],
+    "candidates": [
+      {
+        "id": "987374256",
+        "name": "파노라마 홍대",
+        "score": 0.8,
+        "address": "서울 마포구 와우산로 77",
+        "same_address": false
+      },
+      {
+        "id": "987374256",
+        "name": "파노라마 홍대",
+        "score": 0.8,
+        "address": "서울 마포구 와우산로 77",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "포인트나인홍대점",
+    "name": "포인트나인 홍대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 독막로7길 40 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      },
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_pointnine_6",
+    "verification_sources": [
+      "https://point-nine.com/layout/res/home.php?go=location",
+      "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=6"
+    ]
+  },
+  {
+    "key": "플레이33홍대점",
+    "name": "플레이33 홍대점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로21길 36-8 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1385414031",
+        "name": "플레이33 건대점",
+        "score": 0.875,
+        "address": "서울 광진구 자양동 13-3 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      },
+      {
+        "id": "1385414031",
+        "name": "플레이33 건대점",
+        "score": 0.875,
+        "address": "서울 광진구 자양동 13-3 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_play33_4",
+    "verification_sources": [
+      "https://play33.kr/map?branch=4",
+      "https://play33.kr/reservation?branch=4"
+    ]
+  },
+  {
+    "key": "플레이아레나홍대점",
+    "name": "플레이아레나 홍대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 마포구 연남동 381-5"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "해피앤딩",
+    "name": "해피앤딩",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 마포구 와우산로21길 31-11 B1"
+    ],
+    "candidates": [
+      {
+        "id": "1541961243",
+        "name": "해피앤딩 홍대점",
+        "score": 0.727,
+        "address": "서울 마포구 와우산로21길 31-11",
+        "same_address": false
+      },
+      {
+        "id": "1541961243",
+        "name": "해피앤딩 홍대점",
+        "score": 0.727,
+        "address": "서울 마포구 와우산로21길 31-11",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "히든스위치홍대점",
+    "name": "히든 스위치 홍대점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 마포구 어울마당로 55-8 3층"
+    ],
+    "candidates": [
+      {
+        "id": "289742025",
+        "name": "호러스위치 홍대점",
+        "score": 0.75,
+        "address": "서울 마포구 서교동 358-121 철록헌 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "289742025",
+        "name": "호러스위치 홍대점",
+        "score": 0.75,
+        "address": "서울 마포구 서교동 358-121 철록헌 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "studioesc",
+    "name": "Studio ESC",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 강남구 봉은사로18길 70 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "괴담저장소제일기숙학원",
+    "name": "괴담저장소 제일기숙학원",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 역삼로3길 20-5 B1"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "날마다노는학교",
+    "name": "날마다 노는 학교",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 서초구 반포대로 144, 흰물결빌딩 202호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "도어이스케이프레드신논현점",
+    "name": "도어 이스케이프 레드 신논현점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 서초구 사평대로 360 , B1층"
+    ],
+    "candidates": [
+      {
+        "id": "2058736611",
+        "name": "도어이스케이프 신논현 블루점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로53길 8-1, 지하 1층(제이제이739 빌딩)",
+        "same_address": false
+      },
+      {
+        "id": "765336936",
+        "name": "도어이스케이프 신논현 레드점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로 360, 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "1460830485",
+        "name": "도어이스케이프 부평점",
+        "score": 0.696,
+        "address": "인천광역시 부평구 부평문화로66번길 17, 3층",
+        "same_address": false
+      },
+      {
+        "id": "2058736611",
+        "name": "도어이스케이프 신논현 블루점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로53길 8-1, 지하 1층(제이제이739 빌딩)",
+        "same_address": false
+      },
+      {
+        "id": "765336936",
+        "name": "도어이스케이프 신논현 레드점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로 360, 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "1460830485",
+        "name": "도어이스케이프 부평점",
+        "score": 0.696,
+        "address": "인천광역시 부평구 부평문화로66번길 17, 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "도어이스케이프블루신논현점",
+    "name": "도어이스케이프 블루 신논현점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서초구 사평대로53길 8-1 지하 1층"
+    ],
+    "candidates": [
+      {
+        "id": "2058736611",
+        "name": "도어이스케이프 신논현 블루점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로53길 8-1, 지하 1층(제이제이739 빌딩)",
+        "same_address": false
+      },
+      {
+        "id": "765336936",
+        "name": "도어이스케이프 신논현 레드점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로 360, 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "1460830485",
+        "name": "도어이스케이프 부평점",
+        "score": 0.696,
+        "address": "인천광역시 부평구 부평문화로66번길 17, 3층",
+        "same_address": false
+      },
+      {
+        "id": "2058736611",
+        "name": "도어이스케이프 신논현 블루점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로53길 8-1, 지하 1층(제이제이739 빌딩)",
+        "same_address": false
+      },
+      {
+        "id": "765336936",
+        "name": "도어이스케이프 신논현 레드점",
+        "score": 0.846,
+        "address": "서울 서초구 사평대로 360, 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "1460830485",
+        "name": "도어이스케이프 부평점",
+        "score": 0.696,
+        "address": "인천광역시 부평구 부평문화로66번길 17, 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "돌로이스케이프",
+    "name": "돌로이스케이프",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 봉은사로6길 34 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.833,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.769,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      },
+      {
+        "id": "657876723",
+        "name": "씨이스케이프",
+        "score": 0.769,
+        "address": "경기 성남시 중원구 제일로35번길 56 3층",
+        "same_address": false
+      },
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.833,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.769,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      },
+      {
+        "id": "657876723",
+        "name": "씨이스케이프",
+        "score": 0.769,
+        "address": "경기 성남시 중원구 제일로35번길 56 3층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_dolo",
+    "verification_sources": [
+      "https://doloescape.co.kr/layout/res/home.php?go=rev.make"
+    ]
+  },
+  {
+    "key": "라스트이스케이프",
+    "name": "라스트 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 강남대로98길 20 4층"
+    ],
+    "candidates": [
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.842,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      },
+      {
+        "id": "1568417037",
+        "name": "라비린스이스케이프",
+        "score": 0.824,
+        "address": "경기 부천시 원미구 중동 1162",
+        "same_address": false
+      },
+      {
+        "id": "27504980",
+        "name": "트릭이스케이프",
+        "score": 0.8,
+        "address": "경기 의정부시 의정부동 197-4",
+        "same_address": false
+      },
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.842,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      },
+      {
+        "id": "1568417037",
+        "name": "라비린스이스케이프",
+        "score": 0.824,
+        "address": "경기 부천시 원미구 중동 1162",
+        "same_address": false
+      },
+      {
+        "id": "27504980",
+        "name": "트릭이스케이프",
+        "score": 0.8,
+        "address": "경기 의정부시 의정부동 197-4",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이강남점",
+    "name": "룸즈에이 강남점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 테헤란로 4길 35 지하2층"
+    ],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.714,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.714,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_41",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "무비무드강남점",
+    "name": "무비무드 강남점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 강남구 봉은사로4길 32 지하1층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "스머프매직포레스트",
+    "name": "스머프 매직 포레스트",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울특별시 강남구 강남대로106길 29,지하1층(역삼동, 유니켐)"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "엑스케이프강남점",
+    "name": "엑스케이프 강남점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 강남구 봉은사로2길 16 현도빌딩 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.824,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      },
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.737,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      },
+      {
+        "id": "230738333",
+        "name": "이스케이프존 강대점",
+        "score": 0.706,
+        "address": "강원특별자치도 춘천시 서부대성로 231-1",
+        "same_address": false
+      },
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.824,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      },
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.737,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      },
+      {
+        "id": "230738333",
+        "name": "이스케이프존 강대점",
+        "score": 0.706,
+        "address": "강원특별자치도 춘천시 서부대성로 231-1",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_xcape_gn",
+    "verification_sources": [
+      "https://xcape.kr/directions",
+      "https://xcape.kr/booking/gn"
+    ]
+  },
+  {
+    "key": "이룸에이트",
+    "name": "이룸에이트",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 봉은사로 115"
+    ],
+    "candidates": [],
+    "our_id": "official_eroom8",
+    "verification_sources": [
+      "https://eroom8.co.kr/layout/res/home.php?go=rev.make"
+    ]
+  },
+  {
+    "key": "코드케이강남점",
+    "name": "코드케이 강남점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 봉은사로2길 31"
+    ],
+    "candidates": [
+      {
+        "id": "1213158520",
+        "name": "코드헌터 강남점",
+        "score": 0.714,
+        "address": "서울 강남구 역삼동 817-17 3층",
+        "same_address": false
+      },
+      {
+        "id": "1213158520",
+        "name": "코드헌터 강남점",
+        "score": 0.714,
+        "address": "서울 강남구 역삼동 817-17 3층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_codek_S1",
+    "verification_sources": [
+      "http://www.code-k.co.kr",
+      "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S1&CHOIS_DATE=2026-11-15&DIS_T=A"
+    ]
+  },
+  {
+    "key": "코드헌터",
+    "name": "코드헌터",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 강남대로96길 13 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1213158520",
+        "name": "코드헌터 강남점",
+        "score": 0.727,
+        "address": "서울 강남구 역삼동 817-17 3층",
+        "same_address": false
+      },
+      {
+        "id": "1213158520",
+        "name": "코드헌터 강남점",
+        "score": 0.727,
+        "address": "서울 강남구 역삼동 817-17 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "키이스케이프login1",
+    "name": "키이스케이프 LOG_IN 1",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 강남구 강남대로98길 16, 4층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "키이스케이프login2",
+    "name": "키이스케이프 LOG_IN 2",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 강남구 강남대로98길 16, 5층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "키이스케이프강남더오름점",
+    "name": "키이스케이프 강남 더오름점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울특별시 강남구 테헤란로6길 30"
+    ],
+    "candidates": [
+      {
+        "id": "400448256",
+        "name": "키이스케이프 강남 더오름",
+        "score": 0.957,
+        "address": "서울 강남구 테헤란로6길 30",
+        "same_address": true
+      },
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.857,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      },
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.696,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      },
+      {
+        "id": "400448256",
+        "name": "키이스케이프 강남 더오름",
+        "score": 0.957,
+        "address": "서울 강남구 테헤란로6길 30",
+        "same_address": false
+      },
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.857,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      },
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.696,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "키이스케이프강남스테이션점",
+    "name": "키이스케이프 강남 스테이션점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울특별시 서초구 강남대로69길 11, 301호"
+    ],
+    "candidates": [
+      {
+        "id": "298789057",
+        "name": "키이스케이프 스테이션",
+        "score": 0.87,
+        "address": "서울 서초구 강남대로69길 11",
+        "same_address": false
+      },
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.818,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      },
+      {
+        "id": "225341934",
+        "name": "라스트이스케이프 강남점",
+        "score": 0.667,
+        "address": "서울 강남구 강남대로98길 20",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "키이스케이프강남우주라이크점",
+    "name": "키이스케이프 강남 우주라이크점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 강남구 테헤란로6길 46 테라빌 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "916422770",
+        "name": "키이스케이프 우주라이크점",
+        "score": 0.923,
+        "address": "서울 강남구 테헤란로6길 46",
+        "same_address": false
+      },
+      {
+        "id": "1405262610",
+        "name": "키이스케이프 강남점",
+        "score": 0.783,
+        "address": "서울 강남구 강남대로96길 17",
+        "same_address": false
+      },
+      {
+        "id": "48992610",
+        "name": "키이스케이프 전주점",
+        "score": 0.696,
+        "address": "전북특별자치도 전주시 완산구 홍산남로 60",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "테이블그라운드강남점",
+    "name": "테이블그라운드 강남점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울 강남구 강남대로94길 10 케이스퀘어 B1"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "판타스트릭",
+    "name": "판타스트릭",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 서초구 강남대로79길 39 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "192767471",
+        "name": "판타스트릭 2호점",
+        "score": 0.769,
+        "address": "서울 서초구 사평대로 353",
+        "same_address": false
+      },
+      {
+        "id": "2020129484",
+        "name": "판타스트릭TGC",
+        "score": 0.769,
+        "address": "서울 서초구 강남대로83길 34",
+        "same_address": false
+      },
+      {
+        "id": "1421844037",
+        "name": "판타스트릭 강남1호점",
+        "score": 0.667,
+        "address": "서울 서초구 강남대로79길 39",
+        "same_address": false
+      },
+      {
+        "id": "192767471",
+        "name": "판타스트릭 2호점",
+        "score": 0.769,
+        "address": "서울 서초구 사평대로 353",
+        "same_address": false
+      },
+      {
+        "id": "2020129484",
+        "name": "판타스트릭TGC",
+        "score": 0.769,
+        "address": "서울 서초구 강남대로83길 34",
+        "same_address": false
+      },
+      {
+        "id": "1421844037",
+        "name": "판타스트릭 강남1호점",
+        "score": 0.667,
+        "address": "서울 서초구 강남대로79길 39",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "판타스트릭강남2호점",
+    "name": "판타스트릭 강남 2호점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "서울특별시 서초구 사평대로 353 지하1층 4호"
+    ],
+    "candidates": [
+      {
+        "id": "1421844037",
+        "name": "판타스트릭 강남1호점",
+        "score": 0.9,
+        "address": "서울 서초구 강남대로79길 39",
+        "same_address": false
+      },
+      {
+        "id": "192767471",
+        "name": "판타스트릭 2호점",
+        "score": 0.889,
+        "address": "서울 서초구 사평대로 353",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "포인트나인강남1호점",
+    "name": "포인트나인 강남 1호점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 강남대로102길 40 지하1층"
+    ],
+    "candidates": [],
+    "our_id": "official_pointnine_1",
+    "verification_sources": [
+      "https://point-nine.com/layout/res/home.php?go=location",
+      "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=1"
+    ]
+  },
+  {
+    "key": "황금열쇠강남점타임스퀘어",
+    "name": "황금열쇠 강남점 (타임스퀘어)",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 강남대로98길 25 스타애비뉴 2층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "황금열쇠강남점플라워로드",
+    "name": "황금열쇠 강남점 (플라워로드)",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "서울 강남구 봉은사로18길 76 4층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "theflight",
+    "name": "The FLIGHT",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 효원로265번길 44 닥터셀빌딩"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "골든타임이스케이프",
+    "name": "골든타임 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 영통구 반달로7번길 16 402호"
+    ],
+    "candidates": [
+      {
+        "id": "1591055284",
+        "name": "골든타임이스케이프 2호점",
+        "score": 0.857,
+        "address": "경기 수원시 영통구 영통동 1011-6",
+        "same_address": false
+      },
+      {
+        "id": "1875954710",
+        "name": "골든타임이스케이프 1호점",
+        "score": 0.857,
+        "address": "경기 수원시 영통구 영통동 998-4",
+        "same_address": false
+      },
+      {
+        "id": "1233678979",
+        "name": "더타임이스케이프",
+        "score": 0.824,
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "same_address": false
+      },
+      {
+        "id": "1591055284",
+        "name": "골든타임이스케이프 2호점",
+        "score": 0.857,
+        "address": "경기 수원시 영통구 영통동 1011-6",
+        "same_address": false
+      },
+      {
+        "id": "1875954710",
+        "name": "골든타임이스케이프 1호점",
+        "score": 0.857,
+        "address": "경기 수원시 영통구 영통동 998-4",
+        "same_address": false
+      },
+      {
+        "id": "1233678979",
+        "name": "더타임이스케이프",
+        "score": 0.824,
+        "address": "경남 양산시 물금읍 가촌리 1269-17",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "둠이스케이프fear점",
+    "name": "둠 이스케이프 FEAR점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 효원로265번길 20 2층"
+    ],
+    "candidates": [
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.7,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.7,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "892126854",
+        "name": "둠이스케이프 DTH점",
+        "score": 0.667,
+        "address": "인천 부평구 부평문화로 75",
+        "same_address": false
+      },
+      {
+        "id": "1321479252",
+        "name": "둠이스케이프 2호점",
+        "score": 0.7,
+        "address": "인천 남동구 인하로507번길 18",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.7,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "892126854",
+        "name": "둠이스케이프 DTH점",
+        "score": 0.667,
+        "address": "인천 부평구 부평문화로 75",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이수원역2호점",
+    "name": "룸즈에이 수원역2호점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 수원시 팔달구 향교로 20-1 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.762,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      },
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.762,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_48",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "룸즈에이수원역점",
+    "name": "룸즈에이 수원역점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 수원시 팔달구 향교로 5 3층 룸즈에이"
+    ],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.667,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.667,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_47",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "넘버원수원점",
+    "name": "방탈출 넘버원 수원점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 권광로187번길 24"
+    ],
+    "candidates": [
+      {
+        "id": "1599918263",
+        "name": "수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
+        "same_address": false
+      },
+      {
+        "id": "475592733",
+        "name": "리멤버방탈출 수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구",
+        "same_address": false
+      },
+      {
+        "id": "1599918263",
+        "name": "수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
+        "same_address": false
+      },
+      {
+        "id": "475592733",
+        "name": "리멤버방탈출 수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "탐정",
+    "name": "방탈출 탐정",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 매산로 3-1"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈수원역2호점",
+    "name": "셜록홈즈 수원역2호점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기도 수원시 팔달구 향교로 18-1 2층, 3층"
+    ],
+    "candidates": [
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.889,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.737,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "399640253",
+        "name": "셜록홈즈 부평2호점",
+        "score": 0.737,
+        "address": "인천 부평구 경인로 570",
+        "same_address": false
+      },
+      {
+        "id": "716398207",
+        "name": "셜록홈즈 수원역점",
+        "score": 0.889,
+        "address": "경기 수원시 팔달구 향교로 9",
+        "same_address": false
+      },
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.737,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "399640253",
+        "name": "셜록홈즈 부평2호점",
+        "score": 0.737,
+        "address": "인천 부평구 경인로 570",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_113",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=113&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "소우주",
+    "name": "소우주",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 권광로187번길 26 3층"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "소우주인계갤러리점",
+    "name": "소우주 인계갤러리점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 인계로138번길 22 2층 203호"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "엑스케이프수원점",
+    "name": "엑스케이프 수원점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 효원로265번길 40"
+    ],
+    "candidates": [
+      {
+        "id": "836762242",
+        "name": "이스케이프탑 수원점",
+        "score": 0.824,
+        "address": "경기 수원시 팔달구 인계동 1032-8",
+        "same_address": false
+      },
+      {
+        "id": "857573680",
+        "name": "루트이스케이프 수원점",
+        "score": 0.778,
+        "address": "경기 수원시 팔달구 향교로 12-1",
+        "same_address": false
+      },
+      {
+        "id": "1097124167",
+        "name": "이스케이프탑 창원점",
+        "score": 0.706,
+        "address": "경남 창원시 성산구 상남동 13-4",
+        "same_address": false
+      },
+      {
+        "id": "836762242",
+        "name": "이스케이프탑 수원점",
+        "score": 0.824,
+        "address": "경기 수원시 팔달구 인계동 1032-8",
+        "same_address": false
+      },
+      {
+        "id": "857573680",
+        "name": "루트이스케이프 수원점",
+        "score": 0.778,
+        "address": "경기 수원시 팔달구 향교로 12-1",
+        "same_address": false
+      },
+      {
+        "id": "1097124167",
+        "name": "이스케이프탑 창원점",
+        "score": 0.706,
+        "address": "경남 창원시 성산구 상남동 13-4",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_xcape_sw",
+    "verification_sources": [
+      "https://xcape.kr/directions",
+      "https://xcape.kr/booking/sw"
+    ]
+  },
+  {
+    "key": "익스플로리아이스케이프",
+    "name": "익스플로리아 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 효원로235번길 51 3층"
+    ],
+    "candidates": [
+      {
+        "id": "1682203426",
+        "name": "찰리이스케이프",
+        "score": 0.667,
+        "address": "서울 송파구 백제고분로7길 52-5 지하 1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "플레이33수원점",
+    "name": "플레이33 수원점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "경기 수원시 팔달구 인계로138번길 36 2층"
+    ],
+    "candidates": [
+      {
+        "id": "1385414031",
+        "name": "플레이33 건대점",
+        "score": 0.75,
+        "address": "서울 광진구 자양동 13-3 지하1층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_play33_7",
+    "verification_sources": [
+      "https://play33.kr/map?branch=7",
+      "https://play33.kr/reservation?branch=7"
+    ]
+  },
+  {
+    "key": "룸즈에이부평2호점",
+    "name": "룸즈에이 부평2호점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "인천 부평구 부평문화로 74 3층"
+    ],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.875,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.7,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      },
+      {
+        "id": "399640253",
+        "name": "셜록홈즈 부평2호점",
+        "score": 0.667,
+        "address": "인천 부평구 경인로 570",
+        "same_address": false
+      },
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.875,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      },
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.7,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      },
+      {
+        "id": "399640253",
+        "name": "셜록홈즈 부평2호점",
+        "score": 0.667,
+        "address": "인천 부평구 경인로 570",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_69",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "하이드",
+    "name": "하이드 방탈출",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "인천 남동구 논고개로123번길 35"
+    ],
+    "candidates": [
+      {
+        "id": "776644226",
+        "name": "리즌방탈출",
+        "score": 0.95,
+        "address": "인천 남동구 논고개로123번길 35",
+        "same_address": true
+      }
+    ]
+  },
+  {
+    "key": "셜록홈즈송도트리플점",
+    "name": "셜록홈즈 송도트리플점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "인천 연수구 송도과학로16번길 33-4 2층"
+    ],
+    "candidates": [],
+    "our_id": "official_sherlock_105",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=105&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "셜록홈즈인천구월점",
+    "name": "셜록홈즈 인천구월점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "인천 남동구 인하로489번길 28"
+    ],
+    "candidates": [
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.667,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "2021007589",
+        "name": "셜록홈즈 용인동백점",
+        "score": 0.667,
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "악몽백화점부평점",
+    "name": "악몽백화점 부평점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "인천 부평구 부평동 155-6"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "코드케이구월점",
+    "name": "코드케이 구월점",
+    "status": "verified_existing",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "인천 남동구 인하로 497-15"
+    ],
+    "candidates": [
+      {
+        "id": "1475074228",
+        "name": "코드케이 인천구월점",
+        "score": 0.875,
+        "address": "인천 남동구 구월동 1467-1",
+        "same_address": false
+      },
+      {
+        "id": "1475074228",
+        "name": "코드케이 인천구월점",
+        "score": 0.875,
+        "address": "인천 남동구 구월동 1467-1",
+        "same_address": false
+      }
+    ],
+    "our_id": "1475074228",
+    "verification_sources": [
+      "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S2"
+    ]
+  },
+  {
+    "key": "고스트키",
+    "name": "고스트키",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 중구 중앙로164번길 37"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "더큐이스케이프대전점",
+    "name": "더큐 이스케이프 대전점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 서구 둔산로 20"
+    ],
+    "candidates": [
+      {
+        "id": "1696389756",
+        "name": "더큐이스케이프 대전둔산점",
+        "score": 0.909,
+        "address": "대전 서구 둔산동 1060-3",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.842,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      },
+      {
+        "id": "167846502",
+        "name": "큐브이스케이프 대전둔산점",
+        "score": 0.818,
+        "address": "대전 서구 대덕대로185번길 47 5층",
+        "same_address": false
+      },
+      {
+        "id": "1696389756",
+        "name": "더큐이스케이프 대전둔산점",
+        "score": 0.909,
+        "address": "대전 서구 둔산동 1060-3",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.842,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      },
+      {
+        "id": "167846502",
+        "name": "큐브이스케이프 대전둔산점",
+        "score": 0.818,
+        "address": "대전 서구 대덕대로185번길 47 5층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "도어이스케이프nc대전유성점",
+    "name": "도어이스케이프 NC대전유성점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 유성구 계룡로 119 (NC백화점 10층)"
+    ],
+    "candidates": [
+      {
+        "id": "1836271694",
+        "name": "도어이스케이프 대전유성 NC백화점",
+        "score": 0.95,
+        "address": "대전 유성구 계룡로 119 NC백화점 10층",
+        "same_address": true
+      },
+      {
+        "id": "153136502",
+        "name": "도어이스케이프 홍대점",
+        "score": 0.75,
+        "address": "서울 마포구 서교동 403-1",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.696,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      },
+      {
+        "id": "1836271694",
+        "name": "도어이스케이프 대전유성 NC백화점",
+        "score": 0.8,
+        "address": "대전 유성구 계룡로 119 NC백화점 10층",
+        "same_address": false
+      },
+      {
+        "id": "153136502",
+        "name": "도어이스케이프 홍대점",
+        "score": 0.75,
+        "address": "서울 마포구 서교동 403-1",
+        "same_address": false
+      },
+      {
+        "id": "1973717836",
+        "name": "이스케이프탑 대전점",
+        "score": 0.696,
+        "address": "대전 중구 은행동 166-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이대전은행점",
+    "name": "룸즈에이 대전은행점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 중구 중앙로164번길 28"
+    ],
+    "candidates": [
+      {
+        "id": "472522287",
+        "name": "셜록홈즈 대전은행점",
+        "score": 0.667,
+        "address": "대전 중구 은행동 52-5",
+        "same_address": false
+      },
+      {
+        "id": "472522287",
+        "name": "셜록홈즈 대전은행점",
+        "score": 0.667,
+        "address": "대전 중구 은행동 52-5",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_50",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "마스터키궁동점",
+    "name": "마스터키 궁동점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 유성구 대학로151번길 26"
+    ],
+    "candidates": [
+      {
+        "id": "27495854",
+        "name": "마스터키 궁동직영점",
+        "score": 0.95,
+        "address": "대전 유성구 대학로151번길 26",
+        "same_address": true
+      },
+      {
+        "id": "1727885052",
+        "name": "마스터키 익산점",
+        "score": 0.714,
+        "address": "전북특별자치도 익산시 동서로19길 74-1",
+        "same_address": false
+      },
+      {
+        "id": "1850589033",
+        "name": "마스터키 평택점",
+        "score": 0.714,
+        "address": "경기 평택시 평택2로10번길 34",
+        "same_address": false
+      },
+      {
+        "id": "27495854",
+        "name": "마스터키 궁동직영점",
+        "score": 0.875,
+        "address": "대전 유성구 대학로151번길 26",
+        "same_address": false
+      },
+      {
+        "id": "1727885052",
+        "name": "마스터키 익산점",
+        "score": 0.714,
+        "address": "전북특별자치도 익산시 동서로19길 74-1",
+        "same_address": false
+      },
+      {
+        "id": "1850589033",
+        "name": "마스터키 평택점",
+        "score": 0.714,
+        "address": "경기 평택시 평택2로10번길 34",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "마스터키은행점",
+    "name": "마스터키 은행점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 중구 중앙로156번길 40"
+    ],
+    "candidates": [
+      {
+        "id": "27523824",
+        "name": "마스터키 은행직영점",
+        "score": 0.95,
+        "address": "대전 중구 중앙로156번길 40",
+        "same_address": true
+      },
+      {
+        "id": "1727885052",
+        "name": "마스터키 익산점",
+        "score": 0.714,
+        "address": "전북특별자치도 익산시 동서로19길 74-1",
+        "same_address": false
+      },
+      {
+        "id": "1850589033",
+        "name": "마스터키 평택점",
+        "score": 0.714,
+        "address": "경기 평택시 평택2로10번길 34",
+        "same_address": false
+      },
+      {
+        "id": "27523824",
+        "name": "마스터키 은행직영점",
+        "score": 0.875,
+        "address": "대전 중구 중앙로156번길 40",
+        "same_address": false
+      },
+      {
+        "id": "1727885052",
+        "name": "마스터키 익산점",
+        "score": 0.714,
+        "address": "전북특별자치도 익산시 동서로19길 74-1",
+        "same_address": false
+      },
+      {
+        "id": "1850589033",
+        "name": "마스터키 평택점",
+        "score": 0.714,
+        "address": "경기 평택시 평택2로10번길 34",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "브레인게임존카이스트본점",
+    "name": "브레인 게임존 카이스트 본점",
+    "status": "unverified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 유성구 대학로 225"
+    ],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈대전둔산점",
+    "name": "셜록홈즈 대전둔산점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 서구 대덕대로185번길 23 4층"
+    ],
+    "candidates": [
+      {
+        "id": "472522287",
+        "name": "셜록홈즈 대전은행점",
+        "score": 0.778,
+        "address": "대전 중구 은행동 52-5",
+        "same_address": false
+      },
+      {
+        "id": "270131531",
+        "name": "셜록홈즈 대학로점",
+        "score": 0.706,
+        "address": "서울 종로구 대학로10길 5 4층",
+        "same_address": false
+      },
+      {
+        "id": "10098327",
+        "name": "셜록홈즈 성신여대점",
+        "score": 0.667,
+        "address": "서울 성북구 동선동1가 87 4층",
+        "same_address": false
+      },
+      {
+        "id": "472522287",
+        "name": "셜록홈즈 대전은행점",
+        "score": 0.778,
+        "address": "대전 중구 은행동 52-5",
+        "same_address": false
+      },
+      {
+        "id": "270131531",
+        "name": "셜록홈즈 대학로점",
+        "score": 0.706,
+        "address": "서울 종로구 대학로10길 5 4층",
+        "same_address": false
+      },
+      {
+        "id": "10098327",
+        "name": "셜록홈즈 성신여대점",
+        "score": 0.667,
+        "address": "서울 성북구 동선동1가 87 4층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_115",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=115&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "룸즈에이대전둔산점",
+    "name": "룸즈에이 대전둔산점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang",
+      "roomescape"
+    ],
+    "addresses": [
+      "대전 서구 대덕대로185번길 22 태형빌딩 7층"
+    ],
+    "candidates": [],
+    "our_id": "official_roomsa_49",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "큐브이스케이프대전점",
+    "name": "큐브 이스케이프 대전점",
+    "status": "unverified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대전 서구 대덕대로185번길 47"
+    ],
+    "candidates": [
+      {
+        "id": "167846502",
+        "name": "큐브이스케이프 대전둔산점",
+        "score": 0.909,
+        "address": "대전 서구 대덕대로185번길 47 5층",
+        "same_address": false
+      },
+      {
+        "id": "2100000004",
+        "name": "큐브이스케이프 대구점",
+        "score": 0.9,
+        "address": "대구 중구 동성로2길 81 3층",
+        "same_address": false
+      },
+      {
+        "id": "27413260",
+        "name": "큐브이스케이프 홍대점",
+        "score": 0.9,
+        "address": "서울 마포구 와우산로29나길 9 2층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "플레이33대전점",
+    "name": "플레이33 대전점",
+    "status": "added_verified",
+    "sources": [
+      "bbabang"
+    ],
+    "addresses": [
+      "대전 중구 은행동 52-4 지하1층"
+    ],
+    "candidates": [
+      {
+        "id": "1385414031",
+        "name": "플레이33 건대점",
+        "score": 0.875,
+        "address": "서울 광진구 자양동 13-3 지하1층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_play33_5",
+    "verification_sources": [
+      "https://play33.kr/map?branch=5",
+      "https://play33.kr/reservation?branch=5"
+    ]
+  },
+  {
+    "key": "이스케이퍼스대전점afsc",
+    "name": "이스케이퍼스 대전점(AFSC)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "969459474",
+        "name": "이스케이퍼스 홍대1호점",
+        "score": 0.667,
+        "address": "서울 마포구 연희로1길 7",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "상상의문광주점",
+    "name": "상상의문 광주점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1387240933",
+        "name": "상상의문 부평점",
+        "score": 0.714,
+        "address": "인천 부평구 부평대로 293 3층",
+        "same_address": false
+      },
+      {
+        "id": "776353707",
+        "name": "상상의문 수원점",
+        "score": 0.714,
+        "address": "경기 수원시 팔달구 인계동 1041-12",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "셜록홈즈광명철산점",
+    "name": "셜록홈즈 광명철산점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [],
+    "our_id": "official_sherlock_116",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=116&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "플레이33수원인계점",
+    "name": "플레이33 수원인계점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1385414031",
+        "name": "플레이33 건대점",
+        "score": 0.667,
+        "address": "서울 광진구 자양동 13-3 지하1층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_play33_7",
+    "verification_sources": [
+      "https://play33.kr/map?branch=7",
+      "https://play33.kr/reservation?branch=7"
+    ]
+  },
+  {
+    "key": "공간",
+    "name": "공간 방탈출카페",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "시간의문동성로2호점",
+    "name": "시간의문 동성로2호점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "theflight더플라이트",
+    "name": "The FLIGHT(더 플라이트)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "룸즈에이대구스테이지점",
+    "name": "룸즈에이 대구스테이지점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [],
+    "our_id": "official_roomsa_83",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "황금열쇠아케이드천안점",
+    "name": "황금열쇠 아케이드 천안점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "플레이아레나",
+    "name": "플레이아레나",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "무비무드전주",
+    "name": "무비무드 전주",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "play33대전점",
+    "name": "PLAY33 대전점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "링크월드",
+    "name": "링크월드",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "퍼즐팩토리홍대본점",
+    "name": "퍼즐팩토리 홍대본점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "play33건대점",
+    "name": "PLAY33 건대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "메모리카니발키이스케이프x에버랜드",
+    "name": "메모리카니발(키이스케이프X에버랜드)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "파노라마롯데월드점",
+    "name": "파노라마 롯데월드점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "익스플로리아이스케이프수원점",
+    "name": "익스플로리아 이스케이프 수원점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "836762242",
+        "name": "이스케이프탑 수원점",
+        "score": 0.696,
+        "address": "경기 수원시 팔달구 인계동 1032-8",
+        "same_address": false
+      },
+      {
+        "id": "857573680",
+        "name": "루트이스케이프 수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 향교로 12-1",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_exploria",
+    "verification_sources": [
+      "https://www.exploria-escape.kr",
+      "https://www.exploria-escape.kr/information/"
+    ]
+  },
+  {
+    "key": "무비무드",
+    "name": "무비무드",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "플레이포인트랩서면탄탄스트리트점",
+    "name": "플레이포인트랩 서면탄탄스트리트점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "886826713",
+        "name": "플레이포인트랩 서면점",
+        "score": 0.769,
+        "address": "부산 부산진구 서면로68번길 18",
+        "same_address": false
+      },
+      {
+        "id": "1397923384",
+        "name": "플레이포인트랩 부산서면오리진점",
+        "score": 0.71,
+        "address": "부산 부산진구 중앙대로680번길 30",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "테라스페이스아트갤러리점",
+    "name": "테라스페이스 아트갤러리점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "759455993",
+        "name": "테라스페이스 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로19길 9 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "브레이크아웃이스케이프광안",
+    "name": "브레이크아웃 이스케이프 광안",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "451924760",
+        "name": "브레이크아웃이스케이프 홍대점",
+        "score": 0.815,
+        "address": "서울 마포구 서교동 338-48",
+        "same_address": false
+      },
+      {
+        "id": "1495650283",
+        "name": "브레이크아웃 광안",
+        "score": 0.762,
+        "address": "부산 수영구 남천바다로33번길 47",
+        "same_address": false
+      },
+      {
+        "id": "170158027",
+        "name": "브레이크아웃이스케이프 해운대본점",
+        "score": 0.759,
+        "address": "부산 해운대구 중동 1394-286",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "오렌지티비대구점",
+    "name": "오렌지티비 대구점",
+    "status": "verified_existing",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "363716272",
+        "name": "오렌지티비 대구동성로점",
+        "score": 0.842,
+        "address": "대구 중구 동성로5길 62 4층",
+        "same_address": false
+      },
+      {
+        "id": "1908328454",
+        "name": "오렌지티비 대전은행점",
+        "score": 0.778,
+        "address": "대전 중구 중앙로156번길24 3층",
+        "same_address": false
+      }
+    ],
+    "our_id": "363716272",
+    "verification_sources": [
+      "http://orangetb.com/reservation"
+    ]
+  },
+  {
+    "key": "키이스케이프station",
+    "name": "키이스케이프 STATION",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "엔터팟",
+    "name": "엔터팟",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "레다스퀘어",
+    "name": "레다스퀘어",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "28201117",
+        "name": "레다스퀘어 홍대점",
+        "score": 0.769,
+        "address": "서울 마포구 독막로9길 23",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "tickettoescape티켓투이스케이프",
+    "name": "Ticket To Escape(티켓투이스케이프)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "어메이즈드부평3호점",
+    "name": "어메이즈드 부평3호점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "2138418097",
+        "name": "어메이즈드 3호점",
+        "score": 0.889,
+        "address": "인천 부평구 시장로 36",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "머더파커wow잠실점",
+    "name": "머더파커 WOW 잠실점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1796437751",
+        "name": "머더파커 잠실점",
+        "score": 0.824,
+        "address": "서울 송파구 올림픽로35다길 14 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "64956517",
+        "name": "머더파커 WOW 홍대점",
+        "score": 0.8,
+        "address": "서울 마포구 잔다리로6길 25 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "황금열쇠대구동성로2호점더킹",
+    "name": "황금열쇠 대구동성로2호점(더킹)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1958696909",
+        "name": "황금열쇠 동성로점",
+        "score": 0.727,
+        "address": "대구 중구 봉산동 22-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비트포비아홍대던전iii",
+    "name": "비트포비아 홍대던전 III",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1246652450",
+        "name": "비트포비아 홍대던전점",
+        "score": 0.818,
+        "address": "서울 마포구 독막로3길 30",
+        "same_address": false
+      },
+      {
+        "id": "2070160321",
+        "name": "비트포비아 홍대던전3",
+        "score": 0.818,
+        "address": "서울 마포구 와우산로29길 21",
+        "same_address": false
+      },
+      {
+        "id": "1478483341",
+        "name": "비트포비아 던전루나",
+        "score": 0.667,
+        "address": "서울 강남구 강남대로94길 20",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "시크릿도어",
+    "name": "시크릿도어 방탈출카페",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "163640808",
+        "name": "시크릿도어 군포산본점",
+        "score": 0.667,
+        "address": "경기 군포시 산본동 1136-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이동성로아카데미점",
+    "name": "룸즈에이 동성로 아카데미점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [],
+    "our_id": "official_roomsa_57",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "오아시스홍대점",
+    "name": "오아시스 홍대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "룸엘이스케이프홍대점",
+    "name": "룸엘이스케이프 홍대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "596589943",
+        "name": "룸엘이스케이프 홍대1호점",
+        "score": 0.909,
+        "address": "서울 마포구 잔다리로 4 2층",
+        "same_address": false
+      },
+      {
+        "id": "200411443",
+        "name": "키이스케이프 홍대점",
+        "score": 0.842,
+        "address": "서울 마포구 어울마당로 44-1",
+        "same_address": false
+      },
+      {
+        "id": "153136502",
+        "name": "도어이스케이프 홍대점",
+        "score": 0.8,
+        "address": "서울 마포구 서교동 403-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "제로월드x롯데월드",
+    "name": "제로월드 X 롯데월드",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "890251040",
+        "name": "제로월드 롯데월드점",
+        "score": 0.889,
+        "address": "서울 송파구 잠실동 40-1 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "리멤버부평점",
+    "name": "리멤버 방탈출카페 부평점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "475592733",
+        "name": "리멤버방탈출 수원점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구",
+        "same_address": false
+      },
+      {
+        "id": "49858990",
+        "name": "리멤버방탈출 천안점",
+        "score": 0.667,
+        "address": "충남 천안시 동남구",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "퀘스천마크홍대점",
+    "name": "퀘스천마크 홍대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈대구동성로점",
+    "name": "셜록홈즈 대구동성로점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "270131531",
+        "name": "셜록홈즈 대학로점",
+        "score": 0.778,
+        "address": "서울 종로구 대학로10길 5 4층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_84",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=84&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "황금열쇠대구동성로점본점",
+    "name": "황금열쇠 대구동성로점(본점)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1958696909",
+        "name": "황금열쇠 동성로점",
+        "score": 0.8,
+        "address": "대구 중구 봉산동 22-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "호텔레토",
+    "name": "호텔 레토",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1168819420",
+        "name": "호텔레토 성수점",
+        "score": 0.727,
+        "address": "서울 성동구 성수이로 78 2층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "마스터키동탄프라임점",
+    "name": "마스터키 동탄프라임점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1834906043",
+        "name": "마스터키 동탄프레임점",
+        "score": 0.9,
+        "address": "경기 화성시 동탄구 동탄중심상가2길 37",
+        "same_address": false
+      },
+      {
+        "id": "164781377",
+        "name": "마스터키 프라임청주점",
+        "score": 0.8,
+        "address": "충북 청주시 상당구 상당로69번길 3",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비트포비아강남던전ii",
+    "name": "비트포비아 강남던전 II",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1769092819",
+        "name": "비트포비아 강남던전2",
+        "score": 0.857,
+        "address": "서울 강남구 테헤란로4길 32",
+        "same_address": false
+      },
+      {
+        "id": "27413263",
+        "name": "비트포비아 강남던전점",
+        "score": 0.857,
+        "address": "서울 강남구 강남대로84길 33",
+        "same_address": false
+      },
+      {
+        "id": "1478483341",
+        "name": "비트포비아 던전루나",
+        "score": 0.7,
+        "address": "서울 강남구 강남대로94길 20",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이동성로2호점",
+    "name": "룸즈에이 동성로2호점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1544141348",
+        "name": "룸즈에이 광주수완2호점",
+        "score": 0.667,
+        "address": "광주 광산구 장신로 76",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_56",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "식스센스광주점",
+    "name": "식스센스 광주점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "이스케이프샾신사점",
+    "name": "이스케이프샾 신사점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.8,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      },
+      {
+        "id": "2016521022",
+        "name": "이스케이프샾 건대점",
+        "score": 0.778,
+        "address": "서울 광진구 능동로 129-1",
+        "same_address": false
+      },
+      {
+        "id": "628138029",
+        "name": "룸엘이스케이프 신림점",
+        "score": 0.737,
+        "address": "서울 관악구 신림동",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "에스케이프",
+    "name": "에스케이프",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "17410648",
+        "name": "이스케이프",
+        "score": 0.8,
+        "address": "서울 서대문구 연세로5가길 16",
+        "same_address": false
+      },
+      {
+        "id": "1000900386",
+        "name": "이스케이프샾",
+        "score": 0.727,
+        "address": "서울 강남구 논현로175길 93",
+        "same_address": false
+      },
+      {
+        "id": "657876723",
+        "name": "씨이스케이프",
+        "score": 0.727,
+        "address": "경기 성남시 중원구 제일로35번길 56 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비밀의화원포레스트건대점",
+    "name": "비밀의화원 포레스트 건대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "다락방청주점",
+    "name": "다락방 방탈출카페 청주점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "964420524",
+        "name": "다락방방탈출카페 청주직영점",
+        "score": 0.857,
+        "address": "충북 청주시 상당구 성안로 3",
+        "same_address": false
+      },
+      {
+        "id": "442981346",
+        "name": "다락방 안양점",
+        "score": 0.667,
+        "address": "경기 안양시 만안구 안양로292번길 18",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "룸즈에이포항점",
+    "name": "룸즈에이 포항점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.714,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_58",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "오늘탈출",
+    "name": "오늘, 탈출",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "300855776",
+        "name": "오늘탈출 고양점",
+        "score": 0.727,
+        "address": "경기 고양시",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비밀의화원동성로점",
+    "name": "비밀의화원 동성로점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [],
+    "our_id": "official_secretgarden_6",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=6"
+    ]
+  },
+  {
+    "key": "셜록홈즈청주점",
+    "name": "셜록홈즈 청주점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "588118043",
+        "name": "셜록홈즈 원주점",
+        "score": 0.857,
+        "address": "강원특별자치도 원주시 반곡동 1880-8",
+        "same_address": false
+      },
+      {
+        "id": "582885260",
+        "name": "셜록홈즈 수지구청점",
+        "score": 0.75,
+        "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+        "same_address": false
+      },
+      {
+        "id": "1367009941",
+        "name": "셜록홈즈 노원점",
+        "score": 0.714,
+        "address": "서울 노원구 노해로81길 12-20 민진빌딩 5층",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_70",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=70&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "숨바꼭질",
+    "name": "방탈출카페 숨바꼭질",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "632336157",
+        "name": "숨바꼭질 3호점",
+        "score": 0.727,
+        "address": "광주 동구 금남로 250-9",
+        "same_address": false
+      },
+      {
+        "id": "923379950",
+        "name": "숨바꼭질 2호점",
+        "score": 0.727,
+        "address": "광주 북구 우치로100번길 27",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "머더파커건대점",
+    "name": "머더파커 건대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1016102948",
+        "name": "머더파커 건대1호점",
+        "score": 0.875,
+        "address": "서울 광진구 아차산로 213 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1862264503",
+        "name": "머더파커 건대2호점",
+        "score": 0.875,
+        "address": "서울 광진구 동일로22길 68 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1450292038",
+        "name": "머더파커 대구2호점",
+        "score": 0.75,
+        "address": "대구 중구 동성로3길 8 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더코드왕십리점",
+    "name": "더코드 왕십리점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "마스터키프라임화정점",
+    "name": "마스터키 프라임 화정점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "870806933",
+        "name": "마스터키 화정점",
+        "score": 0.824,
+        "address": "경기 고양시 덕양구 화신로272번길 29",
+        "same_address": false
+      },
+      {
+        "id": "164781377",
+        "name": "마스터키 프라임청주점",
+        "score": 0.8,
+        "address": "충북 청주시 상당구 상당로69번길 3",
+        "same_address": false
+      },
+      {
+        "id": "1834906043",
+        "name": "마스터키 동탄프레임점",
+        "score": 0.7,
+        "address": "경기 화성시 동탄구 동탄중심상가2길 37",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "머더파커대구점",
+    "name": "머더파커 대구점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1450292038",
+        "name": "머더파커 대구2호점",
+        "score": 0.875,
+        "address": "대구 중구 동성로3길 8 3층",
+        "same_address": false
+      },
+      {
+        "id": "1788375645",
+        "name": "머더파커 대구1호점",
+        "score": 0.875,
+        "address": "대구 중구 봉산동 24-7",
+        "same_address": false
+      },
+      {
+        "id": "1016102948",
+        "name": "머더파커 건대1호점",
+        "score": 0.75,
+        "address": "서울 광진구 아차산로 213 지하1층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "디코드전주점",
+    "name": "디코드 전주점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "2055691742",
+        "name": "디코드이스케이프 전주점",
+        "score": 0.706,
+        "address": "전북 전주시 완산구 전주객사3길 46-10",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "브레인",
+    "name": "브레인 방탈출",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "에피소드",
+    "name": "에피소드 방탈출",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1277196871",
+        "name": "에피소드방탈출 강남점",
+        "score": 0.727,
+        "address": "서울 강남구 강남대로98길 8",
+        "same_address": false
+      },
+      {
+        "id": "1411698841",
+        "name": "에피소드방탈출 분당점",
+        "score": 0.727,
+        "address": "경기 성남시 분당구 황새울로360번길 12",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비밀의화원서면점",
+    "name": "비밀의화원 서면점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [],
+    "our_id": "official_secretgarden_3",
+    "verification_sources": [
+      "https://www.secretgardenescape.com/",
+      "https://www.secretgardenescape.com/reservation.html?k_shopno=3"
+    ]
+  },
+  {
+    "key": "엑스크라임건대점",
+    "name": "엑스크라임 건대점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [],
+    "our_id": "official_xcape_xr",
+    "verification_sources": [
+      "https://xcape.kr/directions",
+      "https://xcape.kr/booking/xr"
+    ]
+  },
+  {
+    "key": "룸즈에이부산서면점",
+    "name": "룸즈에이 부산서면점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "802938757",
+        "name": "룸즈에이 부평점",
+        "score": 0.75,
+        "address": "인천 부평구 부평대로 26",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_roomsa_52",
+    "verification_sources": [
+      "https://roomsa.co.kr/locations",
+      "https://roomsa.co.kr/api/booking/stores"
+    ]
+  },
+  {
+    "key": "인사이드",
+    "name": "인사이드 방탈출카페",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "셜록홈즈구월인천점",
+    "name": "셜록홈즈 구월인천점",
+    "status": "added_verified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1166453549",
+        "name": "셜록홈즈 수원인계점",
+        "score": 0.667,
+        "address": "경기 수원시 팔달구 효원로265번길 41",
+        "same_address": false
+      },
+      {
+        "id": "1620988252",
+        "name": "셜록홈즈 부천중동점",
+        "score": 0.667,
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "same_address": false
+      },
+      {
+        "id": "2021007589",
+        "name": "셜록홈즈 용인동백점",
+        "score": 0.667,
+        "address": "경기 용인시 기흥구 동백중앙로 283",
+        "same_address": false
+      }
+    ],
+    "our_id": "official_sherlock_13",
+    "verification_sources": [
+      "https://www.sherlock-holmes.co.kr/branch/",
+      "https://www.sherlock-holmes.co.kr/branch/view.php?bno=13&s_sido=&s_no="
+    ]
+  },
+  {
+    "key": "나비잠",
+    "name": "나비잠",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "704757588",
+        "name": "나비잠 2호점",
+        "score": 0.667,
+        "address": "경기 안양시 동안구 호계동 1049",
+        "same_address": false
+      },
+      {
+        "id": "713424921",
+        "name": "나비잠 1호점",
+        "score": 0.667,
+        "address": "경기 안양시 동안구 호계동 1044-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "비트포비아미션브레이크cgv용산점",
+    "name": "비트포비아 미션브레이크 CGV 용산점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "888192913",
+        "name": "미션브레이크 CGV용산아이파크몰점",
+        "score": 0.706,
+        "address": "서울 용산구 한강대로23길 55",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "플레이포인트랩천안프리미엄점",
+    "name": "플레이포인트랩 천안프리미엄점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1462418270",
+        "name": "플레이포인트랩 홍대점",
+        "score": 0.667,
+        "address": "서울 마포구 와우산로27길 39",
+        "same_address": false
+      },
+      {
+        "id": "1466171651",
+        "name": "플레이포인트랩 강남점",
+        "score": 0.667,
+        "address": "서울 강남구 강남대로98길 11",
+        "same_address": false
+      },
+      {
+        "id": "2030700012",
+        "name": "플레이포인트랩 두정점",
+        "score": 0.667,
+        "address": "충남 천안시 서북구 두정로 177",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "익산지니어스이스케이프",
+    "name": "익산 지니어스 이스케이프",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1394599334",
+        "name": "지니어스이스케이프",
+        "score": 0.9,
+        "address": "전북특별자치도 익산시 모현동1가 868",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "더리얼",
+    "name": "더리얼 방탈출카페",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "902256384",
+        "name": "더리얼방탈출카페 순천점",
+        "score": 0.667,
+        "address": "전남 순천시 중앙6길 3-1",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "머더파커et3호점",
+    "name": "머더파커 E.T 3호점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "399727939",
+        "name": "머더파커 전주3호점",
+        "score": 0.778,
+        "address": "전북특별자치도 전주시 완산구 효자동2가 1155-4",
+        "same_address": false
+      },
+      {
+        "id": "1016102948",
+        "name": "머더파커 건대1호점",
+        "score": 0.667,
+        "address": "서울 광진구 아차산로 213 지하1층",
+        "same_address": false
+      },
+      {
+        "id": "1450292038",
+        "name": "머더파커 대구2호점",
+        "score": 0.667,
+        "address": "대구 중구 동성로3길 8 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "머더파커어드벤처전주2호점",
+    "name": "머더파커 어드벤처 전주 2호점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "605934214",
+        "name": "머더파커 전주2호점",
+        "score": 0.818,
+        "address": "전북특별자치도 전주시 완산구 풍남문2길 60 2층",
+        "same_address": false
+      },
+      {
+        "id": "27545114",
+        "name": "머더파커 전주1호점",
+        "score": 0.727,
+        "address": "전북특별자치도 전주시 완산구 전동 168-5",
+        "same_address": false
+      },
+      {
+        "id": "399727939",
+        "name": "머더파커 전주3호점",
+        "score": 0.727,
+        "address": "전북특별자치도 전주시 완산구 효자동2가 1155-4",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "이스케이프존강원대1호점",
+    "name": "이스케이프존 강원대1호점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "230738333",
+        "name": "이스케이프존 강대점",
+        "score": 0.857,
+        "address": "강원특별자치도 춘천시 서부대성로 231-1",
+        "same_address": false
+      },
+      {
+        "id": "997136500",
+        "name": "둠이스케이프 1호점",
+        "score": 0.762,
+        "address": "인천 남동구 성말로13번길 15",
+        "same_address": false
+      },
+      {
+        "id": "596589943",
+        "name": "룸엘이스케이프 홍대1호점",
+        "score": 0.75,
+        "address": "서울 마포구 잔다리로 4 2층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "큐브이스케이프인천구월점",
+    "name": "큐브이스케이프 인천구월점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "27564986",
+        "name": "큐브이스케이프 인천점",
+        "score": 0.909,
+        "address": "인천 남동구 구월동 1407",
+        "same_address": false
+      },
+      {
+        "id": "1857201893",
+        "name": "큐브이스케이프 천호점",
+        "score": 0.818,
+        "address": "서울 강동구 천호동 488-1 3층",
+        "same_address": false
+      },
+      {
+        "id": "2100000004",
+        "name": "큐브이스케이프 대구점",
+        "score": 0.818,
+        "address": "대구 중구 동성로2길 81 3층",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "어메이즈드부평2호점",
+    "name": "어메이즈드 부평2호점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "2138418097",
+        "name": "어메이즈드 3호점",
+        "score": 0.778,
+        "address": "인천 부평구 시장로 36",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "exit액시트",
+    "name": "EXIT(액시트)",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "무비이스케이프동탄북광장점",
+    "name": "무비이스케이프 동탄 북광장점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1855837227",
+        "name": "무비이스케이프 동탄남광장점",
+        "score": 0.923,
+        "address": "경기 화성시 동탄구 동탄중심상가1길 35",
+        "same_address": false
+      },
+      {
+        "id": "1956789824",
+        "name": "무비이스케이프 동탄점",
+        "score": 0.87,
+        "address": "경기 화성시 동탄구 반송동 88-8",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "명란젓코난",
+    "name": "명란젓코난",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "로스트템플2",
+    "name": "로스트템플2",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": []
+  },
+  {
+    "key": "더코드회기점",
+    "name": "더코드 회기점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "680681357",
+        "name": "더코드",
+        "score": 0.667,
+        "address": "광주 서구 치평동 1230-2",
+        "same_address": false
+      }
+    ]
+  },
+  {
+    "key": "넥스트에디션건대점",
+    "name": "넥스트에디션 건대점",
+    "status": "unverified",
+    "sources": [
+      "roomescape"
+    ],
+    "addresses": [],
+    "candidates": [
+      {
+        "id": "1973765277",
+        "name": "넥스트에디션 건대1호점",
+        "score": 0.9,
+        "address": "서울 광진구 자양동 17-5, 지하 1층",
+        "same_address": false
+      },
+      {
+        "id": "287949141",
+        "name": "넥스트에디션 건대2호점",
+        "score": 0.9,
+        "address": "서울 광진구 아차산로 192, 별관 2,3층",
+        "same_address": false
+      },
+      {
+        "id": "1224056973",
+        "name": "넥스트에디션 신림점",
+        "score": 0.778,
+        "address": "서울 관악구 남부순환로 1598, 지하 1층",
+        "same_address": false
+      }
+    ]
+  }
+]

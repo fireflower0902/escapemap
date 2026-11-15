@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "솔버 1호점",
+    "솔버 2호점",
+    "엑스케이프 건대점",
+    "엑스케이프 뉴케이스"
+  ],
+  "sources": [
+    {
+      "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약",
+      "url": "https://xcape.co.kr/"
+    },
+    {
+      "title": "건대 방탈출 카페 엑스케이프 건대점 | 미제사건 추리 방탈출 실시간 예약",
+      "url": "https://xcape.co.kr/xc"
+    },
+    {
+      "title": "방탈출 워크샵·기업 팀빌딩·단체 방탈출 | 엑스케이프",
+      "url": "https://xcape.co.kr/corporate"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "솔버 1호점",
+      "url": "https://web.zamfit.kr/stores/1906/%EC%86%94%EB%B2%84-1%ED%98%B8%EC%A0%90"
+    },
+    {
+      "title": "501동 사람들 — 엑스케이프 건대점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/1507"
+    },
+    {
+      "title": "솔버 1호점 (건대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/256"
+    },
+    {
+      "title": "501동 사람들 — 엑스케이프 건대점 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/210"
+    },
+    {
+      "title": "이도공간 — 엑스케이프 건대점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/1502"
+    },
+    {
+      "title": "솔버 2호점 - 광진구 방탈출 정보 | 당구장 찾기",
+      "url": "https://pool.ipsitalk.net/activity/18054"
+    },
+    {
+      "title": "방탈출 매장 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes"
+    },
+    {
+      "title": "솔버 건대2호점 방탈출 | 테마·가격·예약·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/places/lssczayynppesgsgek/"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

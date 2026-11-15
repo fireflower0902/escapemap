@@ -1,0 +1,103 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:03:54.608812+09:00",
+  "scope": "selected cafe IDs: 1121229740 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1121229740"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1121229740",
+        "cafe_name": "상상의문",
+        "branch_name": "수원2호점",
+        "address": "경기 수원시 팔달구 효원로249번길 46-18",
+        "area": "gyeonggi",
+        "base_url": "https://xn--z92b74ha268d.com",
+        "s_zizum": 7,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 147,
+  "statuses": {
+    "full": 46,
+    "available": 101
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1121229740": {
+      "themes": 6,
+      "slots": 147,
+      "statuses": {
+        "full": 46,
+        "available": 101
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "HINDSIGHT",
+    "OKCUT",
+    "낙화 : 떨어지는 꽃",
+    "성지기숙학원 : 특수교정반",
+    "알케이드 빌리지",
+    "춘화각 : 피할 수 없는 저주"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.79,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

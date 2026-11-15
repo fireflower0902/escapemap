@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "테라스페이스 아트갤러리점",
+    "브레이크아웃 이스케이프 광안",
+    "오렌지티비 대구점",
+    "키이스케이프 STATION"
+  ],
+  "sources": [
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/reservation.php"
+    },
+    {
+      "title": "TERASPACE",
+      "url": "https://teraspace.co.kr/home/office"
+    },
+    {
+      "title": "TERASPACE",
+      "url": "https://teraspace.co.kr/home"
+    },
+    {
+      "title": "브레이크아웃 방탈출카페 광안점 Official: Instagram | Linktree",
+      "url": "https://linktr.ee/breakoutbusan"
+    },
+    {
+      "title": "TERASPACE",
+      "url": "https://teraspace.co.kr/booking/bk_detail"
+    },
+    {
+      "title": "방탈출 예약 오픈일 계산기 | 펭크로",
+      "url": "https://pengucro.com/reservation-opening"
+    },
+    {
+      "title": "방탈출 예약 오픈 시간과 예약 잘하는 법 | 코리안로컬 방탈출 가이드",
+      "url": "https://thekoreanlocal.com/escape/guide/booking/"
+    },
+    {
+      "title": "지원 사이트 · 방탈출·네이버 예약 안내 | 펭크로",
+      "url": "https://pengucro.com/supported-sites"
+    },
+    {
+      "title": "키이스케이프 STATION | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/keyescape-station"
+    },
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/boardview.php"
+    },
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/web/index.php"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,6496 @@
+[
+  {
+    "script": "sync_aliceescape_db",
+    "checked_at": "2026-11-14T21:21:36.601871+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 9,
+    "themes_with_slots": 9,
+    "slots": 94,
+    "statuses": {
+      "available": 91,
+      "full": 3
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "금두꺼비",
+      "달빛 서커스",
+      "동성로 앨리스",
+      "레드 주식회사",
+      "사가와 잇세이",
+      "아빠의 서재",
+      "왕따 교실",
+      "지퍼스 크리퍼스"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "alice-escape.com",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "alice-escape.com",
+        "path": "/sub/03_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.71,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_clevertown_db",
+    "checked_at": "2026-11-14T21:21:41.971067+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 23,
+    "statuses": {
+      "full": 13,
+      "available": 10
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "가암성당",
+      "난 너의 보이",
+      "심야성당",
+      "좌뇌우뇌연구소(문제방)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "clevertown.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "clevertown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "clevertown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "clevertown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "clevertown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.51,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_codek_db",
+    "checked_at": "2026-11-14T21:21:47.140771+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "codek5678.cafe24.com",
+        "path": "/sub/code_sub04_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codek5678.cafe24.com",
+        "path": "/sub/code_sub04_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.29,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_conanescape_db",
+    "checked_at": "2026-11-14T21:21:53.111428+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1757443413",
+          "branch_name": "구로디지털단지역점",
+          "area": "etc",
+          "address": "서울 구로구 구로동 1124-54 3층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "conanescape.kr",
+        "path": "/sub/sub03_01.php",
+        "error": "URLError"
+      },
+      {
+        "method": "POST",
+        "host": "conanescape.kr",
+        "path": "/sub/sub03_01.php",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 1.63,
+    "log_errors": [
+      "[WARN] POST http://conanescape.kr/sub/sub03_01.php 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] POST http://conanescape.kr/sub/sub03_01.php 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "checked_at": "2026-11-14T21:21:55.117085+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "27413260",
+          "cafe_name": "큐브이스케이프",
+          "branch_name": "홍대점",
+          "address": "서울 마포구 와우산로29나길 9 2층",
+          "area": "hongdae",
+          "subdomain": "www",
+          "office": 1
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.cubeescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.cubeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 11.64,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_deepthinker_db",
+    "checked_at": "2026-11-14T21:22:07.448477+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 1,
+    "themes_with_slots": 1,
+    "slots": 13,
+    "statuses": {
+      "full": 11,
+      "available": 2
+    },
+    "dates": [
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "옹이의 꿈"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "deepthinker.co.kr",
+        "path": "/booking/",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "deepthinker.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "deepthinker.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 8.99,
+    "log_errors": [
+      "[WARN] availableDates 파싱 실패: HTTP Error 404: Not Found"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_doorescape_db",
+    "checked_at": "2026-11-14T21:22:17.001508+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "SHOP_MAP": [
+        "aAo1RDEnfyPkbeix"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 37,
+    "statuses": {
+      "available": 35,
+      "full": 2
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "Imagine",
+      "Insert Coin",
+      "둘이라면",
+      "출동"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/aAo1RDEnfyPkbeix",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/aAo1RDEnfyPkbeix",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.23,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_dpsnnn_db",
+    "checked_at": "2026-11-14T21:22:18.676917+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "377197835",
+          "branch_name": "강남점",
+          "area": "gangnam",
+          "address": "서울 강남구 봉은사로4길 36",
+          "reserve_page": "https://www.dpsnnn.com/reserve_g",
+          "api_url": "https://www.dpsnnn.com/booking/get_prod_list.cm",
+          "booking_url": "https://www.dpsnnn.com/reserve_g"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 20,
+    "statuses": {
+      "full": 20
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "상자",
+      "행복"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.dpsnnn.com",
+        "path": "/reserve_g",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.dpsnnn.com",
+        "path": "/booking/get_prod_list.cm",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.dpsnnn.com",
+        "path": "/booking/get_prod_list.cm",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.dpsnnn.com",
+        "path": "/booking/get_prod_list.cm",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.26,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_dreampicnic_db",
+    "checked_at": "2026-11-14T21:22:24.604444+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "부천점"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 69,
+    "statuses": {
+      "available": 66,
+      "full": 3
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "㉢ト□rヱㅊi..★",
+      "라미 : 두개의 보물",
+      "마이 올 킬",
+      "몽환",
+      "심곡 : 자매 자살 사건",
+      "홍주 : 옥비녀의 비밀"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "dreampicnicescape.com",
+        "path": "/api/public/themes",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dreampicnicescape.com",
+        "path": "/api/themes",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dreampicnicescape.com",
+        "path": "/api/themes",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.79,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_dumbndumber_db",
+    "checked_at": "2026-11-14T21:22:26.797712+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "203642029",
+          "branch_name": "대학로점",
+          "shopno": 1,
+          "area": "myeongdong",
+          "address": "서울 종로구 대학로12길 40 3층",
+          "site_url": "http://www.dumbndumber.kr"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 76,
+    "statuses": {
+      "available": 58,
+      "full": 18
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "글램핑",
+      "러브클리닉",
+      "작전명: 옵저버",
+      "크라임시티",
+      "투 앨리스",
+      "푸른수염"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.dumbndumber.kr",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.dumbndumber.kr",
+        "path": "/reservation.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.34,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_escapecity_db",
+    "checked_at": "2026-11-14T21:29:44.420473+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 4,
+    "themes_fetched": 18,
+    "themes_with_slots": 18,
+    "slots": 174,
+    "statuses": {
+      "available": 157,
+      "full": 17
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "바람 바람 바람",
+      "부자가 될 상인가(70분)",
+      "원한",
+      "추억의 전당포",
+      "S    P    Y",
+      "기억의 조각",
+      "다시만날수있을까?",
+      "마법학교"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapecity.kr",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 86.93,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_escapedetective_db",
+    "checked_at": "2026-11-14T21:22:58.029879+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 36,
+    "statuses": {
+      "available": 36
+    },
+    "dates": [
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "[3세대] 크라임씬 (화이트의 죽음)",
+      "사라진 피카소",
+      "스토커",
+      "여고괴담"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapecafe.co.kr",
+        "path": "/reservation/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.95,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_escapehouse_db",
+    "checked_at": "2026-11-14T21:23:05.598287+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "340303350",
+          "branch_name": "홍대점",
+          "area": "hongdae",
+          "address": "서울 마포구 와우산로21길 28-9"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 8,
+    "themes_with_slots": 8,
+    "slots": 102,
+    "statuses": {
+      "full": 102
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "3인의저주",
+      "남극일지",
+      "미드나이트",
+      "사라진목소리",
+      "살인호텔",
+      "시그너스X-1",
+      "임파서블",
+      "피의장막"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.escapehouse.co.kr",
+        "path": "/view/thema.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.escapehouse.co.kr",
+        "path": "/view/thema.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.74,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_escapers_db",
+    "checked_at": "2026-11-14T21:23:07.715865+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "969459474",
+          "branch_name": "홍대1호점",
+          "group_pk": 1,
+          "group_phone": "010-5594-5216",
+          "area": "hongdae",
+          "address": "서울 마포구 연희로1길 7"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 45,
+    "statuses": {
+      "available": 43,
+      "full": 2
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "RS의 밀실",
+      "라이브",
+      "붉은머리연맹",
+      "서커스:공중그네",
+      "싸이코메트리"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/1",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/theme",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/theme",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 3.65,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-14T21:23:11.763154+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1856406910",
+          "business_id": "19971",
+          "business_type_id": 12,
+          "branch_name": "광주점",
+          "name": "이스케이프탑",
+          "address": "광주 동구 충장로3가 38-14",
+          "area": "gwangju",
+          "site_url": "http://kwangjutop.com"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 49,
+    "statuses": {
+      "available": 46,
+      "full": 3
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "여고괴담 : 과학실 살인사건(프로파일링 게임)(70분)",
+      "원피스 : 보물 탈취작전",
+      "킹스맨: 요원의 자격",
+      "프리즌 브레이크 : 1508",
+      "해리포터 : 마법사의 방"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.79,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_escbangtalul_db",
+    "checked_at": "2026-11-14T21:23:19.021142+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "2024880532",
+          "name": "ESC방탈출카페",
+          "branch_name": "대전둔산점",
+          "area": "daejeon",
+          "address": "대전 서구 둔산동 1062",
+          "base_url": "http://djdsesc.co.kr",
+          "wr_1": "대전둔산점"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 66,
+    "statuses": {
+      "available": 65,
+      "full": 1
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "Dead Number",
+      "Trap Train",
+      "수상한 병원",
+      "스페이드 클럽",
+      "투란의 독방",
+      "헨젤과 그레텔"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "djdsesc.co.kr",
+        "path": "/bbs/board.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "djdsesc.co.kr",
+        "path": "/bbs/board.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.48,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_fantastrick_db",
+    "checked_at": "2026-11-14T21:23:21.890271+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 3,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [
+      "태초의 신부",
+      "사자의 서",
+      "LOCKDOWN CITY"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/firstfoundbride/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/firstfoundbride/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/firstfoundbride",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/bookofduat/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/bookofduat/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/bookofduat",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/ldc/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/ldc/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/ldc",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 17.23,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_frankantique_db",
+    "checked_at": "2026-11-14T21:23:39.961906+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 30,
+    "statuses": {
+      "full": 25,
+      "available": 5
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "Brooklyn My Love",
+      "My Private Heaven",
+      "Plan to save my dear"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "thefrank.co.kr",
+        "path": "/core/res/rev.make.ajax.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 8.84,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_geniusescape_db",
+    "checked_at": "2026-11-14T21:23:49.450257+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 5,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [
+      "도플갱어",
+      "메이저리그",
+      "수상한 회사원",
+      "잃어버린 기억",
+      "피의 성전"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "POST",
+        "host": "www.geniusescape.kr",
+        "path": "/sub/03_1_1.html",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 8.32,
+    "log_errors": [
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-14) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-14) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-14) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-14) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-14) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-15) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-15) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-15) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-15) 실패: HTTP Error 403: Forbidden",
+      "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-15) 실패: HTTP Error 403: Forbidden"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_horrorswitch_db",
+    "checked_at": "2026-11-14T21:23:59.021940+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "1"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 1,
+    "themes_with_slots": 1,
+    "slots": 42,
+    "statuses": {
+      "full": 5,
+      "available": 37
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "에덴병원"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.horrorswitch.com",
+        "path": "/ko/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.horrorswitch.com",
+        "path": "/ko/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.25,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_jigobyeol_db",
+    "checked_at": "2026-11-14T21:24:01.919541+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "branch": 2,
+          "cafe_id": "2070697879",
+          "name": "지구별방탈출",
+          "branch_name": "홍대어드벤처점",
+          "address": "서울 마포구 와우산로21길 31 3층",
+          "area": "hongdae",
+          "website_url": "https://xn--2e0b040a4xj.com",
+          "theme_ids": [
+            25,
+            23,
+            18,
+            17,
+            9,
+            8
+          ]
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 9,
+    "statuses": {
+      "full": 5,
+      "available": 4
+    },
+    "dates": [
+      "2026-11-14"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "PINOCCHIO(피노키오)",
+      "미스터리",
+      "아몬 : 새벽을 여는 소년",
+      "잔향",
+      "지난날을 잊었다",
+      "퀘스트 : 여정의 시작"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.xn--2e0b040a4xj.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--2e0b040a4xj.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--2e0b040a4xj.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--2e0b040a4xj.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--2e0b040a4xj.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--2e0b040a4xj.com",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.49,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_keyescape_db",
+    "checked_at": "2026-11-14T21:24:08.822297+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "3"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 60,
+    "statuses": {
+      "full": 51,
+      "available": 9
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "그카지말라캤자나",
+      "살랑살랑연구소",
+      "월야애담-영문병행표기"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "keyescape.com",
+        "path": "/controller/run_proc.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.65,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_lastescape_db",
+    "checked_at": "2026-11-14T21:24:13.858614+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "lastescape.co.kr",
+        "path": "/g5/plugin/wz.bookingC.prm/step.1.skin.room.php",
+        "error": "URLError"
+      },
+      {
+        "method": "POST",
+        "host": "lastescape.co.kr",
+        "path": "/g5/plugin/wz.bookingC.prm/step.1.skin.room.php",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 1.43,
+    "log_errors": [
+      "[WARN] POST 실패 (date=2026-11-14): <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] POST 실패 (date=2026-11-15): <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_ledasquare_db",
+    "checked_at": "2026-11-14T21:24:15.669059+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "28201117",
+          "branch_name": "홍대점",
+          "area": "hongdae",
+          "address": "서울 마포구 독막로9길 23",
+          "zizum_num": "1"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "ledasquare.com",
+        "path": "/core/res/rev.make.sel.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 7.21,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_mafiacafe_db",
+    "checked_at": "2026-11-14T21:24:23.534247+09:00",
+    "scope": "first configured branch / today + 1 day(s); monthly API returns current month",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1030963843",
+          "location_id": 2,
+          "branch_name": "강남1호점",
+          "address": "서울시 강남구 강남대로 96길 19, 4층",
+          "area": "gangnam"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 1,
+    "themes_with_slots": 1,
+    "slots": 37,
+    "statuses": {
+      "full": 2,
+      "available": 35
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29",
+      "2026-11-30"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "언데드마피아"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "api.realmafia.kr",
+        "path": "/web/meetings/calendar",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.89,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_masterkey_db",
+    "checked_at": "2026-11-14T21:24:25.116452+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "SHOP_MAP": [
+        "35"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 53,
+    "statuses": {
+      "available": 46,
+      "full": 7
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "STAFF ONLY",
+      "갱생",
+      "더맨",
+      "리허설",
+      "위로",
+      "작은창고"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.master-key.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 10.83,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_movieescape_cokr_db",
+    "checked_at": "2026-11-14T21:24:36.616047+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 4,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [
+      "나홀로집에",
+      "몬스터 하우스",
+      "찰리와 초콜릿 공장",
+      "춘향전"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 11.08,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_movieescape_db",
+    "checked_at": "2026-11-14T21:24:48.371790+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "site_url": "http://movieescape.kr",
+          "cafe_name": "무비이스케이프",
+          "cafe_id": "1855837227",
+          "branch_name": "동탄남광장점",
+          "address": "경기 화성시 동탄구 동탄중심상가1길 35",
+          "area": "gyeonggi"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 36,
+    "statuses": {
+      "available": 36
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "설국열차",
+      "악마는프라다를입는다",
+      "잊지못할하루",
+      "코코"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "movieescape.kr",
+        "path": "/theme/2026-11-14/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.86,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_murderparker_db",
+    "checked_at": "2026-11-14T21:24:50.597092+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "27545114",
+          "branch_name": "전주1호점",
+          "jijem": "S1",
+          "address": "전북특별자치도 전주시 완산구 전동 168-5",
+          "area": "etc"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 26,
+    "statuses": {
+      "available": 26
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "내 이름 지배만_전주 1호점",
+      "머더파커 분노의 살인_전주 1호점",
+      "일주(ONE WEEK)_전주 1호점"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.3,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_mysteryroom_db",
+    "checked_at": "2026-11-14T21:24:53.296712+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "27"
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "mysteryroomescape.com",
+        "path": "/reservation/reservation.html",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 0.04,
+    "log_errors": [
+      "[WARN] 페이지 로드 실패 a=27 2026-11-14: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_nextedition_db",
+    "checked_at": "2026-11-14T21:24:53.729805+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "SHOP_MAP": [
+        "acBZTNkAVSAF1epy"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 71,
+    "statuses": {
+      "available": 57,
+      "full": 14
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "B아파트 13동 1313호",
+      "MONSTER:10800",
+      "SOUL CHASER - 실종",
+      "다시봄",
+      "썸",
+      "이불 밖은 위험해"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/acBZTNkAVSAF1epy",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/acBZTNkAVSAF1epy",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/acBZTNkAVSAF1epy",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.21,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_no1escape_db",
+    "checked_at": "2026-11-14T21:24:56.340150+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 38,
+    "statuses": {
+      "available": 38
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "골드마인 (Gold Mine)",
+      "아더스 (Others)",
+      "어느 봄날의 숨바꼭질(Hide-and-seek on a Spring Day )",
+      "해적선 (Pirate ship)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.no1escape.com",
+        "path": "/sub/theme_list.ajax.html.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.no1escape.com",
+        "path": "/sub/theme_list.ajax.html.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.76,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_oasisescape_db",
+    "checked_at": "2026-11-14T21:24:58.509639+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 33,
+    "statuses": {
+      "full": 24,
+      "available": 9
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "미씽 삭스 미스터리",
+      "배드 타임 (BÆD TIME)",
+      "업사이드 다운",
+      "하이 맥스 (HIGH MAX)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "oasismuseum.com",
+        "path": "/ticket/getSchedule",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oasismuseum.com",
+        "path": "/ticket",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 16.01,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_orangetb_db",
+    "checked_at": "2026-11-14T21:25:15.146254+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "363716272",
+          "o_id": 1,
+          "name": "오렌지티비",
+          "branch_name": "대구동성로점",
+          "area": "daegu",
+          "address": "대구 중구 동성로5길 62 4층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "orangetb.com",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.08,
+    "log_errors": [
+      "[ERROR] 테마 파싱 실패"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_panicescape_db",
+    "checked_at": "2026-11-14T21:25:16.605122+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "27178625",
+          "branch_name": "목동점",
+          "area": "etc",
+          "address": "서울 양천구 목동동로 343 3층"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 20,
+    "statuses": {
+      "available": 20
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "ARROW",
+      "두얼굴의영주",
+      "매직아카데미"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.panicescape.com",
+        "path": "/pre_engage",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.panicescape.com",
+        "path": "/pre_engage",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.77,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_play33_db",
+    "checked_at": "2026-11-14T21:25:18.782735+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "1"
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 2,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [
+      "그 날",
+      "다이얼"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.39,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_playescape_db",
+    "checked_at": "2026-11-14T21:25:23.895777+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 60,
+    "statuses": {
+      "available": 60
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "007 다이아몬드",
+      "검은 그림자",
+      "귀곡산장",
+      "금잔화",
+      "러브스토리",
+      "폐쇄 병동"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.playescape.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 12.25,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_playtheworld_etc_db",
+    "checked_at": "2026-11-14T21:25:36.988785+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANDS": [
+        {
+          "keycode": "kQHQReY6D1jPJKs4",
+          "name": "playtheworld",
+          "referer": "https://reservation.playthe.world",
+          "booking_base": "https://reservation.playthe.world/reservation.html",
+          "shop_map": {
+            "m86eCeH4SoNCqVVX": "841734382",
+            "eerYSTbbLAQnqZv3": "767938268",
+            "bF9P9ARTDcgrbcDR": "76631654",
+            "fsGEtW3EXJiFXVCZ": "1637776603",
+            "U9cZjMPWeVZbij6X": "1224388097"
+          }
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/m86eCeH4SoNCqVVX",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/eerYSTbbLAQnqZv3",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/bF9P9ARTDcgrbcDR",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/fsGEtW3EXJiFXVCZ",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/U9cZjMPWeVZbij6X",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 2.77,
+    "log_errors": [
+      "[WARN] GET /v2/shops/m86eCeH4SoNCqVVX 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET /v2/shops/eerYSTbbLAQnqZv3 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET /v2/shops/bF9P9ARTDcgrbcDR 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET /v2/shops/fsGEtW3EXJiFXVCZ 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET /v2/shops/U9cZjMPWeVZbij6X 실패: HTTP Error 500: Internal Server Error"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_puzzlefactory_db",
+    "checked_at": "2026-11-14T21:25:40.459166+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "315548029",
+          "branch_name": "홍대3호점",
+          "jijem": "S7",
+          "area": "hongdae",
+          "address": "서울 마포구 양화로 120"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 30,
+    "statuses": {
+      "full": 28,
+      "available": 2
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "료칸 살인사건(추리탐정게임)",
+      "장화홍련(난이도: 3/5)",
+      "중전마마 살인사건(난이도: 4/5)",
+      "쿠로즈카 마을의 비밀(추리탐정게임)"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.puzzlefactory.co.kr",
+        "path": "/reservation/detail.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.puzzlefactory.co.kr",
+        "path": "/reservation/detail.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.puzzlefactory.co.kr",
+        "path": "/reservation/detail.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.puzzlefactory.co.kr",
+        "path": "/reservation/detail.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 3.16,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_rabbithole_db",
+    "checked_at": "2026-11-14T21:25:44.262470+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "1"
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 1,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [
+      "두껍아 두껍아 헌집줄게 새집다오"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.rabbitholeescape.co.kr",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.15,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_rememberesc_db",
+    "checked_at": "2026-11-14T21:25:46.835035+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 2,
+    "themes_fetched": 10,
+    "themes_with_slots": 10,
+    "slots": 119,
+    "statuses": {
+      "available": 118,
+      "full": 1
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "리멤버 (Remember)",
+      "벨BELL : 사소한 사실들",
+      "해리포터 맨드레이크의 비밀",
+      "호텔: 1408호",
+      "기억을 먹어치우는 책",
+      "마음 친구",
+      "미네타닉:사건의 진실",
+      "삼원색"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "rememberesc.com",
+        "path": "/service/get_data",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.31,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_reverseesc_db",
+    "checked_at": "2026-11-14T21:25:52.678997+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 2,
+    "themes_fetched": 7,
+    "themes_with_slots": 7,
+    "slots": 69,
+    "statuses": {
+      "available": 69
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "동화수호대 : R의 미션",
+      "목소리",
+      "화원 살인사건",
+      "Cafe REST",
+      "Vincent 2023",
+      "귀촌:숨바꼭질",
+      "이젠 더 이상 필요없어!"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "reverseesc.com",
+        "path": "/service/get_data",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.06,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_roomescape_db",
+    "checked_at": "2026-11-14T21:25:53.129414+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "273855007",
+          "branch_name": "신촌점",
+          "area": "hongdae",
+          "address": "서울 서대문구 창천동 19-10"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 53,
+    "statuses": {
+      "full": 21,
+      "available": 32
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "미션임파서블",
+      "쇼생크탈출",
+      "쏘우",
+      "올드보이",
+      "해리포터"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "roomescape.net",
+        "path": "/booking.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "roomescape.net",
+        "path": "/booking.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.92,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_roomlescape_db",
+    "checked_at": "2026-11-14T21:25:56.471271+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "596589943",
+          "branch_name": "홍대1호점",
+          "showroom_seq": "2",
+          "area": "hongdae",
+          "address": "서울 마포구 잔다리로 4 2층"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 22,
+    "statuses": {
+      "available": 10,
+      "full": 12
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "베니",
+      "퇴근길"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.list.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.time.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.time.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.time.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.roomlescape.com",
+        "path": "/rev.theme.time.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.47,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_secretcode_db",
+    "checked_at": "2026-11-14T21:26:02.361591+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "280887856",
+          "branch_name": "홍대직영점",
+          "jijem": "S3",
+          "area": "hongdae",
+          "address": "서울 마포구 어울마당로 66"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.secret-code.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.secret-code.co.kr",
+        "path": "/sub_02/sub02_1.html",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 1.78,
+    "log_errors": [
+      "[WARN] GET http://www.secret-code.co.kr/sub_02/sub02_1.html?JIJEM=S3&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.secret-code.co.kr/sub_02/sub02_1.html?JIJEM=S3&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_seoulesc_db",
+    "checked_at": "2026-11-14T21:26:04.560652+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCH_MAP": [
+        "1"
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 1,
+    "themes_with_slots": 1,
+    "slots": 14,
+    "statuses": {
+      "full": 14
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "오시리스"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "seoul-escape.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "seoul-escape.com",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.33,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_seoulescaperoom_db",
+    "checked_at": "2026-11-14T21:26:07.269729+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1351400084",
+          "branch_name": "홍대점",
+          "branch": 1,
+          "area": "hongdae",
+          "address": "서울 마포구 어울마당로 138"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 1,
+    "themes_with_slots": 1,
+    "slots": 14,
+    "statuses": {
+      "full": 14
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "오시리스"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.seoul-escape.com",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.seoul-escape.com",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.86,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-14T21:26:09.538553+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "45777628",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "잠실새내점",
+          "address": "서울 송파구 올림픽로10길 13-1 은성빌딩 2층",
+          "area": "jamsil",
+          "sido": 1,
+          "bno": 107
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 32,
+    "statuses": {
+      "available": 18,
+      "full": 14
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "끝... 그리고",
+      "도망친 곳에 낙원은 없다",
+      "아내, 유하린 37세"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 7.12,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_showroom404_db",
+    "checked_at": "2026-11-14T21:26:17.045497+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 49,
+    "statuses": {
+      "full": 31,
+      "available": 18
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "PIG",
+      "꼬치 진다",
+      "블랙홀",
+      "한라아파트 4동 404호"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "showroom404.com",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 15.92,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_signescape_db",
+    "checked_at": "2026-11-14T21:26:33.657486+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "678802397",
+          "branch_name": "홍대점",
+          "jijem": "S5",
+          "themes": [
+            "A",
+            "B",
+            "C"
+          ],
+          "area": "hongdae",
+          "address": "서울 마포구 와우산로 65 6층"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 27,
+    "statuses": {
+      "available": 20,
+      "full": 7
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "거상",
+      "졸업",
+      "하이팜"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.signescape.com",
+        "path": "/sub/sub03_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 11.0,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-14T21:31:41.599935+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 24,
+    "themes_fetched": 119,
+    "themes_with_slots": 119,
+    "slots": 1162,
+    "statuses": {
+      "full": 287,
+      "available": 875
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "달의제단",
+      "도둑들",
+      "미드나잇콜링",
+      "원혼의저주",
+      "지하감옥",
+      "파라오의비밀",
+      "THE END",
+      "경성"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "XN--910BJ3TLMFZ4E.COM",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "XN--H32B25MU4DBA377GZSCS2K.COM",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "le-room.co.kr",
+        "path": "/layout/res/home.php",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 209.22,
+    "log_errors": [
+      "[WARN] 세션 획득 실패: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_studioesc_db",
+    "checked_at": "2026-11-14T21:26:51.184351+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 20,
+    "statuses": {
+      "full": 4,
+      "available": 16
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "검은마법사 (The Dark Enchanter)",
+      "하얀마법사 (The Pure Enchanter)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "studioesc.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "studioesc.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "studioesc.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "studioesc.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "studioesc.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.56,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_teraspace_db",
+    "checked_at": "2026-11-14T21:26:56.492661+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "759455993",
+          "branch_name": "홍대점",
+          "bid": 3,
+          "area": "hongdae",
+          "address": "서울 마포구 와우산로19길 9 지하1층"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 20,
+    "statuses": {
+      "available": 20
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "검은의사",
+      "노엑시트"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "teraspace.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "teraspace.co.kr",
+        "path": "/booking/booking_list_new",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 11.57,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_thecode_db",
+    "checked_at": "2026-11-14T21:27:08.887443+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 10,
+    "themes_with_slots": 8,
+    "slots": 104,
+    "statuses": {
+      "full": 104
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "경찰서를털어라",
+      "곤지암",
+      "나홀로집에",
+      "도둑들",
+      "미생",
+      "비밀요원",
+      "비밀의방",
+      "타짜"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.thecode-escape.com",
+        "path": "/sub/code_sub03.html",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 20.31,
+    "log_errors": [
+      "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-14&r_thema=esc_09 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-14&r_thema=esc_10 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-15&r_thema=esc_09 실패: HTTP Error 500: Internal Server Error",
+      "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-15&r_thema=esc_10 실패: HTTP Error 500: Internal Server Error"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_themazegd_db",
+    "checked_at": "2026-11-14T21:27:30.068441+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "138006966",
+          "branch_name": "건대점",
+          "area": "konkuk",
+          "address": "서울 광진구 아차산로26길 13 지하1층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 1.86,
+    "log_errors": [
+      "[WARN] GET http://www.themazegd.co.kr/bbs/ajax.get_room.php?date=2026-11-14 실패: HTTP Error 404: Not Found",
+      "[WARN] GET http://www.themazegd.co.kr/bbs/ajax.get_room.php?date=2026-11-15 실패: HTTP Error 404: Not Found"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_theqescape_db",
+    "checked_at": "2026-11-14T21:27:32.341449+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 75,
+    "statuses": {
+      "full": 5,
+      "available": 70
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "로스트 원더랜드",
+      "섹시 라푼젤(미성년자 입장불가)",
+      "셜록홈즈의 성배탐색",
+      "스페이스 워페어",
+      "테러 인 더 스카이"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.the-qescapedj.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.the-qescapedj.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.85,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_thetimeescape_db",
+    "checked_at": "2026-11-14T21:27:34.617087+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 66,
+    "statuses": {
+      "available": 66
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "귀신 헬리콥터",
+      "누명",
+      "레이나의 시약",
+      "보스의 놀이방",
+      "사기도박",
+      "시크릿"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetimeescape.co.kr",
+        "path": "/theme/basic_room2/_content/makeThemeTime.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 14.41,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_thetrapsy_db",
+    "checked_at": "2026-11-14T21:27:49.907869+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "911063716",
+          "branch_name": "수유점",
+          "area": "etc",
+          "address": "서울 강북구 도봉로 363 구봉빌딩 4층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.thetrapsy.co.kr",
+        "path": "/re/l/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetrapsy.co.kr",
+        "path": "/re/l/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.83,
+    "log_errors": [],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_trickescape_db",
+    "checked_at": "2026-11-14T21:27:52.400792+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 4,
+    "themes_with_slots": 4,
+    "slots": 4,
+    "statuses": {
+      "available": 4
+    },
+    "dates": [
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "감옥탈출",
+      "마피아",
+      "미스테리 연구소",
+      "어두움 주의뱀파이어의 저주"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.trickescape.com",
+        "path": "/sub/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.trickescape.com",
+        "path": "/sub/reservation.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.84,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_ttescape_db",
+    "checked_at": "2026-11-14T21:27:55.840611+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "327610610",
+          "branch_name": "홍대점",
+          "area": "hongdae",
+          "address": "서울 마포구 와우산로29가길 83"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 6,
+    "statuses": {
+      "full": 6
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "364(4F)",
+      "라빈(4F)",
+      "로랑(B1)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "api.ttescape.co.kr",
+        "path": "/api/availability/list",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "api.ttescape.co.kr",
+        "path": "/api/availability/list",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 1.97,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_vescape_db",
+    "checked_at": "2026-11-14T21:27:58.223480+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "858962026",
+          "branch_name": "삼덕점",
+          "jijem": "S1",
+          "themes": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "area": "daegu",
+          "address": "대구 중구 삼덕동1가 17-16"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "www.v-escape.co.kr",
+        "path": "/sub/sub03_1.html",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 45.37,
+    "log_errors": [
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=A&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=B&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=C&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=D&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=E&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=F&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=G&chois_date=2026-11-14 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=A&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=B&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=C&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=D&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=E&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=F&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=G&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=A&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=B&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=C&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=D&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=E&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=F&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_xcape_db",
+    "checked_at": "2026-11-14T21:28:44.455991+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "MERCHANT_MAP": [
+        "1"
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "api.xcape-apps.com",
+        "path": "/merchants",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 0.4,
+    "log_errors": [
+      "[WARN] GET /merchants 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+      "[WARN] cafe 1551717206 Firestore 미존재 — 건너뜀"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "checked_at": "2026-11-14T21:31:12.285347+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 9,
+    "themes_fetched": 32,
+    "themes_with_slots": 32,
+    "slots": 698,
+    "statuses": {
+      "full": 543,
+      "available": 155
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "꿈의 공장 (홍대)",
+      "날씨의 신 (홍대)",
+      "사라진 보물 : 대저택의 비밀",
+      "오늘 나는 (홍대)",
+      "꿈의 공장 (부산 서면)",
+      "날씨의 신 (부산 서면)",
+      "오늘 나는 (부산 서면)",
+      "3일"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "xdungeon.net",
+        "path": "/core/res/theme.act.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xdungeon.net",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 28.5,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_xescape_db",
+    "checked_at": "2026-11-14T21:28:49.167938+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1772415237",
+          "branch_name": "홍대놀이터점",
+          "zzcd": "20170221002",
+          "area": "hongdae",
+          "address": "서울 마포구 와우산로21길 20-5"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 8,
+    "themes_with_slots": 8,
+    "slots": 113,
+    "statuses": {
+      "available": 113
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "리페인팅",
+      "선물",
+      "약속",
+      "인육식당",
+      "인형살인",
+      "저주인형",
+      "증언 / 證言",
+      "홈스윗홈"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "xescape.com",
+        "path": "/web/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xescape.com",
+        "path": "/web/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 16.15,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  {
+    "script": "sync_xphobia_db",
+    "checked_at": "2026-11-14T21:29:05.976997+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "SHOP_MAP": [
+        "Phobia 명동"
+      ]
+    },
+    "error": "RuntimeError: 비트포비아 API 조회 실패: /reservation/ck_no1.php",
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.xphobia.net",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xphobia.net",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.xphobia.net",
+        "path": "/reservation/ck_no1.php",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 0.46,
+    "log_errors": [
+      "Traceback (most recent call last):",
+      "Traceback (most recent call last):"
+    ],
+    "status": "error"
+  },
+  {
+    "script": "sync_zeroworld_db",
+    "checked_at": "2026-11-14T21:29:06.819559+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1732671994",
+          "cafe_name": "제로월드",
+          "branch_name": "홍대점",
+          "address": "서울 마포구 동교동 203-13 5층",
+          "area": "hongdae",
+          "base_url": "https://www.zerohongdae.com"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.zerohongdae.com",
+        "path": "/reservation",
+        "error": "URLError"
+      },
+      {
+        "method": "POST",
+        "host": "www.zerohongdae.com",
+        "path": "/reservation/theme",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 0.05,
+    "log_errors": [
+      "[WARN] CSRF 획득 실패 https://www.zerohongdae.com: <urlopen error [Errno 61] Connection refused>",
+      "[WARN] 슬롯 조회 실패 https://www.zerohongdae.com 2026-11-14: <urlopen error [Errno 61] Connection refused>"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "script": "sync_zescape_db",
+    "checked_at": "2026-11-14T21:29:07.242854+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 9,
+    "themes_with_slots": 9,
+    "slots": 133,
+    "statuses": {
+      "available": 124,
+      "full": 9
+    },
+    "dates": [
+      "2026-11-14",
+      "2026-11-15"
+    ],
+    "issues": [],
+    "sample_themes": [
+      "매직트레인",
+      "삐에로",
+      "시크릿제트",
+      "연애편지",
+      "올림푸스의초대",
+      "중화만두",
+      "지하묘지의비밀",
+      "캣츠앤도그"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.zescape.co.kr",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.zescape.co.kr",
+        "path": "/reservation.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.15,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

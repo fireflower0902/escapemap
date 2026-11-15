@@ -1,0 +1,101 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:02:50.557536+09:00",
+  "scope": "selected cafe IDs: 1875954710 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1875954710"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1875954710",
+        "cafe_name": "골든타임이스케이프",
+        "branch_name": "1호점",
+        "address": "경기 수원시 영통구 영통동 998-4",
+        "area": "gyeonggi",
+        "base_url": "https://xn--bb0b44mb8pfwi.kr",
+        "s_zizum": 1,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 109,
+  "statuses": {
+    "available": 98,
+    "full": 11
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1875954710": {
+      "themes": 4,
+      "slots": 109,
+      "statuses": {
+        "available": 98,
+        "full": 11
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "3318",
+    "매화",
+    "수곡리",
+    "순백향"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xn--bb0b44mb8pfwi.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--bb0b44mb8pfwi.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--bb0b44mb8pfwi.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--bb0b44mb8pfwi.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--bb0b44mb8pfwi.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--bb0b44mb8pfwi.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.56,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

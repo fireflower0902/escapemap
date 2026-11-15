@@ -1,0 +1,33 @@
+[
+  {
+    "script": "sync_reverseesc_db",
+    "checked_at": "2026-11-15T12:01:41.729877+09:00",
+    "scope": "first configured branch / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "error": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {},
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "reverseesc.com",
+        "path": "/service/get_data",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.08,
+    "log_errors": [
+      "Traceback (most recent call last):"
+    ],
+    "status": "error"
+  }
+]

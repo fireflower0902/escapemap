@@ -1,0 +1,83 @@
+[
+  {
+    "script": "sync_murderparker_db",
+    "checked_at": "2026-11-15T12:09:37.614978+09:00",
+    "scope": "selected cafe IDs: 399727939 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "399727939"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "399727939",
+          "branch_name": "전주3호점",
+          "jijem": "S4",
+          "address": "전북특별자치도 전주시 완산구 효자동2가 1155-4",
+          "area": "etc"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 145,
+    "statuses": {
+      "available": 130,
+      "full": 15
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "399727939": {
+        "themes": 6,
+        "slots": 145,
+        "statuses": {
+          "available": 130,
+          "full": 15
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "김파커 끝없는 복수_전주 3호점",
+      "박마담의 비밀 클럽_전주 3호점",
+      "박엠마 엄마의 향기 _ 전주 3호점",
+      "박엠마 엄마의 향기_전주 3호점",
+      "전당포 불편한 거래_전주 3호점",
+      "제임스 완벽한 도피_전주 3호점"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.17,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

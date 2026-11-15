@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import LegacyChrome from "@/components/teum/LegacyChrome";
 import { AuthProvider } from "@/contexts/AuthContext";
 
 export const metadata: Metadata = {
-  title: "이스케이프맵 — 방탈출 예약 통합 플랫폼",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://escapemap.reviewhyun.workers.dev"),
+  title: "방픽 — 내 취향의 방탈출을 고르다",
   description:
-    "전국 방탈출 카페 예약 가능 현황을 한눈에! 빈자리 알림으로 원하는 테마를 놓치지 마세요.",
+    "전국 방탈출 카페와 수집한 예약 시간표를 한눈에. 일상에 작은 탈출을 만나보세요.",
   keywords: "방탈출, 예약, 빈자리, 강남, 홍대, 방탈출카페",
   openGraph: {
-    title: "이스케이프맵 — 방탈출 빈자리 실시간 검색",
-    description: "전국 방탈출 카페 예약 현황을 한눈에! 빈자리 알림으로 원하는 테마를 놓치지 마세요.",
-    url: "https://escapemap-three.vercel.app",
-    siteName: "이스케이프맵",
+    title: "방픽 — 전국 방탈출 찾기",
+    description: "전국 방탈출 카페와 실제 수집한 예약 시간표를 한눈에.",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://escapemap.reviewhyun.workers.dev",
+    siteName: "방픽",
     locale: "ko_KR",
     type: "website",
   },
@@ -28,9 +28,7 @@ export default function RootLayout({
     <html lang="ko">
       <body className="min-h-screen flex flex-col">
         <AuthProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <LegacyChrome>{children}</LegacyChrome>
         </AuthProvider>
       </body>
     </html>

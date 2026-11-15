@@ -1,0 +1,76 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T10:53:24.950889+09:00",
+  "scope": "selected cafe IDs: official_sherlock_84 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_84",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대구동성로점",
+        "address": "대구광역시 중구 동성로5길 45. 3층 셜록홈즈 대구동성로점",
+        "area": "daegu",
+        "sido": 15,
+        "bno": 84
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 68,
+  "statuses": {
+    "full": 13,
+    "available": 55
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_84": {
+      "themes": 4,
+      "slots": 68,
+      "statuses": {
+        "full": 13,
+        "available": 55
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "단잠",
+    "랑슈 뷰티연구소",
+    "지프리트의 심장 (동성로점)",
+    "황금 감옥 : 와캄"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.11,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

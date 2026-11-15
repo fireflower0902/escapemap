@@ -1,0 +1,75 @@
+{
+  "queries": [
+    "룸즈에이 수원역2호점",
+    "룸즈에이 수원역점",
+    "방탈출 넘버원 수원점",
+    "방탈출 탐정"
+  ],
+  "sources": [
+    {
+      "title": "룸즈에이 수원역2호점",
+      "url": "https://web.zamfit.kr/stores/1811/%EB%A3%B8%EC%A6%88%EC%97%90%EC%9D%B4-%EC%88%98%EC%9B%90%EC%97%AD2%ED%98%B8%EC%A0%90"
+    },
+    {
+      "title": "필활 방탈출 테마 정보 | 룸즈에이 수원역점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/15cd7ab4/"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "룸즈에이 수원역점 (수원) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/58"
+    },
+    {
+      "title": "필활 | 룸즈에이 수원역점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5099/%ED%95%84%ED%99%9C"
+    },
+    {
+      "title": "방탈출 매장 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes"
+    },
+    {
+      "title": "평화로운 에이마트 — 룸즈에이 수원역2호점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/332"
+    },
+    {
+      "title": "수원 공포 방탈출 | 테마 20개·공포도·예약 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/gyeonggi/suwon/escape-room/horror/"
+    },
+    {
+      "title": "방탈출 넘버원 수원점",
+      "url": "https://web.zamfit.kr/stores/1851/%EB%B0%A9%ED%83%88%EC%B6%9C-%EB%84%98%EB%B2%84%EC%9B%90-%EC%88%98%EC%9B%90%EC%A0%90"
+    },
+    {
+      "title": "수원 방탈출 카페 | 가격·예약·주차·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/gyeonggi/suwon/escape-room/"
+    },
+    {
+      "title": "평화로운 에이마트 - 룸즈에이 수원역2호점 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/2740"
+    },
+    {
+      "title": "아더스 — 방탈출 넘버원 수원점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/351"
+    },
+    {
+      "title": "2023. 5. 01(월) 석간용",
+      "url": "https://culture.seoul.go.kr/culture/cmmn/file/fileDown.do"
+    },
+    {
+      "title": "특허 받은 AI 피지털 체험 팝업 제안서",
+      "url": "https://modle.run/post_file_download.cm"
+    },
+    {
+      "title": "제로웨이스트 대학생 해커톤 운영",
+      "url": "https://designdb.com/usr/upload/board/zboardphotogallery176/20240906033938408_285.0.pdf"
+    },
+    {
+      "title": "제로웨이스트 대학생 해커톤 운영",
+      "url": "https://www.designdb.com/usr/upload/board/zboardphotogallery176/20240906033938408_285.0.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

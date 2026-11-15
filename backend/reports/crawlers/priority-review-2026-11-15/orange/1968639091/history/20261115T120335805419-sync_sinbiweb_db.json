@@ -1,0 +1,106 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:03:26.253581+09:00",
+  "scope": "selected cafe IDs: 1968639091 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1968639091"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1968639091",
+        "cafe_name": "레전드이스케이프",
+        "branch_name": "서현점",
+        "address": "경기 성남시 분당구 서현로210번길 20",
+        "area": "etc",
+        "base_url": "http://legendescape.com",
+        "s_zizum": 1,
+        "use_ssl": false,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "1968639091": {
+      "themes": 0,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "legendescape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 9.44,
+  "log_errors": [],
+  "status": "needs_review"
+}

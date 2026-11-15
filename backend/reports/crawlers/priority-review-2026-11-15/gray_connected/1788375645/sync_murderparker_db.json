@@ -1,0 +1,80 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T12:09:20.711615+09:00",
+  "scope": "selected cafe IDs: 1788375645 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1788375645"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1788375645",
+        "branch_name": "대구1호점",
+        "jijem": "S5",
+        "address": "대구 중구 봉산동 24-7",
+        "area": "daegu"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 114,
+  "statuses": {
+    "available": 113,
+    "full": 1
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1788375645": {
+      "themes": 5,
+      "slots": 114,
+      "statuses": {
+        "available": 113,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "8585세탁소_대구점",
+    "PC방 가는 길(Premium)_대구점",
+    "괴짜중딩 사차원_대구점",
+    "백_대구점",
+    "파커vs파커(Premium)_대구점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.64,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

@@ -1,0 +1,59 @@
+name: 개별 크롤러 읽기 전용 검증
+
+on:
+  workflow_dispatch:
+    inputs:
+      crawler:
+        description: '크롤러 이름 (예: xdungeon, keyescape 또는 all)'
+        default: xdungeon
+        required: true
+        type: string
+      days:
+        description: 오늘 이후 추가 조회 일수
+        default: '1'
+        required: true
+        type: string
+      all_branches:
+        description: 등록된 모든 지점 검사
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      TZ: Asia/Seoul
+      CRAWL_SEOUL_ONLY: 'false'
+      SKIP_META_WRITES: 'false'
+      CRAWLER: ${{ inputs.crawler }}
+      DAYS: ${{ inputs.days }}
+      ALL_BRANCHES: ${{ inputs.all_branches }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - name: 사이트 순차 검증 (Firestore 접근 없음)
+        shell: bash
+        run: |
+          args=(--days "$DAYS" --timeout 180)
+          if [ "$CRAWLER" = all ]; then
+            args+=(--all)
+          else
+            args+=("$CRAWLER")
+          fi
+          if [ "$ALL_BRANCHES" = true ]; then
+            args+=(--all-branches)
+          fi
+          uv run python scripts/check_crawlers.py "${args[@]}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crawler-check-results
+          path: backend/reports/crawlers/

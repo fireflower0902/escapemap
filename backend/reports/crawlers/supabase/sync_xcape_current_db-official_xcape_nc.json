@@ -1,0 +1,114 @@
+{
+  "script": "sync_xcape_current_db",
+  "checked_at": "2026-11-15T16:07:51.533131+09:00",
+  "scope": "selected cafe IDs: official_xcape_nc / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_xcape_nc"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_xcape_nc",
+        "cafe_name": "뉴케이스",
+        "branch_name": "건대3호점",
+        "source_id": "9efec1c5-7f4c-419f-982a-b74d568b8103",
+        "code": "nc",
+        "address": "서울 광진구 아차산로 191 B1층 뉴케이스 방탈출카페",
+        "phone": "024981999"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 90,
+  "statuses": {
+    "closed": 20,
+    "available": 30,
+    "full": 40
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_xcape_nc": {
+      "themes": 3,
+      "slots": 90,
+      "statuses": {
+        "closed": 20,
+        "available": 30,
+        "full": 40
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "이름없는집",
+    "인지상점",
+    "침묵의 목격자"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/assets/index-JO-9ahxJ.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.93,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

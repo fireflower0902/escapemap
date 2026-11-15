@@ -1,0 +1,104 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:05:44.233865+09:00",
+  "scope": "selected cafe IDs: 1425246210 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1425246210"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1425246210",
+        "cafe_name": "어클락이스케이프",
+        "branch_name": null,
+        "address": "경기 시흥시 서울대학로278번길 43-13",
+        "area": "etc",
+        "base_url": "http://oclock-escape.com",
+        "s_zizum": null,
+        "use_ssl": false,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 7,
+  "themes_with_slots": 7,
+  "slots": 203,
+  "statuses": {
+    "available": 180,
+    "full": 23
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1425246210": {
+      "themes": 7,
+      "slots": 203,
+      "statuses": {
+        "available": 180,
+        "full": 23
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "로스트밸리",
+    "서브타임",
+    "아틀란티스",
+    "인디아나존스",
+    "캔버스",
+    "헌신",
+    "헨젤과 그레텔"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "oclock-escape.com",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oclock-escape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oclock-escape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oclock-escape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oclock-escape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oclock-escape.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.52,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

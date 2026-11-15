@@ -1,0 +1,162 @@
+{
+  "script": "sync_signescape_db",
+  "checked_at": "2026-11-15T16:12:22.144170+09:00",
+  "scope": "selected cafe IDs: 1245109855 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1245109855"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1245109855",
+        "branch_name": "강남시티점",
+        "jijem": "S6",
+        "themes": [
+          "A",
+          "B",
+          "C"
+        ],
+        "area": "gangnam",
+        "address": "서울 강남구 강남대로94길 67 도연빌딩 지하1층"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 2,
+  "themes_with_slots": 2,
+  "slots": 30,
+  "statuses": {
+    "available": 22,
+    "full": 8
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1245109855": {
+      "themes": 2,
+      "slots": 30,
+      "statuses": {
+        "available": 22,
+        "full": 8
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "MUST",
+    "러너웨이"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.signescape.com",
+      "path": "/sub/sub03_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 14.88,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

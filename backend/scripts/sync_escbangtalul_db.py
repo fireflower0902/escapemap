@@ -35,6 +35,7 @@ HTML 구조:
 """
 
 import re
+from html import unescape
 import ssl
 import sys
 import time
@@ -126,7 +127,8 @@ def _parse_themes(html: str) -> dict[str, str]:
     if not m:
         return {}
     options = re.findall(r'<option[^>]*value=["\'](\w+)["\'][^>]*>(.*?)</option>', m.group(1))
-    return {val: txt.strip() for val, txt in options if val}
+    parsed = {val: unescape(re.sub(r'<[^>]+>', '', txt)).strip() for val, txt in options if val}
+    return {val: name for val, name in parsed.items() if name}
 
 
 def _parse_slots(html: str, base_url: str) -> list[dict]:

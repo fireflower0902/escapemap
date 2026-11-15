@@ -1,0 +1,82 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T16:13:39.097981+09:00",
+  "scope": "selected cafe IDs: 1250945647 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1250945647"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1250945647",
+        "branch_name": "부산점",
+        "jijem": "S12",
+        "address": "부산 부산진구 중앙대로680번길 45-8 3층",
+        "area": "busan"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 116,
+  "statuses": {
+    "available": 109,
+    "full": 7
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1250945647": {
+      "themes": 5,
+      "slots": 116,
+      "statuses": {
+        "available": 109,
+        "full": 7
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "도굴왕 70분 프리미엄_부산점",
+    "레디(Ready) 70분_부산점",
+    "사라진 보물2056 70분_부산점",
+    "액션(Action) 70분_부산점",
+    "잭(JACK) 70분 프리미엄_부산점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.7,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "나의신방",
+    "룸익스케이프 블랙점",
+    "룸익스케이프 올리브점",
+    "룸익스케이프 화이트점"
+  ],
+  "sources": [
+    {
+      "title": "나의신방",
+      "url": "https://xn--910bj3tlmfz4e.com/layout/res/home.php"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "룸익스케이프 블랙점",
+      "url": "https://web.zamfit.kr/stores/1804/%EB%A3%B8%EC%9D%B5%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84-%EB%B8%94%EB%9E%99%EC%A0%90-"
+    },
+    {
+      "title": "룸익스케이프 올리브점 (신촌) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/304"
+    },
+    {
+      "title": "룸익스케이프 · ROOMEXCAPE",
+      "url": "https://ex-cape.com/"
+    },
+    {
+      "title": "오즈 : 익시드 드림 방탈출 | 룸익스케이프 올리브점 | 서울 홍대 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/ead08a25-3af5-4951-a8e7-29447f0e0eb7"
+    },
+    {
+      "title": "룸익스케이프 블랙점 (신촌) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/303"
+    },
+    {
+      "title": "룸익스케이프 화이트점 (신촌) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/306"
+    },
+    {
+      "title": "서울 서대문구 레저 · 체험 룸익스케이프 올리브점 체험단 | 모모크루",
+      "url": "https://autoup.kr/go/x/gangnam_matjip/2347801"
+    },
+    {
+      "title": "나의신방 (신촌) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/302"
+    },
+    {
+      "title": "나의신방",
+      "url": "https://web.zamfit.kr/stores/2195/%EB%82%98%EC%9D%98%EC%8B%A0%EB%B0%A9"
+    },
+    {
+      "title": "대저택 레테 : 잠겨버린 출구 — 룸익스케이프 신촌 화이트점 방탈출 (서울) · 방탈로그",
+      "url": "https://bangtallog.com/theme/25109351-3ecf-46aa-b1cb-ef034460d424"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

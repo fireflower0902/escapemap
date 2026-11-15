@@ -1,0 +1,54 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:13:23.168705+09:00",
+    "scope": "selected cafe IDs: 554838835 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "554838835"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "554838835",
+          "business_id": "594531",
+          "business_type_id": 12,
+          "branch_name": "홍대점",
+          "name": "하이드앤시크",
+          "address": "서울 마포구 동교동 203-57",
+          "area": "hongdae",
+          "site_url": "http://withescaper.com",
+          "normalize_theme": true
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "554838835": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.63,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

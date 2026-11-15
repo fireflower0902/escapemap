@@ -1,0 +1,10 @@
+{
+  "completed_at": "2026-11-15T13:28:39.750878+09:00",
+  "source_collected_at": "2026-11-15T02:49:11.249281+00:00",
+  "cafes": 414,
+  "themes": 1522,
+  "ids_verified": true,
+  "source": "local Firestore export + corrected cafe directory",
+  "schedules_imported": false,
+  "application_cutover": false
+}

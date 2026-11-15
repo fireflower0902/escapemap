@@ -1,0 +1,77 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T10:53:20.213187+09:00",
+  "scope": "selected cafe IDs: official_sherlock_111 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_111",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "뉴부천점",
+        "address": "경기도 부천시 원미구 심곡동 383-5. 5층",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 111
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 91,
+  "statuses": {
+    "available": 78,
+    "full": 13
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_111": {
+      "themes": 5,
+      "slots": 91,
+      "statuses": {
+        "available": 78,
+        "full": 13
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "CRACK",
+    "HOUNDRED",
+    "MADEON",
+    "XIAMEN",
+    "월간오컬트 : 폐간호"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.76,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

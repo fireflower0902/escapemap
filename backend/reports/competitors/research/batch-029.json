@@ -1,0 +1,83 @@
+{
+  "queries": [
+    "쇼룸404",
+    "비밀의 숲",
+    "비밀의 화원 미드나잇 합정점",
+    "서울 이스케이프 룸 홍대 2호점"
+  ],
+  "sources": [
+    {
+      "title": "쇼룸404 예약하기 - 쇼룸404 방탈출카페",
+      "url": "https://showroom404.com/booking/"
+    },
+    {
+      "title": "비밀의 화원",
+      "url": "https://www.secretgardenescape.com/"
+    },
+    {
+      "title": "서울 이스케이프 룸 홍대 2호점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/356"
+    },
+    {
+      "title": "홍대 방탈출카페 쇼룸404 - 쇼룸404 방탈출카페",
+      "url": "https://showroom404.com/"
+    },
+    {
+      "title": "CIA본부에서의 탈출 (서울 이스케이프 룸 홍대 2호점, 홍대) 방탈출 테마 · 점수·가격 | 방도장",
+      "url": "https://bangdojang.com/theme/cms7sewwn010z4mpcpsooymh7"
+    },
+    {
+      "title": "비밀의 화원",
+      "url": "https://www.secretgardenescape.com/index.html"
+    },
+    {
+      "title": "비밀의 가족 — 비밀의 화원 미드나잇 합정점 | 홍대 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/1036"
+    },
+    {
+      "title": "자주묻는질문 FAQs - 쇼룸404 방탈출카페",
+      "url": "https://showroom404.com/faqs/"
+    },
+    {
+      "title": "서울 이스케이프 룸 홍대 2호점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/A1oXuAwt"
+    },
+    {
+      "title": "오시는길 & 연락 - 쇼룸404 방탈출카페",
+      "url": "https://showroom404.com/contact/"
+    },
+    {
+      "title": "🎉 쇼룸404 방탈출카페 GRAND OPEN! 🎉 - 쇼룸404 방탈출카페",
+      "url": "https://showroom404.com/events/showroom404-grand-opening/"
+    },
+    {
+      "title": "비밀의 화원 미드나잇 합정점 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/venue-2f696f9e21e0432f819fb81084d83d41"
+    },
+    {
+      "title": "5월 일정표_0428",
+      "url": "https://gov.seoul.go.kr/festa/files/2026/04/69f15f8f90cd47.27046838.pdf"
+    },
+    {
+      "title": "경남출신 감독 및 경남소재 제작사 제작 영화",
+      "url": "https://gnfilm.or.kr/v2/leaflet.pdf"
+    },
+    {
+      "title": "서울대공원 치유의 숲",
+      "url": "https://tong.visitkorea.or.kr/ktobiz/upload/business/marketing/WellnessDirectoryBook_202107.pdf"
+    },
+    {
+      "title": "한국",
+      "url": "https://www.seoul.go.kr/festa/files/2026/04/69f09f2d1bd399.00570729.pdf"
+    },
+    {
+      "title": "Hidden Images",
+      "url": "https://ozimg.flyasiana.com/editor/image/20220414/dc026fd5-689a-48fe-96a8-16fe52e06a8c.pdf"
+    },
+    {
+      "title": "저장 : 홍수지 / 기획예산담당관 (2025-06-18 09:15:15)",
+      "url": "https://m.inje.go.kr/egf/bp/board/article/download"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

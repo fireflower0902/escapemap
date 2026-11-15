@@ -1,0 +1,101 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:05:57.650468+09:00",
+  "scope": "selected cafe IDs: 1213158520 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1213158520"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "1213158520",
+        "cafe_name": "코드헌터",
+        "branch_name": "강남점",
+        "address": "서울 강남구 역삼동 817-17 3층",
+        "area": "gangnam",
+        "base_url": "https://codehunter-escape.com",
+        "rev_subpath": "layout/kor",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 61,
+  "statuses": {
+    "full": 6,
+    "available": 55
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1213158520": {
+      "themes": 3,
+      "slots": 61,
+      "statuses": {
+        "full": 6,
+        "available": 55
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "끼리코구조대",
+    "왕자와공주",
+    "티모의모험"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "codehunter-escape.com",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codehunter-escape.com",
+      "path": "/layout/kor/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codehunter-escape.com",
+      "path": "/layout/kor/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codehunter-escape.com",
+      "path": "/layout/kor/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codehunter-escape.com",
+      "path": "/layout/kor/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codehunter-escape.com",
+      "path": "/layout/kor/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.7,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

@@ -1,0 +1,116 @@
+{
+  "script": "sync_oasisescape_db",
+  "checked_at": "2026-11-15T12:01:41.729760+09:00",
+  "scope": "first configured branch / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "error": "RuntimeError: 마감 목록 조회 실패: tm=5, date=2026-11-16",
+  "cafes_with_slots": 0,
+  "themes_fetched": 4,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "848848018": {
+      "themes": 4,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [
+    "미씽 삭스 미스터리",
+    "배드 타임 (BÆD TIME)",
+    "업사이드 다운",
+    "하이 맥스 (HIGH MAX)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "oasismuseum.com",
+      "path": "/ticket/getSchedule",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "oasismuseum.com",
+      "path": "/ticket/getSchedule",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "oasismuseum.com",
+      "path": "/ticket/getSchedule",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "oasismuseum.com",
+      "path": "/ticket/getSchedule",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "oasismuseum.com",
+      "path": "/ticket/getSchedule",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "oasismuseum.com",
+      "path": "/ticket",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "oasismuseum.com",
+      "path": "/ticket/getSchedule",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 10.71,
+  "log_errors": [
+    "Traceback (most recent call last):",
+    "Traceback (most recent call last):"
+  ],
+  "status": "error"
+}

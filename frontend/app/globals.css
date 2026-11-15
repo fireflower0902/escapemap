@@ -7,9 +7,10 @@
 
 /* ── 기본 스타일 ────────────────────────────────────────── */
 :root {
-  --brand-yellow: #FBBF24;
-  --brand-yellow-light: #FEF3C7;
-  --brand-yellow-dark: #D97706;
+  --brand-primary: #D4A574;
+  --brand-dark: #2D2422;
+  --brand-light: #F3EBE3;
+  --emergency: #FF6B6B;
 }
 
 * {
@@ -21,7 +22,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #FEFBF8;
   color: #1C1917;
   font-family: 'Pretendard Variable', 'Apple SD Gothic Neo', sans-serif;
   -webkit-font-smoothing: antialiased;

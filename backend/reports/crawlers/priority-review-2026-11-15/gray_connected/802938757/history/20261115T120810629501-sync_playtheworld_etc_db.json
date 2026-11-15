@@ -1,0 +1,45 @@
+{
+  "script": "sync_playtheworld_etc_db",
+  "checked_at": "2026-11-15T12:08:10.011363+09:00",
+  "scope": "selected cafe IDs: 802938757 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "802938757"
+  ],
+  "selected": {
+    "BRANDS": [
+      {
+        "keycode": "LmnDt6wGgVEUpPC5",
+        "name": "roomsa",
+        "referer": "https://roomsa.co.kr",
+        "booking_base": "https://roomsa.co.kr/reservation.html",
+        "shop_map": {
+          "HUSqfLY6kenWuw5q": "802938757"
+        }
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/HUSqfLY6kenWuw5q",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 0.56,
+  "log_errors": [
+    "[WARN] GET /v2/shops/HUSqfLY6kenWuw5q 실패: HTTP Error 500: Internal Server Error"
+  ],
+  "status": "needs_review"
+}

@@ -1,0 +1,63 @@
+{
+  "queries": [
+    "오렌지티비",
+    "이스케이퍼스 대구점",
+    "지구별 방탈출",
+    "플러스이스케이프"
+  ],
+  "sources": [
+    {
+      "title": "이스케이퍼스 : 예약하기",
+      "url": "https://www.escapersd.com/reservation"
+    },
+    {
+      "title": "Catch Me If You Can — 이스케이퍼스 대구점 | 대구 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/743"
+    },
+    {
+      "title": "플러스 이스케이프",
+      "url": "https://www.plus-escape.com/"
+    },
+    {
+      "title": "끝까지 간다 — 이스케이퍼스 대구점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/922"
+    },
+    {
+      "title": "이스케이퍼스 : ESCAPERS",
+      "url": "https://escapersd.com/"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "지구별방탈출 : ABOUT",
+      "url": "https://www.xn--2e0b040a4xj.com/about"
+    },
+    {
+      "title": "지구별방탈출 : 자주묻는질문",
+      "url": "https://xn--2e0b040a4xj.com/FAQ"
+    },
+    {
+      "title": "멍스타그램 — 이스케이퍼스 대구점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/927"
+    },
+    {
+      "title": "지구별방탈출 : 예약하기",
+      "url": "https://xn--2e0b040a4xj.com/reservation"
+    },
+    {
+      "title": "방탈러즈 — 테마 목록",
+      "url": "https://escape-mate.co.kr/sites"
+    },
+    {
+      "title": "지구별방탈출 홍대어드벤처점",
+      "url": "https://web.zamfit.kr/stores/1961/%EC%A7%80%EA%B5%AC%EB%B3%84%EB%B0%A9%ED%83%88%EC%B6%9C-%ED%99%8D%EB%8C%80%EC%96%B4%EB%93%9C%EB%B2%A4%EC%B2%98%EC%A0%90"
+    },
+    {
+      "title": "대전컨벤션센터(DCC) 제1전시장",
+      "url": "https://mmee.cnu.ac.kr/mmee/notice/scholarship.do"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

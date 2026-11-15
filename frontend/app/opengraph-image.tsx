@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
-export const alt = "이스케이프맵 — 방탈출 빈자리 실시간 검색";
+export const runtime = "nodejs";
+export const alt = "방픽 — 방탈출 빈자리 실시간 검색";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -72,7 +72,7 @@ export default function OgImage() {
               letterSpacing: "-1px",
             }}
           >
-            이스케이프맵
+            방픽
           </span>
         </div>
 

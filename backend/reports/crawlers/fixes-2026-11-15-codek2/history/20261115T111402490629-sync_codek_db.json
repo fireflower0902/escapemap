@@ -1,0 +1,110 @@
+{
+  "script": "sync_codek_db",
+  "checked_at": "2026-11-15T11:13:56.580664+09:00",
+  "scope": "all configured branches / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 3,
+  "themes_fetched": 22,
+  "themes_with_slots": 22,
+  "slots": 410,
+  "statuses": {
+    "available": 297,
+    "full": 113
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1475074228": {
+      "themes": 5,
+      "slots": 80,
+      "statuses": {
+        "available": 74,
+        "full": 6
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_codek_S1": {
+      "themes": 15,
+      "slots": 300,
+      "statuses": {
+        "full": 83,
+        "available": 217
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_codek_S3": {
+      "themes": 2,
+      "slots": 30,
+      "statuses": {
+        "full": 24,
+        "available": 6
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "감옥탈출",
+    "납치 (2인전용)",
+    "미스터리 거울의 방 (3인이상) -15세 이상-",
+    "좀비 90일후",
+    "충무공 이순신",
+    "504호",
+    "감옥탈출",
+    "기술자들"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.8,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

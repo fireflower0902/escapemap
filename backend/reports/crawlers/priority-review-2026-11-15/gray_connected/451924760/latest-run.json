@@ -1,0 +1,163 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:09:54.449444+09:00",
+    "scope": "selected cafe IDs: 451924760 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "451924760"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "451924760",
+          "business_id": "110544",
+          "business_type_id": 12,
+          "branch_name": "홍대점",
+          "name": "브레이크아웃이스케이프",
+          "address": "서울 마포구 서교동 338-48",
+          "area": "hongdae",
+          "site_url": "https://hongdae.breakoutescapegame.com"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 118,
+    "statuses": {
+      "full": 28,
+      "available": 90
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "451924760": {
+        "themes": 5,
+        "slots": 118,
+        "statuses": {
+          "full": 28,
+          "available": 90
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "서리브럼",
+      "수상한 한의원",
+      "최후의 낙원",
+      "호커스1 - 마술사의 방",
+      "호커스2 - 비밀의 방"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 9.88,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "날마다 노는 학교",
+    "도어 이스케이프 레드 신논현점",
+    "도어이스케이프 블루 신논현점",
+    "돌로이스케이프"
+  ],
+  "sources": [
+    {
+      "title": "돌로이스케이프",
+      "url": "https://doloescape.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "돌로이스케이프",
+      "url": "https://doloescape.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "도어이스케이프 블루 신논현점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/LlMCjvpZ"
+    },
+    {
+      "title": "돌로이스케이프",
+      "url": "https://doloescape.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "도어이스케이프 블루 신논현점 (강남) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/206"
+    },
+    {
+      "title": "도어이스케이프 블루 신논현점 - 서초구 방탈출 정보 | 당구장 찾기",
+      "url": "https://pool.ipsitalk.net/activity/19454"
+    },
+    {
+      "title": "도어 이스케이프 레드 신논현점 (강남) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/204"
+    },
+    {
+      "title": "NINE GAMES - 날마다 노는 학교 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/4403"
+    },
+    {
+      "title": "돌로이스케이프",
+      "url": "https://doloescape.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "이방인 | 도어이스케이프 블루 신논현점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/4994/%EC%9D%B4%EB%B0%A9%EC%9D%B8"
+    },
+    {
+      "title": "NINE GAMES 방탈출 | 날마다 노는 학교 | 서울 강남 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/d50a0c83-940e-4cf6-91ef-12ccd71da293"
+    },
+    {
+      "title": "도어이스케이프 블루 신논현점 — 서울 서초구 방탈출 | 내 자리",
+      "url": "https://naejari.com/escape-room/97c9d25f3e"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

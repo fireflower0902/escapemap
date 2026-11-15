@@ -1,0 +1,101 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:02:57.128028+09:00",
+  "scope": "selected cafe IDs: 348406652 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "348406652"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "348406652",
+        "cafe_name": "다이아에그",
+        "branch_name": "미스테리인점",
+        "address": "부산 부산진구 중앙대로692번길 37",
+        "area": "busan",
+        "base_url": "https://mysterytown.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 112,
+  "statuses": {
+    "full": 34,
+    "available": 78
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "348406652": {
+      "themes": 4,
+      "slots": 112,
+      "statuses": {
+        "full": 34,
+        "available": 78
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "[부산서면점]닥터 슈나벨",
+    "[부산서면점]레드룸",
+    "[부산서면점]신입사원",
+    "[부산서면점]회귀"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "mysterytown.co.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "mysterytown.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "mysterytown.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "mysterytown.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "mysterytown.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "mysterytown.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.52,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

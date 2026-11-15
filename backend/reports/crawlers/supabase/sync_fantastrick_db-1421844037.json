@@ -1,0 +1,78 @@
+{
+  "script": "sync_fantastrick_db",
+  "checked_at": "2026-11-15T16:05:40.218015+09:00",
+  "scope": "selected cafe IDs: 1421844037 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1421844037"
+  ],
+  "selected": {
+    "THEMES": [
+      {
+        "cafe_id": "1421844037",
+        "name": "태초의 신부",
+        "calendar_id": 17,
+        "slug": "firstfoundbride",
+        "poster_url": "http://fantastrick.co.kr/wp-content/uploads/2018/10/poster-scaled.jpg"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 26,
+  "statuses": {
+    "full": 11,
+    "available": 15
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1421844037": {
+      "themes": 1,
+      "slots": 26,
+      "statuses": {
+        "full": 11,
+        "available": 15
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "태초의 신부"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "fantastrick.co.kr",
+      "path": "/api/slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "fantastrick.co.kr",
+      "path": "/api/slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "fantastrick.co.kr",
+      "path": "/api/slots",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.77,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

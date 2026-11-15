@@ -1,0 +1,113 @@
+[
+  {
+    "our_id": "1442041275",
+    "name": "딥띵커",
+    "branch_name": "홍대점",
+    "aliases": [
+      "딥띵커"
+    ],
+    "verification_sources": [
+      "https://deepthinker.co.kr/"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "363716272",
+    "name": "오렌지티비",
+    "branch_name": "대구동성로점",
+    "aliases": [
+      "오렌지티비",
+      "오렌지티비 대구점"
+    ],
+    "verification_sources": [
+      "http://orangetb.com/reservation"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "1475074228",
+    "name": "코드케이",
+    "branch_name": "인천구월점",
+    "aliases": [
+      "코드케이 구월점"
+    ],
+    "verification_sources": [
+      "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S2"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "official_zeroworld_1",
+    "name": "제로월드",
+    "branch_name": "김포본점",
+    "aliases": [
+      "제로월드 김포점"
+    ],
+    "verification_sources": [
+      "https://zeroesc.com/reservation",
+      "https://zeroworldkorea.com/layout/res/home.php?go=location"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "official_xcape_xc",
+    "name": "엑스케이프",
+    "branch_name": "건대1호점",
+    "aliases": [
+      "엑스케이프 건대점"
+    ],
+    "verification_sources": [
+      "https://xcape.kr/xc"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "official_xcape_xr",
+    "name": "엑스크라임",
+    "branch_name": "건대2호점",
+    "aliases": [
+      "엑스크라임",
+      "엑스크라임 건대점"
+    ],
+    "verification_sources": [
+      "https://xcape.kr/xr"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "official_xcape_nc",
+    "name": "뉴케이스",
+    "branch_name": "건대3호점",
+    "aliases": [
+      "엑스케이프 뉴케이스"
+    ],
+    "verification_sources": [
+      "https://xcape.kr/nc"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "official_pointnine_1",
+    "name": "포인트나인",
+    "branch_name": "강남점",
+    "aliases": [
+      "포인트나인 강남 1호점"
+    ],
+    "verification_sources": [
+      "https://point-nine.com/layout/res/home.php?go=location"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  },
+  {
+    "our_id": "official_play33_7",
+    "name": "플레이33",
+    "branch_name": "수원점",
+    "aliases": [
+      "플레이33 수원인계점"
+    ],
+    "verification_sources": [
+      "https://play33.kr/map?branch=7"
+    ],
+    "basis": "공식 지점 안내의 표기·주소·예약 지점을 수동 대조. 유사도만으로 연결하지 않음."
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "script": "sync_play33_db",
+  "checked_at": "2026-11-15T16:07:56.100585+09:00",
+  "scope": "selected cafe IDs: official_play33_7 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_play33_7"
+  ],
+  "selected": {
+    "BRANCH_MAP": [
+      "7"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 31,
+  "statuses": {
+    "full": 14,
+    "available": 17
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_play33_7": {
+      "themes": 1,
+      "slots": 31,
+      "statuses": {
+        "full": 14,
+        "available": 17
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "기억 : 끝나지 않을 꿈"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.26,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

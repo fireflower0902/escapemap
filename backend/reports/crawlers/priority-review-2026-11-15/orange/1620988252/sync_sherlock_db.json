@@ -1,0 +1,87 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T12:04:33.701589+09:00",
+  "scope": "selected cafe IDs: 1620988252 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1620988252"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1620988252",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "부천중동점",
+        "address": "경기 부천시 원미구 석천로183번길 11",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 104
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 97,
+  "statuses": {
+    "available": 93,
+    "full": 4
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1620988252": {
+      "themes": 4,
+      "slots": 97,
+      "statuses": {
+        "available": 93,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "DREAM THEATER",
+    "SOON TO BE",
+    "트레이드",
+    "행운의 배달부 루시"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 7.14,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

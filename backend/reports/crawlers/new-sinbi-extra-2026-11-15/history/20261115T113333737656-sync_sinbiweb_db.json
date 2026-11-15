@@ -1,0 +1,164 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T11:33:21.964594+09:00",
+  "scope": "selected cafe IDs: official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_weyol",
+        "cafe_name": "위욜",
+        "branch_name": "",
+        "address": "서울시 마포구 와우산로27길 7 지하1층",
+        "area": "hongdae",
+        "base_url": "https://weyol.com",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_dolo",
+        "cafe_name": "돌로이스케이프",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로6길 34 지하1층",
+        "area": "gangnam",
+        "base_url": "https://doloescape.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_eroom8",
+        "cafe_name": "이룸에이트",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로115 노벨테크 B2F",
+        "area": "gangnam",
+        "base_url": "https://eroom8.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      }
+    ]
+  },
+  "cafes_with_slots": 3,
+  "themes_fetched": 13,
+  "themes_with_slots": 13,
+  "slots": 220,
+  "statuses": {
+    "full": 75,
+    "available": 145
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_weyol": {
+      "themes": 3,
+      "slots": 46,
+      "statuses": {
+        "full": 18,
+        "available": 28
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_dolo": {
+      "themes": 4,
+      "slots": 54,
+      "statuses": {
+        "available": 41,
+        "full": 13
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_eroom8": {
+      "themes": 6,
+      "slots": 120,
+      "statuses": {
+        "available": 76,
+        "full": 44
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "The 대기실",
+    "박물관 철거 현장",
+    "시선",
+    "아로새김",
+    "고령화사회",
+    "고인",
+    "낙원",
+    "민초"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "weyol.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "weyol.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "weyol.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doloescape.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doloescape.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doloescape.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 11.69,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

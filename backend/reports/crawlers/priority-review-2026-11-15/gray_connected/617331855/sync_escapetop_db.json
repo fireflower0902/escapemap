@@ -1,0 +1,196 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T12:06:58.679407+09:00",
+  "scope": "selected cafe IDs: 617331855 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "617331855"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "617331855",
+        "business_id": "1204854",
+        "business_type_id": 12,
+        "branch_name": "한강대점",
+        "name": "괴담저장소",
+        "address": "서울 마포구 동교동 198-1",
+        "area": "hongdae",
+        "site_url": "https://mysteryzip.com",
+        "normalize_theme": true
+      },
+      {
+        "cafe_id": "617331855",
+        "business_id": "1335513",
+        "business_type_id": 12,
+        "branch_name": "한강대점",
+        "name": "괴담저장소",
+        "address": "서울 마포구 동교동 198-1",
+        "area": "hongdae",
+        "site_url": "https://mysteryzip.com",
+        "normalize_theme": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 2,
+  "slots": 36,
+  "statuses": {
+    "available": 14,
+    "full": 22
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "617331855": {
+      "themes": 4,
+      "slots": 36,
+      "statuses": {
+        "available": 14,
+        "full": 22
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "예약안내 (이 상품은 절대 예약하지 마세요)",
+    "예약안내(이 상품은 절대 예약하지 마세요)",
+    "제일기숙학원",
+    "한강대 담력훈련"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 12.25,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

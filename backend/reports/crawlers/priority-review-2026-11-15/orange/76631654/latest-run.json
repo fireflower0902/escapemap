@@ -1,0 +1,47 @@
+[
+  {
+    "script": "sync_playtheworld_etc_db",
+    "checked_at": "2026-11-15T12:06:14.490464+09:00",
+    "scope": "selected cafe IDs: 76631654 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "76631654"
+    ],
+    "selected": {
+      "BRANDS": [
+        {
+          "keycode": "kQHQReY6D1jPJKs4",
+          "name": "playtheworld",
+          "referer": "https://reservation.playthe.world",
+          "booking_base": "https://reservation.playthe.world/reservation.html",
+          "shop_map": {
+            "bF9P9ARTDcgrbcDR": "76631654"
+          }
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {},
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "macro.playthe.world",
+        "path": "/v2/shops/bF9P9ARTDcgrbcDR",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 0.56,
+    "log_errors": [
+      "[WARN] GET /v2/shops/bF9P9ARTDcgrbcDR 실패: HTTP Error 500: Internal Server Error"
+    ],
+    "status": "needs_review"
+  }
+]

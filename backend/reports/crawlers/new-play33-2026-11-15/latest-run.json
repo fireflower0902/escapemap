@@ -1,0 +1,231 @@
+[
+  {
+    "script": "sync_play33_db",
+    "checked_at": "2026-11-15T11:09:47.843915+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 4,
+    "themes_fetched": 10,
+    "themes_with_slots": 10,
+    "slots": 212,
+    "statuses": {
+      "full": 147,
+      "available": 65
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1385414031": {
+        "themes": 3,
+        "slots": 55,
+        "statuses": {
+          "full": 44,
+          "available": 11
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_play33_4": {
+        "themes": 1,
+        "slots": 28,
+        "statuses": {
+          "full": 28
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_play33_5": {
+        "themes": 5,
+        "slots": 106,
+        "statuses": {
+          "full": 61,
+          "available": 45
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_play33_7": {
+        "themes": 1,
+        "slots": 23,
+        "statuses": {
+          "full": 14,
+          "available": 9
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "그 날",
+      "다이얼",
+      "목격자",
+      "피안화",
+      "I am Still Here, ELLEN",
+      "강천여자고등학교",
+      "우울해서 빵 샀어",
+      "자각몽(自覺夢)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "play33.kr",
+        "path": "/reservation",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 22.46,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

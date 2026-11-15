@@ -1,0 +1,81 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T10:53:47.725832+09:00",
+  "scope": "selected cafe IDs: official_sslone_5 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_sslone_5",
+        "cafe_name": "상상락원",
+        "branch_name": "전주 한옥마을점",
+        "address": "전북특별자치도 전주시 완산구 전동 310-2 1층",
+        "area": "jeonbuk",
+        "base_url": "https://sslone.co.kr",
+        "s_zizum": 5,
+        "use_ssl": true,
+        "need_session": false,
+        "preserve_theme_title": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 90,
+  "statuses": {
+    "available": 87,
+    "full": 3
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sslone_5": {
+      "themes": 6,
+      "slots": 90,
+      "statuses": {
+        "available": 87,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "ver.36 (협동)",
+    "ver.37 (킬러)",
+    "ver.38 (동물)",
+    "ver.39 (여행)",
+    "ver.40 (학교)",
+    "ver.41 (우주)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.33,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

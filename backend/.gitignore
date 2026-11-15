@@ -1,9 +1,14 @@
 # ── 절대 Git에 올리면 안 되는 것들 ──────────────────────────
-.env                    # API 키, 비밀번호가 담긴 환경 변수 파일
-*.db                    # SQLite 데이터베이스 파일
+# API 키, 비밀번호가 담긴 환경 변수 파일
+.env
+.env.*
+!.env.example
+# SQLite 데이터베이스 파일
+*.db
 *.db-shm
 *.db-wal
-firebase_credentials.json   # Firebase 서비스 계정 키 (절대 공개 금지)
+# Firebase 서비스 계정 키
+firebase_credentials.json
 
 # ── Python 빌드/캐시 파일 ────────────────────────────────────
 __pycache__/
@@ -28,3 +33,18 @@ env/
 # ── Playwright 브라우저 바이너리 ─────────────────────────────
 # 용량이 크므로 제외
 playwright-browsers/
+
+# 재실행으로 생성되는 원시 크롤러 점검 결과 (요약 보고서는 보존)
+reports/crawlers/*.log
+reports/crawlers/sync_*.json
+reports/crawlers/latest-run.json
+reports/crawlers/xdungeon-all-branches.json
+reports/crawlers/recheck/
+reports/crawlers/fixes/
+reports/crawlers/dashboard/
+reports/crawlers/history/
+
+# 원시 실행 로그는 로컬 보관
+reports/**/*.log
+
+reports/scheduled/

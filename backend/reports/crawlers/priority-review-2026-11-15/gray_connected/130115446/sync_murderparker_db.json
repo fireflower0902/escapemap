@@ -1,0 +1,79 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T12:09:31.198055+09:00",
+  "scope": "selected cafe IDs: 130115446 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "130115446"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "130115446",
+        "branch_name": "익산점",
+        "jijem": "S15",
+        "address": "전북특별자치도 익산시 신동 801-1",
+        "area": "etc"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 92,
+  "statuses": {
+    "available": 76,
+    "full": 16
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "130115446": {
+      "themes": 4,
+      "slots": 92,
+      "statuses": {
+        "available": 76,
+        "full": 16
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "5DH GAME 70분 _익산점",
+    "심신무역 70분 _익산점",
+    "전기: 사라진 아이들 70분 _익산점",
+    "파커:끝없는 이야기 70분 _익산점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.32,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

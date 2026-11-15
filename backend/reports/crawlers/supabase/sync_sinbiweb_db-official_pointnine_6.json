@@ -1,0 +1,89 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T16:05:17.755009+09:00",
+  "scope": "selected cafe IDs: official_pointnine_6 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_pointnine_6"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_pointnine_6",
+        "cafe_name": "포인트나인",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 독막로 7길 40, 지하1층",
+        "area": "hongdae",
+        "base_url": "https://point-nine.com",
+        "s_zizum": 6,
+        "use_ssl": true,
+        "need_session": false
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 2,
+  "themes_with_slots": 2,
+  "slots": 92,
+  "statuses": {
+    "full": 21,
+    "available": 71
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_pointnine_6": {
+      "themes": 2,
+      "slots": 92,
+      "statuses": {
+        "full": 21,
+        "available": 71
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "LISTEN",
+    "SILENT"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 8.32,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}
