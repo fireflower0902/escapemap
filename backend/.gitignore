@@ -48,3 +48,5 @@ reports/crawlers/history/
 reports/**/*.log
 
 reports/scheduled/
+
+reports/crawlers/uncrawled-review-2026-11-15/*/

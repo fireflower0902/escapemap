@@ -1,0 +1,242 @@
+[
+  {
+    "script": "sync_doorescape_db",
+    "cafe_id": "691418241",
+    "published": true
+  },
+  {
+    "script": "sync_dreampicnic_db",
+    "cafe_id": "59939450",
+    "published": true
+  },
+  {
+    "script": "sync_clevertown_db",
+    "cafe_id": "949587061",
+    "published": false
+  },
+  {
+    "script": "sync_dpsnnn_db",
+    "cafe_id": "377197835",
+    "published": true
+  },
+  {
+    "script": "sync_aliceescape_db",
+    "cafe_id": "338628640",
+    "published": true
+  },
+  {
+    "script": "sync_dumbndumber_db",
+    "cafe_id": "203642029",
+    "published": true
+  },
+  {
+    "script": "sync_escapehouse_db",
+    "cafe_id": "340303350",
+    "published": true
+  },
+  {
+    "script": "sync_escbangtalul_db",
+    "cafe_id": "2024880532",
+    "published": true
+  },
+  {
+    "script": "sync_escapedetective_db",
+    "cafe_id": "779900297",
+    "published": true
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1856406910",
+    "published": true
+  },
+  {
+    "script": "sync_horrorswitch_db",
+    "cafe_id": "289742025",
+    "published": true
+  },
+  {
+    "script": "sync_jigobyeol_db",
+    "cafe_id": "2070697879",
+    "published": true
+  },
+  {
+    "script": "sync_mafiacafe_db",
+    "cafe_id": "1030963843",
+    "published": true
+  },
+  {
+    "script": "sync_escapecity_db",
+    "cafe_id": "1363823824",
+    "published": true
+  },
+  {
+    "script": "sync_frankantique_db",
+    "cafe_id": "874592991",
+    "published": true
+  },
+  {
+    "script": "sync_movieescape_db",
+    "cafe_id": "1855837227",
+    "published": true
+  },
+  {
+    "script": "sync_keyescape_db",
+    "cafe_id": "1405262610",
+    "published": true
+  },
+  {
+    "script": "sync_nextedition_db",
+    "cafe_id": "1973765277",
+    "published": true
+  },
+  {
+    "script": "sync_murderparker_db",
+    "cafe_id": "27545114",
+    "published": true
+  },
+  {
+    "script": "sync_no1escape_db",
+    "cafe_id": "27324626",
+    "published": true
+  },
+  {
+    "script": "sync_masterkey_db",
+    "cafe_id": "1466171651",
+    "published": true
+  },
+  {
+    "script": "sync_panicescape_db",
+    "cafe_id": "27178625",
+    "published": true
+  },
+  {
+    "script": "sync_puzzlefactory_db",
+    "cafe_id": "315548029",
+    "published": true
+  },
+  {
+    "script": "sync_roomescape_db",
+    "cafe_id": "273855007",
+    "published": true
+  },
+  {
+    "script": "sync_roomlescape_db",
+    "cafe_id": "596589943",
+    "published": true
+  },
+  {
+    "script": "sync_seoulescaperoom_db",
+    "cafe_id": "1351400084",
+    "published": true
+  },
+  {
+    "script": "sync_studioesc_db",
+    "cafe_id": "1908100709",
+    "published": true
+  },
+  {
+    "script": "sync_playescape_db",
+    "cafe_id": "1416262413",
+    "published": true
+  },
+  {
+    "script": "sync_teraspace_db",
+    "cafe_id": "759455993",
+    "published": true
+  },
+  {
+    "script": "sync_signescape_db",
+    "cafe_id": "678802397",
+    "published": true
+  },
+  {
+    "script": "sync_theqescape_db",
+    "cafe_id": "1696389756",
+    "published": true
+  },
+  {
+    "script": "sync_ttescape_db",
+    "cafe_id": "327610610",
+    "published": true
+  },
+  {
+    "script": "sync_trickescape_db",
+    "cafe_id": "27504980",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "1246652450",
+    "published": true
+  },
+  {
+    "script": "sync_showroom404_db",
+    "cafe_id": "887263854",
+    "published": true
+  },
+  {
+    "script": "sync_thetimeescape_db",
+    "cafe_id": "1233678979",
+    "published": true
+  },
+  {
+    "script": "sync_zescape_db",
+    "cafe_id": "1713311920",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "1322241204",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "1478483341",
+    "published": true
+  },
+  {
+    "script": "sync_xescape_db",
+    "cafe_id": "1772415237",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "1769092819",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "2070160321",
+    "published": true
+  },
+  {
+    "script": "sync_escapecity_db",
+    "cafe_id": "1444854771",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "27413263",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "629764977",
+    "published": true
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "436025860",
+    "published": true
+  },
+  {
+    "script": "sync_escapecity_db",
+    "cafe_id": "1834149457",
+    "published": true
+  },
+  {
+    "script": "sync_escapecity_db",
+    "cafe_id": "926754766",
+    "published": true
+  }
+]

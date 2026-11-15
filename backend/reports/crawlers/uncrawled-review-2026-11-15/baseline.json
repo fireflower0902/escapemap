@@ -1,0 +1,2518 @@
+[
+  {
+    "id": "2024880532",
+    "name": "ESC방탈출카페",
+    "branch_name": "대전둔산점",
+    "address": "대전 서구 둔산동 1062",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "http://djdsesc.co.kr",
+    "engine": "escbangtalul",
+    "metadata": "{\"id\": \"2024880532\", \"lat\": 36.3506412544482, \"lng\": 127.376466688717, \"area\": \"daejeon\", \"name\": \"ESC방탈출카페\", \"phone\": \"042-487-8287\", \"engine\": \"escbangtalul\", \"address\": \"대전 서구 둔산동 1062\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"대전둔산점\", \"website_url\": \"http://djdsesc.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escbangtalul_db"
+    ]
+  },
+  {
+    "id": "1393764461",
+    "name": "gateoftime",
+    "branch_name": "광주점",
+    "address": "광주 동구 중앙로160번길 15-3, 3층",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "https://gateoftime.kr/reservation.html?keycode=YybEYe16XjtuRV7S",
+    "engine": "playtheworld",
+    "metadata": "{\"id\": \"1393764461\", \"lat\": 35.1475420012282, \"lng\": 126.914793045424, \"area\": \"gwangju\", \"name\": \"gateoftime\", \"phone\": \"\", \"engine\": \"playtheworld\", \"address\": \"광주 동구 중앙로160번길 15-3, 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"광주점\", \"website_url\": \"https://gateoftime.kr/reservation.html?keycode=YybEYe16XjtuRV7S\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "929019886",
+    "name": "gateoftime",
+    "branch_name": "대구동성로점",
+    "address": "대구 중구 중앙대로 394-8, 2층",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://gateoftime.kr/reservation.html?keycode=HiJhoQFf8ThapVG3",
+    "engine": "playtheworld",
+    "metadata": "{\"id\": \"929019886\", \"lat\": 35.8680396267761, \"lng\": 128.594023857003, \"area\": \"daegu\", \"name\": \"gateoftime\", \"phone\": \"053-716-8855\", \"engine\": \"playtheworld\", \"address\": \"대구 중구 중앙대로 394-8, 2층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"대구동성로점\", \"website_url\": \"https://gateoftime.kr/reservation.html?keycode=HiJhoQFf8ThapVG3\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "1551717206",
+    "name": "강남점",
+    "branch_name": null,
+    "address": "서울 강남구 봉은사로2길 16, 현도빌딩, B1",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "metadata": "{\"id\": \"1551717206\", \"lat\": null, \"lng\": null, \"area\": \"gangnam\", \"name\": \"강남점\", \"phone\": \"02-555-9366\", \"engine\": \"xcape\", \"address\": \"서울 강남구 봉은사로2길 16, 현도빌딩, B1\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xcape_db"
+    ]
+  },
+  {
+    "id": "1501825629",
+    "name": "강릉방탈출카페",
+    "branch_name": null,
+    "address": "강원특별자치도 강릉시 경강로 2106",
+    "area": "gangwon",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1501825629",
+    "engine": null,
+    "metadata": "{\"id\": \"1501825629\", \"lat\": 37.7550737621722, \"lng\": 128.897277718894, \"area\": \"gangwon\", \"name\": \"강릉방탈출카페\", \"phone\": \"\", \"engine\": null, \"address\": \"강원특별자치도 강릉시 경강로 2106\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1501825629\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "212176813",
+    "name": "개꿀이스케이프",
+    "branch_name": null,
+    "address": "서울 강남구 강남대로118길 40",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://doghoneyescape.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"212176813\", \"lat\": 37.5070778214757, \"lng\": 127.026488089458, \"area\": \"gangnam\", \"name\": \"개꿀이스케이프\", \"phone\": \"\", \"engine\": null, \"address\": \"서울 강남구 강남대로118길 40\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://doghoneyescape.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "361428621",
+    "name": "건대2호",
+    "branch_name": null,
+    "address": "서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "metadata": "{\"id\": \"361428621\", \"lat\": null, \"lng\": null, \"area\": \"konkuk\", \"name\": \"건대2호\", \"phone\": \"02-464-8788\", \"engine\": \"xcape\", \"address\": \"서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xcape_db"
+    ]
+  },
+  {
+    "id": "27354377",
+    "name": "건대점",
+    "branch_name": null,
+    "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "metadata": "{\"id\": \"27354377\", \"lat\": null, \"lng\": null, \"area\": \"konkuk\", \"name\": \"건대점\", \"phone\": \"02-463-9366\", \"engine\": \"xcape\", \"address\": \"서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xcape_db"
+    ]
+  },
+  {
+    "id": "461296797",
+    "name": "고한 시티써커스",
+    "branch_name": null,
+    "address": "강원특별자치도 정선군 고한읍 고한4길 30",
+    "area": "gangwon",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/461296797",
+    "engine": null,
+    "metadata": "{\"id\": \"461296797\", \"lat\": 37.2014719007146, \"lng\": 128.853605774715, \"area\": \"gangwon\", \"name\": \"고한 시티써커스\", \"phone\": \"\", \"engine\": null, \"address\": \"강원특별자치도 정선군 고한읍 고한4길 30\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/461296797\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "786094598",
+    "name": "광주방탈출카페 식스센스",
+    "branch_name": null,
+    "address": "광주 북구 우치로90번길 5",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/786094598",
+    "engine": null,
+    "metadata": "{\"id\": \"786094598\", \"lat\": 35.1757000051403, \"lng\": 126.912888660838, \"area\": \"gwangju\", \"name\": \"광주방탈출카페 식스센스\", \"phone\": \"062-262-0111\", \"engine\": null, \"address\": \"광주 북구 우치로90번길 5\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/786094598\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "59939450",
+    "name": "꿈소풍",
+    "branch_name": "부천점",
+    "address": "경기 부천시 원미구 부일로459번길 33 4층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://dreampicnicescape.com",
+    "engine": "dreampicnic",
+    "metadata": "{\"id\": \"59939450\", \"lat\": 37.487585419253, \"lng\": 126.781461217969, \"area\": \"gyeonggi\", \"name\": \"꿈소풍\", \"phone\": \"\", \"engine\": \"dreampicnic\", \"address\": \"경기 부천시 원미구 부일로459번길 33 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"부천점\", \"website_url\": \"https://dreampicnicescape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_dreampicnic_db"
+    ]
+  },
+  {
+    "id": "1973765277",
+    "name": "넥스트에디션",
+    "branch_name": "건대1호점",
+    "address": "서울 광진구 자양동 17-5, 지하 1층",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=acBZTNkAVSAF1epy",
+    "engine": "nextedition",
+    "metadata": "{\"id\": \"1973765277\", \"lat\": null, \"lng\": null, \"area\": \"konkuk\", \"name\": \"넥스트에디션\", \"phone\": \"02-463-9967\", \"engine\": \"nextedition\", \"address\": \"서울 광진구 자양동 17-5, 지하 1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"건대1호점\", \"website_url\": \"https://www.nextedition.co.kr/reservation.html?keycode=acBZTNkAVSAF1epy\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_nextedition_db"
+    ]
+  },
+  {
+    "id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "address": "경기 안양시 만안구 안양로292번길 18",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://www.darockesc.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"442981346\", \"lat\": 37.398724959352, \"lng\": 126.922805125389, \"area\": \"gyeonggi\", \"name\": \"다락방\", \"phone\": \"031-469-3003\", \"engine\": null, \"address\": \"경기 안양시 만안구 안양로292번길 18\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"안양점\", \"website_url\": \"http://www.darockesc.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "964420524",
+    "name": "다락방방탈출카페",
+    "branch_name": "청주직영점",
+    "address": "충북 청주시 상당구 성안로 3",
+    "area": "chungbuk",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/964420524",
+    "engine": null,
+    "metadata": "{\"id\": \"964420524\", \"lat\": 36.6365247212016, \"lng\": 127.489154665322, \"area\": \"chungbuk\", \"name\": \"다락방방탈출카페\", \"phone\": \"043-221-5558\", \"engine\": null, \"address\": \"충북 청주시 상당구 성안로 3\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"청주직영점\", \"website_url\": \"http://place.map.kakao.com/964420524\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "377197835",
+    "name": "단편선 방탈출",
+    "branch_name": "강남점",
+    "address": "서울 강남구 봉은사로4길 36",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://www.dpsnnn.com/reserve_g",
+    "engine": "dpsnnn",
+    "metadata": "{\"id\": \"377197835\", \"lat\": 37.502514154376954, \"lng\": 127.02682010271623, \"area\": \"gangnam\", \"name\": \"단편선 방탈출\", \"phone\": \"070-8866-0795\", \"engine\": \"dpsnnn\", \"address\": \"서울 강남구 봉은사로4길 36\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"강남점\", \"website_url\": \"https://www.dpsnnn.com/reserve_g\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_dpsnnn_db"
+    ]
+  },
+  {
+    "id": "302959300",
+    "name": "더도어즈이스케이프",
+    "branch_name": null,
+    "address": "경기 고양시 일산동구 고봉로 32-6",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://www.thedoorsescape.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"302959300\", \"lat\": 37.66454693968043, \"lng\": 126.76562460238965, \"area\": \"gyeonggi\", \"name\": \"더도어즈이스케이프\", \"phone\": \"031-911-2003\", \"engine\": null, \"address\": \"경기 고양시 일산동구 고봉로 32-6\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://www.thedoorsescape.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "138006966",
+    "name": "더메이즈",
+    "branch_name": "건대점",
+    "address": "서울 광진구 아차산로26길 13 지하1층",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "http://www.themazegd.co.kr",
+    "engine": "themazegd",
+    "metadata": "{\"id\": \"138006966\", \"lat\": 37.5406624362196, \"lng\": 127.06617070565, \"area\": \"konkuk\", \"name\": \"더메이즈\", \"phone\": \"02-464-2577\", \"engine\": \"themazegd\", \"address\": \"서울 광진구 아차산로26길 13 지하1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"건대점\", \"website_url\": \"http://www.themazegd.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_themazegd_db"
+    ]
+  },
+  {
+    "id": "680681357",
+    "name": "더코드",
+    "branch_name": "",
+    "address": "광주 서구 치평동 1230-2",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "http://www.thecode-escape.com",
+    "engine": "thecode",
+    "metadata": "{\"id\": \"680681357\", \"lat\": 35.1537451153988, \"lng\": 126.852730208076, \"area\": \"gwangju\", \"name\": \"더코드\", \"phone\": \"062-383-8823\", \"engine\": \"thecode\", \"address\": \"광주 서구 치평동 1230-2\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://www.thecode-escape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_thecode_db"
+    ]
+  },
+  {
+    "id": "1696389756",
+    "name": "더큐이스케이프",
+    "branch_name": "대전둔산점",
+    "address": "대전 서구 둔산동 1060-3",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "https://www.the-qescapedj.co.kr",
+    "engine": "theqescape",
+    "metadata": "{\"id\": \"1696389756\", \"lat\": 36.351780760965696, \"lng\": 127.37633291813582, \"area\": \"daejeon\", \"name\": \"더큐이스케이프\", \"phone\": \"042-482-3210\", \"engine\": \"theqescape\", \"address\": \"대전 서구 둔산동 1060-3\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"대전둔산점\", \"website_url\": \"https://www.the-qescapedj.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_theqescape_db"
+    ]
+  },
+  {
+    "id": "1233678979",
+    "name": "더타임이스케이프",
+    "branch_name": "",
+    "address": "경남 양산시 물금읍 가촌리 1269-17",
+    "area": "gyeongnam",
+    "is_active": true,
+    "website_url": "http://www.thetimeescape.co.kr",
+    "engine": "thetimeescape",
+    "metadata": "{\"id\": \"1233678979\", \"lat\": 35.3172176258087, \"lng\": 129.002778510431, \"area\": \"gyeongnam\", \"name\": \"더타임이스케이프\", \"phone\": \"055-366-8587\", \"engine\": \"thetimeescape\", \"address\": \"경남 양산시 물금읍 가촌리 1269-17\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://www.thetimeescape.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_thetimeescape_db"
+    ]
+  },
+  {
+    "id": "911063716",
+    "name": "더트랩",
+    "branch_name": "수유점",
+    "address": "서울 강북구 도봉로 363 구봉빌딩 4층",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://www.thetrapsy.co.kr",
+    "engine": "thetrapsy",
+    "metadata": "{\"id\": \"911063716\", \"lat\": 37.639938349142, \"lng\": 127.027251253028, \"area\": \"seoul_other\", \"name\": \"더트랩\", \"phone\": \"02-6224-7776\", \"engine\": \"thetrapsy\", \"address\": \"서울 강북구 도봉로 363 구봉빌딩 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"수유점\", \"website_url\": \"http://www.thetrapsy.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_thetrapsy_db"
+    ]
+  },
+  {
+    "id": "203642029",
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "대학로점",
+    "address": "서울 종로구 대학로12길 40 3층",
+    "area": "myeongdong",
+    "is_active": true,
+    "website_url": "http://www.dumbndumber.kr",
+    "engine": "dumbndumber",
+    "metadata": "{\"id\": \"203642029\", \"lat\": 37.5832656559139, \"lng\": 127.002436396644, \"area\": \"myeongdong\", \"name\": \"덤앤더머 방탈출카페\", \"phone\": \"02-741-0955\", \"engine\": \"dumbndumber\", \"address\": \"서울 종로구 대학로12길 40 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"대학로점\", \"website_url\": \"http://www.dumbndumber.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_dumbndumber_db"
+    ]
+  },
+  {
+    "id": "691418241",
+    "name": "도어이스케이프",
+    "branch_name": "강남 가든점",
+    "address": "서울 서초구 사평대로56길 10, 지하 1층",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://doorescape.co.kr",
+    "engine": "playtheworld",
+    "metadata": "{\"id\": \"691418241\", \"lat\": 37.5030564627987, \"lng\": 127.023007890259, \"area\": \"gangnam\", \"name\": \"도어이스케이프\", \"phone\": \"02-535-9745\", \"engine\": \"playtheworld\", \"address\": \"서울 서초구 사평대로56길 10, 지하 1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"강남 가든점\", \"website_url\": \"https://doorescape.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_doorescape_db"
+    ]
+  },
+  {
+    "id": "1900192470",
+    "name": "도파민방탈출",
+    "branch_name": null,
+    "address": "경기 안산시 단원구 고잔로 108",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1900192470",
+    "engine": null,
+    "metadata": "{\"id\": \"1900192470\", \"lat\": 37.3185667905929, \"lng\": 126.838039654803, \"area\": \"gyeonggi\", \"name\": \"도파민방탈출\", \"phone\": \"070-4418-8277\", \"engine\": null, \"address\": \"경기 안산시 단원구 고잔로 108\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1900192470\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "716654663",
+    "name": "두잇이스케이프",
+    "branch_name": null,
+    "address": "경기 구리시 검배로6번길 23",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/716654663",
+    "engine": null,
+    "metadata": "{\"id\": \"716654663\", \"lat\": 37.5997568449555, \"lng\": 127.140381874446, \"area\": \"gyeonggi\", \"name\": \"두잇이스케이프\", \"phone\": \"070-7719-7879\", \"engine\": null, \"address\": \"경기 구리시 검배로6번길 23\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/716654663\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "997136500",
+    "name": "둠이스케이프",
+    "branch_name": "1호점",
+    "address": "인천 남동구 성말로13번길 15",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "https://doomescape.com/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"997136500\", \"lat\": null, \"lng\": null, \"area\": \"incheon\", \"name\": \"둠이스케이프\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"인천 남동구 성말로13번길 15\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"1호점\", \"website_url\": \"https://doomescape.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  },
+  {
+    "id": "1321479252",
+    "name": "둠이스케이프",
+    "branch_name": "2호점",
+    "address": "인천 남동구 인하로507번길 18",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "https://doomescape.com/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"1321479252\", \"lat\": null, \"lng\": null, \"area\": \"incheon\", \"name\": \"둠이스케이프\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"인천 남동구 인하로507번길 18\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"2호점\", \"website_url\": \"https://doomescape.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  },
+  {
+    "id": "892126854",
+    "name": "둠이스케이프",
+    "branch_name": "DTH점",
+    "address": "인천 부평구 부평문화로 75",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "https://doomescape.com/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"892126854\", \"lat\": null, \"lng\": null, \"area\": \"incheon\", \"name\": \"둠이스케이프\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"인천 부평구 부평문화로 75\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"DTH점\", \"website_url\": \"https://doomescape.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  },
+  {
+    "id": "40766168",
+    "name": "드림이스케이프",
+    "branch_name": null,
+    "address": "서울 광진구 아차산로 238",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/40766168",
+    "engine": null,
+    "metadata": "{\"id\": \"40766168\", \"lat\": 37.5399829258444, \"lng\": 127.069578181958, \"area\": \"konkuk\", \"name\": \"드림이스케이프\", \"phone\": \"02-462-2220\", \"engine\": null, \"address\": \"서울 광진구 아차산로 238\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/40766168\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1568417037",
+    "name": "라비린스이스케이프",
+    "branch_name": "",
+    "address": "경기 부천시 원미구 중동 1162",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://labyrinth.15440835.com/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"1568417037\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"라비린스이스케이프\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"경기 부천시 원미구 중동 1162\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://labyrinth.15440835.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  },
+  {
+    "id": "225341934",
+    "name": "라스트이스케이프",
+    "branch_name": "강남점",
+    "address": "서울 강남구 강남대로98길 20",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "http://lastescape.co.kr",
+    "engine": "lastescape",
+    "metadata": "{\"id\": \"225341934\", \"lat\": 37.50080281636902, \"lng\": 127.0282274714139, \"area\": \"gangnam\", \"name\": \"라스트이스케이프\", \"phone\": \"02-567-3399\", \"engine\": \"lastescape\", \"address\": \"서울 강남구 강남대로98길 20\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"강남점\", \"website_url\": \"http://lastescape.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_lastescape_db"
+    ]
+  },
+  {
+    "id": "28201117",
+    "name": "레다스퀘어",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 독막로9길 23",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://ledasquare.com",
+    "engine": "ledasquare",
+    "metadata": "{\"id\": \"28201117\", \"lat\": 37.5494431085065, \"lng\": 126.919979281003, \"area\": \"hongdae\", \"name\": \"레다스퀘어\", \"phone\": \"010-4979-5557\", \"engine\": \"ledasquare\", \"address\": \"서울 마포구 독막로9길 23\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"https://ledasquare.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_ledasquare_db"
+    ]
+  },
+  {
+    "id": "77278349",
+    "name": "레드런",
+    "branch_name": "천안점",
+    "address": "충남 천안시 서북구 원두정8길 16",
+    "area": "chungnam",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/77278349",
+    "engine": null,
+    "metadata": "{\"id\": \"77278349\", \"lat\": 36.832398440128, \"lng\": 127.135015671934, \"area\": \"chungnam\", \"name\": \"레드런\", \"phone\": \"010-6739-2566\", \"engine\": null, \"address\": \"충남 천안시 서북구 원두정8길 16\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"천안점\", \"website_url\": \"http://place.map.kakao.com/77278349\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1331705130",
+    "name": "레드런",
+    "branch_name": "천호점",
+    "address": "서울 강동구 천호대로157길 17",
+    "area": "jamsil",
+    "is_active": true,
+    "website_url": "https://naver.me/xbjXQceE",
+    "engine": null,
+    "metadata": "{\"id\": \"1331705130\", \"lat\": 37.5385998135392, \"lng\": 127.127034504748, \"area\": \"jamsil\", \"name\": \"레드런\", \"phone\": \"010-5723-4546\", \"engine\": null, \"address\": \"서울 강동구 천호대로157길 17\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"천호점\", \"website_url\": \"https://naver.me/xbjXQceE\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1968639091",
+    "name": "레전드이스케이프",
+    "branch_name": "서현점",
+    "address": "경기 성남시 분당구 서현로210번길 20",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://legendescape.com/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"1968639091\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"레전드이스케이프\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"경기 성남시 분당구 서현로210번길 20\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"서현점\", \"website_url\": \"http://legendescape.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  },
+  {
+    "id": "628138029",
+    "name": "룸엘이스케이프",
+    "branch_name": "신림점",
+    "address": "서울 관악구 신림동",
+    "area": "sinlim",
+    "is_active": true,
+    "website_url": "http://www.roomlescape.com",
+    "engine": "roomlescape",
+    "metadata": "{\"id\": \"628138029\", \"lat\": 37.4830826871443, \"lng\": 126.930384165518, \"area\": \"sinlim\", \"name\": \"룸엘이스케이프\", \"phone\": \"02-882-1215\", \"engine\": \"roomlescape\", \"address\": \"서울 관악구 신림동\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"신림점\", \"website_url\": \"http://www.roomlescape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomlescape_db"
+    ]
+  },
+  {
+    "id": "596589943",
+    "name": "룸엘이스케이프",
+    "branch_name": "홍대1호점",
+    "address": "서울 마포구 잔다리로 4 2층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.roomlescape.com",
+    "engine": "roomlescape",
+    "metadata": "{\"id\": \"596589943\", \"lat\": 37.551729166489444, \"lng\": 126.9189888828544, \"area\": \"hongdae\", \"name\": \"룸엘이스케이프\", \"phone\": \"02-6953-8030\", \"engine\": \"roomlescape\", \"address\": \"서울 마포구 잔다리로 4 2층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대1호점\", \"website_url\": \"http://www.roomlescape.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomlescape_db"
+    ]
+  },
+  {
+    "id": "27329834",
+    "name": "룸익스케이프",
+    "branch_name": "신촌 블랙점",
+    "address": "서울 서대문구 연세로4길 6 3층",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "https://ex-cape.com/",
+    "engine": "playtheworld",
+    "metadata": "{\"id\": \"27329834\", \"area\": \"sinchon\", \"name\": \"룸익스케이프\", \"engine\": \"playtheworld\", \"address\": \"서울 서대문구 연세로4길 6 3층\", \"is_active\": true, \"branch_name\": \"신촌 블랙점\", \"website_url\": \"https://ex-cape.com/\"}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "912842418",
+    "name": "룸익스케이프",
+    "branch_name": "신촌 올리브점",
+    "address": "서울 서대문구 연세로9길 25 지하 1층",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "https://ex-cape.com/",
+    "engine": "playtheworld",
+    "metadata": "{\"id\": \"912842418\", \"area\": \"sinchon\", \"name\": \"룸익스케이프\", \"engine\": \"playtheworld\", \"address\": \"서울 서대문구 연세로9길 25 지하 1층\", \"is_active\": true, \"branch_name\": \"신촌 올리브점\", \"website_url\": \"https://ex-cape.com/\"}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "1542251042",
+    "name": "룸익스케이프",
+    "branch_name": "신촌 화이트점",
+    "address": "서울 서대문구 명물길 66 2층",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "https://ex-cape.com/",
+    "engine": "playtheworld",
+    "metadata": "{\"id\": \"1542251042\", \"area\": \"sinchon\", \"name\": \"룸익스케이프\", \"engine\": \"playtheworld\", \"address\": \"서울 서대문구 명물길 66 2층\", \"is_active\": true, \"branch_name\": \"신촌 화이트점\", \"website_url\": \"https://ex-cape.com/\"}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "690123759",
+    "name": "룸익스케이프",
+    "branch_name": "인디고블루점",
+    "address": "서울 서대문구 연세로5가길 21",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "https://www.ex-cape.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"690123759\", \"lat\": 37.557206548048185, \"lng\": 126.93541610802885, \"area\": \"sinchon\", \"name\": \"룸익스케이프\", \"phone\": \"\", \"engine\": null, \"address\": \"서울 서대문구 연세로5가길 21\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"인디고블루점\", \"website_url\": \"https://www.ex-cape.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_41",
+    "name": "룸즈에이",
+    "branch_name": "강남점",
+    "address": "서울 강남구 역삼동 827-14, 지하 2층",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_41\", \"area\": \"gangnam\", \"name\": \"룸즈에이\", \"phone\": \"0507-1334-7546\", \"engine\": \"roomsa_catalog\", \"address\": \"서울 강남구 역삼동 827-14, 지하 2층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"강남점\", \"verified_at\": \"2026-11-15T11:38:09.694032+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_54",
+    "name": "룸즈에이",
+    "branch_name": "광주상무점",
+    "address": "광주 서구 상무번영로 37 나우빌딩 6층",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_54\", \"area\": \"gwangju\", \"name\": \"룸즈에이\", \"phone\": \"062-383-8069\", \"engine\": \"roomsa_catalog\", \"address\": \"광주 서구 상무번영로 37 나우빌딩 6층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"광주상무점\", \"verified_at\": \"2026-11-15T11:38:09.707793+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "1544141348",
+    "name": "룸즈에이",
+    "branch_name": "광주수완2호점",
+    "address": "광주 광산구 장신로 76",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "https://www.roomsa.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"1544141348\", \"lat\": 35.1904854927815, \"lng\": 126.818342148097, \"area\": \"gwangju\", \"name\": \"룸즈에이\", \"phone\": \"062-953-8069\", \"engine\": null, \"address\": \"광주 광산구 장신로 76\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"광주수완2호점\", \"website_url\": \"https://www.roomsa.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_53",
+    "name": "룸즈에이",
+    "branch_name": "광주수완점",
+    "address": "광주 광산구 수완동 1096 잭슨스테이크 건물5층",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_53\", \"area\": \"gwangju\", \"name\": \"룸즈에이\", \"phone\": \"062-959-8069\", \"engine\": \"roomsa_catalog\", \"address\": \"광주 광산구 수완동 1096 잭슨스테이크 건물5층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"광주수완점\", \"verified_at\": \"2026-11-15T11:38:09.706628+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_55",
+    "name": "룸즈에이",
+    "branch_name": "대구동성로점",
+    "address": "대구 중구 공평동 34-2, 4층",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_55\", \"area\": \"daegu\", \"name\": \"룸즈에이\", \"phone\": \"0507-1389-3838\", \"engine\": \"roomsa_catalog\", \"address\": \"대구 중구 공평동 34-2, 4층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"대구동성로점\", \"verified_at\": \"2026-11-15T11:38:09.708734+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_83",
+    "name": "룸즈에이",
+    "branch_name": "대구스테이지점",
+    "address": "대구 중구 동성로2길 28 3층",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_83\", \"area\": \"daegu\", \"name\": \"룸즈에이\", \"phone\": \"053-252-7055\", \"engine\": \"roomsa_catalog\", \"address\": \"대구 중구 동성로2길 28 3층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"대구스테이지점\", \"verified_at\": \"2026-11-15T11:38:09.711657+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_49",
+    "name": "룸즈에이",
+    "branch_name": "대전둔산점",
+    "address": "대전 서구 둔산동 1063, 태형빌딩 7층",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_49\", \"area\": \"daejeon\", \"name\": \"룸즈에이\", \"phone\": \"042-476-9200\", \"engine\": \"roomsa_catalog\", \"address\": \"대전 서구 둔산동 1063, 태형빌딩 7층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"대전둔산점\", \"verified_at\": \"2026-11-15T11:38:09.702530+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_50",
+    "name": "룸즈에이",
+    "branch_name": "대전은행점",
+    "address": "대전 중구 은행동 33-2, 4층",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_50\", \"area\": \"daejeon\", \"name\": \"룸즈에이\", \"phone\": \"042-223-2226\", \"engine\": \"roomsa_catalog\", \"address\": \"대전 중구 은행동 33-2, 4층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"대전은행점\", \"verified_at\": \"2026-11-15T11:38:09.703631+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_42",
+    "name": "룸즈에이",
+    "branch_name": "대학로점",
+    "address": "서울 종로구 동숭동 1-65 해안빌딩, 지하 1층",
+    "area": "myeongdong",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_42\", \"area\": \"myeongdong\", \"name\": \"룸즈에이\", \"phone\": \"02-747-9003\", \"engine\": \"roomsa_catalog\", \"address\": \"서울 종로구 동숭동 1-65 해안빌딩, 지하 1층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"대학로점\", \"verified_at\": \"2026-11-15T11:38:09.696156+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_57",
+    "name": "룸즈에이",
+    "branch_name": "동성로 아카데미점",
+    "address": "대구 중구 사일동 54-1, 3층",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_57\", \"area\": \"daegu\", \"name\": \"룸즈에이\", \"phone\": \"0507-1302-4147\", \"engine\": \"roomsa_catalog\", \"address\": \"대구 중구 사일동 54-1, 3층\", \"aliases\": [\"룸즈에이 대구동성로 아카데미점\"], \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"동성로 아카데미점\", \"verified_at\": \"2026-11-15T11:38:09.710669+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_56",
+    "name": "룸즈에이",
+    "branch_name": "동성로2호점",
+    "address": "대구 중구 삼덕동1가 18-1, 4층",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_56\", \"area\": \"daegu\", \"name\": \"룸즈에이\", \"phone\": \"053-253-3853\", \"engine\": \"roomsa_catalog\", \"address\": \"대구 중구 삼덕동1가 18-1, 4층\", \"aliases\": [\"룸즈에이 대구동성로2호점\"], \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"동성로2호점\", \"verified_at\": \"2026-11-15T11:38:09.709676+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_51",
+    "name": "룸즈에이",
+    "branch_name": "부산남포점",
+    "address": "부산 중구 창선동2가 46-1",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_51\", \"area\": \"busan\", \"name\": \"룸즈에이\", \"phone\": \"010-2441-2870\", \"engine\": \"roomsa_catalog\", \"address\": \"부산 중구 창선동2가 46-1\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"부산남포점\", \"verified_at\": \"2026-11-15T11:38:09.704631+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_52",
+    "name": "룸즈에이",
+    "branch_name": "부산서면점",
+    "address": "부산 부산진구 부전동 198-1 3층",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_52\", \"area\": \"busan\", \"name\": \"룸즈에이\", \"phone\": \"051-816-4147\", \"engine\": \"roomsa_catalog\", \"address\": \"부산 부산진구 부전동 198-1 3층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"부산서면점\", \"verified_at\": \"2026-11-15T11:38:09.705667+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_69",
+    "name": "룸즈에이",
+    "branch_name": "부평 2호점",
+    "address": "인천 부평구 부평문화로 75, 3층",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_69\", \"area\": \"incheon\", \"name\": \"룸즈에이\", \"phone\": \"032-523-1117\", \"engine\": \"roomsa_catalog\", \"address\": \"인천 부평구 부평문화로 75, 3층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"부평 2호점\", \"verified_at\": \"2026-11-15T11:38:09.714423+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "802938757",
+    "name": "룸즈에이",
+    "branch_name": "부평점",
+    "address": "인천 부평구 부평대로 26",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "http://roomsa.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"802938757\", \"lat\": 37.4937462104866, \"lng\": 126.723293053491, \"area\": \"incheon\", \"name\": \"룸즈에이\", \"phone\": \"032-515-1117\", \"engine\": null, \"address\": \"인천 부평구 부평대로 26\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"부평점\", \"website_url\": \"http://roomsa.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_48",
+    "name": "룸즈에이",
+    "branch_name": "수원역 2호점",
+    "address": "경기 수원시 팔달구 매산로1가 40-1, 3층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_48\", \"area\": \"gyeonggi\", \"name\": \"룸즈에이\", \"phone\": \"031-256-2220\", \"engine\": \"roomsa_catalog\", \"address\": \"경기 수원시 팔달구 매산로1가 40-1, 3층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"수원역 2호점\", \"verified_at\": \"2026-11-15T11:38:09.701464+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_47",
+    "name": "룸즈에이",
+    "branch_name": "수원역점",
+    "address": "경기 수원시 팔달구 매산로1가 30-1, 3층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_47\", \"area\": \"gyeonggi\", \"name\": \"룸즈에이\", \"phone\": \"031-246-1114\", \"engine\": \"roomsa_catalog\", \"address\": \"경기 수원시 팔달구 매산로1가 30-1, 3층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"수원역점\", \"verified_at\": \"2026-11-15T11:38:09.699987+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_43",
+    "name": "룸즈에이",
+    "branch_name": "안양범계점",
+    "address": "경기 안양시 동안구 호계동 1041-2, 5층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_43\", \"area\": \"gyeonggi\", \"name\": \"룸즈에이\", \"phone\": \"031-388-4127\", \"engine\": \"roomsa_catalog\", \"address\": \"경기 안양시 동안구 호계동 1041-2, 5층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"안양범계점\", \"verified_at\": \"2026-11-15T11:38:09.697115+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_46",
+    "name": "룸즈에이",
+    "branch_name": "의정부점",
+    "address": "경기 의정부시 의정부동 158-10, 4층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_46\", \"area\": \"gyeonggi\", \"name\": \"룸즈에이\", \"phone\": \"031-821-0446\", \"engine\": \"roomsa_catalog\", \"address\": \"경기 의정부시 의정부동 158-10, 4층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"의정부점\", \"verified_at\": \"2026-11-15T11:38:09.699025+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_44",
+    "name": "룸즈에이",
+    "branch_name": "일산 웨스턴돔점",
+    "address": "경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_44\", \"area\": \"gyeonggi\", \"name\": \"룸즈에이\", \"phone\": \"031-901-2444\", \"engine\": \"roomsa_catalog\", \"address\": \"경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"일산 웨스턴돔점\", \"verified_at\": \"2026-11-15T11:38:09.698066+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "official_roomsa_58",
+    "name": "룸즈에이",
+    "branch_name": "포항점",
+    "address": "경북 포항시 북구 상원동 462-5, 스타타워 5층",
+    "area": "gyeongbuk",
+    "is_active": true,
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "metadata": "{\"id\": \"official_roomsa_58\", \"area\": \"gyeongbuk\", \"name\": \"룸즈에이\", \"phone\": \"054-247-4147\", \"engine\": \"roomsa_catalog\", \"address\": \"경북 포항시 북구 상원동 462-5, 스타타워 5층\", \"crawled\": false, \"is_active\": true, \"booking_url\": \"https://roomsa.co.kr/reservation\", \"branch_name\": \"포항점\", \"verified_at\": \"2026-11-15T11:38:09.712643+09:00\", \"website_url\": \"https://roomsa.co.kr/reservation\", \"crawler_status\": \"needs_review\", \"supported_area\": true, \"crawler_review_note\": \"공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.\", \"verification_status\": \"official_listing_verified\", \"verification_sources\": [\"https://roomsa.co.kr/locations\", \"https://roomsa.co.kr/api/booking/stores\"]}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomsa_catalog_db"
+    ]
+  },
+  {
+    "id": "1772504569",
+    "name": "리버스이스케이프",
+    "branch_name": "안산점",
+    "address": "경기 안산시",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://reverseesc.com",
+    "engine": "reverseesc",
+    "metadata": "{\"id\": \"1772504569\", \"lat\": 37.3184319371783, \"lng\": 126.83760221459, \"area\": \"gyeonggi\", \"name\": \"리버스이스케이프\", \"phone\": \"031-405-1476\", \"engine\": \"reverseesc\", \"address\": \"경기 안산시\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"안산점\", \"website_url\": \"http://reverseesc.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_reverseesc_db"
+    ]
+  },
+  {
+    "id": "1231888375",
+    "name": "리버스이스케이프",
+    "branch_name": "향남점",
+    "address": "경기 화성시 향남읍",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://reverseesc.com",
+    "engine": "reverseesc",
+    "metadata": "{\"id\": \"1231888375\", \"lat\": 37.11515053613487, \"lng\": 126.91247818814807, \"area\": \"gyeonggi\", \"name\": \"리버스이스케이프\", \"phone\": \"\", \"engine\": \"reverseesc\", \"address\": \"경기 화성시 향남읍\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"향남점\", \"website_url\": \"http://reverseesc.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_reverseesc_db"
+    ]
+  },
+  {
+    "id": "27369058",
+    "name": "리얼이스케이프챌린지",
+    "branch_name": null,
+    "address": "서울 마포구 와우산로27길 21",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.rec-escape.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"27369058\", \"lat\": 37.55417346486832, \"lng\": 126.92711760256185, \"area\": \"hongdae\", \"name\": \"리얼이스케이프챌린지\", \"phone\": \"02-333-3882\", \"engine\": null, \"address\": \"서울 마포구 와우산로27길 21\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://www.rec-escape.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "776644226",
+    "name": "리즌방탈출",
+    "branch_name": null,
+    "address": "인천 남동구 논고개로123번길 35",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/776644226",
+    "engine": null,
+    "metadata": "{\"id\": \"776644226\", \"lat\": 37.4015158014326, \"lng\": 126.722062661366, \"area\": \"incheon\", \"name\": \"리즌방탈출\", \"phone\": \"\", \"engine\": null, \"address\": \"인천 남동구 논고개로123번길 35\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/776644226\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1030963843",
+    "name": "마피아카페",
+    "branch_name": "강남1호점",
+    "address": "서울시 강남구 강남대로 96길 19, 4층",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://www.mafiacafe.kr",
+    "engine": "mafiacafe",
+    "metadata": "{\"id\": \"1030963843\", \"lat\": 37.5001639237822, \"lng\": 127.028557453314, \"area\": \"gangnam\", \"name\": \"마피아카페\", \"phone\": \"0503-7151-1404\", \"engine\": \"mafiacafe\", \"address\": \"서울시 강남구 강남대로 96길 19, 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"강남1호점\", \"website_url\": \"https://www.mafiacafe.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_mafiacafe_db"
+    ]
+  },
+  {
+    "id": "27545114",
+    "name": "머더파커",
+    "branch_name": "전주1호점",
+    "address": "전북특별자치도 전주시 완산구 전동 168-5",
+    "area": "jeonbuk",
+    "is_active": true,
+    "website_url": "http://murderparker.com",
+    "engine": "murderparker",
+    "metadata": "{\"id\": \"27545114\", \"lat\": 35.81335354377204, \"lng\": 127.14668987378973, \"area\": \"jeonbuk\", \"name\": \"머더파커\", \"phone\": \"010-5160-6542\", \"engine\": \"murderparker\", \"address\": \"전북특별자치도 전주시 완산구 전동 168-5\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"전주1호점\", \"website_url\": \"http://murderparker.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_murderparker_db"
+    ]
+  },
+  {
+    "id": "1855837227",
+    "name": "무비이스케이프",
+    "branch_name": "동탄남광장점",
+    "address": "경기 화성시 동탄구 동탄중심상가1길 35",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://movieescape.kr",
+    "engine": "bucheonroute",
+    "metadata": "{\"id\": \"1855837227\", \"lat\": 37.201069865957216, \"lng\": 127.0716629092662, \"area\": \"gyeonggi\", \"name\": \"무비이스케이프\", \"phone\": \"031-613-0992\", \"engine\": \"bucheonroute\", \"address\": \"경기 화성시 동탄구 동탄중심상가1길 35\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"동탄남광장점\", \"website_url\": \"http://movieescape.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_movieescape_db"
+    ]
+  },
+  {
+    "id": "888192913",
+    "name": "미션브레이크",
+    "branch_name": "CGV용산아이파크몰점",
+    "address": "서울 용산구 한강대로23길 55",
+    "area": "itaewon",
+    "is_active": true,
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"888192913\", \"lat\": 37.5298709510827, \"lng\": 126.964873937546, \"area\": \"itaewon\", \"name\": \"미션브레이크\", \"phone\": \"02-2012-3783\", \"engine\": null, \"address\": \"서울 용산구 한강대로23길 55\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"CGV용산아이파크몰점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1436082735",
+    "name": "미스터리담",
+    "branch_name": "",
+    "address": "경기 고양시 일산동구 강송로73번길 34 1층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"1436082735\", \"lat\": 37.6457168345738, \"lng\": 126.788726495336, \"area\": \"gyeonggi\", \"name\": \"미스터리담\", \"phone\": \"010-2446-5967\", \"engine\": \"naver_booking\", \"address\": \"경기 고양시 일산동구 강송로73번길 34 1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"https://booking.naver.com/booking/12/bizes/1575275\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "27367643",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "강남점",
+    "address": "서울 강남구 역삼동 823-17 강남파인애플 B1F",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "http://mysteryroomescape.com/",
+    "engine": "mysteryroom",
+    "metadata": "{\"id\": \"27367643\", \"lat\": null, \"lng\": null, \"area\": \"gangnam\", \"name\": \"미스터리룸이스케이프\", \"phone\": null, \"engine\": \"mysteryroom\", \"address\": \"서울 강남구 역삼동 823-17 강남파인애플 B1F\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"강남점\", \"website_url\": \"http://mysteryroomescape.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_mysteryroom_db"
+    ]
+  },
+  {
+    "id": "727312827",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "홍대2호점",
+    "address": "서울 마포구 독막로7길 41",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.mysteryroomescape.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"727312827\", \"lat\": 37.54964549757982, \"lng\": 126.91948566716717, \"area\": \"hongdae\", \"name\": \"미스터리룸이스케이프\", \"phone\": \"02-336-9010\", \"engine\": null, \"address\": \"서울 마포구 독막로7길 41\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"홍대2호점\", \"website_url\": \"http://www.mysteryroomescape.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_mysteryroom_db"
+    ]
+  },
+  {
+    "id": "1516889516",
+    "name": "방탈출 뉴케이스",
+    "branch_name": null,
+    "address": "서울 광진구 아차산로 191",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1516889516",
+    "engine": null,
+    "metadata": "{\"id\": \"1516889516\", \"lat\": 37.542047842624, \"lng\": 127.065145631576, \"area\": \"konkuk\", \"name\": \"방탈출 뉴케이스\", \"phone\": \"02-498-1999\", \"engine\": null, \"address\": \"서울 광진구 아차산로 191\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1516889516\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1560724472",
+    "name": "방탈출 미로",
+    "branch_name": null,
+    "address": "서울 은평구 연서로29길 16",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1560724472",
+    "engine": null,
+    "metadata": "{\"id\": \"1560724472\", \"lat\": 37.6192591720085, \"lng\": 126.918543009124, \"area\": \"seoul_other\", \"name\": \"방탈출 미로\", \"phone\": \"02-356-6446\", \"engine\": null, \"address\": \"서울 은평구 연서로29길 16\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1560724472\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "273855007",
+    "name": "방탈출ESC",
+    "branch_name": "신촌점",
+    "address": "서울 서대문구 창천동 19-10",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "http://roomescape.net",
+    "engine": "roomescape",
+    "metadata": "{\"id\": \"273855007\", \"lat\": 37.5580361824726, \"lng\": 126.93844514714, \"area\": \"sinchon\", \"name\": \"방탈출ESC\", \"phone\": \"02-313-2016\", \"engine\": \"roomescape\", \"address\": \"서울 서대문구 창천동 19-10\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"신촌점\", \"website_url\": \"http://roomescape.net\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_roomescape_db"
+    ]
+  },
+  {
+    "id": "27324626",
+    "name": "방탈출NO1",
+    "branch_name": "수원점",
+    "address": "경기 수원시 팔달구 향교로 47",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://www.no1escape.com",
+    "engine": "no1escape",
+    "metadata": "{\"id\": \"27324626\", \"lat\": 37.2648525938977, \"lng\": 127.031665580708, \"area\": \"gyeonggi\", \"name\": \"방탈출NO1\", \"phone\": \"031-221-5669\", \"engine\": \"no1escape\", \"address\": \"경기 수원시 팔달구 향교로 47\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"수원점\", \"website_url\": \"http://www.no1escape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_no1escape_db"
+    ]
+  },
+  {
+    "id": "1992606174",
+    "name": "방탈출고",
+    "branch_name": null,
+    "address": "인천 부평구 충선로203번길 16",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1992606174",
+    "engine": null,
+    "metadata": "{\"id\": \"1992606174\", \"lat\": 37.5075592968255, \"lng\": 126.73539813797, \"area\": \"incheon\", \"name\": \"방탈출고\", \"phone\": \"032-524-5678\", \"engine\": null, \"address\": \"인천 부평구 충선로203번길 16\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1992606174\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1254330051",
+    "name": "방탈출브이",
+    "branch_name": "공평점",
+    "address": "대구 중구 공평동 62-11",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "http://www.v-escape.co.kr",
+    "engine": "vescape",
+    "metadata": "{\"id\": \"1254330051\", \"lat\": 35.8682883269716, \"lng\": 128.598229251739, \"area\": \"daegu\", \"name\": \"방탈출브이\", \"phone\": \"1811-9467\", \"engine\": \"vescape\", \"address\": \"대구 중구 공평동 62-11\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"공평점\", \"website_url\": \"http://www.v-escape.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_vescape_db"
+    ]
+  },
+  {
+    "id": "858962026",
+    "name": "방탈출브이",
+    "branch_name": "삼덕점",
+    "address": "대구 중구 삼덕동1가 17-16",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "http://www.v-escape.co.kr",
+    "engine": "vescape",
+    "metadata": "{\"id\": \"858962026\", \"lat\": 35.8673284563281, \"lng\": 128.597224648638, \"area\": \"daegu\", \"name\": \"방탈출브이\", \"phone\": \"053-424-3386\", \"engine\": \"vescape\", \"address\": \"대구 중구 삼덕동1가 17-16\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"삼덕점\", \"website_url\": \"http://www.v-escape.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_vescape_db"
+    ]
+  },
+  {
+    "id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "address": "경기 안양시 만안구 장내로149번길 49",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/255097329",
+    "engine": null,
+    "metadata": "{\"id\": \"255097329\", \"lat\": 37.4001626799309, \"lng\": 126.922332693405, \"area\": \"gyeonggi\", \"name\": \"방탈출카페 일상탈출\", \"phone\": \"031-441-0612\", \"engine\": null, \"address\": \"경기 안양시 만안구 장내로149번길 49\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"안양일번가점\", \"website_url\": \"http://place.map.kakao.com/255097329\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "779900297",
+    "name": "방탈출탐정",
+    "branch_name": "수원점",
+    "address": "경기 수원시",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://www.escapecafe.co.kr",
+    "engine": "escapedetective",
+    "metadata": "{\"id\": \"779900297\", \"lat\": 37.267203126002, \"lng\": 127.001917716736, \"area\": \"gyeonggi\", \"name\": \"방탈출탐정\", \"phone\": \"031-256-8787\", \"engine\": \"escapedetective\", \"address\": \"경기 수원시\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"수원점\", \"website_url\": \"https://www.escapecafe.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapedetective_db"
+    ]
+  },
+  {
+    "id": "1495650283",
+    "name": "브레이크아웃 광안",
+    "branch_name": null,
+    "address": "부산 수영구 남천바다로33번길 47",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://busan.breakoutescapegame.com/en/",
+    "engine": null,
+    "metadata": "{\"id\": \"1495650283\", \"lat\": 35.1504900299832, \"lng\": 129.115303902946, \"area\": \"busan\", \"name\": \"브레이크아웃 광안\", \"phone\": \"0507-1449-9104\", \"engine\": null, \"address\": \"부산 수영구 남천바다로33번길 47\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://busan.breakoutescapegame.com/en/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1769092819",
+    "name": "비트포비아",
+    "branch_name": "강남던전2",
+    "address": "서울 강남구 테헤란로4길 32",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1769092819\", \"lat\": 37.49628289411766, \"lng\": 127.03014819829872, \"area\": \"gangnam\", \"name\": \"비트포비아\", \"phone\": \"02-501-0323\", \"engine\": null, \"address\": \"서울 강남구 테헤란로4길 32\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"강남던전2\", \"website_url\": \"https://xdungeon.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "27413263",
+    "name": "비트포비아",
+    "branch_name": "강남던전점",
+    "address": "서울 강남구 강남대로84길 33",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"27413263\", \"lat\": 37.497583697643, \"lng\": 127.031112213726, \"area\": \"gangnam\", \"name\": \"비트포비아\", \"phone\": \"02-555-4360\", \"engine\": null, \"address\": \"서울 강남구 강남대로84길 33\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"강남던전점\", \"website_url\": \"https://xdungeon.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "1432484184",
+    "name": "비트포비아",
+    "branch_name": "대학로점",
+    "address": "서울 종로구 대학로10길 12",
+    "area": "myeongdong",
+    "is_active": true,
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1432484184\", \"lat\": 37.5815897995095, \"lng\": 127.002816737441, \"area\": \"myeongdong\", \"name\": \"비트포비아\", \"phone\": \"02-742-5252\", \"engine\": null, \"address\": \"서울 종로구 대학로10길 12\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"대학로점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xphobia_db"
+    ]
+  },
+  {
+    "id": "997297045",
+    "name": "비트포비아",
+    "branch_name": "동성로점",
+    "address": "대구 중구 동성로6길 33",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"997297045\", \"lat\": 35.8688586362438, \"lng\": 128.597357218815, \"area\": \"daegu\", \"name\": \"비트포비아\", \"phone\": \"070-5102-4760\", \"engine\": null, \"address\": \"대구 중구 동성로6길 33\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"동성로점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1183396756",
+    "name": "비트포비아",
+    "branch_name": "명동점",
+    "address": "서울 중구 명동10길 13",
+    "area": "myeongdong",
+    "is_active": true,
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1183396756\", \"lat\": 37.5632518768111, \"lng\": 126.985381004262, \"area\": \"myeongdong\", \"name\": \"비트포비아\", \"phone\": \"02-3789-8094\", \"engine\": null, \"address\": \"서울 중구 명동10길 13\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"명동점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xphobia_db"
+    ]
+  },
+  {
+    "id": "1322241204",
+    "name": "비트포비아",
+    "branch_name": "서면던전점",
+    "address": "부산 부산진구 동천로 66",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1322241204\", \"lat\": 35.15463893230701, \"lng\": 129.0625884696947, \"area\": \"busan\", \"name\": \"비트포비아\", \"phone\": \"051-818-4888\", \"engine\": null, \"address\": \"부산 부산진구 동천로 66\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"서면던전점\", \"website_url\": \"https://xdungeon.net/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "1647497159",
+    "name": "비트포비아",
+    "branch_name": "신림점",
+    "address": "서울 관악구 신림로59길 9",
+    "area": "sinlim",
+    "is_active": true,
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1647497159\", \"lat\": 37.4829521972144, \"lng\": 126.929131538582, \"area\": \"sinlim\", \"name\": \"비트포비아\", \"phone\": \"02-878-2139\", \"engine\": null, \"address\": \"서울 관악구 신림로59길 9\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"신림점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "2070160321",
+    "name": "비트포비아",
+    "branch_name": "홍대던전3",
+    "address": "서울 마포구 와우산로29길 21",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"2070160321\", \"lat\": 37.554920382572, \"lng\": 126.928576800907, \"area\": \"hongdae\", \"name\": \"비트포비아\", \"phone\": \"02-3141-9421\", \"engine\": null, \"address\": \"서울 마포구 와우산로29길 21\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"홍대던전3\", \"website_url\": \"https://xdungeon.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "1246652450",
+    "name": "비트포비아",
+    "branch_name": "홍대던전점",
+    "address": "서울 마포구 독막로3길 30",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1246652450\", \"lat\": 37.5495719511011, \"lng\": 126.917362781288, \"area\": \"hongdae\", \"name\": \"비트포비아\", \"phone\": \"02-322-4997\", \"engine\": null, \"address\": \"서울 마포구 독막로3길 30\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"홍대던전점\", \"website_url\": \"https://xdungeon.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "1478483341",
+    "name": "비트포비아 던전루나",
+    "branch_name": null,
+    "address": "서울 강남구 강남대로94길 20",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"1478483341\", \"lat\": 37.4994276866333, \"lng\": 127.029029883925, \"area\": \"gangnam\", \"name\": \"비트포비아 던전루나\", \"phone\": \"02-555-1008\", \"engine\": null, \"address\": \"서울 강남구 강남대로94길 20\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xdungeon.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "436025860",
+    "name": "비트포비아 던전스텔라",
+    "branch_name": null,
+    "address": "서울 강남구 테헤란로14길 34",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://xdungeon.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"436025860\", \"lat\": 37.4971739503309, \"lng\": 127.033631585443, \"area\": \"gangnam\", \"name\": \"비트포비아 던전스텔라\", \"phone\": \"02-568-0651\", \"engine\": null, \"address\": \"서울 강남구 테헤란로14길 34\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xdungeon.net/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "629764977",
+    "name": "비트포비아 레드던전",
+    "branch_name": "서면점",
+    "address": "부산 부산진구 중앙대로692번길 43",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "metadata": "{\"id\": \"629764977\", \"lat\": 35.1546417004784, \"lng\": 129.061579060817, \"area\": \"busan\", \"name\": \"비트포비아 레드던전\", \"phone\": \"051-803-5556\", \"engine\": null, \"address\": \"부산 부산진구 중앙대로692번길 43\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"서면점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xdungeon_db"
+    ]
+  },
+  {
+    "id": "1351400084",
+    "name": "서울이스케이프룸",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 어울마당로 138",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://www.seoul-escape.com",
+    "engine": "seoulescaperoom",
+    "metadata": "{\"id\": \"1351400084\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"서울이스케이프룸\", \"phone\": null, \"engine\": \"seoulescaperoom\", \"address\": \"서울 마포구 어울마당로 138\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"https://www.seoul-escape.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_seoulescaperoom_db",
+      "sync_seoulesc_db"
+    ]
+  },
+  {
+    "id": "8143798",
+    "name": "셜록홈즈",
+    "branch_name": "노량진점",
+    "address": "서울 동작구 노량진동 118-8 지하1층",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+    "engine": "sherlock",
+    "metadata": "{\"id\": \"8143798\", \"lat\": null, \"lng\": null, \"area\": \"seoul_other\", \"name\": \"셜록홈즈\", \"phone\": null, \"engine\": \"sherlock\", \"address\": \"서울 동작구 노량진동 118-8 지하1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"노량진점\", \"website_url\": \"https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sherlock_db"
+    ]
+  },
+  {
+    "id": "2200000001",
+    "name": "셜록홈즈",
+    "branch_name": "부산기장정관점",
+    "address": "부산 기장군 정관읍",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+    "engine": "sherlock",
+    "metadata": "{\"id\": \"2200000001\", \"lat\": null, \"lng\": null, \"area\": \"busan\", \"name\": \"셜록홈즈\", \"phone\": null, \"engine\": \"sherlock\", \"address\": \"부산 기장군 정관읍\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"부산기장정관점\", \"website_url\": \"https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sherlock_db"
+    ]
+  },
+  {
+    "id": "1396409942",
+    "name": "셜록홈즈",
+    "branch_name": "분당야탑점",
+    "address": "경기 성남시 분당구 야탑동 353-3 3층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+    "engine": "sherlock",
+    "metadata": "{\"id\": \"1396409942\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"셜록홈즈\", \"phone\": null, \"engine\": \"sherlock\", \"address\": \"경기 성남시 분당구 야탑동 353-3 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"분당야탑점\", \"website_url\": \"https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sherlock_db"
+    ]
+  },
+  {
+    "id": "887263854",
+    "name": "쇼룸404",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 서교동 407-27 5층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://showroom404.com/",
+    "engine": "showroom404",
+    "metadata": "{\"id\": \"887263854\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"쇼룸404\", \"phone\": null, \"engine\": \"showroom404\", \"address\": \"서울 마포구 서교동 407-27 5층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"https://showroom404.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_showroom404_db"
+    ]
+  },
+  {
+    "id": "1599918263",
+    "name": "수원점",
+    "branch_name": null,
+    "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "metadata": "{\"id\": \"1599918263\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"수원점\", \"phone\": \"031-234-3350\", \"engine\": \"xcape\", \"address\": \"경기 수원시 팔달구 효원로265번길 40, 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xcape_db"
+    ]
+  },
+  {
+    "id": "367178846",
+    "name": "스키피지",
+    "branch_name": null,
+    "address": "서울 마포구 와우산로 103",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://speakeasyescape.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"367178846\", \"lat\": 37.5533585557131, \"lng\": 126.925028143004, \"area\": \"hongdae\", \"name\": \"스키피지\", \"phone\": \"02-332-3228\", \"engine\": null, \"address\": \"서울 마포구 와우산로 103\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://speakeasyescape.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1908100709",
+    "name": "스튜디오이에스씨",
+    "branch_name": null,
+    "address": "서울 강남구 봉은사로18길 70",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://studioesc.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"1908100709\", \"lat\": 37.5022337181255, \"lng\": 127.027786947444, \"area\": \"gangnam\", \"name\": \"스튜디오이에스씨\", \"phone\": \"070-7716-2532\", \"engine\": null, \"address\": \"서울 강남구 봉은사로18길 70\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://studioesc.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_studioesc_db"
+    ]
+  },
+  {
+    "id": "401872428",
+    "name": "시그널헌터",
+    "branch_name": "가로수길점",
+    "address": "서울 강남구 강남대로152길 40",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://www.signalhunter.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"401872428\", \"lat\": 37.5179807907309, \"lng\": 127.022544168338, \"area\": \"gangnam\", \"name\": \"시그널헌터\", \"phone\": \"02-517-6027\", \"engine\": null, \"address\": \"서울 강남구 강남대로152길 40\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"가로수길점\", \"website_url\": \"https://www.signalhunter.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1945917235",
+    "name": "시그널헌터",
+    "branch_name": "동탄점",
+    "address": "경기 화성시 동탄구 동탄중심상가2길 7",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://signalhunter.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"1945917235\", \"lat\": 37.20580231736612, \"lng\": 127.07292567442839, \"area\": \"gyeonggi\", \"name\": \"시그널헌터\", \"phone\": \"031-613-3074\", \"engine\": null, \"address\": \"경기 화성시 동탄구 동탄중심상가2길 7\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"동탄점\", \"website_url\": \"http://signalhunter.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "280887856",
+    "name": "시크릿코드",
+    "branch_name": "홍대직영점",
+    "address": "서울 마포구 어울마당로 66",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.secret-code.co.kr",
+    "engine": "secretcode",
+    "metadata": "{\"id\": \"280887856\", \"lat\": 37.5561656666695, \"lng\": 126.925825473947, \"area\": \"hongdae\", \"name\": \"시크릿코드\", \"phone\": \"010-2185-6541\", \"engine\": \"secretcode\", \"address\": \"서울 마포구 어울마당로 66\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대직영점\", \"website_url\": \"http://www.secret-code.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_secretcode_db"
+    ]
+  },
+  {
+    "id": "1019017181",
+    "name": "신나는방탈출",
+    "branch_name": null,
+    "address": "부산 중구 남포길 5",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1019017181",
+    "engine": null,
+    "metadata": "{\"id\": \"1019017181\", \"lat\": 35.0990061467249, \"lng\": 129.029345082945, \"area\": \"busan\", \"name\": \"신나는방탈출\", \"phone\": \"051-949-1001\", \"engine\": null, \"address\": \"부산 중구 남포길 5\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1019017181\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "115701517",
+    "name": "싸인이스케이프",
+    "branch_name": "인계시티점",
+    "address": "경기 수원시 팔달구 인계동 1041-8",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://www.signescape.com",
+    "engine": "signescape",
+    "metadata": "{\"id\": \"115701517\", \"lat\": 37.2652491922625, \"lng\": 127.031138134649, \"area\": \"gyeonggi\", \"name\": \"싸인이스케이프\", \"phone\": \"031-234-7373\", \"engine\": \"signescape\", \"address\": \"경기 수원시 팔달구 인계동 1041-8\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"인계시티점\", \"website_url\": \"http://www.signescape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_signescape_db"
+    ]
+  },
+  {
+    "id": "678802397",
+    "name": "싸인이스케이프",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 와우산로 65 6층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.signescape.com",
+    "engine": "signescape",
+    "metadata": "{\"id\": \"678802397\", \"lat\": 37.5504189940142, \"lng\": 126.922843593932, \"area\": \"hongdae\", \"name\": \"싸인이스케이프\", \"phone\": \"02-2039-9188\", \"engine\": \"signescape\", \"address\": \"서울 마포구 와우산로 65 6층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"http://www.signescape.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_signescape_db"
+    ]
+  },
+  {
+    "id": "2143447304",
+    "name": "안흥여관",
+    "branch_name": null,
+    "address": "대전 중구 목척2길 45",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/2143447304",
+    "engine": null,
+    "metadata": "{\"id\": \"2143447304\", \"lat\": 36.3303060111757, \"lng\": 127.42516439151, \"area\": \"daejeon\", \"name\": \"안흥여관\", \"phone\": \"\", \"engine\": null, \"address\": \"대전 중구 목척2길 45\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/2143447304\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "660859780",
+    "name": "알카트래즈방탈출카페",
+    "branch_name": null,
+    "address": "서울 중구 명동길 38",
+    "area": "myeongdong",
+    "is_active": true,
+    "website_url": "http://alcatraz.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"660859780\", \"lat\": 37.5636157548121, \"lng\": 126.984407536023, \"area\": \"myeongdong\", \"name\": \"알카트래즈방탈출카페\", \"phone\": \"02-319-7316\", \"engine\": null, \"address\": \"서울 중구 명동길 38\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://alcatraz.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "338628640",
+    "name": "앨리스이스케이프",
+    "branch_name": "",
+    "address": "대구 중구 동성로2가 151-3",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "http://alice-escape.com",
+    "engine": "aliceescape",
+    "metadata": "{\"id\": \"338628640\", \"lat\": 35.8688132365766, \"lng\": 128.595620332138, \"area\": \"daegu\", \"name\": \"앨리스이스케이프\", \"phone\": \"053-422-8788\", \"engine\": \"aliceescape\", \"address\": \"대구 중구 동성로2가 151-3\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://alice-escape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_aliceescape_db"
+    ]
+  },
+  {
+    "id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "address": "인천 부평구 시장로 36",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "https://amazed.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"2138418097\", \"lat\": 37.4937981624032, \"lng\": 126.72625555594, \"area\": \"incheon\", \"name\": \"어메이즈드\", \"phone\": \"\", \"engine\": null, \"address\": \"인천 부평구 시장로 36\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"3호점\", \"website_url\": \"https://amazed.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "address": "제주특별자치도 제주시 고마로 100",
+    "area": "jeju",
+    "is_active": true,
+    "website_url": "http://unlimited-escape.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"166623372\", \"lat\": 33.5054385972164, \"lng\": 126.540997415496, \"area\": \"jeju\", \"name\": \"언리미티드 이스케이프\", \"phone\": \"064-753-9989\", \"engine\": null, \"address\": \"제주특별자치도 제주시 고마로 100\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://unlimited-escape.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "103606910",
+    "name": "엑소더스",
+    "branch_name": "강남1호점",
+    "address": "서울 강남구 역삼동 619-23 지하 1층",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://exodusescape.co.kr/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"103606910\", \"lat\": null, \"lng\": null, \"area\": \"gangnam\", \"name\": \"엑소더스\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"서울 강남구 역삼동 619-23 지하 1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"강남1호점\", \"website_url\": \"https://exodusescape.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  },
+  {
+    "id": "1772415237",
+    "name": "엑스이스케이프",
+    "branch_name": "홍대놀이터점",
+    "address": "서울 마포구 와우산로21길 20-5",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://xescape.com",
+    "engine": "xescape",
+    "metadata": "{\"id\": \"1772415237\", \"lat\": 37.552635335148885, \"lng\": 126.92266929214243, \"area\": \"hongdae\", \"name\": \"엑스이스케이프\", \"phone\": \"02-336-2425\", \"engine\": \"xescape\", \"address\": \"서울 마포구 와우산로21길 20-5\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대놀이터점\", \"website_url\": \"https://xescape.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_xescape_db"
+    ]
+  },
+  {
+    "id": "2012633570",
+    "name": "오늘의한페이지 방탈출카페",
+    "branch_name": null,
+    "address": "서울 강남구 봉은사로6길 26",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://page-today.co.kr/#reserve",
+    "engine": null,
+    "metadata": "{\"id\": \"2012633570\", \"lat\": 37.5033114706894, \"lng\": 127.027142707568, \"area\": \"gangnam\", \"name\": \"오늘의한페이지 방탈출카페\", \"phone\": \"02-558-6685\", \"engine\": null, \"address\": \"서울 강남구 봉은사로6길 26\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://page-today.co.kr/#reserve\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "300855776",
+    "name": "오늘탈출",
+    "branch_name": "고양점",
+    "address": "경기 고양시",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://www.todayescape.com",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"300855776\", \"lat\": 37.63722298589963, \"lng\": 126.78756546103767, \"area\": \"gyeonggi\", \"name\": \"오늘탈출\", \"phone\": \"010-9253-6844\", \"engine\": \"naver_booking\", \"address\": \"경기 고양시\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"고양점\", \"website_url\": \"https://www.todayescape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "848848018",
+    "name": "오아시스 뮤지엄",
+    "branch_name": null,
+    "address": "서울 마포구 서교동 403-21",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://oasismuseum.com",
+    "engine": "oasisescape",
+    "metadata": "{\"id\": \"848848018\", \"lat\": 37.5490872979376, \"lng\": 126.920103009829, \"area\": \"hongdae\", \"name\": \"오아시스 뮤지엄\", \"phone\": \"010-5293-7612\", \"engine\": \"oasisescape\", \"address\": \"서울 마포구 서교동 403-21\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://oasismuseum.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_oasisescape_db"
+    ]
+  },
+  {
+    "id": "763904207",
+    "name": "월투월방탈출",
+    "branch_name": "",
+    "address": "서울 관악구 남부순환로226길 9 지하 1층",
+    "area": "sinlim",
+    "is_active": true,
+    "website_url": "https://booking.naver.com/booking/12/bizes/570203",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"763904207\", \"lat\": 37.4802128489705, \"lng\": 126.954086418865, \"area\": \"sinlim\", \"name\": \"월투월방탈출\", \"phone\": \"02-875-3690\", \"engine\": \"naver_booking\", \"address\": \"서울 관악구 남부순환로226길 9 지하 1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"https://booking.naver.com/booking/12/bizes/570203\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "address": "서울 서대문구 연세로 20",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "http://withescaper.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"2000674643\", \"lat\": 37.55762198800955, \"lng\": 126.93723562967803, \"area\": \"sinchon\", \"name\": \"위드방탈출카페\", \"phone\": \"02-312-8944\", \"engine\": null, \"address\": \"서울 서대문구 연세로 20\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://withescaper.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "2016521022",
+    "name": "이스케이프샾",
+    "branch_name": "건대점",
+    "address": "서울 광진구 능동로 129-1",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "https://escapeshop.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"2016521022\", \"lat\": 37.54258561763021, \"lng\": 127.07158116141953, \"area\": \"konkuk\", \"name\": \"이스케이프샾\", \"phone\": \"02-466-3667\", \"engine\": null, \"address\": \"서울 광진구 능동로 129-1\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"건대점\", \"website_url\": \"https://escapeshop.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "1000900386",
+    "name": "이스케이프샾",
+    "branch_name": null,
+    "address": "서울 강남구 논현로175길 93",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://escapeshop.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"1000900386\", \"lat\": 37.5229274660933, \"lng\": 127.021640662948, \"area\": \"gangnam\", \"name\": \"이스케이프샾\", \"phone\": \"02-6203-3667\", \"engine\": null, \"address\": \"서울 강남구 논현로175길 93\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://escapeshop.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "1834149457",
+    "name": "이스케이프시티",
+    "branch_name": "그랜드시티신촌점",
+    "address": "서울 서대문구 연세로11길 39",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "http://escapecity.kr",
+    "engine": "escapecity",
+    "metadata": "{\"id\": \"1834149457\", \"lat\": 37.5589063271965, \"lng\": 126.934684639158, \"area\": \"sinchon\", \"name\": \"이스케이프시티\", \"phone\": \"070-7633-7355\", \"engine\": \"escapecity\", \"address\": \"서울 서대문구 연세로11길 39\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"그랜드시티신촌점\", \"website_url\": \"http://escapecity.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapecity_db"
+    ]
+  },
+  {
+    "id": "1363823824",
+    "name": "이스케이프시티",
+    "branch_name": "부천신중동점",
+    "address": "경기 부천시 원미구 중동 1138-1",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://escapecity.kr",
+    "engine": "escapecity",
+    "metadata": "{\"id\": \"1363823824\", \"lat\": 37.5012435828934, \"lng\": 126.774654035062, \"area\": \"gyeonggi\", \"name\": \"이스케이프시티\", \"phone\": \"070-5044-7345\", \"engine\": \"escapecity\", \"address\": \"경기 부천시 원미구 중동 1138-1\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"부천신중동점\", \"website_url\": \"http://escapecity.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapecity_db"
+    ]
+  },
+  {
+    "id": "926754766",
+    "name": "이스케이프시티",
+    "branch_name": "성신여대점",
+    "address": "서울 성북구 보문로34길 43",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://escapecity.kr",
+    "engine": "escapecity",
+    "metadata": "{\"id\": \"926754766\", \"lat\": 37.5908254890579, \"lng\": 127.017676984818, \"area\": \"seoul_other\", \"name\": \"이스케이프시티\", \"phone\": \"070-4065-7355\", \"engine\": \"escapecity\", \"address\": \"서울 성북구 보문로34길 43\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"성신여대점\", \"website_url\": \"http://escapecity.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapecity_db"
+    ]
+  },
+  {
+    "id": "1444854771",
+    "name": "이스케이프시티",
+    "branch_name": "영등포본점",
+    "address": "서울 영등포구 영중로8길 6",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://escapecity.kr",
+    "engine": "escapecity",
+    "metadata": "{\"id\": \"1444854771\", \"lat\": 37.5183637463384, \"lng\": 126.906180498142, \"area\": \"seoul_other\", \"name\": \"이스케이프시티\", \"phone\": \"070-8286-7355\", \"engine\": \"escapecity\", \"address\": \"서울 영등포구 영중로8길 6\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"영등포본점\", \"website_url\": \"http://escapecity.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapecity_db"
+    ]
+  },
+  {
+    "id": "230738333",
+    "name": "이스케이프존",
+    "branch_name": "강대점",
+    "address": "강원특별자치도 춘천시 서부대성로 231-1",
+    "area": "gangwon",
+    "is_active": true,
+    "website_url": "http://www.cc-escapezone.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"230738333\", \"lat\": 37.873157632843, \"lng\": 127.743965866813, \"area\": \"gangwon\", \"name\": \"이스케이프존\", \"phone\": \"033-251-6833\", \"engine\": null, \"address\": \"강원특별자치도 춘천시 서부대성로 231-1\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"강대점\", \"website_url\": \"http://www.cc-escapezone.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1856406910",
+    "name": "이스케이프탑",
+    "branch_name": "광주점",
+    "address": "광주 동구 충장로3가 38-14",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "http://kwangjutop.com",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"1856406910\", \"lat\": 35.14846858127, \"lng\": 126.914765741575, \"area\": \"gwangju\", \"name\": \"이스케이프탑\", \"phone\": \"010-2894-3020\", \"engine\": \"naver_booking\", \"address\": \"광주 동구 충장로3가 38-14\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"광주점\", \"website_url\": \"http://kwangjutop.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "340303350",
+    "name": "이스케이프하우스",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 와우산로21길 28-9",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.escapehouse.co.kr",
+    "engine": "escapehouse",
+    "metadata": "{\"id\": \"340303350\", \"lat\": 37.5528260849967, \"lng\": 126.922270738876, \"area\": \"hongdae\", \"name\": \"이스케이프하우스\", \"phone\": \"\", \"engine\": \"escapehouse\", \"address\": \"서울 마포구 와우산로21길 28-9\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"http://www.escapehouse.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapehouse_db"
+    ]
+  },
+  {
+    "id": "890251040",
+    "name": "제로월드",
+    "branch_name": "롯데월드점",
+    "address": "서울 송파구 잠실동 40-1 3층",
+    "area": "jamsil",
+    "is_active": true,
+    "website_url": "https://zerolotteworld.com/",
+    "engine": "zeroworld",
+    "metadata": "{\"id\": \"890251040\", \"lat\": null, \"lng\": null, \"area\": \"jamsil\", \"name\": \"제로월드\", \"phone\": null, \"engine\": \"zeroworld\", \"address\": \"서울 송파구 잠실동 40-1 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"롯데월드점\", \"website_url\": \"https://zerolotteworld.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_zeroworld_db"
+    ]
+  },
+  {
+    "id": "1713311920",
+    "name": "제트방탈출카페",
+    "branch_name": "",
+    "address": "울산 중구 성남동 219-158",
+    "area": "ulsan",
+    "is_active": true,
+    "website_url": "http://www.zescape.co.kr",
+    "engine": "zescape",
+    "metadata": "{\"id\": \"1713311920\", \"lat\": 35.5537442009091, \"lng\": 129.319939804641, \"area\": \"ulsan\", \"name\": \"제트방탈출카페\", \"phone\": \"052-244-4466\", \"engine\": \"zescape\", \"address\": \"울산 중구 성남동 219-158\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://www.zescape.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_zescape_db"
+    ]
+  },
+  {
+    "id": "2070697879",
+    "name": "지구별방탈출",
+    "branch_name": "홍대어드벤처점",
+    "address": "서울 마포구 와우산로21길 31 3층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://xn--2e0b040a4xj.com",
+    "engine": "jigobyeol",
+    "metadata": "{\"id\": \"2070697879\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"지구별방탈출\", \"phone\": null, \"engine\": \"jigobyeol\", \"address\": \"서울 마포구 와우산로21길 31 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대어드벤처점\", \"website_url\": \"https://xn--2e0b040a4xj.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_jigobyeol_db"
+    ]
+  },
+  {
+    "id": "1394599334",
+    "name": "지니어스이스케이프",
+    "branch_name": "",
+    "address": "전북특별자치도 익산시 모현동1가 868",
+    "area": "jeonbuk",
+    "is_active": true,
+    "website_url": "http://www.geniusescape.kr",
+    "engine": "geniusescape",
+    "metadata": "{\"id\": \"1394599334\", \"lat\": 35.95006790544734, \"lng\": 126.93862813669142, \"area\": \"jeonbuk\", \"name\": \"지니어스이스케이프\", \"phone\": \"063-841-0224\", \"engine\": \"geniusescape\", \"address\": \"전북특별자치도 익산시 모현동1가 868\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://www.geniusescape.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_geniusescape_db"
+    ]
+  },
+  {
+    "id": "1831030495",
+    "name": "체셔캣방탈출카페",
+    "branch_name": "",
+    "address": "경기 용인시 기흥구 죽전로 15 3층 302호",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://booking.naver.com/booking/12/bizes/601362",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"1831030495\", \"lat\": 37.3207499157597, \"lng\": 127.110342928387, \"area\": \"gyeonggi\", \"name\": \"체셔캣방탈출카페\", \"phone\": \"0507-1387-7721\", \"engine\": \"naver_booking\", \"address\": \"경기 용인시 기흥구 죽전로 15 3층 302호\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"https://booking.naver.com/booking/12/bizes/601362\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "431508316",
+    "name": "카오스이스케이프",
+    "branch_name": null,
+    "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+    "area": "jeonbuk",
+    "is_active": true,
+    "website_url": "http://chaosesc.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"431508316\", \"lat\": 35.8432550344227, \"lng\": 127.125627345476, \"area\": \"jeonbuk\", \"name\": \"카오스이스케이프\", \"phone\": \"063-252-2891\", \"engine\": null, \"address\": \"전북특별자치도 전주시 덕진구 명륜5길 10-2\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://chaosesc.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1757443413",
+    "name": "코난방탈출",
+    "branch_name": "구로디지털단지역점",
+    "address": "서울 구로구 구로동 1124-54 3층",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://conanescape.kr",
+    "engine": "conanescape",
+    "metadata": "{\"id\": \"1757443413\", \"lat\": 37.4844879940488, \"lng\": 126.899904735861, \"area\": \"seoul_other\", \"name\": \"코난방탈출\", \"phone\": \"02-830-6224\", \"engine\": \"conanescape\", \"address\": \"서울 구로구 구로동 1124-54 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"구로디지털단지역점\", \"website_url\": \"http://conanescape.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_conanescape_db"
+    ]
+  },
+  {
+    "id": "1741880444",
+    "name": "코드나인방탈출카페",
+    "branch_name": null,
+    "address": "충남 당진시 당진중앙2로 85-6",
+    "area": "chungnam",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1741880444",
+    "engine": null,
+    "metadata": "{\"id\": \"1741880444\", \"lat\": 36.8935722300859, \"lng\": 126.62967497188, \"area\": \"chungnam\", \"name\": \"코드나인방탈출카페\", \"phone\": \"041-357-1313\", \"engine\": null, \"address\": \"충남 당진시 당진중앙2로 85-6\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1741880444\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "522639283",
+    "name": "코드이스케이프",
+    "branch_name": "가로수길점",
+    "address": "서울 강남구 가로수길 14",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "http://www.code-escape-garosu.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"522639283\", \"lat\": 37.518822164570295, \"lng\": 127.02338375716188, \"area\": \"gangnam\", \"name\": \"코드이스케이프\", \"phone\": \"02-541-7544\", \"engine\": null, \"address\": \"서울 강남구 가로수길 14\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"가로수길점\", \"website_url\": \"http://www.code-escape-garosu.com/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "2100000004",
+    "name": "큐브이스케이프",
+    "branch_name": "대구점",
+    "address": "대구 중구 동성로2길 81 3층",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "http://daegu.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"2100000004\", \"lat\": null, \"lng\": null, \"area\": \"daegu\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"대구 중구 동성로2길 81 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"대구점\", \"website_url\": \"http://daegu.cubeescape.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "167846502",
+    "name": "큐브이스케이프",
+    "branch_name": "대전둔산점",
+    "address": "대전 서구 대덕대로185번길 47 5층",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "http://daejeon.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"167846502\", \"lat\": null, \"lng\": null, \"area\": \"daejeon\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"대전 서구 대덕대로185번길 47 5층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"대전둔산점\", \"website_url\": \"http://daejeon.cubeescape.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "4331171",
+    "name": "큐브이스케이프",
+    "branch_name": "수유점",
+    "address": "서울 강북구 수유동 174-3 3층",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://suyu.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"4331171\", \"lat\": null, \"lng\": null, \"area\": \"seoul_other\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"서울 강북구 수유동 174-3 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"수유점\", \"website_url\": \"http://suyu.cubeescape.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "27564986",
+    "name": "큐브이스케이프",
+    "branch_name": "인천점",
+    "address": "인천 남동구 구월동 1407",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "http://incheon.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"27564986\", \"lat\": null, \"lng\": null, \"area\": \"incheon\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"인천 남동구 구월동 1407\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"인천점\", \"website_url\": \"http://incheon.cubeescape.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "2100000001",
+    "name": "큐브이스케이프",
+    "branch_name": "잠실점",
+    "address": "서울 송파구 잠실동 177-5",
+    "area": "jamsil",
+    "is_active": true,
+    "website_url": "http://jamsil.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"2100000001\", \"lat\": null, \"lng\": null, \"area\": \"jamsil\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"서울 송파구 잠실동 177-5\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"잠실점\", \"website_url\": \"http://jamsil.cubeescape.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "27522878",
+    "name": "큐브이스케이프",
+    "branch_name": "전주점",
+    "address": "전북특별자치도 전주시 완산구 홍산남로 78 다올빌딩 4층",
+    "area": "jeonbuk",
+    "is_active": true,
+    "website_url": "http://junju.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"27522878\", \"lat\": null, \"lng\": null, \"area\": \"jeonbuk\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"전북특별자치도 전주시 완산구 홍산남로 78 다올빌딩 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"전주점\", \"website_url\": \"http://junju.cubeescape.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "1857201893",
+    "name": "큐브이스케이프",
+    "branch_name": "천호점",
+    "address": "서울 강동구 천호동 488-1 3층",
+    "area": "jamsil",
+    "is_active": true,
+    "website_url": "http://cheonho.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"1857201893\", \"lat\": null, \"lng\": null, \"area\": \"jamsil\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"서울 강동구 천호동 488-1 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"천호점\", \"website_url\": \"http://cheonho.cubeescape.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "27413260",
+    "name": "큐브이스케이프",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 와우산로29나길 9 2층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.cubeescape.co.kr/",
+    "engine": "cubeescape",
+    "metadata": "{\"id\": \"27413260\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"서울 마포구 와우산로29나길 9 2층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"http://www.cubeescape.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_cubeescape_db"
+    ]
+  },
+  {
+    "id": "315548029",
+    "name": "크라임씬카페 퍼즐팩토리",
+    "branch_name": "홍대3호점",
+    "address": "서울 마포구 양화로 120",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://www.puzzlefactory.co.kr",
+    "engine": "puzzlefactory",
+    "metadata": "{\"id\": \"315548029\", \"lat\": 37.5539249561403, \"lng\": 126.920398880481, \"area\": \"hongdae\", \"name\": \"크라임씬카페 퍼즐팩토리\", \"phone\": \"010-8204-3531\", \"engine\": \"puzzlefactory\", \"address\": \"서울 마포구 양화로 120\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대3호점\", \"website_url\": \"http://www.puzzlefactory.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_puzzlefactory_db"
+    ]
+  },
+  {
+    "id": "949587061",
+    "name": "클레버타운",
+    "branch_name": "신촌점",
+    "address": "서울 서대문구 신촌동 57-7",
+    "area": "sinchon",
+    "is_active": true,
+    "website_url": "https://clevertown.co.kr/",
+    "engine": "clevertown",
+    "metadata": "{\"id\": \"949587061\", \"lat\": null, \"lng\": null, \"area\": \"sinchon\", \"name\": \"클레버타운\", \"phone\": null, \"engine\": \"clevertown\", \"address\": \"서울 서대문구 신촌동 57-7\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"신촌점\", \"website_url\": \"https://clevertown.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_clevertown_db"
+    ]
+  },
+  {
+    "id": "1405262610",
+    "name": "키이스케이프",
+    "branch_name": "강남점",
+    "address": "서울 강남구 강남대로96길 17",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "http://keyescape.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"1405262610\", \"lat\": 37.5001035869388, \"lng\": 127.028430769789, \"area\": \"gangnam\", \"name\": \"키이스케이프\", \"phone\": \"010-7456-6082\", \"engine\": null, \"address\": \"서울 강남구 강남대로96길 17\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"강남점\", \"website_url\": \"http://keyescape.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_keyescape_db"
+    ]
+  },
+  {
+    "id": "52252534",
+    "name": "키즈인더룸",
+    "branch_name": "평촌점",
+    "address": "경기 안양시 동안구 시민대로 187",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://kidsintheroom.com/",
+    "engine": null,
+    "metadata": "{\"id\": \"52252534\", \"lat\": 37.3917835286896, \"lng\": 126.951766684208, \"area\": \"gyeonggi\", \"name\": \"키즈인더룸\", \"phone\": \"031-383-5532\", \"engine\": null, \"address\": \"경기 안양시 동안구 시민대로 187\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"평촌점\", \"website_url\": \"https://kidsintheroom.com/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "759455993",
+    "name": "테라스페이스",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 와우산로19길 9 지하1층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://teraspace.co.kr",
+    "engine": "teraspace",
+    "metadata": "{\"id\": \"759455993\", \"lat\": 37.5511306576787, \"lng\": 126.922652740086, \"area\": \"hongdae\", \"name\": \"테라스페이스\", \"phone\": \"02-6952-1285\", \"engine\": \"teraspace\", \"address\": \"서울 마포구 와우산로19길 9 지하1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"https://teraspace.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_teraspace_db"
+    ]
+  },
+  {
+    "id": "27504980",
+    "name": "트릭이스케이프",
+    "branch_name": "",
+    "address": "경기 의정부시 의정부동 197-4",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://www.trickescape.com",
+    "engine": "trickescape",
+    "metadata": "{\"id\": \"27504980\", \"lat\": 37.7410792474241, \"lng\": 127.047392582289, \"area\": \"gyeonggi\", \"name\": \"트릭이스케이프\", \"phone\": \"031-821-4487\", \"engine\": \"trickescape\", \"address\": \"경기 의정부시 의정부동 197-4\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"http://www.trickescape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_trickescape_db"
+    ]
+  },
+  {
+    "id": "327610610",
+    "name": "티켓투이스케이프",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 와우산로29가길 83",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://www.ttescape.co.kr",
+    "engine": "ttescape",
+    "metadata": "{\"id\": \"327610610\", \"lat\": 37.5536054339682, \"lng\": 126.925035817631, \"area\": \"hongdae\", \"name\": \"티켓투이스케이프\", \"phone\": \"02-338-7788\", \"engine\": \"ttescape\", \"address\": \"서울 마포구 와우산로29가길 83\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"https://www.ttescape.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_ttescape_db"
+    ]
+  },
+  {
+    "id": "422613765",
+    "name": "파노라마 부산",
+    "branch_name": null,
+    "address": "부산 남구 용소로14번길 9",
+    "area": "busan",
+    "is_active": true,
+    "website_url": "https://naver.me/FutFZ0bm",
+    "engine": null,
+    "metadata": "{\"id\": \"422613765\", \"lat\": 35.1358010250439, \"lng\": 129.10024483128, \"area\": \"busan\", \"name\": \"파노라마 부산\", \"phone\": \"0507-1434-0968\", \"engine\": null, \"address\": \"부산 남구 용소로14번길 9\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://naver.me/FutFZ0bm\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "address": "서울 강남구 테헤란로8길 28-4",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://parabox.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"123477337\", \"lat\": 37.4970033258976, \"lng\": 127.031577883554, \"area\": \"gangnam\", \"name\": \"파라박스\", \"phone\": \"\", \"engine\": null, \"address\": \"서울 강남구 테헤란로8길 28-4\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://parabox.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "27178625",
+    "name": "패닉이스케이프",
+    "branch_name": "목동점",
+    "address": "서울 양천구 목동동로 343 3층",
+    "area": "seoul_other",
+    "is_active": true,
+    "website_url": "http://www.panicescape.com",
+    "engine": "panicescape",
+    "metadata": "{\"id\": \"27178625\", \"lat\": 37.5261813339901, \"lng\": 126.86251646259, \"area\": \"seoul_other\", \"name\": \"패닉이스케이프\", \"phone\": \"02-6408-5044\", \"engine\": \"panicescape\", \"address\": \"서울 양천구 목동동로 343 3층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"목동점\", \"website_url\": \"http://www.panicescape.com\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_panicescape_db"
+    ]
+  },
+  {
+    "id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "address": "광주 동구 문화전당로35번길 2",
+    "area": "gwangju",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/79137052",
+    "engine": null,
+    "metadata": "{\"id\": \"79137052\", \"lat\": 35.14570859009939, \"lng\": 126.9186665153119, \"area\": \"gwangju\", \"name\": \"페르소나\", \"phone\": \"\", \"engine\": null, \"address\": \"광주 동구 문화전당로35번길 2\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/79137052\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "874592991",
+    "name": "프랭크의골동품가게",
+    "branch_name": null,
+    "address": "서울 강남구 강남대로96길 19",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://thefrank.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"874592991\", \"lat\": 37.500157617287, \"lng\": 127.028555189115, \"area\": \"gangnam\", \"name\": \"프랭크의골동품가게\", \"phone\": \"010-5576-4594\", \"engine\": null, \"address\": \"서울 강남구 강남대로96길 19\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://thefrank.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_frankantique_db"
+    ]
+  },
+  {
+    "id": "841734382",
+    "name": "플레이더월드",
+    "branch_name": "강남점",
+    "address": "서울 서초구 사평대로56길 14",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "https://reservation.playthe.world/",
+    "engine": null,
+    "metadata": "{\"id\": \"841734382\", \"lat\": 37.5028086477666, \"lng\": 127.023204597522, \"area\": \"gangnam\", \"name\": \"플레이더월드\", \"phone\": \"070-4418-5588\", \"engine\": null, \"address\": \"서울 서초구 사평대로56길 14\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"강남점\", \"website_url\": \"https://reservation.playthe.world/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "746135486",
+    "name": "플레이더월드",
+    "branch_name": "건대점",
+    "address": "서울 광진구 동일로20길 98",
+    "area": "konkuk",
+    "is_active": true,
+    "website_url": "https://playthe.world/",
+    "engine": null,
+    "metadata": "{\"id\": \"746135486\", \"lat\": 37.5398032110675, \"lng\": 127.068749759245, \"area\": \"konkuk\", \"name\": \"플레이더월드\", \"phone\": \"0507-1417-1154\", \"engine\": null, \"address\": \"서울 광진구 동일로20길 98\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"건대점\", \"website_url\": \"https://playthe.world/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "1224388097",
+    "name": "플레이더월드",
+    "branch_name": "대전은행점",
+    "address": "대전 중구 대종로480번길 7",
+    "area": "daejeon",
+    "is_active": true,
+    "website_url": "https://playthe.world/",
+    "engine": null,
+    "metadata": "{\"id\": \"1224388097\", \"lat\": 36.3276139265632, \"lng\": 127.427009660188, \"area\": \"daejeon\", \"name\": \"플레이더월드\", \"phone\": \"\", \"engine\": null, \"address\": \"대전 중구 대종로480번길 7\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"대전은행점\", \"website_url\": \"https://playthe.world/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "76631654",
+    "name": "플레이더월드",
+    "branch_name": "동성로점",
+    "address": "대구 중구 동성로5길 43",
+    "area": "daegu",
+    "is_active": true,
+    "website_url": "https://playthe.world/",
+    "engine": null,
+    "metadata": "{\"id\": \"76631654\", \"lat\": 35.8677284444896, \"lng\": 128.596962541838, \"area\": \"daegu\", \"name\": \"플레이더월드\", \"phone\": \"053-256-7503\", \"engine\": null, \"address\": \"대구 중구 동성로5길 43\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"동성로점\", \"website_url\": \"https://playthe.world/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "1637776603",
+    "name": "플레이더월드",
+    "branch_name": "부평점",
+    "address": "인천 부평구 부평문화로80번길 31",
+    "area": "incheon",
+    "is_active": true,
+    "website_url": "https://playthe.world/",
+    "engine": null,
+    "metadata": "{\"id\": \"1637776603\", \"lat\": 37.4929667990536, \"lng\": 126.724431238793, \"area\": \"incheon\", \"name\": \"플레이더월드\", \"phone\": \"032-212-0868\", \"engine\": null, \"address\": \"인천 부평구 부평문화로80번길 31\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"부평점\", \"website_url\": \"https://playthe.world/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "767938268",
+    "name": "플레이더월드",
+    "branch_name": "평택점",
+    "address": "경기 평택시 평택2로10번길 34",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "https://playthe.world/",
+    "engine": null,
+    "metadata": "{\"id\": \"767938268\", \"lat\": 36.9919744539883, \"lng\": 127.088967735706, \"area\": \"gyeonggi\", \"name\": \"플레이더월드\", \"phone\": \"031-654-3613\", \"engine\": null, \"address\": \"경기 평택시 평택2로10번길 34\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"평택점\", \"website_url\": \"https://playthe.world/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playtheworld_etc_db"
+    ]
+  },
+  {
+    "id": "1416262413",
+    "name": "플레이이스케이프",
+    "branch_name": "원주점",
+    "address": "강원특별자치도 원주시 단계동 855-1",
+    "area": "gangwon",
+    "is_active": true,
+    "website_url": "http://www.playescape.co.kr",
+    "engine": "playescape",
+    "metadata": "{\"id\": \"1416262413\", \"lat\": 37.3474661976531, \"lng\": 127.931837123657, \"area\": \"gangwon\", \"name\": \"플레이이스케이프\", \"phone\": \"033-742-5511\", \"engine\": \"playescape\", \"address\": \"강원특별자치도 원주시 단계동 855-1\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"원주점\", \"website_url\": \"http://www.playescape.co.kr\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_playescape_db"
+    ]
+  },
+  {
+    "id": "1466171651",
+    "name": "플레이포인트랩",
+    "branch_name": "강남점",
+    "address": "서울 강남구 강남대로98길 11",
+    "area": "gangnam",
+    "is_active": true,
+    "website_url": "http://www.master-key.co.kr/",
+    "engine": null,
+    "metadata": "{\"id\": \"1466171651\", \"lat\": 37.5008786768572, \"lng\": 127.027481099747, \"area\": \"gangnam\", \"name\": \"플레이포인트랩\", \"phone\": \"070-8872-0142\", \"engine\": null, \"address\": \"서울 강남구 강남대로98길 11\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"강남점\", \"website_url\": \"http://www.master-key.co.kr/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_masterkey_db"
+    ]
+  },
+  {
+    "id": "1719351380",
+    "name": "필더블랭크",
+    "branch_name": "",
+    "address": "서울 마포구 동교동 201-6",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://booking.naver.com/booking/12/bizes/1548412",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"1719351380\", \"lat\": 37.55720474844449, \"lng\": 126.9219911731789, \"area\": \"hongdae\", \"name\": \"필더블랭크\", \"phone\": \"02-337-9001\", \"engine\": \"naver_booking\", \"address\": \"서울 마포구 동교동 201-6\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"\", \"website_url\": \"https://booking.naver.com/booking/12/bizes/1548412\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "1944665207",
+    "name": "하이드앤시크",
+    "branch_name": "쌈지길점",
+    "address": "서울 종로구 관훈동 38",
+    "area": "daehakro",
+    "is_active": true,
+    "website_url": "https://fuzzyline.co.kr",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"1944665207\", \"lat\": 37.574342155638014, \"lng\": 126.98477999829184, \"area\": \"daehakro\", \"name\": \"하이드앤시크\", \"phone\": \"010-3235-5900\", \"engine\": \"naver_booking\", \"address\": \"서울 종로구 관훈동 38\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"쌈지길점\", \"website_url\": \"https://fuzzyline.co.kr\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "554838835",
+    "name": "하이드앤시크",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 동교동 203-57",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "http://withescaper.com",
+    "engine": "naver_booking",
+    "metadata": "{\"id\": \"554838835\", \"lat\": 37.5581586456178, \"lng\": 126.920255168717, \"area\": \"hongdae\", \"name\": \"하이드앤시크\", \"phone\": \"02-333-5900\", \"engine\": \"naver_booking\", \"address\": \"서울 마포구 동교동 203-57\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"http://withescaper.com\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_escapetop_db"
+    ]
+  },
+  {
+    "id": "1252080396",
+    "name": "할리갈리인더룸방탈출시즌2",
+    "branch_name": null,
+    "address": "경기 고양시 일산동구 무궁화로 20-11",
+    "area": "gyeonggi",
+    "is_active": true,
+    "website_url": "http://place.map.kakao.com/1252080396",
+    "engine": null,
+    "metadata": "{\"id\": \"1252080396\", \"lat\": 37.6618315734849, \"lng\": 126.767539424787, \"area\": \"gyeonggi\", \"name\": \"할리갈리인더룸방탈출시즌2\", \"phone\": \"031-902-9242\", \"engine\": null, \"address\": \"경기 고양시 일산동구 무궁화로 20-11\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1252080396\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": []
+  },
+  {
+    "id": "289742025",
+    "name": "호러스위치",
+    "branch_name": "홍대점",
+    "address": "서울 마포구 서교동 358-121 철록헌 지하1층",
+    "area": "hongdae",
+    "is_active": true,
+    "website_url": "https://www.horrorswitch.com/ko/",
+    "engine": "horrorswitch",
+    "metadata": "{\"id\": \"289742025\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"호러스위치\", \"phone\": null, \"engine\": \"horrorswitch\", \"address\": \"서울 마포구 서교동 358-121 철록헌 지하1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"https://www.horrorswitch.com/ko/\", \"supported_area\": true}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_horrorswitch_db"
+    ]
+  },
+  {
+    "id": "1168819420",
+    "name": "호텔레토",
+    "branch_name": "성수점",
+    "address": "서울 성동구 성수이로 78 2층",
+    "area": "seongsu",
+    "is_active": true,
+    "website_url": "http://hotelletoh.co.kr/",
+    "engine": "sinbiweb",
+    "metadata": "{\"id\": \"1168819420\", \"lat\": null, \"lng\": null, \"area\": \"seongsu\", \"name\": \"호텔레토\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"서울 성동구 성수이로 78 2층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"성수점\", \"website_url\": \"http://hotelletoh.co.kr/\", \"supported_area\": false}",
+    "updated_at": "2026-11-15 04:28:39.516666+00:00",
+    "crawlers": [
+      "sync_sinbiweb_db"
+    ]
+  }
+]

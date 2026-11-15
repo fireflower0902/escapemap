@@ -280,8 +280,12 @@ def sync_schedules(
             theme_name = theme_data["theme_name"]
             theme_doc_id = name_to_doc_id.get(theme_name)
             if theme_doc_id is None:
-                print(f"  [WARN] Firestore에 없는 테마: {theme_name!r}")
-                continue
+                # 미래 날짜의 한정 테마도 공식 페이지에서 확인된 이름으로 등록한다.
+                discovered = sync_themes([theme_data])
+                name_to_doc_id.update(discovered)
+                theme_doc_id = discovered.get(theme_name)
+                if theme_doc_id is None:
+                    raise ValueError("공식 테마 등록 실패: " + theme_name)
 
             for slot in theme_data["slots"]:
                 time_obj = slot["time"]

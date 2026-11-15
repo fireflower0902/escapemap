@@ -1,0 +1,468 @@
+[
+  {
+    "cafe_id": "1501825629",
+    "name": "강릉방탈출카페",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1501825629",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "461296797",
+    "name": "고한 시티써커스",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/461296797",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "786094598",
+    "name": "광주방탈출카페 식스센스",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/786094598",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "url": "http://www.darockesc.com/",
+    "status": "unreachable",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "964420524",
+    "name": "다락방방탈출카페",
+    "branch_name": "청주직영점",
+    "url": "http://place.map.kakao.com/964420524",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "302959300",
+    "name": "더도어즈이스케이프",
+    "branch_name": null,
+    "url": "http://www.thedoorsescape.com/",
+    "http_status": 200,
+    "final_url": "http://www.thedoorsescape.com/",
+    "title": "",
+    "booking_links": [],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "1900192470",
+    "name": "도파민방탈출",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1900192470",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "716654663",
+    "name": "두잇이스케이프",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/716654663",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "40766168",
+    "name": "드림이스케이프",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/40766168",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "77278349",
+    "name": "레드런",
+    "branch_name": "천안점",
+    "url": "http://place.map.kakao.com/77278349",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "1331705130",
+    "name": "레드런",
+    "branch_name": "천호점",
+    "url": "https://naver.me/xbjXQceE",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "27369058",
+    "name": "리얼이스케이프챌린지",
+    "branch_name": null,
+    "url": "http://www.rec-escape.com/",
+    "http_status": 200,
+    "final_url": "http://www.rec-escape.com/",
+    "title": "리얼 이스케이프 첼린지",
+    "booking_links": [],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "776644226",
+    "name": "리즌방탈출",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/776644226",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "888192913",
+    "name": "미션브레이크",
+    "branch_name": "CGV용산아이파크몰점",
+    "url": "https://www.xphobia.net/",
+    "http_status": 200,
+    "final_url": "https://xphobia.net/",
+    "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+    "booking_links": [
+      {
+        "label": "예약 · 브랜드 보기 →",
+        "url": "https://xphobia.net/#works"
+      },
+      {
+        "label": "예약하기 ↗",
+        "url": "https://xdungeon.net/?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+      },
+      {
+        "label": "예약하기 ↗",
+        "url": "https://checkie.co.kr/ko?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+      },
+      {
+        "label": "제일기숙학원 예약하기 ↗",
+        "url": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+      },
+      {
+        "label": "홍대 · 한강대 담력훈련 ↗",
+        "url": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+      },
+      {
+        "label": "미션브레이크 ↗ CGV × Phobia · 예약",
+        "url": "https://cgv.co.kr/act/actvt/00004"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "1516889516",
+    "name": "방탈출 뉴케이스",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1516889516",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "1560724472",
+    "name": "방탈출 미로",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1560724472",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "1992606174",
+    "name": "방탈출고",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1992606174",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "url": "http://place.map.kakao.com/255097329",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "1495650283",
+    "name": "브레이크아웃 광안",
+    "branch_name": null,
+    "url": "https://busan.breakoutescapegame.com/en/",
+    "http_status": 200,
+    "final_url": "https://busan.breakoutescapegame.com/en/",
+    "title": "Escape Room Busan| Breakout | Haeundae & Gwangalli",
+    "booking_links": [
+      {
+        "label": "",
+        "url": "https://booking.naver.com/booking/12/bizes/27519"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "997297045",
+    "name": "비트포비아",
+    "branch_name": "동성로점",
+    "url": "https://www.xphobia.net/",
+    "http_status": 200,
+    "final_url": "https://xphobia.net/",
+    "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+    "booking_links": [
+      {
+        "label": "예약 · 브랜드 보기 →",
+        "url": "https://xphobia.net/#works"
+      },
+      {
+        "label": "예약하기 ↗",
+        "url": "https://xdungeon.net/?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+      },
+      {
+        "label": "예약하기 ↗",
+        "url": "https://checkie.co.kr/ko?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+      },
+      {
+        "label": "제일기숙학원 예약하기 ↗",
+        "url": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+      },
+      {
+        "label": "홍대 · 한강대 담력훈련 ↗",
+        "url": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+      },
+      {
+        "label": "미션브레이크 ↗ CGV × Phobia · 예약",
+        "url": "https://cgv.co.kr/act/actvt/00004"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "1647497159",
+    "name": "비트포비아",
+    "branch_name": "신림점",
+    "url": "https://www.xphobia.net/",
+    "http_status": 200,
+    "final_url": "https://xphobia.net/",
+    "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+    "booking_links": [
+      {
+        "label": "예약 · 브랜드 보기 →",
+        "url": "https://xphobia.net/#works"
+      },
+      {
+        "label": "예약하기 ↗",
+        "url": "https://xdungeon.net/?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+      },
+      {
+        "label": "예약하기 ↗",
+        "url": "https://checkie.co.kr/ko?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+      },
+      {
+        "label": "제일기숙학원 예약하기 ↗",
+        "url": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+      },
+      {
+        "label": "홍대 · 한강대 담력훈련 ↗",
+        "url": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+      },
+      {
+        "label": "미션브레이크 ↗ CGV × Phobia · 예약",
+        "url": "https://cgv.co.kr/act/actvt/00004"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "367178846",
+    "name": "스키피지",
+    "branch_name": null,
+    "url": "https://speakeasyescape.co.kr/",
+    "http_status": 200,
+    "final_url": "https://speakeasyescape.co.kr/layout/res/home.php?go=main",
+    "title": "스피키지",
+    "booking_links": [
+      {
+        "label": "실시간예약",
+        "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.make"
+      },
+      {
+        "label": "장르 : 코믹 시간 : 65분 인원 : 2~6명 예약하기 급X 코믹 난이도 :",
+        "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.make&s_theme_num=2"
+      },
+      {
+        "label": "장르 : 스포츠 시간 : 65분 인원 : 2~6명 예약하기 올림픽 시즌2 - 1988 스포츠 난이도 :",
+        "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.make&s_theme_num=1"
+      },
+      {
+        "label": "예약확인",
+        "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.login"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "401872428",
+    "name": "시그널헌터",
+    "branch_name": "가로수길점",
+    "url": "https://www.signalhunter.co.kr/",
+    "status": "unreachable",
+    "error": "SSLError"
+  },
+  {
+    "cafe_id": "1945917235",
+    "name": "시그널헌터",
+    "branch_name": "동탄점",
+    "url": "http://signalhunter.co.kr/",
+    "http_status": 200,
+    "final_url": "http://signalhunter.co.kr/",
+    "title": "",
+    "booking_links": [],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "1019017181",
+    "name": "신나는방탈출",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1019017181",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "2143447304",
+    "name": "안흥여관",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/2143447304",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "660859780",
+    "name": "알카트래즈방탈출카페",
+    "branch_name": null,
+    "url": "http://alcatraz.co.kr/",
+    "http_status": 200,
+    "final_url": "http://alcatraz.co.kr/",
+    "title": "ìì¹´í¸ë¼ì¦ ë°©íì¶ì¹´í ìì íì´ì§",
+    "booking_links": [],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "url": "https://amazed.co.kr/",
+    "http_status": 200,
+    "final_url": "https://amazed.co.kr/",
+    "title": "AMAZED – ESCAPE ADVENTURE",
+    "booking_links": [
+      {
+        "label": "매장선택 및 예약",
+        "url": "https://amazed.co.kr/?page_id=3921"
+      },
+      {
+        "label": "예약하기",
+        "url": "https://amazed.co.kr/?page_id=66905#booking"
+      },
+      {
+        "label": "AMAZED BOOKING CLIENT",
+        "url": "https://amazed.co.kr/?page_id=7596"
+      },
+      {
+        "label": "바로예약",
+        "url": "https://amazed.co.kr/?page_id=4808#booking"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "url": "http://unlimited-escape.com/",
+    "status": "unreachable",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "url": "http://withescaper.com/",
+    "status": "unreachable",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "230738333",
+    "name": "이스케이프존",
+    "branch_name": "강대점",
+    "url": "http://www.cc-escapezone.co.kr/",
+    "http_status": 200,
+    "final_url": "http://www.cc-escapezone.co.kr/kr/main.php",
+    "title": "ì´ì¤ì¼ì´íì¡´",
+    "booking_links": [
+      {
+        "label": "BOOKING",
+        "url": "http://www.cc-escapezone.co.kr/kr/webpage.php?webpage=0301"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "431508316",
+    "name": "카오스이스케이프",
+    "branch_name": null,
+    "url": "http://chaosesc.co.kr/",
+    "http_status": 200,
+    "final_url": "http://chaosesc.co.kr/",
+    "title": "카오스이스케이프-방탈출카페",
+    "booking_links": [],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "1741880444",
+    "name": "코드나인방탈출카페",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1741880444",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "522639283",
+    "name": "코드이스케이프",
+    "branch_name": "가로수길점",
+    "url": "http://www.code-escape-garosu.com/",
+    "http_status": 200,
+    "final_url": "http://www.code-escape-garosu.com/",
+    "title": "ì½ëì´ì¤ì¼ì´í ê°ë¡ìê¸¸2",
+    "booking_links": [],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "52252534",
+    "name": "키즈인더룸",
+    "branch_name": "평촌점",
+    "url": "https://kidsintheroom.com/",
+    "http_status": 200,
+    "final_url": "https://kidsintheroom.com/",
+    "title": "키즈인더룸",
+    "booking_links": [
+      {
+        "label": "예약하기",
+        "url": "https://kidsintheroom.com/27"
+      }
+    ],
+    "status": "public_page"
+  },
+  {
+    "cafe_id": "422613765",
+    "name": "파노라마 부산",
+    "branch_name": null,
+    "url": "https://naver.me/FutFZ0bm",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "url": "https://parabox.kr/",
+    "status": "unreachable",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/79137052",
+    "status": "official_site_needed"
+  },
+  {
+    "cafe_id": "746135486",
+    "name": "플레이더월드",
+    "branch_name": "건대점",
+    "url": "https://playthe.world/",
+    "status": "unreachable",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "1252080396",
+    "name": "할리갈리인더룸방탈출시즌2",
+    "branch_name": null,
+    "url": "http://place.map.kakao.com/1252080396",
+    "status": "official_site_needed"
+  }
+]

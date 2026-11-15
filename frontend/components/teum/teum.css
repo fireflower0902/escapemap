@@ -37,3 +37,42 @@
  .teum-app input[type="date"]::-webkit-date-and-time-value{text-align:left;min-width:0}
 }
 @media (max-width:380px){.teum-app .booking-fields{grid-template-columns:minmax(0,1fr)}}
+
+/* Desktop reading scale: keep captions and booking times readable at normal zoom. */
+@media (min-width:1024px){
+ .teum-app{font-size:16px}
+ .teum-desktop-nav a{font-size:15px}
+ .teum-app .eyebrow{font-size:12px}
+ .teum-app .muted{font-size:14px}
+ .teum-app .section-head h2{font-size:25px}
+ .teum-app .section-head>a{font-size:14px}
+ .teum-app .live,.teum-app .data-caption{font-size:13px}
+ .teum-app .chips button{font-size:15px;min-height:42px;padding:9px 18px}
+ .teum-app .home-room-grid{gap:28px 24px}
+ .teum-app .preview-room{gap:16px;padding-bottom:24px;align-items:flex-start}
+ .teum-app .preview-room>.teum-poster{width:94px;height:132px}
+ .teum-app .room-top>span{font-size:13px;line-height:1.6}
+ .teum-app .room-copy>h3{font-size:18px;line-height:1.5;margin:5px 0 6px}
+ .teum-app .room-copy>.muted{font-size:13px}
+ .teum-app .home-times.booking-slots{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:12px}
+ .teum-app .home-times .booking-slot{font-size:14px;min-height:36px;padding:7px 2px;font-variant-numeric:tabular-nums}
+ .teum-app .booking-search input,.teum-app .booking-fields input,.teum-app .booking-fields select,.teum-app .time-range select{font-size:16px}
+ .teum-app .booking-fields label,.teum-app .time-range-label,.teum-app .advanced-filters summary,.teum-app .filter-label{font-size:14px}
+ .teum-app .filter-help,.teum-app .filter-note,.teum-app .result-heading p{font-size:13px}
+ .teum-app .cafe-heading h2{font-size:19px}
+ .teum-app .cafe-facts p,.teum-app .cafe-availability{font-size:13px}
+ .teum-app .theme-copy h3{font-size:18px}
+ .teum-app .theme-copy p{font-size:13px;line-height:1.7}
+ .teum-app .booking-slot{font-size:14px;min-height:38px}
+ .teum-app .teum-footer{font-size:13px}
+}
+@media (min-width:1024px) and (max-width:1279px){.teum-app .home-room-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.teum-app .my-stats span{font-size:13px;line-height:1.6}.teum-app .my-tabs button{font-size:14px;min-height:48px}.teum-app .profile .muted{font-size:13px}
+.problem-audio-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0;font-size:12px;color:var(--muted)}.sound-toggle{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line)!important;border-radius:20px;padding:9px 13px!important;background:white!important;font-size:13px!important;white-space:nowrap}.sound-toggle[aria-pressed="true"]{background:var(--soft)!important;color:var(--green)}.problem-audio-error{font-size:13px;color:#a53e45;margin-bottom:12px!important}.problem-skip{border-top:1px solid var(--line);margin-top:25px;padding-top:20px;text-align:center}.problem-skip button{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:650;text-decoration:underline;text-underline-offset:4px}.problem-skip p{font-size:12px;color:var(--muted);margin-top:9px!important}
+@media(min-width:1024px){.teum-app .my-stats span{font-size:15px}.teum-app .my-stats strong{font-size:34px}.teum-app .my-tabs button{font-size:16px;padding:14px 20px}.teum-app .profile .muted{font-size:16px}.teum-app .coming-soon p,.teum-app .teum-state p,.teum-app .quiz-progress{font-size:15px}.teum-app .quiz-hint,.teum-app .problem-audio-toolbar,.teum-app .problem-skip button{font-size:14px}.teum-app .problem-start small,.teum-app .problem-skip p{font-size:13px}.teum-app .teum-footer p{font-size:13px}}
+@media(max-width:380px){.problem-audio-toolbar{flex-wrap:wrap}.problem-audio-toolbar>span{font-size:12px}}
+/* Keep the brand promise visible beside the logo at every viewport width. */
+.teum-app .teum-logo{min-width:0}
+.teum-app .teum-logo .brand-tagline{display:block;font-size:13px;max-inline-size:140px;margin:0 0 0 3px;line-height:1.45;white-space:normal}
+@media(max-width:767px){.teum-app .teum-header{gap:12px}.teum-app .teum-logo .brand-tagline{font-size:12px;max-inline-size:112px}}
+@media(max-width:380px){.teum-app .teum-header{gap:8px}.teum-app .teum-logo{gap:7px}.teum-app .teum-logo img{width:28px;height:34px}.teum-app .teum-logo strong{font-size:27px}.teum-app .teum-logo .brand-tagline{font-size:11px;max-inline-size:92px}}

@@ -1,0 +1,4146 @@
+[
+  {
+    "id": "2024880532",
+    "name": "ESC방탈출카페",
+    "branch_name": "대전둔산점",
+    "area": "daejeon",
+    "website_url": "http://djdsesc.co.kr",
+    "scripts": [
+      "sync_escbangtalul_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 64,
+      "checked_at": "2026-11-15T21:46:37.468764+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1393764461",
+    "name": "gateoftime",
+    "branch_name": "광주점",
+    "area": "gwangju",
+    "website_url": "https://gateoftime.kr/reservation.html?keycode=YybEYe16XjtuRV7S",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/YybEYe16XjtuRV7S 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 9,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:58.498658+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "929019886",
+    "name": "gateoftime",
+    "branch_name": "대구동성로점",
+    "area": "daegu",
+    "website_url": "https://gateoftime.kr/reservation.html?keycode=HiJhoQFf8ThapVG3",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/HiJhoQFf8ThapVG3 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 5,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:51.340287+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1551717206",
+    "name": "강남점",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://xcape.co.kr",
+    "scripts": [
+      "sync_xcape_db"
+    ],
+    "category": "중복 등록 후보 / 현재 수집 ID official_xcape_gn",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /merchants 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+        "[WARN] cafe 1551717206 Firestore 미존재 — 건너뜀"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:35.223681+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1501825629",
+    "name": "강릉방탈출카페",
+    "branch_name": null,
+    "area": "gangwon",
+    "website_url": "http://place.map.kakao.com/1501825629",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1501825629",
+      "name": "강릉방탈출카페",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1501825629",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "212176813",
+    "name": "개꿀이스케이프",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://doghoneyescape.com/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/XEcM52tKWqDCUFCG 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:19.281700+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "361428621",
+    "name": "건대2호",
+    "branch_name": null,
+    "area": "konkuk",
+    "website_url": "https://xcape.co.kr",
+    "scripts": [
+      "sync_xcape_db"
+    ],
+    "category": "중복 등록 후보 / 현재 수집 ID official_xcape_xr",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /merchants 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+        "[WARN] GET /reservations 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+        "[WARN] GET /reservations 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:10.357108+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27354377",
+    "name": "건대점",
+    "branch_name": null,
+    "area": "konkuk",
+    "website_url": "https://xcape.co.kr",
+    "scripts": [
+      "sync_xcape_db"
+    ],
+    "category": "중복 등록 후보 / 현재 수집 ID official_xcape_xc",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /merchants 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+        "[WARN] cafe 27354377 Firestore 미존재 — 건너뜀"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:33.489138+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "461296797",
+    "name": "고한 시티써커스",
+    "branch_name": null,
+    "area": "gangwon",
+    "website_url": "http://place.map.kakao.com/461296797",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "461296797",
+      "name": "고한 시티써커스",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/461296797",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "786094598",
+    "name": "광주방탈출카페 식스센스",
+    "branch_name": null,
+    "area": "gwangju",
+    "website_url": "http://place.map.kakao.com/786094598",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "786094598",
+      "name": "광주방탈출카페 식스센스",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/786094598",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "59939450",
+    "name": "꿈소풍",
+    "branch_name": "부천점",
+    "area": "gyeonggi",
+    "website_url": "https://dreampicnicescape.com",
+    "scripts": [
+      "sync_dreampicnic_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 69,
+      "checked_at": "2026-11-15T21:46:30.536158+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1973765277",
+    "name": "넥스트에디션",
+    "branch_name": "건대1호점",
+    "area": "konkuk",
+    "website_url": "https://www.nextedition.co.kr/reservation.html?keycode=acBZTNkAVSAF1epy",
+    "scripts": [
+      "sync_nextedition_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 65,
+      "checked_at": "2026-11-15T21:46:53.371901+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "area": "gyeonggi",
+    "website_url": "http://www.darockesc.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / unreachable",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "442981346",
+      "name": "다락방",
+      "branch_name": "안양점",
+      "url": "http://www.darockesc.com/",
+      "status": "unreachable",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "964420524",
+    "name": "다락방방탈출카페",
+    "branch_name": "청주직영점",
+    "area": "chungbuk",
+    "website_url": "http://place.map.kakao.com/964420524",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "964420524",
+      "name": "다락방방탈출카페",
+      "branch_name": "청주직영점",
+      "url": "http://place.map.kakao.com/964420524",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "377197835",
+    "name": "단편선 방탈출",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "https://www.dpsnnn.com/reserve_g",
+    "scripts": [
+      "sync_dpsnnn_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 2,
+      "slots": 20,
+      "checked_at": "2026-11-15T21:46:29.564971+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "302959300",
+    "name": "더도어즈이스케이프",
+    "branch_name": null,
+    "area": "gyeonggi",
+    "website_url": "http://www.thedoorsescape.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "302959300",
+      "name": "더도어즈이스케이프",
+      "branch_name": null,
+      "url": "http://www.thedoorsescape.com/",
+      "http_status": 200,
+      "final_url": "http://www.thedoorsescape.com/",
+      "title": "",
+      "booking_links": [],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "138006966",
+    "name": "더메이즈",
+    "branch_name": "건대점",
+    "area": "konkuk",
+    "website_url": "http://www.themazegd.co.kr",
+    "scripts": [
+      "sync_themazegd_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET http://www.themazegd.co.kr/bbs/ajax.get_room.php?date=2026-11-15 실패: HTTP Error 404: Not Found",
+        "[WARN] GET http://www.themazegd.co.kr/bbs/ajax.get_room.php?date=2026-11-16 실패: HTTP Error 404: Not Found"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:25.731704+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "680681357",
+    "name": "더코드",
+    "branch_name": "",
+    "area": "gwangju",
+    "website_url": "http://www.thecode-escape.com",
+    "scripts": [
+      "sync_thecode_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-15&r_thema=esc_09 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-15&r_thema=esc_10 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-16&r_thema=esc_09 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-16&r_thema=esc_10 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 10,
+      "slots": 104,
+      "checked_at": "2026-11-15T21:47:25.700980+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1696389756",
+    "name": "더큐이스케이프",
+    "branch_name": "대전둔산점",
+    "area": "daejeon",
+    "website_url": "https://www.the-qescapedj.co.kr",
+    "scripts": [
+      "sync_theqescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 5,
+      "slots": 71,
+      "checked_at": "2026-11-15T21:47:28.077659+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1233678979",
+    "name": "더타임이스케이프",
+    "branch_name": "",
+    "area": "gyeongnam",
+    "website_url": "http://www.thetimeescape.co.kr",
+    "scripts": [
+      "sync_thetimeescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 60,
+      "checked_at": "2026-11-15T21:47:28.922247+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "911063716",
+    "name": "더트랩",
+    "branch_name": "수유점",
+    "area": "seoul_other",
+    "website_url": "http://www.thetrapsy.co.kr",
+    "scripts": [
+      "sync_thetrapsy_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:30.325449+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "203642029",
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "대학로점",
+    "area": "myeongdong",
+    "website_url": "http://www.dumbndumber.kr",
+    "scripts": [
+      "sync_dumbndumber_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 72,
+      "checked_at": "2026-11-15T21:46:30.568809+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "691418241",
+    "name": "도어이스케이프",
+    "branch_name": "강남 가든점",
+    "area": "gangnam",
+    "website_url": "https://doorescape.co.kr",
+    "scripts": [
+      "sync_doorescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 37,
+      "checked_at": "2026-11-15T21:46:27.891880+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1900192470",
+    "name": "도파민방탈출",
+    "branch_name": null,
+    "area": "gyeonggi",
+    "website_url": "http://place.map.kakao.com/1900192470",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1900192470",
+      "name": "도파민방탈출",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1900192470",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "716654663",
+    "name": "두잇이스케이프",
+    "branch_name": null,
+    "area": "gyeonggi",
+    "website_url": "http://place.map.kakao.com/716654663",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "716654663",
+      "name": "두잇이스케이프",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/716654663",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "997136500",
+    "name": "둠이스케이프",
+    "branch_name": "1호점",
+    "area": "incheon",
+    "website_url": "https://doomescape.com/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:15.306564+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1321479252",
+    "name": "둠이스케이프",
+    "branch_name": "2호점",
+    "area": "incheon",
+    "website_url": "https://doomescape.com/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:05.041807+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "892126854",
+    "name": "둠이스케이프",
+    "branch_name": "DTH점",
+    "area": "incheon",
+    "website_url": "https://doomescape.com/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:29.046336+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "40766168",
+    "name": "드림이스케이프",
+    "branch_name": null,
+    "area": "konkuk",
+    "website_url": "http://place.map.kakao.com/40766168",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "40766168",
+      "name": "드림이스케이프",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/40766168",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "1568417037",
+    "name": "라비린스이스케이프",
+    "branch_name": "",
+    "area": "gyeonggi",
+    "website_url": "http://labyrinth.15440835.com/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] 세션 획득 실패: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      ],
+      "themes_fetched": 7,
+      "slots": 58,
+      "checked_at": "2026-11-15T21:48:47.783623+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "225341934",
+    "name": "라스트이스케이프",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "http://lastescape.co.kr",
+    "scripts": [
+      "sync_lastescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] POST 실패 (date=2026-11-15): <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] POST 실패 (date=2026-11-16): <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:47.667235+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "28201117",
+    "name": "레다스퀘어",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "https://ledasquare.com",
+    "scripts": [
+      "sync_ledasquare_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 1,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:49.480904+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "77278349",
+    "name": "레드런",
+    "branch_name": "천안점",
+    "area": "chungnam",
+    "website_url": "http://place.map.kakao.com/77278349",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "77278349",
+      "name": "레드런",
+      "branch_name": "천안점",
+      "url": "http://place.map.kakao.com/77278349",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "1331705130",
+    "name": "레드런",
+    "branch_name": "천호점",
+    "area": "jamsil",
+    "website_url": "https://naver.me/xbjXQceE",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1331705130",
+      "name": "레드런",
+      "branch_name": "천호점",
+      "url": "https://naver.me/xbjXQceE",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "1968639091",
+    "name": "레전드이스케이프",
+    "branch_name": "서현점",
+    "area": "gyeonggi",
+    "website_url": "http://legendescape.com/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:54.986233+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "628138029",
+    "name": "룸엘이스케이프",
+    "branch_name": "신림점",
+    "area": "sinlim",
+    "website_url": "http://www.roomlescape.com",
+    "scripts": [
+      "sync_roomlescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:05.313332+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "596589943",
+    "name": "룸엘이스케이프",
+    "branch_name": "홍대1호점",
+    "area": "hongdae",
+    "website_url": "http://www.roomlescape.com",
+    "scripts": [
+      "sync_roomlescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 2,
+      "slots": 22,
+      "checked_at": "2026-11-15T21:47:54.096860+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27329834",
+    "name": "룸익스케이프",
+    "branch_name": "신촌 블랙점",
+    "area": "sinchon",
+    "website_url": "https://ex-cape.com/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/Z5dmpFTTqzaSqaa4 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] cafe 27329834 Firestore 미존재 — 건너뜀"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:46.767168+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "912842418",
+    "name": "룸익스케이프",
+    "branch_name": "신촌 올리브점",
+    "area": "sinchon",
+    "website_url": "https://ex-cape.com/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/vG4SZyg8jem2YYuo 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] cafe 912842418 Firestore 미존재 — 건너뜀"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:54.496394+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1542251042",
+    "name": "룸익스케이프",
+    "branch_name": "신촌 화이트점",
+    "area": "sinchon",
+    "website_url": "https://ex-cape.com/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/p8j31JZAgRCJWnUc 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] cafe 1542251042 Firestore 미존재 — 건너뜀"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:05.040702+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "690123759",
+    "name": "룸익스케이프",
+    "branch_name": "인디고블루점",
+    "area": "sinchon",
+    "website_url": "https://www.ex-cape.com/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/mpu5Jvr5DzANeHRL 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:10.058485+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_41",
+    "name": "룸즈에이",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_54",
+    "name": "룸즈에이",
+    "branch_name": "광주상무점",
+    "area": "gwangju",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1544141348",
+    "name": "룸즈에이",
+    "branch_name": "광주수완2호점",
+    "area": "gwangju",
+    "website_url": "https://www.roomsa.co.kr/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/N22seZPUEfSe1jKQ 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:25.175788+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_53",
+    "name": "룸즈에이",
+    "branch_name": "광주수완점",
+    "area": "gwangju",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_55",
+    "name": "룸즈에이",
+    "branch_name": "대구동성로점",
+    "area": "daegu",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_83",
+    "name": "룸즈에이",
+    "branch_name": "대구스테이지점",
+    "area": "daegu",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_49",
+    "name": "룸즈에이",
+    "branch_name": "대전둔산점",
+    "area": "daejeon",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_50",
+    "name": "룸즈에이",
+    "branch_name": "대전은행점",
+    "area": "daejeon",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_42",
+    "name": "룸즈에이",
+    "branch_name": "대학로점",
+    "area": "myeongdong",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_57",
+    "name": "룸즈에이",
+    "branch_name": "동성로 아카데미점",
+    "area": "daegu",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_56",
+    "name": "룸즈에이",
+    "branch_name": "동성로2호점",
+    "area": "daegu",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_51",
+    "name": "룸즈에이",
+    "branch_name": "부산남포점",
+    "area": "busan",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_52",
+    "name": "룸즈에이",
+    "branch_name": "부산서면점",
+    "area": "busan",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_69",
+    "name": "룸즈에이",
+    "branch_name": "부평 2호점",
+    "area": "incheon",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "802938757",
+    "name": "룸즈에이",
+    "branch_name": "부평점",
+    "area": "incheon",
+    "website_url": "http://roomsa.co.kr/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/HUSqfLY6kenWuw5q 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:28.314857+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_48",
+    "name": "룸즈에이",
+    "branch_name": "수원역 2호점",
+    "area": "gyeonggi",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_47",
+    "name": "룸즈에이",
+    "branch_name": "수원역점",
+    "area": "gyeonggi",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_43",
+    "name": "룸즈에이",
+    "branch_name": "안양범계점",
+    "area": "gyeonggi",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_46",
+    "name": "룸즈에이",
+    "branch_name": "의정부점",
+    "area": "gyeonggi",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_44",
+    "name": "룸즈에이",
+    "branch_name": "일산 웨스턴돔점",
+    "area": "gyeonggi",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "official_roomsa_58",
+    "name": "룸즈에이",
+    "branch_name": "포항점",
+    "area": "gyeongbuk",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "scripts": [
+      "sync_roomsa_catalog_db"
+    ],
+    "category": "목록 전용 구현 / 예약 시간대 미구현",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1772504569",
+    "name": "리버스이스케이프",
+    "branch_name": "안산점",
+    "area": "gyeonggi",
+    "website_url": "http://reverseesc.com",
+    "scripts": [
+      "sync_reverseesc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / error",
+    "check": {
+      "status": "error",
+      "error": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+      "issues": [],
+      "log_errors": [
+        "Traceback (most recent call last):"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:01.698947+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1231888375",
+    "name": "리버스이스케이프",
+    "branch_name": "향남점",
+    "area": "gyeonggi",
+    "website_url": "http://reverseesc.com",
+    "scripts": [
+      "sync_reverseesc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / error",
+    "check": {
+      "status": "error",
+      "error": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+      "issues": [],
+      "log_errors": [
+        "Traceback (most recent call last):"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:53.300699+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27369058",
+    "name": "리얼이스케이프챌린지",
+    "branch_name": null,
+    "area": "hongdae",
+    "website_url": "http://www.rec-escape.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "27369058",
+      "name": "리얼이스케이프챌린지",
+      "branch_name": null,
+      "url": "http://www.rec-escape.com/",
+      "http_status": 200,
+      "final_url": "http://www.rec-escape.com/",
+      "title": "리얼 이스케이프 첼린지",
+      "booking_links": [],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "776644226",
+    "name": "리즌방탈출",
+    "branch_name": null,
+    "area": "incheon",
+    "website_url": "http://place.map.kakao.com/776644226",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "776644226",
+      "name": "리즌방탈출",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/776644226",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "1030963843",
+    "name": "마피아카페",
+    "branch_name": "강남1호점",
+    "area": "gangnam",
+    "website_url": "https://www.mafiacafe.kr",
+    "scripts": [
+      "sync_mafiacafe_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 1,
+      "slots": 34,
+      "checked_at": "2026-11-15T21:46:49.585490+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27545114",
+    "name": "머더파커",
+    "branch_name": "전주1호점",
+    "area": "jeonbuk",
+    "website_url": "http://murderparker.com",
+    "scripts": [
+      "sync_murderparker_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 22,
+      "checked_at": "2026-11-15T21:46:52.676341+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1855837227",
+    "name": "무비이스케이프",
+    "branch_name": "동탄남광장점",
+    "area": "gyeonggi",
+    "website_url": "http://movieescape.kr",
+    "scripts": [
+      "sync_movieescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 41,
+      "checked_at": "2026-11-15T21:46:50.940620+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "888192913",
+    "name": "미션브레이크",
+    "branch_name": "CGV용산아이파크몰점",
+    "area": "itaewon",
+    "website_url": "https://www.xphobia.net/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "888192913",
+      "name": "미션브레이크",
+      "branch_name": "CGV용산아이파크몰점",
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "예약 · 브랜드 보기 →",
+          "url": "https://xphobia.net/#works"
+        },
+        {
+          "label": "예약하기 ↗",
+          "url": "https://xdungeon.net/?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+        },
+        {
+          "label": "예약하기 ↗",
+          "url": "https://checkie.co.kr/ko?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "url": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "url": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "미션브레이크 ↗ CGV × Phobia · 예약",
+          "url": "https://cgv.co.kr/act/actvt/00004"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "1436082735",
+    "name": "미스터리담",
+    "branch_name": "",
+    "area": "gyeonggi",
+    "website_url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:37.393181+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27367643",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "http://mysteryroomescape.com/",
+    "scripts": [
+      "sync_mysteryroom_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] 페이지 로드 실패 a=27 2026-11-15: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:52.866439+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "727312827",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "홍대2호점",
+    "area": "hongdae",
+    "website_url": "http://www.mysteryroomescape.com/",
+    "scripts": [
+      "sync_mysteryroom_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] 페이지 로드 실패 a=44 2026-11-15: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:50.832314+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1516889516",
+    "name": "방탈출 뉴케이스",
+    "branch_name": null,
+    "area": "konkuk",
+    "website_url": "http://place.map.kakao.com/1516889516",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1516889516",
+      "name": "방탈출 뉴케이스",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1516889516",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "1560724472",
+    "name": "방탈출 미로",
+    "branch_name": null,
+    "area": "seoul_other",
+    "website_url": "http://place.map.kakao.com/1560724472",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1560724472",
+      "name": "방탈출 미로",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1560724472",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "273855007",
+    "name": "방탈출ESC",
+    "branch_name": "신촌점",
+    "area": "sinchon",
+    "website_url": "http://roomescape.net",
+    "scripts": [
+      "sync_roomescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 5,
+      "slots": 52,
+      "checked_at": "2026-11-15T21:47:02.202614+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27324626",
+    "name": "방탈출NO1",
+    "branch_name": "수원점",
+    "area": "gyeonggi",
+    "website_url": "http://www.no1escape.com",
+    "scripts": [
+      "sync_no1escape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 38,
+      "checked_at": "2026-11-15T21:46:54.278422+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1992606174",
+    "name": "방탈출고",
+    "branch_name": null,
+    "area": "incheon",
+    "website_url": "http://place.map.kakao.com/1992606174",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1992606174",
+      "name": "방탈출고",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1992606174",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "1254330051",
+    "name": "방탈출브이",
+    "branch_name": "공평점",
+    "area": "daegu",
+    "website_url": "http://www.v-escape.co.kr",
+    "scripts": [
+      "sync_vescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=A&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=B&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=C&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=D&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=E&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=A&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=B&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=C&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=D&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=E&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=A&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=B&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=C&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=D&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=E&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=A&chois_date=2026-11-18 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=B&chois_date=2026-11-18 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=C&chois_date=2026-11-18 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=D&chois_date=2026-11-18 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S2&R_THEMA=E&chois_date=2026-11-18 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:33.726387+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "858962026",
+    "name": "방탈출브이",
+    "branch_name": "삼덕점",
+    "area": "daegu",
+    "website_url": "http://www.v-escape.co.kr",
+    "scripts": [
+      "sync_vescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=A&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=B&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=C&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=D&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=E&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=F&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=G&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=A&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=B&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=C&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=D&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=E&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=F&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=G&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=A&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=B&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=C&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=D&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=E&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.v-escape.co.kr/sub/sub03_1.html?R_JIJEM=S1&R_THEMA=F&chois_date=2026-11-17 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:07.624557+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "area": "gyeonggi",
+    "website_url": "http://place.map.kakao.com/255097329",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "255097329",
+      "name": "방탈출카페 일상탈출",
+      "branch_name": "안양일번가점",
+      "url": "http://place.map.kakao.com/255097329",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "779900297",
+    "name": "방탈출탐정",
+    "branch_name": "수원점",
+    "area": "gyeonggi",
+    "website_url": "https://www.escapecafe.co.kr",
+    "scripts": [
+      "sync_escapedetective_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 35,
+      "checked_at": "2026-11-15T21:46:33.231333+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1495650283",
+    "name": "브레이크아웃 광안",
+    "branch_name": null,
+    "area": "busan",
+    "website_url": "https://busan.breakoutescapegame.com/en/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1495650283",
+      "name": "브레이크아웃 광안",
+      "branch_name": null,
+      "url": "https://busan.breakoutescapegame.com/en/",
+      "http_status": 200,
+      "final_url": "https://busan.breakoutescapegame.com/en/",
+      "title": "Escape Room Busan| Breakout | Haeundae & Gwangalli",
+      "booking_links": [
+        {
+          "label": "",
+          "url": "https://booking.naver.com/booking/12/bizes/27519"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "1769092819",
+    "name": "비트포비아",
+    "branch_name": "강남던전2",
+    "area": "gangnam",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 2,
+      "slots": 46,
+      "checked_at": "2026-11-15T21:47:36.168159+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27413263",
+    "name": "비트포비아",
+    "branch_name": "강남던전점",
+    "area": "gangnam",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 76,
+      "checked_at": "2026-11-15T21:48:12.464251+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1432484184",
+    "name": "비트포비아",
+    "branch_name": "대학로점",
+    "area": "myeongdong",
+    "website_url": "https://www.xphobia.net/",
+    "scripts": [
+      "sync_xphobia_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / error",
+    "check": {
+      "status": "error",
+      "error": "RuntimeError: 비트포비아 API 조회 실패: /reservation/ck_no1.php",
+      "issues": [],
+      "log_errors": [
+        "Traceback (most recent call last):",
+        "Traceback (most recent call last):"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:41.223202+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "997297045",
+    "name": "비트포비아",
+    "branch_name": "동성로점",
+    "area": "daegu",
+    "website_url": "https://www.xphobia.net/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "997297045",
+      "name": "비트포비아",
+      "branch_name": "동성로점",
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "예약 · 브랜드 보기 →",
+          "url": "https://xphobia.net/#works"
+        },
+        {
+          "label": "예약하기 ↗",
+          "url": "https://xdungeon.net/?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+        },
+        {
+          "label": "예약하기 ↗",
+          "url": "https://checkie.co.kr/ko?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "url": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "url": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "미션브레이크 ↗ CGV × Phobia · 예약",
+          "url": "https://cgv.co.kr/act/actvt/00004"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "1183396756",
+    "name": "비트포비아",
+    "branch_name": "명동점",
+    "area": "myeongdong",
+    "website_url": "https://www.xphobia.net/",
+    "scripts": [
+      "sync_xphobia_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / error",
+    "check": {
+      "status": "error",
+      "error": "RuntimeError: 비트포비아 API 조회 실패: /reservation/ck_no1.php",
+      "issues": [],
+      "log_errors": [
+        "Traceback (most recent call last):",
+        "Traceback (most recent call last):"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:16.909573+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1322241204",
+    "name": "비트포비아",
+    "branch_name": "서면던전점",
+    "area": "busan",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 60,
+      "checked_at": "2026-11-15T21:48:34.110513+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1647497159",
+    "name": "비트포비아",
+    "branch_name": "신림점",
+    "area": "sinlim",
+    "website_url": "https://www.xphobia.net/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1647497159",
+      "name": "비트포비아",
+      "branch_name": "신림점",
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "예약 · 브랜드 보기 →",
+          "url": "https://xphobia.net/#works"
+        },
+        {
+          "label": "예약하기 ↗",
+          "url": "https://xdungeon.net/?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+        },
+        {
+          "label": "예약하기 ↗",
+          "url": "https://checkie.co.kr/ko?utm_source=xphobia&utm_medium=hub&utm_campaign=brand_hub"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "url": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "url": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "미션브레이크 ↗ CGV × Phobia · 예약",
+          "url": "https://cgv.co.kr/act/actvt/00004"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "2070160321",
+    "name": "비트포비아",
+    "branch_name": "홍대던전3",
+    "area": "hongdae",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 92,
+      "checked_at": "2026-11-15T21:48:51.200973+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1246652450",
+    "name": "비트포비아",
+    "branch_name": "홍대던전점",
+    "area": "hongdae",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 76,
+      "checked_at": "2026-11-15T21:48:55.551922+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1478483341",
+    "name": "비트포비아 던전루나",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 2,
+      "slots": 59,
+      "checked_at": "2026-11-15T21:49:06.051892+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "436025860",
+    "name": "비트포비아 던전스텔라",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://xdungeon.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 60,
+      "checked_at": "2026-11-15T21:49:16.280980+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "629764977",
+    "name": "비트포비아 레드던전",
+    "branch_name": "서면점",
+    "area": "busan",
+    "website_url": "https://www.xphobia.net/",
+    "scripts": [
+      "sync_xdungeon_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 111,
+      "checked_at": "2026-11-15T21:49:26.332153+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1351400084",
+    "name": "서울이스케이프룸",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "https://www.seoul-escape.com",
+    "scripts": [
+      "sync_seoulescaperoom_db",
+      "sync_seoulesc_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 1,
+      "slots": 12,
+      "checked_at": "2026-11-15T21:47:07.425450+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "8143798",
+    "name": "셜록홈즈",
+    "branch_name": "노량진점",
+    "area": "seoul_other",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+    "scripts": [
+      "sync_sherlock_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:07.718674+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2200000001",
+    "name": "셜록홈즈",
+    "branch_name": "부산기장정관점",
+    "area": "busan",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+    "scripts": [
+      "sync_sherlock_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:57.078335+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1396409942",
+    "name": "셜록홈즈",
+    "branch_name": "분당야탑점",
+    "area": "gyeonggi",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+    "scripts": [
+      "sync_sherlock_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:20.573972+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "887263854",
+    "name": "쇼룸404",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "https://showroom404.com/",
+    "scripts": [
+      "sync_showroom404_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 48,
+      "checked_at": "2026-11-15T21:47:08.337595+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1599918263",
+    "name": "수원점",
+    "branch_name": null,
+    "area": "gyeonggi",
+    "website_url": "https://xcape.co.kr",
+    "scripts": [
+      "sync_xcape_db"
+    ],
+    "category": "중복 등록 후보 / 현재 수집 ID official_xcape_sw",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /merchants 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+        "[WARN] GET /reservations 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+        "[WARN] GET /reservations 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:49.152340+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "367178846",
+    "name": "스키피지",
+    "branch_name": null,
+    "area": "hongdae",
+    "website_url": "https://speakeasyescape.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "367178846",
+      "name": "스키피지",
+      "branch_name": null,
+      "url": "https://speakeasyescape.co.kr/",
+      "http_status": 200,
+      "final_url": "https://speakeasyescape.co.kr/layout/res/home.php?go=main",
+      "title": "스피키지",
+      "booking_links": [
+        {
+          "label": "실시간예약",
+          "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.make"
+        },
+        {
+          "label": "장르 : 코믹 시간 : 65분 인원 : 2~6명 예약하기 급X 코믹 난이도 :",
+          "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.make&s_theme_num=2"
+        },
+        {
+          "label": "장르 : 스포츠 시간 : 65분 인원 : 2~6명 예약하기 올림픽 시즌2 - 1988 스포츠 난이도 :",
+          "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.make&s_theme_num=1"
+        },
+        {
+          "label": "예약확인",
+          "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=rev.login"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "1908100709",
+    "name": "스튜디오이에스씨",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://studioesc.co.kr/",
+    "scripts": [
+      "sync_studioesc_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 2,
+      "slots": 2,
+      "checked_at": "2026-11-15T21:47:23.886689+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "401872428",
+    "name": "시그널헌터",
+    "branch_name": "가로수길점",
+    "area": "gangnam",
+    "website_url": "https://www.signalhunter.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / unreachable",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "401872428",
+      "name": "시그널헌터",
+      "branch_name": "가로수길점",
+      "url": "https://www.signalhunter.co.kr/",
+      "status": "unreachable",
+      "error": "SSLError"
+    }
+  },
+  {
+    "id": "1945917235",
+    "name": "시그널헌터",
+    "branch_name": "동탄점",
+    "area": "gyeonggi",
+    "website_url": "http://signalhunter.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1945917235",
+      "name": "시그널헌터",
+      "branch_name": "동탄점",
+      "url": "http://signalhunter.co.kr/",
+      "http_status": 200,
+      "final_url": "http://signalhunter.co.kr/",
+      "title": "",
+      "booking_links": [],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "280887856",
+    "name": "시크릿코드",
+    "branch_name": "홍대직영점",
+    "area": "hongdae",
+    "website_url": "http://www.secret-code.co.kr",
+    "scripts": [
+      "sync_secretcode_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET http://www.secret-code.co.kr/sub_02/sub02_1.html?JIJEM=S3&chois_date=2026-11-15 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] GET http://www.secret-code.co.kr/sub_02/sub02_1.html?JIJEM=S3&chois_date=2026-11-16 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:05.526581+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1019017181",
+    "name": "신나는방탈출",
+    "branch_name": null,
+    "area": "busan",
+    "website_url": "http://place.map.kakao.com/1019017181",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1019017181",
+      "name": "신나는방탈출",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1019017181",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "115701517",
+    "name": "싸인이스케이프",
+    "branch_name": "인계시티점",
+    "area": "gyeonggi",
+    "website_url": "http://www.signescape.com",
+    "scripts": [
+      "sync_signescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-15&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-15&R_THEMA=B 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-15&R_THEMA=C 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-16&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-16&R_THEMA=B 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-16&R_THEMA=C 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-17&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-17&R_THEMA=B 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-17&R_THEMA=C 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-18&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-18&R_THEMA=B 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-18&R_THEMA=C 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-19&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-19&R_THEMA=B 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-19&R_THEMA=C 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-20&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-20&R_THEMA=B 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-20&R_THEMA=C 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-21&R_THEMA=A 실패: HTTP Error 500: Internal Server Error",
+        "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-21&R_THEMA=B 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:09.761700+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "678802397",
+    "name": "싸인이스케이프",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "http://www.signescape.com",
+    "scripts": [
+      "sync_signescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 20,
+      "checked_at": "2026-11-15T21:47:59.998377+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2143447304",
+    "name": "안흥여관",
+    "branch_name": null,
+    "area": "daejeon",
+    "website_url": "http://place.map.kakao.com/2143447304",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "2143447304",
+      "name": "안흥여관",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/2143447304",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "660859780",
+    "name": "알카트래즈방탈출카페",
+    "branch_name": null,
+    "area": "myeongdong",
+    "website_url": "http://alcatraz.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "660859780",
+      "name": "알카트래즈방탈출카페",
+      "branch_name": null,
+      "url": "http://alcatraz.co.kr/",
+      "http_status": 200,
+      "final_url": "http://alcatraz.co.kr/",
+      "title": "ìì¹´í¸ë¼ì¦ ë°©íì¶ì¹´í ìì íì´ì§",
+      "booking_links": [],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "338628640",
+    "name": "앨리스이스케이프",
+    "branch_name": "",
+    "area": "daegu",
+    "website_url": "http://alice-escape.com",
+    "scripts": [
+      "sync_aliceescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 9,
+      "slots": 80,
+      "checked_at": "2026-11-15T21:46:25.418002+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "area": "incheon",
+    "website_url": "https://amazed.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "2138418097",
+      "name": "어메이즈드",
+      "branch_name": "3호점",
+      "url": "https://amazed.co.kr/",
+      "http_status": 200,
+      "final_url": "https://amazed.co.kr/",
+      "title": "AMAZED – ESCAPE ADVENTURE",
+      "booking_links": [
+        {
+          "label": "매장선택 및 예약",
+          "url": "https://amazed.co.kr/?page_id=3921"
+        },
+        {
+          "label": "예약하기",
+          "url": "https://amazed.co.kr/?page_id=66905#booking"
+        },
+        {
+          "label": "AMAZED BOOKING CLIENT",
+          "url": "https://amazed.co.kr/?page_id=7596"
+        },
+        {
+          "label": "바로예약",
+          "url": "https://amazed.co.kr/?page_id=4808#booking"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "area": "jeju",
+    "website_url": "http://unlimited-escape.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / unreachable",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "166623372",
+      "name": "언리미티드 이스케이프",
+      "branch_name": null,
+      "url": "http://unlimited-escape.com/",
+      "status": "unreachable",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "103606910",
+    "name": "엑소더스",
+    "branch_name": "강남1호점",
+    "area": "gangnam",
+    "website_url": "https://exodusescape.co.kr/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:05.666459+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1772415237",
+    "name": "엑스이스케이프",
+    "branch_name": "홍대놀이터점",
+    "area": "hongdae",
+    "website_url": "https://xescape.com",
+    "scripts": [
+      "sync_xescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 8,
+      "slots": 116,
+      "checked_at": "2026-11-15T21:47:39.069203+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2012633570",
+    "name": "오늘의한페이지 방탈출카페",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://page-today.co.kr/#reserve",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/rjwaaAh3mVPbCdHA 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:29.883056+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "300855776",
+    "name": "오늘탈출",
+    "branch_name": "고양점",
+    "area": "gyeonggi",
+    "website_url": "https://www.todayescape.com",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:49.674674+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "848848018",
+    "name": "오아시스 뮤지엄",
+    "branch_name": null,
+    "area": "hongdae",
+    "website_url": "https://oasismuseum.com",
+    "scripts": [
+      "sync_oasisescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / error",
+    "check": {
+      "status": "error",
+      "error": "RuntimeError: 마감 목록 조회 실패: tm=5, date=2026-11-16",
+      "issues": [],
+      "log_errors": [
+        "Traceback (most recent call last):",
+        "Traceback (most recent call last):"
+      ],
+      "themes_fetched": 4,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:56.211228+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "763904207",
+    "name": "월투월방탈출",
+    "branch_name": "",
+    "area": "sinlim",
+    "website_url": "https://booking.naver.com/booking/12/bizes/570203",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:18.100930+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "area": "sinchon",
+    "website_url": "http://withescaper.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / unreachable",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "2000674643",
+      "name": "위드방탈출카페",
+      "branch_name": null,
+      "url": "http://withescaper.com/",
+      "status": "unreachable",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "2016521022",
+    "name": "이스케이프샾",
+    "branch_name": "건대점",
+    "area": "konkuk",
+    "website_url": "https://escapeshop.co.kr/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/tS5DajzuHqnhrnjH 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:31.108134+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1000900386",
+    "name": "이스케이프샾",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://escapeshop.co.kr/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/Jmas3Q5kHnfxQhFZ 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:32.277287+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1834149457",
+    "name": "이스케이프시티",
+    "branch_name": "그랜드시티신촌점",
+    "area": "sinchon",
+    "website_url": "http://escapecity.kr",
+    "scripts": [
+      "sync_escapecity_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 25,
+      "checked_at": "2026-11-15T21:46:32.763083+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1363823824",
+    "name": "이스케이프시티",
+    "branch_name": "부천신중동점",
+    "area": "gyeonggi",
+    "website_url": "http://escapecity.kr",
+    "scripts": [
+      "sync_escapecity_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 32,
+      "checked_at": "2026-11-15T21:47:46.688414+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "926754766",
+    "name": "이스케이프시티",
+    "branch_name": "성신여대점",
+    "area": "seoul_other",
+    "website_url": "http://escapecity.kr",
+    "scripts": [
+      "sync_escapecity_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 5,
+      "slots": 36,
+      "checked_at": "2026-11-15T21:48:16.909583+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1444854771",
+    "name": "이스케이프시티",
+    "branch_name": "영등포본점",
+    "area": "seoul_other",
+    "website_url": "http://escapecity.kr",
+    "scripts": [
+      "sync_escapecity_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 45,
+      "checked_at": "2026-11-15T21:48:39.547327+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "230738333",
+    "name": "이스케이프존",
+    "branch_name": "강대점",
+    "area": "gangwon",
+    "website_url": "http://www.cc-escapezone.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "230738333",
+      "name": "이스케이프존",
+      "branch_name": "강대점",
+      "url": "http://www.cc-escapezone.co.kr/",
+      "http_status": 200,
+      "final_url": "http://www.cc-escapezone.co.kr/kr/main.php",
+      "title": "ì´ì¤ì¼ì´íì¡´",
+      "booking_links": [
+        {
+          "label": "BOOKING",
+          "url": "http://www.cc-escapezone.co.kr/kr/webpage.php?webpage=0301"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "1856406910",
+    "name": "이스케이프탑",
+    "branch_name": "광주점",
+    "area": "gwangju",
+    "website_url": "http://kwangjutop.com",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 5,
+      "slots": 47,
+      "checked_at": "2026-11-15T21:48:39.547327+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "340303350",
+    "name": "이스케이프하우스",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "http://www.escapehouse.co.kr",
+    "scripts": [
+      "sync_escapehouse_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 8,
+      "slots": 101,
+      "checked_at": "2026-11-15T21:46:35.161740+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "890251040",
+    "name": "제로월드",
+    "branch_name": "롯데월드점",
+    "area": "jamsil",
+    "website_url": "https://zerolotteworld.com/",
+    "scripts": [
+      "sync_zeroworld_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] CSRF 획득 실패 https://zerolotteworld.com: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] 슬롯 조회 실패 https://zerolotteworld.com 2026-11-15: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:42.273506+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1713311920",
+    "name": "제트방탈출카페",
+    "branch_name": "",
+    "area": "ulsan",
+    "website_url": "http://www.zescape.co.kr",
+    "scripts": [
+      "sync_zescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 9,
+      "slots": 129,
+      "checked_at": "2026-11-15T21:47:42.796691+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2070697879",
+    "name": "지구별방탈출",
+    "branch_name": "홍대어드벤처점",
+    "area": "hongdae",
+    "website_url": "https://xn--2e0b040a4xj.com",
+    "scripts": [
+      "sync_jigobyeol_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 7,
+      "checked_at": "2026-11-15T21:46:43.383830+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1394599334",
+    "name": "지니어스이스케이프",
+    "branch_name": "",
+    "area": "jeonbuk",
+    "website_url": "http://www.geniusescape.kr",
+    "scripts": [
+      "sync_geniusescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-15) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-15) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-15) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-15) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-15) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-16) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-16) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-16) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-16) 실패: HTTP Error 403: Forbidden",
+        "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-16) 실패: HTTP Error 403: Forbidden"
+      ],
+      "themes_fetched": 5,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:40.555020+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1831030495",
+    "name": "체셔캣방탈출카페",
+    "branch_name": "",
+    "area": "gyeonggi",
+    "website_url": "https://booking.naver.com/booking/12/bizes/601362",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:53.466673+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "431508316",
+    "name": "카오스이스케이프",
+    "branch_name": null,
+    "area": "jeonbuk",
+    "website_url": "http://chaosesc.co.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "431508316",
+      "name": "카오스이스케이프",
+      "branch_name": null,
+      "url": "http://chaosesc.co.kr/",
+      "http_status": 200,
+      "final_url": "http://chaosesc.co.kr/",
+      "title": "카오스이스케이프-방탈출카페",
+      "booking_links": [],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "1757443413",
+    "name": "코난방탈출",
+    "branch_name": "구로디지털단지역점",
+    "area": "seoul_other",
+    "website_url": "http://conanescape.kr",
+    "scripts": [
+      "sync_conanescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] POST http://conanescape.kr/sub/sub03_01.php 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "[WARN] POST http://conanescape.kr/sub/sub03_01.php 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:25.417772+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1741880444",
+    "name": "코드나인방탈출카페",
+    "branch_name": null,
+    "area": "chungnam",
+    "website_url": "http://place.map.kakao.com/1741880444",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1741880444",
+      "name": "코드나인방탈출카페",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1741880444",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "522639283",
+    "name": "코드이스케이프",
+    "branch_name": "가로수길점",
+    "area": "gangnam",
+    "website_url": "http://www.code-escape-garosu.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "522639283",
+      "name": "코드이스케이프",
+      "branch_name": "가로수길점",
+      "url": "http://www.code-escape-garosu.com/",
+      "http_status": 200,
+      "final_url": "http://www.code-escape-garosu.com/",
+      "title": "ì½ëì´ì¤ì¼ì´í ê°ë¡ìê¸¸2",
+      "booking_links": [],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "2100000004",
+    "name": "큐브이스케이프",
+    "branch_name": "대구점",
+    "area": "daegu",
+    "website_url": "http://daegu.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:46:25.417772+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "167846502",
+    "name": "큐브이스케이프",
+    "branch_name": "대전둔산점",
+    "area": "daejeon",
+    "website_url": "http://daejeon.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:47:44.940090+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "4331171",
+    "name": "큐브이스케이프",
+    "branch_name": "수유점",
+    "area": "seoul_other",
+    "website_url": "http://suyu.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:16.909600+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27564986",
+    "name": "큐브이스케이프",
+    "branch_name": "인천점",
+    "area": "incheon",
+    "website_url": "http://incheon.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:37.547752+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "2100000001",
+    "name": "큐브이스케이프",
+    "branch_name": "잠실점",
+    "area": "jamsil",
+    "website_url": "http://jamsil.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:48:52.625127+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27522878",
+    "name": "큐브이스케이프",
+    "branch_name": "전주점",
+    "area": "jeonbuk",
+    "website_url": "http://junju.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:04.552189+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1857201893",
+    "name": "큐브이스케이프",
+    "branch_name": "천호점",
+    "area": "jamsil",
+    "website_url": "http://cheonho.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:16.280980+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27413260",
+    "name": "큐브이스케이프",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "http://www.cubeescape.co.kr/",
+    "scripts": [
+      "sync_cubeescape_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:28.314854+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "315548029",
+    "name": "크라임씬카페 퍼즐팩토리",
+    "branch_name": "홍대3호점",
+    "area": "hongdae",
+    "website_url": "http://www.puzzlefactory.co.kr",
+    "scripts": [
+      "sync_puzzlefactory_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 28,
+      "checked_at": "2026-11-15T21:47:00.292162+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "949587061",
+    "name": "클레버타운",
+    "branch_name": "신촌점",
+    "area": "sinchon",
+    "website_url": "https://clevertown.co.kr/",
+    "scripts": [
+      "sync_clevertown_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 19,
+      "checked_at": "2026-11-15T21:46:25.417880+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1405262610",
+    "name": "키이스케이프",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "http://keyescape.co.kr/",
+    "scripts": [
+      "sync_keyescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 52,
+      "checked_at": "2026-11-15T21:46:47.601368+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "52252534",
+    "name": "키즈인더룸",
+    "branch_name": "평촌점",
+    "area": "gyeonggi",
+    "website_url": "https://kidsintheroom.com/",
+    "scripts": [],
+    "category": "크롤러 미연결 / public_page",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "52252534",
+      "name": "키즈인더룸",
+      "branch_name": "평촌점",
+      "url": "https://kidsintheroom.com/",
+      "http_status": 200,
+      "final_url": "https://kidsintheroom.com/",
+      "title": "키즈인더룸",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "url": "https://kidsintheroom.com/27"
+        }
+      ],
+      "status": "public_page"
+    }
+  },
+  {
+    "id": "759455993",
+    "name": "테라스페이스",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "https://teraspace.co.kr",
+    "scripts": [
+      "sync_teraspace_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 2,
+      "slots": 18,
+      "checked_at": "2026-11-15T21:47:23.980231+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "27504980",
+    "name": "트릭이스케이프",
+    "branch_name": "",
+    "area": "gyeonggi",
+    "website_url": "http://www.trickescape.com",
+    "scripts": [
+      "sync_trickescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 4,
+      "checked_at": "2026-11-15T21:47:30.382830+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "327610610",
+    "name": "티켓투이스케이프",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "https://www.ttescape.co.kr",
+    "scripts": [
+      "sync_ttescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 4,
+      "slots": 8,
+      "checked_at": "2026-11-15T21:47:32.677727+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "422613765",
+    "name": "파노라마 부산",
+    "branch_name": null,
+    "area": "busan",
+    "website_url": "https://naver.me/FutFZ0bm",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "422613765",
+      "name": "파노라마 부산",
+      "branch_name": null,
+      "url": "https://naver.me/FutFZ0bm",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://parabox.kr/",
+    "scripts": [],
+    "category": "크롤러 미연결 / unreachable",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "123477337",
+      "name": "파라박스",
+      "branch_name": null,
+      "url": "https://parabox.kr/",
+      "status": "unreachable",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "27178625",
+    "name": "패닉이스케이프",
+    "branch_name": "목동점",
+    "area": "seoul_other",
+    "website_url": "http://www.panicescape.com",
+    "scripts": [
+      "sync_panicescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 1,
+      "slots": 1,
+      "checked_at": "2026-11-15T21:46:56.280055+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "area": "gwangju",
+    "website_url": "http://place.map.kakao.com/79137052",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "79137052",
+      "name": "페르소나",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/79137052",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "874592991",
+    "name": "프랭크의골동품가게",
+    "branch_name": null,
+    "area": "gangnam",
+    "website_url": "https://thefrank.co.kr/",
+    "scripts": [
+      "sync_frankantique_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 3,
+      "slots": 30,
+      "checked_at": "2026-11-15T21:46:38.436453+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "841734382",
+    "name": "플레이더월드",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "https://reservation.playthe.world/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/m86eCeH4SoNCqVVX 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:33.841740+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "746135486",
+    "name": "플레이더월드",
+    "branch_name": "건대점",
+    "area": "konkuk",
+    "website_url": "https://playthe.world/",
+    "scripts": [],
+    "category": "크롤러 미연결 / unreachable",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "746135486",
+      "name": "플레이더월드",
+      "branch_name": "건대점",
+      "url": "https://playthe.world/",
+      "status": "unreachable",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "1224388097",
+    "name": "플레이더월드",
+    "branch_name": "대전은행점",
+    "area": "daejeon",
+    "website_url": "https://playthe.world/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/U9cZjMPWeVZbij6X 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:35.400193+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "76631654",
+    "name": "플레이더월드",
+    "branch_name": "동성로점",
+    "area": "daegu",
+    "website_url": "https://playthe.world/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/bF9P9ARTDcgrbcDR 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:36.722555+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1637776603",
+    "name": "플레이더월드",
+    "branch_name": "부평점",
+    "area": "incheon",
+    "website_url": "https://playthe.world/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/fsGEtW3EXJiFXVCZ 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:37.977668+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "767938268",
+    "name": "플레이더월드",
+    "branch_name": "평택점",
+    "area": "gyeonggi",
+    "website_url": "https://playthe.world/",
+    "scripts": [
+      "sync_playtheworld_etc_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [
+        "[WARN] GET /v2/shops/eerYSTbbLAQnqZv3 실패: HTTP Error 500: Internal Server Error"
+      ],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:39.017487+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1416262413",
+    "name": "플레이이스케이프",
+    "branch_name": "원주점",
+    "area": "gangwon",
+    "website_url": "http://www.playescape.co.kr",
+    "scripts": [
+      "sync_playescape_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 48,
+      "checked_at": "2026-11-15T21:46:56.642933+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1466171651",
+    "name": "플레이포인트랩",
+    "branch_name": "강남점",
+    "area": "gangnam",
+    "website_url": "http://www.master-key.co.kr/",
+    "scripts": [
+      "sync_masterkey_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 6,
+      "slots": 38,
+      "checked_at": "2026-11-15T21:46:50.325184+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1719351380",
+    "name": "필더블랭크",
+    "branch_name": "",
+    "area": "hongdae",
+    "website_url": "https://booking.naver.com/booking/12/bizes/1548412",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:04.548685+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1944665207",
+    "name": "하이드앤시크",
+    "branch_name": "쌈지길점",
+    "area": "daehakro",
+    "website_url": "https://fuzzyline.co.kr",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:08.965974+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "554838835",
+    "name": "하이드앤시크",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "http://withescaper.com",
+    "scripts": [
+      "sync_escapetop_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:24.093641+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1252080396",
+    "name": "할리갈리인더룸방탈출시즌2",
+    "branch_name": null,
+    "area": "gyeonggi",
+    "website_url": "http://place.map.kakao.com/1252080396",
+    "scripts": [],
+    "category": "공식 예약 URL 추가 확인 필요",
+    "check": {
+      "status": null,
+      "error": null,
+      "issues": null,
+      "log_errors": null,
+      "themes_fetched": null,
+      "slots": null,
+      "checked_at": null
+    },
+    "site_check": {
+      "cafe_id": "1252080396",
+      "name": "할리갈리인더룸방탈출시즌2",
+      "branch_name": null,
+      "url": "http://place.map.kakao.com/1252080396",
+      "status": "official_site_needed"
+    }
+  },
+  {
+    "id": "289742025",
+    "name": "호러스위치",
+    "branch_name": "홍대점",
+    "area": "hongdae",
+    "website_url": "https://www.horrorswitch.com/ko/",
+    "scripts": [
+      "sync_horrorswitch_db"
+    ],
+    "category": "7일 저장 확인 / 정기 수집 추가",
+    "check": {
+      "status": "smoke_pass",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 1,
+      "slots": 32,
+      "checked_at": "2026-11-15T21:46:40.678044+09:00"
+    },
+    "site_check": {}
+  },
+  {
+    "id": "1168819420",
+    "name": "호텔레토",
+    "branch_name": "성수점",
+    "area": "seongsu",
+    "website_url": "http://hotelletoh.co.kr/",
+    "scripts": [
+      "sync_sinbiweb_db"
+    ],
+    "category": "기존 크롤러 검토 필요 / needs_review",
+    "check": {
+      "status": "needs_review",
+      "error": null,
+      "issues": [],
+      "log_errors": [],
+      "themes_fetched": 0,
+      "slots": 0,
+      "checked_at": "2026-11-15T21:49:24.093717+09:00"
+    },
+    "site_check": {}
+  }
+]
