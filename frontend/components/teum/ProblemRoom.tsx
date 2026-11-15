@@ -9,7 +9,7 @@ export default function ProblemRoom(){
  useEffect(()=>{try{const restored=restoreProblem(JSON.parse(sessionStorage.getItem(KEY)||'null'));if(restored)setSession(restored);}catch{}setLoaded(true);},[]);
  useEffect(()=>{if(loaded)try{sessionStorage.setItem(KEY,JSON.stringify(session));}catch{}},[loaded,session]);
  useEffect(()=>{if(session.status!=='active')return;const tick=()=>setSession(old=>{if(old.status!=='active')return old;const remaining=remainingSeconds(old);return remaining===old.remaining?old:{...old,remaining,status:remaining===0?'overtime':'active'};});tick();const id=setInterval(tick,250);return()=>clearInterval(id);},[session.status,session.deadline]);
- useEffect(()=>{if(session.status==='active')answerRef.current?.focus();},[session.deadline,session.status]);
+ useEffect(()=>{if(session.status==='active')answerRef.current?.focus({preventScroll:true});},[session.deadline,session.status]);
  const q=questions[session.index];
  if(!loaded)return <div className="teum-state" role="status">문제방을 준비하고 있어요.</div>;
  if(!q)return <section className="teum-complete"><img src="/teum/mascot.svg" alt="문 사이에서 인사하는 고양이"/><div className="eyebrow">PROBLEM ROOM COMPLETE</div><h1>문제방 완료!</h1><h2>세 문제 모두 해결했어요!</h2><p className="muted">멋진 추리였어요. 다음 탈출도 방픽과 함께해요.</p><button className="primary" onClick={()=>setSession(readyProblem())}>처음부터 다시 풀기 <ArrowRight size={16}/></button><Link href="/">홈으로 가기</Link></section>;

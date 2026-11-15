@@ -19,3 +19,21 @@
 /* 방픽 v12: 브랜드, 문제방과 전체 예약 시간표 */
 .teum-app{word-break:keep-all;overflow-wrap:break-word}.brand-tagline{font-size:10px;line-height:1.5;white-space:nowrap}.teum-logo .brand-wordmark{font-size:25px;letter-spacing:-1.5px;white-space:nowrap}.brand-wordmark span{box-shadow:inset 0 -7px 0 var(--pink,#f3bfd1)}
 .home-times.booking-slots{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px}.home-times .booking-slot{min-width:0;min-height:30px;padding:5px 1px;font-size:10px}.problem-start{text-align:center;background:#fff;border:1px solid #e8e8e1;border-radius:22px;padding:32px 24px}.problem-start .start-mascot{display:block;width:76px;height:76px;margin:24px auto}.problem-start h2{font-size:22px}.problem-start p,.problem-start small{color:#777;line-height:1.8}.start-rules{display:flex;justify-content:center;gap:18px;margin:22px 0;font-size:12px}.start-problem-button{width:100%;justify-content:space-between;margin-bottom:12px}.start-duration,.timer-pill,.problem-meta{display:flex;align-items:center;gap:8px}.problem-meta{justify-content:space-between;margin-bottom:20px}.timer-pill{background:#f6f6f1;padding:8px 12px;border-radius:20px;font-variant-numeric:tabular-nums}.urgent{color:#c84d57}.problem-timeout{background:#fff4dc;padding:12px;border-radius:12px;font-size:13px}.advanced-filters{border-top:1px solid #e8e8e1;margin:18px 0;padding-top:14px}.advanced-filters summary{cursor:pointer;font-size:12px;font-weight:700;margin-bottom:16px}.filter-label{display:grid;gap:6px;font-size:12px;margin:12px 0}.filter-reset{font-size:12px;text-decoration:underline;margin-bottom:14px}@media(max-width:380px){.home-times.booking-slots{grid-template-columns:repeat(4,minmax(0,1fr))}.problem-start{padding:24px 16px}}
+
+/* iOS Safari zooms focused controls when their computed text size is below 16px.
+   Keep pinch zoom available; fix control sizing instead of restricting viewport scaling. */
+@media (max-width:1024px){
+ .teum-app input:not([type="checkbox"]):not([type="radio"]),
+ .teum-app select,
+ .teum-app textarea{font-size:16px}
+}
+
+.teum-logo .brand-tagline{white-space:normal;max-inline-size:90px;word-break:keep-all;line-height:1.5}
+@media (max-width:767px){
+ .teum-app .booking-fields{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:12px}
+ .teum-app .booking-fields>label{min-width:0;max-width:100%}
+ .teum-app .booking-fields input,.teum-app .booking-fields select{box-sizing:border-box;min-width:0;min-inline-size:0;max-width:100%;width:100%}
+ .teum-app .booking-fields input[type="date"]{appearance:none;-webkit-appearance:none;-webkit-min-logical-width:0}
+ .teum-app input[type="date"]::-webkit-date-and-time-value{text-align:left;min-width:0}
+}
+@media (max-width:380px){.teum-app .booking-fields{grid-template-columns:minmax(0,1fr)}}

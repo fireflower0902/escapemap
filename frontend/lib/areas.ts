@@ -1,6 +1,6 @@
 /** 검색 UI와 Next.js 검색 API가 공유하는 전국 지역 코드. */
 export const AREAS = [
-  { value: "all", label: "전국 전체" },
+  { value: "all", label: "전국" },
   { value: "seoul", label: "서울 전체" },
   { value: "gangnam", label: "강남/역삼" },
   { value: "hongdae", label: "홍대/합정" },

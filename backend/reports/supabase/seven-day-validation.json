@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-15T12:23:54.666584+00:00",
+  "range": "today through today+6",
+  "github_run": "https://github.com/fireflower0902/escapemap/actions/runs/43710949207",
+  "ci_published": 215,
+  "ci_total": 232,
+  "local_revalidated_failed_cafes": 17,
+  "database_bytes": 32265907,
+  "dates": [
+    {
+      "service_date": "2026-11-15",
+      "cafes": 215,
+      "slots": 2672,
+      "available": 935
+    },
+    {
+      "service_date": "2026-11-16",
+      "cafes": 227,
+      "slots": 9410,
+      "available": 8009
+    },
+    {
+      "service_date": "2026-11-17",
+      "cafes": 227,
+      "slots": 9433,
+      "available": 8224
+    },
+    {
+      "service_date": "2026-11-18",
+      "cafes": 226,
+      "slots": 9411,
+      "available": 8302
+    },
+    {
+      "service_date": "2026-11-19",
+      "cafes": 229,
+      "slots": 9464,
+      "available": 8227
+    },
+    {
+      "service_date": "2026-11-20",
+      "cafes": 229,
+      "slots": 9501,
+      "available": 8267
+    },
+    {
+      "service_date": "2026-11-21",
+      "cafes": 230,
+      "slots": 10261,
+      "available": 8682
+    }
+  ],
+  "fresh_cafes": 232
+}
