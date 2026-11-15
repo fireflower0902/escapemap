@@ -5,7 +5,14 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 
 def select_tasks(items,shard,shards):
  if not 0<=shard<shards:raise ValueError('Invalid shard')
- return sorted(items,key=lambda row:(row['script'],row['cafe_id']))[shard::shards]
+ partition=sorted(items,key=lambda row:(row['script'],row['cafe_id']))[shard::shards]
+ groups=collections.defaultdict(collections.deque)
+ for row in partition:groups[row['script']].append(row)
+ ordered=[]
+ while any(groups.values()):
+  for script in sorted(groups):
+   if groups[script]:ordered.append(groups[script].popleft())
+ return ordered
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--days',type=int,default=6);p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);p.add_argument('--workers',type=int,default=2);p.add_argument('--timeout',type=int,default=180);a=p.parse_args()

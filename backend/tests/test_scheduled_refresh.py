@@ -14,3 +14,8 @@ class ScheduledRefreshTests(unittest.TestCase):
  def test_manifest_uses_existing_crawlers(self):
   for row in json.loads((ROOT/'data/scheduled-crawlers.json').read_text()):
    self.assertTrue(row['script'].startswith('sync_'));self.assertTrue((ROOT/'scripts'/(row['script']+'.py')).is_file())
+
+ def test_provider_order_avoids_blocking_every_worker_on_one_site(self):
+  items=[{'script':'sync_a','cafe_id':str(n)} for n in range(5)]+[{'script':'sync_b','cafe_id':'b'}]
+  selected=module.select_tasks(items,0,1)
+  self.assertEqual([r['script'] for r in selected[:2]],['sync_a','sync_b'])
