@@ -17,7 +17,7 @@ concurrency:
 jobs:
   crawl:
     name: '전국 수집 ${{ matrix.shard }}'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 55
     strategy:
       fail-fast: false
@@ -40,6 +40,9 @@ jobs:
         with:
           enable-cache: true
       - run: uv sync --frozen
+      - name: Prune history older than seven days
+        if: matrix.shard == 0
+        run: uv run python scripts/prune_crawl_history.py
       - name: Install crawler browser
         run: uv run playwright install --with-deps chromium
       - name: Collect and publish verified cafes
