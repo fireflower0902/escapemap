@@ -622,8 +622,13 @@ def sync_one_branch(branch: dict, run_schedule: bool, days: int) -> None:
         for theme_name, slots in parsed.items():
             doc_id = name_to_doc.get(theme_name)
             if not doc_id:
-                print(f"  [WARN] 알 수 없는 테마: {theme_name!r}")
-                continue
+                # 오늘 마감된 테마가 미래 날짜에만 등장해도 공식 시간표에서 등록한다.
+                doc_id = get_or_create_theme(db, cafe_id, theme_name, {
+                    "difficulty": None, "duration_min": None,
+                    "poster_url": None, "is_active": True,
+                })
+                name_to_doc[theme_name] = doc_id
+                print(f"  [UPSERT] 날짜별 추가 테마: {theme_name} (doc={doc_id})")
             for slot in slots:
                 themes_data.setdefault(doc_id, {"slots": []})["slots"].append({
                     "time":        f"{slot['time'].hour:02d}:{slot['time'].minute:02d}",

@@ -1,6 +1,6 @@
 """검증된 전국 지점을 분할 수집하고 실패를 CI 결과와 요약에 남긴다."""
 from __future__ import annotations
-import argparse, collections, concurrent.futures, datetime, json, pathlib, subprocess, sys, threading
+import argparse, collections, concurrent.futures, datetime, json, pathlib, shutil, subprocess, sys, threading
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 
 def select_tasks(items,shard,shards):
@@ -8,7 +8,7 @@ def select_tasks(items,shard,shards):
  return sorted(items,key=lambda row:(row['script'],row['cafe_id']))[shard::shards]
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--days',type=int,default=2);p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);p.add_argument('--workers',type=int,default=2);p.add_argument('--timeout',type=int,default=180);a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--days',type=int,default=6);p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);p.add_argument('--workers',type=int,default=2);p.add_argument('--timeout',type=int,default=180);a=p.parse_args()
  if not 0<=a.days<=14 or not 1<=a.workers<=6 or a.timeout<1:p.error('Invalid collection limits')
  tasks=select_tasks(json.loads((ROOT/'data/scheduled-crawlers.json').read_text()),a.shard,a.shards)
  locks=collections.defaultdict(lambda:threading.Semaphore(1));results=[]
@@ -23,6 +23,10 @@ def main():
    row=future.result();results.append(row);print(len(results),len(tasks),row['cafe_id'],row['status'],flush=True)
  out=ROOT/'reports/scheduled';out.mkdir(parents=True,exist_ok=True)
  report={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'shard':a.shard,'days':a.days,'total':len(tasks),'published':sum(r['status']=='published' for r in results),'results':results}
+ for row in results:
+  if row['status']=='published':continue
+  source=ROOT/'reports/crawlers/supabase'/f"{row['script']}-{row['cafe_id']}.json"
+  if source.exists():shutil.copy2(source,out/source.name)
  (out/f'shard-{a.shard}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  print('Published',report['published'],'of',report['total'],flush=True)
  return int(any(r['status']!='published' for r in results))

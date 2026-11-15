@@ -19,6 +19,8 @@ async def publish(check,store,cid,days):
     themes=[dict(store.data['themes'][tid],id=tid) for col,tid in set(store.writes) if col=='themes']
     await import_metadata(conn,cafes,themes)
     for day,data in store.data.get('schedules',{}).items():
+     service_day=datetime.date.fromisoformat(day)
+     if not when.date() <= service_day <= when.date()+datetime.timedelta(days=days):continue
      if cid not in data.get('cafes',{}):continue
      schedule=data['cafes'][cid]
      results.append(await save_cafe_date(conn,cid,day,schedule['themes'],when))
