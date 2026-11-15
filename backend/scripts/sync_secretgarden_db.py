@@ -14,6 +14,7 @@ from app.firestore_db import init_firestore,get_db,upsert_cafe,get_or_create_the
 from app.crawl_time import business_slot_datetime
 BASE_URL='https://www.secretgardenescape.com'
 REQUEST_DELAY=.3
+REQUEST_HEADERS={'User-Agent':'Mozilla/5.0 (compatible; EscapeMap/1.0)', 'Accept':'text/html,application/xhtml+xml', 'Accept-Language':'ko-KR,ko;q=0.9,en;q=0.8', 'Referer':BASE_URL+'/'}
 BRANCHES = [{'cafe_id': 'official_secretgarden_3',
   'cafe_name': '비밀의화원',
   'branch_name': '서면점',
@@ -86,7 +87,7 @@ def main(run_schedule=True,days=14):
  for b in BRANCHES:
   cid=b['cafe_id'];name_to_id={};at=datetime.now(ZoneInfo('Asia/Seoul'))
   for offset in range(days+1 if run_schedule else 1):
-   day=today+timedelta(days=offset);r=requests.get(reservation_url(b['shop'],day),timeout=25);r.raise_for_status()
+   day=today+timedelta(days=offset);r=requests.get(reservation_url(b['shop'],day),headers=REQUEST_HEADERS,timeout=25);r.raise_for_status()
    parsed=parse_schedule(r.text,b['shop'],day)
    if not parsed:raise ValueError('공식 예약표에 테마가 없습니다: '+cid)
    if offset==0:
