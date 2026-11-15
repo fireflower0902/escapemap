@@ -1,0 +1,99 @@
+[
+  {
+    "script": "sync_movieescape_db",
+    "checked_at": "2026-11-15T12:07:59.203701+09:00",
+    "scope": "selected cafe IDs: 136198096 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "136198096"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "site_url": "http://routeescape.com",
+          "cafe_name": "루트이스케이프",
+          "cafe_id": "136198096",
+          "branch_name": "평택점",
+          "address": "경기 평택시 평택로 41",
+          "area": "gyeonggi"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 144,
+    "statuses": {
+      "available": 144
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "136198096": {
+        "themes": 5,
+        "slots": 144,
+        "statuses": {
+          "available": 144
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "나를 찾아줘",
+      "루2지",
+      "바디스네처",
+      "트랩",
+      "트레저"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "routeescape.com",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "routeescape.com",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "routeescape.com",
+        "path": "/theme/2026-11-16/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "routeescape.com",
+        "path": "/theme/2026-11-16/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "routeescape.com",
+        "path": "/theme/2026-11-17/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "routeescape.com",
+        "path": "/theme/2026-11-17/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 3.8,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

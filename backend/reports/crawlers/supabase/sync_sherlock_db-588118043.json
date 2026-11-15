@@ -1,0 +1,90 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:09:23.487022+09:00",
+  "scope": "selected cafe IDs: 588118043 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "588118043"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "588118043",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "원주점",
+        "address": "강원특별자치도 원주시 반곡동 1880-8",
+        "area": "etc",
+        "sido": 17,
+        "bno": 92
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 95,
+  "statuses": {
+    "full": 6,
+    "available": 89
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "588118043": {
+      "themes": 5,
+      "slots": 95,
+      "statuses": {
+        "full": 6,
+        "available": 89
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "Red&White",
+    "경성",
+    "시간관리국",
+    "추적",
+    "홍연"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.56,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

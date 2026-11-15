@@ -1,0 +1,144 @@
+{
+  "script": "sync_geniusescape_db",
+  "checked_at": "2026-11-15T12:05:51.755272+09:00",
+  "scope": "selected cafe IDs: 1394599334 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1394599334"
+  ],
+  "selected": {},
+  "cafes_with_slots": 0,
+  "themes_fetched": 5,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "1394599334": {
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [
+    "도플갱어",
+    "메이저리그",
+    "수상한 회사원",
+    "잃어버린 기억",
+    "피의 성전"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    },
+    {
+      "method": "POST",
+      "host": "www.geniusescape.kr",
+      "path": "/sub/03_1_1.html",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 12.47,
+  "log_errors": [
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-15) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-15) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-15) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-15) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-15) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-16) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-16) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-16) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-16) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-16) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (A/2026-11-17) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (B/2026-11-17) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (C/2026-11-17) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (D/2026-11-17) 실패: HTTP Error 403: Forbidden",
+    "[WARN] POST http://www.geniusescape.kr/sub/03_1_1.html (E/2026-11-17) 실패: HTTP Error 403: Forbidden"
+  ],
+  "status": "needs_review"
+}

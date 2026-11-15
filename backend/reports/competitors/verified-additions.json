@@ -1,0 +1,3993 @@
+{
+  "verified_at": "2026-11-15T10:30:50.006887+09:00",
+  "scope": "공식 사이트 확인 및 실제 DB 반영: 셜록홈즈·상상락원·비밀의화원·엑스케이프·포인트나인·제로월드·플레이33·코드케이·위욜·돌로이스케이프·이룸에이트·룸즈에이·플러스이스케이프·익스플로리아. 룸즈에이는 공식 목록만 확인했으며 예약 화면 보호로 시간대 미검증.",
+  "cafes": [
+    {
+      "name": "셜록홈즈",
+      "branch_name": "광명철산점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=116&s_sido=&s_no=",
+      "id": "official_sherlock_116",
+      "address": "경기도 광명시 오리로856번길 8 금봉빌딩 4층",
+      "phone": "02.6032.5117",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=116",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=116&s_sido=&s_no="
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "구리점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=41&s_sido=&s_no=",
+      "id": "official_sherlock_41",
+      "address": "경기도 구리시 경춘로 218-5 3층 셜록홈즈 구리점",
+      "phone": "031.551.9993",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=41",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=41&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "구월인천점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=13&s_sido=&s_no=",
+      "id": "official_sherlock_13",
+      "address": "인천광역시 남동구 성말로 10 (구월동 1463)  효명프라자 5층, 셜록홈즈 구월인천점",
+      "phone": "032.437.4567",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=13",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "incheon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=13&s_sido=&s_no="
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "군산수송점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=110&s_sido=&s_no=",
+      "id": "official_sherlock_110",
+      "address": "전북특별자치도 군산시 동수송안길 23. 4층",
+      "phone": "063.465.4686",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=13&bno=110",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "jeonbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=110&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "뉴부천점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=111&s_sido=&s_no=",
+      "id": "official_sherlock_111",
+      "address": "경기도 부천시 원미구 심곡동 383-5. 5층",
+      "phone": "032.655.8870",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=111",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=111&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "뉴안양점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=81&s_sido=&s_no=",
+      "id": "official_sherlock_81",
+      "address": "경기도 안양시 만안구 안양로304번길 25 (안양동) 3층 셜록홈즈 뉴안양점",
+      "phone": "031.465.3663",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=81",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=81&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "대구동성로점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=84&s_sido=&s_no=",
+      "id": "official_sherlock_84",
+      "address": "대구광역시 중구 동성로5길 45. 3층 셜록홈즈 대구동성로점",
+      "phone": "053.253.2225",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=84",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=84&s_sido=&s_no="
+      ],
+      "stored_themes": 4,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "대전둔산점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=115&s_sido=&s_no=",
+      "id": "official_sherlock_115",
+      "address": "대전광역시 서구 대덕대로185번길 23, 4층",
+      "phone": "010.6245.0659",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=115",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "daejeon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=115&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "동탄점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=79&s_sido=&s_no=",
+      "id": "official_sherlock_79",
+      "address": "경기도 화성시 동탄중심상가2길 5, 리더스 프라자 3층 셜록홈즈 동탄점",
+      "phone": "031.613.3010",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=79",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=79&s_sido=&s_no="
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "송도트리플점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=105&s_sido=&s_no=",
+      "id": "official_sherlock_105",
+      "address": "인천광역시 연수구 송도과학로16번길 33-4,  D동 204,205호(송도동, 송도 트리플스트리트)",
+      "phone": "032.817.2025",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=4&bno=105",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "incheon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=105&s_sido=&s_no="
+      ],
+      "stored_themes": 7,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "수원역2호점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=113&s_sido=&s_no=",
+      "id": "official_sherlock_113",
+      "address": "경기도 수원시 팔달구 향교로 18-1(2,3층)",
+      "phone": "031.252.5677",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=113",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=113&s_sido=&s_no="
+      ],
+      "stored_themes": 8,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "아산점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=86&s_sido=&s_no=",
+      "id": "official_sherlock_86",
+      "address": "충청남도 아산시 번영로 220, 3층",
+      "phone": "041.546.7799",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=86",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "chungnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=86&s_sido=&s_no="
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "안산점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=114&s_sido=&s_no=",
+      "id": "official_sherlock_114",
+      "address": "경기도 안산시 단원구 중앙대로 915, 월드코아빌딩 4층 13호",
+      "phone": "070.4099.4254",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=114",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=114&s_sido=&s_no="
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "여수점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=44&s_sido=&s_no=",
+      "id": "official_sherlock_44",
+      "address": "전라남도 여수시 시청동3길 35-18(학동) 대형빌딩 2층",
+      "phone": "061.685.7105",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=13&bno=44",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "jeonnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=44&s_sido=&s_no="
+      ],
+      "stored_themes": 7,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "용인역북점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=112&s_sido=&s_no=",
+      "id": "official_sherlock_112",
+      "address": "경기도 용인시 처인구 역북동749 파스텔시티 304호, 305호",
+      "phone": "070.5208.0890",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=112",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=112&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "의정부점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=61&s_sido=&s_no=",
+      "id": "official_sherlock_61",
+      "address": "경기 의정부시 행복로 16 삼성빌딩 4층,  셜록홈즈 의정부점",
+      "phone": "031.821.8977",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=61",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=61&s_sido=&s_no="
+      ],
+      "stored_themes": 4,
+      "live_crawled": true
+    },
+    {
+      "name": "셜록홈즈",
+      "branch_name": "청주점",
+      "website_url": "https://www.sherlock-holmes.co.kr/branch/view.php?bno=70&s_sido=&s_no=",
+      "id": "official_sherlock_70",
+      "address": "충북 청주시 상당구 상당로 81번길 58, 3층",
+      "phone": "043.222.6750",
+      "booking_url": "https://www.sherlock-holmes.co.kr/reservation/index.php?sido=12&bno=70",
+      "engine": "sherlock",
+      "source_directory": "https://www.sherlock-holmes.co.kr/branch/",
+      "themes": [],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "chungbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.sherlock-holmes.co.kr/branch/",
+        "https://www.sherlock-holmes.co.kr/branch/view.php?bno=70&s_sido=&s_no="
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "name": "상상락원",
+      "branch_name": "잠실점",
+      "id": "official_sslone_4",
+      "address": "서울특별시 송파구 백제고분로 41길 6-5 2층",
+      "phone": "010-5838-7118",
+      "website_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=4",
+      "booking_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=4",
+      "engine": "sinbiweb",
+      "source_directory": "https://sslone.co.kr/layout/res/home.php?go=main",
+      "themes": [
+        {
+          "name": "Table ver.06  (Table play)"
+        },
+        {
+          "name": "Table ver.07  (Table play)"
+        },
+        {
+          "name": "Table ver.08  (Table play)"
+        },
+        {
+          "name": "Table ver.09  (Table play)"
+        },
+        {
+          "name": "Table ver.10  (Standing)"
+        },
+        {
+          "name": "Table ver.42 꼬마마녀  (Table play)"
+        },
+        {
+          "name": "Table ver.43 별빛금고  (Table play)"
+        },
+        {
+          "name": "Table ver.44 요정마을  (Table play)"
+        },
+        {
+          "name": "Table ver.14  (Table play)"
+        },
+        {
+          "name": "Table ver.15  (Competition)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "experience_type": "table_escape",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "jamsil",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://sslone.co.kr/layout/res/home.php?go=main",
+        "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=4"
+      ],
+      "stored_themes": 10,
+      "live_crawled": true
+    },
+    {
+      "name": "상상락원",
+      "branch_name": "익산 원광대점",
+      "id": "official_sslone_2",
+      "address": "전북특별자치도 익산시 동서로5길 96(신동) 2층",
+      "phone": "010-5725-9602",
+      "website_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=2",
+      "booking_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=2",
+      "engine": "sinbiweb",
+      "source_directory": "https://sslone.co.kr/layout/res/home.php?go=main",
+      "themes": [
+        {
+          "name": "Table Ver.16  (4m Table)"
+        },
+        {
+          "name": "Table Ver.17  (Small Ball)"
+        },
+        {
+          "name": "Table Ver.18  (Pulley)"
+        },
+        {
+          "name": "Table Ver.19  (Curling)"
+        },
+        {
+          "name": "Table Ver.20  (Fishing)"
+        },
+        {
+          "name": "Table Ver.21  (Piece)"
+        },
+        {
+          "name": "Table Ver.22  (Powder room)"
+        },
+        {
+          "name": "Table Ver.23  (Competition)"
+        },
+        {
+          "name": "Table Ver.24  (Radio)"
+        },
+        {
+          "name": "Table Ver.25  (Standing)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "experience_type": "table_escape",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "jeonbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://sslone.co.kr/layout/res/home.php?go=main",
+        "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=2"
+      ],
+      "stored_themes": 10,
+      "live_crawled": true
+    },
+    {
+      "name": "상상락원",
+      "branch_name": "전주객사점",
+      "id": "official_sslone_1",
+      "address": "전북특별자치도 전주시 완산구 전주객사1길 48",
+      "phone": "010-8114-3381",
+      "website_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=1",
+      "booking_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=1",
+      "engine": "sinbiweb",
+      "source_directory": "https://sslone.co.kr/layout/res/home.php?go=main",
+      "themes": [
+        {
+          "name": "Table Ver.26  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.27  (Competition(경쟁))"
+        },
+        {
+          "name": "Table Ver.28  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.29  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.30  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.31  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.32  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.33  (Standing)"
+        },
+        {
+          "name": "Table Ver.34  (Table Escape)"
+        },
+        {
+          "name": "Table Ver.35  (Table Escape)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "experience_type": "table_escape",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "jeonbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://sslone.co.kr/layout/res/home.php?go=main",
+        "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=1"
+      ],
+      "stored_themes": 10,
+      "live_crawled": true
+    },
+    {
+      "name": "상상락원",
+      "branch_name": "전주 한옥마을점",
+      "id": "official_sslone_5",
+      "address": "전북특별자치도 전주시 완산구 전동 310-2 1층",
+      "phone": "010-9689-3381",
+      "website_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=5",
+      "booking_url": "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=5",
+      "engine": "sinbiweb",
+      "source_directory": "https://sslone.co.kr/layout/res/home.php?go=main",
+      "themes": [
+        {
+          "name": "ver.36 (협동)"
+        },
+        {
+          "name": "ver.37 (킬러)"
+        },
+        {
+          "name": "ver.38 (동물)"
+        },
+        {
+          "name": "ver.39 (여행)"
+        },
+        {
+          "name": "ver.40 (학교)"
+        },
+        {
+          "name": "ver.41 (우주)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "experience_type": "table_escape",
+      "verified_at": "2026-11-15T10:30:50.006887+09:00",
+      "area": "jeonbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://sslone.co.kr/layout/res/home.php?go=main",
+        "https://sslone.co.kr/layout/res/home.php?go=rev.make&s_zizum=5"
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_3",
+      "name": "비밀의화원",
+      "branch_name": "서면점",
+      "address": "부산 부산진구 중앙대로 700 (부전동) 지하1층",
+      "phone": "070-7543-0820",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "아뜰리에",
+          "source_theme_id": "20",
+          "duration_min": 60
+        },
+        {
+          "name": "비밀의 화원",
+          "source_theme_id": "23",
+          "duration_min": 75
+        },
+        {
+          "name": "연애학개론",
+          "source_theme_id": "21",
+          "duration_min": 60
+        },
+        {
+          "name": "컬러즈",
+          "source_theme_id": "19",
+          "duration_min": 60
+        },
+        {
+          "name": "블라인드",
+          "source_theme_id": "22",
+          "duration_min": 60
+        },
+        {
+          "name": "베이비 레이스",
+          "source_theme_id": "18",
+          "duration_min": 60
+        },
+        {
+          "name": "슈퍼 엔지니어",
+          "source_theme_id": "17",
+          "duration_min": 60
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.188504+09:00",
+      "area": "busan",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=3"
+      ],
+      "stored_themes": 7,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_4",
+      "name": "비밀의화원",
+      "branch_name": "대학로점",
+      "address": "서울 종로구 대학로 130 (동숭동, 맥도널드) 지하 1층",
+      "phone": "02-765-8899",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "비밀의 모험",
+          "source_theme_id": "24",
+          "duration_min": 75
+        },
+        {
+          "name": "슈퍼플레이어:PLAYER1",
+          "source_theme_id": "25",
+          "duration_min": 60
+        },
+        {
+          "name": "엑스튜브",
+          "source_theme_id": "26",
+          "duration_min": 60
+        },
+        {
+          "name": "대감댁변씨",
+          "source_theme_id": "27",
+          "duration_min": 60
+        },
+        {
+          "name": "나이스",
+          "source_theme_id": "28",
+          "duration_min": 60
+        },
+        {
+          "name": "혜화애(야외테마)",
+          "source_theme_id": "29",
+          "duration_min": 90
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.191473+09:00",
+      "area": "myeongdong",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=4"
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_5",
+      "name": "비밀의화원",
+      "branch_name": "건대점",
+      "address": "서울 광진구 아차산로 235 (화양동) 3층",
+      "phone": "02-499-1119",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "안녕",
+          "source_theme_id": "96",
+          "duration_min": 60
+        },
+        {
+          "name": "우리의 전 사랑",
+          "source_theme_id": "31",
+          "duration_min": 60
+        },
+        {
+          "name": "비밀의 선물",
+          "source_theme_id": "97",
+          "duration_min": 60
+        },
+        {
+          "name": "레드림 컴퍼니",
+          "source_theme_id": "32",
+          "duration_min": 60
+        },
+        {
+          "name": "우끼끼",
+          "source_theme_id": "34",
+          "duration_min": 60
+        },
+        {
+          "name": "핑크슈즈",
+          "source_theme_id": "35",
+          "duration_min": 60
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.194113+09:00",
+      "area": "konkuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=5"
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_6",
+      "name": "비밀의화원",
+      "branch_name": "동성로점",
+      "address": "대구 중구 동성로5길 55 (삼덕동1가) 4층",
+      "phone": "070-8823-0070",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "리비도",
+          "source_theme_id": "37",
+          "duration_min": 75
+        },
+        {
+          "name": "대×9탈출",
+          "source_theme_id": "42",
+          "duration_min": 75
+        },
+        {
+          "name": "안녕",
+          "source_theme_id": "39",
+          "duration_min": 60
+        },
+        {
+          "name": "비밀의 선물",
+          "source_theme_id": "38",
+          "duration_min": 60
+        },
+        {
+          "name": "대감댁 변씨",
+          "source_theme_id": "36",
+          "duration_min": 60
+        },
+        {
+          "name": "영웅을 찾아서",
+          "source_theme_id": "40",
+          "duration_min": 60
+        },
+        {
+          "name": "향수 2019",
+          "source_theme_id": "41",
+          "duration_min": 60
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.196891+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=6"
+      ],
+      "stored_themes": 7,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_10",
+      "name": "비밀의화원",
+      "branch_name": "광주점",
+      "address": "광주 동구 충장로 90 (충장로2가, 갤러리존) 4층",
+      "phone": "062-226-7778",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "무고",
+          "source_theme_id": "58",
+          "duration_min": 75
+        },
+        {
+          "name": "리비도",
+          "source_theme_id": "59",
+          "duration_min": 75
+        },
+        {
+          "name": "스토커",
+          "source_theme_id": "60",
+          "duration_min": 60
+        },
+        {
+          "name": "새벽 베이커리",
+          "source_theme_id": "61",
+          "duration_min": 60
+        },
+        {
+          "name": "비밀의 가족",
+          "source_theme_id": "62",
+          "duration_min": 75
+        },
+        {
+          "name": "라스트 잡",
+          "source_theme_id": "63",
+          "duration_min": 90
+        },
+        {
+          "name": "(야외테마)Love Blossom",
+          "source_theme_id": "64",
+          "duration_min": 80
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.200054+09:00",
+      "area": "gwangju",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=10"
+      ],
+      "stored_themes": 7,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_11",
+      "name": "비밀의화원",
+      "branch_name": "시네마틱 혜화점",
+      "address": "서울 종로구 대명길 9 (명륜4가) 지하2층 방탈출",
+      "phone": "02-763-3289",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "H.E.L.L.P",
+          "source_theme_id": "66",
+          "duration_min": 100
+        },
+        {
+          "name": "달 : 기억의 조각",
+          "source_theme_id": "68",
+          "duration_min": 75
+        },
+        {
+          "name": "딜레마",
+          "source_theme_id": "70",
+          "duration_min": 80
+        },
+        {
+          "name": "도망자 여씨",
+          "source_theme_id": "71",
+          "duration_min": 45
+        },
+        {
+          "name": "삼남매 이씨",
+          "source_theme_id": "69",
+          "duration_min": 60
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.203364+09:00",
+      "area": "myeongdong",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=11"
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "id": "official_secretgarden_12",
+      "name": "비밀의화원",
+      "branch_name": "전주점",
+      "address": "전북 전주시 완산구 문화광장로 2 (고사동) 지하층",
+      "phone": "063-232-0087",
+      "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12",
+      "booking_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12",
+      "engine": "secretgarden",
+      "source_directory": "https://www.secretgardenescape.com/",
+      "themes": [
+        {
+          "name": "달 : 기억의 조각",
+          "source_theme_id": "77",
+          "duration_min": 75
+        },
+        {
+          "name": "사춘기",
+          "source_theme_id": "76",
+          "duration_min": 60
+        },
+        {
+          "name": "담력학원",
+          "source_theme_id": "78",
+          "duration_min": 75
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T10:54:02.206521+09:00",
+      "area": "jeonbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.secretgardenescape.com/",
+        "https://www.secretgardenescape.com/reservation.html?k_shopno=12"
+      ],
+      "stored_themes": 3,
+      "live_crawled": true
+    },
+    {
+      "id": "official_xcape_xc",
+      "name": "엑스케이프",
+      "branch_name": "건대1호점",
+      "address": "서울 광진구 동일로 112 엑스케이프 건대점",
+      "phone": "024639366",
+      "website_url": "https://xcape.kr/booking/xc",
+      "booking_url": "https://xcape.kr/booking/xc",
+      "engine": "xcape_current",
+      "themes": [
+        {
+          "name": "숨바꼭질",
+          "duration_min": 60
+        },
+        {
+          "name": "501동 사람들",
+          "duration_min": 70
+        },
+        {
+          "name": "짜불성설",
+          "duration_min": 75
+        },
+        {
+          "name": "이도공간",
+          "duration_min": 60
+        }
+      ],
+      "verification_sources": [
+        "https://xcape.kr/directions",
+        "https://xcape.kr/booking/xc"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "konkuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 4,
+      "live_crawled": true,
+      "aliases": [
+        "엑스케이프 건대점"
+      ]
+    },
+    {
+      "id": "official_xcape_xr",
+      "name": "엑스크라임",
+      "branch_name": "건대2호점",
+      "address": "서울 광진구 아차산로29길 38 B1 엑스크라임 방탈출카페",
+      "phone": "024648788",
+      "website_url": "https://xcape.kr/booking/xr",
+      "booking_url": "https://xcape.kr/booking/xr",
+      "engine": "xcape_current",
+      "themes": [
+        {
+          "name": "운필귀정",
+          "duration_min": 70
+        },
+        {
+          "name": "그믐달살인사건",
+          "duration_min": 80
+        },
+        {
+          "name": "청림맨션",
+          "duration_min": 60
+        },
+        {
+          "name": "베다바리",
+          "duration_min": 70
+        },
+        {
+          "name": "경성도박장",
+          "duration_min": 80
+        }
+      ],
+      "verification_sources": [
+        "https://xcape.kr/directions",
+        "https://xcape.kr/booking/xr"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "konkuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 5,
+      "live_crawled": true,
+      "aliases": [
+        "엑스크라임",
+        "엑스크라임 건대점"
+      ]
+    },
+    {
+      "id": "official_xcape_nc",
+      "name": "뉴케이스",
+      "branch_name": "건대3호점",
+      "address": "서울 광진구 아차산로 191 B1층 뉴케이스 방탈출카페",
+      "phone": "024981999",
+      "website_url": "https://xcape.kr/booking/nc",
+      "booking_url": "https://xcape.kr/booking/nc",
+      "engine": "xcape_current",
+      "themes": [
+        {
+          "name": "이름없는집",
+          "duration_min": 70
+        },
+        {
+          "name": "인지상점",
+          "duration_min": 65
+        },
+        {
+          "name": "침묵의 목격자",
+          "duration_min": 70
+        }
+      ],
+      "verification_sources": [
+        "https://xcape.kr/directions",
+        "https://xcape.kr/booking/nc"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "konkuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 3,
+      "live_crawled": true,
+      "aliases": [
+        "엑스케이프 뉴케이스"
+      ]
+    },
+    {
+      "id": "official_xcape_gn",
+      "name": "엑스케이프",
+      "branch_name": "강남점",
+      "address": "서울 강남구 봉은사로2길 16 현도빌딩 지하1층 엑스케이프 방탈출카페",
+      "phone": "025559366",
+      "website_url": "https://xcape.kr/booking/gn",
+      "booking_url": "https://xcape.kr/booking/gn",
+      "engine": "xcape_current",
+      "themes": [
+        {
+          "name": "제5수감동",
+          "duration_min": 80
+        },
+        {
+          "name": "수취인초대",
+          "duration_min": 70
+        },
+        {
+          "name": "기억의 틈",
+          "duration_min": 70
+        },
+        {
+          "name": "제3표류도",
+          "duration_min": 80
+        },
+        {
+          "name": "다나아종합병원",
+          "duration_min": 80
+        }
+      ],
+      "verification_sources": [
+        "https://xcape.kr/directions",
+        "https://xcape.kr/booking/gn"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "gangnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "id": "official_xcape_sw",
+      "name": "엑스케이프",
+      "branch_name": "수원점",
+      "address": "경기 수원시 팔달구 효원로265번길 40 4층 엑스케이프 방탈출카페",
+      "phone": "0312343350",
+      "website_url": "https://xcape.kr/booking/sw",
+      "booking_url": "https://xcape.kr/booking/sw",
+      "engine": "xcape_current",
+      "themes": [
+        {
+          "name": "숨바꼭질",
+          "duration_min": 60
+        },
+        {
+          "name": "501동사람들",
+          "duration_min": 70
+        },
+        {
+          "name": "제물의 밤",
+          "duration_min": 60
+        },
+        {
+          "name": "기묘한날개짓",
+          "duration_min": 60
+        },
+        {
+          "name": "인지상점",
+          "duration_min": 70
+        }
+      ],
+      "verification_sources": [
+        "https://xcape.kr/directions",
+        "https://xcape.kr/booking/sw"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "id": "official_pointnine_1",
+      "name": "포인트나인",
+      "branch_name": "강남점",
+      "address": "서울시 강남구 역삼동 618-3 지하1층",
+      "phone": "070-7733-7879",
+      "website_url": "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=1",
+      "booking_url": "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=1",
+      "engine": "sinbiweb",
+      "themes": [
+        {
+          "name": "EP1 : 시간이 멈춘 마을"
+        },
+        {
+          "name": "EP2 : 열쇠공의 이중생활"
+        },
+        {
+          "name": "EP3 : 눈 먼 귀금속상인의 후회"
+        },
+        {
+          "name": "EP4 : 주인 없는 낡은 서점"
+        }
+      ],
+      "verification_sources": [
+        "https://point-nine.com/layout/res/home.php?go=location",
+        "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=1"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "gangnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 4,
+      "live_crawled": true,
+      "aliases": [
+        "포인트나인 강남 1호점"
+      ]
+    },
+    {
+      "id": "official_pointnine_5",
+      "name": "포인트나인",
+      "branch_name": "건대점",
+      "address": "서울시 광진구 화양동 11-7 3층",
+      "phone": "070-7537-0869",
+      "website_url": "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=5",
+      "booking_url": "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=5",
+      "engine": "sinbiweb",
+      "themes": [
+        {
+          "name": "Jack in the Show"
+        },
+        {
+          "name": "RETURN"
+        },
+        {
+          "name": "ALBA"
+        }
+      ],
+      "verification_sources": [
+        "https://point-nine.com/layout/res/home.php?go=location",
+        "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=5"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "konkuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 3,
+      "live_crawled": true
+    },
+    {
+      "id": "official_pointnine_6",
+      "name": "포인트나인",
+      "branch_name": "홍대점",
+      "address": "서울 마포구 독막로 7길 40, 지하1층",
+      "phone": "010-2131-0538",
+      "website_url": "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=6",
+      "booking_url": "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=6",
+      "engine": "sinbiweb",
+      "themes": [
+        {
+          "name": "SILENT"
+        },
+        {
+          "name": "LISTEN"
+        }
+      ],
+      "verification_sources": [
+        "https://point-nine.com/layout/res/home.php?go=location",
+        "https://point-nine.com/layout/res/home.php?go=rev.make&s_zizum=6"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "hongdae",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 2,
+      "live_crawled": true
+    },
+    {
+      "id": "official_zeroworld_1",
+      "name": "제로월드",
+      "branch_name": "김포본점",
+      "address": "경기도 김포시 김포한강9로75번길 180 405호, 406호(구래동, 두원타워)",
+      "phone": "031-982-9074",
+      "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=A&zizum_num=1",
+      "booking_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=A&zizum_num=1",
+      "engine": "zeroworld_current",
+      "themes": [
+        {
+          "name": "FEAR",
+          "duration_min": 75
+        },
+        {
+          "name": "해리포터의 모험 SE : 마법모자의 위기",
+          "duration_min": 60
+        },
+        {
+          "name": "검은사원 SE",
+          "duration_min": 75
+        },
+        {
+          "name": "피노키오 대탈출",
+          "duration_min": null
+        },
+        {
+          "name": "복희네 사진관 SE",
+          "duration_min": 60
+        },
+        {
+          "name": "최면",
+          "duration_min": 60
+        },
+        {
+          "name": "성역전설",
+          "duration_min": 75
+        },
+        {
+          "name": "인형괴담",
+          "duration_min": 75
+        },
+        {
+          "name": "어느 겨울밤",
+          "duration_min": 60
+        },
+        {
+          "name": "탈옥 : 특별수용소",
+          "duration_min": 75
+        },
+        {
+          "name": "제로호텔",
+          "duration_min": 70
+        }
+      ],
+      "verification_sources": [
+        "https://zeroworldkorea.com/layout/res/home.php?go=location",
+        "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=A&zizum_num=1"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 11,
+      "live_crawled": true,
+      "aliases": [
+        "제로월드 김포점"
+      ]
+    },
+    {
+      "id": "official_zeroworld_2",
+      "name": "제로월드",
+      "branch_name": "다이브 건대점",
+      "address": "서울특별시 광진구 아차산로26길 22 1층 1지층 전호(자양동)",
+      "phone": "02-499-1223",
+      "website_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=B&zizum_num=2",
+      "booking_url": "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=B&zizum_num=2",
+      "engine": "zeroworld_current",
+      "themes": [
+        {
+          "name": "인터뷰 (INTERVIEW)",
+          "duration_min": 70
+        },
+        {
+          "name": "오르골 (ORGEL)",
+          "duration_min": 70
+        },
+        {
+          "name": "타쿠의 심야괴담",
+          "duration_min": 75
+        }
+      ],
+      "verification_sources": [
+        "https://zeroworldkorea.com/layout/res/home.php?go=location",
+        "https://zeroworldkorea.com/layout/res/home.php?go=rev.make&s_subj=B&zizum_num=2"
+      ],
+      "verified_at": "2026-11-15T11:01:46.044304+09:00",
+      "area": "konkuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_status": "official_listing_verified",
+      "stored_themes": 3,
+      "live_crawled": true
+    },
+    {
+      "id": "official_play33_4",
+      "name": "플레이33",
+      "branch_name": "홍대점",
+      "address": "서울 마포구 와우산로21길 36-8 (레디안트) 3층",
+      "phone": "010-7593-3345",
+      "website_url": "https://play33.kr/reservation?branch=4",
+      "booking_url": "https://play33.kr/reservation?branch=4",
+      "engine": "play33",
+      "themes": [
+        {
+          "name": "피안화"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:09:46.977563+09:00",
+      "area": "hongdae",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://play33.kr/map?branch=4",
+        "https://play33.kr/reservation?branch=4"
+      ],
+      "stored_themes": 1,
+      "live_crawled": true
+    },
+    {
+      "id": "official_play33_5",
+      "name": "플레이33",
+      "branch_name": "대전점",
+      "address": "대전 중구 중앙로164번길 17 지하1층",
+      "phone": "042-221-4007",
+      "website_url": "https://play33.kr/reservation?branch=5",
+      "booking_url": "https://play33.kr/reservation?branch=5",
+      "engine": "play33",
+      "themes": [
+        {
+          "name": "우울해서 빵 샀어"
+        },
+        {
+          "name": "자각몽(自覺夢)"
+        },
+        {
+          "name": "I am Still Here, ELLEN"
+        },
+        {
+          "name": "좌충우돌 꼬마마법사"
+        },
+        {
+          "name": "강천여자고등학교"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:09:47.053971+09:00",
+      "area": "daejeon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://play33.kr/map?branch=5",
+        "https://play33.kr/reservation?branch=5"
+      ],
+      "stored_themes": 5,
+      "live_crawled": true
+    },
+    {
+      "id": "official_play33_7",
+      "name": "플레이33",
+      "branch_name": "수원점",
+      "address": "경기 수원시 팔달구 인계로138번길 36 2층 방탈출카페 플레이33 PLAY33",
+      "phone": "010-8131-3304",
+      "website_url": "https://play33.kr/reservation?branch=7",
+      "booking_url": "https://play33.kr/reservation?branch=7",
+      "engine": "play33",
+      "themes": [
+        {
+          "name": "기억 : 끝나지 않을 꿈"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:09:47.112054+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://play33.kr/map?branch=7",
+        "https://play33.kr/reservation?branch=7"
+      ],
+      "stored_themes": 1,
+      "live_crawled": true,
+      "aliases": [
+        "플레이33 수원인계점"
+      ]
+    },
+    {
+      "id": "official_codek_S1",
+      "name": "코드케이",
+      "branch_name": "강남점",
+      "address": "서울시 강남구 역삼동 813-4 지층",
+      "website_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S1&CHOIS_DATE=2026-11-15&DIS_T=A",
+      "booking_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S1&CHOIS_DATE=2026-11-15&DIS_T=A",
+      "engine": "codek",
+      "themes": [
+        {
+          "name": "도둑들"
+        },
+        {
+          "name": "504호"
+        },
+        {
+          "name": "얼어붙은 물의 신전"
+        },
+        {
+          "name": "살인사건 현장"
+        },
+        {
+          "name": "기억상실"
+        },
+        {
+          "name": "미치광이 연쇄살인범"
+        },
+        {
+          "name": "셜록홈즈: 살인누명"
+        },
+        {
+          "name": "충무공 이순신"
+        },
+        {
+          "name": "감옥탈출"
+        },
+        {
+          "name": "저주받은 산장"
+        },
+        {
+          "name": "좀비 90일후"
+        },
+        {
+          "name": "납치 (2인전용)"
+        },
+        {
+          "name": "테러리스트"
+        },
+        {
+          "name": "기술자들"
+        },
+        {
+          "name": "미스터리 거울의 방 (3인이상) -15세 이상-"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:14:33.444719+09:00",
+      "area": "gangnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "http://www.code-k.co.kr",
+        "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S1&CHOIS_DATE=2026-11-15&DIS_T=A"
+      ],
+      "stored_themes": 15,
+      "live_crawled": true
+    },
+    {
+      "id": "official_codek_S3",
+      "name": "코드케이",
+      "branch_name": "홍대점",
+      "address": "서울시 마포구 상수동 86-22 3층",
+      "website_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S3&CHOIS_DATE=2026-11-15&DIS_T=A",
+      "booking_url": "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S3&CHOIS_DATE=2026-11-15&DIS_T=A",
+      "engine": "codek",
+      "themes": [
+        {
+          "name": "꼬레아 우라 A"
+        },
+        {
+          "name": "꼬레아 우라 B"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:14:33.648209+09:00",
+      "area": "hongdae",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "http://www.code-k.co.kr",
+        "http://codek5678.cafe24.com/sub/code_sub04_1.html?R_JIJEM=S3&CHOIS_DATE=2026-11-15&DIS_T=A"
+      ],
+      "stored_themes": 2,
+      "live_crawled": true
+    },
+    {
+      "id": "official_weyol",
+      "name": "위욜",
+      "branch_name": "",
+      "address": "서울시 마포구 와우산로27길 7 지하1층",
+      "phone": "02-332-3305",
+      "website_url": "https://weyol.com/layout/res/home.php?go=rev.make",
+      "booking_url": "https://weyol.com/layout/res/home.php?go=rev.make",
+      "engine": "sinbiweb",
+      "themes": [
+        {
+          "name": "디어마이프렌드"
+        },
+        {
+          "name": "즐거운나의집"
+        },
+        {
+          "name": "콩닥콩닥베이커리"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:33:21.492986+09:00",
+      "area": "hongdae",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://weyol.com/layout/res/home.php?go=rev.make"
+      ],
+      "stored_themes": 3,
+      "live_crawled": true
+    },
+    {
+      "id": "official_dolo",
+      "name": "돌로이스케이프",
+      "branch_name": "",
+      "address": "서울시 강남구 봉은사로6길 34 지하1층",
+      "phone": "010-4450-9070",
+      "website_url": "https://doloescape.co.kr/layout/res/home.php?go=rev.make",
+      "booking_url": "https://doloescape.co.kr/layout/res/home.php?go=rev.make",
+      "engine": "sinbiweb",
+      "themes": [
+        {
+          "name": "박물관 철거 현장"
+        },
+        {
+          "name": "시선"
+        },
+        {
+          "name": "아로새김"
+        },
+        {
+          "name": "The 대기실"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:33:21.500885+09:00",
+      "area": "gangnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://doloescape.co.kr/layout/res/home.php?go=rev.make"
+      ],
+      "stored_themes": 4,
+      "live_crawled": true
+    },
+    {
+      "id": "official_eroom8",
+      "name": "이룸에이트",
+      "branch_name": "",
+      "address": "서울시 강남구 봉은사로115 노벨테크 B2F",
+      "phone": "02-6408-6408",
+      "website_url": "https://eroom8.co.kr/layout/res/home.php?go=rev.make",
+      "booking_url": "https://eroom8.co.kr/layout/res/home.php?go=rev.make",
+      "engine": "sinbiweb",
+      "themes": [
+        {
+          "name": "고인"
+        },
+        {
+          "name": "민초"
+        },
+        {
+          "name": "착한사람"
+        },
+        {
+          "name": "고령화사회"
+        },
+        {
+          "name": "스테이시"
+        },
+        {
+          "name": "낙원"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:33:21.512535+09:00",
+      "area": "gangnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://eroom8.co.kr/layout/res/home.php?go=rev.make"
+      ],
+      "stored_themes": 6,
+      "live_crawled": true
+    },
+    {
+      "id": "official_roomsa_41",
+      "name": "룸즈에이",
+      "branch_name": "강남점",
+      "address": "서울 강남구 역삼동 827-14, 지하 2층",
+      "phone": "0507-1334-7546",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "메가 게임 (MEGA GAME)"
+        },
+        {
+          "name": "쎄비지 (SAVAGE)"
+        },
+        {
+          "name": "비틀배틀-퍼플 (BEETLE BATTLE)"
+        },
+        {
+          "name": "GALAXY HYPRESS (갤럭시 하이프리스)"
+        },
+        {
+          "name": "33: DOOR RUN (도어런)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.694032+09:00",
+      "area": "gangnam",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_42",
+      "name": "룸즈에이",
+      "branch_name": "대학로점",
+      "address": "서울 종로구 동숭동 1-65 해안빌딩, 지하 1층",
+      "phone": "02-747-9003",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "Secret Agent"
+        },
+        {
+          "name": "안개꽃"
+        },
+        {
+          "name": "낭랑카페"
+        },
+        {
+          "name": "행방불냥"
+        },
+        {
+          "name": "Gain Time"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.696156+09:00",
+      "area": "myeongdong",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_43",
+      "name": "룸즈에이",
+      "branch_name": "안양범계점",
+      "address": "경기 안양시 동안구 호계동 1041-2, 5층",
+      "phone": "031-388-4127",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "띵가띵가"
+        },
+        {
+          "name": "뽀득뽀득"
+        },
+        {
+          "name": "커밍순"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.697115+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 3,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_44",
+      "name": "룸즈에이",
+      "branch_name": "일산 웨스턴돔점",
+      "address": "경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호",
+      "phone": "031-901-2444",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "뽀득뽀득"
+        },
+        {
+          "name": "반짝반짝"
+        },
+        {
+          "name": "시크릿에이전트"
+        },
+        {
+          "name": "이상한 돈가스"
+        },
+        {
+          "name": "타임키퍼"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.698066+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_46",
+      "name": "룸즈에이",
+      "branch_name": "의정부점",
+      "address": "경기 의정부시 의정부동 158-10, 4층",
+      "phone": "031-821-0446",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "이상한 돈가스"
+        },
+        {
+          "name": "뽀득뽀득"
+        },
+        {
+          "name": "반짝반짝"
+        },
+        {
+          "name": "낭랑카페"
+        },
+        {
+          "name": "타임키퍼"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.699025+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_47",
+      "name": "룸즈에이",
+      "branch_name": "수원역점",
+      "address": "경기 수원시 팔달구 매산로1가 30-1, 3층",
+      "phone": "031-246-1114",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "필활"
+        },
+        {
+          "name": "띵가띵가"
+        },
+        {
+          "name": "전지적 작가 시점"
+        },
+        {
+          "name": "우당탕탕"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.699987+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 4,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_48",
+      "name": "룸즈에이",
+      "branch_name": "수원역 2호점",
+      "address": "경기 수원시 팔달구 매산로1가 40-1, 3층",
+      "phone": "031-256-2220",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "호텔 캘리포니아"
+        },
+        {
+          "name": "귀빈(손님대접)"
+        },
+        {
+          "name": "슬기로운 지구생활(70분)"
+        },
+        {
+          "name": "평화로운 A마트 (70분)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.701464+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 4,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_49",
+      "name": "룸즈에이",
+      "branch_name": "대전둔산점",
+      "address": "대전 서구 둔산동 1063, 태형빌딩 7층",
+      "phone": "042-476-9200",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "뜻밖의 여행"
+        },
+        {
+          "name": "신의여인들"
+        },
+        {
+          "name": "시크릿 에이젼트"
+        },
+        {
+          "name": "귀빈(손님대접)"
+        },
+        {
+          "name": "7 DAYS"
+        },
+        {
+          "name": "THINKABLE (씽커블) 40분"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.702530+09:00",
+      "area": "daejeon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 6,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_50",
+      "name": "룸즈에이",
+      "branch_name": "대전은행점",
+      "address": "대전 중구 은행동 33-2, 4층",
+      "phone": "042-223-2226",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "히어로 아카데미"
+        },
+        {
+          "name": "낭랑카페"
+        },
+        {
+          "name": "안개꽃"
+        },
+        {
+          "name": "기억술사"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.703631+09:00",
+      "area": "daejeon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 4,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_51",
+      "name": "룸즈에이",
+      "branch_name": "부산남포점",
+      "address": "부산 중구 창선동2가 46-1",
+      "phone": "010-2441-2870",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "제인하우스"
+        },
+        {
+          "name": "안개꽃"
+        },
+        {
+          "name": "행방불냥"
+        },
+        {
+          "name": "시크릿 에이전트"
+        },
+        {
+          "name": "낭랑카페"
+        },
+        {
+          "name": "초콜릿 팩토리"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.704631+09:00",
+      "area": "busan",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 6,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_52",
+      "name": "룸즈에이",
+      "branch_name": "부산서면점",
+      "address": "부산 부산진구 부전동 198-1 3층",
+      "phone": "051-816-4147",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "요정들의 술집"
+        },
+        {
+          "name": "히어로 아카데미"
+        },
+        {
+          "name": "프레임 하이커"
+        },
+        {
+          "name": "퍼펙트 플랜"
+        },
+        {
+          "name": "너와 나의 이야기"
+        },
+        {
+          "name": "아직 버리지 못한 지갑"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.705667+09:00",
+      "area": "busan",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 6,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_53",
+      "name": "룸즈에이",
+      "branch_name": "광주수완점",
+      "address": "광주 광산구 수완동 1096 잭슨스테이크 건물5층",
+      "phone": "062-959-8069",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "요정들의 술집"
+        },
+        {
+          "name": "낭랑카페"
+        },
+        {
+          "name": "히어로 아카데미"
+        },
+        {
+          "name": "뽀득뽀득"
+        },
+        {
+          "name": "너와 나의 이야기"
+        },
+        {
+          "name": "시크릿 에이전트"
+        },
+        {
+          "name": "방과 후"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.706628+09:00",
+      "area": "gwangju",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 7,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_54",
+      "name": "룸즈에이",
+      "branch_name": "광주상무점",
+      "address": "광주 서구 상무번영로 37 나우빌딩 6층",
+      "phone": "062-383-8069",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "띵가띵가"
+        },
+        {
+          "name": "이상한 돈가스"
+        },
+        {
+          "name": "뜻밖의 여행"
+        },
+        {
+          "name": "아이돌 남친"
+        },
+        {
+          "name": "그레이스 호텔"
+        },
+        {
+          "name": "커밍순"
+        },
+        {
+          "name": "이 소리 저만 들리나요?"
+        },
+        {
+          "name": "전지적 작가 시점"
+        },
+        {
+          "name": "멍사탕"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.707793+09:00",
+      "area": "gwangju",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 9,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_55",
+      "name": "룸즈에이",
+      "branch_name": "대구동성로점",
+      "address": "대구 중구 공평동 34-2, 4층",
+      "phone": "0507-1389-3838",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "뽀득뽀득"
+        },
+        {
+          "name": "노블리스트"
+        },
+        {
+          "name": "취중진담"
+        },
+        {
+          "name": "반짝반짝"
+        },
+        {
+          "name": "아이돌 남친"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.708734+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_56",
+      "name": "룸즈에이",
+      "branch_name": "동성로2호점",
+      "address": "대구 중구 삼덕동1가 18-1, 4층",
+      "phone": "053-253-3853",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "금 나와라 뚝딱"
+        },
+        {
+          "name": "여우골"
+        },
+        {
+          "name": "커밍순"
+        },
+        {
+          "name": "띵가띵가"
+        },
+        {
+          "name": "그레이스 호텔"
+        },
+        {
+          "name": "아이덴티티"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.709676+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "aliases": [
+        "룸즈에이 대구동성로2호점"
+      ],
+      "stored_themes": 6,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_57",
+      "name": "룸즈에이",
+      "branch_name": "동성로 아카데미점",
+      "address": "대구 중구 사일동 54-1, 3층",
+      "phone": "0507-1302-4147",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "필활"
+        },
+        {
+          "name": "평화로운 에이마트"
+        },
+        {
+          "name": "우당탕탕"
+        },
+        {
+          "name": "슬기로운 지구생활"
+        },
+        {
+          "name": "명부에 점을 찍으라"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.710669+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "aliases": [
+        "룸즈에이 대구동성로 아카데미점"
+      ],
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_83",
+      "name": "룸즈에이",
+      "branch_name": "대구스테이지점",
+      "address": "대구 중구 동성로2길 28 3층",
+      "phone": "053-252-7055",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "메가 게임 (MEGA GAME)"
+        },
+        {
+          "name": "우정 게임"
+        },
+        {
+          "name": "행복 고시원"
+        },
+        {
+          "name": "비틀배틀-블루 (BEETLE BATTLE)"
+        },
+        {
+          "name": "33: DOOR RUN (도어런)"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.711657+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 5,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_58",
+      "name": "룸즈에이",
+      "branch_name": "포항점",
+      "address": "경북 포항시 북구 상원동 462-5, 스타타워 5층",
+      "phone": "054-247-4147",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "낭랑카페"
+        },
+        {
+          "name": "너와 나의 이야기"
+        },
+        {
+          "name": "안개꽃"
+        },
+        {
+          "name": "시크릿 에이전트"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.712643+09:00",
+      "area": "gyeongbuk",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 4,
+      "live_crawled": false
+    },
+    {
+      "id": "official_roomsa_69",
+      "name": "룸즈에이",
+      "branch_name": "부평 2호점",
+      "address": "인천 부평구 부평문화로 75, 3층",
+      "phone": "032-523-1117",
+      "website_url": "https://roomsa.co.kr/reservation",
+      "booking_url": "https://roomsa.co.kr/reservation",
+      "engine": "roomsa_catalog",
+      "themes": [
+        {
+          "name": "1986, 구룡"
+        },
+        {
+          "name": "2002, 주안"
+        },
+        {
+          "name": "2025, ALEx"
+        },
+        {
+          "name": "1982, 그날의 사진사"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:38:09.714423+09:00",
+      "area": "incheon",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "needs_review",
+      "verification_sources": [
+        "https://roomsa.co.kr/locations",
+        "https://roomsa.co.kr/api/booking/stores"
+      ],
+      "crawler_review_note": "공식 지점·테마 API는 공개 조회 성공. 정상 브라우저 예약 화면에 보호 메시지가 나타나 시간대 검증은 보류. 빈자리 생성 안 함.",
+      "stored_themes": 4,
+      "live_crawled": false
+    },
+    {
+      "id": "official_plus",
+      "name": "플러스이스케이프",
+      "branch_name": "",
+      "address": "대구광역시 동구 장등로 36-1 6층",
+      "website_url": "https://www.plus-escape.com",
+      "booking_url": "https://www.plus-escape.com/reservation",
+      "engine": "plus_public",
+      "themes": [
+        {
+          "name": "루나빌리지"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:39:47.640247+09:00",
+      "area": "daegu",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.plus-escape.com",
+        "https://www.plus-escape.com/reservation"
+      ],
+      "stored_themes": 1,
+      "live_crawled": true
+    },
+    {
+      "id": "official_exploria",
+      "name": "익스플로리아이스케이프",
+      "branch_name": "수원점",
+      "address": "경기 수원시 팔달구 효원로235번길 51 3층",
+      "website_url": "https://www.exploria-escape.kr",
+      "booking_url": "https://www.exploria-escape.kr/theme/",
+      "engine": "exploria_public",
+      "themes": [
+        {
+          "name": "외로움과고독사이"
+        },
+        {
+          "name": "포리프"
+        }
+      ],
+      "verification_status": "official_listing_verified",
+      "verified_at": "2026-11-15T11:39:47.860685+09:00",
+      "area": "gyeonggi",
+      "crawled": false,
+      "is_active": true,
+      "supported_area": true,
+      "crawler_status": "smoke_pass",
+      "verification_sources": [
+        "https://www.exploria-escape.kr",
+        "https://www.exploria-escape.kr/information/"
+      ],
+      "stored_themes": 2,
+      "live_crawled": true
+    }
+  ],
+  "applied_cafe_ids": [
+    "official_xcape_nc",
+    "official_xcape_xc",
+    "official_xcape_sw",
+    "official_zeroworld_2",
+    "official_sherlock_84",
+    "official_roomsa_56",
+    "official_roomsa_58",
+    "official_roomsa_69",
+    "official_roomsa_43",
+    "official_plus",
+    "official_pointnine_5",
+    "official_secretgarden_10",
+    "official_dolo",
+    "official_eroom8",
+    "official_exploria",
+    "official_sherlock_86",
+    "official_sslone_1",
+    "official_sherlock_112",
+    "official_secretgarden_12",
+    "official_sslone_5",
+    "official_sherlock_113",
+    "official_xcape_gn",
+    "official_roomsa_53",
+    "official_sherlock_81",
+    "official_weyol",
+    "official_roomsa_50",
+    "official_roomsa_83",
+    "official_sslone_4",
+    "official_roomsa_42",
+    "official_sherlock_70",
+    "official_sherlock_13",
+    "official_sherlock_105",
+    "official_roomsa_49",
+    "official_roomsa_54",
+    "official_roomsa_48",
+    "official_sherlock_114",
+    "official_play33_4",
+    "official_play33_5",
+    "official_secretgarden_6",
+    "official_play33_7",
+    "official_roomsa_41",
+    "official_xcape_xr",
+    "official_secretgarden_3",
+    "official_roomsa_46",
+    "official_sherlock_116",
+    "official_roomsa_52",
+    "official_sherlock_41",
+    "official_sherlock_61",
+    "official_sherlock_79",
+    "official_zeroworld_1",
+    "official_sherlock_44",
+    "official_pointnine_6",
+    "official_codek_S1",
+    "official_sslone_2",
+    "official_secretgarden_11",
+    "official_secretgarden_4",
+    "official_roomsa_47",
+    "official_secretgarden_5",
+    "official_sherlock_111",
+    "official_sherlock_110",
+    "official_roomsa_55",
+    "official_pointnine_1",
+    "official_codek_S3",
+    "official_roomsa_57",
+    "official_roomsa_44",
+    "official_sherlock_115",
+    "official_roomsa_51"
+  ],
+  "applied_theme_ids": [
+    "official_xcape_xr__운필귀정",
+    "official_secretgarden_3__블라인드",
+    "official_roomsa_46__낭랑카페",
+    "official_codek_S1__504호",
+    "official_xcape_xr__베다바리",
+    "official_roomsa_46__타임키퍼",
+    "official_roomsa_50__히어로_아카데미",
+    "official_roomsa_52__프레임_하이커",
+    "official_dolo__아로새김",
+    "official_roomsa_43__띵가띵가",
+    "official_codek_S1__감옥탈출",
+    "official_exploria__포리프",
+    "official_roomsa_69__1986__구룡",
+    "official_codek_S1__도둑들",
+    "official_roomsa_42__안개꽃",
+    "official_secretgarden_3__슈퍼_엔지니어",
+    "official_sslone_4__Table_ver_15___Competition_",
+    "official_roomsa_57__필활",
+    "official_roomsa_51__행방불냥",
+    "official_xcape_sw__501동사람들",
+    "official_roomsa_51__시크릿_에이전트",
+    "official_roomsa_54__아이돌_남친",
+    "official_sslone_1__Table_Ver_31___Table_Escape_",
+    "official_roomsa_54__그레이스_호텔",
+    "official_pointnine_6__SILENT",
+    "official_sslone_2__Table_Ver_24___Radio_",
+    "official_eroom8__착한사람",
+    "official_codek_S3__꼬레아_우라_A",
+    "official_xcape_sw__기묘한날개짓",
+    "official_xcape_sw__인지상점",
+    "official_zeroworld_1__성역전설",
+    "official_secretgarden_10__무고",
+    "official_sslone_1__Table_Ver_27___Competition_경쟁__",
+    "official_zeroworld_2__오르골__ORGEL_",
+    "official_pointnine_5__ALBA",
+    "official_codek_S1__살인사건_현장",
+    "official_roomsa_49__THINKABLE__씽커블__40분",
+    "official_roomsa_49__뜻밖의_여행",
+    "official_xcape_nc__이름없는집",
+    "official_roomsa_56__여우골",
+    "official_roomsa_52__히어로_아카데미",
+    "official_exploria__외로움과고독사이",
+    "official_zeroworld_1__제로호텔",
+    "official_sslone_4__Table_ver_08___Table_play_",
+    "official_roomsa_42__낭랑카페",
+    "official_secretgarden_4__혜화애_야외테마_",
+    "official_secretgarden_4__나이스",
+    "official_roomsa_49__시크릿_에이젼트",
+    "official_roomsa_41__메가_게임__MEGA_GAME_",
+    "official_roomsa_51__낭랑카페",
+    "official_play33_5__강천여자고등학교",
+    "official_roomsa_69__2025__ALEx",
+    "official_zeroworld_1__복희네_사진관_SE",
+    "official_sslone_2__Table_Ver_18___Pulley_",
+    "official_roomsa_54__전지적_작가_시점",
+    "official_roomsa_46__반짝반짝",
+    "official_sslone_5__ver_37__킬러_",
+    "official_pointnine_1__EP4___주인_없는_낡은_서점",
+    "official_xcape_gn__기억의_틈",
+    "official_zeroworld_1__어느_겨울밤",
+    "official_sslone_1__Table_Ver_33___Standing_",
+    "official_sslone_2__Table_Ver_21___Piece_",
+    "official_pointnine_1__EP2___열쇠공의_이중생활",
+    "official_roomsa_50__기억술사",
+    "official_roomsa_51__제인하우스",
+    "official_codek_S1__얼어붙은_물의_신전",
+    "official_secretgarden_4__엑스튜브",
+    "official_roomsa_41__비틀배틀_퍼플__BEETLE_BATTLE_",
+    "official_roomsa_48__호텔_캘리포니아",
+    "official_codek_S1__좀비_90일후",
+    "official_roomsa_43__뽀득뽀득",
+    "official_roomsa_54__커밍순",
+    "official_sslone_4__Table_ver_44_요정마을___Table_play_",
+    "official_roomsa_56__커밍순",
+    "official_secretgarden_10__스토커",
+    "official_roomsa_41__33__DOOR_RUN__도어런_",
+    "official_roomsa_46__이상한_돈가스",
+    "official_secretgarden_6__비밀의_선물",
+    "official_roomsa_53__방과_후",
+    "official_dolo__The_대기실",
+    "official_secretgarden_11__H_E_L_L_P",
+    "official_eroom8__고령화사회",
+    "official_roomsa_44__뽀득뽀득",
+    "official_sslone_2__Table_Ver_25___Standing_",
+    "official_secretgarden_5__비밀의_선물",
+    "official_roomsa_47__필활",
+    "official_roomsa_58__너와_나의_이야기",
+    "official_secretgarden_6__영웅을_찾아서",
+    "official_sslone_4__Table_ver_42_꼬마마녀___Table_play_",
+    "official_sslone_5__ver_41__우주_",
+    "official_sslone_2__Table_Ver_23___Competition_",
+    "official_zeroworld_1__인형괴담",
+    "official_roomsa_41__GALAXY_HYPRESS__갤럭시_하이프리스_",
+    "official_roomsa_54__띵가띵가",
+    "official_codek_S1__충무공_이순신",
+    "official_roomsa_52__아직_버리지_못한_지갑",
+    "official_pointnine_1__EP3___눈_먼_귀금속상인의_후회",
+    "official_sslone_4__Table_ver_09___Table_play_",
+    "official_plus__루나빌리지",
+    "official_secretgarden_10__라스트_잡",
+    "official_roomsa_83__메가_게임__MEGA_GAME_",
+    "official_xcape_gn__수취인초대",
+    "official_roomsa_54__뜻밖의_여행",
+    "official_roomsa_56__띵가띵가",
+    "official_roomsa_44__이상한_돈가스",
+    "official_sslone_5__ver_40__학교_",
+    "official_weyol__콩닥콩닥베이커리",
+    "official_codek_S1__미스터리_거울의_방__3인이상___15세_이상_",
+    "official_codek_S1__미치광이_연쇄살인범",
+    "official_sslone_5__ver_38__동물_",
+    "official_play33_5__I_am_Still_Here__ELLEN",
+    "official_sslone_4__Table_ver_14___Table_play_",
+    "official_codek_S1__기술자들",
+    "official_roomsa_48__귀빈_손님대접_",
+    "official_sslone_4__Table_ver_07___Table_play_",
+    "official_roomsa_53__뽀득뽀득",
+    "official_pointnine_6__LISTEN",
+    "official_zeroworld_2__인터뷰__INTERVIEW_",
+    "official_roomsa_56__아이덴티티",
+    "official_secretgarden_6__향수_2019",
+    "official_roomsa_49__신의여인들",
+    "official_roomsa_49__귀빈_손님대접_",
+    "official_roomsa_52__퍼펙트_플랜",
+    "official_secretgarden_5__레드림_컴퍼니",
+    "official_weyol__즐거운나의집",
+    "official_roomsa_48__평화로운_A마트__70분_",
+    "official_roomsa_42__Secret_Agent",
+    "official_roomsa_52__요정들의_술집",
+    "official_roomsa_53__요정들의_술집",
+    "official_roomsa_83__행복_고시원",
+    "official_xcape_xc__이도공간",
+    "official_sslone_5__ver_39__여행_",
+    "official_pointnine_5__Jack_in_the_Show",
+    "official_zeroworld_1__FEAR",
+    "official_roomsa_51__안개꽃",
+    "official_sslone_4__Table_ver_06___Table_play_",
+    "official_play33_5__자각몽_自覺夢_",
+    "official_secretgarden_6__리비도",
+    "official_sslone_2__Table_Ver_17___Small_Ball_",
+    "official_zeroworld_1__검은사원_SE",
+    "official_sslone_1__Table_Ver_34___Table_Escape_",
+    "official_roomsa_41__쎄비지__SAVAGE_",
+    "official_secretgarden_10__리비도",
+    "official_sslone_1__Table_Ver_28___Table_Escape_",
+    "official_sslone_1__Table_Ver_30___Table_Escape_",
+    "official_roomsa_48__슬기로운_지구생활_70분_",
+    "official_roomsa_83__33__DOOR_RUN__도어런_",
+    "official_roomsa_58__안개꽃",
+    "official_eroom8__민초",
+    "official_pointnine_5__RETURN",
+    "official_eroom8__스테이시",
+    "official_codek_S1__납치__2인전용_",
+    "official_sslone_4__Table_ver_10___Standing_",
+    "official_weyol__디어마이프렌드",
+    "official_secretgarden_4__비밀의_모험",
+    "official_roomsa_44__타임키퍼",
+    "official_roomsa_54__이상한_돈가스",
+    "official_secretgarden_5__우리의_전_사랑",
+    "official_play33_5__좌충우돌_꼬마마법사",
+    "official_secretgarden_10__비밀의_가족",
+    "official_xcape_sw__제물의_밤",
+    "official_codek_S1__기억상실",
+    "official_eroom8__낙원",
+    "official_roomsa_54__이_소리_저만_들리나요_",
+    "official_secretgarden_3__아뜰리에",
+    "official_roomsa_57__우당탕탕",
+    "official_roomsa_69__1982__그날의_사진사",
+    "official_sslone_2__Table_Ver_22___Powder_room_",
+    "official_zeroworld_1__피노키오_대탈출",
+    "official_roomsa_52__너와_나의_이야기",
+    "official_roomsa_69__2002__주안",
+    "official_xcape_xc__501동_사람들",
+    "official_secretgarden_3__비밀의_화원",
+    "official_codek_S1__셜록홈즈__살인누명",
+    "official_secretgarden_5__핑크슈즈",
+    "official_roomsa_53__히어로_아카데미",
+    "official_xcape_gn__제5수감동",
+    "official_sslone_1__Table_Ver_26___Table_Escape_",
+    "official_secretgarden_12__달___기억의_조각",
+    "official_secretgarden_3__컬러즈",
+    "official_roomsa_57__평화로운_에이마트",
+    "official_sslone_1__Table_Ver_29___Table_Escape_",
+    "official_secretgarden_3__베이비_레이스",
+    "official_zeroworld_1__해리포터의_모험_SE___마법모자의_위기",
+    "official_roomsa_47__우당탕탕",
+    "official_secretgarden_10___야외테마_Love_Blossom",
+    "official_sslone_1__Table_Ver_32___Table_Escape_",
+    "official_roomsa_44__반짝반짝",
+    "official_secretgarden_11__딜레마",
+    "official_secretgarden_12__담력학원",
+    "official_codek_S1__저주받은_산장",
+    "official_zeroworld_1__최면",
+    "official_roomsa_56__금_나와라_뚝딱",
+    "official_roomsa_49__7_DAYS",
+    "official_roomsa_54__멍사탕",
+    "official_roomsa_58__시크릿_에이전트",
+    "official_roomsa_56__그레이스_호텔",
+    "official_play33_4__피안화",
+    "official_codek_S3__꼬레아_우라_B",
+    "official_sslone_1__Table_Ver_35___Table_Escape_",
+    "official_sslone_2__Table_Ver_20___Fishing_",
+    "official_roomsa_51__초콜릿_팩토리",
+    "official_play33_5__우울해서_빵_샀어",
+    "official_secretgarden_5__안녕",
+    "official_sslone_2__Table_Ver_16___4m_Table_",
+    "official_roomsa_55__노블리스트",
+    "official_roomsa_58__낭랑카페",
+    "official_roomsa_55__반짝반짝",
+    "official_secretgarden_10__새벽_베이커리",
+    "official_roomsa_55__취중진담",
+    "official_secretgarden_6__안녕",
+    "official_sslone_2__Table_Ver_19___Curling_",
+    "official_secretgarden_5__우끼끼",
+    "official_roomsa_42__Gain_Time",
+    "official_secretgarden_4__대감댁변씨",
+    "official_roomsa_83__비틀배틀_블루__BEETLE_BATTLE_",
+    "official_xcape_nc__침묵의_목격자",
+    "official_dolo__시선",
+    "official_roomsa_50__낭랑카페",
+    "official_roomsa_47__전지적_작가_시점",
+    "official_sslone_5__ver_36__협동_",
+    "official_secretgarden_11__달___기억의_조각",
+    "official_secretgarden_4__슈퍼플레이어_PLAYER1",
+    "official_secretgarden_3__연애학개론",
+    "official_xcape_gn__다나아종합병원",
+    "official_roomsa_43__커밍순",
+    "official_xcape_xc__숨바꼭질",
+    "official_roomsa_83__우정_게임",
+    "official_secretgarden_11__삼남매_이씨",
+    "official_xcape_xr__경성도박장",
+    "official_roomsa_46__뽀득뽀득",
+    "official_roomsa_57__명부에_점을_찍으라",
+    "official_roomsa_55__아이돌_남친",
+    "official_roomsa_53__시크릿_에이전트",
+    "official_sslone_4__Table_ver_43_별빛금고___Table_play_",
+    "official_roomsa_55__뽀득뽀득",
+    "official_xcape_xr__청림맨션",
+    "official_secretgarden_12__사춘기",
+    "official_roomsa_57__슬기로운_지구생활",
+    "official_secretgarden_6__대감댁_변씨",
+    "official_xcape_xc__짜불성설",
+    "official_xcape_gn__제3표류도",
+    "official_zeroworld_2__타쿠의_심야괴담",
+    "official_pointnine_1__EP1___시간이_멈춘_마을",
+    "official_xcape_sw__숨바꼭질",
+    "official_eroom8__고인",
+    "official_xcape_xr__그믐달살인사건",
+    "official_roomsa_53__너와_나의_이야기",
+    "official_xcape_nc__인지상점",
+    "official_roomsa_47__띵가띵가",
+    "official_roomsa_44__시크릿에이전트",
+    "official_roomsa_42__행방불냥",
+    "official_roomsa_50__안개꽃",
+    "official_play33_7__기억___끝나지_않을_꿈",
+    "official_secretgarden_11__도망자_여씨",
+    "official_secretgarden_6__대_9탈출",
+    "official_dolo__박물관_철거_현장",
+    "official_zeroworld_1__탈옥___특별수용소",
+    "official_codek_S1__테러리스트",
+    "official_roomsa_53__낭랑카페"
+  ],
+  "crawler_checks": {
+    "official_sherlock_116": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:14.864538+09:00",
+      "scope": "selected cafe IDs: official_sherlock_116 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_116/sync_sherlock_db.json",
+      "themes": 6,
+      "slots": 120,
+      "statuses": {
+        "available": 85,
+        "full": 35
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_41": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:14.864535+09:00",
+      "scope": "selected cafe IDs: official_sherlock_41 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_41/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 75,
+      "statuses": {
+        "available": 71,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_13": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:14.864533+09:00",
+      "scope": "selected cafe IDs: official_sherlock_13 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_13/sync_sherlock_db.json",
+      "themes": 6,
+      "slots": 96,
+      "statuses": {
+        "available": 92,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_110": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:19.829583+09:00",
+      "scope": "selected cafe IDs: official_sherlock_110 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_110/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 104,
+      "statuses": {
+        "available": 92,
+        "full": 12
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_111": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:20.213187+09:00",
+      "scope": "selected cafe IDs: official_sherlock_111 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_111/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 91,
+      "statuses": {
+        "available": 78,
+        "full": 13
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_81": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:20.558866+09:00",
+      "scope": "selected cafe IDs: official_sherlock_81 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_81/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 75,
+      "statuses": {
+        "full": 4,
+        "available": 71
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_84": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:24.950889+09:00",
+      "scope": "selected cafe IDs: official_sherlock_84 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_84/sync_sherlock_db.json",
+      "themes": 4,
+      "slots": 68,
+      "statuses": {
+        "full": 13,
+        "available": 55
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_115": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:25.435783+09:00",
+      "scope": "selected cafe IDs: official_sherlock_115 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_115/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 95,
+      "statuses": {
+        "available": 70,
+        "full": 25
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_79": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:26.052456+09:00",
+      "scope": "selected cafe IDs: official_sherlock_79 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_79/sync_sherlock_db.json",
+      "themes": 6,
+      "slots": 94,
+      "statuses": {
+        "available": 91,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_105": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:30.678860+09:00",
+      "scope": "selected cafe IDs: official_sherlock_105 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_105/sync_sherlock_db.json",
+      "themes": 7,
+      "slots": 134,
+      "statuses": {
+        "full": 35,
+        "available": 99
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_113": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:30.913347+09:00",
+      "scope": "selected cafe IDs: official_sherlock_113 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_113/sync_sherlock_db.json",
+      "themes": 8,
+      "slots": 154,
+      "statuses": {
+        "full": 28,
+        "available": 126
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_86": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:31.764423+09:00",
+      "scope": "selected cafe IDs: official_sherlock_86 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_86/sync_sherlock_db.json",
+      "themes": 6,
+      "slots": 106,
+      "statuses": {
+        "available": 97,
+        "full": 9
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_114": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:36.227364+09:00",
+      "scope": "selected cafe IDs: official_sherlock_114 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_114/sync_sherlock_db.json",
+      "themes": 6,
+      "slots": 109,
+      "statuses": {
+        "full": 22,
+        "available": 87
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_44": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:36.574428+09:00",
+      "scope": "selected cafe IDs: official_sherlock_44 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_44/sync_sherlock_db.json",
+      "themes": 7,
+      "slots": 119,
+      "statuses": {
+        "available": 116,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_112": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:37.435154+09:00",
+      "scope": "selected cafe IDs: official_sherlock_112 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_112/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 90,
+      "statuses": {
+        "available": 89,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_61": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:41.835236+09:00",
+      "scope": "selected cafe IDs: official_sherlock_61 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_61/sync_sherlock_db.json",
+      "themes": 4,
+      "slots": 64,
+      "statuses": {
+        "available": 60,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sherlock_70": {
+      "script": "sync_sherlock_db",
+      "checked_at": "2026-11-15T10:53:42.314978+09:00",
+      "scope": "selected cafe IDs: official_sherlock_70 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-cafes-2026-11-15/official_sherlock_70/sync_sherlock_db.json",
+      "themes": 5,
+      "slots": 95,
+      "statuses": {
+        "available": 91,
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_4": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 10,
+      "slots": 140,
+      "statuses": {
+        "full": 47,
+        "available": 93
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_2": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 10,
+      "slots": 153,
+      "statuses": {
+        "available": 152,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_1": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 10,
+      "slots": 150,
+      "statuses": {
+        "available": 149,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_5": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 6,
+      "slots": 84,
+      "statuses": {
+        "available": 81,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_3": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 7,
+      "slots": 162,
+      "statuses": {
+        "full": 40,
+        "available": 122
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_4": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 6,
+      "slots": 108,
+      "statuses": {
+        "full": 25,
+        "available": 83
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_5": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 6,
+      "slots": 110,
+      "statuses": {
+        "available": 88,
+        "full": 22
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_6": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 7,
+      "slots": 146,
+      "statuses": {
+        "full": 14,
+        "available": 132
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_10": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 7,
+      "slots": 116,
+      "statuses": {
+        "available": 89,
+        "full": 27
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_11": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 82,
+      "statuses": {
+        "full": 12,
+        "available": 70
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_secretgarden_12": {
+      "script": "sync_secretgarden_db",
+      "checked_at": "2026-11-15T10:55:39.797807+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-secretgarden-2026-11-15/latest-run.json",
+      "themes": 3,
+      "slots": 42,
+      "statuses": {
+        "available": 39,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_xc": {
+      "script": "sync_xcape_current_db",
+      "checked_at": "2026-11-15T10:58:17.014514+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-xcape-2026-11-15/latest-run.json",
+      "themes": 4,
+      "slots": 80,
+      "statuses": {
+        "closed": 9,
+        "available": 35,
+        "full": 36
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_xr": {
+      "script": "sync_xcape_current_db",
+      "checked_at": "2026-11-15T10:58:17.014514+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-xcape-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 94,
+      "statuses": {
+        "closed": 18,
+        "available": 29,
+        "full": 47
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_nc": {
+      "script": "sync_xcape_current_db",
+      "checked_at": "2026-11-15T10:58:17.014514+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-xcape-2026-11-15/latest-run.json",
+      "themes": 3,
+      "slots": 60,
+      "statuses": {
+        "closed": 6,
+        "available": 24,
+        "full": 30
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_gn": {
+      "script": "sync_xcape_current_db",
+      "checked_at": "2026-11-15T10:58:17.014514+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-xcape-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 94,
+      "statuses": {
+        "closed": 18,
+        "available": 40,
+        "full": 36
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_sw": {
+      "script": "sync_xcape_current_db",
+      "checked_at": "2026-11-15T10:58:17.014514+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-xcape-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 106,
+      "statuses": {
+        "closed": 63,
+        "available": 23,
+        "full": 20
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_pointnine_1": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 4,
+      "slots": 60,
+      "statuses": {
+        "available": 36,
+        "full": 24
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_pointnine_5": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 3,
+      "slots": 63,
+      "statuses": {
+        "full": 30,
+        "available": 33
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_pointnine_6": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 2,
+      "slots": 66,
+      "statuses": {
+        "full": 23,
+        "available": 43
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_zeroworld_1": {
+      "script": "sync_zeroworld_current_db",
+      "checked_at": "2026-11-15T11:02:30.077161+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-zero-2026-11-15/latest-run.json",
+      "themes": 11,
+      "slots": 169,
+      "statuses": {
+        "full": 39,
+        "available": 130
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_zeroworld_2": {
+      "script": "sync_zeroworld_current_db",
+      "checked_at": "2026-11-15T11:02:30.077161+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-zero-2026-11-15/latest-run.json",
+      "themes": 3,
+      "slots": 60,
+      "statuses": {
+        "full": 41,
+        "available": 19
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_play33_4": {
+      "script": "sync_play33_db",
+      "checked_at": "2026-11-15T11:09:47.843915+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-play33-2026-11-15/latest-run.json",
+      "themes": 1,
+      "slots": 28,
+      "statuses": {
+        "full": 28
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_play33_5": {
+      "script": "sync_play33_db",
+      "checked_at": "2026-11-15T11:09:47.843915+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-play33-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 106,
+      "statuses": {
+        "full": 61,
+        "available": 45
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_play33_7": {
+      "script": "sync_play33_db",
+      "checked_at": "2026-11-15T11:09:47.843915+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-play33-2026-11-15/latest-run.json",
+      "themes": 1,
+      "slots": 23,
+      "statuses": {
+        "full": 14,
+        "available": 9
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_codek_S1": {
+      "script": "sync_codek_db",
+      "checked_at": "2026-11-15T11:13:56.580664+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/fixes-2026-11-15-codek2/latest-run.json",
+      "themes": 15,
+      "slots": 300,
+      "statuses": {
+        "full": 83,
+        "available": 217
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_codek_S3": {
+      "script": "sync_codek_db",
+      "checked_at": "2026-11-15T11:13:56.580664+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/fixes-2026-11-15-codek2/latest-run.json",
+      "themes": 2,
+      "slots": 30,
+      "statuses": {
+        "full": 24,
+        "available": 6
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_weyol": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 3,
+      "slots": 46,
+      "statuses": {
+        "full": 19,
+        "available": 27
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_dolo": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 4,
+      "slots": 54,
+      "statuses": {
+        "available": 41,
+        "full": 13
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_eroom8": {
+      "script": "sync_sinbiweb_db",
+      "checked_at": "2026-11-15T11:47:02.397544+09:00",
+      "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/final-2026-11-15-verified-sinbi/latest-run.json",
+      "themes": 6,
+      "slots": 120,
+      "statuses": {
+        "available": 76,
+        "full": 44
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_roomsa_41": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_42": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_43": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 3,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_44": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_46": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_47": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 4,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_48": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 4,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_49": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 6,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_50": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 4,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_51": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 6,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_52": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 6,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_53": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 7,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_54": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 9,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_55": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_56": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 6,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_57": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_83": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_58": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 4,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_roomsa_69": {
+      "script": "sync_roomsa_catalog_db",
+      "checked_at": "2026-11-15T11:38:10.617162+09:00",
+      "scope": "all configured branches / today",
+      "status": "needs_review",
+      "report": "reports/crawlers/new-roomsa-2026-11-15/latest-run.json",
+      "themes": 4,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    },
+    "official_plus": {
+      "script": "sync_public_extra_db",
+      "checked_at": "2026-11-15T11:39:12.698388+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-public-extra-2026-11-15/sync_public_extra_db.json",
+      "themes": 1,
+      "slots": 5,
+      "statuses": {
+        "full": 3,
+        "available": 2
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_exploria": {
+      "script": "sync_public_extra_db",
+      "checked_at": "2026-11-15T11:39:12.698388+09:00",
+      "scope": "all configured branches / today + 1 day(s)",
+      "status": "smoke_pass",
+      "report": "reports/crawlers/new-public-extra-2026-11-15/sync_public_extra_db.json",
+      "themes": 2,
+      "slots": 32,
+      "statuses": {
+        "full": 17,
+        "available": 15
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  }
+}

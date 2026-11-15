@@ -1,0 +1,90 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:08:19.404931+09:00",
+  "scope": "selected cafe IDs: official_sherlock_115 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_sherlock_115"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_115",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대전둔산점",
+        "address": "대전광역시 서구 대덕대로185번길 23, 4층",
+        "area": "daejeon",
+        "sido": 12,
+        "bno": 115
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 118,
+  "statuses": {
+    "full": 15,
+    "available": 103
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_115": {
+      "themes": 5,
+      "slots": 118,
+      "statuses": {
+        "full": 15,
+        "available": 103
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "개구리괴담",
+    "백스테이지",
+    "안치실",
+    "엘리멘탈",
+    "침프프로젝트"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 7.44,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

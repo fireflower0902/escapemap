@@ -10,24 +10,30 @@ from datetime import date as Date
 
 from fastapi import APIRouter, HTTPException, Query
 
-from app.firestore_db import get_db, AREA_ADDRESS_MAP
+from app.firestore_db import get_db
+from app.areas import QUERY_AREAS, area_matches, resolve_cafe_area
 
 router = APIRouter()
 
-
-# ── 내부 헬퍼 ────────────────────────────────────────────────────────────────
+def _validate_area(area: str | None) -> str:
+    """지역이 생략되면 전국 조회. 잘못된 코드는 명시적으로 거부합니다."""
+    normalized = (area or "all").strip().lower() or "all"
+    if normalized not in QUERY_AREAS:
+        raise HTTPException(status_code=400, detail="지원하지 않는 지역 코드입니다.")
+    return normalized
 
 
 def _get_cafes_sync(db, area: str | None) -> list[dict]:
-    """Firestore에서 카페 목록을 가져옵니다 (동기)."""
-    q = db.collection("cafes").where("is_active", "==", True)
-    if area and area in AREA_ADDRESS_MAP:
-        q = q.where("area", "==", area)
-    docs = list(q.stream())
-    return sorted(
-        [{"id": d.id, **d.to_dict()} for d in docs],
-        key=lambda c: (c.get("name") or "", c.get("branch_name") or ""),
-    )
+    requested = _validate_area(area)
+    # 기존 supported_area=false / area=etc 문서도 재분류해 전국 검색에 포함.
+    docs = db.collection("cafes").where("is_active", "==", True).stream()
+    cafes = []
+    for doc in docs:
+        cafe = {**doc.to_dict(), "id": doc.id}
+        cafe["area"] = resolve_cafe_area(cafe.get("area"), cafe.get("address"))
+        if area_matches(requested, cafe["area"]):
+            cafes.append(cafe)
+    return sorted(cafes, key=lambda c: (c.get("name") or "", c.get("branch_name") or ""))
 
 
 def _get_themes_by_cafe_sync(db, cafe_ids: list[str]) -> dict[str, list[dict]]:
@@ -57,6 +63,8 @@ def _get_slots_for_date_sync(db, date_str: str, cafe_ids: list[str]) -> dict[str
             return {}
         cafes_data = (doc.to_dict() or {}).get("cafes", {})
     except Exception:
+        if getattr(db, "backend", None) == "supabase":
+            raise
         return {}
 
     cafe_ids_set = set(cafe_ids)

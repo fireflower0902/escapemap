@@ -49,6 +49,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
+from app.crawl_availability import reservation_status
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -249,8 +250,8 @@ def sync_schedules(
                 if slot_dt <= datetime.now():
                     continue
 
-                is_full = slot.get("reservation", False)
-                status = "full" if is_full else "available"
+                is_full = slot.get("reservation")
+                status = reservation_status(is_full)
                 booking_url = f"{base_url}/reservation" if status == "available" else None
 
                 themes_slots.setdefault(theme_doc_id, {"slots": []})["slots"].append({

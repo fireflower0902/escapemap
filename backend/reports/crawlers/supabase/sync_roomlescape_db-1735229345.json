@@ -1,0 +1,82 @@
+{
+  "script": "sync_roomlescape_db",
+  "checked_at": "2026-11-15T16:12:53.829753+09:00",
+  "scope": "selected cafe IDs: 1735229345 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1735229345"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1735229345",
+        "branch_name": "당곡점",
+        "showroom_seq": "3",
+        "area": "etc",
+        "address": "서울 관악구 보라매로 4 2-3층"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 22,
+  "statuses": {
+    "available": 22
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1735229345": {
+      "themes": 1,
+      "slots": 22,
+      "statuses": {
+        "available": 22
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "FILTER(필터)"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "www.roomlescape.com",
+      "path": "/rev.theme.list.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.roomlescape.com",
+      "path": "/rev.theme.time.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.roomlescape.com",
+      "path": "/rev.theme.time.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.roomlescape.com",
+      "path": "/rev.theme.time.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.58,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -21,6 +21,7 @@ API:
 """
 
 import sys
+import re
 import time
 import urllib.request
 import urllib.parse
@@ -59,6 +60,21 @@ BRANCH_MAP: dict[int, dict] = {
         "area":        "konkuk",
     },
     # branch=4: 홍대점 (카카오 place_id 미확인, 추후 추가)
+    4: {'cafe_id': 'official_play33_4',
+     'cafe_name': '플레이33',
+     'branch_name': '홍대점',
+     'address': '서울 마포구 와우산로21길 36-8 (레디안트) 3층',
+     'area': 'hongdae'},
+    5: {'cafe_id': 'official_play33_5',
+     'cafe_name': '플레이33',
+     'branch_name': '대전점',
+     'address': '대전 중구 중앙로164번길 17 지하1층',
+     'area': 'daejeon'},
+    7: {'cafe_id': 'official_play33_7',
+     'cafe_name': '플레이33',
+     'branch_name': '수원점',
+     'address': '경기 수원시 팔달구 인계로138번길 36 2층 방탈출카페 플레이33 PLAY33',
+     'area': 'gyeonggi'},
 }
 
 # branch_id → [(theme_id, theme_name)]
@@ -255,6 +271,24 @@ def sync_schedules(
     print(f"\n  스케줄 동기화 완료: {writes}개 날짜 문서 작성")
 
 
+def refresh_theme_ids(branch):
+    """고정 숫자 대신 현재 공식 선택 상자에서 테마 ID를 확인."""
+    html = _fetch_page(branch, '', date.today())
+    soup = BeautifulSoup(html, 'html.parser')
+    options = soup.select('select[name="theme"] option[value]')
+    old = {re.sub(r'\s+', '', t['name']): t['name'] for t in THEME_MAP.get(branch, [])}
+    themes = []
+    for option in options:
+        value = option.get('value', '')
+        if not value.isdigit():
+            continue
+        name = option.get_text(strip=True)
+        themes.append({'theme_id': int(value), 'name': old.get(re.sub(r'\s+', '', name), name)})
+    if not themes:
+        raise ValueError('공식 테마 선택 목록을 읽지 못했습니다.')
+    THEME_MAP[branch] = themes
+
+
 # ── 메인 ─────────────────────────────────────────────────────────────────────────
 
 def main(run_schedule: bool = True, days: int = 14):
@@ -271,6 +305,7 @@ def main(run_schedule: bool = True, days: int = 14):
         print(f"{'='*40}")
 
         print("\n[ 1단계 ] 카페 메타 동기화")
+        refresh_theme_ids(branch)
         sync_cafe_meta(branch)
 
         print("\n[ 2단계 ] 테마 동기화")

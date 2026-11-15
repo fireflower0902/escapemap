@@ -1,0 +1,118 @@
+{
+  "script": "sync_masterkey_db",
+  "checked_at": "2026-11-15T16:11:47.397722+09:00",
+  "scope": "selected cafe IDs: 27523824 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "27523824"
+  ],
+  "selected": {
+    "SHOP_MAP": [
+      "2"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 109,
+  "statuses": {
+    "full": 13,
+    "available": 96
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "27523824": {
+      "themes": 5,
+      "slots": 109,
+      "statuses": {
+        "full": 13,
+        "available": 96
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "1990",
+    "REC",
+    "그레이트월",
+    "대탈출2",
+    "편지"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 12.04,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

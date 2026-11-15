@@ -1,0 +1,266 @@
+{
+  "script": "sync_xcape_current_db",
+  "checked_at": "2026-11-15T10:58:17.014514+09:00",
+  "scope": "all configured branches / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 5,
+  "themes_fetched": 22,
+  "themes_with_slots": 22,
+  "slots": 434,
+  "statuses": {
+    "closed": 114,
+    "available": 151,
+    "full": 169
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_xcape_xc": {
+      "themes": 4,
+      "slots": 80,
+      "statuses": {
+        "closed": 9,
+        "available": 35,
+        "full": 36
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_xr": {
+      "themes": 5,
+      "slots": 94,
+      "statuses": {
+        "closed": 18,
+        "available": 29,
+        "full": 47
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_nc": {
+      "themes": 3,
+      "slots": 60,
+      "statuses": {
+        "closed": 6,
+        "available": 24,
+        "full": 30
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_gn": {
+      "themes": 5,
+      "slots": 94,
+      "statuses": {
+        "closed": 18,
+        "available": 40,
+        "full": 36
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_xcape_sw": {
+      "themes": 5,
+      "slots": 106,
+      "statuses": {
+        "closed": 63,
+        "available": 23,
+        "full": 20
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "기억의 틈",
+    "다나아종합병원",
+    "수취인초대",
+    "제3표류도",
+    "제5수감동",
+    "이름없는집",
+    "인지상점",
+    "침묵의 목격자"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/assets/index-JO-9ahxJ.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.86,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

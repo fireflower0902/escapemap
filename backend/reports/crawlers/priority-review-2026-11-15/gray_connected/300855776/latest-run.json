@@ -1,0 +1,53 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:10:58.235058+09:00",
+    "scope": "selected cafe IDs: 300855776 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "300855776"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "300855776",
+          "business_id": "284482",
+          "business_type_id": 12,
+          "branch_name": "고양점",
+          "name": "오늘탈출",
+          "address": "경기 고양시",
+          "area": "gyeonggi",
+          "site_url": "https://www.todayescape.com"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "300855776": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.6,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

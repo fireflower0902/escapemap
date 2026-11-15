@@ -1,0 +1,578 @@
+{
+  "no_themes": [
+    {
+      "cafe_id": "123477337",
+      "name": "파라박스",
+      "area": "gangnam",
+      "website": "https://parabox.kr/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "2006661572",
+      "name": "쿠쿠룸190000",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/2006661572",
+      "crawled": false
+    },
+    {
+      "cafe_id": "2012633570",
+      "name": "오늘의한페이지 방탈출카페",
+      "area": "gangnam",
+      "website": "https://page-today.co.kr/#reserve",
+      "crawled": false
+    },
+    {
+      "cafe_id": "260184665",
+      "name": "초상화",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/260184665",
+      "crawled": false
+    },
+    {
+      "cafe_id": "401872428",
+      "name": "시그널헌터",
+      "area": "gangnam",
+      "website": "https://www.signalhunter.co.kr/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "522639283",
+      "name": "코드이스케이프",
+      "area": "gangnam",
+      "website": "http://www.code-escape-garosu.com/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "578778978",
+      "name": "쿠쿠룸 1089",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/578778978",
+      "crawled": false
+    },
+    {
+      "cafe_id": "841734382",
+      "name": "플레이더월드",
+      "area": "gangnam",
+      "website": "https://reservation.playthe.world/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1548712469",
+      "name": "방탈출둡두",
+      "area": "hongdae",
+      "website": "http://place.map.kakao.com/1548712469",
+      "crawled": false
+    },
+    {
+      "cafe_id": "27369058",
+      "name": "리얼이스케이프챌린지",
+      "area": "hongdae",
+      "website": "http://www.rec-escape.com/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "27413260",
+      "name": "큐브이스케이프",
+      "area": "hongdae",
+      "website": "http://www.cubeescape.co.kr/",
+      "crawled": true
+    },
+    {
+      "cafe_id": "28201117",
+      "name": "레다스퀘어",
+      "area": "hongdae",
+      "website": "https://ledasquare.com",
+      "crawled": true
+    },
+    {
+      "cafe_id": "367178846",
+      "name": "스키피지",
+      "area": "hongdae",
+      "website": "https://speakeasyescape.co.kr/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "596589943",
+      "name": "룸엘이스케이프",
+      "area": "hongdae",
+      "website": "http://www.roomlescape.com",
+      "crawled": true
+    },
+    {
+      "cafe_id": "727312827",
+      "name": "미스터리룸이스케이프",
+      "area": "hongdae",
+      "website": "http://www.mysteryroomescape.com/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "987374256",
+      "name": "파노라마 홍대",
+      "area": "hongdae",
+      "website": "http://place.map.kakao.com/987374256",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1078153820",
+      "name": "차작가의 방탈출테마연구소",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/1078153820",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1336760672",
+      "name": "방탈출크라임씬",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/1336760672",
+      "crawled": false
+    },
+    {
+      "cafe_id": "17410648",
+      "name": "이스케이프",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/17410648",
+      "crawled": false
+    },
+    {
+      "cafe_id": "2000674643",
+      "name": "위드방탈출카페",
+      "area": "sinchon",
+      "website": "http://withescaper.com/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "690123759",
+      "name": "룸익스케이프",
+      "area": "sinchon",
+      "website": "https://www.ex-cape.com/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1331705130",
+      "name": "레드런",
+      "area": "jamsil",
+      "website": "https://naver.me/xbjXQceE",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1857201893",
+      "name": "큐브이스케이프",
+      "area": "jamsil",
+      "website": "http://cheonho.cubeescape.co.kr/",
+      "crawled": true
+    },
+    {
+      "cafe_id": "2100000001",
+      "name": "큐브이스케이프",
+      "area": "jamsil",
+      "website": "http://jamsil.cubeescape.co.kr/",
+      "crawled": true
+    },
+    {
+      "cafe_id": "888192913",
+      "name": "미션브레이크",
+      "area": "itaewon",
+      "website": "https://www.xphobia.net/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1183396756",
+      "name": "비트포비아",
+      "area": "myeongdong",
+      "website": "https://www.xphobia.net/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1432484184",
+      "name": "비트포비아",
+      "area": "myeongdong",
+      "website": "https://www.xphobia.net/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "660859780",
+      "name": "알카트래즈방탈출카페",
+      "area": "myeongdong",
+      "website": "http://alcatraz.co.kr/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "1647497159",
+      "name": "비트포비아",
+      "area": "sinlim",
+      "website": "https://www.xphobia.net/",
+      "crawled": false
+    },
+    {
+      "cafe_id": "880372928",
+      "name": "더파인더 방탈출",
+      "area": "sinlim",
+      "website": "http://place.map.kakao.com/880372928",
+      "crawled": false
+    }
+  ],
+  "no_crawled": [
+    {
+      "cafe_id": "1000900386",
+      "name": "이스케이프샾",
+      "area": "gangnam",
+      "website": "https://escapeshop.co.kr/"
+    },
+    {
+      "cafe_id": "123477337",
+      "name": "파라박스",
+      "area": "gangnam",
+      "website": "https://parabox.kr/"
+    },
+    {
+      "cafe_id": "1405262610",
+      "name": "키이스케이프",
+      "area": "gangnam",
+      "website": "http://keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "1421844037",
+      "name": "판타스트릭",
+      "area": "gangnam",
+      "website": "http://fantastrick.co.kr/"
+    },
+    {
+      "cafe_id": "1466171651",
+      "name": "플레이포인트랩",
+      "area": "gangnam",
+      "website": "http://www.master-key.co.kr/"
+    },
+    {
+      "cafe_id": "1478483341",
+      "name": "비트포비아 던전루나",
+      "area": "gangnam",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "1769092819",
+      "name": "비트포비아",
+      "area": "gangnam",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "1872221698",
+      "name": "후즈데어",
+      "area": "gangnam",
+      "website": "https://www.keyescape.com/"
+    },
+    {
+      "cafe_id": "1908100709",
+      "name": "스튜디오이에스씨",
+      "area": "gangnam",
+      "website": "https://studioesc.co.kr/"
+    },
+    {
+      "cafe_id": "192767471",
+      "name": "판타스트릭",
+      "area": "gangnam",
+      "website": "http://fantastrick.co.kr/"
+    },
+    {
+      "cafe_id": "2006661572",
+      "name": "쿠쿠룸190000",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/2006661572"
+    },
+    {
+      "cafe_id": "2012633570",
+      "name": "오늘의한페이지 방탈출카페",
+      "area": "gangnam",
+      "website": "https://page-today.co.kr/#reserve"
+    },
+    {
+      "cafe_id": "212176813",
+      "name": "개꿀이스케이프",
+      "area": "gangnam",
+      "website": "https://doghoneyescape.com/"
+    },
+    {
+      "cafe_id": "260184665",
+      "name": "초상화",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/260184665"
+    },
+    {
+      "cafe_id": "27413263",
+      "name": "비트포비아",
+      "area": "gangnam",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "298789057",
+      "name": "키이스케이프 스테이션",
+      "area": "gangnam",
+      "website": "http://www.keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "320987184",
+      "name": "키이스케이프 로그인2",
+      "area": "gangnam",
+      "website": "http://keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "400448256",
+      "name": "키이스케이프 강남 더오름",
+      "area": "gangnam",
+      "website": "http://keyescape.com/"
+    },
+    {
+      "cafe_id": "401872428",
+      "name": "시그널헌터",
+      "area": "gangnam",
+      "website": "https://www.signalhunter.co.kr/"
+    },
+    {
+      "cafe_id": "436025860",
+      "name": "비트포비아 던전스텔라",
+      "area": "gangnam",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "459642234",
+      "name": "키이스케이프 메모리컴퍼니",
+      "area": "gangnam",
+      "website": "http://keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "522639283",
+      "name": "코드이스케이프",
+      "area": "gangnam",
+      "website": "http://www.code-escape-garosu.com/"
+    },
+    {
+      "cafe_id": "578778978",
+      "name": "쿠쿠룸 1089",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/578778978"
+    },
+    {
+      "cafe_id": "841734382",
+      "name": "플레이더월드",
+      "area": "gangnam",
+      "website": "https://reservation.playthe.world/"
+    },
+    {
+      "cafe_id": "874592991",
+      "name": "프랭크의골동품가게",
+      "area": "gangnam",
+      "website": "https://thefrank.co.kr/"
+    },
+    {
+      "cafe_id": "916422770",
+      "name": "키이스케이프",
+      "area": "gangnam",
+      "website": "http://keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "99889048",
+      "name": "키이스케이프 로그인1",
+      "area": "gangnam",
+      "website": "http://keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "1246652450",
+      "name": "비트포비아",
+      "area": "hongdae",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "1462418270",
+      "name": "플레이포인트랩",
+      "area": "hongdae",
+      "website": "https://playpointlab.com/office/detail?bid=11"
+    },
+    {
+      "cafe_id": "1548712469",
+      "name": "방탈출둡두",
+      "area": "hongdae",
+      "website": "http://place.map.kakao.com/1548712469"
+    },
+    {
+      "cafe_id": "1772808576",
+      "name": "비트포비아 던전101",
+      "area": "hongdae",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "1987907479",
+      "name": "마스터키",
+      "area": "hongdae",
+      "website": "http://www.master-key.co.kr/"
+    },
+    {
+      "cafe_id": "200411443",
+      "name": "키이스케이프",
+      "area": "hongdae",
+      "website": "http://keyescape.co.kr/"
+    },
+    {
+      "cafe_id": "2070160321",
+      "name": "비트포비아",
+      "area": "hongdae",
+      "website": "https://xdungeon.net/"
+    },
+    {
+      "cafe_id": "27369058",
+      "name": "리얼이스케이프챌린지",
+      "area": "hongdae",
+      "website": "http://www.rec-escape.com/"
+    },
+    {
+      "cafe_id": "367178846",
+      "name": "스키피지",
+      "area": "hongdae",
+      "website": "https://speakeasyescape.co.kr/"
+    },
+    {
+      "cafe_id": "727312827",
+      "name": "미스터리룸이스케이프",
+      "area": "hongdae",
+      "website": "http://www.mysteryroomescape.com/"
+    },
+    {
+      "cafe_id": "987374256",
+      "name": "파노라마 홍대",
+      "area": "hongdae",
+      "website": "http://place.map.kakao.com/987374256"
+    },
+    {
+      "cafe_id": "1078153820",
+      "name": "차작가의 방탈출테마연구소",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/1078153820"
+    },
+    {
+      "cafe_id": "1336760672",
+      "name": "방탈출크라임씬",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/1336760672"
+    },
+    {
+      "cafe_id": "17410648",
+      "name": "이스케이프",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/17410648"
+    },
+    {
+      "cafe_id": "2000674643",
+      "name": "위드방탈출카페",
+      "area": "sinchon",
+      "website": "http://withescaper.com/"
+    },
+    {
+      "cafe_id": "690123759",
+      "name": "룸익스케이프",
+      "area": "sinchon",
+      "website": "https://www.ex-cape.com/"
+    },
+    {
+      "cafe_id": "1331705130",
+      "name": "레드런",
+      "area": "jamsil",
+      "website": "https://naver.me/xbjXQceE"
+    },
+    {
+      "cafe_id": "967129600",
+      "name": "플레이포인트랩",
+      "area": "jamsil",
+      "website": "https://playpointlab.com/"
+    },
+    {
+      "cafe_id": "888192913",
+      "name": "미션브레이크",
+      "area": "itaewon",
+      "website": "https://www.xphobia.net/"
+    },
+    {
+      "cafe_id": "1183396756",
+      "name": "비트포비아",
+      "area": "myeongdong",
+      "website": "https://www.xphobia.net/"
+    },
+    {
+      "cafe_id": "1432484184",
+      "name": "비트포비아",
+      "area": "myeongdong",
+      "website": "https://www.xphobia.net/"
+    },
+    {
+      "cafe_id": "660859780",
+      "name": "알카트래즈방탈출카페",
+      "area": "myeongdong",
+      "website": "http://alcatraz.co.kr/"
+    },
+    {
+      "cafe_id": "1647497159",
+      "name": "비트포비아",
+      "area": "sinlim",
+      "website": "https://www.xphobia.net/"
+    },
+    {
+      "cafe_id": "880372928",
+      "name": "더파인더 방탈출",
+      "area": "sinlim",
+      "website": "http://place.map.kakao.com/880372928"
+    }
+  ],
+  "kakao_map_only": [
+    {
+      "cafe_id": "2006661572",
+      "name": "쿠쿠룸190000",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/2006661572"
+    },
+    {
+      "cafe_id": "260184665",
+      "name": "초상화",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/260184665"
+    },
+    {
+      "cafe_id": "578778978",
+      "name": "쿠쿠룸 1089",
+      "area": "gangnam",
+      "website": "http://place.map.kakao.com/578778978"
+    },
+    {
+      "cafe_id": "1548712469",
+      "name": "방탈출둡두",
+      "area": "hongdae",
+      "website": "http://place.map.kakao.com/1548712469"
+    },
+    {
+      "cafe_id": "987374256",
+      "name": "파노라마 홍대",
+      "area": "hongdae",
+      "website": "http://place.map.kakao.com/987374256"
+    },
+    {
+      "cafe_id": "1078153820",
+      "name": "차작가의 방탈출테마연구소",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/1078153820"
+    },
+    {
+      "cafe_id": "1336760672",
+      "name": "방탈출크라임씬",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/1336760672"
+    },
+    {
+      "cafe_id": "17410648",
+      "name": "이스케이프",
+      "area": "sinchon",
+      "website": "http://place.map.kakao.com/17410648"
+    },
+    {
+      "cafe_id": "880372928",
+      "name": "더파인더 방탈출",
+      "area": "sinlim",
+      "website": "http://place.map.kakao.com/880372928"
+    }
+  ]
+}

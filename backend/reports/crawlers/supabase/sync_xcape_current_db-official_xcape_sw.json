@@ -1,0 +1,116 @@
+{
+  "script": "sync_xcape_current_db",
+  "checked_at": "2026-11-15T16:07:48.760075+09:00",
+  "scope": "selected cafe IDs: official_xcape_sw / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_xcape_sw"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_xcape_sw",
+        "cafe_name": "엑스케이프",
+        "branch_name": "수원점",
+        "source_id": "c97814d1-9690-4d14-9925-da8025760c6a",
+        "code": "sw",
+        "address": "경기 수원시 팔달구 효원로265번길 40 4층 엑스케이프 방탈출카페",
+        "phone": "0312343350"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 159,
+  "statuses": {
+    "closed": 131,
+    "available": 16,
+    "full": 12
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_xcape_sw": {
+      "themes": 5,
+      "slots": 159,
+      "statuses": {
+        "closed": 131,
+        "available": 16,
+        "full": 12
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "501동사람들",
+    "기묘한날개짓",
+    "숨바꼭질",
+    "인지상점",
+    "제물의 밤"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xcape.kr",
+      "path": "/assets/index-JO-9ahxJ.js",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/branch_settings",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/holidays",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "igfvpapznrxnczvwrqdg.supabase.co",
+      "path": "/rest/v1/time_slots",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.95,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

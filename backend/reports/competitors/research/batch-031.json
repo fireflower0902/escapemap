@@ -1,0 +1,75 @@
+{
+  "queries": [
+    "이머시브스튜디오 홍대점",
+    "이스케이퍼스 1호점",
+    "이스케이퍼스 2호점",
+    "이스케이프 하우스"
+  ],
+  "sources": [
+    {
+      "title": "이스케이퍼스 : 예약하기",
+      "url": "https://escapersd.com/reservation/10"
+    },
+    {
+      "title": "이스케이퍼스 1호점",
+      "url": "https://web.zamfit.kr/stores/1941/%EC%9D%B4%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%8D%BC%EC%8A%A4-1%ED%98%B8%EC%A0%90"
+    },
+    {
+      "title": "만약, 당신이 길을 잃었다면 방탈출 테마 정보 | 이스케이퍼스 2호점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/04183f2e/"
+    },
+    {
+      "title": "이스케이퍼스 : 1호점 (홍대입구) 테마",
+      "url": "https://escapersd.com/theme/10"
+    },
+    {
+      "title": "이머시브스튜디오 홍대점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/365"
+    },
+    {
+      "title": "이스케이퍼스 1호점 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/1-e20f4a68f8324fdabff89c119d3d0b75"
+    },
+    {
+      "title": "이스케이퍼스 : 예약확인/취소",
+      "url": "https://escapersd.com/reservation/confirm"
+    },
+    {
+      "title": "If you're lost — 이스케이퍼스 홍대2호점 | 홍대 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/741"
+    },
+    {
+      "title": "이스케이퍼스 2호점",
+      "url": "https://web.zamfit.kr/stores/1942/%EC%9D%B4%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%8D%BC%EC%8A%A4-2%ED%98%B8%EC%A0%90"
+    },
+    {
+      "title": "당신 없이는 방탈출 테마 정보 | 이머시브스튜디오 홍대점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/7e2b0001/"
+    },
+    {
+      "title": "이스케이퍼스 2호점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/367"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "• 도어락",
+      "url": "https://cdn.escaperoomthegame.com/upload/adventure/72/ko-kr/download2.pdf"
+    },
+    {
+      "title": "■ 자연과학캠퍼스 소재 기숙사를 ‘봉룡학사(",
+      "url": "https://dorm.skku.edu/_custom/skku/_common/board/download.jsp"
+    },
+    {
+      "title": "# 1. 기숙사 소개",
+      "url": "https://dorm.skku.edu/_custom/skku/_common/board/download.jsp"
+    },
+    {
+      "title": "베트남 중부 휴양",
+      "url": "https://yoldca.co.kr/support/_updata/ho/p3_6918.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

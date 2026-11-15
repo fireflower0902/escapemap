@@ -1,0 +1,93 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T16:05:27.520620+09:00",
+  "scope": "selected cafe IDs: official_eroom8 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_eroom8"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_eroom8",
+        "cafe_name": "이룸에이트",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로115 노벨테크 B2F",
+        "area": "gangnam",
+        "base_url": "https://eroom8.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 156,
+  "statuses": {
+    "available": 111,
+    "full": 45
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_eroom8": {
+      "themes": 6,
+      "slots": 156,
+      "statuses": {
+        "available": 111,
+        "full": 45
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "고령화사회",
+    "고인",
+    "낙원",
+    "민초",
+    "스테이시",
+    "착한사람"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.42,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

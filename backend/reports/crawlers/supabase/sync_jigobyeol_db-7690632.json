@@ -1,0 +1,65 @@
+{
+  "script": "sync_jigobyeol_db",
+  "checked_at": "2026-11-15T16:10:47.993941+09:00",
+  "scope": "selected cafe IDs: 7690632 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "7690632"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "branch": 1,
+        "cafe_id": "7690632",
+        "name": "지구별방탈출",
+        "branch_name": "대구점",
+        "address": "대구 중구 동성로2가 127-2",
+        "area": "daegu",
+        "website_url": "https://xn--2e0b040a4xj.com",
+        "theme_ids": [
+          20
+        ]
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 4,
+  "statuses": {
+    "full": 4
+  },
+  "dates": [
+    "2026-11-15"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "7690632": {
+      "themes": 1,
+      "slots": 4,
+      "statuses": {
+        "full": 4
+      },
+      "dates": [
+        "2026-11-15"
+      ]
+    }
+  },
+  "sample_themes": [
+    "잉카"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.xn--2e0b040a4xj.com",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.21,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -1,0 +1,92 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:08:19.889871+09:00",
+  "scope": "selected cafe IDs: official_sherlock_105 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_sherlock_105"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_105",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "송도트리플점",
+        "address": "인천광역시 연수구 송도과학로16번길 33-4,  D동 204,205호(송도동, 송도 트리플스트리트)",
+        "area": "incheon",
+        "sido": 4,
+        "bno": 105
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 7,
+  "themes_with_slots": 7,
+  "slots": 173,
+  "statuses": {
+    "full": 32,
+    "available": 141
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_105": {
+      "themes": 7,
+      "slots": 173,
+      "statuses": {
+        "full": 32,
+        "available": 141
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "Club데쓰포우(Available in English)",
+    "납치(Available in English)",
+    "쉿!",
+    "절대로클릭금지",
+    "피의제물바라지",
+    "학교괴담_삼거리고등학교의비밀",
+    "회사원(Available in English)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 10.62,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

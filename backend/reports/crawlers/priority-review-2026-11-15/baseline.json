@@ -1,0 +1,4388 @@
+{
+  "orange": [
+    {
+      "id": "1551717206",
+      "name": "강남점 ",
+      "scripts": [
+        "sync_xcape_db"
+      ],
+      "engine": "xcape",
+      "url": "https://xcape.co.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1875954710",
+      "name": "골든타임이스케이프 1호점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--bb0b44mb8pfwi.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1591055284",
+      "name": "골든타임이스케이프 2호점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--bb0b44mb8pfwi.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1521613397",
+      "name": "나의신방 신촌점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--910bj3tlmfz4e.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "348406652",
+      "name": "다이아에그 미스테리인점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://mysterytown.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "138006966",
+      "name": "더메이즈 건대점",
+      "scripts": [
+        "sync_themazegd_db"
+      ],
+      "engine": "themazegd",
+      "url": "http://www.themazegd.co.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "680681357",
+      "name": "더코드 ",
+      "scripts": [
+        "sync_thecode_db"
+      ],
+      "engine": "thecode",
+      "url": "http://www.thecode-escape.com",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "911063716",
+      "name": "더트랩 수유점",
+      "scripts": [
+        "sync_thetrapsy_db"
+      ],
+      "engine": "thetrapsy",
+      "url": "http://www.thetrapsy.co.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "997136500",
+      "name": "둠이스케이프 1호점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://doomescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1321479252",
+      "name": "둠이스케이프 2호점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://doomescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "892126854",
+      "name": "둠이스케이프 DTH점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://doomescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "2055691742",
+      "name": "디코드이스케이프 전주점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://dcodeescape.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1568417037",
+      "name": "라비린스이스케이프 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://labyrinth.15440835.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "225341934",
+      "name": "라스트이스케이프 강남점",
+      "scripts": [
+        "sync_lastescape_db"
+      ],
+      "engine": "lastescape",
+      "url": "http://lastescape.co.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "28201117",
+      "name": "레다스퀘어 홍대점",
+      "scripts": [
+        "sync_ledasquare_db"
+      ],
+      "engine": "ledasquare",
+      "url": "https://ledasquare.com",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1968639091",
+      "name": "레전드이스케이프 서현점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://legendescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "636394528",
+      "name": "레전드이스케이프 이천점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://legendescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_41",
+      "name": "룸즈에이 강남점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_54",
+      "name": "룸즈에이 광주상무점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_53",
+      "name": "룸즈에이 광주수완점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_55",
+      "name": "룸즈에이 대구동성로점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_83",
+      "name": "룸즈에이 대구스테이지점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_49",
+      "name": "룸즈에이 대전둔산점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_50",
+      "name": "룸즈에이 대전은행점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_42",
+      "name": "룸즈에이 대학로점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_57",
+      "name": "룸즈에이 동성로 아카데미점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_56",
+      "name": "룸즈에이 동성로2호점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_51",
+      "name": "룸즈에이 부산남포점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_52",
+      "name": "룸즈에이 부산서면점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_69",
+      "name": "룸즈에이 부평 2호점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_48",
+      "name": "룸즈에이 수원역 2호점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_47",
+      "name": "룸즈에이 수원역점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_43",
+      "name": "룸즈에이 안양범계점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_46",
+      "name": "룸즈에이 의정부점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_44",
+      "name": "룸즈에이 일산 웨스턴돔점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "official_roomsa_58",
+      "name": "룸즈에이 포항점",
+      "scripts": [
+        "sync_roomsa_catalog_db"
+      ],
+      "engine": "roomsa_catalog",
+      "url": "https://roomsa.co.kr/reservation",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "444802506",
+      "name": "메타이스케이프 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--h32b25mu4dba377gzscs2k.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "27367643",
+      "name": "미스터리룸이스케이프 강남점",
+      "scripts": [
+        "sync_mysteryroom_db"
+      ],
+      "engine": "mysteryroom",
+      "url": "http://mysteryroomescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "858962026",
+      "name": "방탈출브이 삼덕점",
+      "scripts": [
+        "sync_vescape_db"
+      ],
+      "engine": "vescape",
+      "url": "http://www.v-escape.co.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1092766492",
+      "name": "버스티드 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://busted.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1183396756",
+      "name": "비트포비아 명동점",
+      "scripts": [
+        "sync_xphobia_db"
+      ],
+      "engine": null,
+      "url": "https://www.xphobia.net/",
+      "state": "error",
+      "slots": 0
+    },
+    {
+      "id": "1387240933",
+      "name": "상상의문 부평점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--z92b74ha268d.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "505122419",
+      "name": "상상의문 분당서현점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--z92b74ha268d.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1121229740",
+      "name": "상상의문 수원2호점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--z92b74ha268d.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "776353707",
+      "name": "상상의문 수원점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://xn--z92b74ha268d.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "743084847",
+      "name": "셜록홈즈 김포구래점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "8143798",
+      "name": "셜록홈즈 노량진점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1367009941",
+      "name": "셜록홈즈 노원점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "472522287",
+      "name": "셜록홈즈 대전은행점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "270131531",
+      "name": "셜록홈즈 대학로점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1954089927",
+      "name": "셜록홈즈 미사점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "2200000001",
+      "name": "셜록홈즈 부산기장정관점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1049164175",
+      "name": "셜록홈즈 부산아트몰링점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1620988252",
+      "name": "셜록홈즈 부천중동점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "399640253",
+      "name": "셜록홈즈 부평2호점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "2127065864",
+      "name": "셜록홈즈 부평점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1396409942",
+      "name": "셜록홈즈 분당야탑점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "816654453",
+      "name": "셜록홈즈 서현점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "10098327",
+      "name": "셜록홈즈 성신여대점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "716398207",
+      "name": "셜록홈즈 수원역점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1166453549",
+      "name": "셜록홈즈 수원인계점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "582885260",
+      "name": "셜록홈즈 수지구청점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1888259527",
+      "name": "셜록홈즈 안양범계점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "2021007589",
+      "name": "셜록홈즈 용인동백점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "588118043",
+      "name": "셜록홈즈 원주점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "466116790",
+      "name": "셜록홈즈 잠실1호점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "45777628",
+      "name": "셜록홈즈 잠실새내점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "462553617",
+      "name": "셜록홈즈 종각점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "27583768",
+      "name": "셜록홈즈 천안1호점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "908334376",
+      "name": "셜록홈즈 천안2호점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "728789378",
+      "name": "셜록홈즈 평택점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "timeout",
+      "slots": 0
+    },
+    {
+      "id": "1825220691",
+      "name": "스피키지 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://speakeasyescape.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "280887856",
+      "name": "시크릿코드 홍대직영점",
+      "scripts": [
+        "sync_secretcode_db"
+      ],
+      "engine": "secretcode",
+      "url": "http://www.secret-code.co.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1425246210",
+      "name": "어클락이스케이프 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://oclock-escape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "458997744",
+      "name": "에필로그 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://epilogueescape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "103606910",
+      "name": "엑소더스 강남1호점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://exodusescape.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1554942559",
+      "name": "제주방탈출 제원점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://www.xn--vh3bw8qo2aba23i98on1f.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1394599334",
+      "name": "지니어스이스케이프 ",
+      "scripts": [
+        "sync_geniusescape_db"
+      ],
+      "engine": "geniusescape",
+      "url": "http://www.geniusescape.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1757443413",
+      "name": "코난방탈출 구로디지털단지역점",
+      "scripts": [
+        "sync_conanescape_db"
+      ],
+      "engine": "conanescape",
+      "url": "http://conanescape.kr",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1213158520",
+      "name": "코드헌터 강남점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://codehunter-escape.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "455356224",
+      "name": "콜드케이스 인하대점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://cold-case.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "351145232",
+      "name": "큐방탈출카페 일산점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://www.qescapeilsan.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "27413260",
+      "name": "큐브이스케이프 홍대점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://www.cubeescape.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1045036053",
+      "name": "탈출브라더스 영등포점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://escapebro.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "841734382",
+      "name": "플레이더월드 강남점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://reservation.playthe.world/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1224388097",
+      "name": "플레이더월드 대전은행점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://playthe.world/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "76631654",
+      "name": "플레이더월드 동성로점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://playthe.world/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1637776603",
+      "name": "플레이더월드 부평점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://playthe.world/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "767938268",
+      "name": "플레이더월드 평택점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://playthe.world/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1541961243",
+      "name": "해피앤딩 홍대점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://happyanding.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1168819420",
+      "name": "호텔레토 성수점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://hotelletoh.co.kr/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1271584354",
+      "name": "황금열쇠 건대점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://xn--jj0b998aq3cptw.com/",
+      "state": "needs_review",
+      "slots": 0
+    },
+    {
+      "id": "1958696909",
+      "name": "황금열쇠 동성로점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "http://xn--jj0b998aq3cptw.com/",
+      "state": "needs_review",
+      "slots": 0
+    }
+  ],
+  "gray_unconnected": [
+    {
+      "id": "1501825629",
+      "name": "강릉방탈출카페 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1501825629",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "461296797",
+      "name": "고한 시티써커스 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/461296797",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "786094598",
+      "name": "광주방탈출카페 식스센스 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/786094598",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "964420524",
+      "name": "다락방방탈출카페 청주직영점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/964420524",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "442981346",
+      "name": "다락방 안양점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://www.darockesc.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "302959300",
+      "name": "더도어즈이스케이프 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://www.thedoorsescape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1900192470",
+      "name": "도파민방탈출 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1900192470",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "716654663",
+      "name": "두잇이스케이프 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/716654663",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "40766168",
+      "name": "드림이스케이프 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/40766168",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "77278349",
+      "name": "레드런 천안점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/77278349",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1331705130",
+      "name": "레드런 천호점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://naver.me/xbjXQceE",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27369058",
+      "name": "리얼이스케이프챌린지 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://www.rec-escape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "776644226",
+      "name": "리즌방탈출 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/776644226",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "888192913",
+      "name": "미션브레이크 CGV용산아이파크몰점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://www.xphobia.net/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1516889516",
+      "name": "방탈출 뉴케이스 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1516889516",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1560724472",
+      "name": "방탈출 미로 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1560724472",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1992606174",
+      "name": "방탈출고 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1992606174",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "255097329",
+      "name": "방탈출카페 일상탈출 안양일번가점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/255097329",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1495650283",
+      "name": "브레이크아웃 광안 ",
+      "scripts": [],
+      "engine": null,
+      "url": "https://busan.breakoutescapegame.com/en/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "997297045",
+      "name": "비트포비아 동성로점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://www.xphobia.net/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1647497159",
+      "name": "비트포비아 신림점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://www.xphobia.net/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "367178846",
+      "name": "스키피지 ",
+      "scripts": [],
+      "engine": null,
+      "url": "https://speakeasyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "401872428",
+      "name": "시그널헌터 가로수길점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://www.signalhunter.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1945917235",
+      "name": "시그널헌터 동탄점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://signalhunter.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1019017181",
+      "name": "신나는방탈출 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1019017181",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2143447304",
+      "name": "안흥여관 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/2143447304",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "660859780",
+      "name": "알카트래즈방탈출카페 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://alcatraz.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2138418097",
+      "name": "어메이즈드 3호점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://amazed.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "166623372",
+      "name": "언리미티드 이스케이프 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://unlimited-escape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2000674643",
+      "name": "위드방탈출카페 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://withescaper.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "230738333",
+      "name": "이스케이프존 강대점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://www.cc-escapezone.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "431508316",
+      "name": "카오스이스케이프 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://chaosesc.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1741880444",
+      "name": "코드나인방탈출카페 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1741880444",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "522639283",
+      "name": "코드이스케이프 가로수길점",
+      "scripts": [],
+      "engine": null,
+      "url": "http://www.code-escape-garosu.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "52252534",
+      "name": "키즈인더룸 평촌점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://kidsintheroom.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "422613765",
+      "name": "파노라마 부산 ",
+      "scripts": [],
+      "engine": null,
+      "url": "https://naver.me/FutFZ0bm",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "123477337",
+      "name": "파라박스 ",
+      "scripts": [],
+      "engine": null,
+      "url": "https://parabox.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "79137052",
+      "name": "페르소나 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/79137052",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "746135486",
+      "name": "플레이더월드 건대점",
+      "scripts": [],
+      "engine": null,
+      "url": "https://playthe.world/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1252080396",
+      "name": "할리갈리인더룸방탈출시즌2 ",
+      "scripts": [],
+      "engine": null,
+      "url": "http://place.map.kakao.com/1252080396",
+      "state": "untested",
+      "slots": 0
+    }
+  ],
+  "gray_connected": [
+    {
+      "id": "212176813",
+      "name": "개꿀이스케이프 ",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://doghoneyescape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "361428621",
+      "name": "건대2호 ",
+      "scripts": [
+        "sync_xcape_db"
+      ],
+      "engine": "xcape",
+      "url": "https://xcape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27354377",
+      "name": "건대점 ",
+      "scripts": [
+        "sync_xcape_db"
+      ],
+      "engine": "xcape",
+      "url": "https://xcape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1871864524",
+      "name": "겟어웨이방탈출카페 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://getawayesc.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "617331855",
+      "name": "괴담저장소 한강대점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://mysteryzip.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "202030183",
+      "name": "구미랑방탈출카페 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/491000",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1767938917",
+      "name": "꿈소풍 안산1호점",
+      "scripts": [
+        "sync_dreampicnic_db"
+      ],
+      "engine": "dreampicnic",
+      "url": "https://dreampicnicescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "713424921",
+      "name": "나비잠 1호점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://nabijam.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "704757588",
+      "name": "나비잠 2호점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://nabijam.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1108129560",
+      "name": "넥스트에디션 건대 보네르관",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "287949141",
+      "name": "넥스트에디션 건대2호점",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1678997732",
+      "name": "넥스트에디션 부천점",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "635335984",
+      "name": "넥스트에디션 분당서현점",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1224056973",
+      "name": "넥스트에디션 신림점",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1460924995",
+      "name": "넥스트에디션 잠실점",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "259983085",
+      "name": "단편선 방탈출 성수점",
+      "scripts": [
+        "sync_dpsnnn_db"
+      ],
+      "engine": "dpsnnn",
+      "url": "https://dpsnnn-s.imweb.me/reserve_ss",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1502372343",
+      "name": "더락이스케이프 경성대점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/263451",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1448469234",
+      "name": "더락이스케이프 부산대점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/237839",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1023995566",
+      "name": "더락이스케이프 하단점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/762346",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "902256384",
+      "name": "더리얼방탈출카페 순천점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/638554",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "332798783",
+      "name": "더와이방탈출카페 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1316365",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1611418578",
+      "name": "더챕터 홍대점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1473904",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1266197087",
+      "name": "더패닉방탈출카페 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/10/bizes/52738",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "28574930",
+      "name": "덤앤더머 방탈출카페 서면점",
+      "scripts": [
+        "sync_dumbndumber_db"
+      ],
+      "engine": "dumbndumber",
+      "url": "http://www.dumbndumber-sm.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1836271694",
+      "name": "도어이스케이프 대전유성 NC백화점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1460830485",
+      "name": "도어이스케이프 부평점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "765336936",
+      "name": "도어이스케이프 신논현 레드점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2058736611",
+      "name": "도어이스케이프 신논현 블루점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27609271",
+      "name": "도어이스케이프 안산점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "190103388",
+      "name": "도어이스케이프 이수역점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "153136502",
+      "name": "도어이스케이프 홍대점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2102768222",
+      "name": "러시아워방탈출 3호점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1370021",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "942247508",
+      "name": "러시아워방탈출 로드맨션",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/540364",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "857573680",
+      "name": "루트이스케이프 수원점",
+      "scripts": [
+        "sync_movieescape_db"
+      ],
+      "engine": "bucheonroute",
+      "url": "http://route-sw.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1609773844",
+      "name": "루트이스케이프 안산점",
+      "scripts": [
+        "sync_movieescape_db"
+      ],
+      "engine": "bucheonroute",
+      "url": "http://www.routeescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "136198096",
+      "name": "루트이스케이프 평택점",
+      "scripts": [
+        "sync_movieescape_db"
+      ],
+      "engine": "bucheonroute",
+      "url": "http://routeescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1574310774",
+      "name": "루팡방탈출카페 1호점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/751404",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2011481622",
+      "name": "루팡방탈출카페 본점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/765025",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1735229345",
+      "name": "룸엘이스케이프 당곡점",
+      "scripts": [
+        "sync_roomlescape_db"
+      ],
+      "engine": "roomlescape",
+      "url": "http://www.roomlescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "782208965",
+      "name": "룸엘이스케이프 신림2호점",
+      "scripts": [
+        "sync_roomlescape_db"
+      ],
+      "engine": "roomlescape",
+      "url": "http://www.roomlescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "628138029",
+      "name": "룸엘이스케이프 신림점",
+      "scripts": [
+        "sync_roomlescape_db"
+      ],
+      "engine": "roomlescape",
+      "url": "http://www.roomlescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "690123759",
+      "name": "룸익스케이프 인디고블루점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://www.ex-cape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1544141348",
+      "name": "룸즈에이 광주수완2호점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://www.roomsa.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "802938757",
+      "name": "룸즈에이 부평점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "http://roomsa.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1488706210",
+      "name": "리얼월드 커넥트현대 청주점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://cheongju.realworld.to",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "671151862",
+      "name": "마스터키 건대점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "https://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27495854",
+      "name": "마스터키 궁동직영점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1987907479",
+      "name": "마스터키 노바홍대점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2039293420",
+      "name": "마스터키 동성로2호점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1834906043",
+      "name": "마스터키 동탄프레임점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27523824",
+      "name": "마스터키 은행직영점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1727885052",
+      "name": "마스터키 익산점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1292714537",
+      "name": "마스터키 전주고사점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1850589033",
+      "name": "마스터키 평택점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/booking/bk_detail",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "97734177",
+      "name": "마스터키프라임 신촌퍼플릭",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": "masterkey",
+      "url": "http://www.master-key.co.kr/booking/bk_detail",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "164781377",
+      "name": "마스터키 프라임청주점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "751793807",
+      "name": "마스터키 홍대상수점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": "masterkey",
+      "url": "http://www.master-key.co.kr/booking/bk_detail",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "870806933",
+      "name": "마스터키 화정점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1443757324",
+      "name": "마피아카페 대구동성로점",
+      "scripts": [
+        "sync_mafiacafe_db"
+      ],
+      "engine": "mafiacafe",
+      "url": "https://www.mafiacafe.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1016102948",
+      "name": "머더파커 건대1호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1862264503",
+      "name": "머더파커 건대2호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "3373516",
+      "name": "머더파커 광주점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1788375645",
+      "name": "머더파커 대구1호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1450292038",
+      "name": "머더파커 대구2호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1250945647",
+      "name": "머더파커 부산점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "583591672",
+      "name": "머더파커 양산점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "130115446",
+      "name": "머더파커 익산점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1796437751",
+      "name": "머더파커 잠실점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "605934214",
+      "name": "머더파커 전주2호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "399727939",
+      "name": "머더파커 전주3호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1604521778",
+      "name": "머더파커 홍대1호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "64956517",
+      "name": "머더파커 WOW 홍대점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1436082735",
+      "name": "미스터리담 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "727312827",
+      "name": "미스터리룸이스케이프 홍대2호점",
+      "scripts": [
+        "sync_mysteryroom_db"
+      ],
+      "engine": null,
+      "url": "http://www.mysteryroomescape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1254330051",
+      "name": "방탈출브이 공평점",
+      "scripts": [
+        "sync_vescape_db"
+      ],
+      "engine": "vescape",
+      "url": "http://www.v-escape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2138163704",
+      "name": "방탈출추리존 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/509345",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "170158027",
+      "name": "브레이크아웃이스케이프 해운대본점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://busan.breakoutescapegame.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "451924760",
+      "name": "브레이크아웃이스케이프 홍대점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://hongdae.breakoutescapegame.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1459848720",
+      "name": "브레인이스케이프 광주점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://www.brain-escape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1432484184",
+      "name": "비트포비아 대학로점",
+      "scripts": [
+        "sync_xphobia_db"
+      ],
+      "engine": null,
+      "url": "https://www.xphobia.net/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "892545149",
+      "name": "서울이스케이프룸 대구동성로점",
+      "scripts": [
+        "sync_seoulescaperoom_db"
+      ],
+      "engine": "seoulescaperoom",
+      "url": "https://www.seoul-escape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "310013350",
+      "name": "서울이스케이프룸 부산서면점",
+      "scripts": [
+        "sync_seoulescaperoom_db"
+      ],
+      "engine": "seoulescaperoom",
+      "url": "https://www.seoul-escape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "427897815",
+      "name": "서울이스케이프룸 인천부평점",
+      "scripts": [
+        "sync_seoulescaperoom_db"
+      ],
+      "engine": "seoulescaperoom",
+      "url": "https://www.seoul-escape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1458988059",
+      "name": "수원방탈출연구소 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1379992",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1599918263",
+      "name": "수원점 ",
+      "scripts": [
+        "sync_xcape_db"
+      ],
+      "engine": "xcape",
+      "url": "https://xcape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "923379950",
+      "name": "숨바꼭질 2호점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/416289",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "632336157",
+      "name": "숨바꼭질 3호점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/634218",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "215947527",
+      "name": "시그널헌터 광교중앙점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://www.signalhunter.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "163640808",
+      "name": "시크릿도어 군포산본점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/731521",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1245109855",
+      "name": "싸인이스케이프 강남시티점",
+      "scripts": [
+        "sync_signescape_db"
+      ],
+      "engine": "signescape",
+      "url": "http://www.signescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2400000001",
+      "name": "싸인이스케이프 상수점",
+      "scripts": [
+        "sync_signescape_db"
+      ],
+      "engine": "signescape",
+      "url": "http://www.signescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "570522076",
+      "name": "싸인이스케이프 성대역점",
+      "scripts": [
+        "sync_signescape_db"
+      ],
+      "engine": "signescape",
+      "url": "http://www.signescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "115701517",
+      "name": "싸인이스케이프 인계시티점",
+      "scripts": [
+        "sync_signescape_db"
+      ],
+      "engine": "signescape",
+      "url": "http://www.signescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "657876723",
+      "name": "씨이스케이프 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/727743",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "570199530",
+      "name": "어디든가게 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/303872",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "164116124",
+      "name": "에베레스트이스케이프 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://everestescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1277196871",
+      "name": "에피소드방탈출 강남점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://www.epsd.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1411698841",
+      "name": "에피소드방탈출 분당점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/280688",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1654390566",
+      "name": "엑스이스케이프 홍대상상마당점",
+      "scripts": [
+        "sync_xescape_db"
+      ],
+      "engine": "xescape",
+      "url": "https://xescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2012633570",
+      "name": "오늘의한페이지 방탈출카페 ",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://page-today.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "300855776",
+      "name": "오늘탈출 고양점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://www.todayescape.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "625095198",
+      "name": "원타임방탈출카페 전주신시가지점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1205871",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "763904207",
+      "name": "월투월방탈출 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/570203",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1000900386",
+      "name": "이스케이프샾 ",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://escapeshop.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2016521022",
+      "name": "이스케이프샾 건대점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://escapeshop.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "901719185",
+      "name": "이스케이프월드 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1413691",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1973717836",
+      "name": "이스케이프탑 대전점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://daejeontop.net",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "665041653",
+      "name": "이스케이프탑 부산점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://busantop.net",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "836762242",
+      "name": "이스케이프탑 수원점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://suwontop.net",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "284779798",
+      "name": "이스케이프탑 울산점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://www.ulsantop.net",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1097124167",
+      "name": "이스케이프탑 창원점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://changwontop.net",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1415278100",
+      "name": "인스테이지방탈출 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/891433",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "890251040",
+      "name": "제로월드 롯데월드점",
+      "scripts": [
+        "sync_zeroworld_db"
+      ],
+      "engine": "zeroworld",
+      "url": "https://zerolotteworld.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "7690632",
+      "name": "지구별방탈출 대구점",
+      "scripts": [
+        "sync_jigobyeol_db"
+      ],
+      "engine": "jigobyeol",
+      "url": "https://xn--2e0b040a4xj.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "399012410",
+      "name": "지구별방탈출 홍대라스트시티점",
+      "scripts": [
+        "sync_jigobyeol_db"
+      ],
+      "engine": "jigobyeol",
+      "url": "https://xn--2e0b040a4xj.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1682203426",
+      "name": "찰리이스케이프 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1105850",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1831030495",
+      "name": "체셔캣방탈출카페 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/601362",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1358303820",
+      "name": "카타르시스이스케이프 서면점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/737799",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1542251042",
+      "name": "카페 1542251042 ",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://macro.playthe.world",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27329834",
+      "name": "카페 27329834 ",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://macro.playthe.world",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "912842418",
+      "name": "카페 912842418 ",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": null,
+      "url": "https://macro.playthe.world",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1865048385",
+      "name": "코드미스터리 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/84222",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2100000004",
+      "name": "큐브이스케이프 대구점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://daegu.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "167846502",
+      "name": "큐브이스케이프 대전둔산점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://daejeon.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "4331171",
+      "name": "큐브이스케이프 수유점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://suyu.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27564986",
+      "name": "큐브이스케이프 인천점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://incheon.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2100000001",
+      "name": "큐브이스케이프 잠실점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://jamsil.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27522878",
+      "name": "큐브이스케이프 전주점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://junju.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1857201893",
+      "name": "큐브이스케이프 천호점",
+      "scripts": [
+        "sync_cubeescape_db"
+      ],
+      "engine": "cubeescape",
+      "url": "http://cheonho.cubeescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2022859547",
+      "name": "크라임씬카페 퍼즐팩토리 성수점",
+      "scripts": [
+        "sync_puzzlefactory_db"
+      ],
+      "engine": "puzzlefactory",
+      "url": "http://www.puzzlefactory.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "400448256",
+      "name": "키이스케이프 강남 더오름 ",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "99889048",
+      "name": "키이스케이프 로그인1 ",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "320987184",
+      "name": "키이스케이프 로그인2 ",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "459642234",
+      "name": "키이스케이프 메모리컴퍼니 ",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "298789057",
+      "name": "키이스케이프 스테이션 ",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://www.keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1637143499",
+      "name": "키이스케이프 부산점",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "https://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "916422770",
+      "name": "키이스케이프 우주라이크점",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "48992610",
+      "name": "키이스케이프 전주점",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "https://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "200411443",
+      "name": "키이스케이프 홍대점",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27607543",
+      "name": "타임이스케이프 창원점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://www.timeescape.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27575809",
+      "name": "트랩코리아 삼산점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/72634",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "100018735",
+      "name": "판타지아방탈출카페 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/795803",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1559912469",
+      "name": "플레이포인트랩 해운대 블루오션스테이션점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "2030700012",
+      "name": "플레이포인트랩 두정점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "https://playpointlab.com/office/detail",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1397923384",
+      "name": "플레이포인트랩 부산서면오리진점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "886826713",
+      "name": "플레이포인트랩 서면점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": "masterkey",
+      "url": "http://www.master-key.co.kr/booking/bk_detail",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "967129600",
+      "name": "플레이포인트랩 잠실점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "https://playpointlab.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1462418270",
+      "name": "플레이포인트랩 홍대점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "https://playpointlab.com/office/detail",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1719351380",
+      "name": "필더블랭크 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1944665207",
+      "name": "하이드앤시크 쌈지길점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://fuzzyline.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "554838835",
+      "name": "하이드앤시크 홍대점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://withescaper.com",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1124781432",
+      "name": "하일이스케이프 ",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "https://booking.naver.com/booking/12/bizes/20197",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1872221698",
+      "name": "후즈데어 ",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "https://www.keyescape.com/",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "27559974",
+      "name": "ESC방탈출카페 천안점",
+      "scripts": [
+        "sync_escbangtalul_db"
+      ],
+      "engine": "escbangtalul",
+      "url": "http://www.caesc.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1314964065",
+      "name": "ESC방탈출카페 평택점",
+      "scripts": [
+        "sync_escbangtalul_db"
+      ],
+      "engine": "escbangtalul",
+      "url": "http://ptesc.co.kr",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "1393764461",
+      "name": "gateoftime 광주점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://gateoftime.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    },
+    {
+      "id": "929019886",
+      "name": "gateoftime 대구동성로점",
+      "scripts": [
+        "sync_playtheworld_etc_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://gateoftime.kr/reservation.html",
+      "state": "untested",
+      "slots": 0
+    }
+  ],
+  "passed": [
+    {
+      "id": "59939450",
+      "name": "꿈소풍 부천점",
+      "scripts": [
+        "sync_dreampicnic_db"
+      ],
+      "engine": "dreampicnic",
+      "url": "https://dreampicnicescape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1973765277",
+      "name": "넥스트에디션 건대1호점",
+      "scripts": [
+        "sync_nextedition_db"
+      ],
+      "engine": "nextedition",
+      "url": "https://www.nextedition.co.kr/reservation.html",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_xcape_nc",
+      "name": "뉴케이스 건대3호점",
+      "scripts": [
+        "sync_xcape_current_db"
+      ],
+      "engine": "xcape_current",
+      "url": "https://xcape.kr/booking/nc",
+      "state": "smoke_pass",
+      "slots": 30
+    },
+    {
+      "id": "377197835",
+      "name": "단편선 방탈출 강남점",
+      "scripts": [
+        "sync_dpsnnn_db"
+      ],
+      "engine": "dpsnnn",
+      "url": "https://www.dpsnnn.com/reserve_g",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1696389756",
+      "name": "더큐이스케이프 대전둔산점",
+      "scripts": [
+        "sync_theqescape_db"
+      ],
+      "engine": "theqescape",
+      "url": "https://www.the-qescapedj.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1233678979",
+      "name": "더타임이스케이프 ",
+      "scripts": [
+        "sync_thetimeescape_db"
+      ],
+      "engine": "thetimeescape",
+      "url": "http://www.thetimeescape.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "203642029",
+      "name": "덤앤더머 방탈출카페 대학로점",
+      "scripts": [
+        "sync_dumbndumber_db"
+      ],
+      "engine": "dumbndumber",
+      "url": "http://www.dumbndumber.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "691418241",
+      "name": "도어이스케이프 강남 가든점",
+      "scripts": [
+        "sync_doorescape_db"
+      ],
+      "engine": "playtheworld",
+      "url": "https://doorescape.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_dolo",
+      "name": "돌로이스케이프 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://doloescape.co.kr/",
+      "state": "smoke_pass",
+      "slots": 27
+    },
+    {
+      "id": "1442041275",
+      "name": "딥띵커 홍대점",
+      "scripts": [
+        "sync_deepthinker_db"
+      ],
+      "engine": "deepthinker",
+      "url": "https://deepthinker.co.kr/",
+      "state": "smoke_pass",
+      "slots": 11
+    },
+    {
+      "id": "596589943",
+      "name": "룸엘이스케이프 홍대1호점",
+      "scripts": [
+        "sync_roomlescape_db"
+      ],
+      "engine": "roomlescape",
+      "url": "http://www.roomlescape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "475592733",
+      "name": "리멤버방탈출 수원점",
+      "scripts": [
+        "sync_rememberesc_db"
+      ],
+      "engine": "rememberesc",
+      "url": "http://rememberesc.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "49858990",
+      "name": "리멤버방탈출 천안점",
+      "scripts": [
+        "sync_rememberesc_db"
+      ],
+      "engine": "rememberesc",
+      "url": "http://rememberesc.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1772504569",
+      "name": "리버스이스케이프 안산점",
+      "scripts": [
+        "sync_reverseesc_db"
+      ],
+      "engine": "reverseesc",
+      "url": "http://reverseesc.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1231888375",
+      "name": "리버스이스케이프 향남점",
+      "scripts": [
+        "sync_reverseesc_db"
+      ],
+      "engine": "reverseesc",
+      "url": "http://reverseesc.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1030963843",
+      "name": "마피아카페 강남1호점",
+      "scripts": [
+        "sync_mafiacafe_db"
+      ],
+      "engine": "mafiacafe",
+      "url": "https://www.mafiacafe.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "27545114",
+      "name": "머더파커 전주1호점",
+      "scripts": [
+        "sync_murderparker_db"
+      ],
+      "engine": "murderparker",
+      "url": "http://murderparker.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1855837227",
+      "name": "무비이스케이프 동탄남광장점",
+      "scripts": [
+        "sync_movieescape_db"
+      ],
+      "engine": "bucheonroute",
+      "url": "http://movieescape.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1956789824",
+      "name": "무비이스케이프 동탄점",
+      "scripts": [
+        "sync_movieescape_cokr_db"
+      ],
+      "engine": "movieescape_cokr",
+      "url": "https://movieescape.co.kr",
+      "state": "smoke_pass",
+      "slots": 35
+    },
+    {
+      "id": "779900297",
+      "name": "방탈출탐정 수원점",
+      "scripts": [
+        "sync_escapedetective_db"
+      ],
+      "engine": "escapedetective",
+      "url": "https://www.escapecafe.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "187287513",
+      "name": "방탈출토끼굴 홍대점",
+      "scripts": [
+        "sync_rabbithole_db"
+      ],
+      "engine": "rabbithole",
+      "url": "https://www.rabbitholeescape.co.kr/",
+      "state": "smoke_pass",
+      "slots": 15
+    },
+    {
+      "id": "273855007",
+      "name": "방탈출ESC 신촌점",
+      "scripts": [
+        "sync_roomescape_db"
+      ],
+      "engine": "roomescape",
+      "url": "http://roomescape.net",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "27324626",
+      "name": "방탈출NO1 수원점",
+      "scripts": [
+        "sync_no1escape_db"
+      ],
+      "engine": "no1escape",
+      "url": "http://www.no1escape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_secretgarden_5",
+      "name": "비밀의화원 건대점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 55
+    },
+    {
+      "id": "official_secretgarden_10",
+      "name": "비밀의화원 광주점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 58
+    },
+    {
+      "id": "official_secretgarden_4",
+      "name": "비밀의화원 대학로점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 54
+    },
+    {
+      "id": "official_secretgarden_6",
+      "name": "비밀의화원 동성로점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 73
+    },
+    {
+      "id": "official_secretgarden_3",
+      "name": "비밀의화원 서면점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 81
+    },
+    {
+      "id": "official_secretgarden_11",
+      "name": "비밀의화원 시네마틱 혜화점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 41
+    },
+    {
+      "id": "official_secretgarden_12",
+      "name": "비밀의화원 전주점",
+      "scripts": [
+        "sync_secretgarden_db"
+      ],
+      "engine": "secretgarden",
+      "url": "https://www.secretgardenescape.com/reservation.html",
+      "state": "smoke_pass",
+      "slots": 21
+    },
+    {
+      "id": "1772808576",
+      "name": "비트포비아 던전101 ",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1478483341",
+      "name": "비트포비아 던전루나 ",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "436025860",
+      "name": "비트포비아 던전스텔라 ",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "629764977",
+      "name": "비트포비아 레드던전 서면점",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://www.xphobia.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1769092819",
+      "name": "비트포비아 강남던전2",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "27413263",
+      "name": "비트포비아 강남던전점",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1322241204",
+      "name": "비트포비아 서면던전점",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "2070160321",
+      "name": "비트포비아 홍대던전3",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1246652450",
+      "name": "비트포비아 홍대던전점",
+      "scripts": [
+        "sync_xdungeon_db"
+      ],
+      "engine": null,
+      "url": "https://xdungeon.net/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_sslone_2",
+      "name": "상상락원 익산 원광대점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://sslone.co.kr/",
+      "state": "smoke_pass",
+      "slots": 90
+    },
+    {
+      "id": "official_sslone_4",
+      "name": "상상락원 잠실점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://sslone.co.kr/",
+      "state": "smoke_pass",
+      "slots": 70
+    },
+    {
+      "id": "official_sslone_5",
+      "name": "상상락원 전주 한옥마을점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://sslone.co.kr/",
+      "state": "smoke_pass",
+      "slots": 44
+    },
+    {
+      "id": "official_sslone_1",
+      "name": "상상락원 전주객사점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://sslone.co.kr/",
+      "state": "smoke_pass",
+      "slots": 76
+    },
+    {
+      "id": "1351400084",
+      "name": "서울이스케이프룸 홍대점",
+      "scripts": [
+        "sync_seoulesc_db",
+        "sync_seoulescaperoom_db"
+      ],
+      "engine": "seoulescaperoom",
+      "url": "https://www.seoul-escape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_sherlock_116",
+      "name": "셜록홈즈 광명철산점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 54
+    },
+    {
+      "id": "official_sherlock_41",
+      "name": "셜록홈즈 구리점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 40
+    },
+    {
+      "id": "official_sherlock_13",
+      "name": "셜록홈즈 구월인천점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 48
+    },
+    {
+      "id": "official_sherlock_110",
+      "name": "셜록홈즈 군산수송점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 55
+    },
+    {
+      "id": "official_sherlock_111",
+      "name": "셜록홈즈 뉴부천점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 44
+    },
+    {
+      "id": "official_sherlock_81",
+      "name": "셜록홈즈 뉴안양점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 40
+    },
+    {
+      "id": "official_sherlock_84",
+      "name": "셜록홈즈 대구동성로점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 36
+    },
+    {
+      "id": "official_sherlock_115",
+      "name": "셜록홈즈 대전둔산점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 48
+    },
+    {
+      "id": "official_sherlock_79",
+      "name": "셜록홈즈 동탄점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 53
+    },
+    {
+      "id": "official_sherlock_105",
+      "name": "셜록홈즈 송도트리플점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 63
+    },
+    {
+      "id": "official_sherlock_113",
+      "name": "셜록홈즈 수원역2호점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 80
+    },
+    {
+      "id": "official_sherlock_86",
+      "name": "셜록홈즈 아산점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 54
+    },
+    {
+      "id": "official_sherlock_114",
+      "name": "셜록홈즈 안산점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 56
+    },
+    {
+      "id": "official_sherlock_44",
+      "name": "셜록홈즈 여수점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 63
+    },
+    {
+      "id": "official_sherlock_112",
+      "name": "셜록홈즈 용인역북점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 45
+    },
+    {
+      "id": "official_sherlock_61",
+      "name": "셜록홈즈 의정부점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 36
+    },
+    {
+      "id": "official_sherlock_70",
+      "name": "셜록홈즈 청주점",
+      "scripts": [
+        "sync_sherlock_db"
+      ],
+      "engine": "sherlock",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php",
+      "state": "smoke_pass",
+      "slots": 47
+    },
+    {
+      "id": "887263854",
+      "name": "쇼룸404 홍대점",
+      "scripts": [
+        "sync_showroom404_db"
+      ],
+      "engine": "showroom404",
+      "url": "https://showroom404.com/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1908100709",
+      "name": "스튜디오이에스씨 ",
+      "scripts": [
+        "sync_studioesc_db"
+      ],
+      "engine": null,
+      "url": "https://studioesc.co.kr/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "678802397",
+      "name": "싸인이스케이프 홍대점",
+      "scripts": [
+        "sync_signescape_db"
+      ],
+      "engine": "signescape",
+      "url": "http://www.signescape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "338628640",
+      "name": "앨리스이스케이프 ",
+      "scripts": [
+        "sync_aliceescape_db"
+      ],
+      "engine": "aliceescape",
+      "url": "http://alice-escape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1772415237",
+      "name": "엑스이스케이프 홍대놀이터점",
+      "scripts": [
+        "sync_xescape_db"
+      ],
+      "engine": "xescape",
+      "url": "https://xescape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_xcape_gn",
+      "name": "엑스케이프 강남점",
+      "scripts": [
+        "sync_xcape_current_db"
+      ],
+      "engine": "xcape_current",
+      "url": "https://xcape.kr/booking/gn",
+      "state": "smoke_pass",
+      "slots": 47
+    },
+    {
+      "id": "official_xcape_xc",
+      "name": "엑스케이프 건대1호점",
+      "scripts": [
+        "sync_xcape_current_db"
+      ],
+      "engine": "xcape_current",
+      "url": "https://xcape.kr/booking/xc",
+      "state": "smoke_pass",
+      "slots": 40
+    },
+    {
+      "id": "official_xcape_sw",
+      "name": "엑스케이프 수원점",
+      "scripts": [
+        "sync_xcape_current_db"
+      ],
+      "engine": "xcape_current",
+      "url": "https://xcape.kr/booking/sw",
+      "state": "smoke_pass",
+      "slots": 53
+    },
+    {
+      "id": "official_xcape_xr",
+      "name": "엑스크라임 건대2호점",
+      "scripts": [
+        "sync_xcape_current_db"
+      ],
+      "engine": "xcape_current",
+      "url": "https://xcape.kr/booking/xr",
+      "state": "smoke_pass",
+      "slots": 47
+    },
+    {
+      "id": "363716272",
+      "name": "오렌지티비 대구동성로점",
+      "scripts": [
+        "sync_orangetb_db"
+      ],
+      "engine": "orangetb",
+      "url": "http://orangetb.com",
+      "state": "smoke_pass",
+      "slots": 102
+    },
+    {
+      "id": "1908328454",
+      "name": "오렌지티비 대전은행점",
+      "scripts": [
+        "sync_orangetb_db"
+      ],
+      "engine": "orangetb",
+      "url": "http://orangetb.com",
+      "state": "smoke_pass",
+      "slots": 90
+    },
+    {
+      "id": "848848018",
+      "name": "오아시스 뮤지엄 ",
+      "scripts": [
+        "sync_oasisescape_db"
+      ],
+      "engine": "oasisescape",
+      "url": "https://oasismuseum.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_weyol",
+      "name": "위욜 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://weyol.com/",
+      "state": "smoke_pass",
+      "slots": 25
+    },
+    {
+      "id": "official_eroom8",
+      "name": "이룸에이트 ",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://eroom8.co.kr/",
+      "state": "smoke_pass",
+      "slots": 60
+    },
+    {
+      "id": "969459474",
+      "name": "이스케이퍼스 홍대1호점",
+      "scripts": [
+        "sync_escapers_db"
+      ],
+      "engine": "escapers",
+      "url": "http://www.escapers.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1834149457",
+      "name": "이스케이프시티 그랜드시티신촌점",
+      "scripts": [
+        "sync_escapecity_db"
+      ],
+      "engine": "escapecity",
+      "url": "http://escapecity.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1363823824",
+      "name": "이스케이프시티 부천신중동점",
+      "scripts": [
+        "sync_escapecity_db"
+      ],
+      "engine": "escapecity",
+      "url": "http://escapecity.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "926754766",
+      "name": "이스케이프시티 성신여대점",
+      "scripts": [
+        "sync_escapecity_db"
+      ],
+      "engine": "escapecity",
+      "url": "http://escapecity.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1444854771",
+      "name": "이스케이프시티 영등포본점",
+      "scripts": [
+        "sync_escapecity_db"
+      ],
+      "engine": "escapecity",
+      "url": "http://escapecity.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1856406910",
+      "name": "이스케이프탑 광주점",
+      "scripts": [
+        "sync_escapetop_db"
+      ],
+      "engine": "naver_booking",
+      "url": "http://kwangjutop.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "340303350",
+      "name": "이스케이프하우스 홍대점",
+      "scripts": [
+        "sync_escapehouse_db"
+      ],
+      "engine": "escapehouse",
+      "url": "http://www.escapehouse.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_exploria",
+      "name": "익스플로리아이스케이프 수원점",
+      "scripts": [
+        "sync_public_extra_db"
+      ],
+      "engine": "exploria_public",
+      "url": "https://www.exploria-escape.kr",
+      "state": "smoke_pass",
+      "slots": 16
+    },
+    {
+      "id": "1345840219",
+      "name": "제로월드 강남점",
+      "scripts": [
+        "sync_zeroworld_current_db",
+        "sync_zeroworld_db"
+      ],
+      "engine": "zeroworld_current",
+      "url": "https://zeroworldkorea.com/layout/res/home.php",
+      "state": "smoke_pass",
+      "slots": 74
+    },
+    {
+      "id": "official_zeroworld_1",
+      "name": "제로월드 김포본점",
+      "scripts": [
+        "sync_zeroworld_current_db"
+      ],
+      "engine": "zeroworld_current",
+      "url": "https://zeroworldkorea.com/layout/res/home.php",
+      "state": "smoke_pass",
+      "slots": 96
+    },
+    {
+      "id": "official_zeroworld_2",
+      "name": "제로월드 다이브 건대점",
+      "scripts": [
+        "sync_zeroworld_current_db"
+      ],
+      "engine": "zeroworld_current",
+      "url": "https://zeroworldkorea.com/layout/res/home.php",
+      "state": "smoke_pass",
+      "slots": 30
+    },
+    {
+      "id": "1732671994",
+      "name": "제로월드 홍대점",
+      "scripts": [
+        "sync_zeroworld_current_db",
+        "sync_zeroworld_db"
+      ],
+      "engine": "zeroworld_current",
+      "url": "https://zeroworldkorea.com/layout/res/home.php",
+      "state": "smoke_pass",
+      "slots": 45
+    },
+    {
+      "id": "1713311920",
+      "name": "제트방탈출카페 ",
+      "scripts": [
+        "sync_zescape_db"
+      ],
+      "engine": "zescape",
+      "url": "http://www.zescape.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "2070697879",
+      "name": "지구별방탈출 홍대어드벤처점",
+      "scripts": [
+        "sync_jigobyeol_db"
+      ],
+      "engine": "jigobyeol",
+      "url": "https://xn--2e0b040a4xj.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_codek_S1",
+      "name": "코드케이 강남점",
+      "scripts": [
+        "sync_codek_db"
+      ],
+      "engine": "codek",
+      "url": "http://codek5678.cafe24.com/sub/code_sub04_1.html",
+      "state": "smoke_pass",
+      "slots": 150
+    },
+    {
+      "id": "1475074228",
+      "name": "코드케이 인천구월점",
+      "scripts": [
+        "sync_codek_db"
+      ],
+      "engine": "codek",
+      "url": "http://codek5678.cafe24.com/sub/code_sub04_1.html",
+      "state": "smoke_pass",
+      "slots": 40
+    },
+    {
+      "id": "official_codek_S3",
+      "name": "코드케이 홍대점",
+      "scripts": [
+        "sync_codek_db"
+      ],
+      "engine": "codek",
+      "url": "http://codek5678.cafe24.com/sub/code_sub04_1.html",
+      "state": "smoke_pass",
+      "slots": 15
+    },
+    {
+      "id": "315548029",
+      "name": "크라임씬카페 퍼즐팩토리 홍대3호점",
+      "scripts": [
+        "sync_puzzlefactory_db"
+      ],
+      "engine": "puzzlefactory",
+      "url": "http://www.puzzlefactory.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "949587061",
+      "name": "클레버타운 신촌점",
+      "scripts": [
+        "sync_clevertown_db"
+      ],
+      "engine": "clevertown",
+      "url": "https://clevertown.co.kr/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1405262610",
+      "name": "키이스케이프 강남점",
+      "scripts": [
+        "sync_keyescape_db"
+      ],
+      "engine": null,
+      "url": "http://keyescape.co.kr/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "759455993",
+      "name": "테라스페이스 홍대점",
+      "scripts": [
+        "sync_teraspace_db"
+      ],
+      "engine": "teraspace",
+      "url": "https://teraspace.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "27504980",
+      "name": "트릭이스케이프 ",
+      "scripts": [
+        "sync_trickescape_db"
+      ],
+      "engine": "trickescape",
+      "url": "http://www.trickescape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "327610610",
+      "name": "티켓투이스케이프 홍대점",
+      "scripts": [
+        "sync_ttescape_db"
+      ],
+      "engine": "ttescape",
+      "url": "https://www.ttescape.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "192767471",
+      "name": "판타스트릭 2호점",
+      "scripts": [
+        "sync_fantastrick_db"
+      ],
+      "engine": null,
+      "url": "http://fantastrick.co.kr/",
+      "state": "smoke_pass",
+      "slots": 9
+    },
+    {
+      "id": "1421844037",
+      "name": "판타스트릭 강남1호점",
+      "scripts": [
+        "sync_fantastrick_db"
+      ],
+      "engine": null,
+      "url": "http://fantastrick.co.kr/",
+      "state": "smoke_pass",
+      "slots": 10
+    },
+    {
+      "id": "2020129484",
+      "name": "판타스트릭TGC ",
+      "scripts": [
+        "sync_fantastrick_db"
+      ],
+      "engine": "fantastrick",
+      "url": "http://fantastrick.co.kr",
+      "state": "smoke_pass",
+      "slots": 12
+    },
+    {
+      "id": "27178625",
+      "name": "패닉이스케이프 목동점",
+      "scripts": [
+        "sync_panicescape_db"
+      ],
+      "engine": "panicescape",
+      "url": "http://www.panicescape.com",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_pointnine_1",
+      "name": "포인트나인 강남점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://point-nine.com/",
+      "state": "smoke_pass",
+      "slots": 31
+    },
+    {
+      "id": "official_pointnine_5",
+      "name": "포인트나인 건대점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://point-nine.com/",
+      "state": "smoke_pass",
+      "slots": 36
+    },
+    {
+      "id": "official_pointnine_6",
+      "name": "포인트나인 홍대점",
+      "scripts": [
+        "sync_sinbiweb_db"
+      ],
+      "engine": "sinbiweb",
+      "url": "https://point-nine.com/",
+      "state": "smoke_pass",
+      "slots": 32
+    },
+    {
+      "id": "874592991",
+      "name": "프랭크의골동품가게 ",
+      "scripts": [
+        "sync_frankantique_db"
+      ],
+      "engine": null,
+      "url": "https://thefrank.co.kr/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "official_plus",
+      "name": "플러스이스케이프 ",
+      "scripts": [
+        "sync_public_extra_db"
+      ],
+      "engine": "plus_public",
+      "url": "https://www.plus-escape.com",
+      "state": "smoke_pass",
+      "slots": 3
+    },
+    {
+      "id": "1385414031",
+      "name": "플레이33 건대점",
+      "scripts": [
+        "sync_play33_db"
+      ],
+      "engine": "play33",
+      "url": "https://play33.kr/reservation",
+      "state": "smoke_pass",
+      "slots": 27
+    },
+    {
+      "id": "official_play33_5",
+      "name": "플레이33 대전점",
+      "scripts": [
+        "sync_play33_db"
+      ],
+      "engine": "play33",
+      "url": "https://play33.kr/reservation",
+      "state": "smoke_pass",
+      "slots": 48
+    },
+    {
+      "id": "official_play33_7",
+      "name": "플레이33 수원점",
+      "scripts": [
+        "sync_play33_db"
+      ],
+      "engine": "play33",
+      "url": "https://play33.kr/reservation",
+      "state": "smoke_pass",
+      "slots": 11
+    },
+    {
+      "id": "official_play33_4",
+      "name": "플레이33 홍대점",
+      "scripts": [
+        "sync_play33_db"
+      ],
+      "engine": "play33",
+      "url": "https://play33.kr/reservation",
+      "state": "smoke_pass",
+      "slots": 13
+    },
+    {
+      "id": "1416262413",
+      "name": "플레이이스케이프 원주점",
+      "scripts": [
+        "sync_playescape_db"
+      ],
+      "engine": "playescape",
+      "url": "http://www.playescape.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "1466171651",
+      "name": "플레이포인트랩 강남점",
+      "scripts": [
+        "sync_masterkey_db"
+      ],
+      "engine": null,
+      "url": "http://www.master-key.co.kr/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "289742025",
+      "name": "호러스위치 홍대점",
+      "scripts": [
+        "sync_horrorswitch_db"
+      ],
+      "engine": "horrorswitch",
+      "url": "https://www.horrorswitch.com/ko/",
+      "state": "smoke_pass",
+      "slots": 0
+    },
+    {
+      "id": "2024880532",
+      "name": "ESC방탈출카페 대전둔산점",
+      "scripts": [
+        "sync_escbangtalul_db"
+      ],
+      "engine": "escbangtalul",
+      "url": "http://djdsesc.co.kr",
+      "state": "smoke_pass",
+      "slots": 0
+    }
+  ]
+}

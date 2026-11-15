@@ -48,6 +48,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
+from app.crawl_availability import require_reservation_feed
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -297,8 +298,7 @@ def main(run_schedule: bool = True, days: int = 14) -> None:
 
     print("\n[ 데이터 수집 ]")
     raw = _fetch_data()
-    theme_data: list[dict] = raw.get("theme_data", [])
-    reserv_data: list[dict] = raw.get("reserv_data", [])
+    theme_data, reserv_data = require_reservation_feed(raw)
     print(f"  테마: {len(theme_data)}개, 예약완료 슬롯: {len(reserv_data)}개")
 
     if not theme_data:

@@ -1,0 +1,77 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T10:53:20.558866+09:00",
+  "scope": "selected cafe IDs: official_sherlock_81 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_81",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "뉴안양점",
+        "address": "경기도 안양시 만안구 안양로304번길 25 (안양동) 3층 셜록홈즈 뉴안양점",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 81
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 75,
+  "statuses": {
+    "full": 4,
+    "available": 71
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_81": {
+      "themes": 5,
+      "slots": 75,
+      "statuses": {
+        "full": 4,
+        "available": 71
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "노량진 고시생의 사랑-여자편",
+    "웨딩크루즈 살인사건-2탄",
+    "중고로운 평화나라",
+    "파노라마",
+    "파란지붕집"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.9,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

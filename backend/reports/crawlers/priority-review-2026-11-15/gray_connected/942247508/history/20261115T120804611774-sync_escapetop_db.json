@@ -1,0 +1,123 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T12:07:58.388994+09:00",
+  "scope": "selected cafe IDs: 942247508 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "942247508"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "942247508",
+        "business_id": "540364",
+        "business_type_id": 12,
+        "branch_name": "로드맨션",
+        "name": "러시아워방탈출",
+        "address": "광주 북구 용봉동 159-13",
+        "area": "gwangju",
+        "site_url": "https://booking.naver.com/booking/12/bizes/540364"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 72,
+  "statuses": {
+    "full": 24,
+    "available": 48
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "942247508": {
+      "themes": 3,
+      "slots": 72,
+      "statuses": {
+        "full": 24,
+        "available": 48
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "오드의 마법사",
+    "우당탕탕 치즈탈환 대작전!",
+    "지난날"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.14,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

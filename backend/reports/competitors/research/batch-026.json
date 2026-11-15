@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "스토리메이커스",
+    "괴담저장소 한강대 담력훈련",
+    "더챕터",
+    "덤앤더머 홍대점"
+  ],
+  "sources": [
+    {
+      "title": "예약 · 매장안내 — 스토리메이커스",
+      "url": "https://story-makers.net/reservation/"
+    },
+    {
+      "title": "버킷리스트 — 덤앤더머 홍대점 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/786"
+    },
+    {
+      "title": "괴담저장소 한강대 담력훈련 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/332"
+    },
+    {
+      "title": "[여성배우 모집] 이머시브 공포 체험극 〈괴담저장소 : 한강대 담력훈련〉 | 예술in",
+      "url": "https://yesulin.art/posts/4"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "더챕터 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/333"
+    },
+    {
+      "title": "괴담저장소 한강대 담력훈련 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/A1oXNmNt"
+    },
+    {
+      "title": "혼자 가능한 방탈출 테마 — 탈출각",
+      "url": "https://talchulgak.alullab.com/themes"
+    },
+    {
+      "title": "방탈러즈 — 테마 목록",
+      "url": "https://escape-mate.co.kr/sites"
+    },
+    {
+      "title": "한강대 담력훈련 — 괴담저장소 홍대점",
+      "url": "https://www.room-log.com/theme/1533"
+    },
+    {
+      "title": "방탈출 테마 탐색 | 방도장",
+      "url": "https://bangdojang.com/browse"
+    },
+    {
+      "title": "더챕터 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/NiOsL4HP"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

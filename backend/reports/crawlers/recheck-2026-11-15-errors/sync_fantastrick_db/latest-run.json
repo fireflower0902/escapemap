@@ -1,0 +1,137 @@
+[
+  {
+    "script": "sync_fantastrick_db",
+    "checked_at": "2026-11-15T10:49:25.087819+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 3,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "1421844037": {
+        "themes": 1,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "192767471": {
+        "themes": 1,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "2020129484": {
+        "themes": 1,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [
+      "태초의 신부",
+      "사자의 서",
+      "LOCKDOWN CITY"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/firstfoundbride/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/firstfoundbride/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/firstfoundbride",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/bookofduat/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/bookofduat/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/bookofduat",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/ldc/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/ldc/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "fantastrick.co.kr",
+        "path": "/rooms/ldc",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "fantastrick.co.kr",
+        "path": "/wp-admin/admin-ajax.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 12.63,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

@@ -3,3 +3,15 @@ node_modules/
 .env.local
 .env*.local
 out/
+
+.next-verify/
+
+.open-next/
+.wrangler/
+.dev.vars*
+
+.next-cloudflare/
+
+.next-dev/
+
+.env*.cloudflare-backup

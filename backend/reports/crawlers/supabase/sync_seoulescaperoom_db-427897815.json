@@ -1,0 +1,78 @@
+{
+  "script": "sync_seoulescaperoom_db",
+  "checked_at": "2026-11-15T16:12:48.972077+09:00",
+  "scope": "selected cafe IDs: 427897815 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "427897815"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "427897815",
+        "branch_name": "인천부평점",
+        "branch": 2,
+        "area": "incheon",
+        "address": "인천 부평구 부평대로 153"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 28,
+  "statuses": {
+    "full": 24,
+    "available": 4
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "427897815": {
+      "themes": 1,
+      "slots": 28,
+      "statuses": {
+        "full": 24,
+        "available": 4
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "오시리스"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.79,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

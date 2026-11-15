@@ -1,0 +1,86 @@
+{
+  "script": "sync_codek_db",
+  "checked_at": "2026-11-15T16:07:54.859649+09:00",
+  "scope": "selected cafe IDs: official_codek_S1 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_codek_S1"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_codek_S1",
+        "cafe_name": "코드케이",
+        "branch_name": "강남점",
+        "address": "서울시 강남구 역삼동 813-4 지층",
+        "area": "gangnam",
+        "source_code": "S1"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 15,
+  "themes_with_slots": 15,
+  "slots": 450,
+  "statuses": {
+    "full": 154,
+    "available": 296
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_codek_S1": {
+      "themes": 15,
+      "slots": 450,
+      "statuses": {
+        "full": 154,
+        "available": 296
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "504호",
+    "감옥탈출",
+    "기술자들",
+    "기억상실",
+    "납치 (2인전용)",
+    "도둑들",
+    "미스터리 거울의 방 (3인이상) -15세 이상-",
+    "미치광이 연쇄살인범"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.2,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

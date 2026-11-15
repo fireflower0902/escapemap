@@ -1,0 +1,303 @@
+[
+  {
+    "script": "sync_rabbithole_db",
+    "checked_at": "2026-11-15T02:40:48.143194+00:00",
+    "websites": [
+      {
+        "url": "https://www.rabbitholeescape.co.kr",
+        "status": 200,
+        "final_url": "https://www.rabbitholeescape.co.kr/",
+        "title": "방탈출 토끼굴"
+      }
+    ]
+  },
+  {
+    "script": "sync_thecode_db",
+    "checked_at": "2026-11-15T02:40:48.157322+00:00",
+    "websites": [
+      {
+        "url": "http://www.thecode-escape.com",
+        "status": 200,
+        "final_url": "http://www.thecode-escape.com/",
+        "title": ":: 새로운 문화공간 광주 더코드방탈출카페에 오신것을 진심으로 환영합니다. ::"
+      }
+    ]
+  },
+  {
+    "script": "sync_ledasquare_db",
+    "checked_at": "2026-11-15T02:40:48.334624+00:00",
+    "websites": [
+      {
+        "url": "https://ledasquare.com",
+        "status": 200,
+        "final_url": "https://ledasquare.com/layout/res/home.php?go=main",
+        "title": "레다스퀘어"
+      }
+    ]
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "checked_at": "2026-11-15T02:40:48.075367+00:00",
+    "websites": []
+  },
+  {
+    "script": "sync_secretcode_db",
+    "checked_at": "2026-11-15T02:40:48.339542+00:00",
+    "websites": [
+      {
+        "url": "http://www.secret-code.co.kr",
+        "error": "ConnectionError"
+      }
+    ]
+  },
+  {
+    "script": "sync_codek_db",
+    "checked_at": "2026-11-15T02:40:48.316530+00:00",
+    "websites": [
+      {
+        "url": "http://codek5678.cafe24.com",
+        "status": 200,
+        "final_url": "http://codek5678.cafe24.com/",
+        "title": ":: 고객만족도 1위 프랜차이즈 방탈출카페 Code_K ::"
+      },
+      {
+        "url": "http://www.code-k.co.kr",
+        "status": 200,
+        "final_url": "http://www.code-k.co.kr/",
+        "title": ":: 고객만족도 1위 프랜차이즈 방탈출카페 Code_K ::"
+      }
+    ]
+  },
+  {
+    "script": "sync_conanescape_db",
+    "checked_at": "2026-11-15T02:40:48.168405+00:00",
+    "websites": [
+      {
+        "url": "http://conanescape.kr",
+        "error": "ConnectionError"
+      }
+    ]
+  },
+  {
+    "script": "sync_deepthinker_db",
+    "checked_at": "2026-11-15T02:40:49.044018+00:00",
+    "websites": [
+      {
+        "url": "https://deepthinker.co.kr",
+        "status": 200,
+        "final_url": "https://deepthinker.co.kr/",
+        "title": "홍대 방탈출카페 딥띵커"
+      }
+    ]
+  },
+  {
+    "script": "sync_fantastrick_db",
+    "checked_at": "2026-11-15T02:40:49.055349+00:00",
+    "websites": [
+      {
+        "url": "https://fantastrick.co.kr",
+        "status": 200,
+        "final_url": "https://fantastrick.co.kr/",
+        "title": "판타스트릭 FANTASTRICK — 강남 이머시브 방탈출 & 머더룸"
+      }
+    ]
+  },
+  {
+    "script": "sync_geniusescape_db",
+    "checked_at": "2026-11-15T02:40:48.380757+00:00",
+    "websites": [
+      {
+        "url": "http://www.geniusescape.kr",
+        "status": 403,
+        "final_url": "http://www.geniusescape.kr/",
+        "title": "IIS 10.0 Detailed Error - 403.503 - Forbidden"
+      }
+    ]
+  },
+  {
+    "script": "sync_lastescape_db",
+    "checked_at": "2026-11-15T02:40:48.357559+00:00",
+    "websites": [
+      {
+        "url": "http://lastescape.co.kr",
+        "error": "ConnectionError"
+      }
+    ]
+  },
+  {
+    "script": "sync_movieescape_cokr_db",
+    "checked_at": "2026-11-15T02:40:48.613449+00:00",
+    "websites": [
+      {
+        "url": "https://movieescape.co.kr",
+        "status": 200,
+        "final_url": "https://movieescape.co.kr/",
+        "title": "무비이스케이프 동탄 북광장 | 영화 테마 방탈출 카페"
+      }
+    ]
+  },
+  {
+    "script": "sync_mysteryroom_db",
+    "checked_at": "2026-11-15T02:40:48.393808+00:00",
+    "websites": [
+      {
+        "url": "http://mysteryroomescape.com",
+        "error": "ConnectionError"
+      }
+    ]
+  },
+  {
+    "script": "sync_orangetb_db",
+    "checked_at": "2026-11-15T02:40:48.526172+00:00",
+    "websites": [
+      {
+        "url": "http://orangetb.com",
+        "status": 200,
+        "final_url": "http://orangetb.com/",
+        "title": "오렌지티비 방탈출│ESCAPE ROOM TABLE GAME"
+      }
+    ]
+  },
+  {
+    "script": "sync_play33_db",
+    "checked_at": "2026-11-15T02:40:48.587694+00:00",
+    "websites": [
+      {
+        "url": "https://play33.kr",
+        "status": 200,
+        "final_url": "https://play33.kr/",
+        "title": "플레이33"
+      }
+    ]
+  },
+  {
+    "script": "sync_playtheworld_etc_db",
+    "checked_at": "2026-11-15T02:40:48.722316+00:00",
+    "websites": [
+      {
+        "url": "https://macro.playthe.world",
+        "status": 403,
+        "final_url": "https://macro.playthe.world/",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "script": "sync_themazegd_db",
+    "checked_at": "2026-11-15T02:40:48.853577+00:00",
+    "websites": [
+      {
+        "url": "http://www.themazegd.co.kr",
+        "status": 200,
+        "final_url": "https://themazegd.co.kr/",
+        "title": "더메이즈"
+      }
+    ]
+  },
+  {
+    "script": "sync_thetrapsy_db",
+    "checked_at": "2026-11-15T02:40:48.790042+00:00",
+    "websites": [
+      {
+        "url": "http://www.thetrapsy.co.kr",
+        "status": 200,
+        "final_url": "http://www.thetrapsy.co.kr/",
+        "title": "더트랩수유,수유방탈출,더트랩"
+      }
+    ]
+  },
+  {
+    "script": "sync_vescape_db",
+    "checked_at": "2026-11-15T02:40:48.829326+00:00",
+    "websites": [
+      {
+        "url": "http://www.v-escape.co.kr",
+        "error": "ConnectionError"
+      }
+    ]
+  },
+  {
+    "script": "sync_xcape_db",
+    "checked_at": "2026-11-15T02:40:49.326036+00:00",
+    "websites": [
+      {
+        "url": "https://api.xcape-apps.com",
+        "status": 503,
+        "final_url": "https://api.xcape-apps.com/",
+        "title": ""
+      },
+      {
+        "url": "https://xcape.co.kr",
+        "status": 200,
+        "final_url": "https://xcape.co.kr/",
+        "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약"
+      }
+    ]
+  },
+  {
+    "script": "sync_xphobia_db",
+    "checked_at": "2026-11-15T02:40:49.067362+00:00",
+    "websites": [
+      {
+        "url": "https://www.xphobia.net",
+        "status": 200,
+        "final_url": "https://xphobia.net/",
+        "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio"
+      }
+    ]
+  },
+  {
+    "script": "sync_zeroworld_db",
+    "checked_at": "2026-11-15T02:40:49.138621+00:00",
+    "websites": [
+      {
+        "url": "https://www.zerohongdae.com",
+        "error": "ConnectionError"
+      },
+      {
+        "url": "https://zerogangnam.com",
+        "error": "ConnectionError"
+      },
+      {
+        "url": "https://zerolotteworld.com",
+        "error": "ConnectionError"
+      }
+    ]
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T02:40:49.285667+00:00",
+    "websites": [
+      {
+        "url": "http://busted.kr",
+        "status": 200,
+        "final_url": "https://busted.kr/layout/res/home.php?go=main",
+        "title": "방탈출 | 버스티드 BUSTED! – 방탈출 버스티드, BUSTED!입니다."
+      },
+      {
+        "url": "http://cold-case.co.kr",
+        "status": 200,
+        "final_url": "http://cold-case.co.kr/layout/res/home.php?go=main",
+        "title": "콜드케이스 방탈출카페"
+      },
+      {
+        "url": "http://dcodeescape.co.kr",
+        "status": 200,
+        "final_url": "http://dcodeescape.co.kr/layout/res/home.php?go=main",
+        "title": "디코드"
+      }
+    ]
+  },
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T02:40:53.780933+00:00",
+    "websites": [
+      {
+        "url": "https://sherlock-holmes.co.kr",
+        "status": 200,
+        "final_url": "https://sherlock-holmes.co.kr/",
+        "title": "셜록홈즈 방탈출 카페"
+      }
+    ]
+  }
+]

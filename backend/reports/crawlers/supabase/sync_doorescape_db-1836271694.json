@@ -1,0 +1,71 @@
+{
+  "script": "sync_doorescape_db",
+  "checked_at": "2026-11-15T16:12:06.427426+09:00",
+  "scope": "selected cafe IDs: 1836271694 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1836271694"
+  ],
+  "selected": {
+    "SHOP_MAP": [
+      "fGDxtefVDEyWczai"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 154,
+  "statuses": {
+    "full": 5,
+    "available": 149
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1836271694": {
+      "themes": 6,
+      "slots": 154,
+      "statuses": {
+        "full": 5,
+        "available": 149
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "GOOD NIGHT",
+    "WOULD YOU FIND ME?",
+    "나는 아직도 배고프G",
+    "도어항공 41C",
+    "산타의 민족",
+    "서커스 : THE CLEANING MAN"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/fGDxtefVDEyWczai",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/fGDxtefVDEyWczai",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.68,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

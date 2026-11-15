@@ -1,0 +1,46 @@
+{
+  "script": "sync_playtheworld_etc_db",
+  "checked_at": "2026-11-15T12:11:48.636984+09:00",
+  "scope": "selected cafe IDs: 27329834 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "27329834"
+  ],
+  "selected": {
+    "BRANDS": [
+      {
+        "keycode": "CKRwHMB3FGpytPrP",
+        "name": "room-excape",
+        "referer": "https://ex-cape.com",
+        "booking_base": "https://ex-cape.com/reservation.html",
+        "shop_map": {
+          "Z5dmpFTTqzaSqaa4": "27329834"
+        }
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/Z5dmpFTTqzaSqaa4",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 0.56,
+  "log_errors": [
+    "[WARN] GET /v2/shops/Z5dmpFTTqzaSqaa4 실패: HTTP Error 500: Internal Server Error",
+    "[WARN] cafe 27329834 Firestore 미존재 — 건너뜀"
+  ],
+  "status": "needs_review"
+}

@@ -1,0 +1,67 @@
+{
+  "queries": [
+    "신촌퍼플릭",
+    "방탈출 ESC",
+    "아워즈 방탈출카페",
+    "클레버타운"
+  ],
+  "sources": [
+    {
+      "title": "신촌퍼플릭 (서울 신촌) 방탈출 매장 | 코로리방탈출",
+      "url": "https://colory.dev/stores/487"
+    },
+    {
+      "title": "@클레버타운",
+      "url": "https://clevertown.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "아워즈 - 신촌 방탈출카페, 칵테일바 맛집 - 다이닝코드",
+      "url": "https://www.diningcode.com/profile.php"
+    },
+    {
+      "title": "@클레버타운",
+      "url": "https://clevertown.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "아워즈 방탈출카페 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/YHCI9pjl"
+    },
+    {
+      "title": "클레버타운 (신촌) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/310"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "서울 공포 방탈출 | 테마 69개·공포도·예약 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/seoul/escape-room/horror/"
+    },
+    {
+      "title": "방탈출 ESC",
+      "url": "https://web.zamfit.kr/stores/1854/%EB%B0%A9%ED%83%88%EC%B6%9C-ESC"
+    },
+    {
+      "title": "방탈하곰🐻",
+      "url": "https://banggom.com/"
+    },
+    {
+      "title": "신촌·이대 방탈출 추천 | 매장 9곳 테마 28개 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/region/sinchon/"
+    },
+    {
+      "title": "가암성당 - 클레버타운 방탈출 테마 후기 - 전국방탈출",
+      "url": "https://www.roomescape.co.kr/theme/detail"
+    },
+    {
+      "title": "방탈출이벤트09.indd",
+      "url": "https://images.dongascience.com/uploads/article/pdf/201609/M201609N002.pdf"
+    },
+    {
+      "title": "Print",
+      "url": "https://www.medicompartners.co.kr/upload/mypage/202210/20221020/1666253310136171.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

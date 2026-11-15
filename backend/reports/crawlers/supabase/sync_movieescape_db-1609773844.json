@@ -1,0 +1,81 @@
+{
+  "script": "sync_movieescape_db",
+  "checked_at": "2026-11-15T16:14:14.884055+09:00",
+  "scope": "selected cafe IDs: 1609773844 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1609773844"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "site_url": "http://www.routeescape.co.kr",
+        "cafe_name": "루트이스케이프",
+        "cafe_id": "1609773844",
+        "branch_name": "안산점",
+        "address": "경기 안산시 단원구 고잔1길 40",
+        "area": "gyeonggi"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 113,
+  "statuses": {
+    "available": 113
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1609773844": {
+      "themes": 5,
+      "slots": 113,
+      "statuses": {
+        "available": 113
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "GOLD MINE",
+    "디아더스",
+    "사건파일",
+    "사라진여인",
+    "수상한 미술관"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.routeescape.co.kr",
+      "path": "/theme/2026-11-15/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.routeescape.co.kr",
+      "path": "/theme/2026-11-16/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.routeescape.co.kr",
+      "path": "/theme/2026-11-17/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.77,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

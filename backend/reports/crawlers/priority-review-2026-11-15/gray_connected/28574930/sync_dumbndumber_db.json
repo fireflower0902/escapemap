@@ -1,0 +1,80 @@
+{
+  "script": "sync_dumbndumber_db",
+  "checked_at": "2026-11-15T12:07:43.022704+09:00",
+  "scope": "selected cafe IDs: 28574930 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "28574930"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "28574930",
+        "branch_name": "서면점",
+        "shopno": 1,
+        "area": "busan",
+        "address": "부산 부산진구 서면문화로 27",
+        "site_url": "http://www.dumbndumber-sm.kr"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 162,
+  "statuses": {
+    "available": 162
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "28574930": {
+      "themes": 6,
+      "slots": 162,
+      "statuses": {
+        "available": 162
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "글램핑",
+    "러브클리닉",
+    "작전명: 옵저버",
+    "크라임시티",
+    "투 앨리스",
+    "푸른수염"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.dumbndumber-sm.kr",
+      "path": "/reservation.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.dumbndumber-sm.kr",
+      "path": "/reservation.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.dumbndumber-sm.kr",
+      "path": "/reservation.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.15,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

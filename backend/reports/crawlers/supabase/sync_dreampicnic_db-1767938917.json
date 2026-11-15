@@ -1,0 +1,84 @@
+{
+  "script": "sync_dreampicnic_db",
+  "checked_at": "2026-11-15T16:11:05.188032+09:00",
+  "scope": "selected cafe IDs: 1767938917 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1767938917"
+  ],
+  "selected": {
+    "BRANCH_MAP": [
+      "안산1호점"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 7,
+  "themes_with_slots": 5,
+  "slots": 132,
+  "statuses": {
+    "full": 5,
+    "available": 127
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1767938917": {
+      "themes": 7,
+      "slots": 132,
+      "statuses": {
+        "full": 5,
+        "available": 127
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "The Prison Season 2 : 브레이크",
+    "[시즌종료] The Prison Season 1 : 채무탕감옥",
+    "[시즌종료] 말콤 앤 매리언 : 언더커버 미션",
+    "꿈꾸는 앨리스",
+    "신아리오",
+    "안산 코노",
+    "타로78"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "dreampicnicescape.com",
+      "path": "/api/public/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "dreampicnicescape.com",
+      "path": "/api/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "dreampicnicescape.com",
+      "path": "/api/themes",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "dreampicnicescape.com",
+      "path": "/api/themes",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.62,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

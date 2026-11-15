@@ -24,7 +24,7 @@ API (모두 POST, x-www-form-urlencoded):
      → [] → 예약 가능 / [{rel_order_time: ...}] → 예약 불가
 
   Note: 슬롯별 개별 체크가 필요하므로, 실용적으로 오늘부터 7일치만 per-slot 확인.
-        이후 날짜는 template 기반으로 전체 가용으로 처리.
+        이후 날짜는 검증하지 않으며 가용 슬롯을 생성하지 않습니다.
 
 실행:
   cd escape-aggregator/backend
@@ -85,7 +85,7 @@ SHOP_MAP: dict[str, dict] = {
     },
 }
 
-# per-slot 체크는 오늘부터 이 일수까지만 (이후는 template 전체 가용)
+# 실제 확인하는 범위. 이후 날짜는 빈자리로 추정하지 않음.
 PER_SLOT_CHECK_DAYS = 7
 
 
@@ -121,8 +121,8 @@ def _post(opener: urllib.request.OpenerDirector, path: str, params: dict) -> obj
         with opener.open(req, timeout=15) as r:
             return json.loads(r.read().decode("utf-8", errors="ignore"))
     except Exception as e:
-        print(f"  [WARN] POST {path} 실패: {e}")
-        return []
+        # []는 이 API에서 "예약 가능"을 뜻하므로 실패를 빈 배열로 바꾸면 안 됩니다.
+        raise RuntimeError(f"비트포비아 API 조회 실패: {path}") from e
 
 
 def _is_weekend(d: date) -> bool:
@@ -159,7 +159,9 @@ def _check_slot(opener: urllib.request.OpenerDirector, shop: str, quest_name: st
         "date":  date_str,
         "time":  time_str,
     })
-    return isinstance(data, list) and len(data) == 0
+    if not isinstance(data, list):
+        raise ValueError("비트포비아 예약 상태 응답이 배열이 아닙니다.")
+    return len(data) == 0
 
 
 # ── DB 동기화 ────────────────────────────────────────────────────────────────────
@@ -247,7 +249,7 @@ def sync_one_shop(
 
     # 3. 스케줄 upsert
     today = date.today()
-    target_dates = [today + timedelta(days=i) for i in range(days + 1)]
+    target_dates = [today + timedelta(days=i) for i in range(min(days + 1, PER_SLOT_CHECK_DAYS))]
     crawled_at = datetime.now()
     writes = 0
     known_hashes = load_cafe_hashes(db, cafe_id)
@@ -279,7 +281,7 @@ def sync_one_shop(
                     is_avail = _check_slot(opener, shop_name, ro_cate, target_date, time_str)
                     time.sleep(REQUEST_DELAY)
                 else:
-                    is_avail = True  # 원거리 날짜는 전체 가용으로 처리
+                    continue  # 확인하지 않은 날짜를 예약 가능으로 만들지 않음
 
                 status = "available" if is_avail else "full"
                 booking_url = BASE_URL + "/reservation/reservation_check.php" if is_avail else None

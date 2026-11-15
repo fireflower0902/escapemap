@@ -1,0 +1,38 @@
+{
+  "script": "sync_xcape_db",
+  "checked_at": "2026-11-15T12:06:58.035510+09:00",
+  "scope": "selected cafe IDs: 27354377 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "27354377"
+  ],
+  "selected": {
+    "MERCHANT_MAP": [
+      "2"
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "api.xcape-apps.com",
+      "path": "/merchants",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 0.2,
+  "log_errors": [
+    "[WARN] GET /merchants 실패: HTTP Error 503: Service Unavailable: Back-end server is at capacity",
+    "[WARN] cafe 27354377 Firestore 미존재 — 건너뜀"
+  ],
+  "status": "needs_review"
+}

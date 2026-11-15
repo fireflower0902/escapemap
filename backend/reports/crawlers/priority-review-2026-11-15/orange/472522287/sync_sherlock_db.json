@@ -1,0 +1,86 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T12:04:11.016928+09:00",
+  "scope": "selected cafe IDs: 472522287 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "472522287"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "472522287",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대전은행점",
+        "address": "대전 중구 은행동 52-5",
+        "area": "daejeon",
+        "sido": 12,
+        "bno": 103
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 75,
+  "statuses": {
+    "full": 19,
+    "available": 56
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "472522287": {
+      "themes": 3,
+      "slots": 75,
+      "statuses": {
+        "full": 19,
+        "available": 56
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "리버스 1부-결과",
+    "리버스 2부-되감기",
+    "어느날알바를마치고집에왔는데돈도없고밥도없고공모전엔또떨어져서진짜답도없고있는게아무것도없네하고감성에젖다가자려고했는데갑자기모니터에서..."
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.87,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

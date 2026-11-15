@@ -1,0 +1,90 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:09:03.396155+09:00",
+  "scope": "selected cafe IDs: 728789378 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "728789378"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "728789378",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "평택점",
+        "address": "경기 평택시 평택2로10번길 10-4",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 80
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 130,
+  "statuses": {
+    "full": 5,
+    "available": 125
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "728789378": {
+      "themes": 5,
+      "slots": 130,
+      "statuses": {
+        "full": 5,
+        "available": 125
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "도둑들",
+    "미녀와야수",
+    "반고흐의방",
+    "지옥의 배달부",
+    "혼:원혼의저주"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.68,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

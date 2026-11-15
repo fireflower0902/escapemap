@@ -1,0 +1,86 @@
+{
+  "script": "sync_orangetb_db",
+  "checked_at": "2026-11-15T16:07:35.932165+09:00",
+  "scope": "selected cafe IDs: 1908328454 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1908328454"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1908328454",
+        "o_id": 5,
+        "name": "오렌지티비",
+        "branch_name": "대전은행점",
+        "area": "daejeon",
+        "address": "대전 중구 중앙로156번길24 3층"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 12,
+  "themes_with_slots": 12,
+  "slots": 243,
+  "statuses": {
+    "available": 238,
+    "full": 5
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1908328454": {
+      "themes": 12,
+      "slots": 243,
+      "statuses": {
+        "available": 238,
+        "full": 5
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "1672",
+    "광수대",
+    "구해줘홈즈",
+    "더 레이븐 : 복수의 시작",
+    "돈마니",
+    "라면왕",
+    "리버사이드 호텔 살인사건",
+    "무드셀라"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "orangetb.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "orangetb.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "orangetb.com",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.14,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

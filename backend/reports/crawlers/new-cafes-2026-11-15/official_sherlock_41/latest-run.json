@@ -1,0 +1,79 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T10:53:14.864535+09:00",
+    "scope": "selected cafe IDs: official_sherlock_41 / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "official_sherlock_41",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "구리점",
+          "address": "경기도 구리시 경춘로 218-5 3층 셜록홈즈 구리점",
+          "area": "gyeonggi",
+          "sido": 9,
+          "bno": 41
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 75,
+    "statuses": {
+      "available": 71,
+      "full": 4
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_sherlock_41": {
+        "themes": 5,
+        "slots": 75,
+        "statuses": {
+          "available": 71,
+          "full": 4
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "무속인 살인사건",
+      "미녀와야수",
+      "반고흐의방",
+      "호텔:사라진 다이아몬드",
+      "혼:원혼의저주"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.23,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

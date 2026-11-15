@@ -1,0 +1,83 @@
+{
+  "queries": [
+    "롯데월드 방탈출",
+    "넥스트에디션 보네르관",
+    "백스테이지",
+    "비밀의 화원 건대 포레스트점"
+  ],
+  "sources": [
+    {
+      "title": "방탈출 예약 | 넥스트에디션",
+      "url": "https://nextedition.co.kr/reservation"
+    },
+    {
+      "title": "넥스트에디션 | 한 편의 영화 같은 방탈출 카페",
+      "url": "https://nextedition.co.kr/"
+    },
+    {
+      "title": "넥스트에디션 보네르관 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/nextedition-kbudljrfosyfuxrd"
+    },
+    {
+      "title": "롯데월드 민속박물관 방탈출",
+      "url": "https://lotteworldmuseum-contents.com/reservation/apply.php"
+    },
+    {
+      "title": "롯데월드 민속박물관 방탈출",
+      "url": "https://www.lotteworldmuseum-contents.com/"
+    },
+    {
+      "title": "건대 방탈출 넥스트에디션 보네르관 | 100분 테마 세렌디피티(SERENDIPITY)",
+      "url": "https://nextedition.co.kr/branches/geondae-bonheur/"
+    },
+    {
+      "title": "넥스트에디션 건대 보네르관 방탈출 테마 1개 | 장르·시간·난이도·후기 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/store/c698fc/"
+    },
+    {
+      "title": "넥스트에디션 보네르관 (건대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/247"
+    },
+    {
+      "title": "라스트 잡 — 비밀의 화원 건대 포레스트점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/1482"
+    },
+    {
+      "title": "비밀의 화원 건대 포레스트점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/NiOsL6LP"
+    },
+    {
+      "title": "방탈러즈 - 방탈러들의 플랫폼",
+      "url": "https://escape-mate.co.kr/"
+    },
+    {
+      "title": "넥스트에디션 보네르관 - 광진구 방탈출 정보 | 당구장 찾기",
+      "url": "https://pool.ipsitalk.net/activity/18082"
+    },
+    {
+      "title": "- 주중 11:00 ~ 19:00 / 주말 및 공휴일 11:00 ~ 20:00",
+      "url": "https://javamilk.com/img/kr-lotte-world-adventure-guide-map.pdf"
+    },
+    {
+      "title": "♥베이비 요금적용시설",
+      "url": "https://adventure.lotteworld.com/cmm/download.do"
+    },
+    {
+      "title": "♥베이비 요금적용시설",
+      "url": "https://adventure.lotteworld.com/cmm/download.do"
+    },
+    {
+      "title": "1. 백스테이지를 포함한 공연장 전체는 금연",
+      "url": "https://partner.be-in.kr/Down/Board/202504/%EA%B3%B5%EC%97%B0%EC%9E%A5_%EB%8C%80%EA%B4%80%EA%B7%9C%EC%B9%99_1.pdf"
+    },
+    {
+      "title": "Be IN;(비인) 대관규칙",
+      "url": "https://www.be-in.kr/Down/Board/202410/%EA%B3%B5%EC%97%B0%EC%9E%A5_%EB%8C%80%EA%B4%80%EA%B7%9C%EC%B9%99.pdf"
+    },
+    {
+      "title": "2022 롯데월드 ESG Report",
+      "url": "https://adventure.lotteworld.com/cmm/download.do"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,80 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T10:53:30.913347+09:00",
+  "scope": "selected cafe IDs: official_sherlock_113 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_113",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "수원역2호점",
+        "address": "경기도 수원시 팔달구 향교로 18-1(2,3층)",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 113
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 8,
+  "themes_with_slots": 8,
+  "slots": 154,
+  "statuses": {
+    "full": 28,
+    "available": 126
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_113": {
+      "themes": 8,
+      "slots": 154,
+      "statuses": {
+        "full": 28,
+        "available": 126
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "402호 병실",
+    "ASDF",
+    "[프리미엄]비밀번호 찾기",
+    "고서연전",
+    "그레이백작가의 밀실",
+    "우수사원",
+    "인생은 실전이다 종만아",
+    "제4창고에서의 탈출"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.81,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

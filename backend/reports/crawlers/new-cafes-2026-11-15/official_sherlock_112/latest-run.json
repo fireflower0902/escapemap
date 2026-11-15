@@ -1,0 +1,79 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T10:53:37.435154+09:00",
+    "scope": "selected cafe IDs: official_sherlock_112 / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "official_sherlock_112",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "용인역북점",
+          "address": "경기도 용인시 처인구 역북동749 파스텔시티 304호, 305호",
+          "area": "gyeonggi",
+          "sido": 9,
+          "bno": 112
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 90,
+    "statuses": {
+      "available": 89,
+      "full": 1
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_sherlock_112": {
+        "themes": 5,
+        "slots": 90,
+        "statuses": {
+          "available": 89,
+          "full": 1
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "그날 밤",
+      "여립",
+      "여행",
+      "패치워크",
+      "히어"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.29,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:10:32.690769+09:00",
+  "scope": "selected cafe IDs: official_sherlock_79 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_sherlock_79"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_79",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "동탄점",
+        "address": "경기도 화성시 동탄중심상가2길 5, 리더스 프라자 3층 셜록홈즈 동탄점",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 79
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 111,
+  "statuses": {
+    "full": 5,
+    "available": 106
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_79": {
+      "themes": 6,
+      "slots": 111,
+      "statuses": {
+        "full": 5,
+        "available": 106
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "거짓말",
+    "귀신이 산다",
+    "던전을 부탁해",
+    "좀비여친",
+    "지옥의 배달부",
+    "호텔:사라진 다이아몬드"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 7.04,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

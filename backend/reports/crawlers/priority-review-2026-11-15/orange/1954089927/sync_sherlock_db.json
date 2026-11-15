@@ -1,0 +1,87 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T12:04:17.327535+09:00",
+  "scope": "selected cafe IDs: 1954089927 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1954089927"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1954089927",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "미사점",
+        "address": "경기 하남시 망월동 1111 미사강변도시 상업4블록 4층",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 94
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 99,
+  "statuses": {
+    "available": 93,
+    "full": 6
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1954089927": {
+      "themes": 4,
+      "slots": 99,
+      "statuses": {
+        "available": 93,
+        "full": 6
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "다이스",
+    "별별별 아카데미-별의 시험",
+    "셜록곰즈",
+    "요상한 저택의 비밀 다락방"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.51,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

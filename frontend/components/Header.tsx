@@ -77,6 +77,12 @@ export default function Header() {
             </Link>
           </nav>
 
+          {process.env.NODE_ENV === "development" && (
+            <Link href="/dev/crawlers" className="ml-auto mr-3 rounded-lg border border-slate-200 px-3 py-2 text-xs font-semibold text-slate-500 hover:bg-slate-50">
+              개발 현황판
+            </Link>
+          )}
+
           {/* 데스크탑 CTA */}
           <div className="hidden md:flex items-center gap-3">
             {!loading && (

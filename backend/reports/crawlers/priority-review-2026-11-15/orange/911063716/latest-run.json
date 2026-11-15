@@ -1,0 +1,61 @@
+[
+  {
+    "script": "sync_thetrapsy_db",
+    "checked_at": "2026-11-15T12:03:00.380392+09:00",
+    "scope": "selected cafe IDs: 911063716 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "911063716"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "911063716",
+          "branch_name": "수유점",
+          "area": "etc",
+          "address": "서울 강북구 도봉로 363 구봉빌딩 4층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "911063716": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "www.thetrapsy.co.kr",
+        "path": "/re/l/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetrapsy.co.kr",
+        "path": "/re/l/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thetrapsy.co.kr",
+        "path": "/re/l/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 2.76,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

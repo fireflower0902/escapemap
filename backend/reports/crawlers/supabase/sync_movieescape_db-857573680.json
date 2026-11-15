@@ -1,0 +1,98 @@
+{
+  "script": "sync_movieescape_db",
+  "checked_at": "2026-11-15T16:14:08.107945+09:00",
+  "scope": "selected cafe IDs: 857573680 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "857573680"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "site_url": "http://route-sw.com",
+        "cafe_name": "루트이스케이프",
+        "cafe_id": "857573680",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 향교로 12-1",
+        "area": "gyeonggi"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 100,
+  "statuses": {
+    "available": 100
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "857573680": {
+      "themes": 4,
+      "slots": 100,
+      "statuses": {
+        "available": 100
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "나를 찾아줘",
+    "바디스네처",
+    "트랩",
+    "트레저"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "route-sw.com",
+      "path": "/theme/2026-11-15/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "route-sw.com",
+      "path": "/theme/2026-11-15/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "route-sw.com",
+      "path": "/theme/2026-11-16/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "route-sw.com",
+      "path": "/theme/2026-11-16/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "route-sw.com",
+      "path": "/theme/2026-11-17/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "route-sw.com",
+      "path": "/theme/2026-11-17/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.96,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

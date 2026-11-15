@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "탐정의방",
+    "머더파커 잠실 WOW점",
+    "머더파커 잠실새내점",
+    "찰리이스케이프 2호점"
+  ],
+  "sources": [
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "찰리이스케이프 2호점 (잠실) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/327"
+    },
+    {
+      "title": "퀴즈카페2 - 찰리이스케이프 2호점 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/4288"
+    },
+    {
+      "title": "찰리이스케이프 2호점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/TGn3DWXV"
+    },
+    {
+      "title": "아틀라스(ATLAS) 70분 방탈출 | 머더파커 잠실 WOW점 | 서울 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/bd457338-7a6c-49ce-af3e-6b2f9762caf6"
+    },
+    {
+      "title": "퀴즈카페2 - 찰리이스케이프 2호점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/TGn3DWXV/themes/G7wC0EPc"
+    },
+    {
+      "title": "방탈출 테마 탐색 | 방도장",
+      "url": "https://bangdojang.com/browse"
+    },
+    {
+      "title": "방탈출 테마 탐색 | 방도장",
+      "url": "https://bangdojang.com/browse"
+    },
+    {
+      "title": "방탈출 테마 탐색 | 방도장",
+      "url": "https://bangdojang.com/browse"
+    },
+    {
+      "title": "방탈출 테마 탐색 | 방도장",
+      "url": "https://bangdojang.com/browse"
+    },
+    {
+      "title": "방탈러즈 - 방탈러들의 플랫폼",
+      "url": "https://escape-mate.co.kr/"
+    },
+    {
+      "title": "방탈출 테마 탐색 | 방도장",
+      "url": "https://bangdojang.com/browse"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

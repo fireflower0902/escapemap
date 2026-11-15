@@ -1,0 +1,156 @@
+[
+  {
+    "script": "sync_roomsa_catalog_db",
+    "checked_at": "2026-11-15T11:38:10.617162+09:00",
+    "scope": "all configured branches / today",
+    "days_after_today": 0,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 98,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "official_roomsa_41": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_42": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_43": {
+        "themes": 3,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_44": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_46": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_47": {
+        "themes": 4,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_48": {
+        "themes": 4,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_49": {
+        "themes": 6,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_50": {
+        "themes": 4,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_51": {
+        "themes": 6,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_52": {
+        "themes": 6,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_53": {
+        "themes": 7,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_54": {
+        "themes": 9,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_55": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_56": {
+        "themes": 6,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_57": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_83": {
+        "themes": 5,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_58": {
+        "themes": 4,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "official_roomsa_69": {
+        "themes": 4,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [
+      "33: DOOR RUN (도어런)",
+      "GALAXY HYPRESS (갤럭시 하이프리스)",
+      "메가 게임 (MEGA GAME)",
+      "비틀배틀-퍼플 (BEETLE BATTLE)",
+      "쎄비지 (SAVAGE)",
+      "Gain Time",
+      "Secret Agent",
+      "낭랑카페"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "roomsa.co.kr",
+        "path": "/api/booking/stores",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 0.32,
+    "log_errors": [
+      "[WARN] 공식 예약 화면 보호 메시지: 시간대 미검증. 공개 목록만 갱신하며 빈자리를 생성하지 않습니다."
+    ],
+    "status": "needs_review"
+  }
+]

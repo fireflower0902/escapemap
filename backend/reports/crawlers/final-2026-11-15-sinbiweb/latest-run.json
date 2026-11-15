@@ -1,0 +1,1756 @@
+[
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T11:41:51.752585+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 34,
+    "themes_fetched": 177,
+    "themes_with_slots": 177,
+    "slots": 2851,
+    "statuses": {
+      "full": 566,
+      "available": 2285
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1271584354": {
+        "themes": 2,
+        "slots": 37,
+        "statuses": {
+          "full": 18,
+          "available": 19
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1958696909": {
+        "themes": 5,
+        "slots": 79,
+        "statuses": {
+          "full": 15,
+          "available": 64
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1521613397": {
+        "themes": 4,
+        "slots": 44,
+        "statuses": {
+          "full": 26,
+          "available": 18
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "103606910": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "1213158520": {
+        "themes": 3,
+        "slots": 43,
+        "statuses": {
+          "full": 6,
+          "available": 37
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1541961243": {
+        "themes": 4,
+        "slots": 79,
+        "statuses": {
+          "available": 69,
+          "full": 10
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "458997744": {
+        "themes": 5,
+        "slots": 72,
+        "statuses": {
+          "full": 30,
+          "available": 42
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1825220691": {
+        "themes": 2,
+        "slots": 28,
+        "statuses": {
+          "available": 28
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1168819420": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "1045036053": {
+        "themes": 6,
+        "slots": 96,
+        "statuses": {
+          "available": 92,
+          "full": 4
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1425246210": {
+        "themes": 7,
+        "slots": 134,
+        "statuses": {
+          "available": 118,
+          "full": 16
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "997136500": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "1321479252": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "892126854": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "2055691742": {
+        "themes": 8,
+        "slots": 152,
+        "statuses": {
+          "available": 133,
+          "full": 19
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "348406652": {
+        "themes": 4,
+        "slots": 73,
+        "statuses": {
+          "full": 22,
+          "available": 51
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "636394528": {
+        "themes": 5,
+        "slots": 80,
+        "statuses": {
+          "full": 10,
+          "available": 70
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1968639091": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      },
+      "776353707": {
+        "themes": 6,
+        "slots": 102,
+        "statuses": {
+          "available": 70,
+          "full": 32
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "505122419": {
+        "themes": 6,
+        "slots": 91,
+        "statuses": {
+          "full": 13,
+          "available": 78
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1121229740": {
+        "themes": 6,
+        "slots": 96,
+        "statuses": {
+          "full": 40,
+          "available": 56
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1092766492": {
+        "themes": 5,
+        "slots": 65,
+        "statuses": {
+          "available": 59,
+          "full": 6
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1875954710": {
+        "themes": 4,
+        "slots": 73,
+        "statuses": {
+          "available": 62,
+          "full": 11
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1591055284": {
+        "themes": 2,
+        "slots": 31,
+        "statuses": {
+          "full": 13,
+          "available": 18
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1387240933": {
+        "themes": 4,
+        "slots": 62,
+        "statuses": {
+          "full": 26,
+          "available": 36
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "455356224": {
+        "themes": 5,
+        "slots": 93,
+        "statuses": {
+          "full": 14,
+          "available": 79
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "444802506": {
+        "themes": 4,
+        "slots": 60,
+        "statuses": {
+          "available": 57,
+          "full": 3
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "351145232": {
+        "themes": 10,
+        "slots": 130,
+        "statuses": {
+          "available": 130
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1568417037": {
+        "themes": 7,
+        "slots": 115,
+        "statuses": {
+          "full": 27,
+          "available": 88
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "1554942559": {
+        "themes": 5,
+        "slots": 80,
+        "statuses": {
+          "full": 1,
+          "available": 79
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_sslone_4": {
+        "themes": 10,
+        "slots": 140,
+        "statuses": {
+          "full": 47,
+          "available": 93
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_sslone_2": {
+        "themes": 10,
+        "slots": 153,
+        "statuses": {
+          "available": 152,
+          "full": 1
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_sslone_1": {
+        "themes": 10,
+        "slots": 150,
+        "statuses": {
+          "available": 149,
+          "full": 1
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_sslone_5": {
+        "themes": 6,
+        "slots": 84,
+        "statuses": {
+          "available": 81,
+          "full": 3
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_pointnine_1": {
+        "themes": 4,
+        "slots": 60,
+        "statuses": {
+          "available": 36,
+          "full": 24
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_pointnine_5": {
+        "themes": 3,
+        "slots": 63,
+        "statuses": {
+          "full": 30,
+          "available": 33
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_pointnine_6": {
+        "themes": 2,
+        "slots": 66,
+        "statuses": {
+          "full": 23,
+          "available": 43
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_weyol": {
+        "themes": 3,
+        "slots": 46,
+        "statuses": {
+          "full": 18,
+          "available": 28
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_dolo": {
+        "themes": 4,
+        "slots": 54,
+        "statuses": {
+          "available": 41,
+          "full": 13
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_eroom8": {
+        "themes": 6,
+        "slots": 120,
+        "statuses": {
+          "available": 76,
+          "full": 44
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "달의제단",
+      "도둑들",
+      "미드나잇콜링",
+      "원혼의저주",
+      "지하감옥",
+      "파라오의비밀",
+      "THE END",
+      "경성"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--jj0b998aq3cptw.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "XN--910BJ3TLMFZ4E.COM",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--910bj3tlmfz4e.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "codehunter-escape.com",
+        "path": "/layout/kor/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "happyanding.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "epilogueescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "speakeasyescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "hotelletoh.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "escapebro.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "oclock-escape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doomescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "dcodeescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "mysterytown.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "legendescape.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "busted.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--bb0b44mb8pfwi.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--z92b74ha268d.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "cold-case.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "XN--H32B25MU4DBA377GZSCS2K.COM",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--h32b25mu4dba377gzscs2k.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.qescapeilsan.co.kr",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "le-room.co.kr",
+        "path": "/layout/res/home.php",
+        "error": "URLError"
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "labyrinth.15440835.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.xn--vh3bw8qo2aba23i98on1f.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "point-nine.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "weyol.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "weyol.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "weyol.com",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doloescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doloescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "doloescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "eroom8.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "eroom8.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "eroom8.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 257.66,
+    "log_errors": [
+      "[WARN] 세션 획득 실패: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    ],
+    "status": "needs_review"
+  }
+]

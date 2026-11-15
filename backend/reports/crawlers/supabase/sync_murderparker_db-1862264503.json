@@ -1,0 +1,80 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T16:13:50.911632+09:00",
+  "scope": "selected cafe IDs: 1862264503 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1862264503"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1862264503",
+        "branch_name": "건대2호점",
+        "jijem": "S8",
+        "address": "서울 광진구 동일로22길 68 지하1층",
+        "area": "konkuk"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 66,
+  "statuses": {
+    "full": 6,
+    "available": 60
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1862264503": {
+      "themes": 3,
+      "slots": 66,
+      "statuses": {
+        "full": 6,
+        "available": 60
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "그림가문_건대 2호점",
+    "미로(me路)_건대 2호점",
+    "특수사건대응반_건대 2호점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.71,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -1,0 +1,58 @@
+{
+  "script": "sync_movieescape_cokr_db",
+  "checked_at": "2026-11-15T11:16:11.253592+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 70,
+  "statuses": {
+    "available": 65,
+    "full": 5
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1956789824": {
+      "themes": 4,
+      "slots": 70,
+      "statuses": {
+        "available": 65,
+        "full": 5
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "나홀로집에",
+    "몬스터 하우스",
+    "찰리와 초콜릿 공장",
+    "춘향전"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "movieescape.co.kr",
+      "path": "/theme/2026-11-15/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "movieescape.co.kr",
+      "path": "/theme/2026-11-16/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.14,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

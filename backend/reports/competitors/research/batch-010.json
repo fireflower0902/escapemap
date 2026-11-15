@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "서울 이스케이프 룸 서면점",
+    "성야학원",
+    "육향찻집",
+    "이스케이프탑 부산 1호점"
+  ],
+  "sources": [
+    {
+      "title": "부산진 육향찻집 방탈출 | 테마·가격·예약·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/places/lsyz6e6sd7tyfx2zey/"
+    },
+    {
+      "title": "육향찻집 — 부산 부산진구 방탈출",
+      "url": "https://naejari.com/escape-room/7d3ca07073"
+    },
+    {
+      "title": "육향찻집 (부산) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/178"
+    },
+    {
+      "title": "육향찻집 방탈출 테마 정보 | 다이아에그 육향찻집 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/9cfd57a8/"
+    },
+    {
+      "title": "서울 이스케이프 룸 서면점",
+      "url": "https://web.zamfit.kr/stores/2104"
+    },
+    {
+      "title": "이스케이프탑 부산 1호점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/pIRhkaxC"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "오륙택배 — 육향찻집 부산서면점 | 부산 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/617"
+    },
+    {
+      "title": "다이아에그",
+      "url": "https://mysterytown.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "서울 이스케이프 룸 서면점 (부산) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/174"
+    },
+    {
+      "title": "마법사 : 미로의 방(AR) — 이스케이프탑 부산 1호점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/1092"
+    },
+    {
+      "title": "플레이포인트랩",
+      "url": "https://inthehands.co.kr/office"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

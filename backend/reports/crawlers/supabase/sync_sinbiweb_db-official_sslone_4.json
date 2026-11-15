@@ -1,0 +1,96 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T16:05:11.791428+09:00",
+  "scope": "selected cafe IDs: official_sslone_4 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_sslone_4"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_sslone_4",
+        "cafe_name": "상상락원",
+        "branch_name": "잠실점",
+        "address": "서울특별시 송파구 백제고분로 41길 6-5 2층",
+        "area": "jamsil",
+        "base_url": "https://sslone.co.kr",
+        "s_zizum": 4,
+        "use_ssl": true,
+        "need_session": false,
+        "preserve_theme_title": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 10,
+  "themes_with_slots": 10,
+  "slots": 178,
+  "statuses": {
+    "full": 46,
+    "available": 132
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sslone_4": {
+      "themes": 10,
+      "slots": 178,
+      "statuses": {
+        "full": 46,
+        "available": 132
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "Table ver.06  (Table play)",
+    "Table ver.07  (Table play)",
+    "Table ver.08  (Table play)",
+    "Table ver.09  (Table play)",
+    "Table ver.10  (Standing)",
+    "Table ver.14  (Table play)",
+    "Table ver.15  (Competition)",
+    "Table ver.42 꼬마마녀  (Table play)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.66,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

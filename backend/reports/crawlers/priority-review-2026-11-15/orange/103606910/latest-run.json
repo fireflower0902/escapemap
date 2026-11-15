@@ -1,0 +1,150 @@
+[
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T12:05:50.232607+09:00",
+    "scope": "selected cafe IDs: 103606910 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "103606910"
+    ],
+    "selected": {
+      "SITES": [
+        {
+          "cafe_id": "103606910",
+          "cafe_name": "엑소더스",
+          "branch_name": "강남1호점",
+          "address": "서울 강남구 역삼동 619-23 지하 1층",
+          "area": "gangnam",
+          "base_url": "https://exodusescape.co.kr",
+          "s_zizum": null,
+          "use_ssl": true,
+          "need_session": true
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "103606910": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "exodusescape.co.kr",
+        "path": "/go",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 18.68,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

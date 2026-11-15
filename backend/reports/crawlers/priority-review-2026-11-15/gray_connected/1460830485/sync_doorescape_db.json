@@ -1,0 +1,66 @@
+{
+  "script": "sync_doorescape_db",
+  "checked_at": "2026-11-15T12:07:47.782550+09:00",
+  "scope": "selected cafe IDs: 1460830485 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1460830485"
+  ],
+  "selected": {
+    "SHOP_MAP": [
+      "FgBZDHfrR8p5UDmF"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 81,
+  "statuses": {
+    "full": 19,
+    "available": 62
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1460830485": {
+      "themes": 3,
+      "slots": 81,
+      "statuses": {
+        "full": 19,
+        "available": 62
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "몽타주",
+    "요원들은 들어라",
+    "호롱"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/FgBZDHfrR8p5UDmF",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/FgBZDHfrR8p5UDmF",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.2,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

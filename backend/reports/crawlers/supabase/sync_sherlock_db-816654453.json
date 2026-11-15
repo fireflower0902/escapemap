@@ -1,0 +1,89 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:10:00.590110+09:00",
+  "scope": "selected cafe IDs: 816654453 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "816654453"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "816654453",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "서현점",
+        "address": "경기 성남시 분당구 서현동 268-4 4층",
+        "area": "gyeonggi",
+        "sido": 9,
+        "bno": 87
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 85,
+  "statuses": {
+    "full": 8,
+    "available": 77
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "816654453": {
+      "themes": 4,
+      "slots": 85,
+      "statuses": {
+        "full": 8,
+        "available": 77
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "Below : 성 안 이야기",
+    "Molaq : 성 밖 이야기",
+    "[프리미엄]디스트로이드",
+    "대영어시대(어데하씬교?)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 7.31,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

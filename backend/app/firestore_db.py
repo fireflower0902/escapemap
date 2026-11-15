@@ -12,9 +12,11 @@ Firestore 클라이언트 초기화 및 공통 helper 함수들.
 """
 import hashlib
 import json
-import os
 import re
 from datetime import date as _date
+
+from app.areas import SEOUL_AREAS, address_to_area, resolve_cafe_area
+from app.config import settings
 
 import firebase_admin
 from firebase_admin import credentials, firestore as _fs
@@ -22,42 +24,10 @@ from firebase_admin import credentials, firestore as _fs
 _db = None
 
 # SKIP_META_WRITES=true 이면 cafe/theme upsert를 건너뜀 (schedule write만 수행)
-_SKIP_META = os.getenv("SKIP_META_WRITES", "").lower() in ("1", "true", "yes")
+_SKIP_META = settings.skip_meta_writes
 
-# ── 지역 코드 ↔ 주소 prefix 매핑 ─────────────────────────────────────────────
-# cafes.py 의 AREA_ADDRESS_MAP 과 동일하게 유지할 것
-AREA_ADDRESS_MAP: dict[str, list[str]] = {
-    "gangnam":    ["서울 강남구", "서울 서초구"],
-    "hongdae":    ["서울 마포구"],
-    "sinchon":    ["서울 서대문구"],
-    "konkuk":     ["서울 광진구"],
-    "jamsil":     ["서울 송파구", "서울 강동구"],
-    "itaewon":    ["서울 용산구"],
-    "myeongdong": ["서울 중구", "서울 종로구"],
-    "daehakro":   ["서울 종로구"],
-    "sinlim":     ["서울 관악구"],
-    "busan":      ["부산"],
-    "daegu":      ["대구"],
-    "gwangju":    ["광주"],
-    "daejeon":    ["대전"],
-    "incheon":    ["인천"],
-    "ulsan":      ["울산"],
-    "jeju":       ["제주"],
-    "gyeonggi":   ["경기"],
-    "gangwon":    ["강원"],
-}
-
-
-def address_to_area(address: str) -> str:
-    """주소 문자열에서 area 코드를 결정합니다. 매칭 없으면 'etc' 반환."""
-    if not address:
-        return "etc"
-    for area, prefixes in AREA_ADDRESS_MAP.items():
-        for prefix in prefixes:
-            if address.startswith(prefix):
-                return area
-    return "etc"
-
+# CRAWL_SEOUL_ONLY=true 이면 비서울 지점 저장 안 함
+_CRAWL_SEOUL_ONLY = settings.crawl_seoul_only
 
 def _theme_doc_id(cafe_id: str, theme_name: str) -> str:
     """
@@ -77,6 +47,11 @@ def init_firestore(credentials_path: str) -> None:
     이미 초기화된 경우 재초기화 없이 클라이언트만 가져옵니다.
     """
     global _db
+    if settings.crawl_storage == 'supabase':
+        if getattr(_db, 'backend', None) != 'supabase':
+            from app.postgres_document_store import PostgresStore
+            _db = PostgresStore()
+        return
     if not firebase_admin._apps:
         cred = credentials.Certificate(credentials_path)
         firebase_admin.initialize_app(cred)
@@ -100,13 +75,25 @@ def upsert_cafe(db, cafe_id: str, data: dict) -> None:
     """
     카페 문서를 Firestore에 upsert합니다.
     SKIP_META_WRITES=true 환경변수가 설정된 경우 건너뜁니다.
+    CRAWL_SEOUL_ONLY=true 환경변수가 설정되면 비서울 카페는 저장하지 않습니다.
+    주소로 지역 분류를 보완하고 전국 카페를 지원 대상으로 저장합니다.
     data 예시:
       {name, branch_name, address, area, phone, website_url,
        engine, crawled, lat, lng, is_active}
     """
     if _SKIP_META:
         return
-    db.collection("cafes").document(cafe_id).set(data, merge=True)
+
+    area = resolve_cafe_area(data.get("area"), data.get("address"))
+
+    # CRAWL_SEOUL_ONLY=true 일 때 비서울 카페는 저장하지 않음
+    if _CRAWL_SEOUL_ONLY and area not in SEOUL_AREAS:
+        return
+
+    # 지역 기반으로 supported_area 자동 설정
+    data_with_flag = {**data, "area": area, "supported_area": True}
+
+    db.collection("cafes").document(cafe_id).set(data_with_flag, merge=True)
 
 
 # ── 테마 ──────────────────────────────────────────────────────────────────────
@@ -181,6 +168,9 @@ def upsert_cafe_date_schedules(
     merge=True 덕분에 같은 날짜의 다른 카페 데이터는 유지됩니다.
     """
     new_hash = _compute_hash(themes)
+    if getattr(db, 'backend', None) == 'supabase':
+        result = db.save_schedule(date_str, cafe_id, themes, crawled_at)
+        return new_hash if result['changed'] else None
     if known_hash is not None and known_hash == new_hash:
         return None  # 변경 없음 → skip
 
@@ -189,3 +179,10 @@ def upsert_cafe_date_schedules(
         merge=True,
     )
     return new_hash
+
+
+def get_auth_db():
+    """Firebase 사용자 인증 데이터는 크롤링 저장소 선택과 독립적으로 유지."""
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(credentials.Certificate(settings.firebase_credentials_path))
+    return _fs.client()

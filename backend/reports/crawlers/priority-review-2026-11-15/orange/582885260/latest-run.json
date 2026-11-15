@@ -1,0 +1,90 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T12:05:08.769490+09:00",
+    "scope": "selected cafe IDs: 582885260 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "582885260"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "582885260",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "수지구청점",
+          "address": "경기 용인시 수지구 풍덕천동 711-3 수지이편한세상 상가 5층",
+          "area": "gyeonggi",
+          "sido": 9,
+          "bno": 106
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 117,
+    "statuses": {
+      "full": 5,
+      "available": 112
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "582885260": {
+        "themes": 5,
+        "slots": 117,
+        "statuses": {
+          "full": 5,
+          "available": 112
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "7개의죄",
+      "스테이호디에",
+      "체이서vs체이서",
+      "투더제로",
+      "호텔더게임"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.77,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

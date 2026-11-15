@@ -1,0 +1,80 @@
+{
+  "script": "sync_public_extra_db",
+  "checked_at": "2026-11-15T16:07:50.705413+09:00",
+  "scope": "selected cafe IDs: official_exploria / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_exploria"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_exploria",
+        "cafe_name": "익스플로리아이스케이프",
+        "branch_name": "수원점",
+        "address": "경기 수원시 팔달구 효원로235번길 51 3층",
+        "base_url": "https://www.exploria-escape.kr",
+        "engine": "exploria_public"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 2,
+  "themes_with_slots": 2,
+  "slots": 48,
+  "statuses": {
+    "full": 18,
+    "available": 30
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_exploria": {
+      "themes": 2,
+      "slots": 48,
+      "statuses": {
+        "full": 18,
+        "available": 30
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "외로움과고독사이",
+    "포리프"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.exploria-escape.kr",
+      "path": "/theme/2026-11-15/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.exploria-escape.kr",
+      "path": "/theme/2026-11-16/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.exploria-escape.kr",
+      "path": "/theme/2026-11-17/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.65,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

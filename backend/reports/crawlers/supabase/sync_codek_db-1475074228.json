@@ -1,0 +1,83 @@
+{
+  "script": "sync_codek_db",
+  "checked_at": "2026-11-15T16:07:54.611832+09:00",
+  "scope": "selected cafe IDs: 1475074228 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1475074228"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1475074228",
+        "cafe_name": "코드케이",
+        "branch_name": "인천구월점",
+        "address": "인천시 남동구 구월동 1467-1 5층",
+        "area": "incheon",
+        "source_code": "S2"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 120,
+  "statuses": {
+    "full": 22,
+    "available": 98
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1475074228": {
+      "themes": 5,
+      "slots": 120,
+      "statuses": {
+        "full": 22,
+        "available": 98
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "감옥탈출",
+    "납치 (2인전용)",
+    "미스터리 거울의 방 (3인이상) -15세 이상-",
+    "좀비 90일후",
+    "충무공 이순신"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 2.06,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

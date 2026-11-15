@@ -1,0 +1,65 @@
+{
+  "script": "sync_playtheworld_etc_db",
+  "checked_at": "2026-11-15T12:13:34.796672+09:00",
+  "scope": "selected cafe IDs: 929019886 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "929019886"
+  ],
+  "selected": {
+    "BRANDS": [
+      {
+        "keycode": "GGvfWvikFsVUQS1b",
+        "name": "gateoftime",
+        "referer": "https://gateoftime.kr",
+        "booking_base": "https://gateoftime.kr/reservation.html",
+        "keycode_in_path": true,
+        "shop_map": {
+          "HiJhoQFf8ThapVG3": "929019886"
+        }
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 5,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "929019886": {
+      "themes": 5,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [
+    "Chaser:한마음 폐공장",
+    "복도끝 : 못다恨이야기",
+    "시크릿 왕국의 스캔들(완전판)",
+    "영안실",
+    "혼숨 : 리마스터"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/HiJhoQFf8ThapVG3",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/HiJhoQFf8ThapVG3",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 1.21,
+  "log_errors": [
+    "[WARN] GET /v2/shops/HiJhoQFf8ThapVG3 실패: HTTP Error 500: Internal Server Error"
+  ],
+  "status": "needs_review"
+}

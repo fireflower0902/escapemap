@@ -1,0 +1,38 @@
+{
+  "script": "sync_masterkey_db",
+  "checked_at": "2026-11-15T12:08:29.010683+09:00",
+  "scope": "selected cafe IDs: 2039293420 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "2039293420"
+  ],
+  "selected": {
+    "SHOP_MAP": [
+      "14"
+    ]
+  },
+  "error": "ValueError: hour must be in 0..23, not 24",
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "www.master-key.co.kr",
+      "path": "/booking/booking_list_new",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 0.24,
+  "log_errors": [
+    "Traceback (most recent call last):"
+  ],
+  "status": "error"
+}

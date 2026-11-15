@@ -1,0 +1,91 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T12:04:36.787191+09:00",
+    "scope": "selected cafe IDs: 399640253 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "399640253"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "399640253",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "부평2호점",
+          "address": "인천 부평구 경인로 570",
+          "area": "incheon",
+          "sido": 4,
+          "bno": 101
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 177,
+    "statuses": {
+      "available": 149,
+      "full": 28
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "399640253": {
+        "themes": 6,
+        "slots": 177,
+        "statuses": {
+          "available": 149,
+          "full": 28
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "RE:PEAT",
+      "[프리미엄]스탕달 신드롬",
+      "꿈사탕",
+      "데스게임:벼랑 끝에 선 자들",
+      "제4구역",
+      "프로젝트 루나"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 7.26,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

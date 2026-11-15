@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "고스트키",
+    "더큐 이스케이프 대전점",
+    "도어이스케이프 NC대전유성점",
+    "룸즈에이 대전은행점"
+  ],
+  "sources": [
+    {
+      "title": "더큐 이스케이프 대전점 | 대전 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/venue-ccabd7eda4ee4ec2a65a08310535d4a0"
+    },
+    {
+      "title": "도어이스케이프 NC대전유성점 (대전) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/437"
+    },
+    {
+      "title": "룸즈에이 대전은행점 | 대전 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/roomsa-tktsu8sr2odzj1ph"
+    },
+    {
+      "title": "WOULD YOU FIND ME? | 도어이스케이프 NC대전유성점 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5994/WOULD-YOU-FIND-ME"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "룸즈에이 대전은행점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/Mq6QXqhp"
+    },
+    {
+      "title": "더큐 이스케이프 대전점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/7XlH5XHo"
+    },
+    {
+      "title": "스페이스 워페어 — 더큐 이스케이프 대전점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/2436"
+    },
+    {
+      "title": "히어로 아카데미 방탈출 | 룸즈에이 대전은행점 | 대전 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/411dcccd-6c8a-4055-b2b4-5ac5b6496795"
+    },
+    {
+      "title": "룸즈에이 대전은행점 (대전) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/438"
+    },
+    {
+      "title": "도어이스케이프 NC대전유성점 (충청 대전) 방탈출 매장 | 코로리방탈출",
+      "url": "https://colory.dev/stores/590"
+    },
+    {
+      "title": "룸즈에이 대전은행점 - 중구 방탈출 정보 | 당구장 찾기",
+      "url": "https://pool.ipsitalk.net/activity/15480"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

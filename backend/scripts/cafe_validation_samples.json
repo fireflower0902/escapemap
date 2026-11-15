@@ -1,0 +1,76 @@
+{
+  "validation_samples": [
+    {
+      "name": "쿠쿠룸190000",
+      "website": "http://place.map.kakao.com/2006661572",
+      "category": "kakao_map_only",
+      "reason": "카카오맵만, 테마 0개 → 폐업 가능성"
+    },
+    {
+      "name": "초상화",
+      "website": "http://place.map.kakao.com/260184665",
+      "category": "kakao_map_only",
+      "reason": "카카오맵만, 테마 0개 → 폐업 가능성"
+    },
+    {
+      "name": "파라박스",
+      "website": "https://parabox.kr/",
+      "category": "no_crawled",
+      "reason": "crawled=False, 정상 웹사이트 → 크롤링 실패?"
+    },
+    {
+      "name": "개꿀이스케이프",
+      "website": "https://doghoneyescape.com/",
+      "category": "no_crawled",
+      "reason": "crawled=False, 테마 0개 → 폐업 또는 크롤링 실패"
+    },
+    {
+      "name": "시그널헌터",
+      "website": "https://www.signalhunter.co.kr/",
+      "category": "no_crawled",
+      "reason": "crawled=False, 테마 0개 → 확인 필요"
+    },
+    {
+      "name": "플레이더월드",
+      "website": "https://reservation.playthe.world/",
+      "category": "no_crawled",
+      "reason": "crawled=False, 테마 0개 → 크롤링 실패?"
+    },
+    {
+      "name": "리얼이스케이프챌린지",
+      "website": "http://www.rec-escape.com/",
+      "category": "no_crawled",
+      "reason": "crawled=False, 테마 0개 → 폐업 또는 크롤링 실패"
+    },
+    {
+      "name": "큐브이스케이프 (홍대)",
+      "website": "http://www.cubeescape.co.kr/",
+      "category": "no_themes_but_crawled",
+      "reason": "crawled=True 이지만 테마 0개 → 이상 상황"
+    },
+    {
+      "name": "레다스퀘어",
+      "website": "https://ledasquare.com",
+      "category": "no_themes_but_crawled",
+      "reason": "crawled=True 이지만 테마 0개 → 웹사이트 로드 확인"
+    },
+    {
+      "name": "룸엘이스케이프",
+      "website": "http://www.roomlescape.com",
+      "category": "no_themes_but_crawled",
+      "reason": "crawled=True 이지만 테마 0개 → 확인 필요"
+    }
+  ],
+  "validation_checklist": [
+    "✅ 웹사이트 접근 가능? (200 OK 또는 로드 성공)",
+    "✅ '폐업', '준비중', '서비스 종료' 메시지 있나?",
+    "✅ 예약 버튼/링크 보이나?",
+    "✅ 테마 목록이 보이나?",
+    "✅ 마지막 업데이트 날짜는?"
+  ],
+  "expected_outcomes": {
+    "closed": "폐업 → is_active=false로 표시",
+    "crawled_failed": "크롤링 실패 → crawl.yml 스크립트 확인 필요",
+    "operating": "운영 중 → 크롤링 재실행"
+  }
+}

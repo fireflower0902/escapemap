@@ -1,0 +1,81 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T16:14:13.743894+09:00",
+  "scope": "selected cafe IDs: 1450292038 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1450292038"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1450292038",
+        "branch_name": "대구2호점",
+        "jijem": "S10",
+        "address": "대구 중구 동성로3길 8 3층",
+        "area": "daegu"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 78,
+  "statuses": {
+    "available": 47,
+    "full": 31
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1450292038": {
+      "themes": 4,
+      "slots": 78,
+      "statuses": {
+        "available": 47,
+        "full": 31
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "도레미용실 60분_대구2호점",
+    "사건의 재구성(70분 Premium)_대구 2호점",
+    "전국일이삼 60분_대구2호점",
+    "타겟(target) 70분_대구2호점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.83,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "script": "sync_themazegd_db",
+    "checked_at": "2026-11-15T10:49:38.212413+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "138006966",
+          "branch_name": "건대점",
+          "area": "konkuk",
+          "address": "서울 광진구 아차산로26길 13 지하1층"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "138006966": {
+        "themes": 0,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "www.themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      },
+      {
+        "method": "GET",
+        "host": "themazegd.co.kr",
+        "path": "/bbs/ajax.get_room.php",
+        "error": "HTTPError"
+      }
+    ],
+    "duration_seconds": 1.84,
+    "log_errors": [
+      "[WARN] GET http://www.themazegd.co.kr/bbs/ajax.get_room.php?date=2026-11-15 실패: HTTP Error 404: Not Found",
+      "[WARN] GET http://www.themazegd.co.kr/bbs/ajax.get_room.php?date=2026-11-16 실패: HTTP Error 404: Not Found"
+    ],
+    "status": "needs_review"
+  }
+]

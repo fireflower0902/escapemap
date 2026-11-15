@@ -1,0 +1,161 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-15T12:09:43.454201+09:00",
+  "scope": "selected cafe IDs: 2138163704 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "2138163704"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "2138163704",
+        "business_id": "509345",
+        "business_type_id": 12,
+        "branch_name": "",
+        "name": "방탈출추리존",
+        "address": "대전 중구 은행동 168-5",
+        "area": "daejeon",
+        "site_url": "https://booking.naver.com/booking/12/bizes/509345"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 105,
+  "statuses": {
+    "available": 104,
+    "full": 1
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "2138163704": {
+      "themes": 5,
+      "slots": 105,
+      "statuses": {
+        "available": 104,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "미대교수의비밀<예약신청후 매장에 전화연락필수입니다>",
+    "스토커 <예약신청후에 매장에 전화연락필수입니다>",
+    "위험한레시피 <예약신청후에 매장에 전화연락필수입니다>",
+    "전기톱살인사건 <예약신청후 매장에 전화연락필수입니다>",
+    "할머니는마법사 <예약신청후에 매장에 전화연락필수입니다>"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 10.25,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

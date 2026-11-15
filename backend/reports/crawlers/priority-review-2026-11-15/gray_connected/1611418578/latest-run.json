@@ -1,0 +1,106 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:07:43.022925+09:00",
+    "scope": "selected cafe IDs: 1611418578 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1611418578"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1611418578",
+          "business_id": "1473904",
+          "business_type_id": 12,
+          "branch_name": "홍대점",
+          "name": "더챕터",
+          "address": "서울 마포구 와우산로 79 5층",
+          "area": "hongdae",
+          "site_url": "https://booking.naver.com/booking/12/bizes/1473904"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 59,
+    "statuses": {
+      "full": 44,
+      "available": 15
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1611418578": {
+        "themes": 2,
+        "slots": 59,
+        "statuses": {
+          "full": 44,
+          "available": 15
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "chapter 01 : 선택",
+      "chapter 02 : 쿠키"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.27,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:10:33.673026+09:00",
+  "scope": "selected cafe IDs: official_sherlock_84 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_sherlock_84"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_84",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대구동성로점",
+        "address": "대구광역시 중구 동성로5길 45. 3층 셜록홈즈 대구동성로점",
+        "area": "daegu",
+        "sido": 15,
+        "bno": 84
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 4,
+  "themes_with_slots": 4,
+  "slots": 84,
+  "statuses": {
+    "full": 8,
+    "available": 76
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_84": {
+      "themes": 4,
+      "slots": 84,
+      "statuses": {
+        "full": 8,
+        "available": 76
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "단잠",
+    "랑슈 뷰티연구소",
+    "지프리트의 심장 (동성로점)",
+    "황금 감옥 : 와캄"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.94,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

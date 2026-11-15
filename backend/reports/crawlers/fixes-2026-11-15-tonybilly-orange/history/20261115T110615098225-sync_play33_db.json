@@ -1,0 +1,35 @@
+{
+  "script": "sync_play33_db",
+  "checked_at": "2026-11-15T11:06:14.926637+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCH_MAP": [
+      "1"
+    ]
+  },
+  "error": "NameError: name 're' is not defined",
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "play33.kr",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 0.11,
+  "log_errors": [
+    "Traceback (most recent call last):"
+  ],
+  "status": "error"
+}

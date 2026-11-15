@@ -1,0 +1,102 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:10:22.716589+09:00",
+    "scope": "selected cafe IDs: 163640808 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "163640808"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "163640808",
+          "business_id": "731521",
+          "business_type_id": 12,
+          "branch_name": "군포산본점",
+          "name": "시크릿도어",
+          "address": "경기 군포시 산본동 1136-2",
+          "area": "gyeonggi",
+          "site_url": "https://booking.naver.com/booking/12/bizes/731521"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 36,
+    "statuses": {
+      "available": 36
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "163640808": {
+        "themes": 2,
+        "slots": 36,
+        "statuses": {
+          "available": 36
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "기밀벙커 SECTOR 6",
+      "클로젯 The Closet"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.31,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

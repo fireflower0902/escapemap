@@ -1,0 +1,80 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T12:09:18.293110+09:00",
+  "scope": "selected cafe IDs: 3373516 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "3373516"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "3373516",
+        "branch_name": "광주점",
+        "jijem": "S7",
+        "address": "광주 동구 충장로안길 14",
+        "area": "gwangju"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 139,
+  "statuses": {
+    "available": 136,
+    "full": 3
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "3373516": {
+      "themes": 5,
+      "slots": 139,
+      "statuses": {
+        "available": 136,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "머더파커 광주점의 비밀_광주점",
+    "선물_광주점",
+    "파커투_광주점",
+    "포수 장덕팔_광주점",
+    "한림축산_광주점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.87,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

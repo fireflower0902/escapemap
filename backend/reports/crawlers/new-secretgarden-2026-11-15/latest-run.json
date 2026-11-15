@@ -1,0 +1,208 @@
+[
+  {
+    "script": "sync_secretgarden_db",
+    "checked_at": "2026-11-15T10:55:39.797807+09:00",
+    "scope": "all configured branches / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 7,
+    "themes_fetched": 41,
+    "themes_with_slots": 41,
+    "slots": 766,
+    "statuses": {
+      "full": 143,
+      "available": 623
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_secretgarden_3": {
+        "themes": 7,
+        "slots": 162,
+        "statuses": {
+          "full": 40,
+          "available": 122
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_secretgarden_4": {
+        "themes": 6,
+        "slots": 108,
+        "statuses": {
+          "full": 25,
+          "available": 83
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_secretgarden_5": {
+        "themes": 6,
+        "slots": 110,
+        "statuses": {
+          "available": 88,
+          "full": 22
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_secretgarden_6": {
+        "themes": 7,
+        "slots": 146,
+        "statuses": {
+          "full": 14,
+          "available": 132
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_secretgarden_10": {
+        "themes": 7,
+        "slots": 116,
+        "statuses": {
+          "available": 89,
+          "full": 27
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_secretgarden_11": {
+        "themes": 5,
+        "slots": 82,
+        "statuses": {
+          "full": 12,
+          "available": 70
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      },
+      "official_secretgarden_12": {
+        "themes": 3,
+        "slots": 42,
+        "statuses": {
+          "available": 39,
+          "full": 3
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "(야외테마)Love Blossom",
+      "라스트 잡",
+      "리비도",
+      "무고",
+      "비밀의 가족",
+      "새벽 베이커리",
+      "스토커",
+      "H.E.L.L.P"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.secretgardenescape.com",
+        "path": "/reservation.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 7.16,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

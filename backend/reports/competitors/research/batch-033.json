@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "티켓 투 이스케이프",
+    "파노라마 홍대삼거리점",
+    "파노라마 홍대입구점",
+    "플레이아레나 홍대점"
+  ],
+  "sources": [
+    {
+      "title": "파노라마 홍대입구점 (서울 홍대) 방탈출 매장 | 코로리방탈출",
+      "url": "https://colory.dev/stores/754"
+    },
+    {
+      "title": "파노라마 홍대입구점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/380"
+    },
+    {
+      "title": "방탈하곰🐻",
+      "url": "https://banggom.com/"
+    },
+    {
+      "title": "플레이아레나 홍대점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/383"
+    },
+    {
+      "title": "방탈출 매장 찾기 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes"
+    },
+    {
+      "title": "플레이아레나 홍대점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/JO1Twje4"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "파노라마 홍대삼거리점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/379"
+    },
+    {
+      "title": "퍼펫플레이 - 파노라마 홍대삼거리점 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/4216"
+    },
+    {
+      "title": "룰더데이 · 파노라마 홍대입구점 | 서울 마포구 방탈출 테마 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/df95724e-15d1-44f4-a3ce-c9f8ef58beb2"
+    },
+    {
+      "title": "[홍대 방탈출] 룰더데이 / 파노라마 홍대입구점",
+      "url": "https://nswdeveloper.tistory.com/58"
+    },
+    {
+      "title": "전국 방탈출 카페 지도 — 지역별 방탈출 추천 | 내 자리",
+      "url": "https://naejari.com/escape-room"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:08:10.512673+09:00",
+    "scope": "selected cafe IDs: 1488706210 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "1488706210"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1488706210",
+          "business_id": "1438216",
+          "business_type_id": 12,
+          "branch_name": "커넥트현대 청주점",
+          "name": "리얼월드",
+          "address": "충북 청주시",
+          "area": "chungbuk",
+          "site_url": "https://cheongju.realworld.to"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 2,
+    "themes_with_slots": 2,
+    "slots": 76,
+    "statuses": {
+      "available": 76
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "1488706210": {
+        "themes": 2,
+        "slots": 76,
+        "statuses": {
+          "available": 76
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "리얼월드 아케이드",
+      "리얼월드 클루"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.41,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "script": "sync_rememberesc_db",
+    "checked_at": "2026-11-15T12:01:41.730073+09:00",
+    "scope": "first configured branch / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 2,
+    "themes_fetched": 10,
+    "themes_with_slots": 10,
+    "slots": 273,
+    "statuses": {
+      "available": 272,
+      "full": 1
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "475592733": {
+        "themes": 4,
+        "slots": 111,
+        "statuses": {
+          "available": 111
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      },
+      "49858990": {
+        "themes": 6,
+        "slots": 162,
+        "statuses": {
+          "available": 161,
+          "full": 1
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "리멤버 (Remember)",
+      "벨BELL : 사소한 사실들",
+      "해리포터 맨드레이크의 비밀",
+      "호텔: 1408호",
+      "기억을 먹어치우는 책",
+      "마음 친구",
+      "미네타닉:사건의 진실",
+      "삼원색"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "rememberesc.com",
+        "path": "/service/get_data",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 5.19,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

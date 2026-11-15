@@ -1,0 +1,68 @@
+{
+  "script": "sync_playtheworld_etc_db",
+  "checked_at": "2026-11-15T12:13:34.531667+09:00",
+  "scope": "selected cafe IDs: 1393764461 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1393764461"
+  ],
+  "selected": {
+    "BRANDS": [
+      {
+        "keycode": "GGvfWvikFsVUQS1b",
+        "name": "gateoftime",
+        "referer": "https://gateoftime.kr",
+        "booking_base": "https://gateoftime.kr/reservation.html",
+        "keycode_in_path": true,
+        "shop_map": {
+          "YybEYe16XjtuRV7S": "1393764461"
+        }
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 9,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "1393764461": {
+      "themes": 9,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [
+    "Chaser:한마음 폐공장",
+    "DKDK",
+    "HERE I AM",
+    "복도끝 : 못다恨이야기",
+    "쇼쿠진",
+    "영안실",
+    "이건 계획에 없었는디?",
+    "직박구리 : 남친탐구생활"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/YybEYe16XjtuRV7S",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/YybEYe16XjtuRV7S",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 1.26,
+  "log_errors": [
+    "[WARN] GET /v2/shops/YybEYe16XjtuRV7S 실패: HTTP Error 500: Internal Server Error"
+  ],
+  "status": "needs_review"
+}

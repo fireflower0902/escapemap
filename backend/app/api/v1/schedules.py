@@ -4,17 +4,37 @@
 크롤러가 수집한 최신 예약 가능 현황을 반환합니다.
 Redis 캐싱이 적용되어 있어서 같은 요청은 DB를 매번 조회하지 않습니다.
 """
+import asyncio
 from datetime import date
 
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import select, func
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.config import settings
 from app.database import get_db
 from app.models.schedule import Schedule
 from app.models.theme import Theme
 
 router = APIRouter()
+
+def _postgres_slots(target_date, area=None, theme_id=None, database=None):
+    from app.firestore_db import get_db as crawl_db
+    from app.api.v1.cafes import _get_cafes_sync
+    database=database if database is not None else crawl_db()
+    allowed={c['id'] for c in _get_cafes_sync(database,area)}
+    doc=database.collection('schedules').document(str(target_date)).get()
+    rows=[]
+    for cid,cafe in (doc.to_dict() or {}).get('cafes',{}).items():
+        if cid not in allowed:continue
+        for tid,theme in cafe.get('themes',{}).items():
+            if theme_id is not None and tid!=theme_id:continue
+            for slot in theme.get('slots',[]):
+                rows.append({'id':f"{tid}:{target_date}:{slot['time']}",'theme_id':tid,'cafe_id':cid,
+                  'time_slot':slot['time'],'status':slot['status'],'booking_url':slot.get('booking_url'),
+                  'available_slots':None,'total_slots':None,'crawled_at':cafe.get('crawled_at')})
+    return sorted(rows,key=lambda row:(row['time_slot'],row['theme_id']))
+
 
 
 @router.get("/schedules")
@@ -33,6 +53,13 @@ async def get_schedules(
     이 엔드포인트가 메인 화면의 핵심입니다.
     사용자가 날짜를 선택하면 이 API가 호출됩니다.
     """
+    if settings.crawl_storage == 'supabase':
+        if status and status not in ('available','full','closed','unknown'):
+            from fastapi import HTTPException
+            raise HTTPException(status_code=400,detail='알 수 없는 예약 상태입니다.')
+        rows=await asyncio.to_thread(_postgres_slots,date,area)
+        if status:rows=[row for row in rows if row['status']==status]
+        return {'date':str(date),'schedules':rows,'total':len(rows)}
     # 가장 최근 크롤링 데이터만 가져오기 (서브쿼리로 최신 crawled_at 조회)
     # TODO: Redis 캐싱 추가 (캐시 키: schedules:{date}:{area})
     # TODO: 지역(area) 필터링 구현 (Cafe 테이블과 JOIN 필요)
@@ -64,7 +91,7 @@ async def get_schedules(
 
 @router.get("/themes/{theme_id}/schedules")
 async def get_theme_schedules(
-    theme_id: int,
+    theme_id: str,
     date: date = Query(..., description="조회할 날짜"),
     db: AsyncSession = Depends(get_db),
 ):
@@ -73,6 +100,9 @@ async def get_theme_schedules(
 
     테마 상세 페이지에서 달력을 클릭할 때 호출됩니다.
     """
+    if settings.crawl_storage == 'supabase':
+        rows=await asyncio.to_thread(_postgres_slots,date,None,theme_id)
+        return {'theme_id':theme_id,'date':str(date),'time_slots':rows}
     result = await db.execute(
         select(Schedule).where(
             Schedule.theme_id == theme_id,

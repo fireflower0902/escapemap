@@ -3,7 +3,9 @@ import type { NextConfig } from "next";
 const BACKEND_URL = process.env.BACKEND_URL ?? "http://localhost:8000";
 
 const nextConfig: NextConfig = {
+  distDir: process.env.NEXT_BUILD_DIR || (process.env.NODE_ENV === "development" ? ".next-dev" : ".next"),
   async rewrites() {
+    if (process.env.CLOUDFLARE_DEPLOYMENT === "true") return [];
     return [
       {
         // /api/search 는 Next.js Route Handler가 처리하므로 제외

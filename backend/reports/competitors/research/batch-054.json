@@ -1,0 +1,63 @@
+{
+  "queries": [
+    "룸즈에이 동성로 아카데미점",
+    "오아시스 홍대점",
+    "룸엘이스케이프 홍대점",
+    "제로월드 X 롯데월드"
+  ],
+  "sources": [
+    {
+      "title": "제로월드 x 롯데월드 : 예약하기",
+      "url": "https://zerolotteworld.com/reservation"
+    },
+    {
+      "title": "업사이드 다운 방탈출 테마 정보 | 오아시스 홍대점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/d266c467/"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "제로월드 x 롯데월드",
+      "url": "https://zerolotteworld.com/"
+    },
+    {
+      "title": "제로월드 x 롯데월드 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/x-ea9cc8b7f3034856a3439a00e8251a5e"
+    },
+    {
+      "title": "제로월드 x 롯데월드 : 오시는길",
+      "url": "https://zerolotteworld.com/map"
+    },
+    {
+      "title": "슬기로운 지구생활 방탈출 테마 정보 | 룸즈에이 동성로 아카데미점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/f13acabf/"
+    },
+    {
+      "title": "방탈러즈 - 방탈러들의 플랫폼",
+      "url": "https://escape-mate.co.kr/"
+    },
+    {
+      "title": "룸즈에이 동성로 아카데미점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/JO1Twd54"
+    },
+    {
+      "title": "방탈러즈 — 테마 목록",
+      "url": "https://escape-mate.co.kr/sites"
+    },
+    {
+      "title": "평화로운 에이마트 방탈출 | 룸즈에이 동성로 아카데미점 | 대구 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/e5316c2e-4723-48fe-997c-63031f086403"
+    },
+    {
+      "title": "슬기로운 지구생활 — 룸즈에이 동성로 아카데미점 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/857"
+    },
+    {
+      "title": "#특별한날엔",
+      "url": "https://www.hansae.com/ko/pr/Hansaein_Vol021.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

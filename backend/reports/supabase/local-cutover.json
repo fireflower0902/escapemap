@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-11-15T16:18:21.460313+09:00",
+  "storage": "supabase",
+  "local_cutover": true,
+  "deployed": false,
+  "initial_cafes": 232,
+  "initial_results": {
+    "published": 232
+  },
+  "cafes": 414,
+  "themes": 1594,
+  "reservation_slots": 25009,
+  "crawl_runs": 235,
+  "fresh_cafes": 232,
+  "exact_duplicate_themes": 0,
+  "dates": [
+    {
+      "date": "2026-11-15",
+      "slots": 6125
+    },
+    {
+      "date": "2026-11-16",
+      "slots": 9409
+    },
+    {
+      "date": "2026-11-17",
+      "slots": 9432
+    },
+    {
+      "date": "2026-11-18",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-19",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-20",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-21",
+      "slots": 4
+    },
+    {
+      "date": "2026-11-22",
+      "slots": 4
+    },
+    {
+      "date": "2026-11-23",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-24",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-25",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-26",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-27",
+      "slots": 3
+    },
+    {
+      "date": "2026-11-28",
+      "slots": 4
+    },
+    {
+      "date": "2026-11-29",
+      "slots": 4
+    },
+    {
+      "date": "2026-11-30",
+      "slots": 3
+    }
+  ]
+}

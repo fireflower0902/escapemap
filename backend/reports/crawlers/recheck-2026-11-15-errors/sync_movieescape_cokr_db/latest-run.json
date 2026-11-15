@@ -1,0 +1,180 @@
+[
+  {
+    "script": "sync_movieescape_cokr_db",
+    "checked_at": "2026-11-15T10:49:35.788954+09:00",
+    "scope": "first configured branch / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {},
+    "cafes_with_slots": 0,
+    "themes_fetched": 4,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {
+      "1956789824": {
+        "themes": 4,
+        "slots": 0,
+        "statuses": {},
+        "dates": []
+      }
+    },
+    "sample_themes": [
+      "나홀로집에",
+      "몬스터 하우스",
+      "찰리와 초콜릿 공장",
+      "춘향전"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/sub/03_1.html",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "movieescape.co.kr",
+        "path": "/theme/2026-11-15/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 10.35,
+    "log_errors": [],
+    "status": "needs_review"
+  }
+]

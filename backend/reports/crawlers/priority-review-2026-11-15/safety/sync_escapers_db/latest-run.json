@@ -1,0 +1,82 @@
+[
+  {
+    "script": "sync_escapers_db",
+    "checked_at": "2026-11-15T12:01:41.729692+09:00",
+    "scope": "first configured branch / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "969459474",
+          "branch_name": "홍대1호점",
+          "group_pk": 1,
+          "group_phone": "010-5594-5216",
+          "area": "hongdae",
+          "address": "서울 마포구 연희로1길 7"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 36,
+    "statuses": {
+      "available": 34,
+      "full": 2
+    },
+    "dates": [
+      "2026-11-15"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "969459474": {
+        "themes": 5,
+        "slots": 36,
+        "statuses": {
+          "available": 34,
+          "full": 2
+        },
+        "dates": [
+          "2026-11-15"
+        ]
+      }
+    },
+    "sample_themes": [
+      "RS의 밀실",
+      "라이브",
+      "붉은머리연맹",
+      "서커스:공중그네",
+      "싸이코메트리"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/1",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/theme",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/theme",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.escapers.co.kr",
+        "path": "/reservation/theme",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.47,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "queries": [
+    "황금열쇠 대구점",
+    "게임오브마인드 서면점",
+    "다이아에그",
+    "룸즈에이 부산남포점"
+  ],
+  "sources": [
+    {
+      "title": "황금열쇠 대구점 (대구) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/156"
+    },
+    {
+      "title": "게임오브마인드 서면점",
+      "url": "https://web.zamfit.kr/stores/2095/%EA%B2%8C%EC%9E%84%EC%98%A4%EB%B8%8C%EB%A7%88%EC%9D%B8%EB%93%9C-%EC%84%9C%EB%A9%B4%EC%A0%90"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "서면 공포 방탈출 | 테마 10개·공포도·예약 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/busan/busanjin/escape-room/horror/"
+    },
+    {
+      "title": "룸즈에이 부산남포점 방탈출 테마 6개 | 장르·시간·난이도·후기 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/store/d835ad/"
+    },
+    {
+      "title": "서면 방탈출 카페 | 가격·예약·주차·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/busan/busanjin/escape-room/"
+    },
+    {
+      "title": "다이아에그",
+      "url": "https://diaegg.com/layout/res/home.php"
+    },
+    {
+      "title": "행방불냥 방탈출 테마 정보 | 룸즈에이 부산남포점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/3a9500a9/"
+    },
+    {
+      "title": "다이아에그 (부산) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/158"
+    },
+    {
+      "title": "다이아에그",
+      "url": "https://diaegg.com/layout/res/home.php"
+    },
+    {
+      "title": "다이아에그",
+      "url": "https://diaegg.com/layout/res/home.php"
+    },
+    {
+      "title": "부산 공포 방탈출 | 테마 13개·공포도·예약 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/regions/busan/escape-room/horror/"
+    },
+    {
+      "title": "[부산관광공사 공고 제2024-4호]",
+      "url": "https://grant-documents.thevc.kr/206082_2024%EB%85%84%EB%8F%84%2B%EA%B5%AD%EC%A0%9C%ED%9A%8C%EC%9D%98%2B%EC%A7%80%EC%9B%90%2B%EA%B3%B5%EA%B3%A0.pdf"
+    },
+    {
+      "title": "I 교육연구팀의 구성, 비전 및 목표",
+      "url": "https://his.pusan.ac.kr/bbs/bk21rscd/14206/898311/download.do"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

@@ -1,0 +1,90 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:09:06.764521+09:00",
+  "scope": "selected cafe IDs: 270131531 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "270131531"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "270131531",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "대학로점",
+        "address": "서울 종로구 대학로10길 5 4층",
+        "area": "daehakro",
+        "sido": 1,
+        "bno": 88
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 118,
+  "statuses": {
+    "available": 105,
+    "full": 13
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "270131531": {
+      "themes": 5,
+      "slots": 118,
+      "statuses": {
+        "available": 105,
+        "full": 13
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "드림 인베이더(대학로ver)",
+    "무속인 살인사건(대학로)",
+    "미녀와야수(대학로)",
+    "위험한 레시피(대학로)",
+    "혼:원혼의저주 (대학로)"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.98,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

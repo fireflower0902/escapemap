@@ -1,0 +1,80 @@
+{
+  "script": "sync_codek_db",
+  "checked_at": "2026-11-15T16:07:57.959353+09:00",
+  "scope": "selected cafe IDs: official_codek_S3 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_codek_S3"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_codek_S3",
+        "cafe_name": "코드케이",
+        "branch_name": "홍대점",
+        "address": "서울시 마포구 상수동 86-22 3층",
+        "area": "hongdae",
+        "source_code": "S3"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 2,
+  "themes_with_slots": 2,
+  "slots": 45,
+  "statuses": {
+    "full": 35,
+    "available": 10
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_codek_S3": {
+      "themes": 2,
+      "slots": 45,
+      "statuses": {
+        "full": 35,
+        "available": 10
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "꼬레아 우라 A",
+    "꼬레아 우라 B"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.3,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

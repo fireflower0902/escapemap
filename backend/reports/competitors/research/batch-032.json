@@ -1,0 +1,79 @@
+{
+  "queries": [
+    "채널27 버터플라이점",
+    "퀘스천마크",
+    "키이스케이프 백산방역",
+    "토끼굴"
+  ],
+  "sources": [
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/reservation.php"
+    },
+    {
+      "title": "방탈출 토끼굴",
+      "url": "https://www.rabbitholeescape.co.kr/"
+    },
+    {
+      "title": "방탈출 토끼굴 : 예약하기",
+      "url": "https://www.rabbitholeescape.co.kr/reservation"
+    },
+    {
+      "title": "방탈하곰🐻",
+      "url": "https://banggom.com/"
+    },
+    {
+      "title": "방탈출 토끼굴 : 공지",
+      "url": "https://www.rabbitholeescape.co.kr/notice"
+    },
+    {
+      "title": "채널27 버터플라이점 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/ch27-1498729"
+    },
+    {
+      "title": "방탈러즈 — 테마 목록",
+      "url": "https://escape-mate.co.kr/sites"
+    },
+    {
+      "title": "퀘스천마크",
+      "url": "https://question-mark.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "채널27 버터플라이점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/372"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "키이스케이프",
+      "url": "https://keyescape.com/works.php"
+    },
+    {
+      "title": "방탈출 토끼굴 : 예약 시스템 및 게임 플레이 안내",
+      "url": "https://rabbitholeescape.co.kr/notice/1"
+    },
+    {
+      "title": "토끼굴 방탈출은 본 개인정보처리방침을 정보통신망법, 개인정보 보호법 등 관련 법률을 준수하고 있습니다.",
+      "url": "https://rabbitholeescape.co.kr/policy.pdf"
+    },
+    {
+      "title": "즐거움을 만난다",
+      "url": "https://www.sdm.go.kr/downloadFile.do"
+    },
+    {
+      "title": "2023. 05. 01.(월) 석간용",
+      "url": "https://culture.seoul.go.kr/culture/cmmn/file/fileDown.do"
+    },
+    {
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://www.isu.co.kr/upload/new_board/B1769387440012.pdf"
+    },
+    {
+      "title": "1111",
+      "url": "https://www.sdmcouncil.go.kr/CLRecords/Files/FileAppendix/a7/A007534.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

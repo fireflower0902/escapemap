@@ -1,0 +1,105 @@
+{
+  "check": {
+    "script": "sync_public_extra_db",
+    "checked_at": "2026-11-15T13:29:55.196897+09:00",
+    "scope": "selected cafe IDs: official_plus / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "official_plus"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "official_plus",
+          "cafe_name": "플러스이스케이프",
+          "branch_name": "",
+          "address": "대구광역시 동구 장등로 36-1 6층",
+          "base_url": "https://www.plus-escape.com",
+          "engine": "plus_public"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 1,
+    "themes_with_slots": 1,
+    "slots": 8,
+    "statuses": {
+      "full": 3,
+      "available": 5
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_plus": {
+        "themes": 1,
+        "slots": 8,
+        "statuses": {
+          "full": 3,
+          "available": 5
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "루나빌리지"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.plus-escape.com",
+        "path": "/api/themes/30002/available-slots",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.plus-escape.com",
+        "path": "/api/themes/30002/available-slots",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.plus-escape.com",
+        "path": "/api/themes/30002/available-slots",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 8.45,
+    "log_errors": [],
+    "status": "smoke_pass"
+  },
+  "stored": [
+    {
+      "cafe_id": "official_plus",
+      "date": "2026-11-15",
+      "changed": true,
+      "ignored_older": false,
+      "slots": 3,
+      "duplicate_write_skipped": true
+    },
+    {
+      "cafe_id": "official_plus",
+      "date": "2026-11-16",
+      "changed": true,
+      "ignored_older": false,
+      "slots": 2,
+      "duplicate_write_skipped": true
+    },
+    {
+      "cafe_id": "official_plus",
+      "date": "2026-11-17",
+      "changed": true,
+      "ignored_older": false,
+      "slots": 3,
+      "duplicate_write_skipped": true
+    }
+  ]
+}

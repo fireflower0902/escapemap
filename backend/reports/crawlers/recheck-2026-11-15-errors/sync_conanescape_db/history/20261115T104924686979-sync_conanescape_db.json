@@ -1,0 +1,53 @@
+{
+  "script": "sync_conanescape_db",
+  "checked_at": "2026-11-15T10:49:22.987801+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1757443413",
+        "branch_name": "구로디지털단지역점",
+        "area": "etc",
+        "address": "서울 구로구 구로동 1124-54 3층"
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "1757443413": {
+      "themes": 0,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "conanescape.kr",
+      "path": "/sub/sub03_01.php",
+      "error": "URLError"
+    },
+    {
+      "method": "POST",
+      "host": "conanescape.kr",
+      "path": "/sub/sub03_01.php",
+      "error": "URLError"
+    }
+  ],
+  "duration_seconds": 1.63,
+  "log_errors": [
+    "[WARN] POST http://conanescape.kr/sub/sub03_01.php 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "[WARN] POST http://conanescape.kr/sub/sub03_01.php 실패: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ],
+  "status": "needs_review"
+}

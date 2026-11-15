@@ -42,6 +42,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
+from app.crawl_time import business_slot_datetime
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -207,11 +208,10 @@ def main(run_schedule: bool = True, days: int = 14):
             for slot in slots:
                 try:
                     hh, mm = int(slot["time"][:2]), int(slot["time"][3:5])
-                except Exception:
+                    slot_dt = business_slot_datetime(target_date, hh, mm)
+                except (ValueError, TypeError):
+                    print(f"  [WARN] 잘못된 시간 건너뜀: {slot['time']}")
                     continue
-                slot_dt = datetime(
-                    target_date.year, target_date.month, target_date.day, hh, mm
-                )
                 if slot_dt <= datetime.now():
                     continue
 

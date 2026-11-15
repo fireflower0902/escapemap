@@ -43,6 +43,7 @@ BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
 from app.config import settings
+from app.crawl_availability import service_slot_datetime
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -223,9 +224,7 @@ def sync_one_branch(branch: dict, days: int) -> int:
                     hh, mm = int(time_str[:2]), int(time_str[3:5])
                 except Exception:
                     continue
-                slot_dt = datetime(
-                    target_date.year, target_date.month, target_date.day, hh, mm,
-                )
+                slot_dt = service_slot_datetime(target_date, f"{hh:02d}:{mm:02d}")
                 if slot_dt <= datetime.now():
                     continue
 

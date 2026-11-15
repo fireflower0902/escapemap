@@ -4,32 +4,14 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search, MapPin } from "lucide-react";
 import DatePicker from "@/components/DatePicker";
-
-const AREAS = [
-  { value: "gangnam",    label: "강남/역삼" },
-  { value: "hongdae",    label: "홍대/합정" },
-  { value: "sinchon",    label: "신촌/이대" },
-  { value: "konkuk",     label: "건대/광진" },
-  { value: "jamsil",     label: "잠실/송파" },
-  { value: "itaewon",    label: "이태원/한남" },
-  { value: "myeongdong", label: "명동/종로" },
-  { value: "daehakro",   label: "대학로" },
-  { value: "sinlim",     label: "신림" },
-  { value: "busan",      label: "부산" },
-  { value: "daegu",      label: "대구" },
-  { value: "gwangju",    label: "광주" },
-  { value: "daejeon",    label: "대전" },
-  { value: "incheon",    label: "인천" },
-  { value: "gyeonggi",   label: "경기" },
-  { value: "gangwon",    label: "강원" },
-];
+import { AREAS } from "@/lib/areas";
 
 export default function SearchBar({ className = "" }: { className?: string }) {
   const router = useRouter();
 
   const today = new Date().toLocaleDateString("en-CA");
   const [date, setDate] = useState(today);
-  const [area, setArea] = useState("gangnam");
+  const [area, setArea] = useState("all");
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();

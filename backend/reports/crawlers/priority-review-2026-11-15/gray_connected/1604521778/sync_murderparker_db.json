@@ -1,0 +1,80 @@
+{
+  "script": "sync_murderparker_db",
+  "checked_at": "2026-11-15T12:09:39.778615+09:00",
+  "scope": "selected cafe IDs: 1604521778 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1604521778"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1604521778",
+        "branch_name": "홍대1호점",
+        "jijem": "S9",
+        "address": "서울 마포구 어울마당로 55-4 3층",
+        "area": "hongdae"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 124,
+  "statuses": {
+    "available": 110,
+    "full": 14
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1604521778": {
+      "themes": 5,
+      "slots": 124,
+      "statuses": {
+        "available": 110,
+        "full": 14
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "구둣방손님_홍대1호점",
+    "밴드의 탄생_홍대1호점",
+    "엠M(70분 혼방)_홍대1호점",
+    "주마등_홍대1호점",
+    "칠칠77(70분 프리미엄)_홍대1호점"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "murderparker.com",
+      "path": "/sub_02/sub02_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.11,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

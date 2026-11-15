@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "메모리카니발",
+    "제로월드 서현점",
+    "룸엘이스케이프",
+    "룸엘이스케이프 신림3호점"
+  ],
+  "sources": [
+    {
+      "title": "제로월드 서현점 (성남) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/52"
+    },
+    {
+      "title": "Everland Resort - 스마트 예약 - 에버랜드",
+      "url": "https://reservation.everland.com/web/el.do"
+    },
+    {
+      "title": "FILTER(필터) 방탈출 후기·난이도 | 룸엘이스케이프 신림3호점 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/c168251d/"
+    },
+    {
+      "title": "Everland Resort - 스마트 예약 - 에버랜드",
+      "url": "https://reservation.everland.com/web/el.do"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "룸엘이스케이프 당곡점 방탈출 | 테마·가격·예약·위치 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/places/lsgmsmv5le8pn4x7fe/"
+    },
+    {
+      "title": "신림·서울대입구 방탈출 추천 | 매장 5곳 테마 12개 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/region/sillim/"
+    },
+    {
+      "title": "제로월드 서현점",
+      "url": "https://web.zamfit.kr/stores/1958/%EC%A0%9C%EB%A1%9C%EC%9B%94%EB%93%9C-%EC%84%9C%ED%98%84%EC%A0%90"
+    },
+    {
+      "title": "FILTER - 룸엘이스케이프 신림3호점 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/3945"
+    },
+    {
+      "title": "방탈러즈 - 방탈러들의 플랫폼",
+      "url": "https://escape-mate.co.kr/"
+    },
+    {
+      "title": "룸엘이스케이프 신림점 방탈출 테마 4개 | 장르·시간·난이도·후기 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/store/eeb742/"
+    },
+    {
+      "title": "사계 — 제로월드 서현점 | 분당 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/146"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

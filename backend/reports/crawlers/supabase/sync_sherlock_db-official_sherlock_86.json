@@ -1,0 +1,91 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T16:08:31.747895+09:00",
+  "scope": "selected cafe IDs: official_sherlock_86 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "official_sherlock_86"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_86",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "아산점",
+        "address": "충청남도 아산시 번영로 220, 3층",
+        "area": "chungnam",
+        "sido": 12,
+        "bno": 86
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 132,
+  "statuses": {
+    "full": 6,
+    "available": 126
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_86": {
+      "themes": 6,
+      "slots": 132,
+      "statuses": {
+        "full": 6,
+        "available": 126
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "[프리미엄]Carder",
+    "[프리미엄]귀로여관",
+    "노룸",
+    "대마법사 오셀로",
+    "말못해",
+    "악마를 보았다"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 6.7,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

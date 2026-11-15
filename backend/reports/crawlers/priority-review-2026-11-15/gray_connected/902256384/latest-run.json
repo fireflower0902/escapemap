@@ -1,0 +1,123 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-15T12:07:32.383137+09:00",
+    "scope": "selected cafe IDs: 902256384 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "902256384"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "902256384",
+          "business_id": "638554",
+          "business_type_id": 12,
+          "branch_name": "순천점",
+          "name": "더리얼방탈출카페",
+          "address": "전남 순천시 중앙6길 3-1",
+          "area": "jeonnam",
+          "site_url": "https://booking.naver.com/booking/12/bizes/638554"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 75,
+    "statuses": {
+      "full": 75
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "902256384": {
+        "themes": 3,
+        "slots": 75,
+        "statuses": {
+          "full": 75
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "방테마 1번 : 도둑들",
+      "방테마 2번: 저주받은 집",
+      "방테마 4번: 스토커(어느예술가의 비밀)"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "booking.naver.com",
+        "path": "/graphql",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 6.24,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

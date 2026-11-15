@@ -1,0 +1,80 @@
+[
+  {
+    "script": "sync_murderparker_db",
+    "checked_at": "2026-11-15T12:09:28.474942+09:00",
+    "scope": "selected cafe IDs: 583591672 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "583591672"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "583591672",
+          "branch_name": "양산점",
+          "jijem": "S3",
+          "address": "경남 양산시 물금읍 범어로 64 한양프라자 3층",
+          "area": "etc"
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 115,
+    "statuses": {
+      "available": 115
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "583591672": {
+        "themes": 5,
+        "slots": 115,
+        "statuses": {
+          "available": 115
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "머더파커 분노의 살인_양산점",
+      "언타이틀(Untitle)_양산점",
+      "엘리스 사라진 아이_양산점",
+      "오씨네 장난감 가게_양산점",
+      "유코사스미 치밀한 복수_양산점"
+    ],
+    "http_calls": [
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "murderparker.com",
+        "path": "/sub_02/sub02_1.html",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 4.74,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

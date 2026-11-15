@@ -1,0 +1,120 @@
+{
+  "script": "sync_keyescape_db",
+  "checked_at": "2026-11-15T12:12:34.349589+09:00",
+  "scope": "selected cafe IDs: 298789057 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "298789057"
+  ],
+  "selected": {
+    "BRANCH_MAP": [
+      "22"
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 3,
+  "themes_with_slots": 3,
+  "slots": 138,
+  "statuses": {
+    "full": 122,
+    "available": 16
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "298789057": {
+      "themes": 3,
+      "slots": 138,
+      "statuses": {
+        "full": 122,
+        "available": 16
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "NOSTALGIA VISTA",
+    "내 방",
+    "머니머니부동산"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "keyescape.com",
+      "path": "/controller/run_proc.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 7.17,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

@@ -1,0 +1,455 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T11:47:02.397544+09:00",
+  "scope": "selected cafe IDs: official_sslone_4, official_sslone_2, official_sslone_1, official_sslone_5, official_pointnine_1, official_pointnine_5, official_pointnine_6, official_weyol, official_dolo, official_eroom8 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "official_sslone_4",
+        "cafe_name": "상상락원",
+        "branch_name": "잠실점",
+        "address": "서울특별시 송파구 백제고분로 41길 6-5 2층",
+        "area": "jamsil",
+        "base_url": "https://sslone.co.kr",
+        "s_zizum": 4,
+        "use_ssl": true,
+        "need_session": false,
+        "preserve_theme_title": true
+      },
+      {
+        "cafe_id": "official_sslone_2",
+        "cafe_name": "상상락원",
+        "branch_name": "익산 원광대점",
+        "address": "전북특별자치도 익산시 동서로5길 96(신동) 2층",
+        "area": "jeonbuk",
+        "base_url": "https://sslone.co.kr",
+        "s_zizum": 2,
+        "use_ssl": true,
+        "need_session": false,
+        "preserve_theme_title": true
+      },
+      {
+        "cafe_id": "official_sslone_1",
+        "cafe_name": "상상락원",
+        "branch_name": "전주객사점",
+        "address": "전북특별자치도 전주시 완산구 전주객사1길 48",
+        "area": "jeonbuk",
+        "base_url": "https://sslone.co.kr",
+        "s_zizum": 1,
+        "use_ssl": true,
+        "need_session": false,
+        "preserve_theme_title": true
+      },
+      {
+        "cafe_id": "official_sslone_5",
+        "cafe_name": "상상락원",
+        "branch_name": "전주 한옥마을점",
+        "address": "전북특별자치도 전주시 완산구 전동 310-2 1층",
+        "area": "jeonbuk",
+        "base_url": "https://sslone.co.kr",
+        "s_zizum": 5,
+        "use_ssl": true,
+        "need_session": false,
+        "preserve_theme_title": true
+      },
+      {
+        "cafe_id": "official_pointnine_1",
+        "cafe_name": "포인트나인",
+        "branch_name": "강남점",
+        "address": "서울시 강남구 역삼동 618-3 지하1층",
+        "area": "gangnam",
+        "base_url": "https://point-nine.com",
+        "s_zizum": 1,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_pointnine_5",
+        "cafe_name": "포인트나인",
+        "branch_name": "건대점",
+        "address": "서울시 광진구 화양동 11-7 3층",
+        "area": "konkuk",
+        "base_url": "https://point-nine.com",
+        "s_zizum": 5,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_pointnine_6",
+        "cafe_name": "포인트나인",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 독막로 7길 40, 지하1층",
+        "area": "hongdae",
+        "base_url": "https://point-nine.com",
+        "s_zizum": 6,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_weyol",
+        "cafe_name": "위욜",
+        "branch_name": "",
+        "address": "서울시 마포구 와우산로27길 7 지하1층",
+        "area": "hongdae",
+        "base_url": "https://weyol.com",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_dolo",
+        "cafe_name": "돌로이스케이프",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로6길 34 지하1층",
+        "area": "gangnam",
+        "base_url": "https://doloescape.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      },
+      {
+        "cafe_id": "official_eroom8",
+        "cafe_name": "이룸에이트",
+        "branch_name": "",
+        "address": "서울시 강남구 봉은사로115 노벨테크 B2F",
+        "area": "gangnam",
+        "base_url": "https://eroom8.co.kr",
+        "s_zizum": null,
+        "use_ssl": true,
+        "need_session": false
+      }
+    ]
+  },
+  "cafes_with_slots": 10,
+  "themes_fetched": 58,
+  "themes_with_slots": 58,
+  "slots": 936,
+  "statuses": {
+    "full": 205,
+    "available": 731
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sslone_4": {
+      "themes": 10,
+      "slots": 140,
+      "statuses": {
+        "full": 47,
+        "available": 93
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_2": {
+      "themes": 10,
+      "slots": 153,
+      "statuses": {
+        "available": 152,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_1": {
+      "themes": 10,
+      "slots": 150,
+      "statuses": {
+        "available": 149,
+        "full": 1
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_sslone_5": {
+      "themes": 6,
+      "slots": 84,
+      "statuses": {
+        "available": 81,
+        "full": 3
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_pointnine_1": {
+      "themes": 4,
+      "slots": 60,
+      "statuses": {
+        "available": 36,
+        "full": 24
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_pointnine_5": {
+      "themes": 3,
+      "slots": 63,
+      "statuses": {
+        "full": 30,
+        "available": 33
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_pointnine_6": {
+      "themes": 2,
+      "slots": 66,
+      "statuses": {
+        "full": 23,
+        "available": 43
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_weyol": {
+      "themes": 3,
+      "slots": 46,
+      "statuses": {
+        "full": 19,
+        "available": 27
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_dolo": {
+      "themes": 4,
+      "slots": 54,
+      "statuses": {
+        "available": 41,
+        "full": 13
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    },
+    "official_eroom8": {
+      "themes": 6,
+      "slots": 120,
+      "statuses": {
+        "available": 76,
+        "full": 44
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "The 대기실",
+    "박물관 철거 현장",
+    "시선",
+    "아로새김",
+    "고령화사회",
+    "고인",
+    "낙원",
+    "민초"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sslone.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "point-nine.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "weyol.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "weyol.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "weyol.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doloescape.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doloescape.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "doloescape.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "eroom8.co.kr",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 33.63,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

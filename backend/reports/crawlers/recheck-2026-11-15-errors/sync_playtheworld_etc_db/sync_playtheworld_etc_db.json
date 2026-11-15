@@ -1,0 +1,74 @@
+{
+  "script": "sync_playtheworld_etc_db",
+  "checked_at": "2026-11-15T10:49:37.716122+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANDS": [
+      {
+        "keycode": "kQHQReY6D1jPJKs4",
+        "name": "playtheworld",
+        "referer": "https://reservation.playthe.world",
+        "booking_base": "https://reservation.playthe.world/reservation.html",
+        "shop_map": {
+          "m86eCeH4SoNCqVVX": "841734382",
+          "eerYSTbbLAQnqZv3": "767938268",
+          "bF9P9ARTDcgrbcDR": "76631654",
+          "fsGEtW3EXJiFXVCZ": "1637776603",
+          "U9cZjMPWeVZbij6X": "1224388097"
+        }
+      }
+    ]
+  },
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {},
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/m86eCeH4SoNCqVVX",
+      "error": "HTTPError"
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/eerYSTbbLAQnqZv3",
+      "error": "HTTPError"
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/bF9P9ARTDcgrbcDR",
+      "error": "HTTPError"
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/fsGEtW3EXJiFXVCZ",
+      "error": "HTTPError"
+    },
+    {
+      "method": "GET",
+      "host": "macro.playthe.world",
+      "path": "/v2/shops/U9cZjMPWeVZbij6X",
+      "error": "HTTPError"
+    }
+  ],
+  "duration_seconds": 2.77,
+  "log_errors": [
+    "[WARN] GET /v2/shops/m86eCeH4SoNCqVVX 실패: HTTP Error 500: Internal Server Error",
+    "[WARN] GET /v2/shops/eerYSTbbLAQnqZv3 실패: HTTP Error 500: Internal Server Error",
+    "[WARN] GET /v2/shops/bF9P9ARTDcgrbcDR 실패: HTTP Error 500: Internal Server Error",
+    "[WARN] GET /v2/shops/fsGEtW3EXJiFXVCZ 실패: HTTP Error 500: Internal Server Error",
+    "[WARN] GET /v2/shops/U9cZjMPWeVZbij6X 실패: HTTP Error 500: Internal Server Error"
+  ],
+  "status": "needs_review"
+}

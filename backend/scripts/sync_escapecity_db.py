@@ -32,11 +32,14 @@ import ssl
 import sys
 import time
 import urllib.request
+from urllib.parse import urljoin
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
 BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
+
+from bs4 import BeautifulSoup
 
 from app.config import settings
 from app.firestore_db import (
@@ -120,60 +123,40 @@ def _parse_page(html: str, jijem: str, thema: str, target_date: date) -> dict | 
     HTML에서 테마명 + 슬롯 목록 파싱.
     반환: {name: str, slots: [{time, status, booking_url}]} or None
     """
-    # 테마명: li.thema1 텍스트 (또는 room_name URL 파라미터)
-    m_name = re.search(r'<li[^>]+class="[^"]*thema1[^"]*"[^>]*>([^<]+)</li>', html)
-    if m_name:
-        theme_name = m_name.group(1).strip()
-    else:
-        # URL room_name 파라미터에서 추출
-        m_rn = re.search(r'room_name=([^&"\'\\s]+)', html)
-        if not m_rn:
+    # 응답에 모든 테마의 숨겨진 시간표까지 포함됩니다. 요청한 CQ 블록만 읽습니다.
+    headers = list(re.finditer(
+        r'<a\b[^>]*href=["\']javascript:CQview\(document\.all\.CQ(\d+)\)["\'][^>]*>',
+        html, re.IGNORECASE,
+    ))
+    try:
+        theme_index = THEME_CODES.index(thema) + 1
+    except ValueError:
+        return None
+    for i, header in enumerate(headers):
+        if int(header.group(1)) != theme_index:
+            continue
+        end = headers[i + 1].start() if i + 1 < len(headers) else len(html)
+        soup = BeautifulSoup(html[header.start():end], "html.parser")
+        name = soup.select_one("li.thema1")
+        if not name:
             return None
-        theme_name = m_rn.group(1).strip()
-        try:
-            from urllib.parse import unquote
-            theme_name = unquote(theme_name, encoding="euc-kr")
-        except Exception:
-            pass
-
-    if not theme_name:
-        return None
-
-    date_str = target_date.strftime("%Y-%m-%d")
-    slots: list[dict] = []
-
-    # 예약가능: li.timeOn > a[href="sub03_2.html?...room_time=HH:MM..."]
-    avail_pattern = re.compile(
-        r'<li[^>]+class="[^"]*timeOn[^"]*"[^>]*>.*?'
-        r'<a\s+href="(sub03_2\.html\?[^"]+room_time=(\d{2}:\d{2})[^"]*)"',
-        re.DOTALL,
-    )
-    for m in avail_pattern.finditer(html):
-        href = m.group(1)
-        time_str = m.group(2)
-        booking_url = SITE_URL + "/sub/" + href
-        slots.append({
-            "time":        time_str,
-            "status":      "available",
-            "booking_url": booking_url,
-        })
-
-    # 예약불가: li.timeOff 내 시간 텍스트
-    off_pattern = re.compile(
-        r'<li[^>]+class="[^"]*timeOff[^"]*"[^>]*>.*?(\d{2}:\d{2})',
-        re.DOTALL,
-    )
-    for m in off_pattern.finditer(html):
-        slots.append({
-            "time":        m.group(1),
-            "status":      "full",
-            "booking_url": None,
-        })
-
-    if not slots:
-        return None
-
-    return {"name": theme_name, "slots": slots}
+        slots = []
+        for item in soup.select("li.timeOn, li.timeOff"):
+            match = re.search(r"(\d{2}:\d{2})", item.get_text())
+            if not match:
+                continue
+            available = "timeOn" in item.get("class", [])
+            link = item.find_parent("a", href=True) or item.find("a", href=True)
+            if available and not link:
+                print(f"  [WARN] 예약 링크 누락: {thema} {match.group(1)}")
+                continue
+            slots.append({
+                "time": match.group(1),
+                "status": "available" if available else "full",
+                "booking_url": urljoin(REV_URL, link["href"]) if available else None,
+            })
+        return {"name": name.get_text(strip=True), "slots": slots} if slots else None
+    return None
 
 
 # ── DB 동기화 ─────────────────────────────────────────────────────────────────

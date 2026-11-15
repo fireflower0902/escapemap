@@ -1,0 +1,44 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "escapemap",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-11-15",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "CRAWL_STORAGE": "supabase",
+    "CRAWL_FRESHNESS_SECONDS": "5400",
+    "CLOUDFLARE_DEPLOYMENT": "true"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "env": {
+    "preview": {
+      "name": "escapemap-preview",
+      "vars": {
+        "CRAWL_STORAGE": "supabase",
+        "CRAWL_FRESHNESS_SECONDS": "5400",
+        "CLOUDFLARE_DEPLOYMENT": "true"
+      },
+      "workers_dev": true,
+      "hyperdrive": [
+        {
+          "binding": "HYPERDRIVE",
+          "id": "17b0d3a27c724b26b8bc18647dbf8de0"
+        }
+      ]
+    }
+  },
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "17b0d3a27c724b26b8bc18647dbf8de0"
+    }
+  ]
+}

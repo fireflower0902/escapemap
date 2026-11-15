@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "카타르시스 이스케이프",
+    "파노라마 부산점",
+    "플레이포인트랩 천안두정점",
+    "다락방 방탈출 카페"
+  ],
+  "sources": [
+    {
+      "title": "플레이포인트랩",
+      "url": "https://vkzmdescape.playpointlab.com/office/detail"
+    },
+    {
+      "title": "플레이포인트랩 천안두정점 (천안) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/454"
+    },
+    {
+      "title": "플레이포인트랩",
+      "url": "https://playpointlab.com/office"
+    },
+    {
+      "title": "화이트룸-클래식 — 플레이포인트랩 천안두정점 | 천안 방탈출 — 탈출각",
+      "url": "https://talchulgak.alullab.com/theme/499"
+    },
+    {
+      "title": "플레이포인트랩 천안두정점 방탈출 테마 5개 | 장르·시간·난이도·후기 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/store/320efc/"
+    },
+    {
+      "title": "HOTEL 기억조각 | 다락방 방탈출 카페 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5966/HOTEL-%EA%B8%B0%EC%96%B5%EC%A1%B0%EA%B0%81"
+    },
+    {
+      "title": "플레이포인트랩 방탈출 테마 40개 · 지점별 정리 · 방탈로그",
+      "url": "https://bangtallog.com/cafe/%ED%94%8C%EB%A0%88%EC%9D%B4%ED%8F%AC%EC%9D%B8%ED%8A%B8%EB%9E%A9"
+    },
+    {
+      "title": "다락방 방탈출 카페 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/8DsSYQWi"
+    },
+    {
+      "title": "파노라마 부산점 (부산) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/183"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "시크릿가든 - 플레이포인트랩 천안두정점 방탈출 | 코로리방탈출",
+      "url": "https://colory.dev/themes/1145"
+    },
+    {
+      "title": "현실 너머로의 초대, 방탈출 동호회 ‘다락방’ | 컴투스온",
+      "url": "https://on.com2us.com/company/%EB%8B%A4%EB%9D%BD%EB%B0%A9/"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

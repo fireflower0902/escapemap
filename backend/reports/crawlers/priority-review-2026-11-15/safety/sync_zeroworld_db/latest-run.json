@@ -1,0 +1,50 @@
+[
+  {
+    "script": "sync_zeroworld_db",
+    "checked_at": "2026-11-15T12:01:42.288054+09:00",
+    "scope": "first configured branch / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "1732671994",
+          "cafe_name": "제로월드",
+          "branch_name": "홍대점",
+          "address": "서울 마포구 동교동 203-13 5층",
+          "area": "hongdae",
+          "base_url": "https://www.zerohongdae.com"
+        }
+      ]
+    },
+    "cafes_with_slots": 0,
+    "themes_fetched": 0,
+    "themes_with_slots": 0,
+    "slots": 0,
+    "statuses": {},
+    "dates": [],
+    "issues": [],
+    "per_cafe": {},
+    "sample_themes": [],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.zerohongdae.com",
+        "path": "/reservation",
+        "error": "URLError"
+      },
+      {
+        "method": "POST",
+        "host": "www.zerohongdae.com",
+        "path": "/reservation/theme",
+        "error": "URLError"
+      }
+    ],
+    "duration_seconds": 0.05,
+    "log_errors": [
+      "[WARN] CSRF 획득 실패 https://www.zerohongdae.com: <urlopen error [Errno 61] Connection refused>",
+      "[WARN] 슬롯 조회 실패 https://www.zerohongdae.com 2026-11-15: <urlopen error [Errno 61] Connection refused>"
+    ],
+    "status": "needs_review"
+  }
+]

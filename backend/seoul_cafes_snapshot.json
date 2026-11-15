@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-06-13",
+  "total_cafes": 130,
+  "total_active": 130,
+  "total_inactive": 0,
+  "areas": {
+    "daehakro": {
+      "name": "종로/대학로",
+      "active": 3,
+      "inactive": 0,
+      "total": 3
+    },
+    "gangnam": {
+      "name": "강남/서초",
+      "active": 42,
+      "inactive": 0,
+      "total": 42
+    },
+    "hongdae": {
+      "name": "마포/홍대",
+      "active": 46,
+      "inactive": 0,
+      "total": 46
+    },
+    "itaewon": {
+      "name": "용산/이태원",
+      "active": 1,
+      "inactive": 0,
+      "total": 1
+    },
+    "jamsil": {
+      "name": "송파/강동/잠실",
+      "active": 10,
+      "inactive": 0,
+      "total": 10
+    },
+    "konkuk": {
+      "name": "광진/건대",
+      "active": 10,
+      "inactive": 0,
+      "total": 10
+    },
+    "myeongdong": {
+      "name": "중구/종로/명동",
+      "active": 6,
+      "inactive": 0,
+      "total": 6
+    },
+    "sinchon": {
+      "name": "서대문/신촌",
+      "active": 8,
+      "inactive": 0,
+      "total": 8
+    },
+    "sinlim": {
+      "name": "관악/신림",
+      "active": 4,
+      "inactive": 0,
+      "total": 4
+    }
+  }
+}

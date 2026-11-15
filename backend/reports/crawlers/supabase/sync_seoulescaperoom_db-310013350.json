@@ -1,0 +1,82 @@
+{
+  "script": "sync_seoulescaperoom_db",
+  "checked_at": "2026-11-15T16:13:18.553090+09:00",
+  "scope": "selected cafe IDs: 310013350 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "310013350"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "310013350",
+        "branch_name": "부산서면점",
+        "branch": 6,
+        "area": "busan",
+        "address": "부산 부산진구 서면로68번길 38"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 127,
+  "statuses": {
+    "available": 125,
+    "full": 2
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "310013350": {
+      "themes": 5,
+      "slots": 127,
+      "statuses": {
+        "available": 125,
+        "full": 2
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "404호 살인사건",
+    "알카트라즈 지하감옥",
+    "유러피안 스파이",
+    "죽음을 부르는 재즈바",
+    "회장님의 서재"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "www.seoul-escape.com",
+      "path": "/reservation",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 3.06,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "script": "sync_sherlock_db",
+    "checked_at": "2026-11-15T12:04:58.615567+09:00",
+    "scope": "selected cafe IDs: 716398207 / today + 2 day(s)",
+    "days_after_today": 2,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "716398207"
+    ],
+    "selected": {
+      "BRANCHES": [
+        {
+          "cafe_id": "716398207",
+          "cafe_name": "셜록홈즈",
+          "branch_name": "수원역점",
+          "address": "경기 수원시 팔달구 향교로 9",
+          "area": "gyeonggi",
+          "sido": 9,
+          "bno": 100
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 7,
+    "themes_with_slots": 7,
+    "slots": 197,
+    "statuses": {
+      "available": 182,
+      "full": 15
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16",
+      "2026-11-17"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "716398207": {
+        "themes": 7,
+        "slots": 197,
+        "statuses": {
+          "available": 182,
+          "full": 15
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16",
+          "2026-11-17"
+        ]
+      }
+    },
+    "sample_themes": [
+      "022",
+      "1980 레트로게임룸",
+      "괴담수집가_김민지괴담",
+      "발사까지 59분 59초",
+      "세계날씨본부",
+      "유작",
+      "인형의집"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sherlock-holmes.co.kr",
+        "path": "/reservation/res_schedule.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 9.67,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

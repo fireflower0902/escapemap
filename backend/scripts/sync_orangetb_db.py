@@ -58,6 +58,7 @@ from pathlib import Path
 BACKEND_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BACKEND_DIR))
 
+from bs4 import BeautifulSoup
 from app.config import settings
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
@@ -124,14 +125,10 @@ def _parse_themes(html: str) -> list[dict]:
     <button onclick="setTheme(N)">테마명</button>
     """
     themes = []
-    for m in re.finditer(
-        r'onclick=["\']setTheme\((\d+)\)["\'][^>]*>(.*?)</button>',
-        html, re.DOTALL
-    ):
-        t_id = int(m.group(1))
-        name = re.sub(r'<[^>]+>', '', m.group(2)).strip()
-        if name:
-            themes.append({"t_id": t_id, "name": name})
+    for button in BeautifulSoup(html, 'html.parser').select('button[onclick]'):
+        match = re.search(r'setTheme\((\d+)\)', button['onclick'])
+        if match:
+            themes.append({'t_id': int(match.group(1)), 'name': button.get_text(' ', strip=True)})
     return themes
 
 

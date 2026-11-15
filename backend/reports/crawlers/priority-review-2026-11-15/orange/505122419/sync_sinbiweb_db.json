@@ -1,0 +1,103 @@
+{
+  "script": "sync_sinbiweb_db",
+  "checked_at": "2026-11-15T12:03:49.882598+09:00",
+  "scope": "selected cafe IDs: 505122419 / today + 2 day(s)",
+  "days_after_today": 2,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "505122419"
+  ],
+  "selected": {
+    "SITES": [
+      {
+        "cafe_id": "505122419",
+        "cafe_name": "상상의문",
+        "branch_name": "분당서현점",
+        "address": "경기 성남시 분당구 서현동 250-4",
+        "area": "gyeonggi",
+        "base_url": "https://xn--z92b74ha268d.com",
+        "s_zizum": 2,
+        "use_ssl": true,
+        "need_session": true
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 6,
+  "themes_with_slots": 6,
+  "slots": 136,
+  "statuses": {
+    "available": 104,
+    "full": 32
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "505122419": {
+      "themes": 6,
+      "slots": 136,
+      "statuses": {
+        "available": 104,
+        "full": 32
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17"
+      ]
+    }
+  },
+  "sample_themes": [
+    "HERE I AM",
+    "몽염 : 도망칠 수 없는 꿈",
+    "셔플월드",
+    "시크릿 왕국의 스캔들",
+    "역만",
+    "전당포 조필두"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "xn--z92b74ha268d.com",
+      "path": "/layout/res/home.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.57,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

@@ -1,0 +1,83 @@
+{
+  "queries": [
+    "해피앤딩",
+    "히든 스위치 홍대점",
+    "Studio ESC",
+    "괴담저장소 제일기숙학원"
+  ],
+  "sources": [
+    {
+      "title": "해피앤딩방탈출",
+      "url": "https://happyanding.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "해피앤딩방탈출",
+      "url": "https://happyanding.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "해피앤딩방탈출",
+      "url": "https://happyanding.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "히든 스위치 홍대점 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/385"
+    },
+    {
+      "title": "해피앤딩방탈출",
+      "url": "https://happyanding.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "해피앤딩방탈출",
+      "url": "https://happyanding.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "Studio ESC",
+      "url": "https://studioesc.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "제일기숙학원 — 괴담저장소 제일기숙학원 | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/themes/1238"
+    },
+    {
+      "title": "해피앤딩방탈출",
+      "url": "https://happyanding.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "히든 스위치 홍대점 · 빠른 방탈출, 빠방",
+      "url": "https://web.bbabang.net/stores/Xny0sgUk"
+    },
+    {
+      "title": "해피앤딩 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/384"
+    },
+    {
+      "title": "제일기숙학원 방탈출 | 괴담저장소 제일기숙학원 | 서울 강남·추천 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/7acd48c5-a668-42fd-89ff-797d90aae5f1"
+    },
+    {
+      "title": "코로나19로 해외여행",
+      "url": "https://file.naeiledu.co.kr/uploadfile/20211109/133316_010_011%E1%84%8B%E1%85%A6%E1%84%83%E1%85%B2%E1%84%8F%E1%85%A2%E1%86%AF%E1%84%85%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A5_ok%E1%84%86%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC.pdf"
+    },
+    {
+      "title": "<visual_element",
+      "url": "https://www.lotte.co.kr/upload/post/magazine/190212095918079.pdf"
+    },
+    {
+      "title": "042019082910W01101101030000_2.ps",
+      "url": "https://web.donga.com/pdf/pdf_viewer.php"
+    },
+    {
+      "title": "2019년도 사업계획(안)",
+      "url": "https://www.pyf.or.kr/download.do"
+    },
+    {
+      "title": "정보마당_롯데시네마 ‘해피앤딩 스타체어’",
+      "url": "https://www.lotte.co.kr/upload/post/magazine/190705161015355.pdf"
+    },
+    {
+      "title": "<tr>",
+      "url": "https://research.beautifulfund.org/wp-content/themes/bftheme_research/inc/attachment-download.php"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

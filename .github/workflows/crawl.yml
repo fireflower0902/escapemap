@@ -12,7 +12,10 @@ on:
 # setup 시간(checkout + uv sync): job당 약 40~60초 소요
 
 env:
-  TZ: Asia/Seoul   # 모든 job/step에 KST 적용 → datetime.now(), date.today() KST 기준
+  CRAWL_STORAGE: supabase
+  SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
+  TZ: Asia/Seoul                    # 모든 job/step에 KST 적용 → datetime.now(), date.today() KST 기준
+  CRAWL_SEOUL_ONLY: "false"        # 전국 지점 크롤링
 
 jobs:
 
@@ -30,11 +33,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -44,7 +45,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -65,11 +66,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -79,7 +78,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -100,11 +99,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -114,13 +111,14 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
           run_script sync_murderparker_db.py
           run_script sync_xcape_db.py
+          run_script sync_xcape_current_db.py
 
   # ── Job 4: Naver Booking — 인덱스 0~10 (11개 지점) ───────────────────────
   crawl-4:
@@ -136,18 +134,16 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 0 --end 11
+          uv run python scripts/run_supabase_crawler.py sync_escapetop_db --days 14 --start 0 --end 11
 
   # ── Job 5: Naver Booking — 인덱스 11~21 (11개 지점) ──────────────────────
   crawl-5:
@@ -163,18 +159,16 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 11 --end 22
+          uv run python scripts/run_supabase_crawler.py sync_escapetop_db --days 14 --start 11 --end 22
 
   # ── Job 6: Naver Booking — 인덱스 22~32 (11개 지점) ──────────────────────
   crawl-6:
@@ -190,18 +184,16 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 22 --end 33
+          uv run python scripts/run_supabase_crawler.py sync_escapetop_db --days 14 --start 22 --end 33
 
   # ── Job 7: Naver Booking — 인덱스 33~43 (11개 지점) ──────────────────────
   crawl-7:
@@ -217,18 +209,16 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 33 --end 44
+          uv run python scripts/run_supabase_crawler.py sync_escapetop_db --days 14 --start 33 --end 44
 
   # ── Job 8: Naver Booking — 인덱스 44~ (11개 지점) ────────────────────────
   crawl-8:
@@ -244,18 +234,16 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
           fi
       - name: 크롤링 실행
         run: |
-          uv run python scripts/sync_escapetop_db.py --start 44
+          uv run python scripts/run_supabase_crawler.py sync_escapetop_db --days 14 --start 44
 
   # ── Job 9: sinbiweb (9개 사이트, 단독 실행) ──────────────────────────────
   crawl-9:
@@ -271,11 +259,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -285,12 +271,14 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
           }
           run_script sync_sinbiweb_db.py
+          run_script sync_secretgarden_db.py
+          run_script sync_public_extra_db.py
 
   # ── Job 10: 서울 홍대/마포/신촌 계열 ────────────────────────────────────
   crawl-10:
@@ -306,11 +294,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -320,7 +306,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -352,11 +338,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -366,7 +350,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -377,6 +361,7 @@ jobs:
           run_script sync_jigobyeol_db.py
           run_script sync_seoulesc_db.py
           run_script sync_zeroworld_db.py
+          run_script sync_zeroworld_current_db.py
           run_script sync_signescape_db.py
           run_script sync_studioesc_db.py
           run_script sync_nextedition_db.py
@@ -397,11 +382,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -411,7 +394,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -439,11 +422,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -453,7 +434,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -484,11 +465,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -498,7 +477,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -524,11 +503,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -538,7 +515,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"
@@ -564,11 +541,9 @@ jobs:
         with:
           version: "latest"
       - run: uv sync --frozen
-      - run: echo '${{ secrets.FIREBASE_CREDENTIALS_JSON }}' > firebase_credentials.json
       - name: Write .env
         run: |
           echo "DATABASE_URL=sqlite+aiosqlite:///./escape_aggregator.db" >> .env
-          echo "FIREBASE_CREDENTIALS_PATH=./firebase_credentials.json" >> .env
           echo "ENVIRONMENT=production" >> .env
           if [ "${{ github.event.schedule }}" != "0 15 * * *" ]; then
             echo "SKIP_META_WRITES=true" >> .env
@@ -578,7 +553,7 @@ jobs:
           run_script() {
             local script="$1"
             echo "::group::$script"
-            uv run python "scripts/$script" \
+            uv run python scripts/run_supabase_crawler.py "$script" --days 14 \
               && echo "✅ $script 완료" \
               || echo "::warning::❌ $script 크롤링 실패 (exit $?)"
             echo "::endgroup::"

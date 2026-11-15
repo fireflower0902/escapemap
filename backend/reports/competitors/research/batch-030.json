@@ -1,0 +1,83 @@
+{
+  "queries": [
+    "엑스케이프 홍대점",
+    "오아시스",
+    "위욜",
+    "이머시브스튜디오 홍대2극장"
+  ],
+  "sources": [
+    {
+      "title": "이머시브스튜디오 홍대2극장 (서울 홍대) 방탈출 매장 | 코로리방탈출",
+      "url": "https://colory.dev/stores/4594"
+    },
+    {
+      "title": "WEYOL",
+      "url": "https://weyol.com/layout/res/home.php"
+    },
+    {
+      "title": "이머시브스튜디오 홍대2극장 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/2-aba94ef1e756406f8b956088d76baba0"
+    },
+    {
+      "title": "BLACK MUSE — 이머시브스튜디오 홍대2극장 방탈출 (서울) · 방탈로그",
+      "url": "https://bangtallog.com/theme/287a6a6a-472f-4930-8a42-3c99d044d882"
+    },
+    {
+      "title": "BLACK MUSE 방탈출 | 이머시브스튜디오 홍대2극장 | 서울 홍대 | EZCAPE",
+      "url": "https://ezcape.co.kr/themes/25e7f735-a055-4801-bc21-e4fca594cfed"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "위욜 (홍대) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/364"
+    },
+    {
+      "title": "BLACK MUSE 방탈출 테마 정보 | 이머시브스튜디오 홍대2극장 - 코리안로컬",
+      "url": "https://thekoreanlocal.com/escape/theme/7e2b0002/"
+    },
+    {
+      "title": "★프리미엄 방탈출카페 오아시스 뮤지엄",
+      "url": "https://oasismuseum.com/"
+    },
+    {
+      "title": "★프리미엄 방탈출카페 오아시스 뮤지엄",
+      "url": "https://secret.oasismuseum.com/ticket"
+    },
+    {
+      "title": "디어마이프렌드 | 위욜 - 잼핏",
+      "url": "https://web.zamfit.kr/escapes/5617/%EB%94%94%EC%96%B4%EB%A7%88%EC%9D%B4%ED%94%84%EB%A0%8C%EB%93%9C"
+    },
+    {
+      "title": "★프리미엄 방탈출카페 오아시스 뮤지엄",
+      "url": "https://secret.oasismuseum.com/ticket"
+    },
+    {
+      "title": "Validity of 2020 Vo",
+      "url": "https://banyantreeclub.com/upload_file/board/newsletter/202010.pdf"
+    },
+    {
+      "title": "상단에는 야외 수영장 옆 카",
+      "url": "https://banyantreeclub.com/upload_file/board/newsletter/5%EC%9B%94%20%EB%89%B4%EC%8A%A4%EB%A0%88%ED%84%B0%281%29.pdf"
+    },
+    {
+      "title": "Information",
+      "url": "https://www.banyantreeclub.com/upload_file/board/newsletter/Newsletter%205_EN%280%29.pdf"
+    },
+    {
+      "title": "기간 2025년 12월 13",
+      "url": "https://www.banyantreeclub.com/upload_file/board/newsletter/Newsletter%202_KR%281%29.pdf"
+    },
+    {
+      "title": "Information",
+      "url": "https://www.banyantreeclub.com/upload_file/board/newsletter/Newsletter%2012_EN%281%29.pdf"
+    },
+    {
+      "title": "야외 수영장 카바나 사진.",
+      "url": "https://banyantreeclub.com/upload_file/board/newsletter/2021%206%EC%9B%94%20%EB%89%B4%EC%8A%A4%EB%A0%88%ED%84%B0.pdf"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}

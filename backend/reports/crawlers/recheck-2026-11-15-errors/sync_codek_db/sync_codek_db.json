@@ -1,0 +1,41 @@
+{
+  "script": "sync_codek_db",
+  "checked_at": "2026-11-15T10:49:19.997195+09:00",
+  "scope": "first configured branch / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {},
+  "cafes_with_slots": 0,
+  "themes_fetched": 0,
+  "themes_with_slots": 0,
+  "slots": 0,
+  "statuses": {},
+  "dates": [],
+  "issues": [],
+  "per_cafe": {
+    "1475074228": {
+      "themes": 0,
+      "slots": 0,
+      "statuses": {},
+      "dates": []
+    }
+  },
+  "sample_themes": [],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "codek5678.cafe24.com",
+      "path": "/sub/code_sub04_1.html",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 4.52,
+  "log_errors": [],
+  "status": "needs_review"
+}

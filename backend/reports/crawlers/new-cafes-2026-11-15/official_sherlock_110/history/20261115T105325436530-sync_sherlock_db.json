@@ -1,0 +1,77 @@
+{
+  "script": "sync_sherlock_db",
+  "checked_at": "2026-11-15T10:53:19.829583+09:00",
+  "scope": "selected cafe IDs: official_sherlock_110 / today + 1 day(s)",
+  "days_after_today": 1,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "official_sherlock_110",
+        "cafe_name": "셜록홈즈",
+        "branch_name": "군산수송점",
+        "address": "전북특별자치도 군산시 동수송안길 23. 4층",
+        "area": "jeonbuk",
+        "sido": 13,
+        "bno": 110
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 104,
+  "statuses": {
+    "available": 92,
+    "full": 12
+  },
+  "dates": [
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "official_sherlock_110": {
+      "themes": 5,
+      "slots": 104,
+      "statuses": {
+        "available": 92,
+        "full": 12
+      },
+      "dates": [
+        "2026-11-15",
+        "2026-11-16"
+      ]
+    }
+  },
+  "sample_themes": [
+    "TEACHER",
+    "YOLO 카페",
+    "쉘터",
+    "암영귀",
+    "호환마마"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "host": "sherlock-holmes.co.kr",
+      "path": "/reservation/res_schedule.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 5.53,
+  "log_errors": [],
+  "status": "smoke_pass"
+}

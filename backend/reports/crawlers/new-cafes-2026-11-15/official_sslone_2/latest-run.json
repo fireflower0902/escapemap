@@ -1,0 +1,85 @@
+[
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-15T10:53:47.205216+09:00",
+    "scope": "selected cafe IDs: official_sslone_2 / today + 1 day(s)",
+    "days_after_today": 1,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "selected": {
+      "SITES": [
+        {
+          "cafe_id": "official_sslone_2",
+          "cafe_name": "상상락원",
+          "branch_name": "익산 원광대점",
+          "address": "전북특별자치도 익산시 동서로5길 96(신동) 2층",
+          "area": "jeonbuk",
+          "base_url": "https://sslone.co.kr",
+          "s_zizum": 2,
+          "use_ssl": true,
+          "need_session": false,
+          "preserve_theme_title": true
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 10,
+    "themes_with_slots": 10,
+    "slots": 160,
+    "statuses": {
+      "full": 16,
+      "available": 144
+    },
+    "dates": [
+      "2026-11-15",
+      "2026-11-16"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "official_sslone_2": {
+        "themes": 10,
+        "slots": 160,
+        "statuses": {
+          "full": 16,
+          "available": 144
+        },
+        "dates": [
+          "2026-11-15",
+          "2026-11-16"
+        ]
+      }
+    },
+    "sample_themes": [
+      "Table Ver.16  (4m Table)",
+      "Table Ver.17  (Small Ball)",
+      "Table Ver.18  (Pulley)",
+      "Table Ver.19  (Curling)",
+      "Table Ver.20  (Fishing)",
+      "Table Ver.21  (Piece)",
+      "Table Ver.22  (Powder room)",
+      "Table Ver.23  (Competition)"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "sslone.co.kr",
+        "path": "/layout/res/home.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 3.41,
+    "log_errors": [],
+    "status": "smoke_pass"
+  }
+]

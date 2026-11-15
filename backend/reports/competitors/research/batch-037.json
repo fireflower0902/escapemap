@@ -1,0 +1,59 @@
+{
+  "queries": [
+    "이룸에이트",
+    "코드헌터",
+    "키이스케이프 LOG_IN 1",
+    "키이스케이프 LOG_IN 2"
+  ],
+  "sources": [
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/reservation.php"
+    },
+    {
+      "title": "이룸에이트(EROOM8) - 무한대의 즐거움이 있는 강남 방탈출카페",
+      "url": "https://eroom8.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "방탈출 예약 오픈일 계산기 | 펭크로",
+      "url": "https://pengucro.com/reservation-opening"
+    },
+    {
+      "title": "키이스케이프 LOG_IN 1 | 서울 방탈출 테마·매장 정보 | EZCAPE",
+      "url": "https://ezcape.co.kr/venues/keyescape-login-1"
+    },
+    {
+      "title": "방탈출 예약 오픈 시간과 예약 잘하는 법 | 코리안로컬 방탈출 가이드",
+      "url": "https://thekoreanlocal.com/escape/guide/booking/"
+    },
+    {
+      "title": "이룸에이트(EROOM8) - 무한대의 즐거움이 있는 강남 방탈출카페",
+      "url": "https://eroom8.co.kr/layout/res/home.php"
+    },
+    {
+      "title": "Seoul Escape Room in Gangnam | Codehunter | English Available",
+      "url": "https://codehunter-escape.com/layout/eng/home.php"
+    },
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/reservation_branch.php"
+    },
+    {
+      "title": "방탈출 — 확인된 매장과 공식 예약처 | LazyScheme Local",
+      "url": "https://local.lazyscheme.com/categories/escape-room/"
+    },
+    {
+      "title": "키이스케이프",
+      "url": "https://www.keyescape.com/web/home.php"
+    },
+    {
+      "title": "키이스케이프 예약 오픈 시간·지점별 예약 안내 | 펭크로",
+      "url": "https://pengucro.com/supported-sites/keyescape"
+    },
+    {
+      "title": "이룸에이트 (강남) | 플레이 방탈출",
+      "url": "https://www.playbangtal.com/cafes/222"
+    }
+  ],
+  "scope": "검색 결과 후보 링크. URL 쿼리·해시는 제외. 운영 확인·지점 연결 검증 완료를 뜻하지 않음."
+}
