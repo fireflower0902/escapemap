@@ -1,0 +1,215 @@
+{
+  "run": {
+    "conclusion": "success",
+    "createdAt": "2026-11-16T13:23:54Z",
+    "status": "completed",
+    "updatedAt": "2026-11-16T13:40:13Z",
+    "url": "https://github.com/fireflower0902/escapemap/actions/runs/43875360037"
+  },
+  "duration_seconds": 979,
+  "health": {
+    "status": "partial",
+    "total": 280,
+    "published": 256,
+    "failed": 24,
+    "errors": [],
+    "warnings": [
+      "24개 카페 수집 실패 — 정상 저장된 카페와 별도로 확인 필요"
+    ],
+    "failures": [
+      {
+        "cafe_id": "7690632",
+        "script": "sync_jigobyeol_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_4",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "official_secretgarden_5",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "official_secretgarden_12",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "script": "sync_xescape_db",
+        "cafe_id": "1772415237",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_3",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "969459474",
+        "script": "sync_escapers_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "1314964065",
+        "script": "sync_escbangtalul_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_6",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "475592733",
+        "script": "sync_rememberesc_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 검증 오류"
+      },
+      {
+        "script": "sync_escbangtalul_db",
+        "cafe_id": "2024880532",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "49858990",
+        "script": "sync_rememberesc_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 검증 오류"
+      },
+      {
+        "script": "sync_zescape_db",
+        "cafe_id": "1713311920",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "27559974",
+        "script": "sync_escbangtalul_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_thetimeescape_db",
+        "cafe_id": "1233678979",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "1735229345",
+        "script": "sync_roomlescape_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_dumbndumber_db",
+        "cafe_id": "203642029",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_roomlescape_db",
+        "cafe_id": "596589943",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_ttescape_db",
+        "cafe_id": "327610610",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "28574930",
+        "script": "sync_dumbndumber_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "782208965",
+        "script": "sync_roomlescape_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_10",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "official_secretgarden_11",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "1654390566",
+        "script": "sync_xescape_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      }
+    ],
+    "checked_at": "2026-11-16T13:40:10.337638+00:00"
+  }
+}

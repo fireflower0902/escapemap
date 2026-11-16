@@ -1,6 +1,10 @@
 import json
 import tempfile
 import unittest
+import contextlib
+import io
+from types import SimpleNamespace
+from unittest.mock import patch
 from pathlib import Path
 
 from scripts import refresh_scheduled, summarize_scheduled
@@ -60,6 +64,42 @@ class ScheduledHealthTests(unittest.TestCase):
             self.assertNotIn('secret-url', str(details))
             path.write_text(json.dumps({'http_calls': [{'status': 403}]}))
             self.assertEqual(refresh_scheduled.failure_details(path), {'failure_kind': 'site', 'reason': 'HTTP 403'})
+
+    def run_refresh(self, check, allow=False):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / 'data').mkdir()
+            (root / 'data/scheduled-crawlers.json').write_text(json.dumps([{'script': 'sync_example_db', 'cafe_id': '1'}]))
+            report = root / 'reports/crawlers/supabase/sync_example_db-1.json'
+            report.parent.mkdir(parents=True)
+            report.write_text(json.dumps({'status': 'smoke_pass'}))
+
+            def subprocess_run(*args, **kwargs):
+                self.assertFalse(report.exists(), 'previous-run report must be removed before starting')
+                if check is not None:
+                    report.write_text(json.dumps(check))
+                return SimpleNamespace(returncode=1)
+
+            argv = ['refresh_scheduled.py'] + (['--allow-site-failures'] if allow else [])
+            with patch.object(refresh_scheduled, 'ROOT', root), patch('sys.argv', argv), patch.object(refresh_scheduled.subprocess, 'run', side_effect=subprocess_run), contextlib.redirect_stdout(io.StringIO()):
+                code = refresh_scheduled.main()
+            result = json.loads((root / 'reports/scheduled/shard-0.json').read_text())
+            return code, result
+
+    def test_scheduled_mode_keeps_site_failure_in_report_but_manual_mode_fails(self):
+        check = {'http_calls': [{'status': 403}]}
+        self.assertEqual(self.run_refresh(check, allow=False)[0], 1)
+        code, result = self.run_refresh(check, allow=True)
+        self.assertEqual(code, 0)
+        self.assertEqual(result['published'], 0)
+        self.assertEqual(result['results'][0]['status'], 'failed')
+        self.assertEqual(result['results'][0]['failure_kind'], 'site')
+
+    def test_scheduled_mode_never_hides_storage_errors_or_missing_reports(self):
+        self.assertEqual(self.run_refresh({'error': 'storage: ConnectionError'}, allow=True)[0], 1)
+        self.assertEqual(self.run_refresh({'error': 'ModuleNotFoundError: missing dependency'}, allow=True)[0], 1)
+        self.assertEqual(self.run_refresh({'error': 'NameError: coding bug'}, allow=True)[0], 1)
+        self.assertEqual(self.run_refresh(None, allow=True)[0], 1)
 
 
 if __name__ == '__main__':

@@ -38,7 +38,8 @@
         "branch_name": "강대점",
         "address": "강원특별자치도 춘천시 서부대성로 231-1",
         "area": "gangwon",
-        "website_url": "http://www.cc-escapezone.co.kr/",
+        "website_url": "http://www.cc-escapezone.co.kr/kr/webpage.php?webpage=0301",
+        "engine": "ccescapezone",
         "is_active": true
       }
     ],
@@ -4497,7 +4498,8 @@
         "address": "경기 고양시 일산동구 고봉로 32-6",
         "area": "gyeonggi",
         "name": "더도어즈이스케이프",
-        "website_url": "http://www.thedoorsescape.com/",
+        "website_url": "https://www.thedoorsescape.com/reserve/",
+        "engine": "sinbiweb",
         "is_active": true
       },
       {

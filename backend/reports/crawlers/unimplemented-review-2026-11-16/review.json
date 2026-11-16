@@ -50,7 +50,7 @@
     "branch_name": null,
     "status": "7일 저장 완료 / 정기 수집 추가",
     "booking_url_or_candidate": "https://www.thedoorsescape.com/reserve/",
-    "reason": "6개 테마·312개 시간대. 숨겨진 예약가능 문구가 아닌 a.end 상태로 마감을 판정",
+    "reason": "7일 범위 조회, 6개 테마·6개 영업일 312개 시간대(당일 지난 시간 제외). 숨겨진 예약가능 문구가 아닌 a.end 상태로 마감을 판정",
     "schedule_implemented": true
   },
   {

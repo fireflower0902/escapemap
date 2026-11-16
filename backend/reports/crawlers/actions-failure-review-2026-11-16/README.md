@@ -43,3 +43,14 @@
 | sync_secretgarden_db | official_secretgarden_10 | HTTP 403 |
 | sync_secretgarden_db | official_secretgarden_11 | HTTP 403 |
 | sync_xescape_db | 1654390566 | 공개 시간표 0건 |
+
+## 수정 후 실제 실행 검증
+
+- 실행: https://github.com/fireflower0902/escapemap/actions/runs/43875360037
+- KST 2026-11-16 22:23:54 ~ 22:40:13, **16분 19초**.
+- GitHub 전체 실행 **Success**. 수집 12개 작업과 집계 1개 작업 모두 정상 종료.
+- 카페 결과는 **부분 실패**: 기존 대상 280곳 중 256곳 정상 저장, 24곳 사이트 수집 실패 (91.4%). 실패한 카페를 성공으로 바꾸지 않았다.
+- 해당 실행은 알림 수정 커밋 07d8f9c 기준으로 실행됐다. 후속 추가한 두 카페는 로컬 실수집·DB 저장을 검증했고 다음 정기 실행부터 총 282곳 대상이다.
+- 수집기 코드 오류/의존성 오류도 DB 오류와 함께 전체 실패로 분류하도록 보강했다.
+- 검증: `python -m pytest tests --ignore=tests/test_engines.py -q`: 72 passed, 16 subtests passed. 기존 미완성 `test_engines.py`는 현재 없는 `KeyEscapeEngine` 클래스를 가져오는 기존 오류가 있어 제외했다.
+- 테스트에는 기존 보고서 오인 방지, 엄격한 수동 실행, 사이트 경고 보존, 저장 오류/실행 오류/누락된 결과의 Fail 유지가 포함된다.
