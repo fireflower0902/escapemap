@@ -1070,7 +1070,10 @@
       "area": "daejeon",
       "website_url": "http://daejeon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=6",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "1678997732",
@@ -1120,7 +1123,10 @@
       "area": "ulsan",
       "website_url": "http://www.zescape.co.kr",
       "engine": "zescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "1719351380",
@@ -1350,7 +1356,10 @@
       "area": "jamsil",
       "website_url": "http://cheonho.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=7",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "1862264503",
@@ -1700,7 +1709,10 @@
       "area": "myeongdong",
       "website_url": "http://www.dumbndumber.kr",
       "engine": "dumbndumber",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "2039293420",
@@ -1760,7 +1772,10 @@
       "area": "jamsil",
       "website_url": "http://jamsil.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=5",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "2100000004",
@@ -1770,7 +1785,10 @@
       "area": "daegu",
       "website_url": "http://daegu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=2",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "2102768222",
@@ -1820,7 +1838,10 @@
       "area": "incheon",
       "website_url": "https://amazed.co.kr/?page_id=4808#booking",
       "engine": "amazed_booked",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 응답에서 공식 예약 달력 확인 불가"
     },
     {
       "id": "2143447304",
@@ -2000,7 +2021,10 @@
       "area": "hongdae",
       "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "27413263",
@@ -2040,7 +2064,10 @@
       "area": "jeonbuk",
       "website_url": "http://junju.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=4",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "27523824",
@@ -2080,7 +2107,10 @@
       "area": "incheon",
       "website_url": "http://incheon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=3",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "27575809",
@@ -2160,7 +2190,10 @@
       "area": "busan",
       "website_url": "http://www.dumbndumber-sm.kr",
       "engine": "dumbndumber",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "287949141",
@@ -2450,7 +2483,10 @@
       "area": "seoul_other",
       "website_url": "http://suyu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=8",
       "engine": "cubeescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "436025860",
@@ -3790,7 +3826,10 @@
       "area": "gwangju",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_secretgarden_11",
@@ -3800,7 +3839,10 @@
       "area": "myeongdong",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_secretgarden_12",
@@ -3810,7 +3852,10 @@
       "area": "jeonbuk",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_secretgarden_3",
@@ -3820,7 +3865,10 @@
       "area": "busan",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_secretgarden_4",
@@ -3830,7 +3878,10 @@
       "area": "myeongdong",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_secretgarden_5",
@@ -3840,7 +3891,10 @@
       "area": "konkuk",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_secretgarden_6",
@@ -3850,7 +3904,10 @@
       "area": "daegu",
       "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6&rdate=2026-11-15",
       "engine": "secretgarden",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawler_status": "blocked_remote",
+      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
     },
     {
       "id": "official_sherlock_105",

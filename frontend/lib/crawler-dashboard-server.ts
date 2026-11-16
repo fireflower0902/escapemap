@@ -186,6 +186,8 @@ export async function getDashboardData(date: string, force: boolean): Promise<Da
       active: inDatabase ? cafe.is_active !== false : typeof cafe.is_active === "boolean" ? cafe.is_active : null, inDatabase,
       website: /^https?:\/\//.test(cafe.website_url ?? "") ? cafe.website_url : null,
       engine: cafe.engine ?? null,
+      automaticPaused: cafe.scheduler_paused === true,
+      pauseReason: typeof cafe.crawl_pause_reason === "string" ? cafe.crawl_pause_reason : null,
       coverage: cannotCrawl ? "not_crawlable" as const : scripts.length ? "configured" as const : "unconfigured" as const,
       scriptIds: scripts.map(run => run.id), check, checkInScope: scoped.length > 0,
       themeCount: live ? metaThemes.length : null, slotCount: live ? allSlots.length : null,

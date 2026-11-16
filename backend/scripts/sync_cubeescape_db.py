@@ -38,6 +38,7 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import date, datetime, time as dtime, timedelta
 from http.cookiejar import CookieJar
 from pathlib import Path
@@ -164,6 +165,8 @@ def _make_opener(base_url: str, office: int) -> urllib.request.OpenerDirector:
         with opener.open(req, timeout=15) as r:
             r.read()
     except Exception as e:
+        if isinstance(e, urllib.error.HTTPError) and e.code in (401, 403):
+            raise
         print(f"  [WARN] 세션 획득 실패: {e}")
     return opener
 
@@ -193,6 +196,8 @@ def _fetch_schedule(opener: urllib.request.OpenerDirector, branch: dict, target_
         with opener.open(req, timeout=15) as r:
             return r.read().decode("utf-8", errors="ignore")
     except Exception as e:
+        if isinstance(e, urllib.error.HTTPError) and e.code in (401, 403):
+            raise
         print(f"  [WARN] 페이지 로드 실패 {date_str}: {e}")
         return ""
 

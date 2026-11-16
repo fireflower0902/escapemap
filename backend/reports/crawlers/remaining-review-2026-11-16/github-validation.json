@@ -1,0 +1,530 @@
+{
+  "run": {
+    "conclusion": "failure",
+    "createdAt": "2026-11-16T15:07:06Z",
+    "status": "completed",
+    "updatedAt": "2026-11-16T15:27:22Z",
+    "url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835"
+  },
+  "duration_seconds": 1216,
+  "health": {
+    "status": "failure",
+    "total": 326,
+    "published": 290,
+    "failed": 36,
+    "errors": [
+      "정상 저장률 90% 미만"
+    ],
+    "warnings": [
+      "36개 카페 수집 실패 — 정상 저장된 카페와 별도로 확인 필요"
+    ],
+    "failures": [
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "27522878",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "969459474",
+        "script": "sync_escapers_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "1796437751",
+        "script": "sync_murderparker_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_10",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "script": "sync_amazed_db",
+        "cafe_id": "2138418097",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 검증 오류"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "27564986",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_11",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "script": "sync_zescape_db",
+        "cafe_id": "1713311920",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "2100000004",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_roomlescape_db",
+        "cafe_id": "596589943",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "27413260",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "782208965",
+        "script": "sync_roomlescape_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_ccescapezone_db",
+        "cafe_id": "230738333",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 검증 오류"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "4331171",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_12",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "script": "sync_thetimeescape_db",
+        "cafe_id": "1233678979",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_3",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "script": "sync_dumbndumber_db",
+        "cafe_id": "203642029",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "1314964065",
+        "script": "sync_escbangtalul_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "399727939",
+        "script": "sync_murderparker_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "official_secretgarden_4",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "28574930",
+        "script": "sync_dumbndumber_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_escbangtalul_db",
+        "cafe_id": "2024880532",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "583591672",
+        "script": "sync_murderparker_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "475592733",
+        "script": "sync_rememberesc_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 검증 오류"
+      },
+      {
+        "cafe_id": "official_secretgarden_5",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "27559974",
+        "script": "sync_escbangtalul_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "49858990",
+        "script": "sync_rememberesc_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 검증 오류"
+      },
+      {
+        "cafe_id": "official_secretgarden_6",
+        "script": "sync_secretgarden_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "HTTP 403"
+      },
+      {
+        "cafe_id": "605934214",
+        "script": "sync_murderparker_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "167846502",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "1654390566",
+        "script": "sync_xescape_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "1857201893",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_xescape_db",
+        "cafe_id": "1772415237",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "script": "sync_cubeescape_db",
+        "cafe_id": "2100000001",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      },
+      {
+        "cafe_id": "1735229345",
+        "script": "sync_roomlescape_db",
+        "status": "failed",
+        "exit_code": 1,
+        "failure_kind": "site",
+        "reason": "시간표 미수집 또는 검증 경고"
+      }
+    ],
+    "checked_at": "2026-11-16T15:27:17.969408+00:00"
+  },
+  "added_cafes": {
+    "local_verified": 44,
+    "github_published": 35,
+    "github_deferred": 9
+  },
+  "scheduled_after_runtime_review": 307,
+  "deferred": [
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "27522878",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:08:09.384816+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "전주점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_10",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:10:40.721367+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "광주점"
+    },
+    {
+      "script": "sync_amazed_db",
+      "cafe_id": "2138418097",
+      "runtime": "github_actions",
+      "reason": "GitHub 응답에서 공식 예약 달력 확인 불가",
+      "last_checked_at": "2026-11-17T00:07:45.192793+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "어메이즈드",
+      "branch_name": "3호점"
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "27564986",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:07:45.192456+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "인천점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_11",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:09:59.377431+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "시네마틱 혜화점"
+    },
+    {
+      "script": "sync_zescape_db",
+      "cafe_id": "1713311920",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:10:59.321239+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "제트방탈출카페",
+      "branch_name": ""
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "2100000004",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:17:44.925196+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "대구점"
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "27413260",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:17:50.454535+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "홍대점"
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "4331171",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:07:39.078138+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "수유점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_12",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:10:29.849408+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "전주점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_3",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:10:22.040397+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "서면점"
+    },
+    {
+      "script": "sync_dumbndumber_db",
+      "cafe_id": "203642029",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:07:54.756699+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "덤앤더머 방탈출카페",
+      "branch_name": "대학로점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_4",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:11:04.097972+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "대학로점"
+    },
+    {
+      "script": "sync_dumbndumber_db",
+      "cafe_id": "28574930",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:07:53.939733+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "덤앤더머 방탈출카페",
+      "branch_name": "서면점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_5",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:10:56.510154+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "건대점"
+    },
+    {
+      "script": "sync_secretgarden_db",
+      "cafe_id": "official_secretgarden_6",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:18:07.246112+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": false,
+      "name": "비밀의화원",
+      "branch_name": "동성로점"
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "167846502",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:15:46.748722+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "대전둔산점"
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "1857201893",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:16:57.339803+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "천호점"
+    },
+    {
+      "script": "sync_cubeescape_db",
+      "cafe_id": "2100000001",
+      "runtime": "github_actions",
+      "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+      "last_checked_at": "2026-11-17T00:17:17.161658+09:00",
+      "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+      "added_in_this_review": true,
+      "name": "큐브이스케이프",
+      "branch_name": "잠실점"
+    }
+  ]
+}

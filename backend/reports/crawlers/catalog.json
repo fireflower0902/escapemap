@@ -40,7 +40,10 @@
         "area": "incheon",
         "website_url": "https://amazed.co.kr/?page_id=4808#booking",
         "engine": "amazed_booked",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 응답에서 공식 예약 달력 확인 불가"
       }
     ],
     "selections": {}
@@ -187,7 +190,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "2100000001",
@@ -198,7 +204,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://jamsil.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=5",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "1857201893",
@@ -209,7 +218,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://cheonho.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=7",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "4331171",
@@ -220,7 +232,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://suyu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=8",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "27564986",
@@ -231,7 +246,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://incheon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=3",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "27522878",
@@ -242,7 +260,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://junju.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=4",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "167846502",
@@ -253,7 +274,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://daejeon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=6",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "2100000004",
@@ -264,7 +288,10 @@
         "name": "큐브이스케이프",
         "website_url": "http://daegu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=2",
         "engine": "cubeescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       }
     ],
     "selections": {}
@@ -518,7 +545,10 @@
         "name": "덤앤더머 방탈출카페",
         "website_url": "http://www.dumbndumber.kr",
         "engine": "dumbndumber",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "28574930",
@@ -528,7 +558,10 @@
         "name": "덤앤더머 방탈출카페",
         "website_url": "http://www.dumbndumber-sm.kr",
         "engine": "dumbndumber",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       }
     ],
     "selections": {}
@@ -3747,7 +3780,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "official_secretgarden_4",
@@ -3758,7 +3794,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "official_secretgarden_5",
@@ -3769,7 +3808,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "official_secretgarden_6",
@@ -3780,7 +3822,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "official_secretgarden_10",
@@ -3791,7 +3836,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "official_secretgarden_11",
@@ -3802,7 +3850,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       },
       {
         "cafe_id": "official_secretgarden_12",
@@ -3813,7 +3864,10 @@
         "name": "비밀의화원",
         "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12&rdate=2026-11-15",
         "engine": "secretgarden",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       }
     ],
     "selections": {}
@@ -5766,7 +5820,10 @@
         "area": "ulsan",
         "website_url": "http://www.zescape.co.kr",
         "engine": "zescape",
-        "is_active": true
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawler_status": "blocked_remote",
+        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
       }
     ],
     "selections": {}

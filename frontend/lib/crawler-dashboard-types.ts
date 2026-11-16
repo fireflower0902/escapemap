@@ -17,6 +17,7 @@ export type DashboardRun = CatalogEntry & { latest: CrawlerCheck | null; testedC
 export type DashboardCafe = {
   id: string; name: string; branch: string; address: string; area: string;
   active: boolean | null; inDatabase: boolean | null; website: string | null; engine: string | null;
+  automaticPaused?: boolean; pauseReason?: string | null;
   coverage: CafeCoverage; scriptIds: string[]; check: CrawlerCheck | null; checkInScope: boolean;
   themeCount: number | null; slotCount: number | null; available: number | null;
   testThemeCount: number | null; testSlotCount: number | null;

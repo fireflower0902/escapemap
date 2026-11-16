@@ -4,10 +4,6 @@
     "cafe_id": "338628640"
   },
   {
-    "script": "sync_amazed_db",
-    "cafe_id": "2138418097"
-  },
-  {
     "script": "sync_ccescapezone_db",
     "cafe_id": "230738333"
   },
@@ -26,38 +22,6 @@
   {
     "cafe_id": "official_codek_S3",
     "script": "sync_codek_db"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "167846502"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "1857201893"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "2100000001"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "2100000004"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "27413260"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "27522878"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "27564986"
-  },
-  {
-    "script": "sync_cubeescape_db",
-    "cafe_id": "4331171"
   },
   {
     "cafe_id": "1442041275",
@@ -110,14 +74,6 @@
   {
     "script": "sync_dreampicnic_db",
     "cafe_id": "59939450"
-  },
-  {
-    "script": "sync_dumbndumber_db",
-    "cafe_id": "203642029"
-  },
-  {
-    "cafe_id": "28574930",
-    "script": "sync_dumbndumber_db"
   },
   {
     "script": "sync_escapecity_db",
@@ -816,34 +772,6 @@
     "script": "sync_roomlescape_db"
   },
   {
-    "cafe_id": "official_secretgarden_10",
-    "script": "sync_secretgarden_db"
-  },
-  {
-    "cafe_id": "official_secretgarden_11",
-    "script": "sync_secretgarden_db"
-  },
-  {
-    "cafe_id": "official_secretgarden_12",
-    "script": "sync_secretgarden_db"
-  },
-  {
-    "cafe_id": "official_secretgarden_3",
-    "script": "sync_secretgarden_db"
-  },
-  {
-    "cafe_id": "official_secretgarden_4",
-    "script": "sync_secretgarden_db"
-  },
-  {
-    "cafe_id": "official_secretgarden_5",
-    "script": "sync_secretgarden_db"
-  },
-  {
-    "cafe_id": "official_secretgarden_6",
-    "script": "sync_secretgarden_db"
-  },
-  {
     "script": "sync_seoulescaperoom_db",
     "cafe_id": "1351400084"
   },
@@ -1298,9 +1226,5 @@
   {
     "cafe_id": "official_zeroworld_2",
     "script": "sync_zeroworld_current_db"
-  },
-  {
-    "script": "sync_zescape_db",
-    "cafe_id": "1713311920"
   }
 ]

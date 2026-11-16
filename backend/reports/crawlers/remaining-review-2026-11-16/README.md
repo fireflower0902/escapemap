@@ -2,24 +2,38 @@
 
 점검 시작: 2026-11-16, 반영: 2026-11-17 (KST). 운영 등록 405곳 / 점검 전 정기 수집 282곳.
 
-## 반영 결과
+## 현재 결과
 
-- 기존 수집기 연결 62곳을 지점별로 오늘~다음날 재검증: 최초 57곳 needs_review, 5곳 error.
-- 공식 네이버 예약처의 상호·주소를 대조하고 16곳을 기존 공통 수집기에 연결했다.
-- 개편된 Reserv 공식 공개 API로 13곳을 전환했다. 구 API 500 응답을 무시하지 않고 새 지점 키와 시간표를 검증한다.
-- 큐브 8곳: 예약 페이지의 세션 초기화, 시간 범위/상태 태그, 미래 날짜 한정 테마를 수정했다.
-- 둠 3곳·라비린스·호텔레토: DOM/24시 이후 시간/세션/HTTPS 이동을 수정했다.
-- 어메이즈드 부평3호점과 엑소더스 강남1호점의 현재 공식 시간표 수집기를 추가했다.
-- **44곳 저장 통과, 정기 수집 282 → 326곳.** 이번 검증에서 확인한 222개 테마 / 12,457개 시간대 (수집 시점 7일 요청 범위).
-- 기존 카페 ID를 유지하고 DB engine·공식 예약 URL 및 현황판 카탈로그를 갱신했다. 시간의문/이스케이프샵 공식 상호도 정정했다.
-- **남은 79개 항목은 미수집 상태를 유지**한다. 폐업·만석·수집 성공을 추정하지 않는다.
-- 검증은 예약 신청·선점·취소 없이 공개 조회만 수행했다.
+- 기존 연결 수집기 62곳을 개별 재검증하고, 미연결 항목의 공식 예약처·상호·주소·접근 상태를 대조했다.
+- **44곳의 수집기를 추가·수정하고 로컬에서 7일 범위 저장 검증**: 222개 테마 / 12,457개 관측 시간대.
+- **GitHub에서도 신규 35곳 정상 저장 확인.** 큐브 8곳은 GitHub HTTP 403, 어메이즈드 1곳은 GitHub에서 공식 달력 없는 응답으로 자동 수집 보류.
+- 기존 정기 대상에서도 HTTP 403이 확인된 10곳을 같은 기준으로 보류했다.
+- **현재 자동 정기 대상: 282 + 신규 35 - 기존 보류 10 = 307곳.** 로컬에서 구현/수집을 확인한 326곳과 구분한다.
+- 나머지 기존 미해결 79개 항목과 GitHub 보류 19곳을 유지·표시한다. 삭제·폐업 처리나 빈자리 추정은 하지 않았다.
 
-## 상태별 개수
+## 구현 내용
+
+- 네이버 예약 16곳: 공식 상호·주소 대조, 실제 예약 유형 6/12에 맞는 링크 사용.
+- 개편된 Reserv 공개 API 13곳: 구 API 500 응답을 새 지점 키/공개 시간표 API로 전환.
+- 큐브 8곳: 공식 예약 화면 세션, 시간 범위/상태 태그, 미래 날짜 한정 테마 수정. GitHub 403은 즉시 중단.
+- 둠 3곳·라비린스·호텔레토: DOM/24시 이후 시간/세션/HTTPS 주소 이동 수정.
+- 어메이즈드 부평3호점·엑소더스 강남1호점의 현재 공식 공개 시간표 수집기 추가.
+- DB engine·공식 예약 URL·현황판용 디렉터리 갱신. 시간의문/이스케이프샵 공식 상호 정정.
+- 현황판에서 로컬 검증 통과와 별도로 자동 수집 보류 사유 표시. 카페 ID와 기존 데이터는 보존.
+- 예약 신청·선점·취소 없이 공개 조회만 수행.
+
+## GitHub 확장 검증
+
+- 실행: https://github.com/fireflower0902/escapemap/actions/runs/43892931835
+- KST 2026-11-17 00:07:06 ~ 00:27:22, **20분 16초**.
+- 확장 시험 대상 326곳 중 290곳 정상 저장, 36곳 실패. 정상 저장률 90% 미만을 감지해 최종 집계는 Fail. 수집 12개 작업은 정상 종료.
+- 이 결과를 근거로 위의 접근 제한/비정상 응답 19곳을 자동 대상에서 보류했다. 정상 저장률 기준을 낮추거나 실패를 성공으로 바꾸지 않았다.
+
+## 상태별 개수 (점검한 123곳)
 
 | 상태 | 개수 |
 |---|---:|
-| 수집 추가 | 44 |
+| 정기 수집 추가 | 35 |
 | 중복 후보 | 5 |
 | 기존 수집기 미해결 | 19 |
 | 예약처/파서 추가 확인 | 12 |
@@ -29,59 +43,60 @@
 | 예약처 불일치 | 1 |
 | 공개 시간표 미확인 | 1 |
 | 온라인 시간표 미제공 | 1 |
+| 로컬 통과 / GitHub 보류 | 9 |
 | 리뉴얼 안내 | 1 |
 | 접근 제한 | 2 |
 
-## 이번에 정기 수집에 추가한 카페
+## 수집기를 개선한 44곳
 
-| 카페/지점 | 지역 | 수집기 | 테마 | 관측 시간대 |
-|---|---|---|---:|---:|
-| gateoftime 광주점 | gwangju | sync_reserv_public_db | 9 | 588 |
-| gateoftime 대구동성로점 | daegu | sync_reserv_public_db | 5 | 308 |
-| 강릉방탈출카페  | gangwon | sync_escapetop_db | 5 | 210 |
-| 광주방탈출카페 식스센스  | gwangju | sync_escapetop_db | 5 | 248 |
-| 다락방방탈출카페 청주직영점 | chungbuk | sync_escapetop_db | 4 | 240 |
-| 더메이즈 건대점 | konkuk | sync_reserv_public_db | 5 | 315 |
-| 도파민방탈출  | gyeonggi | sync_escapetop_db | 4 | 176 |
-| 두잇이스케이프  | gyeonggi | sync_escapetop_db | 5 | 230 |
-| 둠이스케이프 1호점 | incheon | sync_sinbiweb_db | 4 | 204 |
-| 둠이스케이프 2호점 | incheon | sync_sinbiweb_db | 4 | 188 |
-| 둠이스케이프 DTH점 | incheon | sync_sinbiweb_db | 4 | 204 |
-| 드림이스케이프  | konkuk | sync_escapetop_db | 4 | 225 |
-| 라비린스이스케이프  | gyeonggi | sync_sinbiweb_db | 7 | 354 |
-| 룸익스케이프 신촌 블랙점 | sinchon | sync_reserv_public_db | 4 | 193 |
-| 룸익스케이프 신촌 올리브점 | sinchon | sync_reserv_public_db | 2 | 158 |
-| 룸익스케이프 신촌 화이트점 | sinchon | sync_reserv_public_db | 5 | 261 |
-| 룸익스케이프 인디고블루점 | sinchon | sync_reserv_public_db | 3 | 168 |
-| 방탈출 미로  | seoul_other | sync_escapetop_db | 6 | 303 |
-| 방탈출고  | incheon | sync_escapetop_db | 6 | 270 |
-| 시그널헌터 가로수길점 | gangnam | sync_escapetop_db | 4 | 210 |
-| 시그널헌터 동탄점 | gyeonggi | sync_escapetop_db | 5 | 262 |
-| 신나는방탈출  | busan | sync_escapetop_db | 3 | 132 |
-| 어메이즈드 3호점 | incheon | sync_amazed_db | 1 | 98 |
-| 엑소더스 강남1호점 | gangnam | sync_exodus_current_db | 2 | 101 |
-| 오늘의한페이지 방탈출카페  | gangnam | sync_reserv_public_db | 3 | 203 |
-| 이스케이프샾 건대점 | konkuk | sync_reserv_public_db | 10 | 658 |
-| 이스케이프샾  | gangnam | sync_reserv_public_db | 5 | 343 |
-| 코드나인방탈출카페  | chungnam | sync_escapetop_db | 4 | 176 |
-| 큐브이스케이프 대구점 | daegu | sync_cubeescape_db | 10 | 640 |
-| 큐브이스케이프 대전둔산점 | daejeon | sync_cubeescape_db | 6 | 376 |
-| 큐브이스케이프 수유점 | seoul_other | sync_cubeescape_db | 9 | 293 |
-| 큐브이스케이프 인천점 | incheon | sync_cubeescape_db | 5 | 310 |
-| 큐브이스케이프 잠실점 | jamsil | sync_cubeescape_db | 6 | 324 |
-| 큐브이스케이프 전주점 | jeonbuk | sync_cubeescape_db | 8 | 458 |
-| 큐브이스케이프 천호점 | jamsil | sync_cubeescape_db | 7 | 406 |
-| 큐브이스케이프 홍대점 | hongdae | sync_cubeescape_db | 9 | 512 |
-| 파노라마 부산  | busan | sync_escapetop_db | 1 | 53 |
-| 플레이더월드 강남점 | gangnam | sync_escapetop_db | 5 | 154 |
-| 플레이더월드 건대점 | konkuk | sync_escapetop_db | 5 | 300 |
-| 플레이더월드 대전은행점 | daejeon | sync_escapetop_db | 7 | 528 |
-| 플레이더월드 동성로점 | daegu | sync_reserv_public_db | 4 | 308 |
-| 플레이더월드 부평점 | incheon | sync_reserv_public_db | 5 | 343 |
-| 플레이더월드 평택점 | gyeonggi | sync_reserv_public_db | 6 | 378 |
-| 호텔레토 성수점 | seongsu | sync_sinbiweb_db | 1 | 48 |
+| 카페/지점 | 지역 | 수집기 | 테마 | 관측 시간대 | GitHub |
+|---|---|---|---:|---:|---|
+| 시간의문 광주점 | gwangju | sync_reserv_public_db | 9 | 588 | 저장 통과 |
+| 시간의문 대구동성로점 | daegu | sync_reserv_public_db | 5 | 308 | 저장 통과 |
+| 강릉방탈출카페  | gangwon | sync_escapetop_db | 5 | 210 | 저장 통과 |
+| 광주방탈출카페 식스센스  | gwangju | sync_escapetop_db | 5 | 248 | 저장 통과 |
+| 다락방방탈출카페 청주직영점 | chungbuk | sync_escapetop_db | 4 | 240 | 저장 통과 |
+| 더메이즈 건대점 | konkuk | sync_reserv_public_db | 5 | 315 | 저장 통과 |
+| 도파민방탈출  | gyeonggi | sync_escapetop_db | 4 | 176 | 저장 통과 |
+| 두잇이스케이프  | gyeonggi | sync_escapetop_db | 5 | 230 | 저장 통과 |
+| 둠이스케이프 1호점 | incheon | sync_sinbiweb_db | 4 | 204 | 저장 통과 |
+| 둠이스케이프 2호점 | incheon | sync_sinbiweb_db | 4 | 188 | 저장 통과 |
+| 둠이스케이프 DTH점 | incheon | sync_sinbiweb_db | 4 | 204 | 저장 통과 |
+| 드림이스케이프  | konkuk | sync_escapetop_db | 4 | 225 | 저장 통과 |
+| 라비린스이스케이프  | gyeonggi | sync_sinbiweb_db | 7 | 354 | 저장 통과 |
+| 룸익스케이프 신촌 블랙점 | sinchon | sync_reserv_public_db | 4 | 193 | 저장 통과 |
+| 룸익스케이프 신촌 올리브점 | sinchon | sync_reserv_public_db | 2 | 158 | 저장 통과 |
+| 룸익스케이프 신촌 화이트점 | sinchon | sync_reserv_public_db | 5 | 261 | 저장 통과 |
+| 룸익스케이프 인디고블루점 | sinchon | sync_reserv_public_db | 3 | 168 | 저장 통과 |
+| 방탈출 미로  | seoul_other | sync_escapetop_db | 6 | 303 | 저장 통과 |
+| 방탈출고  | incheon | sync_escapetop_db | 6 | 270 | 저장 통과 |
+| 시그널헌터 가로수길점 | gangnam | sync_escapetop_db | 4 | 210 | 저장 통과 |
+| 시그널헌터 동탄점 | gyeonggi | sync_escapetop_db | 5 | 262 | 저장 통과 |
+| 신나는방탈출  | busan | sync_escapetop_db | 3 | 132 | 저장 통과 |
+| 어메이즈드 3호점 | incheon | sync_amazed_db | 1 | 98 | 자동 보류 |
+| 엑소더스 강남1호점 | gangnam | sync_exodus_current_db | 2 | 101 | 저장 통과 |
+| 오늘의한페이지 방탈출카페  | gangnam | sync_reserv_public_db | 3 | 203 | 저장 통과 |
+| 이스케이프샵 건대점 | konkuk | sync_reserv_public_db | 10 | 658 | 저장 통과 |
+| 이스케이프샵  | gangnam | sync_reserv_public_db | 5 | 343 | 저장 통과 |
+| 코드나인방탈출카페  | chungnam | sync_escapetop_db | 4 | 176 | 저장 통과 |
+| 큐브이스케이프 대구점 | daegu | sync_cubeescape_db | 10 | 640 | 자동 보류 |
+| 큐브이스케이프 대전둔산점 | daejeon | sync_cubeescape_db | 6 | 376 | 자동 보류 |
+| 큐브이스케이프 수유점 | seoul_other | sync_cubeescape_db | 9 | 293 | 자동 보류 |
+| 큐브이스케이프 인천점 | incheon | sync_cubeescape_db | 5 | 310 | 자동 보류 |
+| 큐브이스케이프 잠실점 | jamsil | sync_cubeescape_db | 6 | 324 | 자동 보류 |
+| 큐브이스케이프 전주점 | jeonbuk | sync_cubeescape_db | 8 | 458 | 자동 보류 |
+| 큐브이스케이프 천호점 | jamsil | sync_cubeescape_db | 7 | 406 | 자동 보류 |
+| 큐브이스케이프 홍대점 | hongdae | sync_cubeescape_db | 9 | 512 | 자동 보류 |
+| 파노라마 부산  | busan | sync_escapetop_db | 1 | 53 | 저장 통과 |
+| 플레이더월드 강남점 | gangnam | sync_escapetop_db | 5 | 154 | 저장 통과 |
+| 플레이더월드 건대점 | konkuk | sync_escapetop_db | 5 | 300 | 저장 통과 |
+| 플레이더월드 대전은행점 | daejeon | sync_escapetop_db | 7 | 528 | 저장 통과 |
+| 플레이더월드 동성로점 | daegu | sync_reserv_public_db | 4 | 308 | 저장 통과 |
+| 플레이더월드 부평점 | incheon | sync_reserv_public_db | 5 | 343 | 저장 통과 |
+| 플레이더월드 평택점 | gyeonggi | sync_reserv_public_db | 6 | 378 | 저장 통과 |
+| 호텔레토 성수점 | seongsu | sync_sinbiweb_db | 1 | 48 | 저장 통과 |
 
-## 남은 항목과 미해결 사유
+## 기존 미해결 79개 항목
 
 | 카페/지점 | 지역 | 상태 | 근거·다음 검토 |
 |---|---|---|---|
@@ -165,13 +180,39 @@
 | 하이드앤시크 홍대점 | hongdae | 공식 도메인 접속 확인 불가 | ConnectionError — 폐업으로 단정하지 않음 |
 | 할리갈리인더룸방탈출시즌2  | gyeonggi | 공식 시간표·예약처 추가 확인 필요 | 사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음 |
 
+## 자동 수집 보류 19곳 (기존 10 + 신규 9)
+
+| 카페/지점 | 수집기 | 사유 |
+|---|---|---|
+| 큐브이스케이프 전주점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 광주점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 어메이즈드 3호점 | sync_amazed_db | GitHub 응답에서 공식 예약 달력 확인 불가 |
+| 큐브이스케이프 인천점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 시네마틱 혜화점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 제트방탈출카페  | sync_zescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 큐브이스케이프 대구점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 큐브이스케이프 홍대점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 큐브이스케이프 수유점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 전주점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 서면점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 덤앤더머 방탈출카페 대학로점 | sync_dumbndumber_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 대학로점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 덤앤더머 방탈출카페 서면점 | sync_dumbndumber_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 건대점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 비밀의화원 동성로점 | sync_secretgarden_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 큐브이스케이프 대전둔산점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 큐브이스케이프 천호점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+| 큐브이스케이프 잠실점 | sync_cubeescape_db | GitHub 실행에서 HTTP 403 접근 제한 |
+
 ## 검증 자료
 
-- `baseline.json`: 시작 시점 DB의 123개 미등록 대상.
-- `recheck.json`: 기존 연결 수집기 62곳 실제 읽기 검증 결과.
-- `naver-identity.json`: 공식 네이버 예약 화면의 상호/주소 대조 자료.
-- `remaining-url-audit.json`: 아직 미해결인 항목의 등록 공식 URL 49개 조회 결과 (소개 페이지 200을 시간표 성공으로 취급하지 않음).
-- `published-checks.json`, `published-summary.json`: 최종 통과한 44곳의 수집/저장 검증 증거.
-- `metadata-updates.json`: DB 연결 정보 수정 전/후 값.
-- 테스트는 현재 서비스 경로 대상. 기존 미완성 `test_engines.py`는 존재하지 않는 엔진 클래스를 참조하므로 제외했다.
-- 날짜가 바뀐 뒤 현재 7일 범위가 달라질 수 있다. 정기 수집은 실행 당시 KST 오늘부터 7일을 다시 채운다.
+- `baseline.json`: 시작 시점 DB의 123개 대상.
+- `recheck.json`: 기존 수집기 62곳의 최초 실제 읽기 검증 결과.
+- `naver-identity.json`: 공식 네이버 예약 상호·주소 대조 자료.
+- `remaining-url-audit.json`: 미해결 항목 공식 URL 49개 조회 결과.
+- `published-checks.json`, `published-summary.json`: 로컬 저장 통과 44곳의 상세 증거.
+- `github-validation.json`: GitHub 확장 시험 결과 및 보류 근거.
+- `metadata-updates.json`: DB 연결 정보 수정 전/후.
+- `../../../data/deferred-crawlers.json`: 자동 수집 보류 목록. 재개 시 명시적으로 목록에서 제외하고 정기 대상·DB 보류 표시를 함께 갱신한다.
+- 과거 미완성 `test_engines.py`는 현재 없는 엔진 클래스를 참조하므로 서비스 경로 테스트에서 제외.
+- 수집 도중 KST 날짜가 바뀌었으므로 관측 수치의 기준 날짜는 각 `checked_at`을 따른다. 정기 수집은 실행 당시 오늘부터 7일을 채운다.

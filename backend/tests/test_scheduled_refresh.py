@@ -19,3 +19,9 @@ class ScheduledRefreshTests(unittest.TestCase):
   items=[{'script':'sync_a','cafe_id':str(n)} for n in range(5)]+[{'script':'sync_b','cafe_id':'b'}]
   selected=module.select_tasks(items,0,1)
   self.assertEqual([r['script'] for r in selected[:2]],['sync_a','sync_b'])
+
+ def test_deferred_cafes_are_not_scheduled_automatically(self):
+  scheduled=json.loads((ROOT/'data/scheduled-crawlers.json').read_text())
+  deferred=json.loads((ROOT/'data/deferred-crawlers.json').read_text())
+  self.assertFalse({r['cafe_id'] for r in scheduled} & {r['cafe_id'] for r in deferred})
+  self.assertTrue(all(r.get('reason') and r.get('runtime')=='github_actions' for r in deferred))

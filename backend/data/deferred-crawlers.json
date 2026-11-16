@@ -1,0 +1,211 @@
+[
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "27522878",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:08:09.384816+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "전주점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_10",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:10:40.721367+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "광주점"
+  },
+  {
+    "script": "sync_amazed_db",
+    "cafe_id": "2138418097",
+    "runtime": "github_actions",
+    "reason": "GitHub 응답에서 공식 예약 달력 확인 불가",
+    "last_checked_at": "2026-11-17T00:07:45.192793+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "어메이즈드",
+    "branch_name": "3호점"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "27564986",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:07:45.192456+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "인천점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_11",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:09:59.377431+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "시네마틱 혜화점"
+  },
+  {
+    "script": "sync_zescape_db",
+    "cafe_id": "1713311920",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:10:59.321239+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "제트방탈출카페",
+    "branch_name": ""
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "2100000004",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:17:44.925196+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "대구점"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "27413260",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:17:50.454535+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "홍대점"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "4331171",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:07:39.078138+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "수유점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_12",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:10:29.849408+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "전주점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_3",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:10:22.040397+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "서면점"
+  },
+  {
+    "script": "sync_dumbndumber_db",
+    "cafe_id": "203642029",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:07:54.756699+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "대학로점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_4",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:11:04.097972+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "대학로점"
+  },
+  {
+    "script": "sync_dumbndumber_db",
+    "cafe_id": "28574930",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:07:53.939733+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "서면점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_5",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:10:56.510154+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "건대점"
+  },
+  {
+    "script": "sync_secretgarden_db",
+    "cafe_id": "official_secretgarden_6",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:18:07.246112+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": false,
+    "name": "비밀의화원",
+    "branch_name": "동성로점"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "167846502",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:15:46.748722+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "대전둔산점"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "1857201893",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:16:57.339803+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "천호점"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "2100000001",
+    "runtime": "github_actions",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "last_checked_at": "2026-11-17T00:17:17.161658+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "added_in_this_review": true,
+    "name": "큐브이스케이프",
+    "branch_name": "잠실점"
+  }
+]

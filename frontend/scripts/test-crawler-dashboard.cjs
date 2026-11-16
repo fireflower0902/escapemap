@@ -19,8 +19,8 @@ const catalog = [{ id: 'sync_sample_db', name: '검증용', urls: ['https://exam
 const earlier = { script: 'sync_sample_db', checked_at: '2026-11-14T10:00:00+09:00', status: 'smoke_pass', scope: 'all configured branches / today', slots: 8 };
 const recent = { script: 'sync_sample_db', checked_at: '2026-11-14T11:00:00+09:00', status: 'needs_review', scope: 'first configured branch / today', selected: { BRANCH_MAP: ['1'] }, slots: 0 };
 
-function server({ unavailable = false, directory = [], readFailure = null, onGetDb = () => {} } = {}) {
-  const snapshots = [{ id: 'a', data: () => ({ name: '부산 카페', area: 'etc', address: '부산 부산진구', is_active: true, supported_area: false }) },
+function server({ unavailable = false, directory = [], readFailure = null, onGetDb = () => {}, pausedReason = null } = {}) {
+  const snapshots = [{ id: 'a', data: () => ({ name: '부산 카페', area: 'etc', address: '부산 부산진구', is_active: true, supported_area: false, scheduler_paused: !!pausedReason, crawl_pause_reason: pausedReason }) },
     { id: 'b', data: () => ({ name: '서울 카페', area: 'konkuk', address: '서울 광진구', is_active: true }) }];
   const exec = () => {};
   exec[util.promisify.custom] = async () => ({ stdout: JSON.stringify(catalog) });
@@ -186,4 +186,12 @@ test('읽기 할당량 오류 직후 새로고침이 전체 DB 조회를 반복�
   assert.ok(first.warnings.some(w => w.includes('할당량')));
   assert.ok(second.warnings.some(w => w.includes('할당량')));
   assert.equal(second.dataFetchedAt, null);
+});
+
+
+test('자동 수집 보류 사유를 로컬 검증 통과와 구분해서 전달한다', async () => {
+  const data = await server({ pausedReason: 'GitHub HTTP 403' }).getDashboardData('2026-11-14', false);
+  const cafe = data.cafes.find(c => c.id === 'a');
+  assert.equal(cafe.automaticPaused, true);
+  assert.equal(cafe.pauseReason, 'GitHub HTTP 403');
 });

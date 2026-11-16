@@ -57,6 +57,18 @@ class ReservPublicTests(unittest.TestCase):
 
 
 class CubeFixTests(unittest.TestCase):
+    def test_access_denial_stops_without_retrying_other_dates(self):
+        from unittest.mock import MagicMock
+        denied = cube.urllib.error.HTTPError('https://official.example/', 403, 'Forbidden', {}, None)
+        opener = MagicMock()
+        opener.open.side_effect = denied
+        with patch.object(cube.urllib.request, 'build_opener', return_value=opener):
+            with self.assertRaises(cube.urllib.error.HTTPError):
+                cube._make_opener('https://official.example', 1)
+        self.assertEqual(opener.open.call_count, 1)
+        with self.assertRaises(cube.urllib.error.HTTPError):
+            cube._fetch_schedule(opener, cube.BRANCHES[0], date(2030, 1, 1))
+
     def test_range_time_and_span_status_preserve_start_and_midnight(self):
         html = '''<table><tbody>
         <tr><td>12:05 ~ 13:05</td><td>공식테마</td><td><span class="label label-default cursor" onclick="roomSubmit('12:05-13:05', '공식테마')">예약하기</span></td></tr>
