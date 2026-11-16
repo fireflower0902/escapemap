@@ -1,0 +1,534 @@
+{
+  "previous": [
+    {
+      "id": "1019017181",
+      "name": "신나는방탈출",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/1019017181"
+    },
+    {
+      "id": "167846502",
+      "name": "큐브이스케이프",
+      "branch_name": "대전둔산점",
+      "engine": "cubeescape",
+      "website_url": "http://daejeon.cubeescape.co.kr/"
+    },
+    {
+      "id": "76631654",
+      "name": "플레이더월드",
+      "branch_name": "동성로점",
+      "engine": null,
+      "website_url": "https://playthe.world/"
+    },
+    {
+      "id": "841734382",
+      "name": "플레이더월드",
+      "branch_name": "강남점",
+      "engine": null,
+      "website_url": "https://reservation.playthe.world/"
+    },
+    {
+      "id": "1542251042",
+      "name": "룸익스케이프",
+      "branch_name": "신촌 화이트점",
+      "engine": "playtheworld",
+      "website_url": "https://ex-cape.com/"
+    },
+    {
+      "id": "2100000001",
+      "name": "큐브이스케이프",
+      "branch_name": "잠실점",
+      "engine": "cubeescape",
+      "website_url": "http://jamsil.cubeescape.co.kr/"
+    },
+    {
+      "id": "964420524",
+      "name": "다락방방탈출카페",
+      "branch_name": "청주직영점",
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/964420524"
+    },
+    {
+      "id": "138006966",
+      "name": "더메이즈",
+      "branch_name": "건대점",
+      "engine": "themazegd",
+      "website_url": "http://www.themazegd.co.kr"
+    },
+    {
+      "id": "1393764461",
+      "name": "gateoftime",
+      "branch_name": "광주점",
+      "engine": "playtheworld",
+      "website_url": "https://gateoftime.kr/reservation.html?keycode=YybEYe16XjtuRV7S"
+    },
+    {
+      "id": "2012633570",
+      "name": "오늘의한페이지 방탈출카페",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "https://page-today.co.kr/#reserve"
+    },
+    {
+      "id": "1000900386",
+      "name": "이스케이프샾",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "https://escapeshop.co.kr/"
+    },
+    {
+      "id": "997136500",
+      "name": "둠이스케이프",
+      "branch_name": "1호점",
+      "engine": "sinbiweb",
+      "website_url": "https://doomescape.com/"
+    },
+    {
+      "id": "1945917235",
+      "name": "시그널헌터",
+      "branch_name": "동탄점",
+      "engine": null,
+      "website_url": "http://signalhunter.co.kr/"
+    },
+    {
+      "id": "2138418097",
+      "name": "어메이즈드",
+      "branch_name": "3호점",
+      "engine": null,
+      "website_url": "https://amazed.co.kr/"
+    },
+    {
+      "id": "2016521022",
+      "name": "이스케이프샾",
+      "branch_name": "건대점",
+      "engine": null,
+      "website_url": "https://escapeshop.co.kr/"
+    },
+    {
+      "id": "892126854",
+      "name": "둠이스케이프",
+      "branch_name": "DTH점",
+      "engine": "sinbiweb",
+      "website_url": "https://doomescape.com/"
+    },
+    {
+      "id": "27564986",
+      "name": "큐브이스케이프",
+      "branch_name": "인천점",
+      "engine": "cubeescape",
+      "website_url": "http://incheon.cubeescape.co.kr/"
+    },
+    {
+      "id": "27329834",
+      "name": "룸익스케이프",
+      "branch_name": "신촌 블랙점",
+      "engine": "playtheworld",
+      "website_url": "https://ex-cape.com/"
+    },
+    {
+      "id": "1857201893",
+      "name": "큐브이스케이프",
+      "branch_name": "천호점",
+      "engine": "cubeescape",
+      "website_url": "http://cheonho.cubeescape.co.kr/"
+    },
+    {
+      "id": "929019886",
+      "name": "gateoftime",
+      "branch_name": "대구동성로점",
+      "engine": "playtheworld",
+      "website_url": "https://gateoftime.kr/reservation.html?keycode=HiJhoQFf8ThapVG3"
+    },
+    {
+      "id": "422613765",
+      "name": "파노라마 부산",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "https://naver.me/FutFZ0bm"
+    },
+    {
+      "id": "401872428",
+      "name": "시그널헌터",
+      "branch_name": "가로수길점",
+      "engine": null,
+      "website_url": "https://www.signalhunter.co.kr/"
+    },
+    {
+      "id": "1741880444",
+      "name": "코드나인방탈출카페",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/1741880444"
+    },
+    {
+      "id": "1637776603",
+      "name": "플레이더월드",
+      "branch_name": "부평점",
+      "engine": null,
+      "website_url": "https://playthe.world/"
+    },
+    {
+      "id": "27413260",
+      "name": "큐브이스케이프",
+      "branch_name": "홍대점",
+      "engine": "cubeescape",
+      "website_url": "http://www.cubeescape.co.kr/"
+    },
+    {
+      "id": "1560724472",
+      "name": "방탈출 미로",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/1560724472"
+    },
+    {
+      "id": "4331171",
+      "name": "큐브이스케이프",
+      "branch_name": "수유점",
+      "engine": "cubeescape",
+      "website_url": "http://suyu.cubeescape.co.kr/"
+    },
+    {
+      "id": "1568417037",
+      "name": "라비린스이스케이프",
+      "branch_name": "",
+      "engine": "sinbiweb",
+      "website_url": "http://labyrinth.15440835.com/"
+    },
+    {
+      "id": "746135486",
+      "name": "플레이더월드",
+      "branch_name": "건대점",
+      "engine": null,
+      "website_url": "https://playthe.world/"
+    },
+    {
+      "id": "2100000004",
+      "name": "큐브이스케이프",
+      "branch_name": "대구점",
+      "engine": "cubeescape",
+      "website_url": "http://daegu.cubeescape.co.kr/"
+    },
+    {
+      "id": "1501825629",
+      "name": "강릉방탈출카페",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/1501825629"
+    },
+    {
+      "id": "690123759",
+      "name": "룸익스케이프",
+      "branch_name": "인디고블루점",
+      "engine": null,
+      "website_url": "https://www.ex-cape.com/"
+    },
+    {
+      "id": "27522878",
+      "name": "큐브이스케이프",
+      "branch_name": "전주점",
+      "engine": "cubeescape",
+      "website_url": "http://junju.cubeescape.co.kr/"
+    },
+    {
+      "id": "1224388097",
+      "name": "플레이더월드",
+      "branch_name": "대전은행점",
+      "engine": null,
+      "website_url": "https://playthe.world/"
+    },
+    {
+      "id": "716654663",
+      "name": "두잇이스케이프",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/716654663"
+    },
+    {
+      "id": "767938268",
+      "name": "플레이더월드",
+      "branch_name": "평택점",
+      "engine": null,
+      "website_url": "https://playthe.world/"
+    },
+    {
+      "id": "1321479252",
+      "name": "둠이스케이프",
+      "branch_name": "2호점",
+      "engine": "sinbiweb",
+      "website_url": "https://doomescape.com/"
+    },
+    {
+      "id": "1992606174",
+      "name": "방탈출고",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/1992606174"
+    },
+    {
+      "id": "40766168",
+      "name": "드림이스케이프",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/40766168"
+    },
+    {
+      "id": "103606910",
+      "name": "엑소더스",
+      "branch_name": "강남1호점",
+      "engine": "sinbiweb",
+      "website_url": "https://exodusescape.co.kr/"
+    },
+    {
+      "id": "786094598",
+      "name": "광주방탈출카페 식스센스",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/786094598"
+    },
+    {
+      "id": "1900192470",
+      "name": "도파민방탈출",
+      "branch_name": null,
+      "engine": null,
+      "website_url": "http://place.map.kakao.com/1900192470"
+    },
+    {
+      "id": "1168819420",
+      "name": "호텔레토",
+      "branch_name": "성수점",
+      "engine": "sinbiweb",
+      "website_url": "http://hotelletoh.co.kr/"
+    },
+    {
+      "id": "912842418",
+      "name": "룸익스케이프",
+      "branch_name": "신촌 올리브점",
+      "engine": "playtheworld",
+      "website_url": "https://ex-cape.com/"
+    }
+  ],
+  "updated": [
+    {
+      "id": "1019017181",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/6/bizes/959761"
+    },
+    {
+      "id": "167846502",
+      "engine": "cubeescape",
+      "website_url": "http://daejeon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=6"
+    },
+    {
+      "id": "76631654",
+      "engine": "reserv_public",
+      "website_url": "https://reservation.playthe.world/reservation/"
+    },
+    {
+      "id": "841734382",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/999864"
+    },
+    {
+      "id": "1542251042",
+      "engine": "reserv_public",
+      "website_url": "https://ex-cape.com/reservation/"
+    },
+    {
+      "id": "2100000001",
+      "engine": "cubeescape",
+      "website_url": "http://jamsil.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=5"
+    },
+    {
+      "id": "964420524",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/302519"
+    },
+    {
+      "id": "138006966",
+      "engine": "reserv_public",
+      "website_url": "https://themazegd.co.kr/reservation/"
+    },
+    {
+      "id": "1393764461",
+      "engine": "reserv_public",
+      "website_url": "https://gateoftime.kr/reservation/"
+    },
+    {
+      "id": "2012633570",
+      "engine": "reserv_public",
+      "website_url": "https://page-today.co.kr/reservation/"
+    },
+    {
+      "id": "1000900386",
+      "engine": "reserv_public",
+      "website_url": "https://escapeshop.co.kr/reservation/"
+    },
+    {
+      "id": "997136500",
+      "engine": "sinbiweb",
+      "website_url": "https://doomescape.com/layout/res/home.php?go=rev.make&s_zizum=1"
+    },
+    {
+      "id": "1945917235",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1497247"
+    },
+    {
+      "id": "2138418097",
+      "engine": "amazed_booked",
+      "website_url": "https://amazed.co.kr/?page_id=4808#booking"
+    },
+    {
+      "id": "2016521022",
+      "engine": "reserv_public",
+      "website_url": "https://escapeshop.co.kr/reservation/"
+    },
+    {
+      "id": "892126854",
+      "engine": "sinbiweb",
+      "website_url": "https://doomescape.com/layout/res/home.php?go=rev.make&s_zizum=3"
+    },
+    {
+      "id": "27564986",
+      "engine": "cubeescape",
+      "website_url": "http://incheon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=3"
+    },
+    {
+      "id": "27329834",
+      "engine": "reserv_public",
+      "website_url": "https://ex-cape.com/reservation/"
+    },
+    {
+      "id": "1857201893",
+      "engine": "cubeescape",
+      "website_url": "http://cheonho.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=7"
+    },
+    {
+      "id": "929019886",
+      "engine": "reserv_public",
+      "website_url": "https://gateoftime.kr/reservation/"
+    },
+    {
+      "id": "422613765",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1481465"
+    },
+    {
+      "id": "401872428",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1364198"
+    },
+    {
+      "id": "1741880444",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/600816"
+    },
+    {
+      "id": "1637776603",
+      "engine": "reserv_public",
+      "website_url": "https://reservation.playthe.world/reservation/"
+    },
+    {
+      "id": "27413260",
+      "engine": "cubeescape",
+      "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1"
+    },
+    {
+      "id": "1560724472",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/600145"
+    },
+    {
+      "id": "4331171",
+      "engine": "cubeescape",
+      "website_url": "http://suyu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=8"
+    },
+    {
+      "id": "1568417037",
+      "engine": "sinbiweb",
+      "website_url": "http://labyrinth.15440835.com/layout/res/home.php?go=rev.make"
+    },
+    {
+      "id": "746135486",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1061698"
+    },
+    {
+      "id": "2100000004",
+      "engine": "cubeescape",
+      "website_url": "http://daegu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=2"
+    },
+    {
+      "id": "1501825629",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/608353"
+    },
+    {
+      "id": "690123759",
+      "engine": "reserv_public",
+      "website_url": "https://ex-cape.com/reservation/"
+    },
+    {
+      "id": "27522878",
+      "engine": "cubeescape",
+      "website_url": "http://junju.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=4"
+    },
+    {
+      "id": "1224388097",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1323458"
+    },
+    {
+      "id": "716654663",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/435574"
+    },
+    {
+      "id": "767938268",
+      "engine": "reserv_public",
+      "website_url": "https://reservation.playthe.world/reservation/"
+    },
+    {
+      "id": "1321479252",
+      "engine": "sinbiweb",
+      "website_url": "https://doomescape.com/layout/res/home.php?go=rev.make&s_zizum=2"
+    },
+    {
+      "id": "1992606174",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/699944"
+    },
+    {
+      "id": "40766168",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/843881"
+    },
+    {
+      "id": "103606910",
+      "engine": "exodus_current",
+      "website_url": "https://booking.exodusescape.co.kr"
+    },
+    {
+      "id": "786094598",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/414814"
+    },
+    {
+      "id": "1900192470",
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1132507"
+    },
+    {
+      "id": "1168819420",
+      "engine": "sinbiweb",
+      "website_url": "https://hotelletoh.co.kr/layout/res/home.php?go=rev.make"
+    },
+    {
+      "id": "912842418",
+      "engine": "reserv_public",
+      "website_url": "https://ex-cape.com/reservation/"
+    }
+  ]
+}

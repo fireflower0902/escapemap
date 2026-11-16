@@ -32,6 +32,7 @@ API:
 """
 
 import random
+import re
 import ssl
 import sys
 import time
@@ -47,6 +48,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
+from app.crawl_time import business_slot_datetime
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -150,14 +152,14 @@ def _base_url(branch: dict) -> str:
     return f"http://{branch['subdomain']}.cubeescape.co.kr"
 
 
-def _make_opener(base_url: str) -> urllib.request.OpenerDirector:
-    """메인 페이지 방문 → 세션 쿠키 획득."""
+def _make_opener(base_url: str, office: int) -> urllib.request.OpenerDirector:
+    """공식 예약 화면 방문 → 지점/테마 세션 초기화 (홈 방문만으로는 빈 응답)."""
     cj = CookieJar()
     opener = urllib.request.build_opener(
         urllib.request.HTTPCookieProcessor(cj),
         urllib.request.HTTPSHandler(context=_SSL_CTX),
     )
-    req = urllib.request.Request(base_url + "/", headers=HEADERS)
+    req = urllib.request.Request(base_url + f"/?sd=3&sc=3_1&rbranch={office}", headers=HEADERS)
     try:
         with opener.open(req, timeout=15) as r:
             r.read()
@@ -183,7 +185,8 @@ def _fetch_schedule(opener: urllib.request.OpenerDirector, branch: dict, target_
         headers={
             **HEADERS,
             "Content-Type": "application/x-www-form-urlencoded",
-            "Referer": base + "/",
+            "Referer": base + f"/?sd=3&sc=3_1&rbranch={branch['office']}",
+            "X-Requested-With": "XMLHttpRequest",
         },
     )
     try:
@@ -212,16 +215,12 @@ def _parse_schedule(html: str, branch: dict, target_date: date) -> dict[str, lis
 
         # 시간
         time_text = tds[0].get_text(strip=True)
-        try:
-            hh, mm = map(int, time_text.split(":"))
-            time_obj = dtime(hh, mm)
-        except Exception:
+        match = re.fullmatch(r'((?:[01]\d|2\d):[0-5]\d)(?:\s*[~–-]\s*(?:[01]\d|2\d):[0-5]\d)?', time_text)
+        if not match:
             continue
-
-        slot_dt = datetime(
-            target_date.year, target_date.month, target_date.day,
-            time_obj.hour, time_obj.minute,
-        )
+        value = match[1]
+        hh, mm = map(int, value.split(':'))
+        slot_dt = business_slot_datetime(target_date, hh, mm)
         if slot_dt <= datetime.now():
             continue
 
@@ -231,7 +230,7 @@ def _parse_schedule(html: str, branch: dict, target_date: date) -> dict[str, lis
             continue
 
         # 가용성
-        label = tr.select_one("label")
+        label = tds[2].select_one(".label") if len(tds) >= 3 else None
         if label is None:
             continue
         classes = label.get("class", [])
@@ -239,7 +238,7 @@ def _parse_schedule(html: str, branch: dict, target_date: date) -> dict[str, lis
 
         if "label-default" in class_str and "cursor" in class_str:
             status = "available"
-            booking_url = base + "/"
+            booking_url = base + f"/?sd=3&sc=3_1&rbranch={branch['office']}"
         elif "label-success" in class_str:
             status = "full"
             booking_url = None
@@ -247,7 +246,7 @@ def _parse_schedule(html: str, branch: dict, target_date: date) -> dict[str, lis
             continue
 
         result.setdefault(theme_name, []).append({
-            "time":        time_obj,
+            "time":        value,
             "status":      status,
             "booking_url": booking_url,
         })
@@ -282,7 +281,7 @@ def sync_one_branch(branch: dict, run_schedule: bool, days: int) -> None:
     })
     print(f"  [UPSERT] 카페 (id={cafe_id})")
 
-    opener = _make_opener(base)
+    opener = _make_opener(base, branch['office'])
     time.sleep(REQUEST_DELAY)
 
     # 2. 테마 추출 (오늘 + fallback)
@@ -344,11 +343,14 @@ def sync_one_branch(branch: dict, run_schedule: bool, days: int) -> None:
         for theme_name, slots in parsed.items():
             doc_id = name_to_doc.get(theme_name)
             if not doc_id:
-                print(f"  [WARN] 알 수 없는 테마: {theme_name!r}")
-                continue
+                # Today may have no remaining slots for a theme that opens on a later date.
+                doc_id = get_or_create_theme(db, cafe_id, theme_name, {
+                    "difficulty": None, "duration_min": None, "poster_url": None, "is_active": True,
+                })
+                name_to_doc[theme_name] = doc_id
             for slot in slots:
                 themes_data.setdefault(doc_id, {"slots": []})["slots"].append({
-                    "time":        f"{slot['time'].hour:02d}:{slot['time'].minute:02d}",
+                    "time":        slot['time'],
                     "status":      slot["status"],
                     "booking_url": slot["booking_url"],
                 })

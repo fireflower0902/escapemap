@@ -4,6 +4,14 @@
     "cafe_id": "338628640"
   },
   {
+    "script": "sync_amazed_db",
+    "cafe_id": "2138418097"
+  },
+  {
+    "script": "sync_ccescapezone_db",
+    "cafe_id": "230738333"
+  },
+  {
     "script": "sync_clevertown_db",
     "cafe_id": "949587061"
   },
@@ -18,6 +26,38 @@
   {
     "cafe_id": "official_codek_S3",
     "script": "sync_codek_db"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "167846502"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "1857201893"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "2100000001"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "2100000004"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "27413260"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "27522878"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "27564986"
+  },
+  {
+    "script": "sync_cubeescape_db",
+    "cafe_id": "4331171"
   },
   {
     "cafe_id": "1442041275",
@@ -112,6 +152,10 @@
     "script": "sync_escapetop_db"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1019017181"
+  },
+  {
     "cafe_id": "1023995566",
     "script": "sync_escapetop_db"
   },
@@ -122,6 +166,10 @@
   {
     "cafe_id": "1124781432",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1224388097"
   },
   {
     "cafe_id": "1266197087",
@@ -160,8 +208,16 @@
     "script": "sync_escapetop_db"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1501825629"
+  },
+  {
     "cafe_id": "1502372343",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1560724472"
   },
   {
     "cafe_id": "1574310774",
@@ -189,6 +245,10 @@
   },
   {
     "script": "sync_escapetop_db",
+    "cafe_id": "1741880444"
+  },
+  {
+    "script": "sync_escapetop_db",
     "cafe_id": "1856406910"
   },
   {
@@ -200,8 +260,20 @@
     "script": "sync_escapetop_db"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1900192470"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1945917235"
+  },
+  {
     "cafe_id": "1973717836",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1992606174"
   },
   {
     "cafe_id": "2011481622",
@@ -240,6 +312,18 @@
     "script": "sync_escapetop_db"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "401872428"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "40766168"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "422613765"
+  },
+  {
     "cafe_id": "451924760",
     "script": "sync_escapetop_db"
   },
@@ -276,8 +360,24 @@
     "script": "sync_escapetop_db"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "716654663"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "746135486"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "786094598"
+  },
+  {
     "cafe_id": "836762242",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "841734382"
   },
   {
     "cafe_id": "901719185",
@@ -296,6 +396,10 @@
     "script": "sync_escapetop_db"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "964420524"
+  },
+  {
     "cafe_id": "1314964065",
     "script": "sync_escbangtalul_db"
   },
@@ -306,6 +410,10 @@
   {
     "cafe_id": "27559974",
     "script": "sync_escbangtalul_db"
+  },
+  {
+    "script": "sync_exodus_current_db",
+    "cafe_id": "103606910"
   },
   {
     "cafe_id": "1421844037",
@@ -640,6 +748,58 @@
     "script": "sync_rememberesc_db"
   },
   {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "1000900386"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "138006966"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "1393764461"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "1542251042"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "1637776603"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "2012633570"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "2016521022"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "27329834"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "690123759"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "76631654"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "767938268"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "912842418"
+  },
+  {
+    "script": "sync_reserv_public_db",
+    "cafe_id": "929019886"
+  },
+  {
     "script": "sync_roomescape_db",
     "cafe_id": "273855007"
   },
@@ -892,12 +1052,20 @@
     "script": "sync_sinbiweb_db"
   },
   {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "1168819420"
+  },
+  {
     "cafe_id": "1213158520",
     "script": "sync_sinbiweb_db"
   },
   {
     "cafe_id": "1271584354",
     "script": "sync_sinbiweb_db"
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "1321479252"
   },
   {
     "cafe_id": "1387240933",
@@ -920,6 +1088,10 @@
     "script": "sync_sinbiweb_db"
   },
   {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "1568417037"
+  },
+  {
     "cafe_id": "1591055284",
     "script": "sync_sinbiweb_db"
   },
@@ -938,6 +1110,10 @@
   {
     "cafe_id": "2055691742",
     "script": "sync_sinbiweb_db"
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "302959300"
   },
   {
     "cafe_id": "348406652",
@@ -970,6 +1146,14 @@
   {
     "cafe_id": "776353707",
     "script": "sync_sinbiweb_db"
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "892126854"
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "997136500"
   },
   {
     "cafe_id": "official_dolo",
@@ -1118,13 +1302,5 @@
   {
     "script": "sync_zescape_db",
     "cafe_id": "1713311920"
-  },
-  {
-    "script": "sync_ccescapezone_db",
-    "cafe_id": "230738333"
-  },
-  {
-    "script": "sync_sinbiweb_db",
-    "cafe_id": "302959300"
   }
 ]

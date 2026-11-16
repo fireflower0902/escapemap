@@ -50,3 +50,9 @@ reports/**/*.log
 reports/scheduled/
 
 reports/crawlers/uncrawled-review-2026-11-15/*/
+
+# Large, temporary official-page diagnostics; retain curated JSON/Markdown evidence.
+reports/crawlers/remaining-review-2026-11-16/pages/
+reports/crawlers/remaining-review-2026-11-16/*.html
+reports/crawlers/remaining-review-2026-11-16/checks/
+reports/crawlers/remaining-review-2026-11-16/*-fix*/

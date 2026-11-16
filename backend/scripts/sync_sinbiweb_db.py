@@ -41,6 +41,8 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+from urllib.parse import urljoin, parse_qs, urlsplit
+from types import SimpleNamespace
 from datetime import date, datetime, time as dtime, timedelta
 from http.cookiejar import CookieJar
 from pathlib import Path
@@ -55,6 +57,7 @@ sys.path.insert(0, str(BACKEND_DIR))
 from bs4 import BeautifulSoup
 
 from app.config import settings
+from app.crawl_time import business_slot_datetime
 from app.firestore_db import (
     init_firestore, get_db, upsert_cafe,
     get_or_create_theme, upsert_cafe_date_schedules,
@@ -167,7 +170,8 @@ SITES: list[dict] = [
         "branch_name": "성수점",
         "address":     "서울 성동구 성수이로 78 2층",
         "area":        "seongsu",
-        "base_url":    "http://hotelletoh.co.kr",
+        "base_url":    "https://hotelletoh.co.kr",
+        "verified_tls_redirect": True,
         "s_zizum":     None,
         "use_ssl":     False,
         "need_session": True,
@@ -196,6 +200,7 @@ SITES: list[dict] = [
     },
     {
         "cafe_id":     "997136500",
+        "layout_variant": "doom",
         "cafe_name":   "둠이스케이프",
         "branch_name": "1호점",
         "address":     "인천 남동구 성말로13번길 15",
@@ -207,6 +212,7 @@ SITES: list[dict] = [
     },
     {
         "cafe_id":     "1321479252",
+        "layout_variant": "doom",
         "cafe_name":   "둠이스케이프",
         "branch_name": "2호점",
         "address":     "인천 남동구 인하로507번길 18",
@@ -218,6 +224,7 @@ SITES: list[dict] = [
     },
     {
         "cafe_id":     "892126854",
+        "layout_variant": "doom",
         "cafe_name":   "둠이스케이프",
         "branch_name": "DTH점",
         "address":     "인천 부평구 부평문화로 75",
@@ -401,6 +408,7 @@ SITES: list[dict] = [
     {
         # 라비린스이스케이프 부천 — sinbiweb
         "cafe_id":     "1568417037",
+        "verified_tls_redirect": True,
         "cafe_name":   "라비린스이스케이프",
         "branch_name": "",
         "address":     "경기 부천시 원미구 중동 1162",
@@ -408,7 +416,7 @@ SITES: list[dict] = [
         "base_url":    "http://labyrinth.15440835.com",
         "s_zizum":     None,
         "use_ssl":     False,
-        "need_session": True,
+        "need_session": False,
     },
     {
         # 제주방탈출 제원점 — sinbiweb (EUC-KR)
@@ -525,8 +533,12 @@ SITES: list[dict] = [
 
 # ── HTTP 유틸 ────────────────────────────────────────────────────────────────────
 
-def _make_opener(use_ssl: bool) -> urllib.request.OpenerDirector:
+def _make_opener(use_ssl: bool, verified_tls_redirect: bool = False) -> urllib.request.OpenerDirector:
     cj = CookieJar()
+    if verified_tls_redirect:
+        import certifi
+        return urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj),
+            urllib.request.HTTPSHandler(context=ssl.create_default_context(cafile=certifi.where())))
     if use_ssl:
         https_handler = urllib.request.HTTPSHandler(context=_SSL_CTX)
         return urllib.request.build_opener(
@@ -594,6 +606,38 @@ def _parse_page(html: str, site: dict, target_date: date) -> list[dict]:
     반환: [{"theme_name", "poster_url", "slots": [{"time", "status", "booking_url"}]}]
     """
     soup = BeautifulSoup(html, "html.parser")
+    if site.get('layout_variant') == 'doom':
+        calendar = soup.select_one('input[name="rev_days"]')
+        selected = soup.select_one('select option[selected]')
+        if calendar is None or calendar.get('value') != target_date.isoformat() or selected is None or selected.get('value') != str(site['s_zizum']):
+            raise ValueError('둠이스케이프 예약 날짜/지점 불일치')
+        results = []
+        for box in soup.select('.info_box'):
+            title = box.select_one('.tit .name')
+            if title is None:
+                continue
+            slots = []
+            for li in box.select('.time li'):
+                value = li.select_one('.num')
+                state = li.select_one('.txt')
+                anchor = li.select_one('a')
+                if value is None or state is None or anchor is None:
+                    raise ValueError('둠이스케이프 시간표 구조 변경')
+                hh, mm = map(int, value.get_text(strip=True).split(':'))
+                business_slot_datetime(target_date, hh, mm)
+                if 'on' in li.get('class', []) and state.get_text(strip=True) == '예약가능':
+                    link = urljoin(_reserve_url(site, target_date), anchor.get('href', ''))
+                    if parse_qs(urlsplit(link).query).get('rev_days') != [target_date.isoformat()]:
+                        raise ValueError('둠이스케이프 예약 링크 날짜 불일치')
+                    status = 'available'
+                elif 'on' not in li.get('class', []) and state.get_text(strip=True) == '예약마감':
+                    status, link = 'full', None
+                else:
+                    raise ValueError('둠이스케이프 예약 상태 불명확')
+                slots.append({'time': SimpleNamespace(hour=hh, minute=mm), 'status': status, 'booking_url': link})
+            if slots:
+                results.append({'theme_name': title.get_text(strip=True), 'poster_url': None, 'slots': slots})
+        return results
     boxes = soup.select(".theme_box")
     if not boxes:
         return []
@@ -710,7 +754,7 @@ def sync_one_site(site: dict, run_schedule: bool, days: int) -> None:
     })
     print(f"  [UPSERT] 카페 (id={cafe_id})")
 
-    opener = _make_opener(site["use_ssl"])
+    opener = _make_opener(site["use_ssl"], site.get('verified_tls_redirect', False))
 
     if site.get("need_session"):
         _get_session(opener, site["base_url"])
@@ -775,14 +819,13 @@ def sync_one_site(site: dict, run_schedule: bool, days: int) -> None:
         for t in parsed:
             doc_id = name_to_doc.get(t["theme_name"])
             if not doc_id:
-                print(f"  [WARN] 알 수 없는 테마: {t['theme_name']!r}")
-                continue
+                doc_id = get_or_create_theme(db, cafe_id, t['theme_name'], {
+                    'difficulty': None, 'duration_min': None, 'poster_url': t.get('poster_url'), 'is_active': True,
+                })
+                name_to_doc[t['theme_name']] = doc_id
             for slot in t["slots"]:
                 time_obj = slot["time"]
-                slot_dt = datetime(
-                    target_date.year, target_date.month, target_date.day,
-                    time_obj.hour, time_obj.minute,
-                )
+                slot_dt = business_slot_datetime(target_date, time_obj.hour, time_obj.minute)
                 if slot_dt <= datetime.now():
                     continue
                 themes_data.setdefault(doc_id, {"slots": []})["slots"].append({

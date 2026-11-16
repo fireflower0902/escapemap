@@ -677,6 +677,23 @@ BRANCHES = [
         "area":             "gyeonggi",
         "site_url":         "https://booking.naver.com/booking/12/bizes/1413691",
     },
+    # 2026-11-16: 공식 네이버 예약 화면의 상호·주소 확인한 추가 지점
+    {"cafe_id": "1501825629", "business_id": "608353", "business_type_id": 12, "branch_name": "", "name": "강릉방탈출카페", "address": "강원특별자치도 강릉시 경강로 2106", "area": "gangwon", "site_url": "https://booking.naver.com/booking/12/bizes/608353"},
+    {"cafe_id": "786094598", "business_id": "414814", "business_type_id": 12, "branch_name": "", "name": "광주방탈출카페 식스센스", "address": "광주 북구 우치로90번길 5", "area": "gwangju", "site_url": "https://booking.naver.com/booking/12/bizes/414814"},
+    {"cafe_id": "964420524", "business_id": "302519", "business_type_id": 12, "branch_name": "청주직영점", "name": "다락방방탈출카페", "address": "충북 청주시 상당구 성안로 3", "area": "chungbuk", "site_url": "https://booking.naver.com/booking/12/bizes/302519"},
+    {"cafe_id": "1900192470", "business_id": "1132507", "business_type_id": 12, "branch_name": "", "name": "도파민방탈출", "address": "경기 안산시 단원구 고잔로 108", "area": "gyeonggi", "site_url": "https://booking.naver.com/booking/12/bizes/1132507"},
+    {"cafe_id": "716654663", "business_id": "435574", "business_type_id": 12, "branch_name": "", "name": "두잇이스케이프", "address": "경기 구리시 검배로6번길 23", "area": "gyeonggi", "site_url": "https://booking.naver.com/booking/12/bizes/435574"},
+    {"cafe_id": "40766168", "business_id": "843881", "business_type_id": 12, "branch_name": "", "name": "드림이스케이프", "address": "서울 광진구 아차산로 238", "area": "konkuk", "site_url": "https://booking.naver.com/booking/12/bizes/843881"},
+    {"cafe_id": "1560724472", "business_id": "600145", "business_type_id": 12, "branch_name": "", "name": "방탈출 미로", "address": "서울 은평구 연서로29길 16", "area": "seoul_other", "site_url": "https://booking.naver.com/booking/12/bizes/600145"},
+    {"cafe_id": "1992606174", "business_id": "699944", "business_type_id": 12, "branch_name": "", "name": "방탈출고", "address": "인천 부평구 충선로203번길 16", "area": "incheon", "site_url": "https://booking.naver.com/booking/12/bizes/699944"},
+    {"cafe_id": "401872428", "business_id": "1364198", "business_type_id": 12, "branch_name": "가로수길점", "name": "시그널헌터", "address": "서울 강남구 강남대로152길 40", "area": "gangnam", "site_url": "https://booking.naver.com/booking/12/bizes/1364198"},
+    {"cafe_id": "1945917235", "business_id": "1497247", "business_type_id": 12, "branch_name": "동탄점", "name": "시그널헌터", "address": "경기 화성시 동탄구 동탄중심상가2길 7", "area": "gyeonggi", "site_url": "https://booking.naver.com/booking/12/bizes/1497247"},
+    {"cafe_id": "1019017181", "business_id": "959761", "business_type_id": 6, "branch_name": "", "name": "신나는방탈출", "address": "부산 중구 남포길 5", "area": "busan", "site_url": "https://booking.naver.com/booking/6/bizes/959761"},
+    {"cafe_id": "1741880444", "business_id": "600816", "business_type_id": 12, "branch_name": "", "name": "코드나인방탈출카페", "address": "충남 당진시 당진중앙2로 85-6", "area": "chungnam", "site_url": "https://booking.naver.com/booking/12/bizes/600816"},
+    {"cafe_id": "422613765", "business_id": "1481465", "business_type_id": 12, "branch_name": "", "name": "파노라마 부산", "address": "부산 남구 용소로14번길 9", "area": "busan", "site_url": "https://booking.naver.com/booking/12/bizes/1481465"},
+    {"cafe_id": "746135486", "business_id": "1061698", "business_type_id": 12, "branch_name": "건대점", "name": "플레이더월드", "address": "서울 광진구 동일로20길 98", "area": "konkuk", "site_url": "https://booking.naver.com/booking/12/bizes/1061698"},
+    {'cafe_id': '841734382', 'business_id': '999864', 'business_type_id': 12, 'branch_name': '강남점', 'name': '플레이더월드', 'address': '서울 서초구 사평대로56길 14', 'area': 'gangnam', 'site_url': 'https://booking.naver.com/booking/12/bizes/999864'},
+    {'cafe_id': '1224388097', 'business_id': '1323458', 'business_type_id': 12, 'branch_name': '대전은행점', 'name': '플레이더월드', 'address': '대전 중구 대종로480번길 7', 'area': 'daejeon', 'site_url': 'https://booking.naver.com/booking/12/bizes/1323458'},
 ]
 
 _SSL_CTX = ssl.create_default_context()
@@ -820,7 +837,7 @@ def sync_one_branch(branch: dict, days: int) -> int:
     today = date.today()
     crawled_at = datetime.now()
     date_themes: dict[str, dict] = {}
-    booking_base = f"{NAVER_BOOKING_URL}/booking/12/bizes/{business_id}"
+    booking_base = f"{NAVER_BOOKING_URL}/booking/{branch.get("business_type_id", 12)}/bizes/{business_id}"
 
     for i in range(days + 1):
         target_date = today + timedelta(days=i)
