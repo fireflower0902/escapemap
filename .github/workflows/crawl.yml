@@ -46,11 +46,32 @@ jobs:
       - name: Install crawler browser
         run: uv run playwright install --with-deps chromium
       - name: Collect and publish verified cafes
-        run: uv run python scripts/refresh_scheduled.py --days "$DAYS" --shard ${{ matrix.shard }} --shards 12 --workers 2 --timeout 150
+        run: uv run python scripts/refresh_scheduled.py --days "$DAYS" --shard ${{ matrix.shard }} --shards 12 --workers 2 --timeout 150 --allow-site-failures
       - name: Save per-cafe verification results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scheduled-crawl-${{ matrix.shard }}
           path: backend/reports/scheduled/
+          retention-days: 7
+  health:
+    name: 전국 수집 결과 집계
+    needs: crawl
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: scheduled-crawl-*
+          path: backend/reports/scheduled-all
+      - name: Check nationwide collection health
+        run: python3 backend/scripts/summarize_scheduled.py --reports backend/reports/scheduled-all
+      - name: Save nationwide health summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scheduled-health
+          path: backend/reports/scheduled-summary/
           retention-days: 7
