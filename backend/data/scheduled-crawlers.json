@@ -1118,5 +1118,13 @@
   {
     "script": "sync_zescape_db",
     "cafe_id": "1713311920"
+  },
+  {
+    "script": "sync_ccescapezone_db",
+    "cafe_id": "230738333"
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "cafe_id": "302959300"
   }
 ]

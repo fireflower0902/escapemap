@@ -1,0 +1,362 @@
+[
+  {
+    "cafe_id": "1501825629",
+    "name": "강릉방탈출카페",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/608353",
+    "reason": "공식 화면에서 상호·주소·테마 확인. 공통 네이버 시간대 수집기 개발 대상",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "461296797",
+    "name": "고한 시티써커스",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/461296797",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "786094598",
+    "name": "광주방탈출카페 식스센스",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/414814",
+    "reason": "검색에서 찾은 예약처 후보. 기존 북구 주소와 동구 이전/지점 관계 추가 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://www.darockesc.com/",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "964420524",
+    "name": "다락방방탈출카페",
+    "branch_name": "청주직영점",
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/302519",
+    "reason": "예약처 후보. 상호·주소 공식 화면 대조 후 연결",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "302959300",
+    "name": "더도어즈이스케이프",
+    "branch_name": null,
+    "status": "7일 저장 완료 / 정기 수집 추가",
+    "booking_url_or_candidate": "https://www.thedoorsescape.com/reserve/",
+    "reason": "6개 테마·312개 시간대. 숨겨진 예약가능 문구가 아닌 a.end 상태로 마감을 판정",
+    "schedule_implemented": true
+  },
+  {
+    "cafe_id": "1900192470",
+    "name": "도파민방탈출",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/1132507",
+    "reason": "예약처 후보. 공식 화면 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "716654663",
+    "name": "두잇이스케이프",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/435574",
+    "reason": "구리 1호점 주소 일치 후보. 2호점 433309와 구분 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "40766168",
+    "name": "드림이스케이프",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/843881",
+    "reason": "건대점 예약처 후보. 공식 화면 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "77278349",
+    "name": "레드런",
+    "branch_name": "천안점",
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/77278349",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1331705130",
+    "name": "레드런",
+    "branch_name": "천호점",
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "https://naver.me/xbjXQceE",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "27369058",
+    "name": "리얼이스케이프챌린지",
+    "branch_name": null,
+    "status": "공식 예약 위젯 추가 구현 필요",
+    "booking_url_or_candidate": "https://www.rec-escape.com/book-now",
+    "reason": "Bookeo 위젯 사용. 소개 페이지 200 응답만으로 시간대 수집 성공 처리하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "776644226",
+    "name": "리즌방탈출",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/776644226",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "888192913",
+    "name": "미션브레이크",
+    "branch_name": "CGV용산아이파크몰점",
+    "status": "예약 서비스 별도 구현 필요",
+    "booking_url_or_candidate": "https://cgv.co.kr/act/actvt/00004",
+    "reason": "공식 비트포비아 허브에서 CGV 액티비티 예약으로 연결",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1516889516",
+    "name": "방탈출 뉴케이스",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/1516889516",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1560724472",
+    "name": "방탈출 미로",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/600145",
+    "reason": "예약처 후보. 공식 화면 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1992606174",
+    "name": "방탈출고",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/699944",
+    "reason": "예약처 후보. 공식 화면 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/255097329",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1495650283",
+    "name": "브레이크아웃 광안",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/27519",
+    "reason": "공식 부산 사이트의 네이버 예약 링크 확인. 광안/해운대 지점 구분 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "997297045",
+    "name": "비트포비아",
+    "branch_name": "동성로점",
+    "status": "브랜드 허브로 이동 / 지점 예약처 재확인",
+    "booking_url_or_candidate": "https://xphobia.net/",
+    "reason": "허브의 현재 브랜드 목록을 과거 동성로점 시간표로 간주하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1647497159",
+    "name": "비트포비아",
+    "branch_name": "신림점",
+    "status": "브랜드 허브로 이동 / 지점 예약처 재확인",
+    "booking_url_or_candidate": "https://xphobia.net/",
+    "reason": "허브의 현재 브랜드 목록을 과거 신림점 시간표로 간주하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "367178846",
+    "name": "스키피지",
+    "branch_name": null,
+    "status": "중복 후보",
+    "booking_url_or_candidate": "https://speakeasyescape.co.kr/",
+    "reason": "스키피지는 공식 표기 스피키지와 불일치. 이미 수집 중인 1825220691와 주소 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "401872428",
+    "name": "시그널헌터",
+    "branch_name": "가로수길점",
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/1364198",
+    "reason": "가로수길 예약처 후보. 기존 도메인은 호스팅 만료 페이지",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1945917235",
+    "name": "시그널헌터",
+    "branch_name": "동탄점",
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/1497247",
+    "reason": "동탄점 예약처 후보. 기존 도메인은 호스팅 만료 페이지",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1019017181",
+    "name": "신나는방탈출",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/6/bizes/959761",
+    "reason": "네이버 예약 유형 6 후보. 유형 12로 임의 변경하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "2143447304",
+    "name": "안흥여관",
+    "branch_name": null,
+    "status": "예약처 추가 확인 필요",
+    "booking_url_or_candidate": "https://www.instagram.com/anheung_inn/",
+    "reason": "후기에서 인스타 DM 예약 안내. 숙박업 동명 기록과 구분하고 공식 운영 여부 추가 확인",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "660859780",
+    "name": "알카트래즈방탈출카페",
+    "branch_name": null,
+    "status": "공식 전화 예약 안내",
+    "booking_url_or_candidate": "http://alcatraz.co.kr/",
+    "reason": "온라인 예약 시스템 공사 중. 전화 예약만 안내하므로 빈자리 추정 금지",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "status": "공식 공개 시간표 확인 / 파서 개발 필요",
+    "booking_url_or_candidate": "https://amazed.co.kr/?page_id=4808",
+    "reason": "부평3호점 주소·전화·WordPress Booked 시간표 확인",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://unlimited-escape.com/",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://withescaper.com/",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "230738333",
+    "name": "이스케이프존",
+    "branch_name": "강대점",
+    "status": "7일 저장 완료 / 정기 수집 추가",
+    "booking_url_or_candidate": "http://www.cc-escapezone.co.kr/kr/webpage.php?webpage=0301",
+    "reason": "5개 테마·350개 시간대. 날짜 일치 검증, 24:00/24:05 영업일 표기 보존",
+    "schedule_implemented": true
+  },
+  {
+    "cafe_id": "431508316",
+    "name": "카오스이스케이프",
+    "branch_name": null,
+    "status": "공식 공개 시간표 확인 / 파서 개발 필요",
+    "booking_url_or_candidate": "http://chaosesc.co.kr/2019/bbs/board.php?bo_table=reservation",
+    "reason": "전주2호점. 예약완료 셀에 시간이 생략되어 있으므로 시간 역산 금지",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1741880444",
+    "name": "코드나인방탈출카페",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/600816",
+    "reason": "당진점 예약처 후보. 공식 화면 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "522639283",
+    "name": "코드이스케이프",
+    "branch_name": "가로수길점",
+    "status": "공식 예약 폼 확인 / 파서 개발 필요",
+    "booking_url_or_candidate": "http://www.code-escape-garosu.com/web/home.php?mid=2&go=rev_make",
+    "reason": "날짜·인원 선택 후 POST 폼으로 조회하는 별도 변형",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "52252534",
+    "name": "키즈인더룸",
+    "branch_name": "평촌점",
+    "status": "예약 경로 접근 제한",
+    "booking_url_or_candidate": "https://kidsintheroom.com/27",
+    "reason": "예약 경로 HTTP 403. 홈페이지 200과 시간표 접근 성공을 구분",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "422613765",
+    "name": "파노라마 부산",
+    "branch_name": null,
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/1481465",
+    "reason": "부산점 예약처 후보. 공식 화면 대조 필요",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "https://parabox.kr/",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/79137052",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "746135486",
+    "name": "플레이더월드",
+    "branch_name": "건대점",
+    "status": "네이버 예약 수집기 미구현 / 예약처 후보",
+    "booking_url_or_candidate": "https://booking.naver.com/booking/12/bizes/1061698",
+    "reason": "건대점 네이버 예약처 후보. playthe.world 구도메인 실패와 구분",
+    "schedule_implemented": false
+  },
+  {
+    "cafe_id": "1252080396",
+    "name": "할리갈리인더룸방탈출시즌2",
+    "branch_name": null,
+    "status": "예약처/현재 운영 추가 확인 필요",
+    "booking_url_or_candidate": "http://place.map.kakao.com/1252080396",
+    "reason": "기존 지도 링크 또는 도메인 오류만으로 폐업이나 수집 가능 여부를 확정하지 않음",
+    "schedule_implemented": false
+  }
+]

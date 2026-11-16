@@ -23,6 +23,28 @@
     "selections": {}
   },
   {
+    "id": "sync_ccescapezone_db",
+    "name": "춘천 이스케이프존 공식 공개 시간표. 영업일의 24시 이후 표기를 보존한다.",
+    "urls": [
+      "http://www.cc-escapezone.co.kr"
+    ],
+    "cafe_ids": [
+      "230738333"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "230738333",
+        "name": "이스케이프존",
+        "branch_name": "강대점",
+        "address": "강원특별자치도 춘천시 서부대성로 231-1",
+        "area": "gangwon",
+        "website_url": "http://www.cc-escapezone.co.kr/",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
     "id": "sync_clevertown_db",
     "name": "클레버타운 (clevertown.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
     "urls": [
@@ -4126,6 +4148,7 @@
       "https://speakeasyescape.co.kr",
       "https://sslone.co.kr",
       "https://weyol.com",
+      "https://www.thedoorsescape.com",
       "https://xn--910bj3tlmfz4e.com",
       "https://xn--bb0b44mb8pfwi.kr",
       "https://xn--h32b25mu4dba377gzscs2k.com",
@@ -4152,6 +4175,7 @@
       "1958696909",
       "1968639091",
       "2055691742",
+      "302959300",
       "348406652",
       "351145232",
       "444802506",
@@ -4464,6 +4488,16 @@
         "name": "메타이스케이프",
         "website_url": "https://xn--h32b25mu4dba377gzscs2k.com/",
         "engine": "sinbiweb",
+        "is_active": true
+      },
+      {
+        "cafe_id": "302959300",
+        "cafe_name": "더도어즈이스케이프",
+        "branch_name": "",
+        "address": "경기 고양시 일산동구 고봉로 32-6",
+        "area": "gyeonggi",
+        "name": "더도어즈이스케이프",
+        "website_url": "http://www.thedoorsescape.com/",
         "is_active": true
       },
       {

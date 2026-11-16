@@ -1,0 +1,238 @@
+[
+  {
+    "script": "sync_ccescapezone_db",
+    "checked_at": "2026-11-16T22:25:24.514238+09:00",
+    "scope": "selected cafe IDs: 230738333 / today + 6 day(s)",
+    "days_after_today": 6,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "230738333"
+    ],
+    "selected": {},
+    "cafes_with_slots": 1,
+    "themes_fetched": 5,
+    "themes_with_slots": 5,
+    "slots": 350,
+    "statuses": {
+      "full": 47,
+      "available": 303
+    },
+    "dates": [
+      "2026-11-16",
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "230738333": {
+        "themes": 5,
+        "slots": 350,
+        "statuses": {
+          "full": 47,
+          "available": 303
+        },
+        "dates": [
+          "2026-11-16",
+          "2026-11-17",
+          "2026-11-18",
+          "2026-11-19",
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22"
+        ]
+      }
+    },
+    "sample_themes": [
+      "바라보다",
+      "방민정음",
+      "산타의 실수",
+      "제이콥",
+      "프리즈너스"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      },
+      {
+        "method": "GET",
+        "host": "www.cc-escapezone.co.kr",
+        "path": "/kr/webpage.php",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 62.09,
+    "log_errors": [],
+    "status": "smoke_pass",
+    "storage": "supabase",
+    "published": true
+  },
+  {
+    "script": "sync_sinbiweb_db",
+    "checked_at": "2026-11-16T22:25:49.379433+09:00",
+    "scope": "selected cafe IDs: 302959300 / today + 6 day(s)",
+    "days_after_today": 6,
+    "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+    "requested_cafe_ids": [
+      "302959300"
+    ],
+    "selected": {
+      "SITES": [
+        {
+          "cafe_id": "302959300",
+          "cafe_name": "더도어즈이스케이프",
+          "branch_name": "",
+          "address": "경기도 고양시 일산동구 고봉로 32-6, 401,402,403호",
+          "area": "gyeonggi",
+          "base_url": "https://www.thedoorsescape.com",
+          "s_zizum": null,
+          "use_ssl": true,
+          "need_session": true,
+          "rev_use_post": true,
+          "rev_subpath": "reserve",
+          "status_by_anchor_class": true
+        }
+      ]
+    },
+    "cafes_with_slots": 1,
+    "themes_fetched": 6,
+    "themes_with_slots": 6,
+    "slots": 312,
+    "statuses": {
+      "available": 302,
+      "full": 10
+    },
+    "dates": [
+      "2026-11-17",
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "issues": [],
+    "per_cafe": {
+      "302959300": {
+        "themes": 6,
+        "slots": 312,
+        "statuses": {
+          "available": 302,
+          "full": 10
+        },
+        "dates": [
+          "2026-11-17",
+          "2026-11-18",
+          "2026-11-19",
+          "2026-11-20",
+          "2026-11-21",
+          "2026-11-22"
+        ]
+      }
+    },
+    "sample_themes": [
+      "who are you?",
+      "나홀로 집에",
+      "대체 불가능한 인생",
+      "영웅을 찾아서",
+      "위대하게 은밀하게",
+      "향수"
+    ],
+    "http_calls": [
+      {
+        "method": "GET",
+        "host": "www.thedoorsescape.com",
+        "path": "/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      },
+      {
+        "method": "POST",
+        "host": "www.thedoorsescape.com",
+        "path": "/reserve/",
+        "status": 200
+      }
+    ],
+    "duration_seconds": 10.51,
+    "log_errors": [],
+    "status": "smoke_pass",
+    "storage": "supabase",
+    "published": true
+  }
+]

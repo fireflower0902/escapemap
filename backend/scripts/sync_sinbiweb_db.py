@@ -371,6 +371,20 @@ SITES: list[dict] = [
         "need_session": True,
     },
     {
+        "cafe_id": "302959300",
+        "cafe_name": "더도어즈이스케이프",
+        "branch_name": "",
+        "address": "경기도 고양시 일산동구 고봉로 32-6, 401,402,403호",
+        "area": "gyeonggi",
+        "base_url": "https://www.thedoorsescape.com",
+        "s_zizum": None,
+        "use_ssl": True,
+        "need_session": True,
+        "rev_use_post": True,
+        "rev_subpath": "reserve",
+        "status_by_anchor_class": True,
+    },
+    {
         # 큐방탈출카페 일산 웨스턴돔점 — sinbiweb POST variant (/reserve/)
         "cafe_id":     "351145232",
         "cafe_name":   "큐방탈출카페",
@@ -628,7 +642,15 @@ def _parse_page(html: str, site: dict, target_date: date) -> list[dict]:
             impossible = li.select_one("span.impossible")
             a_tag = li.select_one("a")
 
-            if possible:
+            if site.get("status_by_anchor_class"):
+                # 더도어즈는 두 상태 문구를 항상 렌더링하고 a.end로 마감을 표시한다.
+                if not a_tag:
+                    raise ValueError("예약 상태 링크 누락")
+                if "end" not in a_tag.get("class", []) and not a_tag.get("href", "").startswith("javascript:chkBooking("):
+                    raise ValueError("예약 가능 링크 형식 변경")
+                status = "full" if "end" in a_tag.get("class", []) else "available"
+                booking_url = site["base_url"] + "/reserve/?rdate=" + date_str if status == "available" else None
+            elif possible:
                 status = "available"
                 href = a_tag.get("href", "") if a_tag else ""
                 if href:
