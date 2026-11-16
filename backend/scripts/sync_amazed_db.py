@@ -22,7 +22,7 @@ THEME_NAME = 'SHIFT : 고쿄의 하루'  # Official booking-page title artwork, 
 
 
 def parse_slots(html, day):
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, 'html.parser', **({'from_encoding': 'utf-8'} if isinstance(html, bytes) else {}))
     wrapper = soup.select_one('.booked-appt-list')
     if wrapper is None or wrapper.get('data-list-date') != day:
         raise ValueError('공식 일정 날짜 불일치')
@@ -55,9 +55,13 @@ def main(run_schedule=True, days=6):
     with requests.Session() as session:
         page = session.get(BOOKING_URL, timeout=25)
         page.raise_for_status()
-        soup = BeautifulSoup(page.content, 'html.parser')
-        if not soup.select_one('.booked-list-view-nav[data-calendar-id="19"]') or '부평3호점' not in soup.get_text():
-            raise ValueError('공식 지점 또는 테마 일정 변경')
+        soup = BeautifulSoup(page.content, 'html.parser', from_encoding='utf-8')
+        calendar = soup.select_one('.booked-list-view-nav[data-calendar-id="19"]')
+        is_branch = '부평3호점' in re.sub(r'\s+', '', soup.get_text())
+        if calendar is None or not is_branch:
+            title = soup.title.get_text(strip=True)[:80] if soup.title else '제목 없음'
+            ids = sorted({str(n.get('data-calendar-id')) for n in soup.select('.booked-list-view-nav')})
+            raise ValueError(f'공식 지점 또는 테마 일정 변경: title={title}, calendars={ids}, branch={is_branch}')
         upsert_cafe(db, CAFE_ID, CAFE_META)
         tid = get_or_create_theme(db, CAFE_ID, THEME_NAME, {'duration_min': 100, 'is_active': True})
         for offset in range(days + 1):
