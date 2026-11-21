@@ -1,0 +1,40 @@
+[
+  {
+    "cafe_id": "628138029",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44906028519",
+    "checked_at": "2026-11-21T21:52:29.889989+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 157,
+    "dates": [
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "duration_seconds": 30.75,
+    "issues": []
+  },
+  {
+    "cafe_id": "28201117",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44906743858",
+    "checked_at": "2026-11-21T22:01:24.608609+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 1,
+    "slots": 48,
+    "dates": [
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "duration_seconds": 6.18,
+    "issues": []
+  }
+]

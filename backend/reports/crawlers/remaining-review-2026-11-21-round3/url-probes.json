@@ -1,0 +1,133 @@
+[
+  {
+    "url": "http://reverseesc.com/service/get_data",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "http://reverseesc.com/reservation.html",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "http://legendescape.com/layout/res/home.php?go=rev.make",
+    "status": 200,
+    "final_url": "http://legendescape.com/layout/res/home.php?go=rev.make",
+    "text": "레전드이스케이프 메뉴 바로가기 주메뉴 바로가기 컨텐츠 바로가기 THEME RESERVATION LOCATION Q&A 이천점 전화걸기 THEME RESERVATION LOCATION Q&A RESERVATION 예약확인 01.날짜/룸 선택 02.예약정보 입력 03.결제하기 04.예약완료 예약날짜 지점선택 이천점 미녀와야수  () 난이도 : 인원 : 2~6명\n\t\t\t\t\t\t\t\t     시간 : 60분 12:10 예약마감 13:25 예약마감 14:40 예약마감 15:55 예약마감 17:10 예약마감 18:25 예약마감 19:40 예약마감 20:55 예약마감 마법사의 세계  () 난이도 : 인원 : 2~6명\n\t\t\t\t\t\t\t\t     시간 : 60분 12:10 예약마감 13:25 예약마감 14:40 예약마감 15:55 예약마감 17:10 예약마감 18:25 예약마감 19:40 예약마감 20:55 예약마감 드림퀘스트  () 난이도 : 인원 : 2~6명\n\t\t\t\t\t\t\t\t     시간 : 60분 12:10 예약마감 13:25 예약마감 14:40 예약마감 15:55 예약마감 17:10 예약마감 18:25 예약마감 19:40 예약마감 20:55 예약마감 혼: 원혼의 저주  (공포) 난이도 : 인원 : 2~6명\n\t\t\t\t\t\t\t\t     시간 : 60분 12:00 예약마감 13:15 예약마감 14:30 예약마감 15:45 예약마감 17:00 예약마감 18:15 예약마감 19:30 예약마감 20:45 예약마감 호텔: 사라진다이아몬드  () 난이도 : 인원 : 2~6명\n\t\t\t\t\t\t\t\t     시간 : 60분 12:00 예약마감 13:15 예약마감 14:30 예약마감 15:45 예약마감 17:00 예약마감 18:15 예약마감 19:30 예약마감 20:45 예약마감 공지사항 예약확인 제휴문의 개인정보취급방침 상호 : 이천 방탈출 레전드 이스케이프 (이천점) ㅣ 주소 : 경기도 이천시 서희로 58(창전동) 2~3층 ㅣ 대표자 : 곽윤일 전화 : 031-638-7704ㅣ 사업자번호 : 141-65-00353 계좌번호 : 현장 결제로 부탁드립니다 *^0^* COPYRIGHT ⓒ 2021 레전드이스케이프.  All right reserved.  /  CREATED BY SINBIWEB .",
+    "scripts": [
+      "../js/jquery-1.10.2.min.js",
+      "../js/jquery.easing.1.3.js",
+      "../js/ui.js",
+      "../js/slick.min.js",
+      "../js/swiper.js",
+      "../../core/res/common.js",
+      "../../core/js/board.js",
+      "../../cheditor/cheditor.js"
+    ]
+  },
+  {
+    "url": "http://www.roomlescape.com/home.php?go=rev.make",
+    "status": 200,
+    "final_url": "http://www.roomlescape.com/home.php?go=rev.make",
+    "text": "룸엘이스케이프 THEME RESERVATION LOCATION NOTICE HOME THEME RESERVATION LOCATION NOTICE 예약하기 | 예약확인 지점 신림점 홍대1호점 신림3호점 신림2호점 테마 날짜 정보 예약시간 모든 내용을 읽고 이해했으며 개인정보취급방침에 동의하십니까? 동의함 동의안함 예약하기 취소 오늘 더이상 열지 않기 | 닫기 룸엘이스케이프 서울특별시 관악구 신림동487-15 지하 1층 룸엘엔터테인먼트(주) 대표자 : 김주섭 | TEL: 02-882-1215 © ROOMLESCAPE",
+    "scripts": [
+      "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js",
+      "./js/jquery-1.8.3.min.js",
+      "./js/jquery-ui.min.js",
+      "./js/jquery.easing.1.3.min.js",
+      "./js/home.js",
+      "./js/slick.js",
+      "https://unpkg.com/sweetalert/dist/sweetalert.min.js",
+      "//cdn.jsdelivr.net/npm/sweetalert2@11",
+      "https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js",
+      "./js/datepicker.min.js",
+      "./js/datepicker.ko-KR.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"
+    ]
+  },
+  {
+    "url": "http://www.signescape.com",
+    "status": 200,
+    "final_url": "http://www.signescape.com/",
+    "text": "방탈출카페 싸인이스케이프",
+    "scripts": []
+  },
+  {
+    "url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "status": 200,
+    "final_url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "text": "네이버 예약 로딩중",
+    "scripts": [
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_public_svg_icon_index_tsx.692ed27b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_review_ts.272558c3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_BizItemHeaderView_index_tsx.33fcba11.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Coupon_UserCouponBottomSheet_tsx-mobile_components_shared_coupon_Coupon_tsx-dfeb17.5cc18c3b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_MapGuide_index_tsx.ec33ba2e.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_order_ts.970c753c.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_Review_ReviewPolicyInfo_tsx-mobile_components_shared_Review_hooks_us-dd837b.be0466b6.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile-components-Review-ReviewList.627694a5.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_BookingList_tsx-mobile_components_Booking_-af8768.259d0ba3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_BizItemListSkeleton_index_tsx-mobile_components_Boo-e7019b.7c59252d.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_ArtCouponBanner_tsx-mobile_components_Book-5f7bf2.81d25464.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/Episode.709d708d.chunk.js"
+    ]
+  },
+  {
+    "url": "https://booking.naver.com/booking/12/bizes/1548412",
+    "status": 200,
+    "final_url": "https://booking.naver.com/booking/12/bizes/1548412",
+    "text": "네이버 예약 로딩중",
+    "scripts": [
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_public_svg_icon_index_tsx.692ed27b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_review_ts.272558c3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_BizItemHeaderView_index_tsx.33fcba11.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Coupon_UserCouponBottomSheet_tsx-mobile_components_shared_coupon_Coupon_tsx-dfeb17.5cc18c3b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_MapGuide_index_tsx.ec33ba2e.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_order_ts.970c753c.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_Review_ReviewPolicyInfo_tsx-mobile_components_shared_Review_hooks_us-dd837b.be0466b6.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile-components-Review-ReviewList.627694a5.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_BookingList_tsx-mobile_components_Booking_-af8768.259d0ba3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_BizItemListSkeleton_index_tsx-mobile_components_Boo-e7019b.7c59252d.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_ArtCouponBanner_tsx-mobile_components_Book-5f7bf2.81d25464.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/Episode.709d708d.chunk.js"
+    ]
+  },
+  {
+    "url": "https://booking.naver.com/booking/12/bizes/601362",
+    "status": 200,
+    "final_url": "https://booking.naver.com/booking/12/bizes/601362",
+    "text": "네이버 예약 로딩중",
+    "scripts": [
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_public_svg_icon_index_tsx.692ed27b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_review_ts.272558c3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_BizItemHeaderView_index_tsx.33fcba11.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Coupon_UserCouponBottomSheet_tsx-mobile_components_shared_coupon_Coupon_tsx-dfeb17.5cc18c3b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_MapGuide_index_tsx.ec33ba2e.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_order_ts.970c753c.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_Review_ReviewPolicyInfo_tsx-mobile_components_shared_Review_hooks_us-dd837b.be0466b6.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile-components-Review-ReviewList.627694a5.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_BookingList_tsx-mobile_components_Booking_-af8768.259d0ba3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_BizItemListSkeleton_index_tsx-mobile_components_Boo-e7019b.7c59252d.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_ArtCouponBanner_tsx-mobile_components_Book-5f7bf2.81d25464.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/Episode.709d708d.chunk.js"
+    ]
+  },
+  {
+    "url": "https://booking.naver.com/booking/12/bizes/570203",
+    "status": 200,
+    "final_url": "https://booking.naver.com/booking/12/bizes/570203",
+    "text": "네이버 예약 로딩중",
+    "scripts": [
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_public_svg_icon_index_tsx.692ed27b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_review_ts.272558c3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_BizItemHeaderView_index_tsx.33fcba11.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Coupon_UserCouponBottomSheet_tsx-mobile_components_shared_coupon_Coupon_tsx-dfeb17.5cc18c3b.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_MapGuide_index_tsx.ec33ba2e.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobileShared_utils_order_ts.970c753c.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_shared_Review_ReviewPolicyInfo_tsx-mobile_components_shared_Review_hooks_us-dd837b.be0466b6.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile-components-Review-ReviewList.627694a5.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_BookingList_tsx-mobile_components_Booking_-af8768.259d0ba3.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_BizItemListSkeleton_index_tsx-mobile_components_Boo-e7019b.7c59252d.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/mobile_components_Booking_Business_shared_business_ArtCouponBanner_tsx-mobile_components_Book-5f7bf2.81d25464.chunk.js",
+      "https://booking.pstatic.net/user/mobile/static/js/Episode.709d708d.chunk.js"
+    ]
+  }
+]

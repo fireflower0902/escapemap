@@ -300,6 +300,10 @@
     "script": "sync_escapetop_db"
   },
   {
+    "cafe_id": "628138029",
+    "script": "sync_escapetop_db"
+  },
+  {
     "cafe_id": "632336157",
     "script": "sync_escapetop_db"
   },
@@ -1158,6 +1162,10 @@
   {
     "script": "sync_ttescape_db",
     "cafe_id": "327610610"
+  },
+  {
+    "cafe_id": "28201117",
+    "script": "sync_wecent_db"
   },
   {
     "cafe_id": "official_xcape_gn",

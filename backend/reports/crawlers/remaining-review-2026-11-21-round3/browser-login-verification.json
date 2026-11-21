@@ -1,0 +1,34 @@
+[
+  {
+    "cafe_id": "1436082735",
+    "business_id": "1575275",
+    "requested_url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "observed_title": "NAVER 로그인",
+    "redirect_host": "nid.naver.com",
+    "authenticated": false
+  },
+  {
+    "cafe_id": "1719351380",
+    "business_id": "1548412",
+    "requested_url": "https://booking.naver.com/booking/12/bizes/1548412",
+    "observed_title": "NAVER 로그인",
+    "redirect_host": "nid.naver.com",
+    "authenticated": false
+  },
+  {
+    "cafe_id": "1831030495",
+    "business_id": "601362",
+    "requested_url": "https://booking.naver.com/booking/12/bizes/601362",
+    "observed_title": "NAVER 로그인",
+    "redirect_host": "nid.naver.com",
+    "authenticated": false
+  },
+  {
+    "cafe_id": "763904207",
+    "business_id": "570203",
+    "requested_url": "https://booking.naver.com/booking/12/bizes/570203",
+    "observed_title": "NAVER 로그인",
+    "redirect_host": "nid.naver.com",
+    "authenticated": false
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://booking.naver.com/booking/6/bizes/1575275",
+    "final": "https://booking.naver.com/booking/6/bizes/1575275",
+    "status": 200,
+    "text": "네이버 예약 로딩중"
+  },
+  {
+    "url": "https://booking.naver.com/booking/6/bizes/1548412",
+    "final": "https://booking.naver.com/booking/6/bizes/1548412",
+    "status": 200,
+    "text": "네이버 예약 로딩중"
+  },
+  {
+    "url": "https://booking.naver.com/booking/6/bizes/601362",
+    "final": "https://booking.naver.com/booking/6/bizes/601362",
+    "status": 200,
+    "text": "네이버 예약 로딩중"
+  },
+  {
+    "url": "https://booking.naver.com/booking/6/bizes/570203",
+    "final": "https://booking.naver.com/booking/6/bizes/570203",
+    "status": 200,
+    "text": "네이버 예약 로딩중"
+  },
+  {
+    "url": "https://naver.me/GV2ktDvG",
+    "final": "https://map.naver.com/p/entry/place/37589034?placePath=%2Fhome",
+    "status": 200,
+    "text": ""
+  }
+]

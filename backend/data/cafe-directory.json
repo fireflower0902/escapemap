@@ -170,7 +170,11 @@
       "area": "gyeonggi",
       "website_url": "http://www.signescape.com",
       "engine": "signescape",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 예약 탭은 S2·S5·S6·S7이며 기존 인계시티 S1은 없음. S2 성대역 시간표를 인계시티에 붙이지 않음.",
+      "crawl_review_reason_code": "branch_not_listed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1166453549",
@@ -200,7 +204,11 @@
       "area": "myeongdong",
       "website_url": "https://www.xphobia.net/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 허브에 가맹점 온라인 예약 서비스가 2026-08-31 종료됐다고 공지. 매장 폐업을 뜻하지 않으며 대체 지점 예약처 확인 필요.",
+      "crawl_review_reason_code": "booking_service_ended",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1213158520",
@@ -240,7 +248,11 @@
       "area": "gyeonggi",
       "website_url": "http://reverseesc.com",
       "engine": "reverseesc",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "홈·예약 화면과 공식 reservation.js는 열리지만, JS에서 호출하는 GET /service/get_data는 연결 종료. 예약 완료 피드가 없어 빈자리 추정 금지.",
+      "crawl_review_reason_code": "source_api_unavailable",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1233678979",
@@ -300,7 +312,11 @@
       "area": "gyeonggi",
       "website_url": "http://place.map.kakao.com/1252080396",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "검색으로 네이버 단축 링크 GV2ktDvG를 찾았고 place37589034로 연결 확인. 현재 공식 시간표 사업자 ID는 확정하지 못함.",
+      "crawl_review_reason_code": "official_source_unconfirmed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1254330051",
@@ -530,7 +546,11 @@
       "area": "gyeonggi",
       "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
       "engine": "sherlock",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 현행 예약 메뉴에서 해당 지점명·번호를 확인하지 못했고, 해당 지점 재검증도 테마0개. 다른 지점으로 임의 치환하지 않음.",
+      "crawl_review_reason_code": "branch_not_listed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1397923384",
@@ -610,7 +630,11 @@
       "area": "myeongdong",
       "website_url": "https://www.xphobia.net/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 허브에 가맹점 온라인 예약 서비스가 2026-08-31 종료됐다고 공지. 매장 폐업을 뜻하지 않으며 대체 지점 예약처 확인 필요.",
+      "crawl_review_reason_code": "booking_service_ended",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1436082735",
@@ -620,7 +644,11 @@
       "area": "gyeonggi",
       "website_url": "https://booking.naver.com/booking/12/bizes/1575275",
       "engine": "naver_booking",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공개 GraphQL 재검증은 테마0개. 실제 브라우저 접속은 nid.naver.com 로그인으로 이동. 익명 정기 수집은 보류.",
+      "crawl_review_reason_code": "source_requires_login",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1442041275",
@@ -800,7 +828,11 @@
       "area": "konkuk",
       "website_url": "http://place.map.kakao.com/1516889516",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "서울 광진구 아차산로191은 이미 정기 수집 중인 official_xcape_nc(뉴케이스 건대3호점)와 일치. 별도 중복 수집 추가 없이 레코드 통합 검토 대상.",
+      "crawl_review_reason_code": "duplicate_record",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1521613397",
@@ -1030,7 +1062,11 @@
       "area": "sinlim",
       "website_url": "https://www.xphobia.net/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 허브에 가맹점 온라인 예약 서비스가 2026-08-31 종료됐다고 공지. 매장 폐업을 뜻하지 않으며 대체 지점 예약처 확인 필요.",
+      "crawl_review_reason_code": "booking_service_ended",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "164781377",
@@ -1136,7 +1172,11 @@
       "area": "hongdae",
       "website_url": "https://booking.naver.com/booking/12/bizes/1548412",
       "engine": "naver_booking",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공개 GraphQL 재검증은 테마0개. 실제 브라우저 접속은 nid.naver.com 로그인으로 이동. 익명 정기 수집은 보류.",
+      "crawl_review_reason_code": "source_requires_login",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1727885052",
@@ -1236,7 +1276,11 @@
       "area": "gyeonggi",
       "website_url": "http://reverseesc.com",
       "engine": "reverseesc",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "홈·예약 화면과 공식 reservation.js는 열리지만, JS에서 호출하는 GET /service/get_data는 연결 종료. 예약 완료 피드가 없어 빈자리 추정 금지.",
+      "crawl_review_reason_code": "source_api_unavailable",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1772808576",
@@ -1286,7 +1330,11 @@
       "area": "gyeonggi",
       "website_url": "https://booking.naver.com/booking/12/bizes/601362",
       "engine": "naver_booking",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공개 GraphQL 재검증은 테마0개. 실제 브라우저 접속은 nid.naver.com 로그인으로 이동. 익명 정기 수집은 보류.",
+      "crawl_review_reason_code": "source_requires_login",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1834149457",
@@ -1539,7 +1587,11 @@
       "area": "gyeonggi",
       "website_url": "http://legendescape.com/",
       "engine": "sinbiweb",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 예약 지점 선택에는 이천점(2)만 존재. 기존 서현점(1) 공개 시간표 미확인.",
+      "crawl_review_reason_code": "branch_not_listed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "1973717836",
@@ -1808,7 +1860,11 @@
       "area": "gangnam",
       "website_url": "https://doghoneyescape.com/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 사이트의 허가된 요청 외 크롤링 금지 안내가 있음. 인증 조작이나 차단 우회 없이 자동 편입 보류.",
+      "crawl_review_reason_code": "permission_required",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "2127065864",
@@ -1871,7 +1927,11 @@
       "area": "busan",
       "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
       "engine": "sherlock",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 현행 예약 메뉴에서 해당 지점명·번호를 확인하지 못했고, 해당 지점 재검증도 테마0개. 다른 지점으로 임의 치환하지 않음.",
+      "crawl_review_reason_code": "branch_not_listed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "225341934",
@@ -1911,7 +1971,11 @@
       "area": "gyeonggi",
       "website_url": "http://place.map.kakao.com/255097329",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "검색 결과에서 동일 주소의 현행 구인 공고는 확인했으나 공식 공개 시간표 링크는 미확정. 운영 중이라는 추정만으로 수집 성공 처리하지 않음.",
+      "crawl_review_reason_code": "official_source_unconfirmed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "259983085",
@@ -2001,7 +2065,11 @@
       "area": "hongdae",
       "website_url": "http://www.rec-escape.com/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 예약은 Bookeo 중첩 외부 위젯. 실제 브라우저에서도 시간표가 접근성 DOM에 노출되지 않음. 전용 위젯 읽기 어댑터의 추가 구현·검증 필요(구현 불가능으로 확정하지 않음).",
+      "crawl_review_reason_code": "external_widget",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "273855007",
@@ -2164,13 +2232,16 @@
     },
     {
       "id": "28201117",
-      "name": "레다스퀘어",
+      "name": "위센트 이머시브",
       "branch_name": "홍대점",
-      "address": "서울 마포구 독막로9길 23",
+      "address": "서울 마포구 독막로9길 23 3층",
       "area": "hongdae",
-      "website_url": "https://ledasquare.com",
-      "engine": "ledasquare",
-      "is_active": true
+      "website_url": "https://wecent.kr",
+      "engine": "wecent",
+      "is_active": true,
+      "former_name": "레다스퀘어",
+      "scheduler_paused": false,
+      "crawl_pause_reason": null
     },
     {
       "id": "284779798",
@@ -2473,7 +2544,11 @@
       "area": "jeonbuk",
       "website_url": "http://chaosesc.co.kr/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "확인한 날짜 공식 6테마의 마감 셀에는 시각이 없음. 마감 시각을 위치로 추정하지 않음. 가용 링크가 나오는 날짜와 별도 전체 시간표 제공 여부 확인 필요.",
+      "crawl_review_reason_code": "no_slots_published",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "4331171",
@@ -2576,7 +2651,11 @@
       "area": "gangwon",
       "website_url": "http://place.map.kakao.com/461296797",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "정선군 공식 예약처를 찾았으나 시간표 선택 단계는 개인정보 수집·이용 동의 전에는 반환되지 않음. 안내된 운영시간을 실제 가용 시간대로 생성하지 않음.",
+      "crawl_review_reason_code": "consent_gate",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "462553617",
@@ -2792,11 +2871,13 @@
       "id": "628138029",
       "name": "룸엘이스케이프",
       "branch_name": "신림점",
-      "address": "서울 관악구 신림동",
-      "area": "sinlim",
-      "website_url": "http://www.roomlescape.com",
-      "engine": "roomlescape",
-      "is_active": true
+      "address": "서울 관악구 신림로 322-4 2층",
+      "area": "seoul_other",
+      "website_url": "https://booking.naver.com/booking/12/bizes/164665",
+      "engine": "naver_booking",
+      "is_active": true,
+      "scheduler_paused": false,
+      "crawl_pause_reason": null
     },
     {
       "id": "629764977",
@@ -2906,7 +2987,11 @@
       "area": "gwangju",
       "website_url": "http://www.thecode-escape.com",
       "engine": "thecode",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "기존 공식 도메인은 이번 상세 요청에서 연결/DNS 실패. 현재 예약 가능한 테마 코드를 검증하지 못함.",
+      "crawl_review_reason_code": "source_api_unavailable",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "690123759",
@@ -3036,7 +3121,11 @@
       "area": "sinlim",
       "website_url": "https://booking.naver.com/booking/12/bizes/570203",
       "engine": "naver_booking",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공개 GraphQL 재검증은 테마0개. 실제 브라우저 접속은 nid.naver.com 로그인으로 이동. 익명 정기 수집은 보류.",
+      "crawl_review_reason_code": "source_requires_login",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "765336936",
@@ -3146,7 +3235,11 @@
       "area": "gwangju",
       "website_url": "http://place.map.kakao.com/79137052",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "광주 문화전당로35번길2 기록은 검색되지만 공식 현행 예약처를 확보하지 못함. 이름이 같은 다른 지역 매장으로 치환하지 않음.",
+      "crawl_review_reason_code": "official_source_unconfirmed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "802938757",
@@ -3166,7 +3259,11 @@
       "area": "seoul_other",
       "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
       "engine": "sherlock",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 현행 예약 메뉴에서 해당 지점명·번호를 확인하지 못했고, 해당 지점 재검증도 테마0개. 다른 지점으로 임의 치환하지 않음.",
+      "crawl_review_reason_code": "branch_not_listed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "816654453",
@@ -3286,7 +3383,11 @@
       "area": "itaewon",
       "website_url": "https://www.xphobia.net/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "비트포비아 공식 허브가 연결한 CGV 미션브레이크 예약 페이지는 HTTP403 및 비정상 접속 제한 안내. 우회하지 않고 보류.",
+      "crawl_review_reason_code": "remote_access_denied",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "890251040",
@@ -3356,7 +3457,11 @@
       "area": "seoul_other",
       "website_url": "http://www.thetrapsy.co.kr",
       "engine": "thetrapsy",
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 자체 예약 목록은 네이버 예약 이용 안내로 전환. 공개 홈페이지/검색에서 현재 네이버 사업자 ID를 확정하지 못함.",
+      "crawl_review_reason_code": "official_source_unconfirmed",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "912842418",
@@ -3496,7 +3601,11 @@
       "area": "daegu",
       "website_url": "https://www.xphobia.net/",
       "engine": null,
-      "is_active": true
+      "is_active": true,
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 허브에 가맹점 온라인 예약 서비스가 2026-08-31 종료됐다고 공지. 매장 폐업을 뜻하지 않으며 대체 지점 예약처 확인 필요.",
+      "crawl_review_reason_code": "booking_service_ended",
+      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
     },
     {
       "id": "99889048",
