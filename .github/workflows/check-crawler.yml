@@ -8,6 +8,11 @@ on:
         default: xdungeon
         required: true
         type: string
+      cafe_id:
+        description: '특정 카페 ID (비워두면 기존 지점 선택 방식)'
+        default: ''
+        required: false
+        type: string
       days:
         description: 오늘 이후 추가 조회 일수
         default: '1'
@@ -33,6 +38,7 @@ jobs:
       CRAWL_SEOUL_ONLY: 'false'
       SKIP_META_WRITES: 'false'
       CRAWLER: ${{ inputs.crawler }}
+      CAFE_ID: ${{ inputs.cafe_id }}
       DAYS: ${{ inputs.days }}
       ALL_BRANCHES: ${{ inputs.all_branches }}
     steps:
@@ -47,6 +53,9 @@ jobs:
             args+=(--all)
           else
             args+=("$CRAWLER")
+          fi
+          if [ -n "$CAFE_ID" ]; then
+            args+=(--cafe-id "$CAFE_ID")
           fi
           if [ "$ALL_BRANCHES" = true ]; then
             args+=(--all-branches)
