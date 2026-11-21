@@ -644,6 +644,10 @@
     "cafe_id": "27324626"
   },
   {
+    "script": "sync_oasisescape_db",
+    "cafe_id": "848848018"
+  },
+  {
     "cafe_id": "1908328454",
     "script": "sync_orangetb_db"
   },

@@ -1,0 +1,855 @@
+{
+  "checked_at": "2026-11-21T21:04:29.106935+09:00",
+  "results": [
+    {
+      "cafe_ids": [
+        "442981346"
+      ],
+      "url": "http://www.darockesc.com/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "212176813"
+      ],
+      "url": "https://doghoneyescape.com/",
+      "http_status": 200,
+      "final_url": "https://doghoneyescape.com/",
+      "title": "개꿀이스케이프 | 홈",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "서울특별시\n                            강남구 강남대로 118길 40, 3층",
+          "href": "https://naver.me/FM1gFoOO"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "서울특별시\n                                        강남구 강남대로 118길 40, 3층",
+          "href": "https://naver.me/FM1gFoOO"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "680681357"
+      ],
+      "url": "http://www.thecode-escape.com",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "1551717206",
+        "361428621",
+        "27354377",
+        "1599918263"
+      ],
+      "url": "https://xcape.co.kr",
+      "http_status": 200,
+      "final_url": "https://xcape.co.kr/",
+      "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약",
+      "booking_links": [
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        },
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "911063716"
+      ],
+      "url": "http://www.thetrapsy.co.kr",
+      "http_status": 200,
+      "final_url": "http://www.thetrapsy.co.kr/",
+      "title": "더트랩수유,수유방탈출,더트랩",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "138006966"
+      ],
+      "url": "http://www.themazegd.co.kr",
+      "http_status": 200,
+      "final_url": "https://themazegd.co.kr/",
+      "title": "더메이즈",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "225341934"
+      ],
+      "url": "http://lastescape.co.kr",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "997136500",
+        "1321479252",
+        "892126854"
+      ],
+      "url": "https://doomescape.com/",
+      "http_status": 200,
+      "final_url": "https://doomescape.com/layout/res/home.php?go=main",
+      "title": "둠이스케이프",
+      "booking_links": [
+        {
+          "label": "RESERVATION 예약하기",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "RESERVATION 예약하기",
+          "href": "home.php?go=rev.make"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "1568417037"
+      ],
+      "url": "http://labyrinth.15440835.com/",
+      "error": "SSLError"
+    },
+    {
+      "cafe_ids": [
+        "1968639091"
+      ],
+      "url": "http://legendescape.com/",
+      "http_status": 200,
+      "final_url": "http://legendescape.com/layout/res/home.php?go=main",
+      "title": "레전드이스케이프",
+      "booking_links": [
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "1331705130"
+      ],
+      "url": "https://naver.me/xbjXQceE",
+      "http_status": 200,
+      "final_url": "https://map.naver.com/p/entry/place/2007763740?placePath=%2Fphoto",
+      "title": "",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "628138029"
+      ],
+      "url": "http://www.roomlescape.com",
+      "http_status": 200,
+      "final_url": "http://www.roomlescape.com/",
+      "title": "룸엘이스케이프",
+      "booking_links": [
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "28201117"
+      ],
+      "url": "https://ledasquare.com",
+      "http_status": 200,
+      "final_url": "https://ledasquare.com/layout/res/home.php?go=main",
+      "title": "레다스퀘어",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "Reservation",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "예약하기",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "",
+          "href": "https://ledasquare.com/layout/res/home.php?go=rev.make"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "802938757"
+      ],
+      "url": "http://roomsa.co.kr/",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/",
+      "title": "홈 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "전체 예약 보기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인 예약 내역 조회 및 취소",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "1544141348"
+      ],
+      "url": "https://www.roomsa.co.kr/",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/",
+      "title": "홈 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "전체 예약 보기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인 예약 내역 조회 및 취소",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "1772504569",
+        "1231888375"
+      ],
+      "url": "http://reverseesc.com",
+      "http_status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation.html"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "888192913",
+        "1432484184",
+        "997297045",
+        "1183396756",
+        "1647497159"
+      ],
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "강남 · 제일기숙학원 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "27367643"
+      ],
+      "url": "http://mysteryroomescape.com/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "727312827"
+      ],
+      "url": "http://www.mysteryroomescape.com/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "1254330051",
+        "858962026"
+      ],
+      "url": "http://www.v-escape.co.kr",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "1436082735"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "title": "네이버 예약",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "8143798"
+      ],
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+      "http_status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+      "title": "",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "27369058"
+      ],
+      "url": "http://www.rec-escape.com/",
+      "http_status": 200,
+      "final_url": "http://www.rec-escape.com/",
+      "title": "리얼 이스케이프 첼린지",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "1495650283"
+      ],
+      "url": "https://busan.breakoutescapegame.com/en/",
+      "http_status": 200,
+      "final_url": "https://busan.breakoutescapegame.com/en/",
+      "title": "Busan Escape Room Breakout | Haeundae | Gwangalli",
+      "booking_links": [
+        {
+          "label": "NAVER",
+          "href": "https://booking.naver.com/booking/12/bizes/27519"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "367178846"
+      ],
+      "url": "https://speakeasyescape.co.kr/",
+      "http_status": 200,
+      "final_url": "https://speakeasyescape.co.kr/layout/res/home.php?go=main",
+      "title": "스피키지",
+      "booking_links": [
+        {
+          "label": "실시간예약",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "실시간예약",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "장르 : 코믹 시간 : 65분 인원 : 2~6명 예약하기 급X 코믹 난이도 :",
+          "href": "home.php?go=rev.make&s_theme_num=2"
+        },
+        {
+          "label": "장르 : 스포츠 시간 : 65분 인원 : 2~6명 예약하기 올림픽 시즌2 - 1988 스포츠 난이도 :",
+          "href": "home.php?go=rev.make&s_theme_num=1"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "280887856"
+      ],
+      "url": "http://www.secret-code.co.kr",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "115701517"
+      ],
+      "url": "http://www.signescape.com",
+      "http_status": 200,
+      "final_url": "http://www.signescape.com/",
+      "title": "방탈출카페 싸인이스케이프",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "660859780"
+      ],
+      "url": "http://alcatraz.co.kr/",
+      "http_status": 200,
+      "final_url": "http://alcatraz.co.kr/",
+      "title": "알카트라즈 방탈출카페 임시 페이지",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "166623372"
+      ],
+      "url": "http://unlimited-escape.com/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "2200000001"
+      ],
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+      "http_status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+      "title": "셜록홈즈 방탈출 카페",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "RESERVATION 예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "아산",
+          "href": "/reservation/index.php?sido=&bno=#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "안양범계점",
+          "href": "/reservation/index.php?sido=9&bno=109#reservation"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "1396409942"
+      ],
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+      "http_status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+      "title": "셜록홈즈 방탈출 카페",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "RESERVATION 예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "아산",
+          "href": "/reservation/index.php?sido=&bno=#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "안양범계점",
+          "href": "/reservation/index.php?sido=9&bno=109#reservation"
+        }
+      ]
+    },
+    {
+      "cafe_ids": [
+        "300855776"
+      ],
+      "url": "https://www.todayescape.com",
+      "http_status": 200,
+      "final_url": "https://www.todayescape.com/",
+      "title": "오늘탈출 | 일산 4시간 장시간 방탈출",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "848848018"
+      ],
+      "url": "https://oasismuseum.com",
+      "http_status": 200,
+      "final_url": "https://oasismuseum.com/",
+      "title": "★프리미엄 방탈출카페 오아시스 뮤지엄",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "763904207"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/570203",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/570203",
+      "title": "네이버 예약",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "2000674643"
+      ],
+      "url": "http://withescaper.com/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "1394599334"
+      ],
+      "url": "http://www.geniusescape.kr",
+      "http_status": 403,
+      "final_url": "http://www.geniusescape.kr/",
+      "title": "IIS 10.0 Detailed Error - 403.503 - Forbidden",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "103606910"
+      ],
+      "url": "https://exodusescape.co.kr/",
+      "http_status": 200,
+      "final_url": "https://exodusescape.co.kr/",
+      "title": "강남 방탈출 엑소더스 강남1호점 — CLAIM · WISH",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "890251040"
+      ],
+      "url": "https://zerolotteworld.com/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "431508316"
+      ],
+      "url": "http://chaosesc.co.kr/",
+      "http_status": 200,
+      "final_url": "http://chaosesc.co.kr/",
+      "title": "카오스이스케이프-방탈출카페",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "1831030495"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/601362",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/601362",
+      "title": "네이버 예약",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "1757443413"
+      ],
+      "url": "http://conanescape.kr",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "123477337"
+      ],
+      "url": "https://parabox.kr/",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "52252534"
+      ],
+      "url": "https://kidsintheroom.com/",
+      "http_status": 403,
+      "final_url": "https://kidsintheroom.com/",
+      "title": "접근 제한",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "522639283"
+      ],
+      "url": "http://www.code-escape-garosu.com/",
+      "http_status": 200,
+      "final_url": "http://www.code-escape-garosu.com/",
+      "title": "코드이스케이프 가로수길2",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "554838835"
+      ],
+      "url": "http://withescaper.com",
+      "error": "ConnectionError"
+    },
+    {
+      "cafe_ids": [
+        "1719351380"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "title": "네이버 예약",
+      "booking_links": []
+    },
+    {
+      "cafe_ids": [
+        "1944665207"
+      ],
+      "url": "https://fuzzyline.co.kr",
+      "error": "SSLError"
+    },
+    {
+      "cafe_ids": [
+        "1168819420"
+      ],
+      "url": "http://hotelletoh.co.kr/",
+      "http_status": 200,
+      "final_url": "https://hotelletoh.co.kr/layout/res/home.php?go=main",
+      "title": "호텔레토",
+      "booking_links": [
+        {
+          "label": "Reservation",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "Reservation",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "장르 : 성수 시간 : 100분 인원 : 2~6명 예약하기 호텔 레토 성수 난이도 :",
+          "href": "home.php?go=rev.make&s_theme_num=1"
+        }
+      ]
+    }
+  ]
+}

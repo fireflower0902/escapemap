@@ -12,7 +12,6 @@
   5  미씽 삭스 미스터리
   6  배드 타임 (BÆD TIME)
   8  하이 맥스 (HIGH MAX)
-  17 콜렉터 하우스
   15 4 SUM 1
 
 API:
@@ -71,7 +70,8 @@ BRANCH_NAME = None
 ADDRESS     = "서울 마포구 서교동 403-21"
 AREA        = "hongdae"
 
-THEME_IDS = [1, 5, 6, 8, 17, 15]
+# 콜렉터 하우스(17)는 홈에 소개되지만 예약 페이지는 아직 테마명을 제공하지 않는다.
+THEME_IDS = [1, 5, 6, 8, 15]
 
 _SSL_CTX = ssl.create_default_context()
 
@@ -160,7 +160,7 @@ def parse_ticket_page(html: str, tm: int) -> dict:
             # "[지점명] 테마명" → 테마명 추출 시도
             theme_name = re.sub(r"^\[.*?\]\s*", "", theme_name).strip()
     else:
-        theme_name = f"테마{tm}"
+        raise ValueError(f"테마명 없는 예약 페이지: {tm}")
 
     # 포스터: 첫 번째 img.swiper-img.center-crop
     poster_url = None
@@ -223,7 +223,7 @@ def sync_schedules(db, days: int = 14) -> int:
             html = fetch_ticket_page(tm, target_date)
             time.sleep(REQUEST_DELAY)
 
-            if not html:
+            if not html.strip():
                 print(f"  {date_str} tm={tm}: HTML 없음")
                 continue
 
