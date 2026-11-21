@@ -12,6 +12,7 @@
   5  미씽 삭스 미스터리
   6  배드 타임 (BÆD TIME)
   8  하이 맥스 (HIGH MAX)
+  17 콜렉터 하우스
   15 4 SUM 1
 
 API:
@@ -70,11 +71,9 @@ BRANCH_NAME = None
 ADDRESS     = "서울 마포구 서교동 403-21"
 AREA        = "hongdae"
 
-THEME_IDS = [1, 5, 6, 8, 15]
+THEME_IDS = [1, 5, 6, 8, 17, 15]
 
 _SSL_CTX = ssl.create_default_context()
-_SSL_CTX.check_hostname = False
-_SSL_CTX.verify_mode = ssl.CERT_NONE
 
 HEADERS = {
     "User-Agent": (
@@ -122,11 +121,20 @@ def fetch_closed_schedule_ids(tm: int, target_date: date) -> set[str]:
         with urllib.request.urlopen(req, context=_SSL_CTX, timeout=15) as resp:
             raw = resp.read().decode("utf-8", errors="replace").strip()
         data = json.loads(raw)
-        if not isinstance(data, list) or any(isinstance(x, bool) or not isinstance(x, (str, int)) for x in data):
-            raise ValueError('마감 목록 응답 형식 변경')
-        return {str(x) for x in data}
+        return parse_closed_schedule_ids(data)
     except Exception as e:
         raise RuntimeError(f'마감 목록 조회 실패: tm={tm}, date={date_str}') from e
+
+
+def parse_closed_schedule_ids(data) -> set[str]:
+    # 공식 loadSchedule()는 null을 마감 없음으로 처리한다.
+    if data is None:
+        return set()
+    if not isinstance(data, list) or any(
+        isinstance(x, bool) or not isinstance(x, (str, int)) for x in data
+    ):
+        raise ValueError("마감 목록 응답 형식 변경")
+    return {str(x) for x in data}
 
 
 def parse_ticket_page(html: str, tm: int) -> dict:
@@ -223,11 +231,6 @@ def sync_schedules(db, days: int = 14) -> int:
             theme_name = parsed["theme_name"]
             slots_raw = parsed["slots"]
 
-            if not slots_raw:
-                # 슬롯이 없는 날은 미오픈
-                print(f"  {date_str} {theme_name}: 슬롯 없음 (미오픈)")
-                continue
-
             # 테마 등록
             if theme_name not in theme_cache:
                 doc_id = get_or_create_theme(db, CAFE_ID, theme_name, {
@@ -238,6 +241,10 @@ def sync_schedules(db, days: int = 14) -> int:
                 poster_cache[theme_name] = parsed["poster_url"]
                 print(f"  [UPSERT] 테마: {theme_name} (poster={parsed['poster_url']})")
             theme_doc_id = theme_cache[theme_name]
+
+            if not slots_raw:
+                print(f"  {date_str} {theme_name}: 슬롯 없음 (미오픈)")
+                continue
 
             # 마감된 schedule_id 조회
             closed_ids = fetch_closed_schedule_ids(tm, target_date)
