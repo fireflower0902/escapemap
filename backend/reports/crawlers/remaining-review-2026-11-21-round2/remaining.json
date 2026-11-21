@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "115701517",
+    "name": "싸인이스케이프",
+    "branch_name": "인계시티점",
+    "website_url": "http://www.signescape.com",
+    "engine": "signescape",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "[WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026-11-16&R_THEMA=A 실패: HTTP Error 500: Internal Server Error; [WARN] GET http://www.signescape.com/sub/sub03_1.html?R_JIJEM=S1&chois_date=2026",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "115701517"
+      ],
+      "url": "http://www.signescape.com",
+      "http_status": 200,
+      "final_url": "http://www.signescape.com/",
+      "title": "방탈출카페 싸인이스케이프",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "1183396756",
+    "name": "비트포비아",
+    "branch_name": "명동점",
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "RuntimeError: 비트포비아 API 조회 실패: /reservation/ck_no1.php",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "888192913",
+        "1432484184",
+        "997297045",
+        "1183396756",
+        "1647497159"
+      ],
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "강남 · 제일기숙학원 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1231888375",
+    "name": "리버스이스케이프",
+    "branch_name": "향남점",
+    "website_url": "http://reverseesc.com",
+    "engine": "reverseesc",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1772504569",
+        "1231888375"
+      ],
+      "url": "http://reverseesc.com",
+      "http_status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "website_url": "https://parabox.kr/",
+    "engine": null,
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "123477337"
+      ],
+      "url": "https://parabox.kr/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "1252080396",
+    "name": "할리갈리인더룸방탈출시즌2",
+    "branch_name": null,
+    "website_url": "http://place.map.kakao.com/1252080396",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "1254330051",
+    "name": "방탈출브이",
+    "branch_name": "공평점",
+    "website_url": "http://www.v-escape.co.kr",
+    "engine": "vescape",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1254330051",
+        "858962026"
+      ],
+      "url": "http://www.v-escape.co.kr",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "1331705130",
+    "name": "레드런",
+    "branch_name": "천호점",
+    "website_url": "https://naver.me/xbjXQceE",
+    "engine": null,
+    "previous_review_group": "업종 확인 필요",
+    "previous_reason": "레드런은 발판게임 정보가 함께 검색됨. 방탈출 카페로 확정/타임 생성 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1331705130"
+      ],
+      "url": "https://naver.me/xbjXQceE",
+      "http_status": 200,
+      "final_url": "https://map.naver.com/p/entry/place/2007763740?placePath=%2Fphoto",
+      "title": "",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "1394599334",
+    "name": "지니어스이스케이프",
+    "branch_name": "",
+    "website_url": "http://www.geniusescape.kr",
+    "engine": "geniusescape",
+    "previous_review_group": "접근 제한",
+    "previous_reason": "공식 경로의 접근 제한 응답. 홈페이지 응답과 시간대 수집을 구분",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1394599334"
+      ],
+      "url": "http://www.geniusescape.kr",
+      "http_status": 403,
+      "final_url": "http://www.geniusescape.kr/",
+      "title": "IIS 10.0 Detailed Error - 403.503 - Forbidden",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "1396409942",
+    "name": "셜록홈즈",
+    "branch_name": "분당야탑점",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+    "engine": "sherlock",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1396409942"
+      ],
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+      "http_status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+      "title": "셜록홈즈 방탈출 카페",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "RESERVATION 예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "아산",
+          "href": "/reservation/index.php?sido=&bno=#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "안양범계점",
+          "href": "/reservation/index.php?sido=9&bno=109#reservation"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1432484184",
+    "name": "비트포비아",
+    "branch_name": "대학로점",
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "RuntimeError: 비트포비아 API 조회 실패: /reservation/ck_no1.php",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "888192913",
+        "1432484184",
+        "997297045",
+        "1183396756",
+        "1647497159"
+      ],
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "강남 · 제일기숙학원 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1436082735",
+    "name": "미스터리담",
+    "branch_name": "",
+    "website_url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "engine": "naver_booking",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1436082735"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "title": "네이버 예약",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "1495650283",
+    "name": "브레이크아웃 광안",
+    "branch_name": null,
+    "website_url": "https://busan.breakoutescapegame.com/en/",
+    "engine": null,
+    "previous_review_group": "예약처 불일치",
+    "previous_reason": "등록은 광안이나 제공 예약처 27519 공식 주소는 해운대. 타 지점 시간표 연결 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1495650283"
+      ],
+      "url": "https://busan.breakoutescapegame.com/en/",
+      "http_status": 200,
+      "final_url": "https://busan.breakoutescapegame.com/en/",
+      "title": "Busan Escape Room Breakout | Haeundae | Gwangalli",
+      "booking_links": [
+        {
+          "label": "NAVER",
+          "href": "https://booking.naver.com/booking/12/bizes/27519"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1516889516",
+    "name": "방탈출 뉴케이스",
+    "branch_name": null,
+    "website_url": "http://place.map.kakao.com/1516889516",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "1544141348",
+    "name": "룸즈에이",
+    "branch_name": "광주수완2호점",
+    "website_url": "https://www.roomsa.co.kr/",
+    "engine": null,
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1544141348"
+      ],
+      "url": "https://www.roomsa.co.kr/",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/",
+      "title": "홈 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "전체 예약 보기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인 예약 내역 조회 및 취소",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1551717206",
+    "name": "강남점",
+    "branch_name": null,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "previous_review_group": "중복 후보",
+    "previous_reason": "현재 수집 ID official_xcape_gn와 주소/공식 사이트 대조 대상. 삭제·중복 수집 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1551717206",
+        "361428621",
+        "27354377",
+        "1599918263"
+      ],
+      "url": "https://xcape.co.kr",
+      "http_status": 200,
+      "final_url": "https://xcape.co.kr/",
+      "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약",
+      "booking_links": [
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        },
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1599918263",
+    "name": "수원점",
+    "branch_name": null,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "previous_review_group": "중복 후보",
+    "previous_reason": "현재 수집 ID official_xcape_sw와 주소/공식 사이트 대조 대상. 삭제·중복 수집 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1551717206",
+        "361428621",
+        "27354377",
+        "1599918263"
+      ],
+      "url": "https://xcape.co.kr",
+      "http_status": 200,
+      "final_url": "https://xcape.co.kr/",
+      "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약",
+      "booking_links": [
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        },
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1647497159",
+    "name": "비트포비아",
+    "branch_name": "신림점",
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "888192913",
+        "1432484184",
+        "997297045",
+        "1183396756",
+        "1647497159"
+      ],
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "강남 · 제일기숙학원 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "website_url": "http://unlimited-escape.com/",
+    "engine": null,
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "166623372"
+      ],
+      "url": "http://unlimited-escape.com/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "167846502",
+    "name": "큐브이스케이프",
+    "branch_name": "대전둔산점",
+    "website_url": "http://daejeon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=6",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "1713311920",
+    "name": "제트방탈출카페",
+    "branch_name": "",
+    "website_url": "http://www.zescape.co.kr",
+    "engine": "zescape",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "1719351380",
+    "name": "필더블랭크",
+    "branch_name": "",
+    "website_url": "https://booking.naver.com/booking/12/bizes/1548412",
+    "engine": "naver_booking",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1719351380"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "title": "네이버 예약",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "1757443413",
+    "name": "코난방탈출",
+    "branch_name": "구로디지털단지역점",
+    "website_url": "http://conanescape.kr",
+    "engine": "conanescape",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1757443413"
+      ],
+      "url": "http://conanescape.kr",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "1772504569",
+    "name": "리버스이스케이프",
+    "branch_name": "안산점",
+    "website_url": "http://reverseesc.com",
+    "engine": "reverseesc",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1772504569",
+        "1231888375"
+      ],
+      "url": "http://reverseesc.com",
+      "http_status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1831030495",
+    "name": "체셔캣방탈출카페",
+    "branch_name": "",
+    "website_url": "https://booking.naver.com/booking/12/bizes/601362",
+    "engine": "naver_booking",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1831030495"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/601362",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/601362",
+      "title": "네이버 예약",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "1857201893",
+    "name": "큐브이스케이프",
+    "branch_name": "천호점",
+    "website_url": "http://cheonho.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=7",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "1944665207",
+    "name": "하이드앤시크",
+    "branch_name": "쌈지길점",
+    "website_url": "https://fuzzyline.co.kr",
+    "engine": "naver_booking",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "SSLError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1944665207"
+      ],
+      "url": "https://fuzzyline.co.kr",
+      "error": "SSLError"
+    }
+  },
+  {
+    "id": "1968639091",
+    "name": "레전드이스케이프",
+    "branch_name": "서현점",
+    "website_url": "http://legendescape.com/",
+    "engine": "sinbiweb",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1968639091"
+      ],
+      "url": "http://legendescape.com/",
+      "http_status": 200,
+      "final_url": "http://legendescape.com/layout/res/home.php?go=main",
+      "title": "레전드이스케이프",
+      "booking_links": [
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "website_url": "http://withescaper.com/",
+    "engine": null,
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "2000674643"
+      ],
+      "url": "http://withescaper.com/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "203642029",
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "대학로점",
+    "website_url": "http://www.dumbndumber.kr",
+    "engine": "dumbndumber",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "2100000001",
+    "name": "큐브이스케이프",
+    "branch_name": "잠실점",
+    "website_url": "http://jamsil.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=5",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "2100000004",
+    "name": "큐브이스케이프",
+    "branch_name": "대구점",
+    "website_url": "http://daegu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=2",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "212176813",
+    "name": "개꿀이스케이프",
+    "branch_name": null,
+    "website_url": "https://doghoneyescape.com/",
+    "engine": null,
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "[WARN] GET /v2/shops/XEcM52tKWqDCUFCG 실패: HTTP Error 500: Internal Server Error",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "212176813"
+      ],
+      "url": "https://doghoneyescape.com/",
+      "http_status": 200,
+      "final_url": "https://doghoneyescape.com/",
+      "title": "개꿀이스케이프 | 홈",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "서울특별시\n                            강남구 강남대로 118길 40, 3층",
+          "href": "https://naver.me/FM1gFoOO"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        },
+        {
+          "label": "서울특별시\n                                        강남구 강남대로 118길 40, 3층",
+          "href": "https://naver.me/FM1gFoOO"
+        },
+        {
+          "label": "예약하기",
+          "href": "reservation.html"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "website_url": "https://amazed.co.kr/?page_id=4808#booking",
+    "engine": "amazed_booked",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 응답에서 공식 예약 달력 확인 불가",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "2143447304",
+    "name": "안흥여관",
+    "branch_name": null,
+    "website_url": "http://place.map.kakao.com/2143447304",
+    "engine": null,
+    "previous_review_group": "공개 시간표 미확인",
+    "previous_reason": "인스타 DM 예약 안내가 있으나 기계가 읽는 공식 시간표 확인되지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "2200000001",
+    "name": "셜록홈즈",
+    "branch_name": "부산기장정관점",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+    "engine": "sherlock",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "2200000001"
+      ],
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+      "http_status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+      "title": "셜록홈즈 방탈출 카페",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "RESERVATION 예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "안산점",
+          "href": "/reservation/index.php?sido=9&bno=114#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "아산",
+          "href": "/reservation/index.php?sido=&bno=#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "수원역2호점",
+          "href": "/reservation/index.php?sido=9&bno=113#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "뉴부천점",
+          "href": "/reservation/index.php?sido=9&bno=111#reservation"
+        },
+        {
+          "label": "용인역북점",
+          "href": "/reservation/index.php?sido=9&bno=112#reservation"
+        },
+        {
+          "label": "안양범계점",
+          "href": "/reservation/index.php?sido=9&bno=109#reservation"
+        }
+      ]
+    }
+  },
+  {
+    "id": "225341934",
+    "name": "라스트이스케이프",
+    "branch_name": "강남점",
+    "website_url": "http://lastescape.co.kr",
+    "engine": "lastescape",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "225341934"
+      ],
+      "url": "http://lastescape.co.kr",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "website_url": "http://place.map.kakao.com/255097329",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "27354377",
+    "name": "건대점",
+    "branch_name": null,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "previous_review_group": "중복 후보",
+    "previous_reason": "현재 수집 ID official_xcape_xc와 주소/공식 사이트 대조 대상. 삭제·중복 수집 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1551717206",
+        "361428621",
+        "27354377",
+        "1599918263"
+      ],
+      "url": "https://xcape.co.kr",
+      "http_status": 200,
+      "final_url": "https://xcape.co.kr/",
+      "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약",
+      "booking_links": [
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        },
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        }
+      ]
+    }
+  },
+  {
+    "id": "27367643",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "강남점",
+    "website_url": "http://mysteryroomescape.com/",
+    "engine": "mysteryroom",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "27367643"
+      ],
+      "url": "http://mysteryroomescape.com/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "27369058",
+    "name": "리얼이스케이프챌린지",
+    "branch_name": null,
+    "website_url": "http://www.rec-escape.com/",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "27369058"
+      ],
+      "url": "http://www.rec-escape.com/",
+      "http_status": 200,
+      "final_url": "http://www.rec-escape.com/",
+      "title": "리얼 이스케이프 첼린지",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "27413260",
+    "name": "큐브이스케이프",
+    "branch_name": "홍대점",
+    "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "27522878",
+    "name": "큐브이스케이프",
+    "branch_name": "전주점",
+    "website_url": "http://junju.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=4",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "27564986",
+    "name": "큐브이스케이프",
+    "branch_name": "인천점",
+    "website_url": "http://incheon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=3",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "280887856",
+    "name": "시크릿코드",
+    "branch_name": "홍대직영점",
+    "website_url": "http://www.secret-code.co.kr",
+    "engine": "secretcode",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "280887856"
+      ],
+      "url": "http://www.secret-code.co.kr",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "28201117",
+    "name": "레다스퀘어",
+    "branch_name": "홍대점",
+    "website_url": "https://ledasquare.com",
+    "engine": "ledasquare",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "28201117"
+      ],
+      "url": "https://ledasquare.com",
+      "http_status": 200,
+      "final_url": "https://ledasquare.com/layout/res/home.php?go=main",
+      "title": "레다스퀘어",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "Reservation",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "예약하기",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "",
+          "href": "https://ledasquare.com/layout/res/home.php?go=rev.make"
+        }
+      ]
+    },
+    "current_finding": "공식 테마 목록 6번 아바타 확인. 11월22일 시간표 응답 공백; 예약 가능으로 추정하지 않음."
+  },
+  {
+    "id": "28574930",
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "서면점",
+    "website_url": "http://www.dumbndumber-sm.kr",
+    "engine": "dumbndumber",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "300855776",
+    "name": "오늘탈출",
+    "branch_name": "고양점",
+    "website_url": "https://www.todayescape.com",
+    "engine": "naver_booking",
+    "previous_review_group": "리뉴얼 안내",
+    "previous_reason": "공식 홈페이지 첫출근이야기 테마 리뉴얼 중. 재오픈 일정 준비 중 안내",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "300855776"
+      ],
+      "url": "https://www.todayescape.com",
+      "http_status": 200,
+      "final_url": "https://www.todayescape.com/",
+      "title": "오늘탈출 | 일산 4시간 장시간 방탈출",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "361428621",
+    "name": "건대2호",
+    "branch_name": null,
+    "website_url": "https://xcape.co.kr",
+    "engine": "xcape",
+    "previous_review_group": "중복 후보",
+    "previous_reason": "현재 수집 ID official_xcape_xr와 주소/공식 사이트 대조 대상. 삭제·중복 수집 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1551717206",
+        "361428621",
+        "27354377",
+        "1599918263"
+      ],
+      "url": "https://xcape.co.kr",
+      "http_status": 200,
+      "final_url": "https://xcape.co.kr/",
+      "title": "엑스케이프 XCAPE · 엑스크라임 · 뉴케이스 | 방탈출 예약",
+      "booking_links": [
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        },
+        {
+          "label": "실시간 예약",
+          "href": "/booking"
+        }
+      ]
+    }
+  },
+  {
+    "id": "367178846",
+    "name": "스키피지",
+    "branch_name": null,
+    "website_url": "https://speakeasyescape.co.kr/",
+    "engine": null,
+    "previous_review_group": "중복 후보",
+    "previous_reason": "현재 수집 ID 1825220691와 주소/공식 사이트 대조 대상. 삭제·중복 수집 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "367178846"
+      ],
+      "url": "https://speakeasyescape.co.kr/",
+      "http_status": 200,
+      "final_url": "https://speakeasyescape.co.kr/layout/res/home.php?go=main",
+      "title": "스피키지",
+      "booking_links": [
+        {
+          "label": "실시간예약",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "실시간예약",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "장르 : 코믹 시간 : 65분 인원 : 2~6명 예약하기 급X 코믹 난이도 :",
+          "href": "home.php?go=rev.make&s_theme_num=2"
+        },
+        {
+          "label": "장르 : 스포츠 시간 : 65분 인원 : 2~6명 예약하기 올림픽 시즌2 - 1988 스포츠 난이도 :",
+          "href": "home.php?go=rev.make&s_theme_num=1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "431508316",
+    "name": "카오스이스케이프",
+    "branch_name": null,
+    "website_url": "http://chaosesc.co.kr/",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "431508316"
+      ],
+      "url": "http://chaosesc.co.kr/",
+      "http_status": 200,
+      "final_url": "http://chaosesc.co.kr/",
+      "title": "카오스이스케이프-방탈출카페",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "4331171",
+    "name": "큐브이스케이프",
+    "branch_name": "수유점",
+    "website_url": "http://suyu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=8",
+    "engine": "cubeescape",
+    "previous_review_group": "로컬 통과 / GitHub 보류",
+    "previous_reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "website_url": "http://www.darockesc.com/",
+    "engine": null,
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "442981346"
+      ],
+      "url": "http://www.darockesc.com/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "461296797",
+    "name": "고한 시티써커스",
+    "branch_name": null,
+    "website_url": "http://place.map.kakao.com/461296797",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "52252534",
+    "name": "키즈인더룸",
+    "branch_name": "평촌점",
+    "website_url": "https://kidsintheroom.com/",
+    "engine": null,
+    "previous_review_group": "접근 제한",
+    "previous_reason": "공식 경로의 접근 제한 응답. 홈페이지 응답과 시간대 수집을 구분",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "52252534"
+      ],
+      "url": "https://kidsintheroom.com/",
+      "http_status": 403,
+      "final_url": "https://kidsintheroom.com/",
+      "title": "접근 제한",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "554838835",
+    "name": "하이드앤시크",
+    "branch_name": "홍대점",
+    "website_url": "http://withescaper.com",
+    "engine": "naver_booking",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "554838835"
+      ],
+      "url": "http://withescaper.com",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "628138029",
+    "name": "룸엘이스케이프",
+    "branch_name": "신림점",
+    "website_url": "http://www.roomlescape.com",
+    "engine": "roomlescape",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "628138029"
+      ],
+      "url": "http://www.roomlescape.com",
+      "http_status": 200,
+      "final_url": "http://www.roomlescape.com/",
+      "title": "룸엘이스케이프",
+      "booking_links": [
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        },
+        {
+          "label": "RESERVATION",
+          "href": "home.php?go=rev.make"
+        }
+      ]
+    }
+  },
+  {
+    "id": "660859780",
+    "name": "알카트래즈방탈출카페",
+    "branch_name": null,
+    "website_url": "http://alcatraz.co.kr/",
+    "engine": null,
+    "previous_review_group": "온라인 시간표 미제공",
+    "previous_reason": "온라인 예약 시스템 공사 중, 전화 예약 안내",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "660859780"
+      ],
+      "url": "http://alcatraz.co.kr/",
+      "http_status": 200,
+      "final_url": "http://alcatraz.co.kr/",
+      "title": "알카트라즈 방탈출카페 임시 페이지",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "680681357",
+    "name": "더코드",
+    "branch_name": "",
+    "website_url": "http://www.thecode-escape.com",
+    "engine": "thecode",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "[WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11-16&r_thema=esc_09 실패: HTTP Error 500: Internal Server Error; [WARN] GET http://www.thecode-escape.com/sub/code_sub03.html?chois_date=2026-11",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "680681357"
+      ],
+      "url": "http://www.thecode-escape.com",
+      "error": "ConnectionError"
+    },
+    "current_finding": "공식 기존 도메인 DNS 연결 실패. 기존 파서 변경 전에 현행 예약처 확인 필요."
+  },
+  {
+    "id": "727312827",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "홍대2호점",
+    "website_url": "http://www.mysteryroomescape.com/",
+    "engine": null,
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "727312827"
+      ],
+      "url": "http://www.mysteryroomescape.com/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "763904207",
+    "name": "월투월방탈출",
+    "branch_name": "",
+    "website_url": "https://booking.naver.com/booking/12/bizes/570203",
+    "engine": "naver_booking",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "763904207"
+      ],
+      "url": "https://booking.naver.com/booking/12/bizes/570203",
+      "http_status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/570203",
+      "title": "네이버 예약",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "77278349",
+    "name": "레드런",
+    "branch_name": "천안점",
+    "website_url": "http://place.map.kakao.com/77278349",
+    "engine": null,
+    "previous_review_group": "업종 확인 필요",
+    "previous_reason": "레드런은 발판게임 정보가 함께 검색됨. 방탈출 카페로 확정/타임 생성 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "website_url": "http://place.map.kakao.com/79137052",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "802938757",
+    "name": "룸즈에이",
+    "branch_name": "부평점",
+    "website_url": "http://roomsa.co.kr/",
+    "engine": null,
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "802938757"
+      ],
+      "url": "http://roomsa.co.kr/",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/",
+      "title": "홈 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "전체 예약 보기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인 예약 내역 조회 및 취소",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8143798",
+    "name": "셜록홈즈",
+    "branch_name": "노량진점",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+    "engine": "sherlock",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "8143798"
+      ],
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+      "http_status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
+      "title": "",
+      "booking_links": []
+    }
+  },
+  {
+    "id": "858962026",
+    "name": "방탈출브이",
+    "branch_name": "삼덕점",
+    "website_url": "http://www.v-escape.co.kr",
+    "engine": "vescape",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "1254330051",
+        "858962026"
+      ],
+      "url": "http://www.v-escape.co.kr",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "888192913",
+    "name": "미션브레이크",
+    "branch_name": "CGV용산아이파크몰점",
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "888192913",
+        "1432484184",
+        "997297045",
+        "1183396756",
+        "1647497159"
+      ],
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "강남 · 제일기숙학원 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "890251040",
+    "name": "제로월드",
+    "branch_name": "롯데월드점",
+    "website_url": "https://zerolotteworld.com/",
+    "engine": "zeroworld",
+    "previous_review_group": "도메인/연결 확인 필요",
+    "previous_reason": "ConnectionError — 폐업으로 단정하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "890251040"
+      ],
+      "url": "https://zerolotteworld.com/",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "id": "911063716",
+    "name": "더트랩",
+    "branch_name": "수유점",
+    "website_url": "http://www.thetrapsy.co.kr",
+    "engine": "thetrapsy",
+    "previous_review_group": "기존 수집기 미해결",
+    "previous_reason": "공식 응답은 있으나 검증된 요청 기간 시간표가 없음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "911063716"
+      ],
+      "url": "http://www.thetrapsy.co.kr",
+      "http_status": 200,
+      "final_url": "http://www.thetrapsy.co.kr/",
+      "title": "더트랩수유,수유방탈출,더트랩",
+      "booking_links": []
+    },
+    "current_finding": "공식 자체 시간표가 네이버 예약 이용 안내로 변경. 네이버 place 예약 연결은 HTTP429로 확인 보류."
+  },
+  {
+    "id": "997297045",
+    "name": "비트포비아",
+    "branch_name": "동성로점",
+    "website_url": "https://www.xphobia.net/",
+    "engine": null,
+    "previous_review_group": "예약처/파서 추가 확인",
+    "previous_reason": "사이트/소개 목록 확인만으로 시간표 수집 성공으로 처리하지 않음",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "888192913",
+        "1432484184",
+        "997297045",
+        "1183396756",
+        "1647497159"
+      ],
+      "url": "https://www.xphobia.net/",
+      "http_status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "booking_links": [
+        {
+          "label": "강남 · 제일기숙학원 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        },
+        {
+          "label": "홍대 · 한강대 담력훈련 ↗",
+          "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+        },
+        {
+          "label": "제일기숙학원 예약하기 ↗",
+          "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_41",
+    "name": "룸즈에이",
+    "branch_name": "강남점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_42",
+    "name": "룸즈에이",
+    "branch_name": "대학로점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_43",
+    "name": "룸즈에이",
+    "branch_name": "안양범계점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_44",
+    "name": "룸즈에이",
+    "branch_name": "일산 웨스턴돔점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_46",
+    "name": "룸즈에이",
+    "branch_name": "의정부점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_47",
+    "name": "룸즈에이",
+    "branch_name": "수원역점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_48",
+    "name": "룸즈에이",
+    "branch_name": "수원역 2호점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_49",
+    "name": "룸즈에이",
+    "branch_name": "대전둔산점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_50",
+    "name": "룸즈에이",
+    "branch_name": "대전은행점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_51",
+    "name": "룸즈에이",
+    "branch_name": "부산남포점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_52",
+    "name": "룸즈에이",
+    "branch_name": "부산서면점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_53",
+    "name": "룸즈에이",
+    "branch_name": "광주수완점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_54",
+    "name": "룸즈에이",
+    "branch_name": "광주상무점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_55",
+    "name": "룸즈에이",
+    "branch_name": "대구동성로점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_56",
+    "name": "룸즈에이",
+    "branch_name": "동성로2호점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_57",
+    "name": "룸즈에이",
+    "branch_name": "동성로 아카데미점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_58",
+    "name": "룸즈에이",
+    "branch_name": "포항점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_69",
+    "name": "룸즈에이",
+    "branch_name": "부평 2호점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_roomsa_83",
+    "name": "룸즈에이",
+    "branch_name": "대구스테이지점",
+    "website_url": "https://roomsa.co.kr/reservation",
+    "engine": "roomsa_catalog",
+    "previous_review_group": "보호된 예약 화면",
+    "previous_reason": "공통 공식 예약 화면의 보호 안내. 시간대 생성/보호 우회 안 함",
+    "previous_review_date": "2026-11-16",
+    "url_recheck": {
+      "cafe_ids": [
+        "official_roomsa_41",
+        "official_roomsa_54",
+        "official_roomsa_53",
+        "official_roomsa_55",
+        "official_roomsa_83",
+        "official_roomsa_49",
+        "official_roomsa_50",
+        "official_roomsa_42",
+        "official_roomsa_57",
+        "official_roomsa_56",
+        "official_roomsa_51",
+        "official_roomsa_52",
+        "official_roomsa_69",
+        "official_roomsa_48",
+        "official_roomsa_47",
+        "official_roomsa_43",
+        "official_roomsa_46",
+        "official_roomsa_44",
+        "official_roomsa_58"
+      ],
+      "url": "https://roomsa.co.kr/reservation",
+      "http_status": 200,
+      "final_url": "https://roomsa.co.kr/reservation",
+      "title": "예약하기 | 룸즈에이",
+      "booking_links": [
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        },
+        {
+          "label": "예약하기",
+          "href": "/reservation"
+        },
+        {
+          "label": "예약확인",
+          "href": "/booking-lookup"
+        }
+      ]
+    }
+  },
+  {
+    "id": "official_secretgarden_10",
+    "name": "비밀의화원",
+    "branch_name": "광주점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "official_secretgarden_11",
+    "name": "비밀의화원",
+    "branch_name": "시네마틱 혜화점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "official_secretgarden_12",
+    "name": "비밀의화원",
+    "branch_name": "전주점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "official_secretgarden_3",
+    "name": "비밀의화원",
+    "branch_name": "서면점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "official_secretgarden_4",
+    "name": "비밀의화원",
+    "branch_name": "대학로점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "official_secretgarden_5",
+    "name": "비밀의화원",
+    "branch_name": "건대점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  },
+  {
+    "id": "official_secretgarden_6",
+    "name": "비밀의화원",
+    "branch_name": "동성로점",
+    "website_url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6&rdate=2026-11-15",
+    "engine": "secretgarden",
+    "previous_review_group": null,
+    "previous_reason": null,
+    "previous_review_date": "2026-11-16",
+    "url_recheck": null
+  }
+]

@@ -12,6 +12,10 @@
     "cafe_id": "949587061"
   },
   {
+    "cafe_id": "522639283",
+    "script": "sync_codegarosu_db"
+  },
+  {
     "cafe_id": "1475074228",
     "script": "sync_codek_db"
   },
@@ -322,6 +326,10 @@
   {
     "script": "sync_escapetop_db",
     "cafe_id": "746135486"
+  },
+  {
+    "cafe_id": "776644226",
+    "script": "sync_escapetop_db"
   },
   {
     "script": "sync_escapetop_db",

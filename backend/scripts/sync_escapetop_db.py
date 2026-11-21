@@ -79,7 +79,7 @@ BRANCHES = [
         "cafe_id": "776644226",
         "business_id": "323856",
         "business_type_id": 12,
-        "branch_name": "인천논현점",
+        "branch_name": None,
         "name": "하이드 방탈출",
         "address": "인천 남동구 논고개로123번길 35 칼리오페 515호",
         "area": "incheon",

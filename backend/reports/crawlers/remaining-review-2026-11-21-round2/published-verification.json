@@ -1,0 +1,50 @@
+[
+  {
+    "cafe_id": "522639283",
+    "script": "sync_codegarosu_db",
+    "checked_at": "2026-11-21T21:26:49.711445+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 165,
+    "statuses": {
+      "full": 31,
+      "available": 134
+    },
+    "dates": [
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "duration_seconds": 4.21,
+    "published": true,
+    "issues": []
+  },
+  {
+    "cafe_id": "776644226",
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-21T21:28:26.957943+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 3,
+    "themes_with_slots": 3,
+    "slots": 75,
+    "statuses": {
+      "full": 7,
+      "available": 68
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "duration_seconds": 13.9,
+    "published": true,
+    "issues": []
+  }
+]

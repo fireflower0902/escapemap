@@ -1,0 +1,41 @@
+[
+  {
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44903992045",
+    "script": "sync_codegarosu_db",
+    "checked_at": "2026-11-21T21:27:45.334832+09:00",
+    "status": "smoke_pass",
+    "slots": 165,
+    "themes_fetched": 3,
+    "dates": [
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "duration_seconds": 7.95,
+    "issues": []
+  },
+  {
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44904144690",
+    "script": "sync_escapetop_db",
+    "checked_at": "2026-11-21T21:29:29.542785+09:00",
+    "status": "smoke_pass",
+    "requested_cafe_ids": [
+      "776644226"
+    ],
+    "slots": 75,
+    "themes_fetched": 3,
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27"
+    ],
+    "duration_seconds": 28.01,
+    "issues": []
+  }
+]

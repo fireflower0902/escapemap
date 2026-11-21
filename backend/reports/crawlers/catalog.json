@@ -110,7 +110,8 @@
         "branch_name": "가로수길점",
         "address": "서울 강남구 가로수길 14",
         "area": "gangnam",
-        "website_url": "http://www.code-escape-garosu.com/",
+        "website_url": "http://www.code-escape-garosu.com",
+        "engine": "codegarosu",
         "is_active": true
       }
     ],
@@ -815,11 +816,11 @@
     "cafes": [
       {
         "cafe_id": "776644226",
-        "name": "리즌방탈출",
-        "branch_name": "인천논현점",
-        "address": "인천 남동구 논고개로123번길 35",
+        "name": "하이드 방탈출",
+        "address": "인천 남동구 논고개로123번길 35 칼리오페 515호",
         "area": "incheon",
-        "website_url": "http://place.map.kakao.com/776644226",
+        "website_url": "https://booking.naver.com/booking/12/bizes/323856",
+        "engine": "naver_booking",
         "is_active": true
       },
       {
