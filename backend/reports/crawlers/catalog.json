@@ -95,6 +95,28 @@
     "selections": {}
   },
   {
+    "id": "sync_codegarosu_db",
+    "name": "코드이스케이프 가로수길 공식 공개 날짜별 시간표. 예약 생성은 호출하지 않는다.",
+    "urls": [
+      "http://www.code-escape-garosu.com"
+    ],
+    "cafe_ids": [
+      "522639283"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "522639283",
+        "name": "코드이스케이프",
+        "branch_name": "가로수길점",
+        "address": "서울 강남구 가로수길 14",
+        "area": "gangnam",
+        "website_url": "http://www.code-escape-garosu.com/",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
     "id": "sync_codek_db",
     "name": "코드케이 공식 지점별 CQ 예약표. UTF-8·공식 지점 코드·테마별 CQ 블록을 구분.",
     "urls": [
