@@ -795,6 +795,7 @@
       "570199530",
       "617331855",
       "625095198",
+      "628138029",
       "632336157",
       "657876723",
       "665041653",
@@ -814,6 +815,16 @@
       "964420524"
     ],
     "cafes": [
+      {
+        "cafe_id": "628138029",
+        "name": "룸엘이스케이프",
+        "branch_name": "신림점",
+        "address": "서울 관악구 신림동",
+        "area": "sinlim",
+        "website_url": "http://www.roomlescape.com",
+        "engine": "roomlescape",
+        "is_active": true
+      },
       {
         "cafe_id": "776644226",
         "name": "하이드 방탈출",
@@ -5374,6 +5385,29 @@
         "name": "방탈출브이",
         "website_url": "http://www.v-escape.co.kr",
         "engine": "vescape",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
+    "id": "sync_wecent_db",
+    "name": "레다 공식 메뉴가 연결한 위센트 이머시브 공개 availability GET 수집기.",
+    "urls": [
+      "https://wecent.kr"
+    ],
+    "cafe_ids": [
+      "28201117"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "28201117",
+        "name": "레다스퀘어",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 독막로9길 23",
+        "area": "hongdae",
+        "website_url": "https://ledasquare.com",
+        "engine": "ledasquare",
         "is_active": true
       }
     ],
