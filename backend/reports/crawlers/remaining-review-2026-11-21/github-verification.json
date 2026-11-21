@@ -1,7 +1,9 @@
 {
   "script": "sync_oasisescape_db",
-  "checked_at": "2026-11-21T21:05:48.038929+09:00",
+  "checked_at": "2026-11-21T21:09:45.151138+09:00",
   "status": "smoke_pass",
+  "themes_fetched": 5,
+  "themes_with_slots": 4,
   "slots": 183,
   "statuses": {
     "full": 74,
@@ -16,9 +18,9 @@
     "2026-11-26",
     "2026-11-27"
   ],
-  "duration_seconds": 108.39,
+  "duration_seconds": 109.52,
   "issues": [],
   "log_errors": [],
-  "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44902178507",
-  "note": "7dfafac에서 원격 검증. 이후 미공개 17번 제외 및 임시 이름 등록 거부 강화."
+  "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44902499620",
+  "commit": "636a099"
 }

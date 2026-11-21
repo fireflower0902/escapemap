@@ -1,0 +1,58 @@
+{
+  "themes": [
+    {
+      "name": "4 SUM 1",
+      "is_active": true
+    },
+    {
+      "name": "미씽 삭스 미스터리",
+      "is_active": true
+    },
+    {
+      "name": "배드 타임 (BÆD TIME)",
+      "is_active": true
+    },
+    {
+      "name": "업사이드 다운",
+      "is_active": true
+    },
+    {
+      "name": "테마17",
+      "is_active": false
+    },
+    {
+      "name": "하이 맥스 (HIGH MAX)",
+      "is_active": true
+    }
+  ],
+  "date_checks": [
+    {
+      "date": "2026-11-21",
+      "status": "success"
+    },
+    {
+      "date": "2026-11-22",
+      "status": "success"
+    },
+    {
+      "date": "2026-11-23",
+      "status": "success"
+    },
+    {
+      "date": "2026-11-24",
+      "status": "success"
+    },
+    {
+      "date": "2026-11-25",
+      "status": "success"
+    },
+    {
+      "date": "2026-11-26",
+      "status": "success"
+    },
+    {
+      "date": "2026-11-27",
+      "status": "success"
+    }
+  ]
+}

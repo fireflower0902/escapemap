@@ -17,11 +17,12 @@
 
 ## 자동 수집 상태
 
+- 최신 정기 실행: [11월21일 성공 실행](https://github.com/fireflower0902/escapemap/actions/runs/44877769421), 시작부터 집계 완료까지 20분18초(307개 대상).
 - 기존 307개 전체 실행 검증: [11월17일 성공 실행](https://github.com/fireflower0902/escapemap/actions/runs/43897763468), 19분15초. 당시 실행 한 번의 측정치이며 매번30분 이내 보장은 아니다.
-- 오아시스 GitHub 7일 개별 검증: [실행 결과](https://github.com/fireflower0902/escapemap/actions/runs/44902178507). GitHub 수집 성공 확인 후 정기 수집에 추가했다. 최종 대상은 308개, 대상 외는 97개다.
+- 오아시스 GitHub 7일 개별 검증: [실행 결과](https://github.com/fireflower0902/escapemap/actions/runs/44902499620). GitHub 수집 성공 확인 후 정기 수집에 추가했다. 최종 대상은 308개, 대상 외는 97개다.
 - 회귀 테스트 90개와 subtest16개 통과. 기존 호환되지 않는 test_engines.py는 종전 검증 범위와 동일하게 제외했다.
 
-## 대상 외 전체 목록
+## 검토 시작 시 대상 외 전체 목록 (98개)
 
 이번 URL 재확인은 홈페이지 연결 기준이다. 상세 시간표를 새로 검사한 곳은 위 항목에 명시했다.
 
@@ -125,3 +126,5 @@
 |official_secretgarden_4|비밀의화원 대학로점|이번 URL 재확인 없음|11/16: 기존 보류; 상세 원인은 deferred-crawlers.json 참조|
 |official_secretgarden_5|비밀의화원 건대점|이번 URL 재확인 없음|11/16: 기존 보류; 상세 원인은 deferred-crawlers.json 참조|
 |official_secretgarden_6|비밀의화원 동성로점|이번 URL 재확인 없음|11/16: 기존 보류; 상세 원인은 deferred-crawlers.json 참조|
+
+최종 코드 `636a099`의 GitHub 개별 7일 수집 및 Cloudflare 자동 빌드 모두 성공했다.
