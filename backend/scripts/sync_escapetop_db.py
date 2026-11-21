@@ -76,6 +76,16 @@ REQUEST_DELAY = 0.5
 
 BRANCHES = [
     {
+        "cafe_id": "628138029",
+        "business_id": "164665",
+        "business_type_id": 12,
+        "branch_name": "신림점",
+        "name": "룸엘이스케이프",
+        "address": "서울 관악구 신림로 322-4 2층",
+        "area": "seoul_other",
+        "site_url": "https://booking.naver.com/booking/12/bizes/164665",
+    },
+    {
         "cafe_id": "776644226",
         "business_id": "323856",
         "business_type_id": 12,
