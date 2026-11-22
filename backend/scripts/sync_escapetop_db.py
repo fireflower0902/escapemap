@@ -75,6 +75,10 @@ BUSINESS_TYPE_ID = 12
 REQUEST_DELAY = 0.5
 
 BRANCHES = [
+    {'cafe_id': '727312827', 'business_id': '1006824', 'business_type_id': 12,
+     'name': '미스터리룸이스케이프', 'branch_name': '홍대2호점',
+     'address': '서울 마포구 독막로7길 41 2층', 'area': 'hongdae',
+     'site_url': 'https://booking.naver.com/booking/12/bizes/1006824'},
     # 룸즈에이 공식 공개 카탈로그가 명시한 독립 네이버 예약처.
     {'cafe_id': 'official_roomsa_41', 'business_id': '1180370', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '강남점', 'address': '서울 강남구 역삼동 827-14, 지하 2층', 'area': 'gangnam', 'site_url': 'https://booking.naver.com/booking/12/bizes/1180370'},
     {'cafe_id': 'official_roomsa_42', 'business_id': '1180392', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '대학로점', 'address': '서울 종로구 동숭동 1-65 해안빌딩, 지하 1층', 'area': 'myeongdong', 'site_url': 'https://booking.naver.com/booking/12/bizes/1180392'},
