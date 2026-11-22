@@ -1,0 +1,24 @@
+{
+  "554838835": {
+    "name": "하이드앤시크",
+    "branch_name": "The Origin 연남",
+    "address": "서울 마포구 월드컵북로6길 24-7 SANTOH빌딩 B1",
+    "area": "hongdae",
+    "engine": "fuzzyline",
+    "website_url": "https://play.fuzzyline.io",
+    "scheduler_paused": false,
+    "crawl_pause_reason": null,
+    "crawl_review_reason_code": "verified_public_api"
+  },
+  "1944665207": {
+    "name": "하이드앤시크",
+    "branch_name": "Cyberpunk 안국",
+    "address": "서울 종로구 인사동길 44 쌈지길 B2",
+    "area": "myeongdong",
+    "engine": "fuzzyline",
+    "website_url": "https://play.fuzzyline.io",
+    "scheduler_paused": false,
+    "crawl_pause_reason": null,
+    "crawl_review_reason_code": "verified_public_api"
+  }
+}

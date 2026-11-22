@@ -842,9 +842,12 @@
         "branch_name": "강남점",
         "address": "서울 강남구 역삼동 827-14, 지하 2층",
         "area": "gangnam",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1180370",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_42",
@@ -852,9 +855,12 @@
         "branch_name": "대학로점",
         "address": "서울 종로구 동숭동 1-65 해안빌딩, 지하 1층",
         "area": "myeongdong",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1180392",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_43",
@@ -862,9 +868,12 @@
         "branch_name": "안양범계점",
         "address": "경기 안양시 동안구 호계동 1041-2, 5층",
         "area": "gyeonggi",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179265",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_44",
@@ -872,9 +881,12 @@
         "branch_name": "일산 웨스턴돔점",
         "address": "경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호",
         "area": "gyeonggi",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/305335",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_46",
@@ -882,9 +894,12 @@
         "branch_name": "의정부점",
         "address": "경기 의정부시 의정부동 158-10, 4층",
         "area": "gyeonggi",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179486",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_47",
@@ -892,9 +907,12 @@
         "branch_name": "수원역점",
         "address": "경기 수원시 팔달구 매산로1가 30-1, 3층",
         "area": "gyeonggi",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/617834",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_48",
@@ -902,9 +920,12 @@
         "branch_name": "수원역 2호점",
         "address": "경기 수원시 팔달구 매산로1가 40-1, 3층",
         "area": "gyeonggi",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/706303",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_49",
@@ -912,9 +933,12 @@
         "branch_name": "대전둔산점",
         "address": "대전 서구 둔산동 1063, 태형빌딩 7층",
         "area": "daejeon",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/281163",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_50",
@@ -922,9 +946,12 @@
         "branch_name": "대전은행점",
         "address": "대전 중구 은행동 33-2, 4층",
         "area": "daejeon",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/162323",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_51",
@@ -932,9 +959,12 @@
         "branch_name": "부산남포점",
         "address": "부산 중구 창선동2가 46-1",
         "area": "busan",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/72622",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_52",
@@ -942,9 +972,12 @@
         "branch_name": "부산서면점",
         "address": "부산 부산진구 부전동 198-1 3층",
         "area": "busan",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1181643",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_53",
@@ -952,18 +985,25 @@
         "branch_name": "광주수완점",
         "address": "광주 광산구 수완동 1096 잭슨스테이크 건물5층",
         "area": "gwangju",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179407",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "1544141348",
         "name": "룸즈에이",
-        "branch_name": "광주수완2호점",
-        "address": "광주 광산구 장신로 76",
+        "branch_name": "광주수완 2호점",
+        "address": "광주 광산구 장신로 76 5층",
         "area": "gwangju",
-        "website_url": "https://www.roomsa.co.kr/",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1476693",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_54",
@@ -971,9 +1011,12 @@
         "branch_name": "광주상무점",
         "address": "광주 서구 상무번영로 37 나우빌딩 6층",
         "area": "gwangju",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1181453",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_55",
@@ -981,9 +1024,12 @@
         "branch_name": "대구동성로점",
         "address": "대구 중구 공평동 34-2, 4층",
         "area": "daegu",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179418",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_56",
@@ -991,9 +1037,12 @@
         "branch_name": "동성로2호점",
         "address": "대구 중구 삼덕동1가 18-1, 4층",
         "area": "daegu",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179432",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_57",
@@ -1001,9 +1050,12 @@
         "branch_name": "동성로 아카데미점",
         "address": "대구 중구 사일동 54-1, 3층",
         "area": "daegu",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179435",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_83",
@@ -1011,9 +1063,12 @@
         "branch_name": "대구스테이지점",
         "address": "대구 중구 동성로2길 28 3층",
         "area": "daegu",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1682467",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_58",
@@ -1021,18 +1076,25 @@
         "branch_name": "포항점",
         "address": "경북 포항시 북구 상원동 462-5, 스타타워 5층",
         "area": "gyeongbuk",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179429",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "802938757",
         "name": "룸즈에이",
         "branch_name": "부평점",
-        "address": "인천 부평구 부평대로 26",
+        "address": "인천 부평구 부평동 199-24, 4층",
         "area": "incheon",
-        "website_url": "http://roomsa.co.kr/",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1180339",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_69",
@@ -1040,9 +1102,12 @@
         "branch_name": "부평 2호점",
         "address": "인천 부평구 부평문화로 75, 3층",
         "area": "incheon",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1353367",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "628138029",
@@ -1297,12 +1362,14 @@
       {
         "cafe_id": "554838835",
         "name": "하이드앤시크",
-        "branch_name": "홍대점",
-        "address": "서울 마포구 동교동 203-57",
+        "branch_name": "The Origin 연남",
+        "address": "서울 마포구 월드컵북로6길 24-7 SANTOH빌딩 B1",
         "area": "hongdae",
-        "website_url": "http://withescaper.com",
-        "engine": "naver_booking",
-        "is_active": true
+        "website_url": "https://play.fuzzyline.io",
+        "engine": "fuzzyline",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_public_api"
       },
       {
         "cafe_id": "1023995566",
@@ -1491,12 +1558,14 @@
       {
         "cafe_id": "1944665207",
         "name": "하이드앤시크",
-        "branch_name": "쌈지길점",
-        "address": "서울 종로구 관훈동 38",
-        "area": "daehakro",
-        "website_url": "https://fuzzyline.co.kr",
-        "engine": "naver_booking",
-        "is_active": true
+        "branch_name": "Cyberpunk 안국",
+        "address": "서울 종로구 인사동길 44 쌈지길 B2",
+        "area": "myeongdong",
+        "website_url": "https://play.fuzzyline.io",
+        "engine": "fuzzyline",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_public_api"
       },
       {
         "cafe_id": "1277196871",
@@ -1929,23 +1998,27 @@
     "cafes": [
       {
         "cafe_id": "554838835",
-        "branch_name": "홍대점",
-        "address": "서울 마포구 동교동 203-57",
+        "branch_name": "The Origin 연남",
+        "address": "서울 마포구 월드컵북로6길 24-7 SANTOH빌딩 B1",
         "area": "hongdae",
         "name": "하이드앤시크",
-        "website_url": "http://withescaper.com",
-        "engine": "naver_booking",
-        "is_active": true
+        "website_url": "https://play.fuzzyline.io",
+        "engine": "fuzzyline",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_public_api"
       },
       {
         "cafe_id": "1944665207",
-        "branch_name": "쌈지길점",
-        "address": "서울 종로구 관훈동 38",
-        "area": "daehakro",
+        "branch_name": "Cyberpunk 안국",
+        "address": "서울 종로구 인사동길 44 쌈지길 B2",
+        "area": "myeongdong",
         "name": "하이드앤시크",
-        "website_url": "https://fuzzyline.co.kr",
-        "engine": "naver_booking",
-        "is_active": true
+        "website_url": "https://play.fuzzyline.io",
+        "engine": "fuzzyline",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_public_api"
       }
     ],
     "selections": {}
@@ -3364,19 +3437,27 @@
         "cafe_id": "802938757",
         "name": "룸즈에이",
         "branch_name": "부평점",
-        "address": "인천 부평구 부평대로 26",
+        "address": "인천 부평구 부평동 199-24, 4층",
         "area": "incheon",
-        "website_url": "http://roomsa.co.kr/",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1180339",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "1544141348",
         "name": "룸즈에이",
-        "branch_name": "광주수완2호점",
-        "address": "광주 광산구 장신로 76",
+        "branch_name": "광주수완 2호점",
+        "address": "광주 광산구 장신로 76 5층",
         "area": "gwangju",
-        "website_url": "https://www.roomsa.co.kr/",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1476693",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "1393764461",
@@ -3866,9 +3947,12 @@
         "address": "서울 강남구 역삼동 827-14, 지하 2층",
         "area": "gangnam",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1180370",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_42",
@@ -3877,9 +3961,12 @@
         "address": "서울 종로구 동숭동 1-65 해안빌딩, 지하 1층",
         "area": "myeongdong",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1180392",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_43",
@@ -3888,9 +3975,12 @@
         "address": "경기 안양시 동안구 호계동 1041-2, 5층",
         "area": "gyeonggi",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179265",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_44",
@@ -3899,9 +3989,12 @@
         "address": "경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호",
         "area": "gyeonggi",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/305335",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_46",
@@ -3910,9 +4003,12 @@
         "address": "경기 의정부시 의정부동 158-10, 4층",
         "area": "gyeonggi",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179486",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_47",
@@ -3921,9 +4017,12 @@
         "address": "경기 수원시 팔달구 매산로1가 30-1, 3층",
         "area": "gyeonggi",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/617834",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_48",
@@ -3932,9 +4031,12 @@
         "address": "경기 수원시 팔달구 매산로1가 40-1, 3층",
         "area": "gyeonggi",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/706303",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_49",
@@ -3943,9 +4045,12 @@
         "address": "대전 서구 둔산동 1063, 태형빌딩 7층",
         "area": "daejeon",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/281163",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_50",
@@ -3954,9 +4059,12 @@
         "address": "대전 중구 은행동 33-2, 4층",
         "area": "daejeon",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/162323",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_51",
@@ -3965,9 +4073,12 @@
         "address": "부산 중구 창선동2가 46-1",
         "area": "busan",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/72622",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_52",
@@ -3976,9 +4087,12 @@
         "address": "부산 부산진구 부전동 198-1 3층",
         "area": "busan",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1181643",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_53",
@@ -3987,9 +4101,12 @@
         "address": "광주 광산구 수완동 1096 잭슨스테이크 건물5층",
         "area": "gwangju",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179407",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_54",
@@ -3998,9 +4115,12 @@
         "address": "광주 서구 상무번영로 37 나우빌딩 6층",
         "area": "gwangju",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1181453",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_55",
@@ -4009,9 +4129,12 @@
         "address": "대구 중구 공평동 34-2, 4층",
         "area": "daegu",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179418",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_56",
@@ -4020,9 +4143,12 @@
         "address": "대구 중구 삼덕동1가 18-1, 4층",
         "area": "daegu",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179432",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_57",
@@ -4031,9 +4157,12 @@
         "address": "대구 중구 사일동 54-1, 3층",
         "area": "daegu",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179435",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_83",
@@ -4042,9 +4171,12 @@
         "address": "대구 중구 동성로2길 28 3층",
         "area": "daegu",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1682467",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_58",
@@ -4053,9 +4185,12 @@
         "address": "경북 포항시 북구 상원동 462-5, 스타타워 5층",
         "area": "gyeongbuk",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1179429",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       },
       {
         "cafe_id": "official_roomsa_69",
@@ -4064,9 +4199,12 @@
         "address": "인천 부평구 부평문화로 75, 3층",
         "area": "incheon",
         "name": "룸즈에이",
-        "website_url": "https://roomsa.co.kr/reservation",
-        "engine": "roomsa_catalog",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1353367",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_naver",
+        "crawl_source_catalog": "https://roomsa.co.kr/api/booking/stores"
       }
     ],
     "selections": {}

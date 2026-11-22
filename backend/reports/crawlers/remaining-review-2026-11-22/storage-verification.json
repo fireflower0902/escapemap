@@ -1,0 +1,98 @@
+{
+  "active_cafes": 405,
+  "newly_verified_cafes": 23,
+  "success_days": [
+    {
+      "cafe_id": "1544141348",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "1944665207",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "554838835",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "802938757",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_41",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_42",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_43",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_44",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_46",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_47",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_48",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_49",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_50",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_51",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_52",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_53",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_54",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_55",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_56",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_57",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_58",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_69",
+      "successful_days": 7
+    },
+    {
+      "cafe_id": "official_roomsa_83",
+      "successful_days": 7
+    }
+  ]
+}

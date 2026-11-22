@@ -1,0 +1,49 @@
+[
+  {
+    "cafe_id": "1944665207",
+    "checked_at": "2026-11-22T10:38:23.229904+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 2,
+    "slots": 167,
+    "statuses": {
+      "full": 40,
+      "available": 127
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "issues": [],
+    "duration_seconds": 10.59
+  },
+  {
+    "cafe_id": "554838835",
+    "checked_at": "2026-11-22T10:38:36.092842+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 1,
+    "slots": 77,
+    "statuses": {
+      "full": 13,
+      "available": 61,
+      "closed": 3
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "issues": [],
+    "duration_seconds": 5.45
+  }
+]

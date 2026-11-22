@@ -484,6 +484,14 @@
     "cafe_id": "874592991"
   },
   {
+    "script": "sync_fuzzyline_db",
+    "cafe_id": "1944665207"
+  },
+  {
+    "script": "sync_fuzzyline_db",
+    "cafe_id": "554838835"
+  },
+  {
     "script": "sync_horrorswitch_db",
     "cafe_id": "289742025"
   },

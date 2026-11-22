@@ -1,0 +1,66 @@
+{
+  "official_site": "https://play.fuzzyline.io/",
+  "rooms_source": "https://play.fuzzyline.io/api/rooms/homepage?locale=ko",
+  "themes_source": "https://play.fuzzyline.io/api/themes?locale=ko",
+  "rooms": [
+    {
+      "room_id": 1,
+      "name": "The Origin 연남",
+      "operational_name": "1호점-홍대",
+      "address": "서울 마포구 월드컵북로6길 24-7 SANTOH빌딩 B1",
+      "phone": "010-6529-5900"
+    },
+    {
+      "room_id": 3,
+      "name": "Error 홍대정문",
+      "operational_name": "3호점-홍대",
+      "address": "서울 마포구 와우산로 79 6층",
+      "phone": "010-5699-1862"
+    },
+    {
+      "room_id": 2,
+      "name": "Cyberpunk 안국",
+      "operational_name": "2호점-안국",
+      "address": "서울 종로구 인사동길 44 쌈지길 B2",
+      "phone": "010-3235-5900"
+    }
+  ],
+  "themes": [
+    {
+      "ThemeID": 1,
+      "RoomID": 1,
+      "NameKo": "The Origin",
+      "Slug": "the-origin",
+      "TimeLimit": 35
+    },
+    {
+      "ThemeID": 2,
+      "RoomID": 2,
+      "NameKo": "시티",
+      "Slug": "cyberpunk-city",
+      "TimeLimit": 35
+    },
+    {
+      "ThemeID": 4,
+      "RoomID": 3,
+      "NameKo": "Error Origin",
+      "Slug": "error-origin",
+      "TimeLimit": 35
+    },
+    {
+      "ThemeID": 3,
+      "RoomID": 2,
+      "NameKo": "배드랜드",
+      "Slug": "cyberpunk-badlands",
+      "TimeLimit": 35
+    }
+  ],
+  "identity_notes": [
+    "홍대 기존 동교동203-57 SANTOH빌딩 B1과 현행 연남 SANTOH빌딩 B1의 동일 건물 정보를 대조",
+    "쌈지길 기존 관훈동38은 현행 인사동길44 쌈지길 B2이며 관광공사 공식 주소·전화와 대조"
+  ],
+  "identity_sources": [
+    "https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=43fd7d27-6ad8-4efe-8b32-9d1c4edeee40",
+    "https://hotel-iu.tistory.com/6520"
+  ]
+}
