@@ -1,0 +1,23 @@
+{
+  "url": "https://adventure.lotteworld.com/museum/program/escape",
+  "status": 200,
+  "iframe_src": [],
+  "script_sources": [
+    "/s-east-to-Lenox-Macdufft-the-Sawce-They-not-but-",
+    "/museum/assets/polyfills-DzX2yxdk.js",
+    "https://code.jquery.com/jquery-1.12.4.min.js",
+    "https://members.lpoint.com/api/js/serialize.object.js",
+    "https://members.lpoint.com/api/js/json2.js",
+    "https://members.lpoint.com/api/js/lotte.sso.api.js",
+    "/museum/js/netfunnel.js",
+    "https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.0.js?ver=20200226",
+    "https://developers.kakao.com/sdk/js/kakao.min.js?ver=20200226",
+    "https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=5ud1kfvgu3",
+    "/museum/assets/index-bRsbZ3jO.js",
+    "/museum/assets/polyfills-legacy-frfqXKSh.js",
+    "/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2123034103"
+  ],
+  "inline_script": [
+    "import.meta.url;import(\"_\").catch(()=>1);(async function*(){})().next();if(location.protocol!=\"file:\"){window.__vite_is_modern_browser=true}"
+  ]
+}

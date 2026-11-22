@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1252080396",
+    "name": "할리갈리인더룸방탈출시즌2",
+    "branch_name": null,
+    "address": "경기 고양시 일산동구 무궁화로 20-11",
+    "is_active": true,
+    "engine": null,
+    "website_url": "http://place.map.kakao.com/1252080396",
+    "metadata": "{\"id\": \"1252080396\", \"lat\": 37.6618315734849, \"lng\": 126.767539424787, \"area\": \"gyeonggi\", \"name\": \"할리갈리인더룸방탈출시즌2\", \"phone\": \"031-902-9242\", \"engine\": null, \"address\": \"경기 고양시 일산동구 무궁화로 20-11\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1252080396\", \"supported_area\": false, \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-21T21:57:32.347040+09:00\", \"crawl_pause_reason\": \"검색으로 네이버 단축 링크 GV2ktDvG를 찾았고 place37589034로 연결 확인. 현재 공식 시간표 사업자 ID는 확정하지 못함.\", \"crawl_review_reason_code\": \"official_source_unconfirmed\"}"
+  },
+  {
+    "id": "1396409942",
+    "name": "셜록홈즈",
+    "branch_name": "분당야탑점",
+    "address": "경기 성남시 분당구 양현로310번길 25 2층 202호",
+    "is_active": true,
+    "engine": "sherlock",
+    "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+    "metadata": "{\"id\": \"1396409942\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"셜록홈즈\", \"phone\": null, \"engine\": \"sherlock\", \"address\": \"경기 성남시 분당구 양현로310번길 25 2층 202호\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"분당야탑점\", \"website_url\": \"https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation\", \"supported_area\": false, \"operation_status\": \"listed_current\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22T16:31:06.981686+09:00\", \"crawl_pause_reason\": \"사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요.\", \"catalog_disposition\": \"booking_source_review\", \"crawl_review_paused\": false, \"review_resume_policy\": \"public_timetable_review\", \"verification_sources\": [\"https://sherlock-holmes.co.kr/branch/view.php?bno=62&s_no=&s_sido=\"], \"operation_evidence_note\": \"사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요.\", \"crawl_review_reason_code\": \"booking_source_review\", \"operation_evidence_source\": \"user_report_2026-11-22\"}"
+  },
+  {
+    "id": "1495650283",
+    "name": "브레이크아웃 광안",
+    "branch_name": null,
+    "address": "부산 수영구 남천바다로33번길 47",
+    "is_active": true,
+    "engine": null,
+    "website_url": "https://busan.breakoutescapegame.com/en/",
+    "metadata": "{\"id\": \"1495650283\", \"lat\": 35.1504900299832, \"lng\": 129.115303902946, \"area\": \"busan\", \"name\": \"브레이크아웃 광안\", \"phone\": \"0507-1449-9104\", \"engine\": null, \"address\": \"부산 수영구 남천바다로33번길 47\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://busan.breakoutescapegame.com/en/\", \"supported_area\": false}"
+  },
+  {
+    "id": "911063716",
+    "name": "더트랩",
+    "branch_name": "수유점",
+    "address": "서울 강북구 도봉로 363 구봉빌딩 4층",
+    "is_active": true,
+    "engine": "thetrapsy",
+    "website_url": "http://www.thetrapsy.co.kr",
+    "metadata": "{\"id\": \"911063716\", \"lat\": 37.639938349142, \"lng\": 127.027251253028, \"area\": \"seoul_other\", \"name\": \"더트랩\", \"phone\": \"02-6224-7776\", \"engine\": \"thetrapsy\", \"address\": \"서울 강북구 도봉로 363 구봉빌딩 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"수유점\", \"website_url\": \"http://www.thetrapsy.co.kr\", \"supported_area\": false, \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-21T21:57:32.347040+09:00\", \"crawl_pause_reason\": \"공식 자체 예약 목록은 네이버 예약 이용 안내로 전환. 공개 홈페이지/검색에서 현재 네이버 사업자 ID를 확정하지 못함.\", \"crawl_review_reason_code\": \"official_source_unconfirmed\"}"
+  }
+]

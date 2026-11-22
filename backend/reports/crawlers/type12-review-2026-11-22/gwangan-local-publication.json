@@ -1,0 +1,291 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-22T16:39:06.329162+09:00",
+  "scope": "selected cafe IDs: 1495650283 / today + 6 day(s)",
+  "days_after_today": 6,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "1495650283"
+  ],
+  "selected": {
+    "BRANCHES": [
+      {
+        "cafe_id": "1495650283",
+        "business_id": "1254695",
+        "business_type_id": 12,
+        "name": "브레이크아웃 광안",
+        "branch_name": null,
+        "address": "부산 수영구 남천바다로33번길 47 마린빌딩 2층",
+        "area": "busan",
+        "site_url": "https://booking.naver.com/booking/12/bizes/1254695"
+      }
+    ]
+  },
+  "cafes_with_slots": 1,
+  "themes_fetched": 5,
+  "themes_with_slots": 5,
+  "slots": 325,
+  "statuses": {
+    "full": 39,
+    "available": 286
+  },
+  "dates": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "1495650283": {
+      "themes": 5,
+      "slots": 325,
+      "statuses": {
+        "full": 39,
+        "available": 286
+      },
+      "dates": [
+        "2026-11-22",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ]
+    }
+  },
+  "sample_themes": [
+    "부산 실종 사건",
+    "섹션 13",
+    "원더랜드",
+    "캡슐",
+    "호쿠스 마술사의 방"
+  ],
+  "http_calls": [
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "booking.naver.com",
+      "path": "/graphql",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 22.41,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

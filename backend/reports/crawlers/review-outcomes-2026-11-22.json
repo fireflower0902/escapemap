@@ -6,11 +6,17 @@
     "priority": 1,
     "priority_label": "공개 시간표 어댑터·원천 응답 검토",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인은 이번 상세 요청에서 연결/DNS 실패. 현재 예약 가능한 테마 코드를 검증하지 못함.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "공식 기존 도메인의 HTTP/HTTPS 연결 실패 재확인. 동일 광주 한신포차점의 공개 디렉터리 8테마 단서는 확인했으나 현재 공식 시간표·현행 코드를 검증하지 못함.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.thecode-escape.com",
     "next_action": "정확한 공개 시간표 확보 후 전용 어댑터 구현·날짜별 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "680681357",
+      "url": "http://www.thecode-escape.com",
+      "checked_at": "2026-11-22T16:40:28.508805+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "1772504569",
@@ -19,11 +25,22 @@
     "priority": 1,
     "priority_label": "공개 시간표 어댑터·원천 응답 검토",
     "status": "reviewed_needs_source",
-    "reason": "홈·예약 화면과 공식 reservation.js는 열리지만, JS에서 호출하는 GET /service/get_data는 연결 종료. 예약 완료 피드가 없어 빈자리 추정 금지.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "공식 예약 화면은 열리지만 GET /service/get_data가 HTTP·HTTPS 모두 연결 종료. 예약 완료 피드 없이 빈자리 생성하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://reverseesc.com",
     "next_action": "정확한 공개 시간표 확보 후 전용 어댑터 구현·날짜별 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "1772504569",
+      "url": "http://reverseesc.com",
+      "checked_at": "2026-11-22T16:40:28.509566+09:00",
+      "status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "booking_links": [
+        "/reservation.html"
+      ]
+    }
   },
   {
     "cafe_id": "1231888375",
@@ -32,11 +49,22 @@
     "priority": 1,
     "priority_label": "공개 시간표 어댑터·원천 응답 검토",
     "status": "reviewed_needs_source",
-    "reason": "홈·예약 화면과 공식 reservation.js는 열리지만, JS에서 호출하는 GET /service/get_data는 연결 종료. 예약 완료 피드가 없어 빈자리 추정 금지.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "공식 예약 화면은 열리지만 GET /service/get_data가 HTTP·HTTPS 모두 연결 종료. 예약 완료 피드 없이 빈자리 생성하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://reverseesc.com",
     "next_action": "정확한 공개 시간표 확보 후 전용 어댑터 구현·날짜별 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "1231888375",
+      "url": "http://reverseesc.com",
+      "checked_at": "2026-11-22T16:40:28.936822+09:00",
+      "status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "booking_links": [
+        "/reservation.html"
+      ]
+    }
   },
   {
     "cafe_id": "27369058",
@@ -45,11 +73,20 @@
     "priority": 1,
     "priority_label": "공개 시간표 어댑터·원천 응답 검토",
     "status": "reviewed_needs_source",
-    "reason": "공식 Bookeo 위젯 중첩 프레임 확인. 일반 브라우저에서 실제 시간표 컨트롤 미확보; 도구가 내부 프레임 참조를 해석하지 못함. 수집 불가능으로 확정하지 않았고 전용 브라우저 어댑터 추가 조사 필요.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "공식 Bookeo 중첩 예약 위젯의 현재 시간표를 검증하지 못함. 일반 브라우저 프레임 로딩·선택 검증 미완료. 수집 불가능 확정 아님.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.rec-escape.com/",
     "next_action": "정확한 공개 시간표 확보 후 전용 어댑터 구현·날짜별 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "27369058",
+      "url": "http://www.rec-escape.com/",
+      "checked_at": "2026-11-22T16:40:28.989728+09:00",
+      "status": 200,
+      "final_url": "http://www.rec-escape.com/",
+      "title": "리얼 이스케이프 첼린지",
+      "booking_links": []
+    }
   },
   {
     "cafe_id": "431508316",
@@ -70,11 +107,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.darockesc.com/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "442981346",
+      "url": "http://www.darockesc.com/",
+      "checked_at": "2026-11-22T16:40:29.293971+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "911063716",
@@ -82,12 +125,21 @@
     "branch_name": "수유점",
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
-    "status": "reviewed_needs_source",
-    "reason": "공식 자체 예약 목록은 네이버 예약 이용 안내로 전환. 공개 홈페이지/검색에서 현재 네이버 사업자 ID를 확정하지 못함.",
-    "last_evidence_at": "2026-11-22",
+    "status": "scheduled_verified",
+    "reason": "공식 네이버 전환 안내 및 동일주소 매장탭→Naver1475391·5테마275슬롯/7일. 로컬게시·GitHub 통과.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.thetrapsy.co.kr",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "911063716",
+      "url": "http://www.thetrapsy.co.kr",
+      "checked_at": "2026-11-22T16:40:29.618010+09:00",
+      "status": 200,
+      "final_url": "http://www.thetrapsy.co.kr/",
+      "title": "더트랩수유,수유방탈출,더트랩",
+      "booking_links": []
+    }
   },
   {
     "cafe_id": "225341934",
@@ -96,24 +148,36 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://lastescape.co.kr",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "225341934",
+      "url": "http://lastescape.co.kr",
+      "checked_at": "2026-11-22T16:40:29.990731+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "27367643",
     "name": "미스터리룸이스케이프",
     "branch_name": "강남점",
-    "priority": 2,
-    "priority_label": "현행 공식 예약처 재확인",
-    "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "priority": 4,
+    "priority_label": "인증·허가·접근 제한",
+    "status": "reviewed_access_limited",
+    "reason": "현재 강남 전용 도메인 mysteryroomescape-gn.com 및 /reservation/reservation.html 발견. 직접 응답 HTTP403. 공식 공개 시간표 추가 검증 필요; 접근 제한 우회 안 함.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://mysteryroomescape.com/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "27367643",
+      "url": "http://mysteryroomescape.com/",
+      "checked_at": "2026-11-22T16:40:30.300341+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "727312827",
@@ -134,11 +198,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.v-escape.co.kr",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "1254330051",
+      "url": "http://www.v-escape.co.kr",
+      "checked_at": "2026-11-22T16:40:30.617028+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "858962026",
@@ -147,11 +217,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.v-escape.co.kr",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "858962026",
+      "url": "http://www.v-escape.co.kr",
+      "checked_at": "2026-11-22T16:40:30.666690+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "255097329",
@@ -160,11 +236,20 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "검색 결과에서 동일 주소의 현행 구인 공고는 확인했으나 공식 공개 시간표 링크는 미확정. 운영 중이라는 추정만으로 수집 성공 처리하지 않음.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 지도 기록 및 구 마스터키 채널은 확인했으나 현재 일상탈출 안양일번가점의 공개 시간표 원천을 확정하지 못함.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://place.map.kakao.com/255097329",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "255097329",
+      "url": "http://place.map.kakao.com/255097329",
+      "checked_at": "2026-11-22T16:40:30.967188+09:00",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/255097329",
+      "title": "방탈출카페 일상탈출 안양일번가점 | 카카오맵",
+      "booking_links": []
+    }
   },
   {
     "cafe_id": "1495650283",
@@ -172,12 +257,23 @@
     "branch_name": null,
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
-    "status": "reviewed_needs_source",
-    "reason": "등록은 광안이나 제공 예약처 27519 공식 주소는 해운대. 타 지점 시간표 연결 안 함",
-    "last_evidence_at": "2026-11-22",
+    "status": "scheduled_verified",
+    "reason": "공식 Naver1254695 주소 일치·5테마325슬롯/7일. 로컬게시·GitHub 통과. 해운대27519와 별개.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "https://busan.breakoutescapegame.com/en/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "1495650283",
+      "url": "https://busan.breakoutescapegame.com/en/",
+      "checked_at": "2026-11-22T16:40:30.980171+09:00",
+      "status": 200,
+      "final_url": "https://busan.breakoutescapegame.com/en/",
+      "title": "Busan Escape Room Breakout | Haeundae | Gwangalli",
+      "booking_links": [
+        "https://booking.naver.com/booking/12/bizes/27519"
+      ]
+    }
   },
   {
     "cafe_id": "280887856",
@@ -186,11 +282,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://www.secret-code.co.kr",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "280887856",
+      "url": "http://www.secret-code.co.kr",
+      "checked_at": "2026-11-22T16:40:31.420662+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "166623372",
@@ -199,11 +301,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 도메인 연결 실패. 전국방탈출에는 홈페이지 미운영·전화 예약 안내가 있으나 공식 최신 안내로 재확인되지 않음. 전화 전용 확정·폐업으로 처리하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://unlimited-escape.com/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "166623372",
+      "url": "http://unlimited-escape.com/",
+      "checked_at": "2026-11-22T16:40:31.729868+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "2000674643",
@@ -212,24 +320,36 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://withescaper.com/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "2000674643",
+      "url": "http://withescaper.com/",
+      "checked_at": "2026-11-22T16:40:31.930668+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "890251040",
     "name": "제로월드",
     "branch_name": "롯데월드점",
-    "priority": 2,
-    "priority_label": "현행 공식 예약처 재확인",
-    "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "priority": 4,
+    "priority_label": "인증·허가·접근 제한",
+    "status": "reviewed_access_limited",
+    "reason": "롯데월드 공식 프로그램에서 바람·아랑 확인. 예약 경로가 advticket.lotteworld.com으로 이동했음을 확인했으나 일반 익명 브라우저에 권한이 없습니다 안내. 신규 예매처 어댑터·허용 접근 확인 필요.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "https://zerolotteworld.com/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "890251040",
+      "url": "https://zerolotteworld.com/",
+      "checked_at": "2026-11-22T16:40:32.056311+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "1757443413",
@@ -238,11 +358,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://conanescape.kr",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "1757443413",
+      "url": "http://conanescape.kr",
+      "checked_at": "2026-11-22T16:40:32.248134+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "123477337",
@@ -251,11 +377,17 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "기존 공식 도메인 재조회 연결 실패. 검색으로 현행 예약처를 확정하지 못함. 홈페이지 접속 검사이며 폐업 판정이 아님.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "https://parabox.kr/",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "ConnectionError"
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "123477337",
+      "url": "https://parabox.kr/",
+      "checked_at": "2026-11-22T16:40:32.542620+09:00",
+      "error": "ConnectionError"
+    }
   },
   {
     "cafe_id": "79137052",
@@ -264,11 +396,20 @@
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
     "status": "reviewed_needs_source",
-    "reason": "광주 문화전당로35번길2 기록은 검색되지만 공식 현행 예약처를 확보하지 못함. 이름이 같은 다른 지역 매장으로 치환하지 않음.",
-    "last_evidence_at": "2026-11-22",
+    "reason": "광주 문화전당로35번길2의 등록 기록 외 현행 공식 예약처를 확정하지 못함. 동명 다른 매장으로 대체하지 않음.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://place.map.kakao.com/79137052",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "79137052",
+      "url": "http://place.map.kakao.com/79137052",
+      "checked_at": "2026-11-22T16:40:32.565749+09:00",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/79137052",
+      "title": "페르소나 | 카카오맵",
+      "booking_links": []
+    }
   },
   {
     "cafe_id": "1252080396",
@@ -276,12 +417,21 @@
     "branch_name": null,
     "priority": 2,
     "priority_label": "현행 공식 예약처 재확인",
-    "status": "reviewed_needs_source",
-    "reason": "검색으로 네이버 단축 링크 GV2ktDvG를 찾았고 place37589034로 연결 확인. 현재 공식 시간표 사업자 ID는 확정하지 못함.",
-    "last_evidence_at": "2026-11-22",
+    "status": "scheduled_verified",
+    "reason": "매장 예약탭→Naver6/729652 주소 일치·7테마483슬롯/7일. 로컬게시·GitHub 통과.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "http://place.map.kakao.com/1252080396",
     "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
-    "latest_url_result": "HTTP 200"
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "1252080396",
+      "url": "http://place.map.kakao.com/1252080396",
+      "checked_at": "2026-11-22T16:40:32.865113+09:00",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/1252080396",
+      "title": "할리갈리인더룸방탈출시즌2 | 카카오맵",
+      "booking_links": []
+    }
   },
   {
     "cafe_id": "1968639091",
@@ -371,13 +521,33 @@
     "cafe_id": "1396409942",
     "name": "셜록홈즈",
     "branch_name": "분당야탑점",
-    "priority": 5,
-    "priority_label": "현재 운영·예약 제공 여부 확인",
-    "status": "booking_source_review",
-    "reason": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요.",
-    "last_evidence_at": "2026-11-22T16:31:06.981686+09:00",
+    "priority": 2,
+    "priority_label": "공식 공개 예약 시간표 확인",
+    "status": "officially_closed",
+    "reason": "공식 예약 화면의 지점별 이벤트 영역에 분당야탑점 영업 종료·마지막 영업일11월1일(일) 명시. 메뉴 이름 잔존과 실제 영업 구분. 근거로 일반 목록 제외.",
+    "last_evidence_at": "2026-11-22T16:51:42.394064+09:00",
     "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
-    "next_action": "현재 지점 운영과 공개 예약 제공 여부 재확인"
+    "next_action": "지점 운영 여부 재확인 대신 실제 예약 화면·공개 시간표 원천 검토",
+    "latest_url_check": {
+      "cafe_id": "1396409942",
+      "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+      "checked_at": "2026-11-22T16:40:33.012688+09:00",
+      "status": 200,
+      "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+      "title": "셜록홈즈 방탈출 카페",
+      "booking_links": [
+        "#reservation",
+        "/reservation",
+        "/reservation/index.php?sido=&bno=#reservation",
+        "/reservation/index.php?sido=12&bno=103#reservation",
+        "/reservation/index.php?sido=13&bno=110#reservation",
+        "/reservation/index.php?sido=9&bno=106#reservation",
+        "/reservation/index.php?sido=9&bno=108#reservation",
+        "/reservation/index.php?sido=9&bno=109#reservation",
+        "/reservation/index.php?sido=9&bno=111#reservation",
+        "/reservation/index.php?sido=9&bno=112#reservation"
+      ]
+    }
   },
   {
     "cafe_id": "115701517",

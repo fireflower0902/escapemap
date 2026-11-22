@@ -1,0 +1,32 @@
+{
+  "url": "https://escapemap.reviewhyun.workers.dev/api/search?date=2026-11-28&area=all",
+  "active_cafes": 388,
+  "scheduled": 341,
+  "recovered_cafes": [
+    {
+      "cafe_id": "911063716",
+      "name": "더트랩",
+      "branch_name": "수유점",
+      "themes": 5,
+      "slots": 50,
+      "crawled": true
+    },
+    {
+      "cafe_id": "1495650283",
+      "name": "브레이크아웃 광안",
+      "branch_name": null,
+      "themes": 5,
+      "slots": 50,
+      "crawled": true
+    },
+    {
+      "cafe_id": "1252080396",
+      "name": "할리갈리인더룸방탈출시즌2",
+      "branch_name": null,
+      "themes": 7,
+      "slots": 84,
+      "crawled": true
+    }
+  ],
+  "closed_yatap_absent": true
+}

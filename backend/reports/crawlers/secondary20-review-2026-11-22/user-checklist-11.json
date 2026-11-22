@@ -83,8 +83,8 @@
     "verification_needed": "동일 주소 현행 예약처나 공개 지점 시간표 필요.",
     "contact_source": "https://place.map.kakao.com/1396409942",
     "contact_status": "지도 등록 정보, 현재 영업 미확정",
-    "review_status": "booking_source_review",
-    "verification_result": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요."
+    "review_status": "resolved_excluded",
+    "verification_result": "공식 실제 예약 화면의 분당야탑점 영업 종료·마지막 영업일11월1일 공지 확인. 목록 제외 완료."
   },
   {
     "id": "115701517",

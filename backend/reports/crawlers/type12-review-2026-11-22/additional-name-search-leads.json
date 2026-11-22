@@ -1,0 +1,61 @@
+[
+  {
+    "query": "미스터리",
+    "links": [
+      {
+        "url": "https://www.playbangtal.com/cafes/348",
+        "text": "미 미스터리 룸 이스케이프 홍대 2호점 홍대 · 서울 마포구 독막로7길 41"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/124",
+        "text": "미 미스터리담 일산 · 경기 고양시 일산동구 백석동 1268-2"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/83",
+        "text": "미 미스터리추리클럽 안산 · 경기 안산시 단원구 고잔1길 42 2층 204, 205호"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/181",
+        "text": "코 코드미스터리 부산 · 부산 남구 용소로8번길 14"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/211",
+        "text": "미 미스터리 룸 이스케이프 강남점 강남 · 서울 서초구 서초대로77길 37"
+      }
+    ]
+  },
+  {
+    "query": "브이",
+    "links": []
+  },
+  {
+    "query": "V",
+    "links": [
+      {
+        "url": "https://www.playbangtal.com/cafes/316",
+        "text": "미 미션 브레이크 용산 CGV 용산 · 서울특별시 용산구 한강대로23길 55 아이파크몰 7층"
+      }
+    ]
+  },
+  {
+    "query": "일상",
+    "links": []
+  },
+  {
+    "query": "파라",
+    "links": []
+  },
+  {
+    "query": "라스트",
+    "links": [
+      {
+        "url": "https://www.playbangtal.com/cafes/370",
+        "text": "지 지구별 방탈출 홍대라스트시티점 홍대 · 서울 마포구 홍익로 10 지하2층"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/208",
+        "text": "라 라스트 이스케이프 강남 · 서울 강남구 강남대로98길 20 4층"
+      }
+    ]
+  }
+]

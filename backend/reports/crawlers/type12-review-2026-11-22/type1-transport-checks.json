@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://reverseesc.com/service/get_data",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "https://reverseesc.com/service/get_data",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "https://www.thecode-escape.com/",
+    "error": "ConnectionError"
+  }
+]

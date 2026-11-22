@@ -1,0 +1,172 @@
+[
+  {
+    "cafe_id": "680681357",
+    "url": "http://www.thecode-escape.com",
+    "checked_at": "2026-11-22T16:40:28.508805+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "1772504569",
+    "url": "http://reverseesc.com",
+    "checked_at": "2026-11-22T16:40:28.509566+09:00",
+    "status": 200,
+    "final_url": "http://reverseesc.com/",
+    "title": "리버스 이스케이프",
+    "booking_links": [
+      "/reservation.html"
+    ]
+  },
+  {
+    "cafe_id": "1231888375",
+    "url": "http://reverseesc.com",
+    "checked_at": "2026-11-22T16:40:28.936822+09:00",
+    "status": 200,
+    "final_url": "http://reverseesc.com/",
+    "title": "리버스 이스케이프",
+    "booking_links": [
+      "/reservation.html"
+    ]
+  },
+  {
+    "cafe_id": "27369058",
+    "url": "http://www.rec-escape.com/",
+    "checked_at": "2026-11-22T16:40:28.989728+09:00",
+    "status": 200,
+    "final_url": "http://www.rec-escape.com/",
+    "title": "리얼 이스케이프 첼린지",
+    "booking_links": []
+  },
+  {
+    "cafe_id": "442981346",
+    "url": "http://www.darockesc.com/",
+    "checked_at": "2026-11-22T16:40:29.293971+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "911063716",
+    "url": "http://www.thetrapsy.co.kr",
+    "checked_at": "2026-11-22T16:40:29.618010+09:00",
+    "status": 200,
+    "final_url": "http://www.thetrapsy.co.kr/",
+    "title": "더트랩수유,수유방탈출,더트랩",
+    "booking_links": []
+  },
+  {
+    "cafe_id": "225341934",
+    "url": "http://lastescape.co.kr",
+    "checked_at": "2026-11-22T16:40:29.990731+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "27367643",
+    "url": "http://mysteryroomescape.com/",
+    "checked_at": "2026-11-22T16:40:30.300341+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "1254330051",
+    "url": "http://www.v-escape.co.kr",
+    "checked_at": "2026-11-22T16:40:30.617028+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "858962026",
+    "url": "http://www.v-escape.co.kr",
+    "checked_at": "2026-11-22T16:40:30.666690+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "255097329",
+    "url": "http://place.map.kakao.com/255097329",
+    "checked_at": "2026-11-22T16:40:30.967188+09:00",
+    "status": 200,
+    "final_url": "https://place.map.kakao.com/255097329",
+    "title": "방탈출카페 일상탈출 안양일번가점 | 카카오맵",
+    "booking_links": []
+  },
+  {
+    "cafe_id": "1495650283",
+    "url": "https://busan.breakoutescapegame.com/en/",
+    "checked_at": "2026-11-22T16:40:30.980171+09:00",
+    "status": 200,
+    "final_url": "https://busan.breakoutescapegame.com/en/",
+    "title": "Busan Escape Room Breakout | Haeundae | Gwangalli",
+    "booking_links": [
+      "https://booking.naver.com/booking/12/bizes/27519"
+    ]
+  },
+  {
+    "cafe_id": "280887856",
+    "url": "http://www.secret-code.co.kr",
+    "checked_at": "2026-11-22T16:40:31.420662+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "166623372",
+    "url": "http://unlimited-escape.com/",
+    "checked_at": "2026-11-22T16:40:31.729868+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "2000674643",
+    "url": "http://withescaper.com/",
+    "checked_at": "2026-11-22T16:40:31.930668+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "890251040",
+    "url": "https://zerolotteworld.com/",
+    "checked_at": "2026-11-22T16:40:32.056311+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "1757443413",
+    "url": "http://conanescape.kr",
+    "checked_at": "2026-11-22T16:40:32.248134+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "123477337",
+    "url": "https://parabox.kr/",
+    "checked_at": "2026-11-22T16:40:32.542620+09:00",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "79137052",
+    "url": "http://place.map.kakao.com/79137052",
+    "checked_at": "2026-11-22T16:40:32.565749+09:00",
+    "status": 200,
+    "final_url": "https://place.map.kakao.com/79137052",
+    "title": "페르소나 | 카카오맵",
+    "booking_links": []
+  },
+  {
+    "cafe_id": "1252080396",
+    "url": "http://place.map.kakao.com/1252080396",
+    "checked_at": "2026-11-22T16:40:32.865113+09:00",
+    "status": 200,
+    "final_url": "https://place.map.kakao.com/1252080396",
+    "title": "할리갈리인더룸방탈출시즌2 | 카카오맵",
+    "booking_links": []
+  },
+  {
+    "cafe_id": "1396409942",
+    "url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+    "checked_at": "2026-11-22T16:40:33.012688+09:00",
+    "status": 200,
+    "final_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
+    "title": "셜록홈즈 방탈출 카페",
+    "booking_links": [
+      "#reservation",
+      "/reservation",
+      "/reservation/index.php?sido=&bno=#reservation",
+      "/reservation/index.php?sido=12&bno=103#reservation",
+      "/reservation/index.php?sido=13&bno=110#reservation",
+      "/reservation/index.php?sido=9&bno=106#reservation",
+      "/reservation/index.php?sido=9&bno=108#reservation",
+      "/reservation/index.php?sido=9&bno=109#reservation",
+      "/reservation/index.php?sido=9&bno=111#reservation",
+      "/reservation/index.php?sido=9&bno=112#reservation"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "url": "http://www.mysteryroomescape-gn.com/",
+    "http_status": 403,
+    "title": "403 Forbidden",
+    "links": [],
+    "text_excerpt": "403 Forbidden Forbidden You don't have permission to access this resource. Additionally, a 403 Forbidden\nerror was encountered while trying to use an ErrorDocument to handle the request."
+  },
+  {
+    "url": "http://mysteryroomescape-gn.com/reservation/reservation.html",
+    "http_status": 403,
+    "title": "403 Forbidden",
+    "links": [],
+    "text_excerpt": "403 Forbidden Forbidden You don't have permission to access this resource."
+  },
+  {
+    "url": "http://lastescape.co.kr/g5/bbs/board.php?bo_table=reservation1",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "https://adventure.lotteworld.com/museum/program/escape",
+    "http_status": 200,
+    "title": "민속박물관",
+    "links": [],
+    "text_excerpt": "민속박물관"
+  }
+]
