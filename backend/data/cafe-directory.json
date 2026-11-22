@@ -1336,11 +1336,17 @@
       "id": "1825220691",
       "name": "스피키지",
       "branch_name": null,
-      "address": "서울 마포구 어울마당로 138 4층",
+      "address": "서울 마포구 와우산로 103 지층·1층 일부",
       "area": "hongdae",
       "website_url": "https://speakeasyescape.co.kr/",
       "engine": "sinbiweb",
-      "is_active": true
+      "is_active": true,
+      "phone": "02-332-3228",
+      "kakao_place_id": "367178846",
+      "verification_sources": [
+        "https://speakeasyescape.co.kr/layout/res/home.php?go=location"
+      ],
+      "verified_at": "2026-11-22"
     },
     {
       "id": "1831030495",
@@ -2471,13 +2477,18 @@
     },
     {
       "id": "367178846",
-      "name": "스키피지",
+      "name": "스피키지",
       "branch_name": null,
       "address": "서울 마포구 와우산로 103",
       "area": "hongdae",
       "website_url": "https://speakeasyescape.co.kr/",
       "engine": null,
-      "is_active": true
+      "is_active": false,
+      "canonical_cafe_id": "1825220691",
+      "catalog_disposition": "duplicate",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "공식 위치·전화번호 대조 완료. 동일 공식 예약 사이트의 기존 수집 ID로 통합",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "377197835",

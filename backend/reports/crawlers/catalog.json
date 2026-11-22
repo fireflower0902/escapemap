@@ -72,6 +72,31 @@
     "selections": {}
   },
   {
+    "id": "sync_chaosesc_db",
+    "name": "카오스 공식 공개 시간표: 시각이 명시된 예약 가능 링크만 수집합니다.",
+    "urls": [
+      "http://chaosesc.co.kr"
+    ],
+    "cafe_ids": [
+      "431508316"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "431508316",
+        "name": "카오스이스케이프",
+        "address": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+        "area": "jeonbuk",
+        "website_url": "http://chaosesc.co.kr/",
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawl_pause_reason": "확인한 날짜 공식 6테마의 마감 셀에는 시각이 없음. 마감 시각을 위치로 추정하지 않음. 가용 링크가 나오는 날짜와 별도 전체 시간표 제공 여부 확인 필요.",
+        "crawl_review_reason_code": "no_slots_published",
+        "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
+      }
+    ],
+    "selections": {}
+  },
+  {
     "id": "sync_clevertown_db",
     "name": "클레버타운 (clevertown.co.kr) 테마 + 스케줄 DB 동기화 스크립트.",
     "urls": [
@@ -783,6 +808,7 @@
       "2102768222",
       "2138163704",
       "215947527",
+      "2200000001",
       "27575809",
       "27607543",
       "284779798",
@@ -837,6 +863,20 @@
       "official_roomsa_83"
     ],
     "cafes": [
+      {
+        "cafe_id": "2200000001",
+        "name": "셜록홈즈",
+        "branch_name": "부산기장정관점",
+        "address": "부산 기장군 정관읍",
+        "area": "busan",
+        "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=15&bno=91#reservation",
+        "engine": "sherlock",
+        "is_active": true,
+        "scheduler_paused": true,
+        "crawl_pause_reason": "공식 현행 예약 메뉴에서 해당 지점명·번호를 확인하지 못했고, 해당 지점 재검증도 테마0개. 다른 지점으로 임의 치환하지 않음.",
+        "crawl_review_reason_code": "branch_not_listed",
+        "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
+      },
       {
         "cafe_id": "727312827",
         "name": "미스터리룸이스케이프",
@@ -5257,12 +5297,18 @@
       {
         "cafe_id": "1825220691",
         "cafe_name": "스피키지",
-        "address": "서울 마포구 어울마당로 138 4층",
+        "address": "서울 마포구 와우산로 103 지층·1층 일부",
         "area": "hongdae",
         "name": "스피키지",
         "website_url": "https://speakeasyescape.co.kr/",
         "engine": "sinbiweb",
-        "is_active": true
+        "is_active": true,
+        "phone": "02-332-3228",
+        "kakao_place_id": "367178846",
+        "verification_sources": [
+          "https://speakeasyescape.co.kr/layout/res/home.php?go=location"
+        ],
+        "verified_at": "2026-11-22"
       },
       {
         "cafe_id": "1168819420",

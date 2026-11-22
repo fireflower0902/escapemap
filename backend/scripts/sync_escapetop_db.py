@@ -75,6 +75,8 @@ BUSINESS_TYPE_ID = 12
 REQUEST_DELAY = 0.5
 
 BRANCHES = [
+    # 공식 네이버 전환 공지와 동일 주소의 지점 예약 탭에서 확인.
+    {'cafe_id': '2200000001', 'business_id': '1033386', 'business_type_id': 12, 'name': '셜록홈즈', 'branch_name': '부산기장정관점', 'address': '부산 기장군 정관읍 정관중앙로 45 1동 13층 1309·1310호', 'area': 'busan', 'site_url': 'https://booking.naver.com/booking/12/bizes/1033386'},
     {'cafe_id': '727312827', 'business_id': '1006824', 'business_type_id': 12,
      'name': '미스터리룸이스케이프', 'branch_name': '홍대2호점',
      'address': '서울 마포구 독막로7길 41 2층', 'area': 'hongdae',

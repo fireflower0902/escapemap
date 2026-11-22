@@ -157,7 +157,7 @@ SITES: list[dict] = [
         "cafe_id":     "1825220691",
         "cafe_name":   "스피키지",
         "branch_name": None,
-        "address":     "서울 마포구 어울마당로 138 4층",
+        "address":     "서울 마포구 와우산로 103 지층·1층 일부",
         "area":        "hongdae",
         "base_url":    "https://speakeasyescape.co.kr",
         "s_zizum":     None,

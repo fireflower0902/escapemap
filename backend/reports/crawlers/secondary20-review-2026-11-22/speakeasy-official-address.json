@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=location",
+    "http_status": 200,
+    "address_evidence": "주소 서울특별시 마포구 와우산로 103, 지층, 1층 일부(서교동) 전화 02-332-3228 공지사항 예약확인 제휴문의 개인정보취급방침 상호 : 스피키지 ㅣ 사업자번호 : 415",
+    "phone": "02-332-3228",
+    "has_wausan103": true,
+    "has_eoul138": false,
+    "map_links": [
+      "",
+      "",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.073786250789!2d126.92279131566197!3d37.55332533264159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98c478eb3d03%3A0xacd2945de9750d54!2z7ISc7Jq47Yq567OE7IucIOuniO2PrOq1rCDsmYDsmrDsgrDroZwgMTAz!5e0!3m2!1sko!2skr!4v1656655589831!5m2!1sko!2skr"
+    ]
+  },
+  {
+    "url": "https://speakeasyescape.co.kr/layout/res/home.php?go=company",
+    "http_status": 200,
+    "address_evidence": "주소 : 서울특별시 마포구 와우산로 103, 지층, 1층 일부(서교동) 전화 : ：02-332-3228 ㅣ 대표자 : 이상찬 신한은행 110-539-837645 예금주_이상찬(스피",
+    "phone": "02-332-3228",
+    "has_wausan103": true,
+    "has_eoul138": false,
+    "map_links": [
+      "",
+      ""
+    ]
+  }
+]

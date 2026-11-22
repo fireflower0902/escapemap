@@ -1,0 +1,16 @@
+{
+  "cafe_id": "2200000001",
+  "business_id": "1033386",
+  "naver_place_id": "1012824989",
+  "name": "셜록홈즈 부산기장정관점",
+  "address": "부산 기장군 정관읍 정관중앙로 45 1동 13층 1309·1310호",
+  "official_announcement": "https://sherlock-holmes.co.kr/board/event_view.php?no=96&s_bno=",
+  "observed_place_booking": "https://pcmap.place.naver.com/place/1012824989/booking",
+  "observed_item_url": "https://m.booking.naver.com/booking/12/bizes/1033386/items/5487918",
+  "theme_ids": [
+    "5487918",
+    "5487893"
+  ],
+  "verified_at": "2026-11-22",
+  "identity": "공식 브랜드 지점 소개·네이버 매장 주소 일치. 실제 매장 예약 탭에서 이 사업장 상품 페이지로 이동. 공개 상품 시간표 노출 확인."
+}

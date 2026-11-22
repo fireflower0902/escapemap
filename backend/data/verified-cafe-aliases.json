@@ -4,7 +4,8 @@
     "361428621": "official_xcape_xr",
     "27354377": "official_xcape_xc",
     "1599918263": "official_xcape_sw",
-    "1516889516": "official_xcape_nc"
+    "1516889516": "official_xcape_nc",
+    "367178846": "1825220691"
   },
   "theme_aliases": {
     "1551717206__기억의_틈": "official_xcape_gn__기억의_틈",
@@ -34,7 +35,8 @@
     "https://xcape.kr/booking/xc",
     "https://xcape.kr/booking/xr",
     "https://xcape.kr/booking/sw",
-    "https://xcape.kr/booking/nc"
+    "https://xcape.kr/booking/nc",
+    "https://speakeasyescape.co.kr/layout/res/home.php?go=location"
   ],
   "policy": "Same branch only; exact theme-name match. Original rows and schedules retained."
 }
