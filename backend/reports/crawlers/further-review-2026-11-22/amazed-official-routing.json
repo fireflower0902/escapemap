@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://www.amazed.co.kr/",
+    "status": 200,
+    "title": "AMAZED – ESCAPE ADVENTURE",
+    "links": [
+      "/?page_id=3402",
+      "/?page_id=3921",
+      "/?page_id=66905#booking",
+      "/?page_id=7596",
+      "https://amazed.co.kr/?page_id=4808#booking"
+    ]
+  },
+  {
+    "url": "https://amazed.co.kr/",
+    "status": 200,
+    "title": "AMAZED – ESCAPE ADVENTURE",
+    "links": [
+      "/?page_id=3402",
+      "/?page_id=3921",
+      "/?page_id=66905#booking",
+      "/?page_id=7596",
+      "https://amazed.co.kr/?page_id=4808#booking"
+    ]
+  }
+]

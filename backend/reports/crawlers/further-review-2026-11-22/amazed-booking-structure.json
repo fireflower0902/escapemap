@@ -1,0 +1,16 @@
+{
+  "url": "https://amazed.co.kr/?page_id=4808#booking",
+  "status": 200,
+  "iframes": [],
+  "booking_scripts": [
+    "https://amazed.co.kr/wp-content/plugins/booked/assets/js/spin.min.js",
+    "https://amazed.co.kr/wp-content/plugins/booked/assets/js/spin.jquery.js",
+    "https://amazed.co.kr/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min.js",
+    "https://amazed.co.kr/wp-content/plugins/booked/assets/js/functions.js",
+    "https://amazed.co.kr/wp-content/plugins/part-time-manager/js/ptm-calendar.js",
+    "https://amazed.co.kr/wp-content/plugins/booked/includes/add-ons/frontend-agents/js/functions.js",
+    "https://amazed.co.kr/wp-content/plugins/the-events-calendar/common/src/resources/js/underscore-before.js",
+    "https://amazed.co.kr/wp-content/plugins/the-events-calendar/common/src/resources/js/underscore-after.js"
+  ],
+  "forms": []
+}

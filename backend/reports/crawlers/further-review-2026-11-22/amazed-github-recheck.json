@@ -1,0 +1,15 @@
+{
+  "status": "error",
+  "error": "ValueError: 공식 지점 또는 테마 일정 변경: title=제목 없음, calendars=[], branch=False",
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "amazed.co.kr",
+      "path": "/",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 1.07,
+  "checked_at": "2026-11-22T18:51:08.838089+09:00",
+  "workflow_url": "https://github.com/fireflower0902/escapemap/actions/runs/45009518071"
+}

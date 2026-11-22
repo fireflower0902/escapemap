@@ -1,0 +1,313 @@
+[
+  {
+    "cafe_id": "167846502",
+    "name": "큐브이스케이프",
+    "branch_name": "대전둔산점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_alternative_source_unconfirmed",
+    "reason": "큐브 대전 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://daejeon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=6",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "1857201893",
+    "name": "큐브이스케이프",
+    "branch_name": "천호점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_alternative_source_unconfirmed",
+    "reason": "큐브 천호 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://cheonho.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=7",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "2100000001",
+    "name": "큐브이스케이프",
+    "branch_name": "잠실점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_alternative_source_unconfirmed",
+    "reason": "큐브 잠실 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://jamsil.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=5",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "27522878",
+    "name": "큐브이스케이프",
+    "branch_name": "전주점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_alternative_source_unconfirmed",
+    "reason": "큐브 전주 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://junju.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=4",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "27564986",
+    "name": "큐브이스케이프",
+    "branch_name": "인천점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_alternative_source_unconfirmed",
+    "reason": "큐브 인천 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://incheon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=3",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "4331171",
+    "name": "큐브이스케이프",
+    "branch_name": "수유점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_alternative_source_unconfirmed",
+    "reason": "큐브 수유 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://suyu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=8",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "일상탈출과 동일 주소에 지도명 마스터키 안양점 존재. 홈페이지 링크·예약 탭 없음. 이름 차이만으로 임의 통합하거나 다른 지점 시간표를 연결하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://place.map.kakao.com/255097329",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "255097329",
+      "url": "http://place.map.kakao.com/255097329",
+      "checked_at": "2026-11-22T16:40:30.967188+09:00",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/255097329",
+      "title": "방탈출카페 일상탈출 안양일번가점 | 카카오맵",
+      "booking_links": []
+    }
+  },
+  {
+    "cafe_id": "1254330051",
+    "name": "방탈출브이",
+    "branch_name": "공평점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://www.v-escape.co.kr",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "1254330051",
+      "url": "http://www.v-escape.co.kr",
+      "checked_at": "2026-11-22T16:40:30.617028+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "858962026",
+    "name": "방탈출브이",
+    "branch_name": "삼덕점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://www.v-escape.co.kr",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "858962026",
+      "url": "http://www.v-escape.co.kr",
+      "checked_at": "2026-11-22T16:40:30.666690+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "1757443413",
+    "name": "코난방탈출",
+    "branch_name": "구로디지털단지역점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://conanescape.kr",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "1757443413",
+      "url": "http://conanescape.kr",
+      "checked_at": "2026-11-22T16:40:32.248134+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://www.darockesc.com/",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "442981346",
+      "url": "http://www.darockesc.com/",
+      "checked_at": "2026-11-22T16:40:29.293971+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "https://parabox.kr/",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "123477337",
+      "url": "https://parabox.kr/",
+      "checked_at": "2026-11-22T16:40:32.542620+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://withescaper.com/",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "2000674643",
+      "url": "http://withescaper.com/",
+      "checked_at": "2026-11-22T16:40:31.930668+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "280887856",
+    "name": "시크릿코드",
+    "branch_name": "홍대직영점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "동일 카카오ID의 최신 지도 주소 어울마당로144 3층으로 기존66 주소 정정. 최신주소 네이버 입점 목록에서도 현행 예약처를 확보하지 못함. 현재 영업 여부는 미확정.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://www.secret-code.co.kr",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "280887856",
+      "url": "http://www.secret-code.co.kr",
+      "checked_at": "2026-11-22T16:40:31.420662+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "동일 주소 지도 매장 상세는 확인했으나 현재 예약 탭이 없음. 현행 공식 공개 시간표 미확정.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://unlimited-escape.com/",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "166623372",
+      "url": "http://unlimited-escape.com/",
+      "checked_at": "2026-11-22T16:40:31.729868+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://place.map.kakao.com/79137052",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "HTTP 200",
+    "latest_url_check": {
+      "cafe_id": "79137052",
+      "url": "http://place.map.kakao.com/79137052",
+      "checked_at": "2026-11-22T16:40:32.565749+09:00",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/79137052",
+      "title": "페르소나 | 카카오맵",
+      "booking_links": []
+    }
+  },
+  {
+    "cafe_id": "225341934",
+    "name": "라스트이스케이프",
+    "branch_name": "강남점",
+    "priority": 2,
+    "priority_label": "현행 공식 예약처 재확인",
+    "status": "reviewed_needs_source",
+    "reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://lastescape.co.kr",
+    "next_action": "현재 공식 홈페이지/네이버 사업자ID와 지점 주소를 먼저 대조",
+    "latest_url_result": "ConnectionError",
+    "latest_url_check": {
+      "cafe_id": "225341934",
+      "url": "http://lastescape.co.kr",
+      "checked_at": "2026-11-22T16:40:29.990731+09:00",
+      "error": "ConnectionError"
+    }
+  },
+  {
+    "cafe_id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "reviewed_runtime_response_mismatch",
+    "reason": "로컬은 공식 달력19·1테마98슬롯/7일 수집 성공. GitHub45009518071에서는 HTTP200이지만 제목·달력·지점 없는 응답으로 error. 정기 편입하지 않음.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "https://amazed.co.kr/?page_id=4808#booking",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  },
+  {
+    "cafe_id": "27413260",
+    "name": "큐브이스케이프",
+    "branch_name": "홍대점",
+    "priority": 3,
+    "priority_label": "구현 완료·GitHub 실행 환경 제한",
+    "status": "scheduled_partial_verified",
+    "reason": "독립 네이버20104 공식 매장 주소 일치·4테마20슬롯(11/23~27 5일) 로컬·GitHub 통과. 실제 UI11/23 20:40 대조. 당일·일부날짜·자체사이트 전테마 미지원 안내와 함께 정기 편입.",
+    "last_evidence_at": "2026-11-22T19:06:08.985284+09:00",
+    "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
+    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
+  }
+]

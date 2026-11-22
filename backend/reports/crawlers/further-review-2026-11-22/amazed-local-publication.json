@@ -1,0 +1,106 @@
+{
+  "script": "sync_amazed_db",
+  "checked_at": "2026-11-22T18:50:33.184968+09:00",
+  "scope": "selected cafe IDs: 2138418097 / today + 6 day(s)",
+  "days_after_today": 6,
+  "database": "in-memory; local SQLite cafe metadata seed; no live Firestore access",
+  "requested_cafe_ids": [
+    "2138418097"
+  ],
+  "selected": {},
+  "cafes_with_slots": 1,
+  "themes_fetched": 1,
+  "themes_with_slots": 1,
+  "slots": 98,
+  "statuses": {
+    "full": 36,
+    "available": 62
+  },
+  "dates": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+  ],
+  "issues": [],
+  "per_cafe": {
+    "2138418097": {
+      "themes": 1,
+      "slots": 98,
+      "statuses": {
+        "full": 36,
+        "available": 62
+      },
+      "dates": [
+        "2026-11-22",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ]
+    }
+  },
+  "sample_themes": [
+    "SHIFT : 고쿄의 하루"
+  ],
+  "http_calls": [
+    {
+      "method": "GET",
+      "host": "amazed.co.kr",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "host": "amazed.co.kr",
+      "path": "/wp-admin/admin-ajax.php",
+      "status": 200
+    }
+  ],
+  "duration_seconds": 12.91,
+  "log_errors": [],
+  "status": "smoke_pass",
+  "storage": "supabase",
+  "published": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "27413260",
+  "name": "큐브이스케이프",
+  "branch_name": "홍대점",
+  "engine": "cubeescape",
+  "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
+  "metadata": "{\"id\": \"27413260\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"큐브이스케이프\", \"phone\": null, \"engine\": \"cubeescape\", \"address\": \"서울 마포구 와우산로29나길 9 2층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"홍대점\", \"website_url\": \"http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1\", \"crawler_status\": \"blocked_remote\", \"supported_area\": true, \"scheduler_paused\": true, \"crawl_pause_reason\": \"GitHub 실행에서 HTTP 403 접근 제한\"}"
+}

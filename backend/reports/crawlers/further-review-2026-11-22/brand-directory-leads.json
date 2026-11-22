@@ -1,0 +1,52 @@
+[
+  {
+    "query": "큐브",
+    "links": [
+      {
+        "url": "https://www.playbangtal.com/cafes/375",
+        "text": "큐 큐브 이스케이프 홍대점 홍대 · 서울 마포구 양화로16길 15"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/331",
+        "text": "큐 큐브 이스케이프 천호점 천호 · 서울 강동구 천호대로157길 22"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/425",
+        "text": "큐 큐브 이스케이프 전주점 전주 · 전북 전주시 완산구 홍산남로 78"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/328",
+        "text": "큐 큐브 이스케이프 잠실점 잠실 · 서울 송파구 올림픽로8길 10"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/119",
+        "text": "큐 큐브 이스케이프 인천점 인천 · 인천 남동구 인하로507번길 21"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/293",
+        "text": "큐 큐브 이스케이프 수유점 수유 · 서울 강북구 도봉로87길 11"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/449",
+        "text": "큐 큐브 이스케이프 대전점 대전 · 대전 서구 대덕대로185번길 47"
+      }
+    ]
+  },
+  {
+    "query": "어메이즈드",
+    "links": [
+      {
+        "url": "https://www.playbangtal.com/cafes/116",
+        "text": "어 어메이즈드 부평 3호점 인천 · 인천광역시 부평구 시장로 36 명지빌딩 6층"
+      },
+      {
+        "url": "https://www.playbangtal.com/cafes/115",
+        "text": "어 어메이즈드 부평 2호점 인천 · 인천광역시 부평구 부평대로17번길 5 지하"
+      }
+    ]
+  },
+  {
+    "query": "비밀의화원",
+    "links": []
+  }
+]

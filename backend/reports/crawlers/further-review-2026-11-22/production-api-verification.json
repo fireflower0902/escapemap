@@ -1,0 +1,9 @@
+{
+  "url": "https://escapemap.reviewhyun.workers.dev/api/search?date=2026-11-23&area=hongdae",
+  "cafe_id": "27413260",
+  "crawled": true,
+  "catalog_themes": 9,
+  "themes_with_slots": 4,
+  "slots": 4,
+  "booking_notice": "네이버에 공개된 4개 테마의 일부 날짜·시간만 표시합니다. 당일 예약과 나머지 시간표는 카페 공식 홈페이지에서 확인해 주세요."
+}

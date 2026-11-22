@@ -291,8 +291,8 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -356,8 +356,8 @@
       "engine": "vescape",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -1184,8 +1184,8 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 도메인 연결 실패. 전국방탈출에는 홈페이지 미운영·전화 예약 안내가 있으나 공식 최신 안내로 재확인되지 않음. 전화 전용 확정·폐업으로 처리하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "동일 주소 지도 매장 상세는 확인했으나 현재 예약 탭이 없음. 현행 공식 공개 시간표 미확정.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -1199,7 +1199,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+      "crawl_pause_reason": "큐브 대전 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_alternative_source_unconfirmed"
     },
     {
       "id": "1678997732",
@@ -1328,8 +1330,8 @@
       "engine": "conanescape",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -1507,7 +1509,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+      "crawl_pause_reason": "큐브 천호 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_alternative_source_unconfirmed"
     },
     {
       "id": "1862264503",
@@ -1754,8 +1758,8 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -1942,7 +1946,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+      "crawl_pause_reason": "큐브 잠실 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_alternative_source_unconfirmed"
     },
     {
       "id": "2100000004",
@@ -2012,7 +2018,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 응답에서 공식 예약 달력 확인 불가"
+      "crawl_pause_reason": "로컬은 공식 달력19·1테마98슬롯/7일 수집 성공. GitHub45009518071에서는 HTTP200이지만 제목·달력·지점 없는 응답으로 error. 정기 편입하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_runtime_response_mismatch"
     },
     {
       "id": "2143447304",
@@ -2072,8 +2080,8 @@
       "engine": "lastescape",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -2106,9 +2114,9 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 지도 기록 및 구 마스터키 채널은 확인했으나 현재 일상탈출 안양일번가점의 공개 시간표 원천을 확정하지 못함.",
+      "crawl_pause_reason": "일상탈출과 동일 주소에 지도명 마스터키 안양점 존재. 홈페이지 링크·예약 탭 없음. 이름 차이만으로 임의 통합하거나 다른 지점 시간표를 연결하지 않음.",
       "crawl_review_reason_code": "reviewed_needs_source",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00"
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00"
     },
     {
       "id": "259983085",
@@ -2291,7 +2299,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+      "crawl_pause_reason": "큐브 전주 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_alternative_source_unconfirmed"
     },
     {
       "id": "27523824",
@@ -2334,7 +2344,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+      "crawl_pause_reason": "큐브 인천 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_alternative_source_unconfirmed"
     },
     {
       "id": "27575809",
@@ -2380,15 +2392,18 @@
       "id": "280887856",
       "name": "시크릿코드",
       "branch_name": "홍대직영점",
-      "address": "서울 마포구 어울마당로 66",
+      "address": "서울 마포구 어울마당로 144 3층",
       "area": "hongdae",
       "website_url": "http://www.secret-code.co.kr",
       "engine": "secretcode",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
-      "crawl_review_reason_code": "reviewed_needs_source"
+      "crawl_pause_reason": "동일 카카오ID의 최신 지도 주소 어울마당로144 3층으로 기존66 주소 정정. 최신주소 네이버 입점 목록에서도 현행 예약처를 확보하지 못함. 현재 영업 여부는 미확정.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_needs_source",
+      "address_source": "https://place.map.kakao.com/places/panel3/280887856",
+      "address_reviewed_at": "2026-11-22T19:04:50.038429+09:00",
+      "address_status": "map_directory_verified_operation_unconfirmed"
     },
     {
       "id": "28201117",
@@ -2747,7 +2762,9 @@
       "is_active": true,
       "scheduler_paused": true,
       "crawler_status": "blocked_remote",
-      "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+      "crawl_pause_reason": "큐브 수유 동일 주소의 공개 지도 매장 상세 확인. 현재 예약 탭 미노출. 기존 GitHub403을 우회하지 않고 대체 공개 시간표 미확정으로 유지.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
+      "crawl_review_reason_code": "reviewed_alternative_source_unconfirmed"
     },
     {
       "id": "436025860",
@@ -2769,8 +2786,8 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {
@@ -3456,9 +3473,9 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "광주 문화전당로35번길2의 등록 기록 외 현행 공식 예약처를 확정하지 못함. 동명 다른 매장으로 대체하지 않음.",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
       "crawl_review_reason_code": "reviewed_needs_source",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00"
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00"
     },
     {
       "id": "802938757",
@@ -3557,8 +3574,8 @@
       "engine": "vescape",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 공식 도메인 연결 실패 재확인. 공개 검색·지점 디렉터리에서 현재 공식 예약 URL을 확정하지 못함. 폐업이나 수집 불가능으로 확정하지 않음.",
-      "crawl_reviewed_at": "2026-11-22T16:51:42.394064+09:00",
+      "crawl_pause_reason": "등록 주소의 공개 지도에서 현행 예약처를 확보하지 못함. 검색·로딩·등록 정보만으로 폐업 또는 수집 불가능 판정하지 않음.",
+      "crawl_reviewed_at": "2026-11-22T19:06:08.985284+09:00",
       "crawl_review_reason_code": "reviewed_needs_source"
     },
     {

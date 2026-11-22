@@ -1,0 +1,35 @@
+[
+  {
+    "directory_url": "https://www.playbangtal.com/cafes/331",
+    "title": "큐브 이스케이프 천호점 (천호) | 플레이 방탈출",
+    "observed_store_button": "큐브이스케이프 천호점",
+    "place_url": "https://pcmap.place.naver.com/place/1210383046?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202611221858&locale=ko&svcName=map_pcv5",
+    "headings": [
+      "큐브이스케이프 천호점"
+    ],
+    "status": "needs_review",
+    "observation": "{\"success\":false,\"data\":null,\"error\":\"5 elements have role \\\"tab\\\", but none match name \\\"예약\\\". Names seen: \\\"홈\\\", \\\"소식\\\", \\\"리뷰\\\", \\\"사진\\\", \\\"정보\\\"\"}\n"
+  },
+  {
+    "directory_url": "https://www.playbangtal.com/cafes/328",
+    "title": "큐브 이스케이프 잠실점 (잠실) | 플레이 방탈출",
+    "observed_store_button": "큐브이스케이프 잠실점",
+    "place_url": "https://pcmap.place.naver.com/place/37849155?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202611221858&locale=ko&svcName=map_pcv5",
+    "headings": [
+      "큐브이스케이프 잠실점"
+    ],
+    "status": "needs_review",
+    "observation": "{\"success\":false,\"data\":null,\"error\":\"4 elements have role \\\"tab\\\", but none match name \\\"예약\\\". Names seen: \\\"홈\\\", \\\"리뷰\\\", \\\"사진\\\", \\\"정보\\\"\"}\n"
+  },
+  {
+    "directory_url": "https://www.playbangtal.com/cafes/449",
+    "title": "큐브 이스케이프 대전점 (대전) | 플레이 방탈출",
+    "observed_store_button": "큐브이스케이프 대전둔산점",
+    "place_url": "https://pcmap.place.naver.com/place/38251897?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202611221858&locale=ko&svcName=map_pcv5",
+    "headings": [
+      "큐브이스케이프 대전둔산점"
+    ],
+    "status": "needs_review",
+    "observation": "{\"success\":false,\"data\":null,\"error\":\"6 elements have role \\\"tab\\\", but none match name \\\"예약\\\". Names seen: \\\"홈\\\", \\\"쿠폰\\\", \\\"소식\\\", \\\"리뷰\\\", \\\"사진\\\", ...\"}\n"
+  }
+]

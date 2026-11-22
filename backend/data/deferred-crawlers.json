@@ -25,9 +25,9 @@
     "script": "sync_amazed_db",
     "cafe_id": "2138418097",
     "runtime": "github_actions",
-    "reason": "GitHub 응답에서 공식 예약 달력 확인 불가",
-    "last_checked_at": "2026-11-17T00:07:45.192793+09:00",
-    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
+    "reason": "로컬은 공식 달력19로98슬롯 수집되지만 GitHub에서는 HTTP200·달력/지점표시 없는 HTML. 2026-11-22 재검증도 error. 정기 편입 보류.",
+    "last_checked_at": "2026-11-22T18:51:08.838089+09:00",
+    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/45009518071",
     "added_in_this_review": true,
     "name": "어메이즈드",
     "branch_name": "3호점"

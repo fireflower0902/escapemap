@@ -1,0 +1,135 @@
+[
+  {
+    "cafe_id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "registered_address": "경기 안양시 만안구 장내로149번길 49",
+    "address_search_url": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%A7%8C%EC%95%88%EA%B5%AC%20%EC%9E%A5%EB%82%B4%EB%A1%9C149%EB%B2%88%EA%B8%B8%2049",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "observed_store_button": "마스터키 안양점",
+    "place_url": "https://pcmap.place.naver.com/place/1779046867?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202611221901&locale=ko&svcName=map_pcv5",
+    "heading": [
+      "마스터키 안양점"
+    ],
+    "tabs": [
+      "홈",
+      "소식",
+      "리뷰",
+      "사진",
+      "정보"
+    ],
+    "status": "no_public_booking_tab_observed"
+  },
+  {
+    "cafe_id": "1254330051",
+    "name": "방탈출브이",
+    "branch_name": "공평점",
+    "registered_address": "대구 중구 공평동 62-11",
+    "address_search_url": "https://map.naver.com/p/search/%EB%8C%80%EA%B5%AC%20%EC%A4%91%EA%B5%AC%20%EA%B3%B5%ED%8F%89%EB%8F%99%2062-11",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "status": "no_matching_store_button_observed"
+  },
+  {
+    "cafe_id": "858962026",
+    "name": "방탈출브이",
+    "branch_name": "삼덕점",
+    "registered_address": "대구 중구 삼덕동1가 17-16",
+    "address_search_url": "https://map.naver.com/p/search/%EB%8C%80%EA%B5%AC%20%EC%A4%91%EA%B5%AC%20%EC%82%BC%EB%8D%95%EB%8F%991%EA%B0%80%2017-16",
+    "address_panel_ready": true,
+    "observed_button_count": 67,
+    "status": "no_matching_store_button_observed"
+  },
+  {
+    "cafe_id": "1757443413",
+    "name": "코난방탈출",
+    "branch_name": "구로디지털단지역점",
+    "registered_address": "서울 구로구 구로동 1124-54 3층",
+    "address_search_url": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B5%AC%EB%A1%9C%EA%B5%AC%20%EA%B5%AC%EB%A1%9C%EB%8F%99%201124-54%203%EC%B8%B5",
+    "status": "needs_review",
+    "observation": "{\"success\":false,\"data\":null,\"error\":\"Wait timed out after 25000ms\"}\n"
+  },
+  {
+    "cafe_id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "registered_address": "경기 안양시 만안구 안양로292번길 18",
+    "address_search_url": "https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%A7%8C%EC%95%88%EA%B5%AC%20%EC%95%88%EC%96%91%EB%A1%9C292%EB%B2%88%EA%B8%B8%2018",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "status": "no_matching_store_button_observed"
+  },
+  {
+    "cafe_id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "registered_address": "서울 강남구 테헤란로8길 28-4",
+    "address_search_url": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C8%EA%B8%B8%2028-4",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "status": "no_matching_store_button_observed"
+  },
+  {
+    "cafe_id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "registered_address": "서울 서대문구 연세로 20",
+    "address_search_url": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EC%84%9C%EB%8C%80%EB%AC%B8%EA%B5%AC%20%EC%97%B0%EC%84%B8%EB%A1%9C%2020",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "status": "no_matching_store_button_observed"
+  },
+  {
+    "cafe_id": "280887856",
+    "name": "시크릿코드",
+    "branch_name": "홍대직영점",
+    "registered_address": "서울 마포구 어울마당로 66",
+    "address_search_url": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%96%B4%EC%9A%B8%EB%A7%88%EB%8B%B9%EB%A1%9C%2066",
+    "status": "needs_review",
+    "observation": "{\"success\":false,\"data\":null,\"error\":\"Wait timed out after 25000ms\"}\n",
+    "address_correction": "동일 카카오ID 최신 공개주소 어울마당로144 3층으로 정정. 이전66 주소 검색 결과로 운영 여부 판단하지 않음."
+  },
+  {
+    "cafe_id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "registered_address": "제주특별자치도 제주시 고마로 100",
+    "address_search_url": "https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%A0%9C%EC%A3%BC%EC%8B%9C%20%EA%B3%A0%EB%A7%88%EB%A1%9C%20100",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "observed_store_button": "언리미티드 이스케이프",
+    "place_url": "https://pcmap.place.naver.com/place/405520292?from=map&fromPanelNum=1&additionalHeight=76&timestamp=202611221902&locale=ko&svcName=map_pcv5",
+    "heading": [
+      "언리미티드 이스케이프"
+    ],
+    "tabs": [
+      "홈",
+      "소식",
+      "리뷰",
+      "사진",
+      "정보"
+    ],
+    "status": "no_public_booking_tab_observed"
+  },
+  {
+    "cafe_id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "registered_address": "광주 동구 문화전당로35번길 2",
+    "address_search_url": "https://map.naver.com/p/search/%EA%B4%91%EC%A3%BC%20%EB%8F%99%EA%B5%AC%20%EB%AC%B8%ED%99%94%EC%A0%84%EB%8B%B9%EB%A1%9C35%EB%B2%88%EA%B8%B8%202",
+    "address_panel_ready": true,
+    "observed_button_count": 63,
+    "status": "no_matching_store_button_observed"
+  },
+  {
+    "cafe_id": "225341934",
+    "name": "라스트이스케이프",
+    "branch_name": "강남점",
+    "registered_address": "서울 강남구 강남대로98길 20",
+    "address_search_url": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%EA%B0%95%EB%82%A8%EB%8C%80%EB%A1%9C98%EA%B8%B8%2020",
+    "address_panel_ready": true,
+    "observed_button_count": 68,
+    "status": "no_matching_store_button_observed"
+  }
+]
