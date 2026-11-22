@@ -25,3 +25,23 @@ class ScheduledRefreshTests(unittest.TestCase):
   deferred=json.loads((ROOT/'data/deferred-crawlers.json').read_text())
   self.assertFalse({r['cafe_id'] for r in scheduled} & {r['cafe_id'] for r in deferred})
   self.assertTrue(all(r.get('reason') and r.get('runtime')=='github_actions' for r in deferred))
+
+
+def test_candidate_manifest_does_not_collect_production_list(tmp_path, monkeypatch):
+ from types import SimpleNamespace
+ candidate=tmp_path/'candidates.json'
+ candidate.write_text(json.dumps([{'script':'sync_candidate_db','cafe_id':'candidate-only'}]))
+ output=tmp_path/'verification'
+ calls=[]
+ def fake_run(args, **kwargs):
+  calls.append(args)
+  return SimpleNamespace(returncode=0)
+ monkeypatch.setattr(module,'ROOT',tmp_path)
+ monkeypatch.setattr(module.subprocess,'run',fake_run)
+ monkeypatch.setattr(module.sys,'argv',['refresh_scheduled.py','--manifest',str(candidate),'--output',str(output),'--workers','1'])
+ assert module.main()==0
+ assert len(calls)==1 and 'candidate-only' in calls[0]
+ report=json.loads((output/'shard-0.json').read_text())
+ assert report['total']==report['published']==1
+ assert report['results'][0]['cafe_id']=='candidate-only'
+ assert not (tmp_path/'reports/scheduled').exists()

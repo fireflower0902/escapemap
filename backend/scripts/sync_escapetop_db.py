@@ -75,6 +75,29 @@ BUSINESS_TYPE_ID = 12
 REQUEST_DELAY = 0.5
 
 BRANCHES = [
+    # 룸즈에이 공식 공개 카탈로그가 명시한 독립 네이버 예약처.
+    {'cafe_id': 'official_roomsa_41', 'business_id': '1180370', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '강남점', 'address': '서울 강남구 역삼동 827-14, 지하 2층', 'area': 'gangnam', 'site_url': 'https://booking.naver.com/booking/12/bizes/1180370'},
+    {'cafe_id': 'official_roomsa_42', 'business_id': '1180392', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '대학로점', 'address': '서울 종로구 동숭동 1-65 해안빌딩, 지하 1층', 'area': 'myeongdong', 'site_url': 'https://booking.naver.com/booking/12/bizes/1180392'},
+    {'cafe_id': 'official_roomsa_43', 'business_id': '1179265', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '안양범계점', 'address': '경기 안양시 동안구 호계동 1041-2, 5층', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179265'},
+    {'cafe_id': 'official_roomsa_44', 'business_id': '305335', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '일산 웨스턴돔점', 'address': '경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/12/bizes/305335'},
+    {'cafe_id': 'official_roomsa_46', 'business_id': '1179486', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '의정부점', 'address': '경기 의정부시 의정부동 158-10, 4층', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179486'},
+    {'cafe_id': 'official_roomsa_47', 'business_id': '617834', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '수원역점', 'address': '경기 수원시 팔달구 매산로1가 30-1, 3층', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/12/bizes/617834'},
+    {'cafe_id': 'official_roomsa_48', 'business_id': '706303', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '수원역 2호점', 'address': '경기 수원시 팔달구 매산로1가 40-1, 3층', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/12/bizes/706303'},
+    {'cafe_id': 'official_roomsa_49', 'business_id': '281163', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '대전둔산점', 'address': '대전 서구 둔산동 1063, 태형빌딩 7층', 'area': 'daejeon', 'site_url': 'https://booking.naver.com/booking/12/bizes/281163'},
+    {'cafe_id': 'official_roomsa_50', 'business_id': '162323', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '대전은행점', 'address': '대전 중구 은행동 33-2, 4층', 'area': 'daejeon', 'site_url': 'https://booking.naver.com/booking/12/bizes/162323'},
+    {'cafe_id': 'official_roomsa_51', 'business_id': '72622', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '부산남포점', 'address': '부산 중구 창선동2가 46-1', 'area': 'busan', 'site_url': 'https://booking.naver.com/booking/12/bizes/72622'},
+    {'cafe_id': 'official_roomsa_52', 'business_id': '1181643', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '부산서면점', 'address': '부산 부산진구 부전동 198-1 3층', 'area': 'busan', 'site_url': 'https://booking.naver.com/booking/12/bizes/1181643'},
+    {'cafe_id': 'official_roomsa_53', 'business_id': '1179407', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '광주수완점', 'address': '광주 광산구 수완동 1096 잭슨스테이크 건물5층', 'area': 'gwangju', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179407'},
+    {'cafe_id': '1544141348', 'business_id': '1476693', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '광주수완 2호점', 'address': '광주 광산구 장신로 76 5층', 'area': 'gwangju', 'site_url': 'https://booking.naver.com/booking/12/bizes/1476693'},
+    {'cafe_id': 'official_roomsa_54', 'business_id': '1181453', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '광주상무점', 'address': '광주 서구 상무번영로 37 나우빌딩 6층', 'area': 'gwangju', 'site_url': 'https://booking.naver.com/booking/12/bizes/1181453'},
+    {'cafe_id': 'official_roomsa_55', 'business_id': '1179418', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '대구동성로점', 'address': '대구 중구 공평동 34-2, 4층', 'area': 'daegu', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179418'},
+    {'cafe_id': 'official_roomsa_56', 'business_id': '1179432', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '동성로2호점', 'address': '대구 중구 삼덕동1가 18-1, 4층', 'area': 'daegu', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179432'},
+    {'cafe_id': 'official_roomsa_57', 'business_id': '1179435', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '동성로 아카데미점', 'address': '대구 중구 사일동 54-1, 3층', 'area': 'daegu', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179435'},
+    {'cafe_id': 'official_roomsa_83', 'business_id': '1682467', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '대구스테이지점', 'address': '대구 중구 동성로2길 28 3층', 'area': 'daegu', 'site_url': 'https://booking.naver.com/booking/12/bizes/1682467'},
+    {'cafe_id': 'official_roomsa_58', 'business_id': '1179429', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '포항점', 'address': '경북 포항시 북구 상원동 462-5, 스타타워 5층', 'area': 'gyeongbuk', 'site_url': 'https://booking.naver.com/booking/12/bizes/1179429'},
+    {'cafe_id': '802938757', 'business_id': '1180339', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '부평점', 'address': '인천 부평구 부평동 199-24, 4층', 'area': 'incheon', 'site_url': 'https://booking.naver.com/booking/12/bizes/1180339'},
+    {'cafe_id': 'official_roomsa_69', 'business_id': '1353367', 'business_type_id': 12, 'name': '룸즈에이', 'branch_name': '부평 2호점', 'address': '인천 부평구 부평문화로 75, 3층', 'area': 'incheon', 'site_url': 'https://booking.naver.com/booking/12/bizes/1353367'},
+
     {
         "cafe_id": "628138029",
         "business_id": "164665",

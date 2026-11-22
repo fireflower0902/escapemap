@@ -1,0 +1,614 @@
+[
+  {
+    "cafe_id": "official_roomsa_41",
+    "official_shop_id": 41,
+    "name": "강남점",
+    "address": "서울 강남구 역삼동 827-14, 지하 2층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1180370",
+    "official_theme_ids": [
+      "6963117",
+      "6968658",
+      "6963134",
+      "7200245",
+      "7486747"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1180370/items/6963117",
+      "https://m.booking.naver.com/booking/12/bizes/1180370/items/6968658",
+      "https://m.booking.naver.com/booking/12/bizes/1180370/items/6963134",
+      "https://m.booking.naver.com/booking/12/bizes/1180370/items/7200245",
+      "https://m.booking.naver.com/booking/12/bizes/1180370/items/7486747"
+    ],
+    "public_theme_names": [
+      "메가 게임 (MEGA GAME)",
+      "쎄비지 (SAVAGE)",
+      "비틀배틀-퍼플 (BEETLE BATTLE)",
+      "GALAXY HYPRESS (갤럭시 하이프리스)",
+      "33: DOOR RUN (도어런)"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_42",
+    "official_shop_id": 42,
+    "name": "대학로점",
+    "address": "서울 종로구 동숭동 1-65 해안빌딩, 지하 1층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1180392",
+    "official_theme_ids": [
+      "5988069",
+      "5988073",
+      "5988074",
+      "5988075",
+      "5988076"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1180392/items/5988069",
+      "https://m.booking.naver.com/booking/12/bizes/1180392/items/5988073",
+      "https://m.booking.naver.com/booking/12/bizes/1180392/items/5988074",
+      "https://m.booking.naver.com/booking/12/bizes/1180392/items/5988075",
+      "https://m.booking.naver.com/booking/12/bizes/1180392/items/5988076"
+    ],
+    "public_theme_names": [
+      "Secret Agent",
+      "안개꽃",
+      "낭랑카페",
+      "행방불냥",
+      "Gain Time"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_43",
+    "official_shop_id": 43,
+    "name": "안양범계점",
+    "address": "경기 안양시 동안구 호계동 1041-2, 5층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179265",
+    "official_theme_ids": [
+      "5964107",
+      "5988087",
+      "5988088"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179265/items/5964107",
+      "https://m.booking.naver.com/booking/12/bizes/1179265/items/5988087",
+      "https://m.booking.naver.com/booking/12/bizes/1179265/items/5988088"
+    ],
+    "public_theme_names": [
+      "띵가띵가",
+      "뽀득뽀득",
+      "커밍순"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_44",
+    "official_shop_id": 44,
+    "name": "일산 웨스턴돔점",
+    "address": "경기 고양시 일산동구 장항동 847, 웅신아트프라자 312호",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "305335",
+    "official_theme_ids": [
+      "3285920",
+      "4017482",
+      "3286330",
+      "4017509",
+      "4017516"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/305335/items/3285920",
+      "https://m.booking.naver.com/booking/12/bizes/305335/items/4017482",
+      "https://m.booking.naver.com/booking/12/bizes/305335/items/3286330",
+      "https://m.booking.naver.com/booking/12/bizes/305335/items/4017509",
+      "https://m.booking.naver.com/booking/12/bizes/305335/items/4017516"
+    ],
+    "public_theme_names": [
+      "뽀득뽀득",
+      "반짝반짝",
+      "시크릿에이전트",
+      "이상한 돈가스",
+      "타임키퍼"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_46",
+    "official_shop_id": 46,
+    "name": "의정부점",
+    "address": "경기 의정부시 의정부동 158-10, 4층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179486",
+    "official_theme_ids": [
+      "5965974",
+      "5988425",
+      "5988426",
+      "5988427",
+      "5988428"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179486/items/5965974",
+      "https://m.booking.naver.com/booking/12/bizes/1179486/items/5988425",
+      "https://m.booking.naver.com/booking/12/bizes/1179486/items/5988426",
+      "https://m.booking.naver.com/booking/12/bizes/1179486/items/5988427",
+      "https://m.booking.naver.com/booking/12/bizes/1179486/items/5988428"
+    ],
+    "public_theme_names": [
+      "이상한 돈가스",
+      "뽀득뽀득",
+      "반짝반짝",
+      "낭랑카페",
+      "타임키퍼"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_47",
+    "official_shop_id": 47,
+    "name": "수원역점",
+    "address": "경기 수원시 팔달구 매산로1가 30-1, 3층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "617834",
+    "official_theme_ids": [
+      "4188288",
+      "4188305",
+      "4188311",
+      "4201975"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/617834/items/4188288",
+      "https://m.booking.naver.com/booking/12/bizes/617834/items/4188305",
+      "https://m.booking.naver.com/booking/12/bizes/617834/items/4188311",
+      "https://m.booking.naver.com/booking/12/bizes/617834/items/4201975"
+    ],
+    "public_theme_names": [
+      "필활",
+      "띵가띵가",
+      "전지적 작가 시점",
+      "우당탕탕"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_48",
+    "official_shop_id": 48,
+    "name": "수원역 2호점",
+    "address": "경기 수원시 팔달구 매산로1가 40-1, 3층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "706303",
+    "official_theme_ids": [
+      "4550845",
+      "4513123",
+      "4450615",
+      "4448114"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/706303/items/4550845",
+      "https://m.booking.naver.com/booking/12/bizes/706303/items/4513123",
+      "https://m.booking.naver.com/booking/12/bizes/706303/items/4450615",
+      "https://m.booking.naver.com/booking/12/bizes/706303/items/4448114"
+    ],
+    "public_theme_names": [
+      "평화로운 A마트 (70분)",
+      "슬기로운 지구생활(70분)",
+      "귀빈(손님대접)",
+      "호텔 캘리포니아"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_49",
+    "official_shop_id": 49,
+    "name": "대전둔산점",
+    "address": "대전 서구 둔산동 1063, 태형빌딩 7층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "281163",
+    "official_theme_ids": [
+      "3221441",
+      "3221468",
+      "3221475",
+      "3221492",
+      "3221497",
+      "4961559"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/281163/items/3221441",
+      "https://m.booking.naver.com/booking/12/bizes/281163/items/3221468",
+      "https://m.booking.naver.com/booking/12/bizes/281163/items/3221475",
+      "https://m.booking.naver.com/booking/12/bizes/281163/items/3221492",
+      "https://m.booking.naver.com/booking/12/bizes/281163/items/3221497",
+      "https://m.booking.naver.com/booking/12/bizes/281163/items/4961559"
+    ],
+    "public_theme_names": [
+      "뜻밖의 여행",
+      "신의여인들",
+      "시크릿 에이젼트",
+      "귀빈(손님대접)",
+      "7 DAYS",
+      "THINKABLE (씽커블) 40분"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_50",
+    "official_shop_id": 50,
+    "name": "대전은행점",
+    "address": "대전 중구 은행동 33-2, 4층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "162323",
+    "official_theme_ids": [
+      "3864756",
+      "3143146",
+      "2800411",
+      "3864767"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/162323/items/3864756",
+      "https://m.booking.naver.com/booking/12/bizes/162323/items/3143146",
+      "https://m.booking.naver.com/booking/12/bizes/162323/items/2800411",
+      "https://m.booking.naver.com/booking/12/bizes/162323/items/3864767"
+    ],
+    "public_theme_names": [
+      "낭랑카페",
+      "안개꽃",
+      "기억술사",
+      "히어로 아카데미"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_51",
+    "official_shop_id": 51,
+    "name": "부산남포점",
+    "address": "부산 중구 창선동2가 46-1",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "72622",
+    "official_theme_ids": [
+      "5989070",
+      "5989071",
+      "5989072",
+      "5989073",
+      "5989074",
+      "5989075"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/72622/items/5989070",
+      "https://m.booking.naver.com/booking/12/bizes/72622/items/5989071",
+      "https://m.booking.naver.com/booking/12/bizes/72622/items/5989072",
+      "https://m.booking.naver.com/booking/12/bizes/72622/items/5989073",
+      "https://m.booking.naver.com/booking/12/bizes/72622/items/5989074",
+      "https://m.booking.naver.com/booking/12/bizes/72622/items/5989075"
+    ],
+    "public_theme_names": [
+      "제인하우스",
+      "안개꽃",
+      "행방불냥",
+      "시크릿 에이전트",
+      "낭랑카페",
+      "초콜릿 팩토리"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_52",
+    "official_shop_id": 52,
+    "name": "부산서면점",
+    "address": "부산 부산진구 부전동 198-1 3층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1181643",
+    "official_theme_ids": [
+      "5989092",
+      "5989091",
+      "5989085",
+      "5989088",
+      "5989089",
+      "5989090"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1181643/items/5989092",
+      "https://m.booking.naver.com/booking/12/bizes/1181643/items/5989091",
+      "https://m.booking.naver.com/booking/12/bizes/1181643/items/5989085",
+      "https://m.booking.naver.com/booking/12/bizes/1181643/items/5989088",
+      "https://m.booking.naver.com/booking/12/bizes/1181643/items/5989089",
+      "https://m.booking.naver.com/booking/12/bizes/1181643/items/5989090"
+    ],
+    "public_theme_names": [
+      "프레임 하이커",
+      "퍼펙트 플랜",
+      "너와 나의 이야기",
+      "아직 버리지 못한 지갑",
+      "히어로 아카데미",
+      "요정들의 술집"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_53",
+    "official_shop_id": 53,
+    "name": "광주수완점",
+    "address": "광주 광산구 수완동 1096 잭슨스테이크 건물5층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179407",
+    "official_theme_ids": [
+      "6017528",
+      "6017534",
+      "6017535",
+      "6017536",
+      "6017537",
+      "6017538",
+      "6017539"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017528",
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017534",
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017535",
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017536",
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017537",
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017538",
+      "https://m.booking.naver.com/booking/12/bizes/1179407/items/6017539"
+    ],
+    "public_theme_names": [
+      "요정들의 술집",
+      "낭랑카페",
+      "히어로 아카데미",
+      "뽀득뽀득",
+      "너와 나의 이야기",
+      "시크릿 에이전트",
+      "방과 후"
+    ]
+  },
+  {
+    "cafe_id": "1544141348",
+    "official_shop_id": 74,
+    "name": "광주수완 2호점",
+    "address": "광주 광산구 장신로 76 5층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1476693",
+    "official_theme_ids": [
+      "6980614",
+      "6980640",
+      "6980554",
+      "6980632"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1476693/items/6980614",
+      "https://m.booking.naver.com/booking/12/bizes/1476693/items/6980640",
+      "https://m.booking.naver.com/booking/12/bizes/1476693/items/6980554",
+      "https://m.booking.naver.com/booking/12/bizes/1476693/items/6980632"
+    ],
+    "public_theme_names": [
+      "놈즈 : 더 비기닝",
+      "The Last Dance",
+      "아이언 게이트 프리즌",
+      "미스틱 클럽"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_54",
+    "official_shop_id": 54,
+    "name": "광주상무점",
+    "address": "광주 서구 상무번영로 37 나우빌딩 6층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1181453",
+    "official_theme_ids": [
+      "5989125",
+      "5989126",
+      "5989127",
+      "5989128",
+      "5989129",
+      "5989130",
+      "5989131",
+      "5989132",
+      "5989133"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989125",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989126",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989127",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989128",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989129",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989130",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989131",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989132",
+      "https://m.booking.naver.com/booking/12/bizes/1181453/items/5989133"
+    ],
+    "public_theme_names": [
+      "띵가띵가",
+      "이상한 돈가스",
+      "뜻밖의 여행",
+      "아이돌 남친",
+      "그레이스 호텔",
+      "커밍순",
+      "이 소리 저만 들리나요?",
+      "전지적 작가 시점",
+      "멍사탕"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_55",
+    "official_shop_id": 55,
+    "name": "대구동성로점",
+    "address": "대구 중구 공평동 34-2, 4층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179418",
+    "official_theme_ids": [
+      "5989139",
+      "5989140",
+      "5989141",
+      "5989142",
+      "5989143"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179418/items/5989139",
+      "https://m.booking.naver.com/booking/12/bizes/1179418/items/5989140",
+      "https://m.booking.naver.com/booking/12/bizes/1179418/items/5989141",
+      "https://m.booking.naver.com/booking/12/bizes/1179418/items/5989142",
+      "https://m.booking.naver.com/booking/12/bizes/1179418/items/5989143"
+    ],
+    "public_theme_names": [
+      "뽀득뽀득",
+      "노블리스트",
+      "취중진담",
+      "반짝반짝",
+      "아이돌 남친"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_56",
+    "official_shop_id": 56,
+    "name": "동성로2호점",
+    "address": "대구 중구 삼덕동1가 18-1, 4층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179432",
+    "official_theme_ids": [
+      "5989146",
+      "5989147",
+      "5989148",
+      "5989150",
+      "5989149",
+      "5989151"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179432/items/5989146",
+      "https://m.booking.naver.com/booking/12/bizes/1179432/items/5989147",
+      "https://m.booking.naver.com/booking/12/bizes/1179432/items/5989148",
+      "https://m.booking.naver.com/booking/12/bizes/1179432/items/5989150",
+      "https://m.booking.naver.com/booking/12/bizes/1179432/items/5989149",
+      "https://m.booking.naver.com/booking/12/bizes/1179432/items/5989151"
+    ],
+    "public_theme_names": [
+      "금 나와라 뚝딱",
+      "여우골",
+      "커밍순",
+      "띵가띵가",
+      "그레이스 호텔",
+      "아이덴티티"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_57",
+    "official_shop_id": 57,
+    "name": "동성로 아카데미점",
+    "address": "대구 중구 사일동 54-1, 3층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179435",
+    "official_theme_ids": [
+      "5989157",
+      "5989158",
+      "5989159",
+      "5989160",
+      "5989161"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179435/items/5989157",
+      "https://m.booking.naver.com/booking/12/bizes/1179435/items/5989158",
+      "https://m.booking.naver.com/booking/12/bizes/1179435/items/5989159",
+      "https://m.booking.naver.com/booking/12/bizes/1179435/items/5989160",
+      "https://m.booking.naver.com/booking/12/bizes/1179435/items/5989161"
+    ],
+    "public_theme_names": [
+      "필활",
+      "평화로운 에이마트",
+      "우당탕탕",
+      "슬기로운 지구생활",
+      "명부에 점을 찍으라"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_83",
+    "official_shop_id": 83,
+    "name": "대구스테이지점",
+    "address": "대구 중구 동성로2길 28 3층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1682467",
+    "official_theme_ids": [
+      "7798510",
+      "7965236",
+      "8121203",
+      "7798517",
+      "7798521"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1682467/items/7798510",
+      "https://m.booking.naver.com/booking/12/bizes/1682467/items/7965236",
+      "https://m.booking.naver.com/booking/12/bizes/1682467/items/8121203",
+      "https://m.booking.naver.com/booking/12/bizes/1682467/items/7798517",
+      "https://m.booking.naver.com/booking/12/bizes/1682467/items/7798521"
+    ],
+    "public_theme_names": [
+      "메가 게임 (MEGA GAME)",
+      "우정 게임",
+      "행복 고시원",
+      "비틀배틀-블루 (BEETLE BATTLE)",
+      "33: DOOR RUN (도어런)"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_58",
+    "official_shop_id": 58,
+    "name": "포항점",
+    "address": "경북 포항시 북구 상원동 462-5, 스타타워 5층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1179429",
+    "official_theme_ids": [
+      "5989164",
+      "5989165",
+      "5989166",
+      "5989167"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1179429/items/5989164",
+      "https://m.booking.naver.com/booking/12/bizes/1179429/items/5989165",
+      "https://m.booking.naver.com/booking/12/bizes/1179429/items/5989166",
+      "https://m.booking.naver.com/booking/12/bizes/1179429/items/5989167"
+    ],
+    "public_theme_names": [
+      "낭랑카페",
+      "너와 나의 이야기",
+      "안개꽃",
+      "시크릿 에이전트"
+    ]
+  },
+  {
+    "cafe_id": "802938757",
+    "official_shop_id": 59,
+    "name": "부평점",
+    "address": "인천 부평구 부평동 199-24, 4층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1180339",
+    "official_theme_ids": [
+      "5989170",
+      "5989172",
+      "6152889",
+      "6323422"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1180339/items/5989170",
+      "https://m.booking.naver.com/booking/12/bizes/1180339/items/5989172",
+      "https://m.booking.naver.com/booking/12/bizes/1180339/items/6152889",
+      "https://m.booking.naver.com/booking/12/bizes/1180339/items/6323422"
+    ],
+    "public_theme_names": [
+      "아이언 게이트 프리즌",
+      "놈즈 : 더 비기닝",
+      "미스틱 클럽",
+      "The Last Dance"
+    ]
+  },
+  {
+    "cafe_id": "official_roomsa_69",
+    "official_shop_id": 69,
+    "name": "부평 2호점",
+    "address": "인천 부평구 부평문화로 75, 3층",
+    "source": "https://roomsa.co.kr/api/booking/stores",
+    "business_id": "1353367",
+    "official_theme_ids": [
+      "6550281",
+      "6553979",
+      "6627182",
+      "6706087"
+    ],
+    "booking_urls": [
+      "https://m.booking.naver.com/booking/12/bizes/1353367/items/6550281",
+      "https://m.booking.naver.com/booking/12/bizes/1353367/items/6553979",
+      "https://m.booking.naver.com/booking/12/bizes/1353367/items/6627182",
+      "https://m.booking.naver.com/booking/12/bizes/1353367/items/6706087"
+    ],
+    "public_theme_names": [
+      "1986, 구룡",
+      "2002, 주안",
+      "2025, ALEx",
+      "1982, 그날의 사진사"
+    ]
+  }
+]

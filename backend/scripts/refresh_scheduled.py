@@ -28,9 +28,9 @@ def failure_details(report_path):
  return {'failure_kind':'infrastructure' if infrastructure else 'site','reason':reason}
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--days',type=int,default=6);p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);p.add_argument('--workers',type=int,default=2);p.add_argument('--timeout',type=int,default=180);p.add_argument('--allow-site-failures',action='store_true',help='개별 사이트 실패는 경고로 남기고 전체 수집률은 별도 집계 작업에서 판정');a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--manifest',type=pathlib.Path,default=ROOT/'data/scheduled-crawlers.json');p.add_argument('--output',type=pathlib.Path,default=ROOT/'reports/scheduled');p.add_argument('--days',type=int,default=6);p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);p.add_argument('--workers',type=int,default=2);p.add_argument('--timeout',type=int,default=180);p.add_argument('--allow-site-failures',action='store_true',help='개별 사이트 실패는 경고로 남기고 전체 수집률은 별도 집계 작업에서 판정');a=p.parse_args()
  if not 0<=a.days<=14 or not 1<=a.workers<=6 or a.timeout<1:p.error('Invalid collection limits')
- tasks=select_tasks(json.loads((ROOT/'data/scheduled-crawlers.json').read_text()),a.shard,a.shards)
+ tasks=select_tasks(json.loads(a.manifest.read_text()),a.shard,a.shards)
  locks=collections.defaultdict(lambda:threading.Semaphore(1));results=[]
  def run(task):
   with locks[task['script']]:
@@ -43,7 +43,7 @@ def main():
  with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
   for future in concurrent.futures.as_completed([pool.submit(run,t) for t in tasks]):
    row=future.result();results.append(row);print(len(results),len(tasks),row['cafe_id'],row['status'],flush=True)
- out=ROOT/'reports/scheduled';out.mkdir(parents=True,exist_ok=True)
+ out=a.output;out.mkdir(parents=True,exist_ok=True)
  report={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'shard':a.shard,'days':a.days,'total':len(tasks),'published':sum(r['status']=='published' for r in results),'results':results}
  for row in results:
   if row['status']=='published':continue

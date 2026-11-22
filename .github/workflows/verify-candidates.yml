@@ -1,0 +1,41 @@
+name: 후보 카페 Supabase 일괄 검증
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: candidate-supabase-validation
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5]
+    defaults:
+      run:
+        working-directory: backend
+    env:
+      SUPABASE_DATABASE_URL: ${{ secrets.SUPABASE_DATABASE_URL }}
+      CRAWL_STORAGE: supabase
+      TZ: Asia/Seoul
+      CRAWL_SEOUL_ONLY: 'false'
+      SKIP_META_WRITES: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - run: uv sync --frozen
+      - name: Verify candidate cafes and publish successful results
+        run: uv run python scripts/refresh_scheduled.py --manifest data/candidate-crawlers.json --output reports/candidates --days 6 --shard ${{ matrix.shard }} --shards 6 --workers 1 --timeout 150 --allow-site-failures
+      - name: Save candidate verification results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate-crawl-${{ matrix.shard }}
+          path: backend/reports/candidates/
+          retention-days: 7
