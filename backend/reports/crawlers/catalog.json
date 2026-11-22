@@ -243,12 +243,23 @@
         "address": "서울 마포구 와우산로29나길 9 2층",
         "area": "hongdae",
         "name": "큐브이스케이프",
-        "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
-        "engine": "cubeescape",
+        "website_url": "http://www.cubeescape.co.kr/",
+        "engine": "naver_booking",
         "is_active": true,
-        "scheduler_paused": true,
-        "crawler_status": "blocked_remote",
-        "crawl_pause_reason": "GitHub 실행에서 HTTP 403 접근 제한"
+        "scheduler_paused": false,
+        "crawler_status": "smoke_pass",
+        "booking_url": "https://booking.naver.com/booking/12/bizes/20104",
+        "naver_place_id": "37408740",
+        "crawl_reviewed_at": "2026-11-22T18:58:39.394675+09:00",
+        "crawl_review_reason_code": "verified_partial_public_booking",
+        "schedule_coverage": "naver_partial_future_only",
+        "booking_notice": "네이버에 공개된 4개 테마의 일부 날짜·시간만 표시합니다. 당일 예약과 나머지 시간표는 카페 공식 홈페이지에서 확인해 주세요.",
+        "source_supports_same_day": false,
+        "source_theme_count": 4,
+        "verification_sources": [
+          "https://booking.naver.com/booking/12/bizes/20104",
+          "https://pcmap.place.naver.com/place/37408740"
+        ]
       },
       {
         "cafe_id": "2100000001",
@@ -818,6 +829,7 @@
       "2138163704",
       "215947527",
       "2200000001",
+      "27413260",
       "27575809",
       "27607543",
       "284779798",
@@ -873,6 +885,30 @@
       "official_roomsa_83"
     ],
     "cafes": [
+      {
+        "cafe_id": "27413260",
+        "name": "큐브이스케이프",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 와우산로29나길 9 2층",
+        "area": "hongdae",
+        "website_url": "http://www.cubeescape.co.kr/",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawler_status": "smoke_pass",
+        "booking_url": "https://booking.naver.com/booking/12/bizes/20104",
+        "naver_place_id": "37408740",
+        "crawl_reviewed_at": "2026-11-22T18:58:39.394675+09:00",
+        "crawl_review_reason_code": "verified_partial_public_booking",
+        "schedule_coverage": "naver_partial_future_only",
+        "booking_notice": "네이버에 공개된 4개 테마의 일부 날짜·시간만 표시합니다. 당일 예약과 나머지 시간표는 카페 공식 홈페이지에서 확인해 주세요.",
+        "source_supports_same_day": false,
+        "source_theme_count": 4,
+        "verification_sources": [
+          "https://booking.naver.com/booking/12/bizes/20104",
+          "https://pcmap.place.naver.com/place/37408740"
+        ]
+      },
       {
         "cafe_id": "911063716",
         "name": "더트랩",

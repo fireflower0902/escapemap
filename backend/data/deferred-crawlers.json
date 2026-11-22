@@ -78,17 +78,6 @@
   },
   {
     "script": "sync_cubeescape_db",
-    "cafe_id": "27413260",
-    "runtime": "github_actions",
-    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
-    "last_checked_at": "2026-11-17T00:17:50.454535+09:00",
-    "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/43892931835",
-    "added_in_this_review": true,
-    "name": "큐브이스케이프",
-    "branch_name": "홍대점"
-  },
-  {
-    "script": "sync_cubeescape_db",
     "cafe_id": "4331171",
     "runtime": "github_actions",
     "reason": "GitHub 실행에서 HTTP 403 접근 제한",

@@ -1,0 +1,32 @@
+{
+  "status": "smoke_pass",
+  "themes_fetched": 4,
+  "slots": 20,
+  "dates": [
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27"
+  ],
+  "per_cafe": {
+    "27413260": {
+      "themes": 4,
+      "slots": 20,
+      "statuses": {
+        "available": 20
+      },
+      "dates": [
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27"
+      ]
+    }
+  },
+  "issues": [],
+  "duration_seconds": 30.37,
+  "checked_at": "2026-11-22T18:55:21.045603+09:00",
+  "workflow_url": "https://github.com/fireflower0902/escapemap/actions/runs/45009858436"
+}

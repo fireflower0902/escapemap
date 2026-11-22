@@ -388,18 +388,6 @@
     "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
   },
   {
-    "cafe_id": "27413260",
-    "name": "큐브이스케이프",
-    "branch_name": "홍대점",
-    "priority": 3,
-    "priority_label": "구현 완료·GitHub 실행 환경 제한",
-    "status": "pending",
-    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
-    "last_evidence_at": "2026-11-17T00:17:50.454535+09:00",
-    "website_url": "http://www.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=1",
-    "next_action": "공식 대체 공개 예약처 또는 접근 허용 확인; 차단 우회 없이 보류"
-  },
-  {
     "cafe_id": "27522878",
     "name": "큐브이스케이프",
     "branch_name": "전주점",

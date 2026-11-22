@@ -1,0 +1,19 @@
+{
+  "engine": "naver_booking",
+  "website_url": "http://www.cubeescape.co.kr/",
+  "booking_url": "https://booking.naver.com/booking/12/bizes/20104",
+  "naver_place_id": "37408740",
+  "scheduler_paused": false,
+  "crawl_pause_reason": null,
+  "crawl_reviewed_at": "2026-11-22T18:58:39.394675+09:00",
+  "crawl_review_reason_code": "verified_partial_public_booking",
+  "schedule_coverage": "naver_partial_future_only",
+  "booking_notice": "네이버에 공개된 4개 테마의 일부 날짜·시간만 표시합니다. 당일 예약과 나머지 시간표는 카페 공식 홈페이지에서 확인해 주세요.",
+  "source_supports_same_day": false,
+  "source_theme_count": 4,
+  "crawler_status": "smoke_pass",
+  "verification_sources": [
+    "https://booking.naver.com/booking/12/bizes/20104",
+    "https://pcmap.place.naver.com/place/37408740"
+  ]
+}

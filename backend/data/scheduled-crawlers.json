@@ -276,6 +276,10 @@
     "cafe_id": "2200000001"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "27413260"
+  },
+  {
     "cafe_id": "27575809",
     "script": "sync_escapetop_db"
   },
