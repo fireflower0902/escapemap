@@ -803,6 +803,7 @@
       "704757588",
       "713424921",
       "716654663",
+      "727312827",
       "746135486",
       "763904207",
       "776644226",
@@ -836,6 +837,24 @@
       "official_roomsa_83"
     ],
     "cafes": [
+      {
+        "cafe_id": "727312827",
+        "name": "미스터리룸이스케이프",
+        "branch_name": "홍대2호점",
+        "address": "서울 마포구 독막로7길 41 2층",
+        "area": "hongdae",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1006824",
+        "engine": "naver_booking",
+        "is_active": true,
+        "booking_url": "https://booking.naver.com/booking/12/bizes/1006824",
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_channel_booking",
+        "crawl_reviewed_at": "2026-11-22",
+        "verification_sources": [
+          "https://pf.kakao.com/_Bxhxdxan",
+          "https://booking.naver.com/booking/12/bizes/1006824"
+        ]
+      },
       {
         "cafe_id": "official_roomsa_41",
         "name": "룸즈에이",
@@ -2945,11 +2964,20 @@
         "cafe_id": "727312827",
         "cafe_name": "미스터리룸이스케이프",
         "branch_name": "홍대2호점",
-        "address": "서울 마포구 독막로7길 41",
+        "address": "서울 마포구 독막로7길 41 2층",
         "area": "hongdae",
         "name": "미스터리룸이스케이프",
-        "website_url": "http://www.mysteryroomescape.com/",
-        "is_active": true
+        "website_url": "https://booking.naver.com/booking/12/bizes/1006824",
+        "engine": "naver_booking",
+        "is_active": true,
+        "booking_url": "https://booking.naver.com/booking/12/bizes/1006824",
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_official_channel_booking",
+        "crawl_reviewed_at": "2026-11-22",
+        "verification_sources": [
+          "https://pf.kakao.com/_Bxhxdxan",
+          "https://booking.naver.com/booking/12/bizes/1006824"
+        ]
       }
     ],
     "selections": {
@@ -5964,39 +5992,63 @@
     "cafes": [
       {
         "cafe_id": "1551717206",
-        "name": "강남점",
+        "name": "엑스케이프",
+        "branch_name": "강남점",
         "address": "서울 강남구 봉은사로2길 16, 현도빌딩, B1",
         "area": "gangnam",
         "website_url": "https://xcape.co.kr",
         "engine": "xcape",
-        "is_active": true
+        "is_active": false,
+        "canonical_cafe_id": "official_xcape_gn",
+        "catalog_disposition": "duplicate",
+        "scheduler_paused": true,
+        "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+        "crawl_reviewed_at": "2026-11-22"
       },
       {
         "cafe_id": "27354377",
-        "name": "건대점",
+        "name": "엑스케이프",
+        "branch_name": "건대1호점",
         "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
         "area": "konkuk",
         "website_url": "https://xcape.co.kr",
         "engine": "xcape",
-        "is_active": true
+        "is_active": false,
+        "canonical_cafe_id": "official_xcape_xc",
+        "catalog_disposition": "duplicate",
+        "scheduler_paused": true,
+        "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+        "crawl_reviewed_at": "2026-11-22"
       },
       {
         "cafe_id": "361428621",
-        "name": "건대2호",
+        "name": "엑스크라임",
+        "branch_name": "건대2호점",
         "address": "서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페",
         "area": "konkuk",
         "website_url": "https://xcape.co.kr",
         "engine": "xcape",
-        "is_active": true
+        "is_active": false,
+        "canonical_cafe_id": "official_xcape_xr",
+        "catalog_disposition": "duplicate",
+        "scheduler_paused": true,
+        "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+        "crawl_reviewed_at": "2026-11-22"
       },
       {
         "cafe_id": "1599918263",
-        "name": "수원점",
+        "name": "엑스케이프",
+        "branch_name": "수원점",
         "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
         "area": "gyeonggi",
         "website_url": "https://xcape.co.kr",
         "engine": "xcape",
-        "is_active": true
+        "is_active": false,
+        "canonical_cafe_id": "official_xcape_sw",
+        "catalog_disposition": "duplicate",
+        "scheduler_paused": true,
+        "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+        "crawl_reviewed_at": "2026-11-22"
       }
     ],
     "selections": {

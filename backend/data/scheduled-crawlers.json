@@ -333,6 +333,10 @@
   },
   {
     "script": "sync_escapetop_db",
+    "cafe_id": "727312827"
+  },
+  {
+    "script": "sync_escapetop_db",
     "cafe_id": "746135486"
   },
   {

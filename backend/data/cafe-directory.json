@@ -416,7 +416,11 @@
       "area": "jamsil",
       "website_url": "https://naver.me/xbjXQceE",
       "engine": null,
-      "is_active": true
+      "is_active": false,
+      "catalog_disposition": "out_of_scope_activity",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "발판 액티비티: 사용자 결정에 따라 일반 방탈출 목록에서 제외; 영업 종료 판정 아님",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "1336760672",
@@ -822,17 +826,19 @@
     },
     {
       "id": "1516889516",
-      "name": "방탈출 뉴케이스",
-      "branch_name": null,
+      "name": "뉴케이스",
+      "branch_name": "건대3호점",
       "address": "서울 광진구 아차산로 191",
       "area": "konkuk",
       "website_url": "http://place.map.kakao.com/1516889516",
       "engine": null,
-      "is_active": true,
+      "is_active": false,
       "scheduler_paused": true,
-      "crawl_pause_reason": "서울 광진구 아차산로191은 이미 정기 수집 중인 official_xcape_nc(뉴케이스 건대3호점)와 일치. 별도 중복 수집 추가 없이 레코드 통합 검토 대상.",
+      "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
       "crawl_review_reason_code": "duplicate_record",
-      "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
+      "crawl_reviewed_at": "2026-11-22",
+      "canonical_cafe_id": "official_xcape_nc",
+      "catalog_disposition": "duplicate"
     },
     {
       "id": "1521613397",
@@ -900,13 +906,18 @@
     },
     {
       "id": "1551717206",
-      "name": "강남점",
-      "branch_name": null,
+      "name": "엑스케이프",
+      "branch_name": "강남점",
       "address": "서울 강남구 봉은사로2길 16, 현도빌딩, B1",
       "area": "gangnam",
       "website_url": "https://xcape.co.kr",
       "engine": "xcape",
-      "is_active": true
+      "is_active": false,
+      "canonical_cafe_id": "official_xcape_gn",
+      "catalog_disposition": "duplicate",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "1554942559",
@@ -970,13 +981,18 @@
     },
     {
       "id": "1599918263",
-      "name": "수원점",
-      "branch_name": null,
+      "name": "엑스케이프",
+      "branch_name": "수원점",
       "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
       "area": "gyeonggi",
       "website_url": "https://xcape.co.kr",
       "engine": "xcape",
-      "is_active": true
+      "is_active": false,
+      "canonical_cafe_id": "official_xcape_sw",
+      "catalog_disposition": "duplicate",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "1604521778",
@@ -2046,13 +2062,18 @@
     },
     {
       "id": "27354377",
-      "name": "건대점",
-      "branch_name": null,
+      "name": "엑스케이프",
+      "branch_name": "건대1호점",
       "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
       "area": "konkuk",
       "website_url": "https://xcape.co.kr",
       "engine": "xcape",
-      "is_active": true
+      "is_active": false,
+      "canonical_cafe_id": "official_xcape_xc",
+      "catalog_disposition": "duplicate",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "27367643",
@@ -2425,13 +2446,18 @@
     },
     {
       "id": "361428621",
-      "name": "건대2호",
-      "branch_name": null,
+      "name": "엑스크라임",
+      "branch_name": "건대2호점",
       "address": "서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페",
       "area": "konkuk",
       "website_url": "https://xcape.co.kr",
       "engine": "xcape",
-      "is_active": true
+      "is_active": false,
+      "canonical_cafe_id": "official_xcape_xr",
+      "catalog_disposition": "duplicate",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "동일 주소·전화번호의 현재 공식 수집 레코드로 통합",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "363716272",
@@ -3067,11 +3093,20 @@
       "id": "727312827",
       "name": "미스터리룸이스케이프",
       "branch_name": "홍대2호점",
-      "address": "서울 마포구 독막로7길 41",
+      "address": "서울 마포구 독막로7길 41 2층",
       "area": "hongdae",
-      "website_url": "http://www.mysteryroomescape.com/",
-      "engine": null,
-      "is_active": true
+      "website_url": "https://booking.naver.com/booking/12/bizes/1006824",
+      "engine": "naver_booking",
+      "is_active": true,
+      "booking_url": "https://booking.naver.com/booking/12/bizes/1006824",
+      "scheduler_paused": false,
+      "crawl_pause_reason": null,
+      "crawl_review_reason_code": "verified_official_channel_booking",
+      "crawl_reviewed_at": "2026-11-22",
+      "verification_sources": [
+        "https://pf.kakao.com/_Bxhxdxan",
+        "https://booking.naver.com/booking/12/bizes/1006824"
+      ]
     },
     {
       "id": "728789378",
@@ -3185,7 +3220,11 @@
       "area": "chungnam",
       "website_url": "http://place.map.kakao.com/77278349",
       "engine": null,
-      "is_active": true
+      "is_active": false,
+      "catalog_disposition": "out_of_scope_activity",
+      "scheduler_paused": true,
+      "crawl_pause_reason": "발판 액티비티: 사용자 결정에 따라 일반 방탈출 목록에서 제외; 영업 종료 판정 아님",
+      "crawl_reviewed_at": "2026-11-22"
     },
     {
       "id": "776353707",

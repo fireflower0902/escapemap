@@ -1,0 +1,42 @@
+{
+  "script": "sync_escapetop_db",
+  "checked_at": "2026-11-22T10:59:38.067595+09:00",
+  "scope": "selected cafe IDs: 727312827 / today + 6 day(s)",
+  "themes_fetched": 4,
+  "slots": 273,
+  "statuses": {
+    "full": 48,
+    "available": 225
+  },
+  "dates": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28"
+  ],
+  "per_cafe": {
+    "727312827": {
+      "themes": 4,
+      "slots": 273,
+      "statuses": {
+        "full": 48,
+        "available": 225
+      },
+      "dates": [
+        "2026-11-22",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28"
+      ]
+    }
+  },
+  "issues": [],
+  "status": "smoke_pass",
+  "workflow_url": "https://github.com/fireflower0902/escapemap/actions/runs/44973959303"
+}

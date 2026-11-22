@@ -8,6 +8,7 @@ import {availableCount,externalURL,filterCafes,seoulToday,validDate,type Cafe,ty
 import {CatGlyph,MenuGlyph,type MenuIcon} from "./TeumIcons";
 import "./teum.css";
 import ProblemRoom from "./ProblemRoom";
+import {canonicalThemeIds} from "@/lib/theme-aliases";
 
 type View="home"|"reservation"|"quiz"|"store"|"community"|"my";
 const menus:{key:MenuIcon;label:string;href:string}[]=[{key:"reservation",label:"방탈출 찾기",href:"/search"},{key:"quiz",label:"문제방",href:"/quiz"},{key:"store",label:"온라인 방탈출",href:"/online"},{key:"community",label:"커뮤니티",href:"/community"},{key:"my",label:"MY",href:"/my"}];
@@ -27,7 +28,7 @@ export default function TeumApp({view='home',initialDate,initialArea}:{view?:Vie
  const [saved,setSaved]=useState<string[]>([]),[visited,setVisited]=useState<string[]>([]),[ready,setReady]=useState(false),[myTab,setMyTab]=useState<'saved'|'visited'>('saved');
  const [notice,setNotice]=useState<{title:string;body:string;url?:string|null}|null>(null);const dialog=useRef<HTMLDialogElement>(null);
  const requiresData=view==='home'||view==='reservation'||view==='my';
- useEffect(()=>{try{const read=(key:string)=>{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value.filter((id:unknown)=>typeof id==='string'):[];};setSaved(read('teum-theme-favorites'));setVisited(read('teum-theme-visited'));}catch{}setReady(true);},[]);
+ useEffect(()=>{try{const read=(key:string)=>{const value=JSON.parse(localStorage.getItem(key)||'[]');return canonicalThemeIds(value);};setSaved(read('teum-theme-favorites'));setVisited(read('teum-theme-visited'));}catch{}setReady(true);},[]);
  useEffect(()=>{if(!ready)return;try{localStorage.setItem('teum-theme-favorites',JSON.stringify(saved));localStorage.setItem('teum-theme-visited',JSON.stringify(visited));}catch{}},[saved,visited,ready]);
  useEffect(()=>{
   if(!requiresData){setLoading(false);return;}
