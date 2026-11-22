@@ -75,6 +75,8 @@ BUSINESS_TYPE_ID = 12
 REQUEST_DELAY = 0.5
 
 BRANCHES = [
+    # 실제 매장 예약 탭 및 네이버 공식 사업장 주소 확인.
+    {'cafe_id': '1252080396', 'business_id': '729652', 'business_type_id': 6, 'name': '할리갈리인더룸방탈출시즌2', 'branch_name': None, 'address': '경기 고양시 일산동구 무궁화로 20-11 라페스타 F동 3층 302호', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/6/bizes/729652'},
     # 네이버 공식 사업장 주소로 광안점 확인. 해운대27519와 구분.
     {'cafe_id': '1495650283', 'business_id': '1254695', 'business_type_id': 12, 'name': '브레이크아웃 광안', 'branch_name': None, 'address': '부산 수영구 남천바다로33번길 47 마린빌딩 2층', 'area': 'busan', 'site_url': 'https://booking.naver.com/booking/12/bizes/1254695'},
     # 공식 네이버 전환 공지와 동일 주소의 지점 예약 탭에서 확인.
