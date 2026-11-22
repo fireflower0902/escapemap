@@ -19,12 +19,15 @@ def failure_details(report_path):
   check=json.loads(report_path.read_text())
  except (OSError,ValueError):
   return {'failure_kind':'infrastructure','reason':'검증 결과 파일이 생성되지 않음'}
+ return classify_check(check)
+
+def classify_check(check):
  error=str(check.get('error') or '')
- infrastructure=error.startswith(('storage: ','ImportError:','ModuleNotFoundError:','NameError:','TypeError:','AttributeError:','AssertionError:')) or '수집 실패 상태의 DB 기록도 실패했습니다.' in check.get('issues',[])
+ infrastructure=bool(check.get('execution_failure')) or error.startswith(('storage: ','ImportError:','ModuleNotFoundError:','NameError:','TypeError:','AttributeError:','AssertionError:')) or '수집 실패 상태의 DB 기록도 실패했습니다.' in check.get('issues',[])
  calls=check.get('http_calls',[])
  codes=sorted({c['status'] for c in calls if c.get('status',0)>=400})
  # Do not echo raw exceptions/URLs, which could contain credentials.
- reason=('Supabase 저장 오류' if error.startswith('storage: ') else 'DB 실패 기록 또는 수집기 실행 오류') if infrastructure else 'HTTP '+','.join(map(str,codes)) if codes else '시간표 검증 오류' if error else '시간표 미수집 또는 검증 경고'
+ reason=('Supabase 저장 오류' if error.startswith('storage: ') else 'DB 실패 기록 또는 수집기 실행 오류') if infrastructure else 'HTTP '+','.join(map(str,codes)) if codes else '사이트 수집 제한 시간 초과' if check.get('status')=='timeout' else '시간표 검증 오류' if error else '시간표 미수집 또는 검증 경고'
  return {'failure_kind':'infrastructure' if infrastructure else 'site','reason':reason}
 
 def main():

@@ -48,7 +48,7 @@ jobs:
       - name: 사이트 순차 검증 (Firestore 접근 없음)
         shell: bash
         run: |
-          args=(--days "$DAYS" --timeout 180)
+          args=(--days "$DAYS" --timeout 180 --allow-site-failures --output reports/manual-check)
           if [ "$CRAWLER" = all ]; then
             args+=(--all)
           else
@@ -65,4 +65,5 @@ jobs:
         if: always()
         with:
           name: crawler-check-results
-          path: backend/reports/crawlers/
+          path: backend/reports/manual-check/
+          retention-days: 7

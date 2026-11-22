@@ -46,6 +46,16 @@ def worker(args):
  print(args.cafe_id,check['status'],check.get('themes_fetched',0),'themes',check.get('slots',0),'slots',flush=True)
  return 0 if check['status']=='smoke_pass' else 1
 
+def record_timeout(script,cid,days):
+ check={'script':script,'checked_at':datetime.datetime.now(ZoneInfo('Asia/Seoul')).isoformat(),'status':'timeout','published':False,'storage':'supabase'}
+ try:
+  asyncio.run(publish(check,None,cid,days))
+ except Exception as error:
+  check['status']='error';check['error']='storage: '+type(error).__name__
+ dest=ROOT/'reports/crawlers/supabase';dest.mkdir(parents=True,exist_ok=True)
+ (dest/(script+'-'+cid+'.json')).write_text(json.dumps(check,ensure_ascii=False,indent=2)+'\n')
+ return check
+
 def main():
  p=argparse.ArgumentParser();p.add_argument('script');p.add_argument('--cafe-id');p.add_argument('--days',type=int,default=14);p.add_argument('--timeout',type=int,default=600);p.add_argument('--worker',action='store_true');p.add_argument('--start',type=int,default=0);p.add_argument('--end',type=int);args=p.parse_args()
  args.script=pathlib.Path(args.script).stem
@@ -64,8 +74,7 @@ def main():
   try:
    result=subprocess.run(cmd,cwd=ROOT,timeout=args.timeout);failed+=result.returncode!=0
   except subprocess.TimeoutExpired:
-   check={'script':args.script,'checked_at':datetime.datetime.now(ZoneInfo('Asia/Seoul')).isoformat(),'status':'timeout'}
-   asyncio.run(publish(check,None,cid,args.days));failed+=1;print(cid,'timeout',flush=True)
+   check=record_timeout(args.script,cid,args.days);failed+=1;print(cid,check['status'],flush=True)
  print('완료:',len(ids),'지점 / 확인 필요',failed,flush=True)
  return bool(failed)
 if __name__=='__main__':

@@ -262,6 +262,21 @@ def run_one(name, all_branches=False, days=0, cafe_ids=None):
     return result, log
 
 
+def validation_exit_code(results, allow_site_failures=False):
+    from scripts.refresh_scheduled import classify_check
+    failures=[r for r in results if r.get('status')!='smoke_pass']
+    lines=['# 개별 크롤러 검증 결과', '', f'검증 {len(results)}개 · 통과 {len(results)-len(failures)}개 · 확인 필요 {len(failures)}개', '', '사이트 검증 실패는 성공한 수집을 뜻하지 않습니다. 원본 결과·오류는 검증 아티팩트에 보존합니다.', '']
+    infrastructure=False
+    for result in failures:
+        details=classify_check(result);hard=details['failure_kind']=='infrastructure';infrastructure|=hard
+        name=result.get('script','unknown');reason=details['reason']
+        print(('::error::' if hard or not allow_site_failures else '::warning::')+name+': '+reason)
+        lines.append('- '+name+': '+reason)
+    if os.environ.get('GITHUB_STEP_SUMMARY'):
+        with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as stream:stream.write('\n'.join(lines)+'\n')
+    return int(not results or infrastructure or (bool(failures) and not allow_site_failures))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('sites', nargs='*', help='xdungeon, keyescape 등')
@@ -269,6 +284,7 @@ def main():
     parser.add_argument('--all-branches', action='store_true')
     parser.add_argument('--cafe-id', action='append', help='크롤러 설정에서 이 카페만 검증 (반복 가능)')
     parser.add_argument('--timeout', type=int, default=90)
+    parser.add_argument('--allow-site-failures', action='store_true', help='예상된 사이트 검증 실패는 경고로 기록; 실행 오류는 실패 유지')
     parser.add_argument('--days', type=int, default=0, help='오늘 이후 추가 조회 일수 (기본 0)')
     parser.add_argument('--output', type=Path, default=ROOT / 'reports' / 'crawlers')
     parser.add_argument('--worker', action='store_true', help=argparse.SUPPRESS)
@@ -305,7 +321,7 @@ def main():
             if result_path.exists():
                 result = json.loads(result_path.read_text())
             else:
-                result = {'script': name, 'status': 'error', 'error': completed.stderr[-1500:]}
+                result = {'script': name, 'status': 'error', 'error': completed.stderr[-1500:], 'execution_failure': True}
         except subprocess.TimeoutExpired:
             result = {'script': name, 'status': 'timeout', 'timeout_seconds': args.timeout}
         result.setdefault('checked_at', datetime.now(ZoneInfo('Asia/Seoul')).isoformat())
@@ -321,7 +337,7 @@ def main():
         (args.output / 'latest-run.json').write_text(json.dumps(results, ensure_ascii=False, indent=2))
         print(f"  {result['status']}: {result.get('themes_fetched', 0)} themes / {result.get('slots', 0)} slots", flush=True)
     print(f'결과: {args.output}')
-    return 0 if all(result['status'] == 'smoke_pass' for result in results) else 1
+    return validation_exit_code(results, args.allow_site_failures)
 
 
 if __name__ == '__main__':
