@@ -75,6 +75,8 @@ BUSINESS_TYPE_ID = 12
 REQUEST_DELAY = 0.5
 
 BRANCHES = [
+    # 공식 네이버 예약 전환 안내 및 동일 주소의 매장 예약 탭 확인.
+    {'cafe_id': '911063716', 'business_id': '1475391', 'business_type_id': 12, 'name': '더트랩', 'branch_name': '수유점', 'address': '서울 강북구 도봉로 363 구봉빌딩 4층', 'area': 'seoul_other', 'site_url': 'https://booking.naver.com/booking/12/bizes/1475391'},
     # 실제 매장 예약 탭 및 네이버 공식 사업장 주소 확인.
     {'cafe_id': '1252080396', 'business_id': '729652', 'business_type_id': 6, 'name': '할리갈리인더룸방탈출시즌2', 'branch_name': None, 'address': '경기 고양시 일산동구 무궁화로 20-11 라페스타 F동 3층 302호', 'area': 'gyeonggi', 'site_url': 'https://booking.naver.com/booking/6/bizes/729652'},
     # 네이버 공식 사업장 주소로 광안점 확인. 해운대27519와 구분.
