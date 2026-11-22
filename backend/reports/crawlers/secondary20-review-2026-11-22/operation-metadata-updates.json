@@ -1,0 +1,126 @@
+[
+  {
+    "cafe_id": "1968639091",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "이천점 시간표를 서현 cafe_id에 연결 금지. 서현 공식 대체 예약처 필요. legend_escape.official 계정 후보는 공개 내용 가져오기 실패로 소유·현행 예약 링크 미검증.",
+    "crawl_review_reason_code": "official_domain_currently_other_branch",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "http://legendescape.com/layout/res/home.php?go=rev.make",
+      "http://legendescape.com/layout/res/home.php?go=location"
+    ]
+  },
+  {
+    "cafe_id": "1432484184",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
+    "crawl_review_reason_code": "former_franchise_hub_discontinued",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://xphobia.net/"
+    ]
+  },
+  {
+    "cafe_id": "997297045",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
+    "crawl_review_reason_code": "former_franchise_hub_discontinued",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://xphobia.net/"
+    ]
+  },
+  {
+    "cafe_id": "1183396756",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
+    "crawl_review_reason_code": "former_franchise_hub_discontinued",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://xphobia.net/"
+    ]
+  },
+  {
+    "cafe_id": "1647497159",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
+    "crawl_review_reason_code": "former_franchise_hub_discontinued",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://xphobia.net/"
+    ]
+  },
+  {
+    "cafe_id": "8143798",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "노량진 bno57 경로는 예약 가능 판정에 사용하지 않음. 현행 공식 매장·예약 URL 확인 필요; 노원점 등 유사 지점으로 대체 금지.",
+    "crawl_review_reason_code": "former_branch_route_no_readable_schedule",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://sherlock-holmes.co.kr/branch/",
+      "https://sherlock-holmes.co.kr/branch/view.php?bno=57&s_no=&s_sido=",
+      "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation"
+    ]
+  },
+  {
+    "cafe_id": "1396409942",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "소개 페이지 존재와 실제 예약 제공을 분리. 테마0/공통 소개를 폐업이나 가용 슬롯으로 변환하지 않음. 동일 주소 현행 예약처나 공개 지점 시간표 필요.",
+    "crawl_review_reason_code": "official_reservation_link_present_no_branch_schedule",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://sherlock-holmes.co.kr/branch/view.php?bno=62&s_no=&s_sido=",
+      "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation"
+    ]
+  },
+  {
+    "cafe_id": "115701517",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "기본 S2 시간표를 인계시티에 매핑하지 않음. 인계시티 현행 공식 운영/대체 예약 URL 필요.",
+    "crawl_review_reason_code": "current_tabs_exclude_target_branch",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "http://www.signescape.com/sub/sub03_1.html",
+      "http://www.signescape.com/sub/sub04.html?jijem=S1"
+    ]
+  },
+  {
+    "cafe_id": "2143447304",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "기존 DM 안내는 입력 보고서의 과거 관측으로만 유지. 이번에 현행 공식 운영 근거로 재사용하지 않음. 목척2길45 매장의 공식 계정/공개 예약 URL 필요. 공식 계정 특정 검색에서 검증 가능한 결과 미확보; DM/로그인 접근 안 함.",
+    "crawl_review_reason_code": "no_new_official_public_route_verified",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": []
+  },
+  {
+    "cafe_id": "660859780",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "온라인 시간표 수집 보류; 공사 중과 폐업을 구분. 공식 온라인 예약 시스템 재개 공지가 나오면 재검증. 전화나 메시지는 수행하지 않음.",
+    "crawl_review_reason_code": "telephone_only_system_under_construction",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "http://alcatraz.co.kr/"
+    ]
+  },
+  {
+    "cafe_id": "300855776",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "알림 신청 폼을 예약 경로/예약 가능으로 분류하지 않음. 공식 재오픈 일정과 예약 시간표 공개 후 재검증.",
+    "crawl_review_reason_code": "reopen_notification_only",
+    "crawl_reviewed_at": "2026-11-22",
+    "operation_status": "unconfirmed",
+    "verification_sources": [
+      "https://www.todayescape.com/"
+    ]
+  }
+]

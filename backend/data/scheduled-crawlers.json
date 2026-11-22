@@ -8,6 +8,10 @@
     "cafe_id": "230738333"
   },
   {
+    "script": "sync_chaosesc_db",
+    "cafe_id": "431508316"
+  },
+  {
     "script": "sync_clevertown_db",
     "cafe_id": "949587061"
   },
@@ -258,6 +262,10 @@
   {
     "cafe_id": "215947527",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "2200000001"
   },
   {
     "cafe_id": "27575809",

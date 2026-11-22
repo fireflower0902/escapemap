@@ -1,0 +1,27 @@
+{
+  "url": "https://escapemap.reviewhyun.workers.dev/api/search?date=2026-11-28&area=all",
+  "total": 397,
+  "cafes": [
+    {
+      "id": "727312827",
+      "name": "미스터리룸이스케이프",
+      "themes": 4,
+      "slots": 39,
+      "crawled": true
+    },
+    {
+      "id": "2200000001",
+      "name": "셜록홈즈",
+      "themes": 2,
+      "slots": 14,
+      "crawled": true
+    },
+    {
+      "id": "431508316",
+      "name": "카오스이스케이프",
+      "themes": 6,
+      "slots": 60,
+      "crawled": true
+    }
+  ]
+}

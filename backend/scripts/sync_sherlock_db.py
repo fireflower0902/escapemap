@@ -179,7 +179,7 @@ BRANCHES: list[dict] = [
         "cafe_id":     "1396409942",
         "cafe_name":   "셜록홈즈",
         "branch_name": "분당야탑점",
-        "address":     "경기 성남시 분당구 야탑동 353-3 3층",
+        "address":     "경기 성남시 분당구 양현로310번길 25 2층 202호",
         "area":        "gyeonggi",
         "sido":        9,
         "bno":         62,

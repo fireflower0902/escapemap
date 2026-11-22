@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1331705130",
+    "name": "레드런",
+    "branch_name": "천호점",
+    "address": "서울 강동구 천호대로157길 17",
+    "area": "jamsil",
+    "is_active": true,
+    "engine": null,
+    "website_url": "https://naver.me/xbjXQceE",
+    "metadata": "{\"id\": \"1331705130\", \"lat\": 37.5385998135392, \"lng\": 127.127034504748, \"area\": \"jamsil\", \"name\": \"레드런\", \"phone\": \"010-5723-4546\", \"engine\": null, \"address\": \"서울 강동구 천호대로157길 17\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"천호점\", \"website_url\": \"https://naver.me/xbjXQceE\", \"supported_area\": true}"
+  },
+  {
+    "id": "1516889516",
+    "name": "방탈출 뉴케이스",
+    "branch_name": null,
+    "address": "서울 광진구 아차산로 191",
+    "area": "konkuk",
+    "is_active": true,
+    "engine": null,
+    "website_url": "http://place.map.kakao.com/1516889516",
+    "metadata": "{\"id\": \"1516889516\", \"lat\": 37.542047842624, \"lng\": 127.065145631576, \"area\": \"konkuk\", \"name\": \"방탈출 뉴케이스\", \"phone\": \"02-498-1999\", \"engine\": null, \"address\": \"서울 광진구 아차산로 191\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"http://place.map.kakao.com/1516889516\", \"supported_area\": false, \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-21T21:57:32.347040+09:00\", \"crawl_pause_reason\": \"서울 광진구 아차산로191은 이미 정기 수집 중인 official_xcape_nc(뉴케이스 건대3호점)와 일치. 별도 중복 수집 추가 없이 레코드 통합 검토 대상.\", \"crawl_review_reason_code\": \"duplicate_record\"}"
+  },
+  {
+    "id": "1551717206",
+    "name": "강남점",
+    "branch_name": null,
+    "address": "서울 강남구 봉은사로2길 16, 현도빌딩, B1",
+    "area": "gangnam",
+    "is_active": true,
+    "engine": "xcape",
+    "website_url": "https://xcape.co.kr",
+    "metadata": "{\"id\": \"1551717206\", \"lat\": null, \"lng\": null, \"area\": \"gangnam\", \"name\": \"강남점\", \"phone\": \"02-555-9366\", \"engine\": \"xcape\", \"address\": \"서울 강남구 봉은사로2길 16, 현도빌딩, B1\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": true}"
+  },
+  {
+    "id": "1599918263",
+    "name": "수원점",
+    "branch_name": null,
+    "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
+    "area": "gyeonggi",
+    "is_active": true,
+    "engine": "xcape",
+    "website_url": "https://xcape.co.kr",
+    "metadata": "{\"id\": \"1599918263\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"수원점\", \"phone\": \"031-234-3350\", \"engine\": \"xcape\", \"address\": \"경기 수원시 팔달구 효원로265번길 40, 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": false}"
+  },
+  {
+    "id": "1825220691",
+    "name": "스피키지",
+    "branch_name": null,
+    "address": "서울 마포구 어울마당로 138 4층",
+    "area": "hongdae",
+    "is_active": true,
+    "engine": "sinbiweb",
+    "website_url": "https://speakeasyescape.co.kr/",
+    "metadata": "{\"id\": \"1825220691\", \"lat\": null, \"lng\": null, \"area\": \"hongdae\", \"name\": \"스피키지\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"서울 마포구 어울마당로 138 4층\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://speakeasyescape.co.kr/\", \"supported_area\": true}"
+  },
+  {
+    "id": "27354377",
+    "name": "건대점",
+    "branch_name": null,
+    "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
+    "area": "konkuk",
+    "is_active": true,
+    "engine": "xcape",
+    "website_url": "https://xcape.co.kr",
+    "metadata": "{\"id\": \"27354377\", \"lat\": null, \"lng\": null, \"area\": \"konkuk\", \"name\": \"건대점\", \"phone\": \"02-463-9366\", \"engine\": \"xcape\", \"address\": \"서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": true}"
+  },
+  {
+    "id": "361428621",
+    "name": "건대2호",
+    "branch_name": null,
+    "address": "서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페",
+    "area": "konkuk",
+    "is_active": true,
+    "engine": "xcape",
+    "website_url": "https://xcape.co.kr",
+    "metadata": "{\"id\": \"361428621\", \"lat\": null, \"lng\": null, \"area\": \"konkuk\", \"name\": \"건대2호\", \"phone\": \"02-464-8788\", \"engine\": \"xcape\", \"address\": \"서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페\", \"crawled\": true, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://xcape.co.kr\", \"supported_area\": true}"
+  },
+  {
+    "id": "367178846",
+    "name": "스키피지",
+    "branch_name": null,
+    "address": "서울 마포구 와우산로 103",
+    "area": "hongdae",
+    "is_active": true,
+    "engine": null,
+    "website_url": "https://speakeasyescape.co.kr/",
+    "metadata": "{\"id\": \"367178846\", \"lat\": 37.5533585557131, \"lng\": 126.925028143004, \"area\": \"hongdae\", \"name\": \"스키피지\", \"phone\": \"02-332-3228\", \"engine\": null, \"address\": \"서울 마포구 와우산로 103\", \"crawled\": false, \"is_active\": true, \"branch_name\": null, \"website_url\": \"https://speakeasyescape.co.kr/\", \"supported_area\": true}"
+  },
+  {
+    "id": "727312827",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "홍대2호점",
+    "address": "서울 마포구 독막로7길 41",
+    "area": "hongdae",
+    "is_active": true,
+    "engine": null,
+    "website_url": "http://www.mysteryroomescape.com/",
+    "metadata": "{\"id\": \"727312827\", \"lat\": 37.54964549757982, \"lng\": 126.91948566716717, \"area\": \"hongdae\", \"name\": \"미스터리룸이스케이프\", \"phone\": \"02-336-9010\", \"engine\": null, \"address\": \"서울 마포구 독막로7길 41\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"홍대2호점\", \"website_url\": \"http://www.mysteryroomescape.com/\", \"supported_area\": true}"
+  },
+  {
+    "id": "77278349",
+    "name": "레드런",
+    "branch_name": "천안점",
+    "address": "충남 천안시 서북구 원두정8길 16",
+    "area": "chungnam",
+    "is_active": true,
+    "engine": null,
+    "website_url": "http://place.map.kakao.com/77278349",
+    "metadata": "{\"id\": \"77278349\", \"lat\": 36.832398440128, \"lng\": 127.135015671934, \"area\": \"chungnam\", \"name\": \"레드런\", \"phone\": \"010-6739-2566\", \"engine\": null, \"address\": \"충남 천안시 서북구 원두정8길 16\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"천안점\", \"website_url\": \"http://place.map.kakao.com/77278349\", \"supported_area\": false}"
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "cafe_id": "680681357",
+    "previous_name": "더코드",
+    "http_status": 200,
+    "name": "더코드",
+    "status": "Y",
+    "address": {
+      "disp": "전남광주통합특별시 서구 시청로60번길 10 금성빌딩 4-5층 (치평동)",
+      "jibun": "치평동 1230-2",
+      "road": "전남광주통합특별시 서구 시청로60번길 10 금성빌딩 4-5층",
+      "base_zone_no": "61948",
+      "road_part": "시청로60번길 10 금성빌딩 4-5층",
+      "jibun_part": "치평동 1230-2",
+      "address_detail_part": "금성빌딩 4-5층"
+    },
+    "updated_at": "2026-09-01 09:09:41",
+    "phone_numbers": [
+      {
+        "tel": "062-383-8823"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1772504569",
+    "previous_name": "리버스이스케이프",
+    "http_status": 200,
+    "name": "리버스이스케이프 안산점",
+    "status": "Y",
+    "address": {
+      "disp": "경기 안산시 단원구 고잔1길 37 송원빌딩 6층 606호 (고잔동)",
+      "jibun": "고잔동 539-19",
+      "road": "경기 안산시 단원구 고잔1길 37 송원빌딩 6층 606호",
+      "base_zone_no": "15361",
+      "road_part": "고잔1길 37 송원빌딩 6층 606호",
+      "jibun_part": "고잔동 539-19",
+      "address_detail_part": "송원빌딩 6층 606호"
+    },
+    "updated_at": "2026-09-01 11:30:50",
+    "phone_numbers": [
+      {
+        "tel": "031-405-1476"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1231888375",
+    "previous_name": "리버스이스케이프",
+    "http_status": 200,
+    "name": "리버스이스케이프",
+    "status": "Y",
+    "address": {
+      "disp": "경기 화성시 만세구 향남읍 상신하길로298번길 7-21 3층 308호 (향남읍 하길리)",
+      "jibun": "향남읍 하길리 1470-2",
+      "road": "경기 화성시 만세구 향남읍 상신하길로298번길 7-21 3층 308호",
+      "base_zone_no": "18611",
+      "road_part": "상신하길로298번길 7-21 3층 308호",
+      "jibun_part": "향남읍 하길리 1470-2",
+      "address_detail_part": "3층 308호"
+    },
+    "updated_at": "2026-09-09 01:57:02",
+    "phone_numbers": [],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "27369058",
+    "previous_name": "리얼이스케이프챌린지",
+    "http_status": 200,
+    "name": "리얼이스케이프챌린지",
+    "status": "Y",
+    "address": {
+      "disp": "서울 마포구 와우산로27길 21 4층 (서교동)",
+      "jibun": "서교동 339-5",
+      "road": "서울 마포구 와우산로27길 21 4층",
+      "base_zone_no": "04054",
+      "road_part": "와우산로27길 21 4층",
+      "jibun_part": "서교동 339-5",
+      "address_detail_part": "4층"
+    },
+    "updated_at": "2026-09-08 21:38:12",
+    "phone_numbers": [
+      {
+        "tel": "02-333-3882"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "431508316",
+    "previous_name": "카오스이스케이프",
+    "http_status": 200,
+    "name": "카오스이스케이프",
+    "status": "Y",
+    "address": {
+      "disp": "전북특별자치도 전주시 덕진구 명륜5길 10-2 (덕진동1가)",
+      "jibun": "덕진동1가 1262-2",
+      "road": "전북특별자치도 전주시 덕진구 명륜5길 10-2",
+      "base_zone_no": "54898",
+      "road_part": "명륜5길 10-2",
+      "jibun_part": "덕진동1가 1262-2"
+    },
+    "updated_at": "2024-12-19 13:47:53",
+    "phone_numbers": [
+      {
+        "tel": "063-252-2891"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "442981346",
+    "previous_name": "다락방",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "911063716",
+    "previous_name": "더트랩",
+    "http_status": 200,
+    "name": "더트랩 수유점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 강북구 도봉로 363 구봉빌딩 4층 (수유동)",
+      "jibun": "수유동 174-14",
+      "road": "서울 강북구 도봉로 363 구봉빌딩 4층",
+      "base_zone_no": "01054",
+      "road_part": "도봉로 363 구봉빌딩 4층",
+      "jibun_part": "수유동 174-14",
+      "address_detail_part": "구봉빌딩 4층"
+    },
+    "updated_at": "2026-09-09 00:50:19",
+    "phone_numbers": [
+      {
+        "tel": "02-6224-7776"
+      },
+      {
+        "tel": "02-6224-7774",
+        "type": "FAX"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "225341934",
+    "previous_name": "라스트이스케이프",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "27367643",
+    "previous_name": "미스터리룸이스케이프",
+    "http_status": 200,
+    "name": "미스터리룸 이스케이프 강남점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 서초구 서초대로77길 37 5층 501호 (서초동)",
+      "jibun": "서초동 1308-10",
+      "road": "서울 서초구 서초대로77길 37 5층 501호",
+      "base_zone_no": "06612",
+      "road_part": "서초대로77길 37 5층 501호",
+      "jibun_part": "서초동 1308-10",
+      "address_detail_part": "5층 501호"
+    },
+    "updated_at": "2026-09-01 09:22:03",
+    "phone_numbers": [
+      {
+        "tel": "02-536-2564"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "727312827",
+    "previous_name": "미스터리룸이스케이프",
+    "http_status": 200,
+    "name": "미스터리룸이스케이프 홍대2호점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 마포구 독막로7길 41 2층 (서교동)",
+      "jibun": "서교동 398-1",
+      "road": "서울 마포구 독막로7길 41 2층",
+      "base_zone_no": "04047",
+      "road_part": "독막로7길 41 2층",
+      "jibun_part": "서교동 398-1",
+      "address_detail_part": "2층"
+    },
+    "updated_at": "2026-11-09 16:11:02",
+    "phone_numbers": [
+      {
+        "tel": "02-336-9010"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@미스터리룸이스케이프홍대2호점",
+        "channel_home_web_link": "http://pf.kakao.com/_Bxhxdxan",
+        "name": "미스터리룸이스케이프홍대2호점",
+        "img_url": "https://k.kakaocdn.net/dn/vXEp6/btsOhDg50DV/kdRVCAPvPiYLp5BKWYvW80/img_s.jpg",
+        "friend_count": 4,
+        "status_message": "안녕하세요. 미스터리룸홍대2호점입니다.\n네이버 예약을 이용해주세요:)",
+        "id": 428650976
+      }
+    }
+  },
+  {
+    "cafe_id": "1254330051",
+    "previous_name": "방탈출브이",
+    "http_status": 200,
+    "name": "방탈출브이 공평점",
+    "status": "Y",
+    "address": {
+      "disp": "대구 중구 동성로3길 68 상용빌딩 3층 (공평동)",
+      "jibun": "공평동 62-11",
+      "road": "대구 중구 동성로3길 68 상용빌딩 3층",
+      "base_zone_no": "41941",
+      "road_part": "동성로3길 68 상용빌딩 3층",
+      "jibun_part": "공평동 62-11",
+      "address_detail_part": "상용빌딩 3층"
+    },
+    "updated_at": "2026-09-07 09:29:38",
+    "phone_numbers": [
+      {
+        "tel": "1811-9467"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "858962026",
+    "previous_name": "방탈출브이",
+    "http_status": 200,
+    "name": "방탈출브이 삼덕점",
+    "status": "Y",
+    "address": {
+      "disp": "대구 중구 동성로5길 50 어라운드101 3층 (삼덕동1가)",
+      "jibun": "삼덕동1가 17-16",
+      "road": "대구 중구 동성로5길 50 어라운드101 3층",
+      "base_zone_no": "41942",
+      "road_part": "동성로5길 50 어라운드101 3층",
+      "jibun_part": "삼덕동1가 17-16",
+      "address_detail_part": "어라운드101 3층"
+    },
+    "updated_at": "2026-09-07 09:19:31",
+    "phone_numbers": [
+      {
+        "tel": "053-424-3386"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "255097329",
+    "previous_name": "방탈출카페 일상탈출",
+    "http_status": 200,
+    "name": "방탈출카페 일상탈출 안양일번가점",
+    "status": "Y",
+    "address": {
+      "disp": "경기 안양시 만안구 장내로149번길 49 3층 (안양동)",
+      "jibun": "안양동 674-83",
+      "road": "경기 안양시 만안구 장내로149번길 49 3층",
+      "base_zone_no": "13992",
+      "road_part": "장내로149번길 49 3층",
+      "jibun_part": "안양동 674-83",
+      "address_detail_part": "3층"
+    },
+    "updated_at": "2025-11-12 17:20:49",
+    "phone_numbers": [
+      {
+        "tel": "031-441-0612"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "plus_friends_link": "http://pf.kakao.com/_Pnxhnxb/chat?t_src=kakaomap",
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@안양마스터키",
+        "channel_home_web_link": "http://pf.kakao.com/_Pnxhnxb",
+        "name": "방탈출카페 일상탈출 안양일번가점",
+        "img_url": "https://k.kakaocdn.net/dn/cgQYn9/dJMcaboZAV2/Mv4Do3Dl8ku8DcIDQjGrGk/img_s.jpg",
+        "friend_count": 9,
+        "status_message": "안양일번가 방탈출 카페",
+        "id": 325351004
+      }
+    }
+  },
+  {
+    "cafe_id": "1495650283",
+    "previous_name": "브레이크아웃 광안",
+    "http_status": 200,
+    "name": "브레이크아웃 광안",
+    "status": "Y",
+    "address": {
+      "disp": "부산 수영구 남천바다로33번길 47 마린빌딩 2층 (광안동)",
+      "jibun": "광안동 199-6",
+      "road": "부산 수영구 남천바다로33번길 47 마린빌딩 2층",
+      "base_zone_no": "48303",
+      "road_part": "남천바다로33번길 47 마린빌딩 2층",
+      "jibun_part": "광안동 199-6",
+      "address_detail_part": "마린빌딩 2층"
+    },
+    "updated_at": "2026-11-18 16:11:12",
+    "phone_numbers": [
+      {
+        "tel": "0507-1449-9104"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@브레이크아웃광안",
+        "channel_home_web_link": "http://pf.kakao.com/_gGfxan",
+        "name": "브레이크아웃광안",
+        "img_url": "https://k.kakaocdn.net/dn/bvS7Vx/btrt0LOO9QD/wcXGkLgujOk1TYKiSCWqHK/img_s.jpg",
+        "friend_count": 1,
+        "status_message": "",
+        "id": 428729918
+      }
+    }
+  },
+  {
+    "cafe_id": "280887856",
+    "previous_name": "시크릿코드",
+    "http_status": 200,
+    "name": "시크릿코드 방탈출카페 홍대직영점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 마포구 어울마당로 144 3층 (서교동)",
+      "jibun": "서교동 331-18",
+      "road": "서울 마포구 어울마당로 144 3층",
+      "base_zone_no": "04053",
+      "road_part": "어울마당로 144 3층",
+      "jibun_part": "서교동 331-18",
+      "address_detail_part": "3층"
+    },
+    "updated_at": "2026-10-29 08:37:45",
+    "phone_numbers": [
+      {
+        "tel": "010-2185-6541"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "166623372",
+    "previous_name": "언리미티드 이스케이프",
+    "http_status": 200,
+    "name": "언리미티드 이스케이프",
+    "status": "Y",
+    "address": {
+      "disp": "제주특별자치도 제주시 고마로 100 2층 (일도이동)",
+      "jibun": "일도이동 392-5",
+      "road": "제주특별자치도 제주시 고마로 100 2층",
+      "base_zone_no": "63275",
+      "road_part": "고마로 100 2층",
+      "jibun_part": "일도이동 392-5",
+      "address_detail_part": "2층"
+    },
+    "updated_at": "2026-09-01 00:48:21",
+    "phone_numbers": [
+      {
+        "tel": "064-753-9989"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "2000674643",
+    "previous_name": "위드방탈출카페",
+    "http_status": 200,
+    "name": "위드방탈출카페",
+    "status": "Y",
+    "address": {
+      "disp": "서울 서대문구 연세로 20 지하1층 (창천동)",
+      "jibun": "창천동 9-20",
+      "road": "서울 서대문구 연세로 20 지하1층",
+      "base_zone_no": "03776",
+      "road_part": "연세로 20 지하1층",
+      "jibun_part": "창천동 9-20",
+      "address_detail_part": "지하1층"
+    },
+    "updated_at": "2026-08-21 09:23:22",
+    "phone_numbers": [
+      {
+        "tel": "02-312-8944"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "890251040",
+    "previous_name": "제로월드",
+    "http_status": 200,
+    "name": "제로월드 롯데월드점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 송파구 올림픽로 240 3층 (잠실동)",
+      "jibun": "잠실동 40-1",
+      "road": "서울 송파구 올림픽로 240 3층",
+      "base_zone_no": "05554",
+      "road_part": "올림픽로 240 3층",
+      "jibun_part": "잠실동 40-1",
+      "address_detail_part": "3층"
+    },
+    "updated_at": "2026-09-07 09:32:52",
+    "phone_numbers": [
+      {
+        "tel": "02-411-4769"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1757443413",
+    "previous_name": "코난방탈출",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "123477337",
+    "previous_name": "파라박스",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "79137052",
+    "previous_name": "페르소나",
+    "http_status": 200,
+    "name": "페르소나",
+    "status": "Y",
+    "address": {
+      "disp": "전남광주통합특별시 동구 문화전당로35번길 2 1층 (광산동)",
+      "jibun": "광산동 69-3",
+      "road": "전남광주통합특별시 동구 문화전당로35번길 2 1층",
+      "base_zone_no": "61487",
+      "road_part": "문화전당로35번길 2 1층",
+      "jibun_part": "광산동 69-3",
+      "address_detail_part": "1층"
+    },
+    "updated_at": "2026-07-02 04:10:15",
+    "phone_numbers": [],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1252080396",
+    "previous_name": "할리갈리인더룸방탈출시즌2",
+    "http_status": 200,
+    "name": "할리갈리인더룸방탈출시즌2",
+    "status": "Y",
+    "address": {
+      "disp": "경기 고양시 일산동구 무궁화로 20-11 라페스타 F동 3층 302호 (장항동)",
+      "jibun": "장항동 761",
+      "road": "경기 고양시 일산동구 무궁화로 20-11 라페스타 F동 3층 302호",
+      "base_zone_no": "10401",
+      "road_part": "무궁화로 20-11 라페스타 F동 3층 302호",
+      "jibun_part": "장항동 761",
+      "address_detail_part": "라페스타 F동 3층 302호"
+    },
+    "updated_at": "2026-09-01 00:45:39",
+    "phone_numbers": [
+      {
+        "tel": "031-902-9242"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@할리갈리인더룸방탈출시즌2",
+        "channel_home_web_link": "http://pf.kakao.com/_xmxegSn",
+        "name": "할리갈리인더룸방탈출시즌2",
+        "img_url": "https://k.kakaocdn.net/dn/eAipvD/btsOfqjqN79/BjFQObA4A3XgqjpypTkgK1/img_s.jpg",
+        "friend_count": 0,
+        "status_message": "전세계 유일한 디오라마 40분간 몰입감 있는 시나리오로 새로운 방탈출을 경험하실수있습니다!",
+        "id": 428600047
+      }
+    }
+  }
+]

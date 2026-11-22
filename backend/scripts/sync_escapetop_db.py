@@ -292,7 +292,7 @@ BRANCHES = [
         "business_type_id": 12,
         "branch_name":      "고양점",
         "name":             "오늘탈출",
-        "address":          "경기 고양시",
+        "address":          "경기 고양시 일산동구 강송로74번길 8-18 지하1층",
         "area":             "gyeonggi",
         "site_url":         "https://www.todayescape.com",
     },

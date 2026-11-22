@@ -1,0 +1,435 @@
+[
+  {
+    "cafe_id": "1968639091",
+    "previous_name": "레전드이스케이프",
+    "http_status": 200,
+    "name": "레전드이스케이프 서현점",
+    "status": "Y",
+    "address": {
+      "disp": "경기 성남시 분당구 서현로210번길 20 지하1층 (서현동)",
+      "jibun": "서현동 248-5",
+      "road": "경기 성남시 분당구 서현로210번길 20 지하1층",
+      "base_zone_no": "13591",
+      "road_part": "서현로210번길 20 지하1층",
+      "jibun_part": "서현동 248-5",
+      "address_detail_part": "지하1층"
+    },
+    "updated_at": "2025-12-01 07:27:28",
+    "phone_numbers": [
+      {
+        "tel": "031-707-7704"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1432484184",
+    "previous_name": "비트포비아",
+    "http_status": 200,
+    "name": "비트포비아 대학로점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 종로구 대학로10길 12 5층 (동숭동)",
+      "jibun": "동숭동 1-113",
+      "road": "서울 종로구 대학로10길 12 5층",
+      "base_zone_no": "03086",
+      "road_part": "대학로10길 12 5층",
+      "jibun_part": "동숭동 1-113",
+      "address_detail_part": "5층"
+    },
+    "updated_at": "2026-11-04 09:09:54",
+    "phone_numbers": [
+      {
+        "tel": "02-742-5252"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "997297045",
+    "previous_name": "비트포비아",
+    "http_status": 200,
+    "name": "비트포비아 동성로점",
+    "status": "Y",
+    "address": {
+      "disp": "대구 중구 동성로6길 33 3~4층 (공평동)",
+      "jibun": "공평동 55-15",
+      "road": "대구 중구 동성로6길 33 3~4층",
+      "base_zone_no": "41938",
+      "road_part": "동성로6길 33 3~4층",
+      "jibun_part": "공평동 55-15",
+      "address_detail_part": "3~4층"
+    },
+    "updated_at": "2026-04-21 17:07:51",
+    "phone_numbers": [
+      {
+        "tel": "070-5102-4760"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1183396756",
+    "previous_name": "비트포비아",
+    "http_status": 200,
+    "name": "비트포비아 명동점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 중구 명동10길 13 4층 (명동2가)",
+      "jibun": "명동2가 3-7",
+      "road": "서울 중구 명동10길 13 4층",
+      "base_zone_no": "04537",
+      "road_part": "명동10길 13 4층",
+      "jibun_part": "명동2가 3-7",
+      "address_detail_part": "4층"
+    },
+    "updated_at": "2026-10-27 08:43:51",
+    "phone_numbers": [
+      {
+        "tel": "02-3789-8094"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1647497159",
+    "previous_name": "비트포비아",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "8143798",
+    "previous_name": "셜록홈즈",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "2200000001",
+    "previous_name": "셜록홈즈",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "1396409942",
+    "previous_name": "셜록홈즈",
+    "http_status": 200,
+    "name": "셜록홈즈 분당야탑점",
+    "status": "Y",
+    "address": {
+      "disp": "경기 성남시 분당구 양현로310번길 25 2층 202호 (야탑동)",
+      "jibun": "야탑동 353-3",
+      "road": "경기 성남시 분당구 양현로310번길 25 2층 202호",
+      "base_zone_no": "13497",
+      "road_part": "양현로310번길 25 2층 202호",
+      "jibun_part": "야탑동 353-3",
+      "address_detail_part": "2층 202호"
+    },
+    "updated_at": "2026-09-09 02:29:26",
+    "phone_numbers": [
+      {
+        "tel": "031-706-3600"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "115701517",
+    "previous_name": "싸인이스케이프",
+    "http_status": 404
+  },
+  {
+    "cafe_id": "2143447304",
+    "previous_name": "안흥여관",
+    "http_status": 200,
+    "name": "안흥여관",
+    "status": "Y",
+    "address": {
+      "disp": "대전 중구 목척2길 45 (은행동)",
+      "jibun": "은행동 122",
+      "road": "대전 중구 목척2길 45",
+      "base_zone_no": "34832",
+      "road_part": "목척2길 45",
+      "jibun_part": "은행동 122"
+    },
+    "updated_at": "2026-08-31 23:55:35",
+    "phone_numbers": [],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "660859780",
+    "previous_name": "알카트래즈방탈출카페",
+    "http_status": 200,
+    "name": "알카트래즈방탈출카페",
+    "status": "Y",
+    "address": {
+      "disp": "서울 중구 명동길 38 8층 (명동2가)",
+      "jibun": "명동2가 50-4",
+      "road": "서울 중구 명동길 38 8층",
+      "base_zone_no": "04536",
+      "road_part": "명동길 38 8층",
+      "jibun_part": "명동2가 50-4",
+      "address_detail_part": "8층"
+    },
+    "updated_at": "2026-10-01 23:39:02",
+    "phone_numbers": [
+      {
+        "tel": "02-319-7316"
+      },
+      {
+        "tel": "010-8774-8188"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@알카트래즈방탈출카페",
+        "channel_home_web_link": "http://pf.kakao.com/_FxovSn",
+        "name": "알카트래즈방탈출카페",
+        "img_url": "https://k.kakaocdn.net/dn/NEs3h/btsOe5Gu1T4/a27CCK8Eq0TlBREFEq00j0/img_s.jpg",
+        "friend_count": 4,
+        "status_message": "아웃도어 브랜드 '아이더' 매장안으로 들어오시면 엘리베이터가 있습니다.",
+        "id": 428531688
+      }
+    }
+  },
+  {
+    "cafe_id": "300855776",
+    "previous_name": "오늘탈출",
+    "http_status": 200,
+    "name": "오늘 탈출",
+    "status": "Y",
+    "address": {
+      "disp": "경기 고양시 일산동구 강송로74번길 8-18 (백석동)",
+      "jibun": "백석동 1181-6",
+      "road": "경기 고양시 일산동구 강송로74번길 8-18",
+      "base_zone_no": "10445",
+      "road_part": "강송로74번길 8-18",
+      "jibun_part": "백석동 1181-6"
+    },
+    "updated_at": "2026-09-15 11:04:00",
+    "phone_numbers": [
+      {
+        "tel": "010-9253-6844"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1551717206",
+    "previous_name": "강남점",
+    "http_status": 200,
+    "name": "엑스케이프 강남점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 강남구 봉은사로2길 16 현도빌딩 지하1층 (역삼동)",
+      "jibun": "역삼동 809-6",
+      "road": "서울 강남구 봉은사로2길 16 현도빌딩 지하1층",
+      "base_zone_no": "06123",
+      "road_part": "봉은사로2길 16 현도빌딩 지하1층",
+      "jibun_part": "역삼동 809-6",
+      "address_detail_part": "현도빌딩 지하1층"
+    },
+    "updated_at": "2026-09-01 09:33:31",
+    "phone_numbers": [
+      {
+        "tel": "02-555-9366"
+      }
+    ],
+    "category": "테마카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "361428621",
+    "previous_name": "건대2호",
+    "http_status": 200,
+    "name": "엑스크라임 건대2호점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 광진구 아차산로29길 38 지하1층 (화양동)",
+      "jibun": "화양동 9-47",
+      "road": "서울 광진구 아차산로29길 38 지하1층",
+      "base_zone_no": "05018",
+      "road_part": "아차산로29길 38 지하1층",
+      "jibun_part": "화양동 9-47",
+      "address_detail_part": "지하1층"
+    },
+    "updated_at": "2026-09-01 00:30:00",
+    "phone_numbers": [
+      {
+        "tel": "02-464-8788"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "27354377",
+    "previous_name": "건대점",
+    "http_status": 200,
+    "name": "엑스케이프",
+    "status": "Y",
+    "address": {
+      "disp": "서울 광진구 동일로 112 지하1층 (화양동)",
+      "jibun": "화양동 50-2",
+      "road": "서울 광진구 동일로 112 지하1층",
+      "base_zone_no": "05020",
+      "road_part": "동일로 112 지하1층",
+      "jibun_part": "화양동 50-2",
+      "address_detail_part": "지하1층"
+    },
+    "updated_at": "2026-09-01 09:49:24",
+    "phone_numbers": [
+      {
+        "tel": "02-463-9366"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "77278349",
+    "previous_name": "레드런",
+    "http_status": 200,
+    "name": "레드런 천안점",
+    "status": "Y",
+    "address": {
+      "disp": "충남 천안시 서북구 원두정8길 16 2층 (두정동)",
+      "jibun": "두정동 889",
+      "road": "충남 천안시 서북구 원두정8길 16 2층",
+      "base_zone_no": "31107",
+      "road_part": "원두정8길 16 2층",
+      "jibun_part": "두정동 889",
+      "address_detail_part": "2층"
+    },
+    "updated_at": "2026-09-01 03:12:42",
+    "phone_numbers": [
+      {
+        "tel": "010-6739-2566"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@redrun_cheonan",
+        "channel_home_web_link": "http://pf.kakao.com/_UELUn",
+        "name": "레드런 천안점",
+        "img_url": "https://k.kakaocdn.net/dn/bvS7Vx/btrt0LOO9QD/wcXGkLgujOk1TYKiSCWqHK/img_s.jpg",
+        "friend_count": 0,
+        "status_message": "",
+        "id": 432751154
+      }
+    }
+  },
+  {
+    "cafe_id": "1331705130",
+    "previous_name": "레드런",
+    "http_status": 200,
+    "name": "레드런 천호점",
+    "status": "Y",
+    "address": {
+      "disp": "서울 강동구 천호대로157길 17 지하1층 (천호동)",
+      "jibun": "천호동 454-64",
+      "road": "서울 강동구 천호대로157길 17 지하1층",
+      "base_zone_no": "05329",
+      "road_part": "천호대로157길 17 지하1층",
+      "jibun_part": "천호동 454-64",
+      "address_detail_part": "지하1층"
+    },
+    "updated_at": "2026-09-01 09:33:04",
+    "phone_numbers": [
+      {
+        "tel": "010-5723-4546"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {
+      "talk_channel": {
+        "is_subscriber": false,
+        "channel_home_scheme_link": "kakaoplus://plusfriend/home/@레드런천호점",
+        "channel_home_web_link": "http://pf.kakao.com/_dMxktn",
+        "name": "레드런 천호점",
+        "img_url": "https://k.kakaocdn.net/dn/bvS7Vx/btrt0LOO9QD/wcXGkLgujOk1TYKiSCWqHK/img_s.jpg",
+        "friend_count": 0,
+        "status_message": "",
+        "id": 433550094
+      }
+    }
+  },
+  {
+    "cafe_id": "1516889516",
+    "previous_name": "방탈출 뉴케이스",
+    "http_status": 200,
+    "name": "방탈출 뉴케이스",
+    "status": "Y",
+    "address": {
+      "disp": "서울 광진구 아차산로 191 (화양동)",
+      "jibun": "화양동 49-9",
+      "road": "서울 광진구 아차산로 191",
+      "base_zone_no": "05020",
+      "road_part": "아차산로 191",
+      "jibun_part": "화양동 49-9"
+    },
+    "updated_at": "2026-09-01 00:35:45",
+    "phone_numbers": [
+      {
+        "tel": "02-498-1999"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "1599918263",
+    "previous_name": "수원점",
+    "http_status": 200,
+    "name": "방탈출카페 엑스케이프 수원점",
+    "status": "Y",
+    "address": {
+      "disp": "경기 수원시 팔달구 효원로265번길 40 4층 (인계동)",
+      "jibun": "인계동 1113-9",
+      "road": "경기 수원시 팔달구 효원로265번길 40 4층",
+      "base_zone_no": "16490",
+      "road_part": "효원로265번길 40 4층",
+      "jibun_part": "인계동 1113-9",
+      "address_detail_part": "4층"
+    },
+    "updated_at": "2026-09-09 03:12:30",
+    "phone_numbers": [
+      {
+        "tel": "031-234-3350"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  },
+  {
+    "cafe_id": "367178846",
+    "previous_name": "스키피지",
+    "http_status": 200,
+    "name": "스키피지",
+    "status": "Y",
+    "address": {
+      "disp": "서울 마포구 와우산로 103 1층 (서교동)",
+      "jibun": "서교동 343-9",
+      "road": "서울 마포구 와우산로 103 1층",
+      "base_zone_no": "04054",
+      "road_part": "와우산로 103 1층",
+      "jibun_part": "서교동 343-9",
+      "address_detail_part": "1층"
+    },
+    "updated_at": "2024-05-27 09:33:49",
+    "phone_numbers": [
+      {
+        "tel": "02-332-3228"
+      }
+    ],
+    "category": "방탈출카페",
+    "contact_fields": {}
+  }
+]

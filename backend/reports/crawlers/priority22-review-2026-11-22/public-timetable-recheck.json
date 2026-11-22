@@ -1,0 +1,40 @@
+[
+  {
+    "url": "http://reverseesc.com/service/get_data",
+    "error": "ConnectionError"
+  },
+  {
+    "url": "http://chaosesc.co.kr/2019/bbs/board.php?bo_table=reservation&select=2026-11-22",
+    "status": 200,
+    "end_cells": 24,
+    "booking_links": [
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-22&mission=1&time=16:40",
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-22&mission=1&time=18:00",
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-22&mission=1&time=19:20",
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-22&mission=1&time=20:40"
+    ],
+    "has_json_content": false,
+    "count_explicit_time_links": 36
+  },
+  {
+    "url": "http://chaosesc.co.kr/2019/bbs/board.php?bo_table=reservation&select=2026-11-23",
+    "status": 200,
+    "end_cells": 60,
+    "booking_links": [],
+    "has_json_content": false,
+    "count_explicit_time_links": 0
+  },
+  {
+    "url": "http://chaosesc.co.kr/2019/bbs/board.php?bo_table=reservation&select=2026-11-28",
+    "status": 200,
+    "end_cells": 0,
+    "booking_links": [
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-28&mission=1&time=11:20",
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-28&mission=1&time=12:40",
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-28&mission=1&time=14:00",
+      "http://chaosesc.co.kr/2019/bbs/write.php?bo_table=reservation&select=2026-11-28&mission=1&time=15:20"
+    ],
+    "has_json_content": false,
+    "count_explicit_time_links": 60
+  }
+]

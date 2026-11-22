@@ -1,0 +1,62 @@
+[
+  {
+    "cafe_id": "1495650283",
+    "channel": "_gGfxan",
+    "http_status": 200,
+    "name": "브레이크아웃광안",
+    "site_url": null,
+    "status_message": null,
+    "local_cid": 1495650283,
+    "phone": "0507-1449-9104"
+  },
+  {
+    "cafe_id": "1252080396",
+    "channel": "_xmxegSn",
+    "http_status": 200,
+    "name": "할리갈리인더룸방탈출시즌2",
+    "site_url": "http://halligalli.co.kr",
+    "status_message": "전세계 유일한 디오라마 40분간 몰입감 있는 시나리오로 새로운 방탈출을 경험하실수있습니다!",
+    "local_cid": 1252080396,
+    "phone": "031-902-9242"
+  },
+  {
+    "cafe_id": "255097329",
+    "channel": "_Pnxhnxb",
+    "http_status": 200,
+    "name": "방탈출카페 일상탈출 안양일번가점",
+    "site_url": null,
+    "status_message": "안양일번가 방탈출 카페",
+    "local_cid": 255097329,
+    "phone": "0314410612"
+  },
+  {
+    "cafe_id": "660859780",
+    "channel": "_FxovSn",
+    "http_status": 200,
+    "name": "알카트래즈방탈출카페",
+    "site_url": "http://alcatraz.co.kr/",
+    "status_message": "아웃도어 브랜드 '아이더' 매장안으로 들어오시면 엘리베이터가 있습니다.",
+    "local_cid": 660859780,
+    "phone": "02-319-7316"
+  },
+  {
+    "cafe_id": "77278349",
+    "channel": "_UELUn",
+    "http_status": 200,
+    "name": "레드런 천안점",
+    "site_url": null,
+    "status_message": null,
+    "local_cid": 77278349,
+    "phone": null
+  },
+  {
+    "cafe_id": "1331705130",
+    "channel": "_dMxktn",
+    "http_status": 200,
+    "name": "레드런 천호점",
+    "site_url": null,
+    "status_message": null,
+    "local_cid": 1331705130,
+    "phone": null
+  }
+]

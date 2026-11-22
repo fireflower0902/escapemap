@@ -1,0 +1,25 @@
+{
+  "431508316": {
+    "engine": "chaosesc",
+    "website_url": "http://chaosesc.co.kr/2019/bbs/board.php?bo_table=reservation",
+    "booking_url": "http://chaosesc.co.kr/2019/bbs/board.php?bo_table=reservation",
+    "scheduler_paused": false,
+    "crawl_pause_reason": null,
+    "crawl_review_reason_code": "verified_public_booking",
+    "crawl_reviewed_at": "2026-11-22",
+    "crawler_status": "smoke_pass",
+    "schedule_coverage": "available_only"
+  },
+  "2200000001": {
+    "engine": "naver_booking",
+    "website_url": "https://booking.naver.com/booking/12/bizes/1033386",
+    "booking_url": "https://booking.naver.com/booking/12/bizes/1033386",
+    "scheduler_paused": false,
+    "crawl_pause_reason": null,
+    "crawl_review_reason_code": "verified_public_booking",
+    "crawl_reviewed_at": "2026-11-22",
+    "crawler_status": "smoke_pass",
+    "address": "부산 기장군 정관읍 정관중앙로 45 1동 13층 1309·1310호",
+    "naver_place_id": "1012824989"
+  }
+}

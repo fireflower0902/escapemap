@@ -1,0 +1,15 @@
+{
+  "url": "https://escapemap.reviewhyun.workers.dev/api/search?date=2026-11-22&area=all",
+  "http_status": 200,
+  "total": 397,
+  "excluded_ids_absent": true,
+  "mystery_hongdae2": {
+    "name": "미스터리룸이스케이프",
+    "address": "서울 마포구 독막로7길 41 2층",
+    "theme_count": 4,
+    "slot_count": 23,
+    "crawled": true,
+    "crawled_at": "2026-11-22T07:00:17.691Z"
+  },
+  "speakeasy_address": "서울 마포구 와우산로 103 지층·1층 일부"
+}

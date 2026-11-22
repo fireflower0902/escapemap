@@ -1,0 +1,113 @@
+{
+  "applied_at": "2026-11-22T15:59:56.225810+09:00",
+  "active_cafes": 397,
+  "duplicates_consolidated": 6,
+  "activities_excluded": [
+    "77278349",
+    "1331705130"
+  ],
+  "scheduled": 336,
+  "data_deleted": false,
+  "rows": [
+    {
+      "id": "1331705130",
+      "name": "레드런",
+      "branch_name": "천호점",
+      "address": "서울 강동구 천호대로157길 17",
+      "is_active": false,
+      "engine": null,
+      "canonical_cafe_id": null,
+      "catalog_disposition": "out_of_scope_activity"
+    },
+    {
+      "id": "1516889516",
+      "name": "뉴케이스",
+      "branch_name": "건대3호점",
+      "address": "서울 광진구 아차산로 191",
+      "is_active": false,
+      "engine": null,
+      "canonical_cafe_id": "official_xcape_nc",
+      "catalog_disposition": "duplicate"
+    },
+    {
+      "id": "1551717206",
+      "name": "엑스케이프",
+      "branch_name": "강남점",
+      "address": "서울 강남구 봉은사로2길 16, 현도빌딩, B1",
+      "is_active": false,
+      "engine": "xcape",
+      "canonical_cafe_id": "official_xcape_gn",
+      "catalog_disposition": "duplicate"
+    },
+    {
+      "id": "1599918263",
+      "name": "엑스케이프",
+      "branch_name": "수원점",
+      "address": "경기 수원시 팔달구 효원로265번길 40, 4층",
+      "is_active": false,
+      "engine": "xcape",
+      "canonical_cafe_id": "official_xcape_sw",
+      "catalog_disposition": "duplicate"
+    },
+    {
+      "id": "1825220691",
+      "name": "스피키지",
+      "branch_name": null,
+      "address": "서울 마포구 와우산로 103 지층·1층 일부",
+      "is_active": true,
+      "engine": "sinbiweb",
+      "canonical_cafe_id": null,
+      "catalog_disposition": null
+    },
+    {
+      "id": "27354377",
+      "name": "엑스케이프",
+      "branch_name": "건대1호점",
+      "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
+      "is_active": false,
+      "engine": "xcape",
+      "canonical_cafe_id": "official_xcape_xc",
+      "catalog_disposition": "duplicate"
+    },
+    {
+      "id": "361428621",
+      "name": "엑스크라임",
+      "branch_name": "건대2호점",
+      "address": "서울 광진구 아차산로29길 38, B1, 엑스크라임 방탈출카페",
+      "is_active": false,
+      "engine": "xcape",
+      "canonical_cafe_id": "official_xcape_xr",
+      "catalog_disposition": "duplicate"
+    },
+    {
+      "id": "367178846",
+      "name": "스피키지",
+      "branch_name": null,
+      "address": "서울 마포구 와우산로 103",
+      "is_active": false,
+      "engine": null,
+      "canonical_cafe_id": "1825220691",
+      "catalog_disposition": "duplicate"
+    },
+    {
+      "id": "727312827",
+      "name": "미스터리룸이스케이프",
+      "branch_name": "홍대2호점",
+      "address": "서울 마포구 독막로7길 41 2층",
+      "is_active": true,
+      "engine": "naver_booking",
+      "canonical_cafe_id": null,
+      "catalog_disposition": null
+    },
+    {
+      "id": "77278349",
+      "name": "레드런",
+      "branch_name": "천안점",
+      "address": "충남 천안시 서북구 원두정8길 16",
+      "is_active": false,
+      "engine": null,
+      "canonical_cafe_id": null,
+      "catalog_disposition": "out_of_scope_activity"
+    }
+  ]
+}
