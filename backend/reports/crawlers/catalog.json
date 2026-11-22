@@ -4643,17 +4643,20 @@
         "name": "셜록홈즈",
         "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
         "engine": "sherlock",
-        "is_active": true,
+        "is_active": false,
         "scheduler_paused": true,
-        "crawl_pause_reason": "노량진 bno57 경로는 예약 가능 판정에 사용하지 않음. 현행 공식 매장·예약 URL 확인 필요; 노원점 등 유사 지점으로 대체 금지.",
-        "crawl_review_reason_code": "former_branch_route_no_readable_schedule",
-        "crawl_reviewed_at": "2026-11-22",
-        "operation_status": "unconfirmed",
+        "crawl_pause_reason": "사용자가 제공한 현행 서울 예약 지점 목록에서 노량진점 없음. 일반 목록 제외. 공식 폐업 확정과는 구분.",
+        "crawl_review_reason_code": "user_confirmed_inactive",
+        "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+        "operation_status": "not_listed",
         "verification_sources": [
           "https://sherlock-holmes.co.kr/branch/",
           "https://sherlock-holmes.co.kr/branch/view.php?bno=57&s_no=&s_sido=",
           "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation"
-        ]
+        ],
+        "catalog_disposition": "user_confirmed_inactive",
+        "operation_evidence_source": "user_report_2026-11-22",
+        "operation_evidence_note": "사용자가 제공한 현행 서울 예약 지점 목록에서 노량진점 없음. 일반 목록 제외. 공식 폐업 확정과는 구분."
       },
       {
         "cafe_id": "2127065864",
@@ -5447,16 +5450,19 @@
         "name": "레전드이스케이프",
         "website_url": "http://legendescape.com/",
         "engine": "sinbiweb",
-        "is_active": true,
+        "is_active": false,
         "scheduler_paused": true,
-        "crawl_pause_reason": "이천점 시간표를 서현 cafe_id에 연결 금지. 서현 공식 대체 예약처 필요. legend_escape.official 계정 후보는 공개 내용 가져오기 실패로 소유·현행 예약 링크 미검증.",
-        "crawl_review_reason_code": "official_domain_currently_other_branch",
-        "crawl_reviewed_at": "2026-11-22",
-        "operation_status": "unconfirmed",
+        "crawl_pause_reason": "사용자 확인: 서현점 운영 종료, 이천점만 남음. 이천점은 별도 지점이므로 서현 시간표로 대체하지 않음.",
+        "crawl_review_reason_code": "user_confirmed_inactive",
+        "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+        "operation_status": "closed",
         "verification_sources": [
           "http://legendescape.com/layout/res/home.php?go=rev.make",
           "http://legendescape.com/layout/res/home.php?go=location"
-        ]
+        ],
+        "catalog_disposition": "user_confirmed_inactive",
+        "operation_evidence_source": "user_report_2026-11-22",
+        "operation_evidence_note": "사용자 확인: 서현점 운영 종료, 이천점만 남음. 이천점은 별도 지점이므로 서현 시간표로 대체하지 않음."
       },
       {
         "cafe_id": "776353707",
@@ -6331,15 +6337,18 @@
         "area": "myeongdong",
         "name": "비트포비아",
         "website_url": "https://www.xphobia.net/",
-        "is_active": true,
+        "is_active": false,
         "scheduler_paused": true,
-        "crawl_pause_reason": "기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
-        "crawl_review_reason_code": "former_franchise_hub_discontinued",
-        "crawl_reviewed_at": "2026-11-22",
-        "operation_status": "unconfirmed",
+        "crawl_pause_reason": "사용자 확인: 비트포비아 명동점 없어짐.",
+        "crawl_review_reason_code": "user_confirmed_inactive",
+        "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+        "operation_status": "closed",
         "verification_sources": [
           "https://xphobia.net/"
-        ]
+        ],
+        "catalog_disposition": "user_confirmed_inactive",
+        "operation_evidence_source": "user_report_2026-11-22",
+        "operation_evidence_note": "사용자 확인: 비트포비아 명동점 없어짐."
       },
       {
         "cafe_id": "1432484184",
@@ -6349,15 +6358,18 @@
         "area": "myeongdong",
         "name": "비트포비아",
         "website_url": "https://www.xphobia.net/",
-        "is_active": true,
+        "is_active": false,
         "scheduler_paused": true,
-        "crawl_pause_reason": "기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
-        "crawl_review_reason_code": "former_franchise_hub_discontinued",
-        "crawl_reviewed_at": "2026-11-22",
-        "operation_status": "unconfirmed",
+        "crawl_pause_reason": "사용자 확인: 비트포비아 대학로점 없어짐.",
+        "crawl_review_reason_code": "user_confirmed_inactive",
+        "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+        "operation_status": "closed",
         "verification_sources": [
           "https://xphobia.net/"
-        ]
+        ],
+        "catalog_disposition": "user_confirmed_inactive",
+        "operation_evidence_source": "user_report_2026-11-22",
+        "operation_evidence_note": "사용자 확인: 비트포비아 대학로점 없어짐."
       }
     ],
     "selections": {

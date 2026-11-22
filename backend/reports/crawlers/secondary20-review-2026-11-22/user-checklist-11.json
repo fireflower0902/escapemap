@@ -8,7 +8,9 @@
     "website_url": "http://legendescape.com/",
     "verification_needed": "서현 공식 대체 예약처 필요. legend_escape.official 계정 후보는 공개 내용 가져오기 실패로 소유·현행 예약 링크 미검증.",
     "contact_source": "https://place.map.kakao.com/1968639091",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "resolved_excluded",
+    "verification_result": "사용자 확인: 서현점 운영 종료, 이천점만 남음. 이천점은 별도 지점이므로 서현 시간표로 대체하지 않음."
   },
   {
     "id": "1432484184",
@@ -19,7 +21,9 @@
     "website_url": "https://www.xphobia.net/",
     "verification_needed": "동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
     "contact_source": "https://place.map.kakao.com/1432484184",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "resolved_excluded",
+    "verification_result": "사용자 확인: 비트포비아 대학로점 없어짐."
   },
   {
     "id": "997297045",
@@ -30,7 +34,9 @@
     "website_url": "https://www.xphobia.net/",
     "verification_needed": "동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
     "contact_source": "https://place.map.kakao.com/997297045",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "resolved_excluded",
+    "verification_result": "사용자 확인: 비트포비아 대구동성로점 명칭으로 검색되나 실제 미운영으로 판단. 폐업 확정 대신 미운영으로 제외."
   },
   {
     "id": "1183396756",
@@ -41,7 +47,9 @@
     "website_url": "https://www.xphobia.net/",
     "verification_needed": "동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
     "contact_source": "https://place.map.kakao.com/1183396756",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "resolved_excluded",
+    "verification_result": "사용자 확인: 비트포비아 명동점 없어짐."
   },
   {
     "id": "1647497159",
@@ -50,7 +58,9 @@
     "address": "서울 관악구 신림로59길 9",
     "phone": null,
     "website_url": "https://www.xphobia.net/",
-    "verification_needed": "동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음."
+    "verification_needed": "동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.",
+    "review_status": "resolved_excluded",
+    "verification_result": "사용자 확인: 비트포비아 신림점 없어짐."
   },
   {
     "id": "8143798",
@@ -59,7 +69,9 @@
     "address": "서울 동작구 노량진동 118-8 지하1층",
     "phone": null,
     "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation",
-    "verification_needed": "현행 공식 매장·예약 URL 확인 필요; 노원점 등 유사 지점으로 대체 금지."
+    "verification_needed": "현행 공식 매장·예약 URL 확인 필요; 노원점 등 유사 지점으로 대체 금지.",
+    "review_status": "resolved_excluded",
+    "verification_result": "사용자가 제공한 현행 서울 예약 지점 목록에서 노량진점 없음. 일반 목록 제외. 공식 폐업 확정과는 구분."
   },
   {
     "id": "1396409942",
@@ -70,7 +82,8 @@
     "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
     "verification_needed": "동일 주소 현행 예약처나 공개 지점 시간표 필요.",
     "contact_source": "https://place.map.kakao.com/1396409942",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "pending"
   },
   {
     "id": "115701517",
@@ -79,7 +92,8 @@
     "address": "경기 수원시 팔달구 인계동 1041-8",
     "phone": null,
     "website_url": "http://www.signescape.com",
-    "verification_needed": "인계시티 현행 공식 운영/대체 예약 URL 필요."
+    "verification_needed": "인계시티 현행 공식 운영/대체 예약 URL 필요.",
+    "review_status": "pending"
   },
   {
     "id": "2143447304",
@@ -90,7 +104,8 @@
     "website_url": "http://place.map.kakao.com/2143447304",
     "verification_needed": "목척2길45 매장의 공식 계정/공개 예약 URL 필요. 공식 계정 특정 검색에서 검증 가능한 결과 미확보; DM/로그인 접근 안 함.",
     "contact_source": "https://place.map.kakao.com/2143447304",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "pending"
   },
   {
     "id": "660859780",
@@ -101,7 +116,8 @@
     "website_url": "http://alcatraz.co.kr/",
     "verification_needed": "공식 온라인 예약 시스템 재개 공지가 나오면 재검증. 전화나 메시지는 수행하지 않음.",
     "contact_source": "https://place.map.kakao.com/660859780",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "pending"
   },
   {
     "id": "300855776",
@@ -112,6 +128,7 @@
     "website_url": "https://www.todayescape.com",
     "verification_needed": "공식 재오픈 일정과 예약 시간표 공개 후 재검증.",
     "contact_source": "https://place.map.kakao.com/300855776",
-    "contact_status": "지도 등록 정보, 현재 영업 미확정"
+    "contact_status": "지도 등록 정보, 현재 영업 미확정",
+    "review_status": "pending"
   }
 ]

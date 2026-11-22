@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1183396756",
+    "name": "비트포비아",
+    "branch_name": "명동점",
+    "is_active": true,
+    "metadata": "{\"id\": \"1183396756\", \"lat\": 37.5632518768111, \"lng\": 126.985381004262, \"area\": \"myeongdong\", \"name\": \"비트포비아\", \"phone\": \"02-3789-8094\", \"engine\": null, \"address\": \"서울 중구 명동10길 13\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"명동점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true, \"operation_status\": \"unconfirmed\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22\", \"crawl_pause_reason\": \"기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.\", \"verification_sources\": [\"https://xphobia.net/\"], \"crawl_review_reason_code\": \"former_franchise_hub_discontinued\"}"
+  },
+  {
+    "id": "1432484184",
+    "name": "비트포비아",
+    "branch_name": "대학로점",
+    "is_active": true,
+    "metadata": "{\"id\": \"1432484184\", \"lat\": 37.5815897995095, \"lng\": 127.002816737441, \"area\": \"myeongdong\", \"name\": \"비트포비아\", \"phone\": \"02-742-5252\", \"engine\": null, \"address\": \"서울 종로구 대학로10길 12\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"대학로점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true, \"operation_status\": \"unconfirmed\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22\", \"crawl_pause_reason\": \"기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.\", \"verification_sources\": [\"https://xphobia.net/\"], \"crawl_review_reason_code\": \"former_franchise_hub_discontinued\"}"
+  },
+  {
+    "id": "1647497159",
+    "name": "비트포비아",
+    "branch_name": "신림점",
+    "is_active": true,
+    "metadata": "{\"id\": \"1647497159\", \"lat\": 37.4829521972144, \"lng\": 126.929131538582, \"area\": \"sinlim\", \"name\": \"비트포비아\", \"phone\": \"02-878-2139\", \"engine\": null, \"address\": \"서울 관악구 신림로59길 9\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"신림점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": true, \"operation_status\": \"unconfirmed\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22\", \"crawl_pause_reason\": \"기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.\", \"verification_sources\": [\"https://xphobia.net/\"], \"crawl_review_reason_code\": \"former_franchise_hub_discontinued\"}"
+  },
+  {
+    "id": "1968639091",
+    "name": "레전드이스케이프",
+    "branch_name": "서현점",
+    "is_active": true,
+    "metadata": "{\"id\": \"1968639091\", \"lat\": null, \"lng\": null, \"area\": \"gyeonggi\", \"name\": \"레전드이스케이프\", \"phone\": null, \"engine\": \"sinbiweb\", \"address\": \"경기 성남시 분당구 서현로210번길 20\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"서현점\", \"website_url\": \"http://legendescape.com/\", \"supported_area\": false, \"operation_status\": \"unconfirmed\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22\", \"crawl_pause_reason\": \"이천점 시간표를 서현 cafe_id에 연결 금지. 서현 공식 대체 예약처 필요. legend_escape.official 계정 후보는 공개 내용 가져오기 실패로 소유·현행 예약 링크 미검증.\", \"verification_sources\": [\"http://legendescape.com/layout/res/home.php?go=rev.make\", \"http://legendescape.com/layout/res/home.php?go=location\"], \"crawl_review_reason_code\": \"official_domain_currently_other_branch\"}"
+  },
+  {
+    "id": "8143798",
+    "name": "셜록홈즈",
+    "branch_name": "노량진점",
+    "is_active": true,
+    "metadata": "{\"id\": \"8143798\", \"lat\": null, \"lng\": null, \"area\": \"seoul_other\", \"name\": \"셜록홈즈\", \"phone\": null, \"engine\": \"sherlock\", \"address\": \"서울 동작구 노량진동 118-8 지하1층\", \"crawled\": true, \"is_active\": true, \"branch_name\": \"노량진점\", \"website_url\": \"https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation\", \"supported_area\": false, \"operation_status\": \"unconfirmed\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22\", \"crawl_pause_reason\": \"노량진 bno57 경로는 예약 가능 판정에 사용하지 않음. 현행 공식 매장·예약 URL 확인 필요; 노원점 등 유사 지점으로 대체 금지.\", \"verification_sources\": [\"https://sherlock-holmes.co.kr/branch/\", \"https://sherlock-holmes.co.kr/branch/view.php?bno=57&s_no=&s_sido=\", \"https://sherlock-holmes.co.kr/reservation/index.php?sido=1&bno=57#reservation\"], \"crawl_review_reason_code\": \"former_branch_route_no_readable_schedule\"}"
+  },
+  {
+    "id": "997297045",
+    "name": "비트포비아",
+    "branch_name": "동성로점",
+    "is_active": true,
+    "metadata": "{\"id\": \"997297045\", \"lat\": 35.8688586362438, \"lng\": 128.597357218815, \"area\": \"daegu\", \"name\": \"비트포비아\", \"phone\": \"070-5102-4760\", \"engine\": null, \"address\": \"대구 중구 동성로6길 33\", \"crawled\": false, \"is_active\": true, \"branch_name\": \"동성로점\", \"website_url\": \"https://www.xphobia.net/\", \"supported_area\": false, \"operation_status\": \"unconfirmed\", \"scheduler_paused\": true, \"crawl_reviewed_at\": \"2026-11-22\", \"crawl_pause_reason\": \"기존 xphobia 가맹점 예약 경로는 현행 수집 원천에서 제외 검토. 폐업으로 분류하지 않음. 동일 지점·주소를 입증하는 공식 대체 예약 URL 필요. 본사 직영 던전 시간표로 대체하지 않음.\", \"verification_sources\": [\"https://xphobia.net/\"], \"crawl_review_reason_code\": \"former_franchise_hub_discontinued\"}"
+  }
+]

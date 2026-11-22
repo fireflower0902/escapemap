@@ -1,0 +1,75 @@
+{
+  "applied_at": "2026-11-22T16:23:21.889497+09:00",
+  "active_cafes": 391,
+  "changes": {
+    "1968639091": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "closed",
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_pause_reason": "사용자 확인: 서현점 운영 종료, 이천점만 남음. 이천점은 별도 지점이므로 서현 시간표로 대체하지 않음.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 확인: 서현점 운영 종료, 이천점만 남음. 이천점은 별도 지점이므로 서현 시간표로 대체하지 않음."
+    },
+    "1432484184": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "closed",
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_pause_reason": "사용자 확인: 비트포비아 대학로점 없어짐.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 확인: 비트포비아 대학로점 없어짐."
+    },
+    "997297045": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "not_operating",
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_pause_reason": "사용자 확인: 비트포비아 대구동성로점 명칭으로 검색되나 실제 미운영으로 판단. 폐업 확정 대신 미운영으로 제외.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 확인: 비트포비아 대구동성로점 명칭으로 검색되나 실제 미운영으로 판단. 폐업 확정 대신 미운영으로 제외."
+    },
+    "1183396756": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "closed",
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_pause_reason": "사용자 확인: 비트포비아 명동점 없어짐.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 확인: 비트포비아 명동점 없어짐."
+    },
+    "1647497159": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "closed",
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_pause_reason": "사용자 확인: 비트포비아 신림점 없어짐.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 확인: 비트포비아 신림점 없어짐."
+    },
+    "8143798": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "not_listed",
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_pause_reason": "사용자가 제공한 현행 서울 예약 지점 목록에서 노량진점 없음. 일반 목록 제외. 공식 폐업 확정과는 구분.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:23:21.889497+09:00",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자가 제공한 현행 서울 예약 지점 목록에서 노량진점 없음. 일반 목록 제외. 공식 폐업 확정과는 구분."
+    }
+  },
+  "yatag_status": "경기 목록 확인 전까지 활성·확인 필요 유지",
+  "source_scope": "첨부 화면은 서울특별시 노원·대학로·성신여대·잠실1호·잠실새내·종각점. 다른 지역에 일반화하지 않음.",
+  "data_deleted": false
+}
