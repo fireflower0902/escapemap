@@ -136,6 +136,10 @@
     "cafe_id": "1224388097"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1252080396"
+  },
+  {
     "cafe_id": "1266197087",
     "script": "sync_escapetop_db"
   },
@@ -170,6 +174,10 @@
   {
     "cafe_id": "1488706210",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1495650283"
   },
   {
     "script": "sync_escapetop_db",
@@ -374,6 +382,10 @@
   {
     "cafe_id": "902256384",
     "script": "sync_escapetop_db"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "911063716"
   },
   {
     "cafe_id": "923379950",

@@ -775,6 +775,7 @@
       "1097124167",
       "1124781432",
       "1224388097",
+      "1252080396",
       "1266197087",
       "1277196871",
       "1358303820",
@@ -785,6 +786,7 @@
       "1458988059",
       "1459848720",
       "1488706210",
+      "1495650283",
       "1501825629",
       "1502372343",
       "1544141348",
@@ -842,6 +844,7 @@
       "841734382",
       "901719185",
       "902256384",
+      "911063716",
       "923379950",
       "942247508",
       "964420524",
@@ -866,6 +869,64 @@
       "official_roomsa_83"
     ],
     "cafes": [
+      {
+        "cafe_id": "911063716",
+        "name": "더트랩",
+        "branch_name": "수유점",
+        "address": "서울특별시 강북구 도봉로 363, 구봉빌딩 4층",
+        "area": "seoul_other",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1475391",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_current_naver_booking",
+        "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+        "booking_url": "https://booking.naver.com/booking/12/bizes/1475391",
+        "naver_place_id": "1545274188",
+        "crawler_status": "smoke_pass",
+        "operation_status": "public_booking_verified",
+        "verification_sources": [
+          "https://booking.naver.com/booking/12/bizes/1475391"
+        ]
+      },
+      {
+        "cafe_id": "1252080396",
+        "name": "할리갈리인더룸방탈출시즌2",
+        "address": "경기도 고양시 일산동구 무궁화로 20-11, 에프동 3층 302호(장항동, 라페스타 F)",
+        "area": "gyeonggi",
+        "website_url": "https://booking.naver.com/booking/6/bizes/729652",
+        "engine": "naver_booking",
+        "is_active": true,
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_current_naver_booking",
+        "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+        "booking_url": "https://booking.naver.com/booking/6/bizes/729652",
+        "naver_place_id": "37589034",
+        "crawler_status": "smoke_pass",
+        "operation_status": "public_booking_verified",
+        "verification_sources": [
+          "https://booking.naver.com/booking/6/bizes/729652"
+        ]
+      },
+      {
+        "cafe_id": "1495650283",
+        "name": "브레이크아웃 광안",
+        "address": "부산광역시 수영구 남천바다로33번길 47, 마린빌딩 2층",
+        "area": "busan",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1254695",
+        "engine": "naver_booking",
+        "is_active": true,
+        "booking_url": "https://booking.naver.com/booking/12/bizes/1254695",
+        "naver_place_id": "1430794578",
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_current_naver_booking",
+        "crawler_status": "smoke_pass",
+        "operation_status": "public_booking_verified",
+        "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+        "verification_sources": [
+          "https://booking.naver.com/booking/12/bizes/1254695"
+        ]
+      },
       {
         "cafe_id": "2200000001",
         "name": "셜록홈즈",
@@ -4694,19 +4755,19 @@
         "name": "셜록홈즈",
         "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
         "engine": "sherlock",
-        "is_active": true,
+        "is_active": false,
         "scheduler_paused": true,
-        "crawl_pause_reason": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요.",
-        "crawl_review_reason_code": "booking_source_review",
-        "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
-        "operation_status": "listed_current",
+        "crawl_pause_reason": "공식 예약 화면: 셜록홈즈 분당야탑점 영업 종료, 마지막 영업일 11월1일(일) 안내. 선택 메뉴 이름 잔존과 실제 영업을 구분.",
+        "crawl_review_reason_code": "official_closure_notice",
+        "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+        "operation_status": "closed",
         "verification_sources": [
           "https://sherlock-holmes.co.kr/branch/view.php?bno=62&s_no=&s_sido="
         ],
-        "catalog_disposition": "booking_source_review",
+        "catalog_disposition": "officially_closed",
         "crawl_review_paused": false,
         "review_resume_policy": "public_timetable_review",
-        "operation_evidence_source": "user_report_2026-11-22",
+        "operation_evidence_source": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
         "operation_evidence_note": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요."
       },
       {
@@ -5886,16 +5947,22 @@
       {
         "cafe_id": "911063716",
         "branch_name": "수유점",
-        "address": "서울 강북구 도봉로 363 구봉빌딩 4층",
+        "address": "서울특별시 강북구 도봉로 363, 구봉빌딩 4층",
         "area": "seoul_other",
         "name": "더트랩",
-        "website_url": "http://www.thetrapsy.co.kr",
-        "engine": "thetrapsy",
+        "website_url": "https://booking.naver.com/booking/12/bizes/1475391",
+        "engine": "naver_booking",
         "is_active": true,
-        "scheduler_paused": true,
-        "crawl_pause_reason": "공식 자체 예약 목록은 네이버 예약 이용 안내로 전환. 공개 홈페이지/검색에서 현재 네이버 사업자 ID를 확정하지 못함.",
-        "crawl_review_reason_code": "official_source_unconfirmed",
-        "crawl_reviewed_at": "2026-11-21T21:57:32.347040+09:00"
+        "scheduler_paused": false,
+        "crawl_review_reason_code": "verified_current_naver_booking",
+        "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+        "booking_url": "https://booking.naver.com/booking/12/bizes/1475391",
+        "naver_place_id": "1545274188",
+        "crawler_status": "smoke_pass",
+        "operation_status": "public_booking_verified",
+        "verification_sources": [
+          "https://booking.naver.com/booking/12/bizes/1475391"
+        ]
       }
     ],
     "selections": {}

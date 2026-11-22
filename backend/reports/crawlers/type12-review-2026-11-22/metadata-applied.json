@@ -1,0 +1,67 @@
+{
+  "applied_at": "2026-11-22T16:48:42.013515+09:00",
+  "active_cafes": 388,
+  "recoveries": {
+    "1495650283": {
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1254695",
+      "booking_url": "https://booking.naver.com/booking/12/bizes/1254695",
+      "address": "부산광역시 수영구 남천바다로33번길 47, 마린빌딩 2층",
+      "naver_place_id": "1430794578",
+      "scheduler_paused": false,
+      "crawl_pause_reason": null,
+      "crawl_review_reason_code": "verified_current_naver_booking",
+      "crawler_status": "smoke_pass",
+      "operation_status": "public_booking_verified",
+      "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+      "verification_sources": [
+        "https://booking.naver.com/booking/12/bizes/1254695"
+      ]
+    },
+    "1252080396": {
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/6/bizes/729652",
+      "booking_url": "https://booking.naver.com/booking/6/bizes/729652",
+      "address": "경기도 고양시 일산동구 무궁화로 20-11, 에프동 3층 302호(장항동, 라페스타 F)",
+      "naver_place_id": "37589034",
+      "scheduler_paused": false,
+      "crawl_pause_reason": null,
+      "crawl_review_reason_code": "verified_current_naver_booking",
+      "crawler_status": "smoke_pass",
+      "operation_status": "public_booking_verified",
+      "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+      "verification_sources": [
+        "https://booking.naver.com/booking/6/bizes/729652"
+      ]
+    },
+    "911063716": {
+      "engine": "naver_booking",
+      "website_url": "https://booking.naver.com/booking/12/bizes/1475391",
+      "booking_url": "https://booking.naver.com/booking/12/bizes/1475391",
+      "address": "서울특별시 강북구 도봉로 363, 구봉빌딩 4층",
+      "naver_place_id": "1545274188",
+      "scheduler_paused": false,
+      "crawl_pause_reason": null,
+      "crawl_review_reason_code": "verified_current_naver_booking",
+      "crawler_status": "smoke_pass",
+      "operation_status": "public_booking_verified",
+      "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+      "verification_sources": [
+        "https://booking.naver.com/booking/12/bizes/1475391"
+      ]
+    }
+  },
+  "closed": {
+    "1396409942": {
+      "is_active": false,
+      "scheduler_paused": true,
+      "operation_status": "closed",
+      "catalog_disposition": "officially_closed",
+      "crawl_pause_reason": "공식 예약 화면: 셜록홈즈 분당야탑점 영업 종료, 마지막 영업일 11월1일(일) 안내. 선택 메뉴 이름 잔존과 실제 영업을 구분.",
+      "crawl_review_reason_code": "official_closure_notice",
+      "crawl_reviewed_at": "2026-11-22T16:48:42.013515+09:00",
+      "operation_evidence_source": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation"
+    }
+  },
+  "data_deleted": false
+}
