@@ -75,6 +75,8 @@ BUSINESS_TYPE_ID = 12
 REQUEST_DELAY = 0.5
 
 BRANCHES = [
+    # 공식 매장 예약 탭의 독립 네이버 예약처. 당일 미지원·4테마 범위.
+    {'cafe_id': '27413260', 'business_id': '20104', 'business_type_id': 12, 'name': '큐브이스케이프', 'branch_name': '홍대점', 'address': '서울 마포구 양화로16길 15 무광빌딩 4층', 'area': 'hongdae', 'site_url': 'https://booking.naver.com/booking/12/bizes/20104', 'theme_names': {'3244143': '피라미드', '223821': 'Monkey House', '223822': '장기밀매', '224516': '헨젤과 그레텔'}},
     # 공식 네이버 예약 전환 안내 및 동일 주소의 매장 예약 탭 확인.
     {'cafe_id': '911063716', 'business_id': '1475391', 'business_type_id': 12, 'name': '더트랩', 'branch_name': '수유점', 'address': '서울 강북구 도봉로 363 구봉빌딩 4층', 'area': 'seoul_other', 'site_url': 'https://booking.naver.com/booking/12/bizes/1475391'},
     # 실제 매장 예약 탭 및 네이버 공식 사업장 주소 확인.
@@ -880,7 +882,7 @@ def sync_one_branch(branch: dict, days: int) -> int:
     for item in regular_items:
         biz_item_id = item["bizItemId"]
         raw_name = item["name"].strip()
-        theme_name = _normalize_theme_name(raw_name) if do_normalize else raw_name
+        theme_name = branch.get("theme_names", {}).get(str(biz_item_id), _normalize_theme_name(raw_name) if do_normalize else raw_name)
         doc_id = get_or_create_theme(db, cafe_id, theme_name, {
             "poster_url": None,
             "is_active":  True,

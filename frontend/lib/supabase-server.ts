@@ -58,7 +58,7 @@ export function assembleSearch(date: string, area: string, data: Awaited<ReturnT
   const byCafe = new Map<string, typeof data.themes>();
   for (const theme of data.themes) { const list = byCafe.get(theme.cafe_id) ?? []; list.push(theme); byCafe.set(theme.cafe_id,list); }
   const cafes = data.cafes.map(cafe => ({ id:cafe.id, name:cafe.name, branch_name:cafe.branch_name ?? null, address:cafe.address, area:cafe.area, crawled_at:data.schedule[cafe.id]?.crawled_at ?? null,
-    website_url:cafe.website_url ?? null, crawled:!!data.schedule[cafe.id],
+    website_url:cafe.website_url ?? null, booking_notice:typeof cafe.booking_notice === "string" ? cafe.booking_notice : null, crawled:!!data.schedule[cafe.id],
     themes:(byCafe.get(cafe.id) ?? []).sort((a,b)=>a.name.localeCompare(b.name,"ko")).map(theme=>({ id:theme.id,name:theme.name,
       genre:theme.genre ?? null,min_players:theme.min_players ?? null,max_players:theme.max_players ?? null,
       rating:typeof theme.rating === "number" ? theme.rating : null,difficulty:theme.difficulty ?? null,duration_min:theme.duration_min ?? null,poster_url:theme.poster_url ?? null,

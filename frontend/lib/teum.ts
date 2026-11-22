@@ -1,6 +1,6 @@
 export type Slot = { time:string; status:"available"|"full"|"closed"|"unknown"; booking_url:string|null };
 export type Theme = {id:string;name:string;poster_url?:string|null;difficulty?:number|null;rating?:number|null;duration_min?:number|null;genre?:string|null;min_players?:number|null;max_players?:number|null;slots:Slot[]};
-export type Cafe = {id:string;name:string;branch_name?:string|null;address:string;area?:string;website_url?:string|null;crawled:boolean;crawled_at?:string|null;themes:Theme[]};
+export type Cafe = {id:string;name:string;branch_name?:string|null;address:string;area?:string;website_url?:string|null;booking_notice?:string|null;crawled:boolean;crawled_at?:string|null;themes:Theme[]};
 export type Filters={date:string;area:string;from:string;to:string;difficulty?:string;minRating?:string};
 export function seoulToday(){return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());}
 export function validDate(value?:string){return typeof value==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(value)&&Number.isFinite(Date.parse(value))&&new Date(value).toISOString().slice(0,10)===value;}
