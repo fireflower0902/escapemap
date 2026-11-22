@@ -83,7 +83,8 @@
     "verification_needed": "동일 주소 현행 예약처나 공개 지점 시간표 필요.",
     "contact_source": "https://place.map.kakao.com/1396409942",
     "contact_status": "지도 등록 정보, 현재 영업 미확정",
-    "review_status": "pending"
+    "review_status": "booking_source_review",
+    "verification_result": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요."
   },
   {
     "id": "115701517",
@@ -93,7 +94,8 @@
     "phone": null,
     "website_url": "http://www.signescape.com",
     "verification_needed": "인계시티 현행 공식 운영/대체 예약 URL 필요.",
-    "review_status": "pending"
+    "review_status": "resolved",
+    "verification_result": "사용자 확인: 싸인이스케이프 인계시티점 운영 종료. 일반 목록 제외."
   },
   {
     "id": "2143447304",
@@ -105,7 +107,8 @@
     "verification_needed": "목척2길45 매장의 공식 계정/공개 예약 URL 필요. 공식 계정 특정 검색에서 검증 가능한 결과 미확보; DM/로그인 접근 안 함.",
     "contact_source": "https://place.map.kakao.com/2143447304",
     "contact_status": "지도 등록 정보, 현재 영업 미확정",
-    "review_status": "pending"
+    "review_status": "resolved",
+    "verification_result": "사용자 결정: 안흥여관은 인스타그램 DM 예약만 제공하는 것으로 확인되어 일반 목록·크롤링 검토에서 제외. 폐업 판정 아님."
   },
   {
     "id": "660859780",
@@ -117,7 +120,8 @@
     "verification_needed": "공식 온라인 예약 시스템 재개 공지가 나오면 재검증. 전화나 메시지는 수행하지 않음.",
     "contact_source": "https://place.map.kakao.com/660859780",
     "contact_status": "지도 등록 정보, 현재 영업 미확정",
-    "review_status": "pending"
+    "review_status": "resolved",
+    "verification_result": "사용자 결정: 알카트래즈 예약 시스템 공사 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음."
   },
   {
     "id": "300855776",
@@ -129,6 +133,7 @@
     "verification_needed": "공식 재오픈 일정과 예약 시간표 공개 후 재검증.",
     "contact_source": "https://place.map.kakao.com/300855776",
     "contact_status": "지도 등록 정보, 현재 영업 미확정",
-    "review_status": "pending"
+    "review_status": "resolved",
+    "verification_result": "사용자 결정: 오늘탈출 고양점 리뉴얼 준비 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음."
   }
 ]

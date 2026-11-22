@@ -170,16 +170,21 @@
       "area": "gyeonggi",
       "website_url": "http://www.signescape.com",
       "engine": "signescape",
-      "is_active": true,
+      "is_active": false,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기본 S2 시간표를 인계시티에 매핑하지 않음. 인계시티 현행 공식 운영/대체 예약 URL 필요.",
-      "crawl_review_reason_code": "current_tabs_exclude_target_branch",
-      "crawl_reviewed_at": "2026-11-22",
-      "operation_status": "unconfirmed",
+      "crawl_pause_reason": "사용자 확인: 싸인이스케이프 인계시티점 운영 종료. 일반 목록 제외.",
+      "crawl_review_reason_code": "user_confirmed_inactive",
+      "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+      "operation_status": "closed",
       "verification_sources": [
         "http://www.signescape.com/sub/sub03_1.html",
         "http://www.signescape.com/sub/sub04.html?jijem=S1"
-      ]
+      ],
+      "catalog_disposition": "user_confirmed_inactive",
+      "crawl_review_paused": true,
+      "review_resume_policy": "user_request_only",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 확인: 싸인이스케이프 인계시티점 운영 종료. 일반 목록 제외."
     },
     {
       "id": "1166453549",
@@ -564,13 +569,18 @@
       "engine": "sherlock",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "소개 페이지 존재와 실제 예약 제공을 분리. 테마0/공통 소개를 폐업이나 가용 슬롯으로 변환하지 않음. 동일 주소 현행 예약처나 공개 지점 시간표 필요.",
-      "crawl_review_reason_code": "official_reservation_link_present_no_branch_schedule",
-      "crawl_reviewed_at": "2026-11-22",
-      "operation_status": "unconfirmed",
+      "crawl_pause_reason": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요.",
+      "crawl_review_reason_code": "booking_source_review",
+      "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+      "operation_status": "listed_current",
       "verification_sources": [
         "https://sherlock-holmes.co.kr/branch/view.php?bno=62&s_no=&s_sido="
-      ]
+      ],
+      "catalog_disposition": "booking_source_review",
+      "crawl_review_paused": false,
+      "review_resume_policy": "public_timetable_review",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요."
     },
     {
       "id": "1397923384",
@@ -1974,13 +1984,18 @@
       "area": "daejeon",
       "website_url": "http://place.map.kakao.com/2143447304",
       "engine": null,
-      "is_active": true,
+      "is_active": false,
       "scheduler_paused": true,
-      "crawl_pause_reason": "기존 DM 안내는 입력 보고서의 과거 관측으로만 유지. 이번에 현행 공식 운영 근거로 재사용하지 않음. 목척2길45 매장의 공식 계정/공개 예약 URL 필요. 공식 계정 특정 검색에서 검증 가능한 결과 미확보; DM/로그인 접근 안 함.",
-      "crawl_review_reason_code": "no_new_official_public_route_verified",
-      "crawl_reviewed_at": "2026-11-22",
-      "operation_status": "unconfirmed",
-      "verification_sources": []
+      "crawl_pause_reason": "사용자 결정: 안흥여관은 인스타그램 DM 예약만 제공하는 것으로 확인되어 일반 목록·크롤링 검토에서 제외. 폐업 판정 아님.",
+      "crawl_review_reason_code": "excluded_dm_only",
+      "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+      "operation_status": "dm_booking_only",
+      "verification_sources": [],
+      "catalog_disposition": "excluded_dm_only",
+      "crawl_review_paused": true,
+      "review_resume_policy": "user_request_only",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 결정: 안흥여관은 인스타그램 DM 예약만 제공하는 것으로 확인되어 일반 목록·크롤링 검토에서 제외. 폐업 판정 아님."
     },
     {
       "id": "215947527",
@@ -2387,13 +2402,18 @@
       "engine": "naver_booking",
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "알림 신청 폼을 예약 경로/예약 가능으로 분류하지 않음. 공식 재오픈 일정과 예약 시간표 공개 후 재검증.",
-      "crawl_review_reason_code": "reopen_notification_only",
-      "crawl_reviewed_at": "2026-11-22",
-      "operation_status": "unconfirmed",
+      "crawl_pause_reason": "사용자 결정: 오늘탈출 고양점 리뉴얼 준비 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음.",
+      "crawl_review_reason_code": "review_on_hold",
+      "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+      "operation_status": "renovating",
       "verification_sources": [
         "https://www.todayescape.com/"
-      ]
+      ],
+      "catalog_disposition": "review_on_hold",
+      "crawl_review_paused": true,
+      "review_resume_policy": "user_request_only",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 결정: 오늘탈출 고양점 리뉴얼 준비 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음."
     },
     {
       "id": "302959300",
@@ -3054,13 +3074,18 @@
       "engine": null,
       "is_active": true,
       "scheduler_paused": true,
-      "crawl_pause_reason": "온라인 시간표 수집 보류; 공사 중과 폐업을 구분. 공식 온라인 예약 시스템 재개 공지가 나오면 재검증. 전화나 메시지는 수행하지 않음.",
-      "crawl_review_reason_code": "telephone_only_system_under_construction",
-      "crawl_reviewed_at": "2026-11-22",
-      "operation_status": "unconfirmed",
+      "crawl_pause_reason": "사용자 결정: 알카트래즈 예약 시스템 공사 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음.",
+      "crawl_review_reason_code": "review_on_hold",
+      "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+      "operation_status": "reservation_system_maintenance",
       "verification_sources": [
         "http://alcatraz.co.kr/"
-      ]
+      ],
+      "catalog_disposition": "review_on_hold",
+      "crawl_review_paused": true,
+      "review_resume_policy": "user_request_only",
+      "operation_evidence_source": "user_report_2026-11-22",
+      "operation_evidence_note": "사용자 결정: 알카트래즈 예약 시스템 공사 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음."
     },
     {
       "id": "665041653",

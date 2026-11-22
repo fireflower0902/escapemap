@@ -1,0 +1,14 @@
+{
+  "active_cafes": 389,
+  "excluded": [
+    "115701517",
+    "2143447304"
+  ],
+  "held_with_no_slots": [
+    "660859780",
+    "300855776"
+  ],
+  "yatag_retained": true,
+  "review_queue": 49,
+  "scheduled": 338
+}

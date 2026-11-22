@@ -1,0 +1,30 @@
+[
+  {
+    "cafe_id": "660859780",
+    "is_active": true,
+    "catalog_disposition": "review_on_hold",
+    "operation_status": "reservation_system_maintenance",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "사용자 결정: 알카트래즈 예약 시스템 공사 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음.",
+    "crawl_review_reason_code": "review_on_hold",
+    "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+    "crawl_review_paused": true,
+    "review_resume_policy": "user_request_only",
+    "operation_evidence_source": "user_report_2026-11-22",
+    "operation_evidence_note": "사용자 결정: 알카트래즈 예약 시스템 공사 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음."
+  },
+  {
+    "cafe_id": "300855776",
+    "is_active": true,
+    "catalog_disposition": "review_on_hold",
+    "operation_status": "renovating",
+    "scheduler_paused": true,
+    "crawl_pause_reason": "사용자 결정: 오늘탈출 고양점 리뉴얼 준비 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음.",
+    "crawl_review_reason_code": "review_on_hold",
+    "crawl_reviewed_at": "2026-11-22T16:31:06.981686+09:00",
+    "crawl_review_paused": true,
+    "review_resume_policy": "user_request_only",
+    "operation_evidence_source": "user_report_2026-11-22",
+    "operation_evidence_note": "사용자 결정: 오늘탈출 고양점 리뉴얼 준비 중. 보류하며 사용자 재개 요청 전까지 추가 크롤링 검토하지 않음."
+  }
+]

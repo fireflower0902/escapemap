@@ -599,60 +599,12 @@
     "cafe_id": "1396409942",
     "name": "셜록홈즈",
     "branch_name": "분당야탑점",
-    "priority": 5,
-    "priority_label": "현재 운영·예약 제공 여부 확인",
-    "status": "reviewed_operation_unconfirmed",
-    "reason": "소개 페이지 존재와 실제 예약 제공을 분리. 테마0/공통 소개를 폐업이나 가용 슬롯으로 변환하지 않음. 동일 주소 현행 예약처나 공개 지점 시간표 필요.",
-    "last_evidence_at": "2026-11-22",
+    "priority": 2,
+    "priority_label": "공식 공개 예약 시간표 확인",
+    "status": "reviewed_needs_source",
+    "reason": "사용자 제공 경기 예약 지점 목록에 분당야탑점 존재. 지점 등재 확인 완료. 실제 예약 시간표 수집 경로는 별도 검토 필요.",
+    "last_evidence_at": "2026-11-22T16:31:06.981686+09:00",
     "website_url": "https://sherlock-holmes.co.kr/reservation/index.php?sido=9&bno=62#reservation",
-    "next_action": "현재 지점 운영과 공개 예약 제공 여부 재확인"
-  },
-  {
-    "cafe_id": "115701517",
-    "name": "싸인이스케이프",
-    "branch_name": "인계시티점",
-    "priority": 5,
-    "priority_label": "현재 운영·예약 제공 여부 확인",
-    "status": "reviewed_operation_unconfirmed",
-    "reason": "기본 S2 시간표를 인계시티에 매핑하지 않음. 인계시티 현행 공식 운영/대체 예약 URL 필요.",
-    "last_evidence_at": "2026-11-22",
-    "website_url": "http://www.signescape.com",
-    "next_action": "현재 지점 운영과 공개 예약 제공 여부 재확인"
-  },
-  {
-    "cafe_id": "2143447304",
-    "name": "안흥여관",
-    "branch_name": null,
-    "priority": 5,
-    "priority_label": "현재 운영·예약 제공 여부 확인",
-    "status": "reviewed_operation_unconfirmed",
-    "reason": "기존 DM 안내는 입력 보고서의 과거 관측으로만 유지. 이번에 현행 공식 운영 근거로 재사용하지 않음. 목척2길45 매장의 공식 계정/공개 예약 URL 필요. 공식 계정 특정 검색에서 검증 가능한 결과 미확보; DM/로그인 접근 안 함.",
-    "last_evidence_at": "2026-11-22",
-    "website_url": "http://place.map.kakao.com/2143447304",
-    "next_action": "현재 지점 운영과 공개 예약 제공 여부 재확인"
-  },
-  {
-    "cafe_id": "660859780",
-    "name": "알카트래즈방탈출카페",
-    "branch_name": null,
-    "priority": 5,
-    "priority_label": "현재 운영·예약 제공 여부 확인",
-    "status": "reviewed_operation_unconfirmed",
-    "reason": "온라인 시간표 수집 보류; 공사 중과 폐업을 구분. 공식 온라인 예약 시스템 재개 공지가 나오면 재검증. 전화나 메시지는 수행하지 않음.",
-    "last_evidence_at": "2026-11-22",
-    "website_url": "http://alcatraz.co.kr/",
-    "next_action": "현재 지점 운영과 공개 예약 제공 여부 재확인"
-  },
-  {
-    "cafe_id": "300855776",
-    "name": "오늘탈출",
-    "branch_name": "고양점",
-    "priority": 5,
-    "priority_label": "현재 운영·예약 제공 여부 확인",
-    "status": "reviewed_operation_unconfirmed",
-    "reason": "알림 신청 폼을 예약 경로/예약 가능으로 분류하지 않음. 공식 재오픈 일정과 예약 시간표 공개 후 재검증.",
-    "last_evidence_at": "2026-11-22",
-    "website_url": "https://www.todayescape.com",
-    "next_action": "현재 지점 운영과 공개 예약 제공 여부 재확인"
+    "next_action": "지점 운영 여부 재확인 대신 실제 예약 화면·공개 시간표 원천 검토"
   }
 ]
