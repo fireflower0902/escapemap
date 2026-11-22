@@ -177,6 +177,10 @@
   },
   {
     "script": "sync_escapetop_db",
+    "cafe_id": "1544141348"
+  },
+  {
+    "script": "sync_escapetop_db",
     "cafe_id": "1560724472"
   },
   {
@@ -340,6 +344,10 @@
     "cafe_id": "786094598"
   },
   {
+    "script": "sync_escapetop_db",
+    "cafe_id": "802938757"
+  },
+  {
     "cafe_id": "836762242",
     "script": "sync_escapetop_db"
   },
@@ -366,6 +374,82 @@
   {
     "script": "sync_escapetop_db",
     "cafe_id": "964420524"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_41"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_42"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_43"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_44"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_46"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_47"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_48"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_49"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_50"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_51"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_52"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_53"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_54"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_55"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_56"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_57"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_58"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_69"
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_83"
   },
   {
     "cafe_id": "1314964065",

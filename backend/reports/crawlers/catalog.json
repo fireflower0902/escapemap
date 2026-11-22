@@ -1917,6 +1917,40 @@
     "selections": {}
   },
   {
+    "id": "sync_fuzzyline_db",
+    "name": "하이드앤시크 새 공식 도메인의 공개 지점/테마/시간표 GET 수집기.",
+    "urls": [
+      "https://play.fuzzyline.io"
+    ],
+    "cafe_ids": [
+      "1944665207",
+      "554838835"
+    ],
+    "cafes": [
+      {
+        "cafe_id": "554838835",
+        "branch_name": "홍대점",
+        "address": "서울 마포구 동교동 203-57",
+        "area": "hongdae",
+        "name": "하이드앤시크",
+        "website_url": "http://withescaper.com",
+        "engine": "naver_booking",
+        "is_active": true
+      },
+      {
+        "cafe_id": "1944665207",
+        "branch_name": "쌈지길점",
+        "address": "서울 종로구 관훈동 38",
+        "area": "daehakro",
+        "name": "하이드앤시크",
+        "website_url": "https://fuzzyline.co.kr",
+        "engine": "naver_booking",
+        "is_active": true
+      }
+    ],
+    "selections": {}
+  },
+  {
     "id": "sync_geniusescape_db",
     "name": "지니어스이스케이프(geniusescape.kr) 테마 + 스케줄 DB 동기화 스크립트.",
     "urls": [

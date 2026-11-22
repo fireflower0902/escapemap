@@ -1,0 +1,74 @@
+[
+  {
+    "cafe_id": "123477337",
+    "name": "파라박스",
+    "url": "https://parabox.kr/",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "1254330051",
+    "name": "방탈출브이",
+    "url": "http://www.v-escape.co.kr",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "url": "http://unlimited-escape.com/",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "1757443413",
+    "name": "코난방탈출",
+    "url": "http://conanescape.kr",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "2000674643",
+    "name": "위드방탈출카페",
+    "url": "http://withescaper.com/",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "225341934",
+    "name": "라스트이스케이프",
+    "url": "http://lastescape.co.kr",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "27367643",
+    "name": "미스터리룸이스케이프",
+    "url": "http://mysteryroomescape.com/",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "280887856",
+    "name": "시크릿코드",
+    "url": "http://www.secret-code.co.kr",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "442981346",
+    "name": "다락방",
+    "url": "http://www.darockesc.com/",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "727312827",
+    "name": "미스터리룸이스케이프",
+    "url": "http://www.mysteryroomescape.com/",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "858962026",
+    "name": "방탈출브이",
+    "url": "http://www.v-escape.co.kr",
+    "error": "ConnectionError"
+  },
+  {
+    "cafe_id": "890251040",
+    "name": "제로월드",
+    "url": "https://zerolotteworld.com/",
+    "error": "ConnectionError"
+  }
+]

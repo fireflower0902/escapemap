@@ -1,0 +1,548 @@
+[
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_43",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:06.491607+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 3,
+    "slots": 165,
+    "statuses": {
+      "available": 159,
+      "full": 6
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 13.49,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_41",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:06.490058+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 427,
+    "statuses": {
+      "full": 71,
+      "available": 356
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 22.0,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_42",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:06.490942+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 350,
+    "statuses": {
+      "available": 347,
+      "full": 3
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 22.59,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_44",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:22.798637+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 280,
+    "statuses": {
+      "full": 8,
+      "available": 272
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 21.92,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_47",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:31.519212+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 253,
+    "statuses": {
+      "full": 9,
+      "available": 244
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 17.82,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_46",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:30.882679+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 325,
+    "statuses": {
+      "full": 5,
+      "available": 320
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 22.1,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_48",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:47.182621+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 246,
+    "statuses": {
+      "available": 231,
+      "full": 15
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 18.01,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_50",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:55.485557+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 260,
+    "statuses": {
+      "available": 257,
+      "full": 3
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 17.88,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_49",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:28:51.545466+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 6,
+    "slots": 448,
+    "statuses": {
+      "available": 431,
+      "full": 17
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 26.19,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_51",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:07.692105+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 6,
+    "slots": 462,
+    "statuses": {
+      "available": 456,
+      "full": 6
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 26.27,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_52",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:15.672816+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 6,
+    "slots": 391,
+    "statuses": {
+      "available": 383,
+      "full": 8
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 26.35,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_53",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:20.218946+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 7,
+    "slots": 420,
+    "statuses": {
+      "available": 417,
+      "full": 3
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 30.64,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1544141348",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:36.972335+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 204,
+    "statuses": {
+      "full": 14,
+      "available": 190
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 17.81,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_55",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:53.244753+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 373,
+    "statuses": {
+      "full": 14,
+      "available": 359
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 22.1,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_56",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:57.244894+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 6,
+    "slots": 442,
+    "statuses": {
+      "available": 429,
+      "full": 13
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 26.51,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_54",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:29:44.647053+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 9,
+    "slots": 533,
+    "statuses": {
+      "full": 12,
+      "available": 521
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 39.42,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_57",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:30:17.691972+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 352,
+    "statuses": {
+      "full": 32,
+      "available": 320
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 22.17,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_58",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:30:26.413346+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 204,
+    "statuses": {
+      "available": 198,
+      "full": 6
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 17.8,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_83",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:30:25.987025+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 5,
+    "slots": 412,
+    "statuses": {
+      "full": 63,
+      "available": 349
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 22.08,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "802938757",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:30:42.257742+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 210,
+    "statuses": {
+      "full": 14,
+      "available": 196
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 17.7,
+    "issues": [],
+    "error": null
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_69",
+    "returncode": 0,
+    "checked_at": "2026-11-22T10:30:46.352311+09:00",
+    "status": "smoke_pass",
+    "themes_fetched": 4,
+    "slots": 232,
+    "statuses": {
+      "available": 219,
+      "full": 13
+    },
+    "dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28"
+    ],
+    "published": true,
+    "duration_seconds": 17.79,
+    "issues": [],
+    "error": null
+  }
+]

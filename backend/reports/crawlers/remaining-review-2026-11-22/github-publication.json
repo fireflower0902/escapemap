@@ -1,0 +1,131 @@
+{
+  "run_url": "https://github.com/fireflower0902/escapemap/actions/runs/44971666850",
+  "results": [
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_43",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_50",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_56",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_42",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_49",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_55",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_41",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_48",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_54",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_83",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_44",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_51",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_57",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "1544141348",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_46",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_52",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_58",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "802938757",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_47",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_53",
+      "status": "published",
+      "exit_code": 0
+    },
+    {
+      "script": "sync_escapetop_db",
+      "cafe_id": "official_roomsa_69",
+      "status": "published",
+      "exit_code": 0
+    }
+  ]
+}
