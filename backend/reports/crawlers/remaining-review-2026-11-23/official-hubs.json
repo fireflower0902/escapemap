@@ -1,0 +1,38 @@
+[
+  {
+    "name": "미스터리룸 강남",
+    "url": "https://mysteryroomescape-gn.com/reservation/reservation.html",
+    "error": "SSLError"
+  },
+  {
+    "name": "제로월드 롯데월드",
+    "url": "https://adventure.lotteworld.com/museum/program/escape",
+    "http_status": 200,
+    "title": "민속박물관",
+    "links": []
+  },
+  {
+    "name": "미션브레이크 공식 허브",
+    "url": "https://xphobia.net/",
+    "http_status": 200,
+    "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+    "links": [
+      {
+        "text": "강남 · 제일기숙학원 ↗",
+        "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+      },
+      {
+        "text": "홍대 · 한강대 담력훈련 ↗",
+        "href": "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+      },
+      {
+        "text": "제일기숙학원 예약하기 ↗",
+        "href": "https://m.place.naver.com/place/1649739888/booking?entry=ple"
+      },
+      {
+        "text": "미션브레이크 ↗ CGV × Phobia · 예약",
+        "href": "https://cgv.co.kr/act/actvt/00004"
+      }
+    ]
+  }
+]

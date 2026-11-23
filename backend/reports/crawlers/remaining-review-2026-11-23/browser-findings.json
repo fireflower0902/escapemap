@@ -1,0 +1,24 @@
+[
+  {
+    "site": "REC Bookeo",
+    "official_url": "https://www.rec-escape.com/book-now",
+    "observed": "공식 widget.js→실제 시작 페이지에서 자동화 접근에 따른 일시 차단과 약관 안내 확인. IP/일시 토큰은 기록하지 않음."
+  },
+  {
+    "site": "미스터리담",
+    "official_url": "https://booking.naver.com/booking/12/bizes/1575275",
+    "observed": "nid.naver.com 로그인 이동"
+  },
+  {
+    "site": "키즈인더룸 후보 예약처",
+    "lead_url": "https://m.booking.naver.com/booking/12/bizes/993861/",
+    "lead_source": "https://mom-mom.net/travel/map/places/659619e73ad19b7dc0c338d5",
+    "observed": "로그인 이동. 같은 매장 주소/상품 및 공개 시간표 검증 미완료; 후보 링크로만 보관."
+  },
+  {
+    "site": "CGV 미션브레이크",
+    "official_url": "https://cgv.co.kr/act/actvt/00004",
+    "source": "https://xphobia.net/",
+    "observed": "비정상적 접속에 따른 이용 제한 안내"
+  }
+]

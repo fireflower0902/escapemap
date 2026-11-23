@@ -1,0 +1,890 @@
+[
+  {
+    "cafe_id": "1231888375",
+    "name": "리버스이스케이프",
+    "branch_name": "향남점",
+    "priority": 1,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1231888375",
+      "name": "리버스이스케이프",
+      "branch_name": "향남점",
+      "priority": 1,
+      "url": "http://reverseesc.com",
+      "status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "bytes": 28133,
+      "booking_links": [
+        "/reservation.html"
+      ]
+    },
+    "outcome": "source_api_unavailable",
+    "reason": "공식 홈은 HTTP200이나 공개 /service/get_data는 연결 종료 재현. 예약 완료 목록 없이 가용 슬롯을 만들 수 없음.",
+    "unblock_requirement": "공식 API 정상화 또는 새 공식 예약처"
+  },
+  {
+    "cafe_id": "1772504569",
+    "name": "리버스이스케이프",
+    "branch_name": "안산점",
+    "priority": 1,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1772504569",
+      "name": "리버스이스케이프",
+      "branch_name": "안산점",
+      "priority": 1,
+      "url": "http://reverseesc.com",
+      "status": 200,
+      "final_url": "http://reverseesc.com/",
+      "title": "리버스 이스케이프",
+      "bytes": 28133,
+      "booking_links": [
+        "/reservation.html"
+      ]
+    },
+    "outcome": "source_api_unavailable",
+    "reason": "위와 같은 공통 API 연결 종료. 향남 데이터를 안산으로 치환하지 않음.",
+    "unblock_requirement": "공식 API 정상화 또는 새 공식 예약처"
+  },
+  {
+    "cafe_id": "27369058",
+    "name": "리얼이스케이프챌린지",
+    "branch_name": null,
+    "priority": 1,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "27369058",
+      "name": "리얼이스케이프챌린지",
+      "branch_name": null,
+      "priority": 1,
+      "url": "http://www.rec-escape.com/",
+      "status": 200,
+      "final_url": "http://www.rec-escape.com/",
+      "title": "리얼 이스케이프 첼린지",
+      "bytes": 61971,
+      "booking_links": []
+    },
+    "outcome": "provider_permission_required",
+    "reason": "공식 Bookeo 위젯 JS에서 실제 start.html 경로까지 추적하고 브라우저 확인. 자동화 도구 접근이 약관 위반이며 일시 차단됐다는 명시적 안내 확인. 더 이상 접근하지 않음.",
+    "unblock_requirement": "Bookeo/매장의 허용된 데이터 연동 또는 별도 공개 예약처"
+  },
+  {
+    "cafe_id": "680681357",
+    "name": "더코드",
+    "branch_name": "",
+    "priority": 1,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "680681357",
+      "name": "더코드",
+      "branch_name": "",
+      "priority": 1,
+      "url": "http://www.thecode-escape.com",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "공식 기존 도메인 연결 실패 재현. 외부 디렉터리의 8테마는 실시간 시간표 근거가 아님.",
+    "unblock_requirement": "현행 공식 예약 URL 및 지점 일치 확인"
+  },
+  {
+    "cafe_id": "123477337",
+    "name": "파라박스",
+    "branch_name": null,
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "123477337",
+      "name": "파라박스",
+      "branch_name": null,
+      "priority": 2,
+      "url": "https://parabox.kr/",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "1254330051",
+    "name": "방탈출브이",
+    "branch_name": "공평점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1254330051",
+      "name": "방탈출브이",
+      "branch_name": "공평점",
+      "priority": 2,
+      "url": "http://www.v-escape.co.kr",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "166623372",
+    "name": "언리미티드 이스케이프",
+    "branch_name": null,
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "166623372",
+      "name": "언리미티드 이스케이프",
+      "branch_name": null,
+      "priority": 2,
+      "url": "http://unlimited-escape.com/",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "1757443413",
+    "name": "코난방탈출",
+    "branch_name": "구로디지털단지역점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1757443413",
+      "name": "코난방탈출",
+      "branch_name": "구로디지털단지역점",
+      "priority": 2,
+      "url": "http://conanescape.kr",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "2000674643",
+    "name": "위드방탈출카페",
+    "branch_name": null,
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "2000674643",
+      "name": "위드방탈출카페",
+      "branch_name": null,
+      "priority": 2,
+      "url": "http://withescaper.com/",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "225341934",
+    "name": "라스트이스케이프",
+    "branch_name": "강남점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "225341934",
+      "name": "라스트이스케이프",
+      "branch_name": "강남점",
+      "priority": 2,
+      "url": "http://lastescape.co.kr",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "255097329",
+    "name": "방탈출카페 일상탈출",
+    "branch_name": "안양일번가점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "255097329",
+      "name": "방탈출카페 일상탈출",
+      "branch_name": "안양일번가점",
+      "priority": 2,
+      "url": "http://place.map.kakao.com/255097329",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/255097329",
+      "title": "방탈출카페 일상탈출 안양일번가점 | 카카오맵",
+      "bytes": 3617,
+      "booking_links": []
+    },
+    "outcome": "official_booking_unconfirmed",
+    "reason": "지도 등록200·구인공고는 확인되나 공개 예약처 미확보. 구인공고에 일상탈출과 마스터키 명칭·동일주소가 함께 표시되지만 동일 운영/데이터 통합의 충분한 증거로 간주하지 않음.",
+    "unblock_requirement": "운영자 현행 예약 링크 및 상호 관계"
+  },
+  {
+    "cafe_id": "280887856",
+    "name": "시크릿코드",
+    "branch_name": "홍대직영점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "280887856",
+      "name": "시크릿코드",
+      "branch_name": "홍대직영점",
+      "priority": 2,
+      "url": "http://www.secret-code.co.kr",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "442981346",
+    "name": "다락방",
+    "branch_name": "안양점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "442981346",
+      "name": "다락방",
+      "branch_name": "안양점",
+      "priority": 2,
+      "url": "http://www.darockesc.com/",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "79137052",
+    "name": "페르소나",
+    "branch_name": null,
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "79137052",
+      "name": "페르소나",
+      "branch_name": null,
+      "priority": 2,
+      "url": "http://place.map.kakao.com/79137052",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/79137052",
+      "title": "페르소나 | 카카오맵",
+      "bytes": 3535,
+      "booking_links": []
+    },
+    "outcome": "official_booking_unconfirmed",
+    "reason": "카카오 지도 등록200, 공개 예약 링크 없음. 검색에서도 해당 매장의 현행 공식 예약처를 확정하지 못함.",
+    "unblock_requirement": "현행 공식 예약 링크"
+  },
+  {
+    "cafe_id": "858962026",
+    "name": "방탈출브이",
+    "branch_name": "삼덕점",
+    "priority": 2,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "858962026",
+      "name": "방탈출브이",
+      "branch_name": "삼덕점",
+      "priority": 2,
+      "url": "http://www.v-escape.co.kr",
+      "error": "ConnectionError"
+    },
+    "outcome": "official_source_unconfirmed",
+    "reason": "기존 공식 도메인 연결 실패 재현. 현재 공식 예약 URL을 검색으로 확정하지 못함. 폐업/자동 수집 불가능으로 확정하지 않음.",
+    "unblock_requirement": "현행 공식 예약 URL 및 동일 지점 주소·테마 대조"
+  },
+  {
+    "cafe_id": "167846502",
+    "name": "큐브이스케이프",
+    "branch_name": "대전둔산점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "167846502",
+      "name": "큐브이스케이프",
+      "branch_name": "대전둔산점",
+      "priority": 3,
+      "url": "http://daejeon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=6",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "1713311920",
+    "name": "제트방탈출카페",
+    "branch_name": "",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1713311920",
+      "name": "제트방탈출카페",
+      "branch_name": "",
+      "priority": 3,
+      "url": "http://www.zescape.co.kr",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "1857201893",
+    "name": "큐브이스케이프",
+    "branch_name": "천호점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1857201893",
+      "name": "큐브이스케이프",
+      "branch_name": "천호점",
+      "priority": 3,
+      "url": "http://cheonho.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=7",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "203642029",
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "대학로점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "203642029",
+      "name": "덤앤더머 방탈출카페",
+      "branch_name": "대학로점",
+      "priority": 3,
+      "url": "http://www.dumbndumber.kr",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "2100000001",
+    "name": "큐브이스케이프",
+    "branch_name": "잠실점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "2100000001",
+      "name": "큐브이스케이프",
+      "branch_name": "잠실점",
+      "priority": 3,
+      "url": "http://jamsil.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=5",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "2100000004",
+    "name": "큐브이스케이프",
+    "branch_name": "대구점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "2100000004",
+      "name": "큐브이스케이프",
+      "branch_name": "대구점",
+      "priority": 3,
+      "url": "http://daegu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=2",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "2138418097",
+    "name": "어메이즈드",
+    "branch_name": "3호점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "2138418097",
+      "name": "어메이즈드",
+      "branch_name": "3호점",
+      "priority": 3,
+      "url": "https://amazed.co.kr/?page_id=4808#booking",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 응답에서 공식 예약 달력 확인 불가",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "27522878",
+    "name": "큐브이스케이프",
+    "branch_name": "전주점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "27522878",
+      "name": "큐브이스케이프",
+      "branch_name": "전주점",
+      "priority": 3,
+      "url": "http://junju.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=4",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "27564986",
+    "name": "큐브이스케이프",
+    "branch_name": "인천점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "27564986",
+      "name": "큐브이스케이프",
+      "branch_name": "인천점",
+      "priority": 3,
+      "url": "http://incheon.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=3",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "28574930",
+    "name": "덤앤더머 방탈출카페",
+    "branch_name": "서면점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "28574930",
+      "name": "덤앤더머 방탈출카페",
+      "branch_name": "서면점",
+      "priority": 3,
+      "url": "http://www.dumbndumber-sm.kr",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "4331171",
+    "name": "큐브이스케이프",
+    "branch_name": "수유점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "4331171",
+      "name": "큐브이스케이프",
+      "branch_name": "수유점",
+      "priority": 3,
+      "url": "http://suyu.cubeescape.co.kr/?sd=3&sc=3_1&rbranch=8",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_10",
+    "name": "비밀의화원",
+    "branch_name": "광주점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_10",
+      "name": "비밀의화원",
+      "branch_name": "광주점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=10&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_11",
+    "name": "비밀의화원",
+    "branch_name": "시네마틱 혜화점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_11",
+      "name": "비밀의화원",
+      "branch_name": "시네마틱 혜화점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=11&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_12",
+    "name": "비밀의화원",
+    "branch_name": "전주점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_12",
+      "name": "비밀의화원",
+      "branch_name": "전주점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=12&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_3",
+    "name": "비밀의화원",
+    "branch_name": "서면점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_3",
+      "name": "비밀의화원",
+      "branch_name": "서면점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=3&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_4",
+    "name": "비밀의화원",
+    "branch_name": "대학로점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_4",
+      "name": "비밀의화원",
+      "branch_name": "대학로점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=4&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_5",
+    "name": "비밀의화원",
+    "branch_name": "건대점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_5",
+      "name": "비밀의화원",
+      "branch_name": "건대점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=5&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "official_secretgarden_6",
+    "name": "비밀의화원",
+    "branch_name": "동성로점",
+    "priority": 3,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "official_secretgarden_6",
+      "name": "비밀의화원",
+      "branch_name": "동성로점",
+      "priority": 3,
+      "url": "https://www.secretgardenescape.com/reservation.html?k_shopno=6&rdate=2026-11-15",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "implemented_runtime_deferred",
+    "reason": "GitHub 실행에서 HTTP 403 접근 제한",
+    "unblock_requirement": "기존 구현 검토와 별도로 GitHub 접근 또는 공식 대체 예약처 해결 필요",
+    "new_network_review": false
+  },
+  {
+    "cafe_id": "1394599334",
+    "name": "지니어스이스케이프",
+    "branch_name": "",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1394599334",
+      "name": "지니어스이스케이프",
+      "branch_name": "",
+      "priority": 4,
+      "url": "http://www.geniusescape.kr",
+      "status": 403,
+      "final_url": "http://www.geniusescape.kr/",
+      "title": "IIS 10.0 Detailed Error - 403.503 - Forbidden",
+      "bytes": 4785,
+      "booking_links": []
+    },
+    "outcome": "access_restricted",
+    "reason": "기존 공식 도메인 HTTP403.503 IIS 접근 제한 재확인. 동명이인인 대학로 매장으로 치환하지 않음.",
+    "unblock_requirement": "매장 접근 허용 또는 다른 공식 공개 예약처"
+  },
+  {
+    "cafe_id": "1436082735",
+    "name": "미스터리담",
+    "branch_name": "",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1436082735",
+      "name": "미스터리담",
+      "branch_name": "",
+      "priority": 4,
+      "url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/1575275",
+      "title": "네이버 예약",
+      "bytes": 18397,
+      "booking_links": []
+    },
+    "outcome": "login_required",
+    "reason": "기존 공식 네이버 예약 1575275 브라우저 접속이 네이버 로그인으로 이동. 새 단서 mysterydam.com은 직접 연결 실패로 시간표 검증 못함.",
+    "unblock_requirement": "익명 공개 예약처 또는 허용된 연동"
+  },
+  {
+    "cafe_id": "1719351380",
+    "name": "필더블랭크",
+    "branch_name": "",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1719351380",
+      "name": "필더블랭크",
+      "branch_name": "",
+      "priority": 4,
+      "url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/1548412",
+      "title": "네이버 예약",
+      "bytes": 18397,
+      "booking_links": []
+    },
+    "outcome": "login_required_previous_evidence",
+    "reason": "기존 공식 네이버1548412 HTTP200은 SPA 셸. 전날 브라우저 로그인 이동·공개 쿼리 테마0 근거 유지. 오늘 새 공개 예약 원천 미확보.",
+    "unblock_requirement": "익명 공개 예약처 또는 허용된 연동"
+  },
+  {
+    "cafe_id": "1831030495",
+    "name": "체셔캣방탈출카페",
+    "branch_name": "",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "1831030495",
+      "name": "체셔캣방탈출카페",
+      "branch_name": "",
+      "priority": 4,
+      "url": "https://booking.naver.com/booking/12/bizes/601362",
+      "status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/601362",
+      "title": "네이버 예약",
+      "bytes": 18394,
+      "booking_links": []
+    },
+    "outcome": "login_required_previous_evidence",
+    "reason": "공식 네이버601362 HTTP200은 SPA 셸. 전날 로그인 이동·테마0 근거 유지. 외부 디렉터리도 같은 예약처만 안내.",
+    "unblock_requirement": "익명 공개 예약처 또는 허용된 연동"
+  },
+  {
+    "cafe_id": "212176813",
+    "name": "개꿀이스케이프",
+    "branch_name": null,
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "212176813",
+      "name": "개꿀이스케이프",
+      "branch_name": null,
+      "priority": 4,
+      "url": "https://doghoneyescape.com/",
+      "status": "existing_access_limit_or_no_permission",
+      "new_request": false
+    },
+    "outcome": "permission_required_previous_evidence",
+    "reason": "이전 공식 사이트의 허가된 요청 외 크롤링 금지 안내를 유지. 이번에 추가 자동 요청하지 않음.",
+    "unblock_requirement": "매장/제공자 명시 허용"
+  },
+  {
+    "cafe_id": "27367643",
+    "name": "미스터리룸이스케이프",
+    "branch_name": "강남점",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "27367643",
+      "name": "미스터리룸이스케이프",
+      "branch_name": "강남점",
+      "priority": 4,
+      "url": "http://mysteryroomescape.com/",
+      "error": "ConnectionError"
+    },
+    "outcome": "certificate_connection_failed",
+    "reason": "현재 강남 전용 mysteryroomescape-gn.com/reservation/reservation.html은 SSL 연결 실패. 구 mysteryroomescape.com 연결 실패. 전날403 기록과 별개로 보존.",
+    "unblock_requirement": "현행 도메인 정상 연결 및 날짜별 시간표"
+  },
+  {
+    "cafe_id": "461296797",
+    "name": "고한 시티써커스",
+    "branch_name": null,
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "461296797",
+      "name": "고한 시티써커스",
+      "branch_name": null,
+      "priority": 4,
+      "url": "http://place.map.kakao.com/461296797",
+      "status": 200,
+      "final_url": "https://place.map.kakao.com/461296797",
+      "title": "고한 시티써커스 | 카카오맵",
+      "bytes": 3689,
+      "booking_links": []
+    },
+    "outcome": "consent_gated_previous_evidence",
+    "reason": "지도 등록 응답200만 재확인. 전날 공식 지자체 예약처가 개인정보 동의 전 시간표 미제공했던 근거 유지. 동의 우회 없이 제외.",
+    "unblock_requirement": "개인정보 동의 없이 제공되는 시간표 또는 허용된 연동"
+  },
+  {
+    "cafe_id": "52252534",
+    "name": "키즈인더룸",
+    "branch_name": "평촌점",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "52252534",
+      "name": "키즈인더룸",
+      "branch_name": "평촌점",
+      "priority": 4,
+      "url": "https://kidsintheroom.com/",
+      "status": 403,
+      "final_url": "https://kidsintheroom.com/",
+      "title": "접근 제한",
+      "bytes": 2775,
+      "booking_links": []
+    },
+    "outcome": "new_booking_lead_login_required",
+    "reason": "기존 홈페이지403. 별도 네이버993861 예약 링크 신규 발견, 실제 브라우저 로그인 이동. 미인증 시간표·상품·주소 대조를 완료하지 못해 해당 사업장을 확정 연결하지 않음.",
+    "unblock_requirement": "공식 매장 주소/상품 대조와 익명 공개 시간표"
+  },
+  {
+    "cafe_id": "763904207",
+    "name": "월투월방탈출",
+    "branch_name": "",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "763904207",
+      "name": "월투월방탈출",
+      "branch_name": "",
+      "priority": 4,
+      "url": "https://booking.naver.com/booking/12/bizes/570203",
+      "status": 200,
+      "final_url": "https://booking.naver.com/booking/12/bizes/570203",
+      "title": "네이버 예약",
+      "bytes": 18394,
+      "booking_links": []
+    },
+    "outcome": "login_required_previous_evidence",
+    "reason": "공식 네이버570203 HTTP200은 SPA 셸. 전날 로그인 이동·테마0 근거 유지. 새 공식 공개 원천 미확보.",
+    "unblock_requirement": "익명 공개 예약처 또는 허용된 연동"
+  },
+  {
+    "cafe_id": "888192913",
+    "name": "미션브레이크",
+    "branch_name": "CGV용산아이파크몰점",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "888192913",
+      "name": "미션브레이크",
+      "branch_name": "CGV용산아이파크몰점",
+      "priority": 4,
+      "url": "https://www.xphobia.net/",
+      "status": 200,
+      "final_url": "https://xphobia.net/",
+      "title": "비트포비아 BeatPhobia — Immersive Experience Content Studio",
+      "bytes": 27413,
+      "booking_links": [
+        "https://m.place.naver.com/place/1649739888/booking?entry=ple",
+        "https://m.place.naver.com/place/1762521435/booking?entry=ple"
+      ]
+    },
+    "outcome": "access_restricted",
+    "reason": "현재 비트포비아 허브→cgv.co.kr/act/actvt/00004 연결 재확인. 실제 브라우저에서 비정상 접속 제한 안내. 용산 시간표 확보 못함.",
+    "unblock_requirement": "CGV의 허용된 공개 데이터 경로"
+  },
+  {
+    "cafe_id": "890251040",
+    "name": "제로월드",
+    "branch_name": "롯데월드점",
+    "priority": 4,
+    "reviewed_at": "2026-11-23T19:57:29.608860+09:00",
+    "network_check": {
+      "cafe_id": "890251040",
+      "name": "제로월드",
+      "branch_name": "롯데월드점",
+      "priority": 4,
+      "url": "https://zerolotteworld.com/",
+      "error": "ConnectionError"
+    },
+    "outcome": "source_access_unverified",
+    "reason": "기존 zerolotteworld.com 연결 실패. 공식 민속박물관 프로그램 페이지 직접 응답은 소개 화면, 웹 조회에서는 봇 접근 확인 안내. 날짜별 예약 상태 확보 못함.",
+    "unblock_requirement": "공식 예매처에서 검증 가능한 공개 날짜·시간표"
+  }
+]
