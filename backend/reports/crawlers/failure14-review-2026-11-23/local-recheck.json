@@ -1,0 +1,148 @@
+[
+  {
+    "cafe_id": "1314964065",
+    "script": "sync_escbangtalul_db",
+    "status": "smoke_pass",
+    "themes": 5,
+    "slots": 51,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 2
+  },
+  {
+    "cafe_id": "1654390566",
+    "script": "sync_xescape_db",
+    "status": "smoke_pass",
+    "themes": 4,
+    "slots": 60,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 2
+  },
+  {
+    "cafe_id": "230738333",
+    "script": "sync_ccescapezone_db",
+    "status": "smoke_pass",
+    "themes": 5,
+    "slots": 100,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 2
+  },
+  {
+    "cafe_id": "2024880532",
+    "script": "sync_escbangtalul_db",
+    "status": "smoke_pass",
+    "themes": 6,
+    "slots": 76,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 2
+  },
+  {
+    "cafe_id": "1772415237",
+    "script": "sync_xescape_db",
+    "status": "smoke_pass",
+    "themes": 8,
+    "slots": 124,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 2
+  },
+  {
+    "cafe_id": "782208965",
+    "script": "sync_roomlescape_db",
+    "status": "smoke_pass",
+    "themes": 1,
+    "slots": 14,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 3
+  },
+  {
+    "cafe_id": "27559974",
+    "script": "sync_escbangtalul_db",
+    "status": "smoke_pass",
+    "themes": 5,
+    "slots": 64,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 2
+  },
+  {
+    "cafe_id": "969459474",
+    "script": "sync_escapers_db",
+    "status": "smoke_pass",
+    "themes": 5,
+    "slots": 46,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 3
+  },
+  {
+    "cafe_id": "475592733",
+    "script": "sync_rememberesc_db",
+    "status": "error",
+    "themes": 0,
+    "slots": 0,
+    "error": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+    "log_errors": [
+      "[WARN] GET /service/get_data 실패: HTTP Error 504: Gateway Time-out",
+      "Traceback (most recent call last):"
+    ],
+    "http_calls": 1
+  },
+  {
+    "cafe_id": "49858990",
+    "script": "sync_rememberesc_db",
+    "status": "error",
+    "themes": 0,
+    "slots": 0,
+    "error": "ValueError: 테마/예약완료 목록 응답을 모두 확인하지 못했습니다.",
+    "log_errors": [
+      "[WARN] GET /service/get_data 실패: HTTP Error 504: Gateway Time-out",
+      "Traceback (most recent call last):"
+    ],
+    "http_calls": 1
+  },
+  {
+    "cafe_id": "1166453549",
+    "script": "sync_sherlock_db",
+    "status": "needs_review",
+    "themes": 0,
+    "slots": 0,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 8
+  },
+  {
+    "cafe_id": "1233678979",
+    "script": "sync_thetimeescape_db",
+    "status": "smoke_pass",
+    "themes": 6,
+    "slots": 72,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 12
+  },
+  {
+    "cafe_id": "1735229345",
+    "script": "sync_roomlescape_db",
+    "status": "smoke_pass",
+    "themes": 1,
+    "slots": 12,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 3
+  },
+  {
+    "cafe_id": "596589943",
+    "script": "sync_roomlescape_db",
+    "status": "smoke_pass",
+    "themes": 2,
+    "slots": 25,
+    "error": null,
+    "log_errors": [],
+    "http_calls": 5
+  }
+]
