@@ -62,3 +62,12 @@ def test_runtime_weighting_avoids_one_slow_group():
  weights=[sum(r['estimated_seconds'] for r in g) for g in groups]
  assert max(weights)-min(weights)<=1
  assert groups==[module.select_tasks(list(reversed(rows)),i,4) for i in range(4)]
+
+
+def test_long_provider_queues_start_first_without_lock_waiter_tasks():
+ rows=[{'script':'sync_a','cafe_id':str(i),'estimated_seconds':1} for i in range(3)]
+ rows+=[{'script':'sync_b','cafe_id':'slow','estimated_seconds':20}]
+ batches=module.provider_batches(rows)
+ assert [[r['cafe_id'] for r in b] for b in batches]==[['slow'],['0','1','2']]
+ assert len({b[0]['script'] for b in batches})==len(batches)
+ assert sum(map(len,batches))==len(rows)

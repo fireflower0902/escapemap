@@ -24,6 +24,12 @@ def select_tasks(items,shard,shards):
    if groups[script]:ordered.append(groups[script].popleft())
  return ordered
 
+def provider_batches(tasks):
+ # A worker owns a provider queue, so a lock waiter cannot occupy another worker.
+ groups=collections.defaultdict(list)
+ for task in tasks:groups[task['script']].append(task)
+ return sorted(groups.values(),key=lambda batch:(-sum(float(t.get('estimated_seconds',1)) for t in batch),batch[0]['script']))
+
 def failure_details(report_path):
  try:
   check=json.loads(report_path.read_text())
@@ -54,9 +60,12 @@ def main():
     r=subprocess.run([sys.executable,str(ROOT/'scripts/run_supabase_crawler.py'),task['script'],'--cafe-id',task['cafe_id'],'--days',str(a.days),'--timeout',str(a.timeout)],cwd=ROOT,capture_output=True,text=True,timeout=a.timeout+30)
     return {**task,'status':'published' if r.returncode==0 else 'failed','exit_code':r.returncode,'duration_seconds':round(time.monotonic()-started,2),**(failure_details(source) if r.returncode else {})}
    except subprocess.TimeoutExpired:return {**task,'status':'timeout','exit_code':124,'failure_kind':'infrastructure','reason':'수집 자식 프로세스 종료/결과 기록 제한 시간 초과','duration_seconds':round(time.monotonic()-started,2)}
+ def run_provider(batch):
+  return [run(task) for task in batch]
  with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
-  for future in concurrent.futures.as_completed([pool.submit(run,t) for t in tasks]):
-   row=future.result();results.append(row);print(len(results),len(tasks),row['cafe_id'],row['status'],flush=True)
+  for future in concurrent.futures.as_completed([pool.submit(run_provider,batch) for batch in provider_batches(tasks)]):
+   for row in future.result():
+    results.append(row);print(len(results),len(tasks),row['cafe_id'],row['status'],flush=True)
  out=a.output;out.mkdir(parents=True,exist_ok=True)
  report={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'shard':a.shard,'days':a.days,'total':len(tasks),'published':sum(r['status']=='published' for r in results),'results':results}
  for row in results:

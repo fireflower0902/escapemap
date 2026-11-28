@@ -43,8 +43,6 @@ jobs:
       - name: Prune history older than seven days
         if: matrix.shard == 0
         run: uv run python scripts/prune_crawl_history.py
-      - name: Install crawler browser
-        run: uv run playwright install --with-deps chromium
       - name: Collect and publish verified cafes
         run: uv run python scripts/refresh_scheduled.py --days "$DAYS" --shard ${{ matrix.shard }} --shards 12 --workers 2 --timeout 150 --allow-site-failures
       - name: Save per-cafe verification results
