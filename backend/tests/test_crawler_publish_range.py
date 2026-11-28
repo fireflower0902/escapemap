@@ -9,6 +9,7 @@ class Connection:
  def transaction(self):return Transaction()
  async def fetchval(self,sql,*args):return True if 'EXISTS' in sql else 1
  async def execute(self,*args):pass
+ async def fetchrow(self,*args):return {'refreshed_day':None}
  async def close(self,**kwargs):pass
 class PublishRangeTests(unittest.IsolatedAsyncioTestCase):
  async def test_monthly_response_publishes_only_today_through_day_six(self):

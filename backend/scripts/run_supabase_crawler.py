@@ -14,10 +14,18 @@ async def publish(check,store,cid,days):
    run=await conn.fetchval('INSERT INTO escape.crawl_runs(script,started_at,finished_at,status,metadata) VALUES($1,$2,now(),$3,$4::jsonb) RETURNING id',check['script'],when,check['status'],json.dumps({'requested_cafe_ids':[cid],'issues':check.get('issues',[])}))
    if check['status']=='smoke_pass':
     # 정정한 기존 지점 이름/주소 보존. 수집된 테마 필드만 병합한다.
-    exists=await conn.fetchval('SELECT EXISTS(SELECT 1 FROM escape.cafes WHERE id=$1)',cid)
-    cafes=[] if exists else [dict(store.data['cafes'][cid],id=cid)]
+    await conn.execute('SELECT pg_advisory_xact_lock(hashtextextended($1,0))',cid+':metadata')
+    existing=await conn.fetchrow("SELECT metadata->>'crawler_details_refreshed_on' AS refreshed_day FROM escape.cafes WHERE id=$1",cid)
+    cafes=[] if existing else [dict(store.data['cafes'][cid],id=cid)]
     themes=[dict(store.data['themes'][tid],id=tid) for col,tid in set(store.writes) if col=='themes']
-    await import_metadata(conn,cafes,themes)
+    refresh_details=not existing or existing['refreshed_day']!=when.date().isoformat()
+    if not refresh_details and themes:
+     known=await conn.fetch('SELECT id FROM escape.themes WHERE id=ANY($1::text[])',[t['id'] for t in themes])
+     known_ids={r['id'] for r in known};themes=[t for t in themes if t['id'] not in known_ids]
+    if cafes or themes:await import_metadata(conn,cafes,themes)
+    if refresh_details:
+     await conn.execute("UPDATE escape.cafes SET metadata=metadata||jsonb_build_object('crawler_details_refreshed_on',$2::text) WHERE id=$1",cid,when.date().isoformat())
+    check['metadata_refresh']='daily' if refresh_details else 'new_themes_only'
     for day,data in store.data.get('schedules',{}).items():
      service_day=datetime.date.fromisoformat(day)
      if not when.date() <= service_day <= when.date()+datetime.timedelta(days=days):continue

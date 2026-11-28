@@ -1,11 +1,21 @@
 """검증된 전국 지점을 분할 수집하고 실패를 CI 결과와 요약에 남긴다."""
 from __future__ import annotations
-import argparse, collections, concurrent.futures, datetime, json, pathlib, shutil, subprocess, sys, threading
+import argparse, collections, concurrent.futures, datetime, json, pathlib, shutil, subprocess, sys, threading, time
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 
 def select_tasks(items,shard,shards):
  if not 0<=shard<shards:raise ValueError('Invalid shard')
- partition=sorted(items,key=lambda row:(row['script'],row['cafe_id']))[shard::shards]
+ # Longest-first, deterministic load balancing; cap the number of groups per provider.
+ partitions=[[] for _ in range(shards)];loads=[0.0]*shards
+ provider_loads=[collections.defaultdict(float) for _ in range(shards)]
+ assigned=collections.defaultdict(set)
+ for task in sorted(items,key=lambda r:(-float(r.get('estimated_seconds',1)),r['script'],r['cafe_id'])):
+  script=task['script'];weight=float(task.get('estimated_seconds',1))
+  cap=min(shards,8 if script=='sync_escapetop_db' else 6)
+  choices=range(shards) if len(assigned[script])<cap else sorted(assigned[script])
+  index=min(choices,key=lambda i:(max((loads[i]+weight)/2,provider_loads[i][script]+weight),loads[i],i))
+  partitions[index].append(task);loads[index]+=weight;provider_loads[index][script]+=weight;assigned[script].add(index)
+ partition=partitions[shard]
  groups=collections.defaultdict(collections.deque)
  for row in partition:groups[row['script']].append(row)
  ordered=[]
@@ -39,10 +49,11 @@ def main():
   with locks[task['script']]:
    source=ROOT/'reports/crawlers/supabase'/f"{task['script']}-{task['cafe_id']}.json"
    source.unlink(missing_ok=True)  # A checked-in report from an older run is not evidence for this run.
+   started=time.monotonic()
    try:
     r=subprocess.run([sys.executable,str(ROOT/'scripts/run_supabase_crawler.py'),task['script'],'--cafe-id',task['cafe_id'],'--days',str(a.days),'--timeout',str(a.timeout)],cwd=ROOT,capture_output=True,text=True,timeout=a.timeout+30)
-    return {**task,'status':'published' if r.returncode==0 else 'failed','exit_code':r.returncode,**(failure_details(source) if r.returncode else {})}
-   except subprocess.TimeoutExpired:return {**task,'status':'timeout','exit_code':124,'failure_kind':'infrastructure','reason':'수집 자식 프로세스 종료/결과 기록 제한 시간 초과'}
+    return {**task,'status':'published' if r.returncode==0 else 'failed','exit_code':r.returncode,'duration_seconds':round(time.monotonic()-started,2),**(failure_details(source) if r.returncode else {})}
+   except subprocess.TimeoutExpired:return {**task,'status':'timeout','exit_code':124,'failure_kind':'infrastructure','reason':'수집 자식 프로세스 종료/결과 기록 제한 시간 초과','duration_seconds':round(time.monotonic()-started,2)}
  with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
   for future in concurrent.futures.as_completed([pool.submit(run,t) for t in tasks]):
    row=future.result();results.append(row);print(len(results),len(tasks),row['cafe_id'],row['status'],flush=True)

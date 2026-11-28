@@ -6,7 +6,7 @@ class ScheduledRefreshTests(unittest.TestCase):
   rows=json.loads((ROOT/'data/scheduled-crawlers.json').read_text());shards=[module.select_tasks(rows,i,8) for i in range(8)]
   ids=[r['cafe_id'] for group in shards for r in group]
   self.assertEqual(len(ids),len(set(ids)));self.assertEqual(set(ids),{r['cafe_id'] for r in rows})
-  self.assertLessEqual(max(map(len,shards))-min(map(len,shards)),1)
+  self.assertTrue(all(shards))
   self.assertEqual(shards,[module.select_tasks(list(reversed(rows)),i,8) for i in range(8)])
  def test_rejects_invalid_partition_before_collection(self):
   for shard,shards in [(-1,8),(8,8),(0,0)]:
@@ -45,3 +45,20 @@ def test_candidate_manifest_does_not_collect_production_list(tmp_path, monkeypat
  assert report['total']==report['published']==1
  assert report['results'][0]['cafe_id']=='candidate-only'
  assert not (tmp_path/'reports/scheduled').exists()
+
+
+def test_provider_fanout_is_bounded_across_all_groups():
+ rows=json.loads((ROOT/'data/scheduled-crawlers.json').read_text())
+ groups=[module.select_tasks(rows,i,12) for i in range(12)]
+ for provider in {r['script'] for r in rows}:
+  count=sum(any(r['script']==provider for r in group) for group in groups)
+  assert count <= (8 if provider=='sync_escapetop_db' else 6)
+ assert sum(map(len,groups))==len(rows)
+
+
+def test_runtime_weighting_avoids_one_slow_group():
+ rows=[{'script':'sync_a','cafe_id':str(i),'estimated_seconds':100 if i<4 else 1} for i in range(16)]
+ groups=[module.select_tasks(rows,i,4) for i in range(4)]
+ weights=[sum(r['estimated_seconds'] for r in g) for g in groups]
+ assert max(weights)-min(weights)<=1
+ assert groups==[module.select_tasks(list(reversed(rows)),i,4) for i in range(4)]
