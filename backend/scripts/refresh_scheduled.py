@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse, collections, concurrent.futures, datetime, json, pathlib, shutil, subprocess, sys, threading, time
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 
-def select_tasks(items,shard,shards):
+def select_tasks(items,shard,shards,workers=2):
  if not 0<=shard<shards:raise ValueError('Invalid shard')
  # Longest-first, deterministic load balancing; cap the number of groups per provider.
  partitions=[[] for _ in range(shards)];loads=[0.0]*shards
@@ -11,9 +11,9 @@ def select_tasks(items,shard,shards):
  assigned=collections.defaultdict(set)
  for task in sorted(items,key=lambda r:(-float(r.get('estimated_seconds',1)),r['script'],r['cafe_id'])):
   script=task['script'];weight=float(task.get('estimated_seconds',1))
-  cap=min(shards,8 if script=='sync_escapetop_db' else 6)
+  cap=min(shards,10 if script=='sync_escapetop_db' else 6)
   choices=range(shards) if len(assigned[script])<cap else sorted(assigned[script])
-  index=min(choices,key=lambda i:(max((loads[i]+weight)/2,provider_loads[i][script]+weight),loads[i],i))
+  index=min(choices,key=lambda i:(max((loads[i]+weight)/workers,provider_loads[i][script]+weight),loads[i],i))
   partitions[index].append(task);loads[index]+=weight;provider_loads[index][script]+=weight;assigned[script].add(index)
  partition=partitions[shard]
  groups=collections.defaultdict(collections.deque)
@@ -49,7 +49,7 @@ def classify_check(check):
 def main():
  p=argparse.ArgumentParser();p.add_argument('--manifest',type=pathlib.Path,default=ROOT/'data/scheduled-crawlers.json');p.add_argument('--output',type=pathlib.Path,default=ROOT/'reports/scheduled');p.add_argument('--days',type=int,default=6);p.add_argument('--shard',type=int,default=0);p.add_argument('--shards',type=int,default=1);p.add_argument('--workers',type=int,default=2);p.add_argument('--timeout',type=int,default=180);p.add_argument('--allow-site-failures',action='store_true',help='개별 사이트 실패는 경고로 남기고 전체 수집률은 별도 집계 작업에서 판정');a=p.parse_args()
  if not 0<=a.days<=14 or not 1<=a.workers<=6 or a.timeout<1:p.error('Invalid collection limits')
- tasks=select_tasks(json.loads(a.manifest.read_text()),a.shard,a.shards)
+ tasks=select_tasks(json.loads(a.manifest.read_text()),a.shard,a.shards,a.workers)
  locks=collections.defaultdict(lambda:threading.Semaphore(1));results=[]
  def run(task):
   with locks[task['script']]:

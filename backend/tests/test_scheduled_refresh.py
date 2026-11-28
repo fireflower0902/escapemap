@@ -52,7 +52,7 @@ def test_provider_fanout_is_bounded_across_all_groups():
  groups=[module.select_tasks(rows,i,12) for i in range(12)]
  for provider in {r['script'] for r in rows}:
   count=sum(any(r['script']==provider for r in group) for group in groups)
-  assert count <= (8 if provider=='sync_escapetop_db' else 6)
+  assert count <= (10 if provider=='sync_escapetop_db' else 6)
  assert sum(map(len,groups))==len(rows)
 
 

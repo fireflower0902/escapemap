@@ -2,387 +2,387 @@
   {
     "script": "sync_aliceescape_db",
     "cafe_id": "338628640",
-    "estimated_seconds": 24
+    "estimated_seconds": 33
   },
   {
     "script": "sync_ccescapezone_db",
     "cafe_id": "230738333",
-    "estimated_seconds": 6
+    "estimated_seconds": 9
   },
   {
     "script": "sync_chaosesc_db",
     "cafe_id": "431508316",
-    "estimated_seconds": 21
+    "estimated_seconds": 37
   },
   {
     "script": "sync_clevertown_db",
     "cafe_id": "949587061",
-    "estimated_seconds": 24
+    "estimated_seconds": 27
   },
   {
     "cafe_id": "522639283",
     "script": "sync_codegarosu_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 27
   },
   {
     "cafe_id": "1475074228",
     "script": "sync_codek_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 20
   },
   {
     "cafe_id": "official_codek_S1",
     "script": "sync_codek_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "official_codek_S3",
     "script": "sync_codek_db",
-    "estimated_seconds": 12
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1442041275",
     "script": "sync_deepthinker_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "1460830485",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 7
+    "estimated_seconds": 15
   },
   {
     "cafe_id": "153136502",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 6
+    "estimated_seconds": 18
   },
   {
     "cafe_id": "1836271694",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 9
+    "estimated_seconds": 15
   },
   {
     "cafe_id": "190103388",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 9
+    "estimated_seconds": 19
   },
   {
     "cafe_id": "2058736611",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 7
+    "estimated_seconds": 19
   },
   {
     "cafe_id": "27609271",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 8
+    "estimated_seconds": 19
   },
   {
     "script": "sync_doorescape_db",
     "cafe_id": "691418241",
-    "estimated_seconds": 8
+    "estimated_seconds": 17
   },
   {
     "cafe_id": "765336936",
     "script": "sync_doorescape_db",
-    "estimated_seconds": 7
+    "estimated_seconds": 17
   },
   {
     "cafe_id": "259983085",
     "script": "sync_dpsnnn_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 31
   },
   {
     "script": "sync_dpsnnn_db",
     "cafe_id": "377197835",
-    "estimated_seconds": 18
+    "estimated_seconds": 30
   },
   {
     "cafe_id": "1767938917",
     "script": "sync_dreampicnic_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 22
   },
   {
     "script": "sync_dreampicnic_db",
     "cafe_id": "59939450",
-    "estimated_seconds": 14
+    "estimated_seconds": 27
   },
   {
     "script": "sync_escapecity_db",
     "cafe_id": "1363823824",
-    "estimated_seconds": 67
+    "estimated_seconds": 66
   },
   {
     "script": "sync_escapecity_db",
     "cafe_id": "1444854771",
-    "estimated_seconds": 92
+    "estimated_seconds": 101
   },
   {
     "script": "sync_escapecity_db",
     "cafe_id": "1834149457",
-    "estimated_seconds": 50
+    "estimated_seconds": 75
   },
   {
     "script": "sync_escapecity_db",
     "cafe_id": "926754766",
-    "estimated_seconds": 82
+    "estimated_seconds": 104
   },
   {
     "script": "sync_escapedetective_db",
     "cafe_id": "779900297",
-    "estimated_seconds": 56
+    "estimated_seconds": 72
   },
   {
     "script": "sync_escapehouse_db",
     "cafe_id": "340303350",
-    "estimated_seconds": 16
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "969459474",
     "script": "sync_escapers_db",
-    "estimated_seconds": 5
+    "estimated_seconds": 8
   },
   {
     "cafe_id": "100018735",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 31
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1019017181",
-    "estimated_seconds": 31
-  },
-  {
-    "cafe_id": "1023995566",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 41
-  },
-  {
-    "cafe_id": "1097124167",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 64
-  },
-  {
-    "cafe_id": "1124781432",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 35
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1224388097",
-    "estimated_seconds": 57
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1252080396",
-    "estimated_seconds": 56
-  },
-  {
-    "cafe_id": "1266197087",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 48
-  },
-  {
-    "cafe_id": "1277196871",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 31
-  },
-  {
-    "cafe_id": "1358303820",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 31
-  },
-  {
-    "cafe_id": "1411698841",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 48
-  },
-  {
-    "cafe_id": "1415278100",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 14
-  },
-  {
-    "cafe_id": "1448469234",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 48
-  },
-  {
-    "cafe_id": "1458988059",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 39
-  },
-  {
-    "cafe_id": "1459848720",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 48
-  },
-  {
-    "cafe_id": "1488706210",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 23
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1495650283",
-    "estimated_seconds": 41
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1501825629",
-    "estimated_seconds": 42
-  },
-  {
-    "cafe_id": "1502372343",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 43
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1544141348",
-    "estimated_seconds": 39
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1560724472",
-    "estimated_seconds": 56
-  },
-  {
-    "cafe_id": "1574310774",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 47
-  },
-  {
-    "cafe_id": "1611418578",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 23
-  },
-  {
-    "cafe_id": "163640808",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 23
-  },
-  {
-    "cafe_id": "164116124",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 14
-  },
-  {
-    "cafe_id": "1682203426",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 23
-  },
-  {
-    "cafe_id": "170158027",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 60
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1741880444",
-    "estimated_seconds": 39
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1856406910",
-    "estimated_seconds": 42
-  },
-  {
-    "cafe_id": "1865048385",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 40
-  },
-  {
-    "cafe_id": "1871864524",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 35
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1900192470",
-    "estimated_seconds": 40
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1945917235",
-    "estimated_seconds": 48
-  },
-  {
-    "cafe_id": "1973717836",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 56
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "1992606174",
-    "estimated_seconds": 56
-  },
-  {
-    "cafe_id": "2011481622",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 52
-  },
-  {
-    "cafe_id": "202030183",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 39
-  },
-  {
-    "cafe_id": "2102768222",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 31
-  },
-  {
-    "cafe_id": "2138163704",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 41
-  },
-  {
-    "cafe_id": "215947527",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 47
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "2200000001",
-    "estimated_seconds": 20
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "27413260",
-    "estimated_seconds": 33
-  },
-  {
-    "cafe_id": "27575809",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 35
-  },
-  {
-    "cafe_id": "27607543",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 56
-  },
-  {
-    "cafe_id": "284779798",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 73
-  },
-  {
-    "cafe_id": "332798783",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 64
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "401872428",
     "estimated_seconds": 38
   },
   {
     "script": "sync_escapetop_db",
-    "cafe_id": "40766168",
+    "cafe_id": "1019017181",
+    "estimated_seconds": 36
+  },
+  {
+    "cafe_id": "1023995566",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 57
+  },
+  {
+    "cafe_id": "1097124167",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 78
+  },
+  {
+    "cafe_id": "1124781432",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 45
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1224388097",
+    "estimated_seconds": 75
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1252080396",
+    "estimated_seconds": 68
+  },
+  {
+    "cafe_id": "1266197087",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 52
+  },
+  {
+    "cafe_id": "1277196871",
+    "script": "sync_escapetop_db",
     "estimated_seconds": 35
+  },
+  {
+    "cafe_id": "1358303820",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 40
+  },
+  {
+    "cafe_id": "1411698841",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 49
+  },
+  {
+    "cafe_id": "1415278100",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 25
+  },
+  {
+    "cafe_id": "1448469234",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 50
+  },
+  {
+    "cafe_id": "1458988059",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 49
+  },
+  {
+    "cafe_id": "1459848720",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 65
+  },
+  {
+    "cafe_id": "1488706210",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 27
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1495650283",
+    "estimated_seconds": 47
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1501825629",
+    "estimated_seconds": 50
+  },
+  {
+    "cafe_id": "1502372343",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 58
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1544141348",
+    "estimated_seconds": 40
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1560724472",
+    "estimated_seconds": 71
+  },
+  {
+    "cafe_id": "1574310774",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 46
+  },
+  {
+    "cafe_id": "1611418578",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 35
+  },
+  {
+    "cafe_id": "163640808",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 35
+  },
+  {
+    "cafe_id": "164116124",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 21
+  },
+  {
+    "cafe_id": "1682203426",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 32
+  },
+  {
+    "cafe_id": "170158027",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 68
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1741880444",
+    "estimated_seconds": 44
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1856406910",
+    "estimated_seconds": 58
+  },
+  {
+    "cafe_id": "1865048385",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 47
+  },
+  {
+    "cafe_id": "1871864524",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 40
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1900192470",
+    "estimated_seconds": 45
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1945917235",
+    "estimated_seconds": 47
+  },
+  {
+    "cafe_id": "1973717836",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 66
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "1992606174",
+    "estimated_seconds": 65
+  },
+  {
+    "cafe_id": "2011481622",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 56
+  },
+  {
+    "cafe_id": "202030183",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 43
+  },
+  {
+    "cafe_id": "2102768222",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 33
+  },
+  {
+    "cafe_id": "2138163704",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 51
+  },
+  {
+    "cafe_id": "215947527",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 53
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "2200000001",
+    "estimated_seconds": 31
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "27413260",
+    "estimated_seconds": 38
+  },
+  {
+    "cafe_id": "27575809",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 44
+  },
+  {
+    "cafe_id": "27607543",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 58
+  },
+  {
+    "cafe_id": "284779798",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 86
+  },
+  {
+    "cafe_id": "332798783",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 70
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "401872428",
+    "estimated_seconds": 43
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "40766168",
+    "estimated_seconds": 48
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "422613765",
-    "estimated_seconds": 14
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "451924760",
@@ -392,277 +392,277 @@
   {
     "cafe_id": "570199530",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 89
+    "estimated_seconds": 105
   },
   {
     "cafe_id": "617331855",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 56
+    "estimated_seconds": 64
   },
   {
     "cafe_id": "625095198",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 43
+    "estimated_seconds": 57
   },
   {
     "cafe_id": "628138029",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 33
+    "estimated_seconds": 46
   },
   {
     "cafe_id": "632336157",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 20
+    "estimated_seconds": 30
   },
   {
     "cafe_id": "657876723",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 25
   },
   {
     "cafe_id": "665041653",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 66
+    "estimated_seconds": 75
   },
   {
     "cafe_id": "704757588",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 31
+    "estimated_seconds": 45
   },
   {
     "cafe_id": "713424921",
     "script": "sync_escapetop_db",
-    "estimated_seconds": 48
+    "estimated_seconds": 59
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "716654663",
-    "estimated_seconds": 43
+    "estimated_seconds": 60
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "727312827",
-    "estimated_seconds": 40
+    "estimated_seconds": 54
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "746135486",
-    "estimated_seconds": 48
+    "estimated_seconds": 59
   },
   {
     "cafe_id": "776644226",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 26
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "786094598",
-    "estimated_seconds": 48
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "802938757",
-    "estimated_seconds": 35
-  },
-  {
-    "cafe_id": "836762242",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 63
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "841734382",
-    "estimated_seconds": 42
-  },
-  {
-    "cafe_id": "901719185",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 31
-  },
-  {
-    "cafe_id": "902256384",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 31
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "911063716",
-    "estimated_seconds": 48
-  },
-  {
-    "cafe_id": "923379950",
-    "script": "sync_escapetop_db",
-    "estimated_seconds": 39
-  },
-  {
-    "cafe_id": "942247508",
     "script": "sync_escapetop_db",
     "estimated_seconds": 30
   },
   {
     "script": "sync_escapetop_db",
-    "cafe_id": "964420524",
+    "cafe_id": "786094598",
+    "estimated_seconds": 55
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "802938757",
+    "estimated_seconds": 50
+  },
+  {
+    "cafe_id": "836762242",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 69
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "841734382",
+    "estimated_seconds": 56
+  },
+  {
+    "cafe_id": "901719185",
+    "script": "sync_escapetop_db",
     "estimated_seconds": 40
+  },
+  {
+    "cafe_id": "902256384",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 40
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "911063716",
+    "estimated_seconds": 61
+  },
+  {
+    "cafe_id": "923379950",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 48
+  },
+  {
+    "cafe_id": "942247508",
+    "script": "sync_escapetop_db",
+    "estimated_seconds": 39
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "964420524",
+    "estimated_seconds": 50
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_41",
-    "estimated_seconds": 47
+    "estimated_seconds": 55
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_42",
-    "estimated_seconds": 39
+    "estimated_seconds": 57
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_43",
-    "estimated_seconds": 31
+    "estimated_seconds": 37
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_44",
-    "estimated_seconds": 43
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_46",
-    "estimated_seconds": 40
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_47",
-    "estimated_seconds": 35
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_48",
-    "estimated_seconds": 39
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_49",
-    "estimated_seconds": 56
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_50",
-    "estimated_seconds": 39
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_51",
-    "estimated_seconds": 56
-  },
-  {
-    "script": "sync_escapetop_db",
-    "cafe_id": "official_roomsa_52",
     "estimated_seconds": 52
   },
   {
     "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_46",
+    "estimated_seconds": 57
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_47",
+    "estimated_seconds": 50
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_48",
+    "estimated_seconds": 51
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_49",
+    "estimated_seconds": 63
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_50",
+    "estimated_seconds": 48
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_51",
+    "estimated_seconds": 68
+  },
+  {
+    "script": "sync_escapetop_db",
+    "cafe_id": "official_roomsa_52",
+    "estimated_seconds": 54
+  },
+  {
+    "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_53",
-    "estimated_seconds": 64
+    "estimated_seconds": 72
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_54",
-    "estimated_seconds": 80
+    "estimated_seconds": 79
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_55",
-    "estimated_seconds": 39
+    "estimated_seconds": 49
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_56",
-    "estimated_seconds": 56
+    "estimated_seconds": 65
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_57",
-    "estimated_seconds": 42
+    "estimated_seconds": 57
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_58",
-    "estimated_seconds": 33
+    "estimated_seconds": 41
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_69",
-    "estimated_seconds": 35
+    "estimated_seconds": 51
   },
   {
     "script": "sync_escapetop_db",
     "cafe_id": "official_roomsa_83",
-    "estimated_seconds": 48
+    "estimated_seconds": 49
   },
   {
     "cafe_id": "1314964065",
     "script": "sync_escbangtalul_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 17
   },
   {
     "script": "sync_escbangtalul_db",
     "cafe_id": "2024880532",
-    "estimated_seconds": 14
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "27559974",
     "script": "sync_escbangtalul_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 16
   },
   {
     "script": "sync_exodus_current_db",
     "cafe_id": "103606910",
-    "estimated_seconds": 6
+    "estimated_seconds": 13
   },
   {
     "cafe_id": "1421844037",
     "script": "sync_fantastrick_db",
-    "estimated_seconds": 8
+    "estimated_seconds": 14
   },
   {
     "cafe_id": "192767471",
     "script": "sync_fantastrick_db",
-    "estimated_seconds": 8
+    "estimated_seconds": 18
   },
   {
     "cafe_id": "2020129484",
     "script": "sync_fantastrick_db",
-    "estimated_seconds": 10
+    "estimated_seconds": 23
   },
   {
     "script": "sync_frankantique_db",
     "cafe_id": "874592991",
-    "estimated_seconds": 46
+    "estimated_seconds": 48
   },
   {
     "script": "sync_fuzzyline_db",
     "cafe_id": "1944665207",
-    "estimated_seconds": 20
+    "estimated_seconds": 25
   },
   {
     "script": "sync_fuzzyline_db",
     "cafe_id": "554838835",
-    "estimated_seconds": 14
+    "estimated_seconds": 23
   },
   {
     "script": "sync_horrorswitch_db",
     "cafe_id": "289742025",
-    "estimated_seconds": 16
+    "estimated_seconds": 24
   },
   {
     "script": "sync_jigobyeol_db",
     "cafe_id": "2070697879",
-    "estimated_seconds": 15
+    "estimated_seconds": 20
   },
   {
     "cafe_id": "399012410",
     "script": "sync_jigobyeol_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 18
   },
   {
     "cafe_id": "7690632",
@@ -672,132 +672,132 @@
   {
     "script": "sync_keyescape_db",
     "cafe_id": "1405262610",
-    "estimated_seconds": 30
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "1637143499",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 50
+    "estimated_seconds": 45
   },
   {
     "cafe_id": "1872221698",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 34
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "200411443",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 30
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "298789057",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 27
+    "estimated_seconds": 38
   },
   {
     "cafe_id": "320987184",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 30
+    "estimated_seconds": 46
   },
   {
     "cafe_id": "400448256",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "459642234",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 27
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "48992610",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 32
+    "estimated_seconds": 40
   },
   {
     "cafe_id": "916422770",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 37
   },
   {
     "cafe_id": "99889048",
     "script": "sync_keyescape_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 32
   },
   {
     "script": "sync_mafiacafe_db",
     "cafe_id": "1030963843",
-    "estimated_seconds": 6
+    "estimated_seconds": 10
   },
   {
     "cafe_id": "1443757324",
     "script": "sync_mafiacafe_db",
-    "estimated_seconds": 6
+    "estimated_seconds": 9
   },
   {
     "cafe_id": "1292714537",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 39
+    "estimated_seconds": 50
   },
   {
     "cafe_id": "1397923384",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 34
+    "estimated_seconds": 36
   },
   {
     "cafe_id": "1462418270",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 34
+    "estimated_seconds": 48
   },
   {
     "script": "sync_masterkey_db",
     "cafe_id": "1466171651",
-    "estimated_seconds": 31
+    "estimated_seconds": 33
   },
   {
     "cafe_id": "1559912469",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 34
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "164781377",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 29
+    "estimated_seconds": 34
   },
   {
     "cafe_id": "1727885052",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 33
+    "estimated_seconds": 47
   },
   {
     "cafe_id": "1834906043",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 29
+    "estimated_seconds": 40
   },
   {
     "cafe_id": "1850589033",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 35
+    "estimated_seconds": 33
   },
   {
     "cafe_id": "1987907479",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 33
+    "estimated_seconds": 36
   },
   {
     "cafe_id": "2030700012",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 35
+    "estimated_seconds": 51
   },
   {
     "cafe_id": "2039293420",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 34
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "27495854",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 35
+    "estimated_seconds": 36
   },
   {
     "cafe_id": "27523824",
@@ -807,492 +807,492 @@
   {
     "cafe_id": "671151862",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 33
+    "estimated_seconds": 36
   },
   {
     "cafe_id": "751793807",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 33
+    "estimated_seconds": 46
   },
   {
     "cafe_id": "870806933",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 34
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "886826713",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 29
+    "estimated_seconds": 46
   },
   {
     "cafe_id": "967129600",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 33
+    "estimated_seconds": 34
   },
   {
     "cafe_id": "97734177",
     "script": "sync_masterkey_db",
-    "estimated_seconds": 29
+    "estimated_seconds": 47
   },
   {
     "cafe_id": "1956789824",
     "script": "sync_movieescape_cokr_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "136198096",
     "script": "sync_movieescape_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "1609773844",
     "script": "sync_movieescape_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 24
   },
   {
     "script": "sync_movieescape_db",
     "cafe_id": "1855837227",
-    "estimated_seconds": 17
+    "estimated_seconds": 30
   },
   {
     "cafe_id": "857573680",
     "script": "sync_movieescape_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "1016102948",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 37
   },
   {
     "cafe_id": "1250945647",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 34
   },
   {
     "cafe_id": "130115446",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "1450292038",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1604521778",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "1788375645",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "1796437751",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "1862264503",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 32
   },
   {
     "script": "sync_murderparker_db",
     "cafe_id": "27545114",
-    "estimated_seconds": 18
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "3373516",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 33
   },
   {
     "cafe_id": "399727939",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 31
   },
   {
     "cafe_id": "583591672",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "605934214",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 25
   },
   {
     "cafe_id": "64956517",
     "script": "sync_murderparker_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 27
   },
   {
     "cafe_id": "1108129560",
     "script": "sync_nextedition_db",
-    "estimated_seconds": 8
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "1224056973",
     "script": "sync_nextedition_db",
-    "estimated_seconds": 11
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "1460924995",
     "script": "sync_nextedition_db",
-    "estimated_seconds": 8
+    "estimated_seconds": 20
   },
   {
     "cafe_id": "1678997732",
     "script": "sync_nextedition_db",
-    "estimated_seconds": 9
+    "estimated_seconds": 23
   },
   {
     "script": "sync_nextedition_db",
     "cafe_id": "1973765277",
-    "estimated_seconds": 9
+    "estimated_seconds": 17
   },
   {
     "cafe_id": "287949141",
     "script": "sync_nextedition_db",
-    "estimated_seconds": 10
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "635335984",
     "script": "sync_nextedition_db",
-    "estimated_seconds": 10
+    "estimated_seconds": 16
   },
   {
     "script": "sync_no1escape_db",
     "cafe_id": "27324626",
-    "estimated_seconds": 14
+    "estimated_seconds": 19
   },
   {
     "script": "sync_oasisescape_db",
     "cafe_id": "848848018",
-    "estimated_seconds": 120
+    "estimated_seconds": 107
   },
   {
     "cafe_id": "1908328454",
     "script": "sync_orangetb_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "363716272",
     "script": "sync_orangetb_db",
-    "estimated_seconds": 20
+    "estimated_seconds": 27
   },
   {
     "script": "sync_panicescape_db",
     "cafe_id": "27178625",
-    "estimated_seconds": 15
+    "estimated_seconds": 25
   },
   {
     "cafe_id": "1385414031",
     "script": "sync_play33_db",
-    "estimated_seconds": 38
+    "estimated_seconds": 44
   },
   {
     "cafe_id": "official_play33_4",
     "script": "sync_play33_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "official_play33_5",
     "script": "sync_play33_db",
-    "estimated_seconds": 57
+    "estimated_seconds": 74
   },
   {
     "cafe_id": "official_play33_7",
     "script": "sync_play33_db",
-    "estimated_seconds": 32
+    "estimated_seconds": 33
   },
   {
     "script": "sync_playescape_db",
     "cafe_id": "1416262413",
-    "estimated_seconds": 55
+    "estimated_seconds": 60
   },
   {
     "cafe_id": "official_exploria",
     "script": "sync_public_extra_db",
-    "estimated_seconds": 11
+    "estimated_seconds": 18
   },
   {
     "cafe_id": "official_plus",
     "script": "sync_public_extra_db",
-    "estimated_seconds": 26
+    "estimated_seconds": 38
   },
   {
     "cafe_id": "2022859547",
     "script": "sync_puzzlefactory_db",
-    "estimated_seconds": 26
+    "estimated_seconds": 39
   },
   {
     "script": "sync_puzzlefactory_db",
     "cafe_id": "315548029",
-    "estimated_seconds": 28
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "187287513",
     "script": "sync_rabbithole_db",
-    "estimated_seconds": 32
+    "estimated_seconds": 45
   },
   {
     "cafe_id": "475592733",
     "script": "sync_rememberesc_db",
-    "estimated_seconds": 5
+    "estimated_seconds": 11
   },
   {
     "cafe_id": "49858990",
     "script": "sync_rememberesc_db",
-    "estimated_seconds": 5
+    "estimated_seconds": 9
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "1000900386",
-    "estimated_seconds": 6
+    "estimated_seconds": 16
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "138006966",
-    "estimated_seconds": 6
+    "estimated_seconds": 19
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "1393764461",
-    "estimated_seconds": 6
+    "estimated_seconds": 18
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "1542251042",
-    "estimated_seconds": 5
+    "estimated_seconds": 17
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "1637776603",
-    "estimated_seconds": 5
+    "estimated_seconds": 11
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "2012633570",
-    "estimated_seconds": 6
+    "estimated_seconds": 12
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "2016521022",
-    "estimated_seconds": 7
+    "estimated_seconds": 20
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "27329834",
-    "estimated_seconds": 6
+    "estimated_seconds": 14
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "690123759",
-    "estimated_seconds": 6
+    "estimated_seconds": 19
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "76631654",
-    "estimated_seconds": 6
+    "estimated_seconds": 16
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "767938268",
-    "estimated_seconds": 6
+    "estimated_seconds": 19
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "912842418",
-    "estimated_seconds": 5
+    "estimated_seconds": 14
   },
   {
     "script": "sync_reserv_public_db",
     "cafe_id": "929019886",
-    "estimated_seconds": 5
+    "estimated_seconds": 20
   },
   {
     "script": "sync_roomescape_db",
     "cafe_id": "273855007",
-    "estimated_seconds": 51
+    "estimated_seconds": 36
   },
   {
     "cafe_id": "1735229345",
     "script": "sync_roomlescape_db",
-    "estimated_seconds": 6
+    "estimated_seconds": 9
   },
   {
     "script": "sync_roomlescape_db",
     "cafe_id": "596589943",
-    "estimated_seconds": 6
+    "estimated_seconds": 13
   },
   {
     "cafe_id": "782208965",
     "script": "sync_roomlescape_db",
-    "estimated_seconds": 6
+    "estimated_seconds": 12
   },
   {
     "script": "sync_seoulescaperoom_db",
     "cafe_id": "1351400084",
-    "estimated_seconds": 17
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "310013350",
     "script": "sync_seoulescaperoom_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "427897815",
     "script": "sync_seoulescaperoom_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "892545149",
     "script": "sync_seoulescaperoom_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 38
   },
   {
     "cafe_id": "10098327",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "1049164175",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1166453549",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 20
   },
   {
     "cafe_id": "1367009941",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1620988252",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1888259527",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "1954089927",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "2021007589",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 25
   },
   {
     "cafe_id": "2127065864",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "270131531",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "27583768",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "399640253",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 20
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "45777628",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "462553617",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "466116790",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "472522287",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "582885260",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "588118043",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "716398207",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "728789378",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "743084847",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 31
   },
   {
     "cafe_id": "816654453",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "908334376",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 27
   },
   {
     "cafe_id": "official_sherlock_105",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "official_sherlock_110",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 30
   },
   {
     "cafe_id": "official_sherlock_111",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 20
+    "estimated_seconds": 32
   },
   {
     "cafe_id": "official_sherlock_112",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "official_sherlock_113",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "official_sherlock_114",
@@ -1302,142 +1302,142 @@
   {
     "cafe_id": "official_sherlock_115",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "official_sherlock_116",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "official_sherlock_13",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "official_sherlock_41",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 21
   },
   {
     "cafe_id": "official_sherlock_44",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "official_sherlock_61",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 28
   },
   {
     "cafe_id": "official_sherlock_70",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "official_sherlock_79",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "official_sherlock_81",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "official_sherlock_84",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 16
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "official_sherlock_86",
     "script": "sync_sherlock_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 28
   },
   {
     "script": "sync_showroom404_db",
     "cafe_id": "887263854",
-    "estimated_seconds": 46
+    "estimated_seconds": 42
   },
   {
     "cafe_id": "1245109855",
     "script": "sync_signescape_db",
-    "estimated_seconds": 38
+    "estimated_seconds": 46
   },
   {
     "cafe_id": "2400000001",
     "script": "sync_signescape_db",
-    "estimated_seconds": 29
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "570522076",
     "script": "sync_signescape_db",
-    "estimated_seconds": 37
+    "estimated_seconds": 46
   },
   {
     "script": "sync_signescape_db",
     "cafe_id": "678802397",
-    "estimated_seconds": 43
+    "estimated_seconds": 46
   },
   {
     "cafe_id": "1045036053",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 27
+    "estimated_seconds": 38
   },
   {
     "cafe_id": "1092766492",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 38
   },
   {
     "cafe_id": "1121229740",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 36
+    "estimated_seconds": 40
   },
   {
     "script": "sync_sinbiweb_db",
     "cafe_id": "1168819420",
-    "estimated_seconds": 24
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "1213158520",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 27
   },
   {
     "cafe_id": "1271584354",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 17
+    "estimated_seconds": 32
   },
   {
     "script": "sync_sinbiweb_db",
     "cafe_id": "1321479252",
-    "estimated_seconds": 21
+    "estimated_seconds": 34
   },
   {
     "cafe_id": "1387240933",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 26
+    "estimated_seconds": 29
   },
   {
     "cafe_id": "1425246210",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 34
   },
   {
     "cafe_id": "1521613397",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 23
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "1541961243",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 20
+    "estimated_seconds": 31
   },
   {
     "cafe_id": "1554942559",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 34
   },
   {
     "script": "sync_sinbiweb_db",
@@ -1447,266 +1447,266 @@
   {
     "cafe_id": "1591055284",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 47
   },
   {
     "cafe_id": "1825220691",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 23
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1875954710",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 47
+    "estimated_seconds": 57
   },
   {
     "cafe_id": "1958696909",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 18
+    "estimated_seconds": 40
   },
   {
     "cafe_id": "2055691742",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 36
+    "estimated_seconds": 38
   },
   {
     "script": "sync_sinbiweb_db",
     "cafe_id": "302959300",
-    "estimated_seconds": 30
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "348406652",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 30
   },
   {
     "cafe_id": "351145232",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 35
   },
   {
     "cafe_id": "444802506",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "455356224",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 23
+    "estimated_seconds": 31
   },
   {
     "cafe_id": "458997744",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 27
   },
   {
     "cafe_id": "505122419",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 66
   },
   {
     "cafe_id": "636394528",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "776353707",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 24
+    "estimated_seconds": 66
   },
   {
     "script": "sync_sinbiweb_db",
     "cafe_id": "892126854",
-    "estimated_seconds": 24
+    "estimated_seconds": 30
   },
   {
     "script": "sync_sinbiweb_db",
     "cafe_id": "997136500",
-    "estimated_seconds": 25
+    "estimated_seconds": 30
   },
   {
     "cafe_id": "official_dolo",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "official_eroom8",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 45
   },
   {
     "cafe_id": "official_pointnine_1",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 33
   },
   {
     "cafe_id": "official_pointnine_5",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 29
+    "estimated_seconds": 31
   },
   {
     "cafe_id": "official_pointnine_6",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "official_sslone_1",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 19
+    "estimated_seconds": 43
   },
   {
     "cafe_id": "official_sslone_2",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 30
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "official_sslone_4",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 22
+    "estimated_seconds": 33
   },
   {
     "cafe_id": "official_sslone_5",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 26
+    "estimated_seconds": 34
   },
   {
     "cafe_id": "official_weyol",
     "script": "sync_sinbiweb_db",
-    "estimated_seconds": 20
+    "estimated_seconds": 35
   },
   {
     "script": "sync_studioesc_db",
     "cafe_id": "1908100709",
-    "estimated_seconds": 24
+    "estimated_seconds": 26
   },
   {
     "script": "sync_teraspace_db",
     "cafe_id": "759455993",
-    "estimated_seconds": 13
+    "estimated_seconds": 25
   },
   {
     "script": "sync_theqescape_db",
     "cafe_id": "1696389756",
-    "estimated_seconds": 56
+    "estimated_seconds": 25
   },
   {
     "script": "sync_thetimeescape_db",
     "cafe_id": "1233678979",
-    "estimated_seconds": 56
+    "estimated_seconds": 76
   },
   {
     "script": "sync_trickescape_db",
     "cafe_id": "27504980",
-    "estimated_seconds": 19
+    "estimated_seconds": 24
   },
   {
     "script": "sync_ttescape_db",
     "cafe_id": "327610610",
-    "estimated_seconds": 14
+    "estimated_seconds": 24
   },
   {
     "cafe_id": "28201117",
     "script": "sync_wecent_db",
-    "estimated_seconds": 10
+    "estimated_seconds": 23
   },
   {
     "cafe_id": "official_xcape_gn",
     "script": "sync_xcape_current_db",
-    "estimated_seconds": 14
+    "estimated_seconds": 19
   },
   {
     "cafe_id": "official_xcape_nc",
     "script": "sync_xcape_current_db",
-    "estimated_seconds": 12
+    "estimated_seconds": 22
   },
   {
     "cafe_id": "official_xcape_sw",
     "script": "sync_xcape_current_db",
-    "estimated_seconds": 12
+    "estimated_seconds": 19
   },
   {
     "cafe_id": "official_xcape_xc",
     "script": "sync_xcape_current_db",
-    "estimated_seconds": 13
+    "estimated_seconds": 20
   },
   {
     "cafe_id": "official_xcape_xr",
     "script": "sync_xcape_current_db",
-    "estimated_seconds": 12
-  },
-  {
-    "script": "sync_xdungeon_db",
-    "cafe_id": "1246652450",
-    "estimated_seconds": 22
-  },
-  {
-    "script": "sync_xdungeon_db",
-    "cafe_id": "1322241204",
     "estimated_seconds": 20
   },
   {
     "script": "sync_xdungeon_db",
+    "cafe_id": "1246652450",
+    "estimated_seconds": 27
+  },
+  {
+    "script": "sync_xdungeon_db",
+    "cafe_id": "1322241204",
+    "estimated_seconds": 30
+  },
+  {
+    "script": "sync_xdungeon_db",
     "cafe_id": "1478483341",
-    "estimated_seconds": 19
+    "estimated_seconds": 30
   },
   {
     "script": "sync_xdungeon_db",
     "cafe_id": "1769092819",
-    "estimated_seconds": 16
+    "estimated_seconds": 26
   },
   {
     "cafe_id": "1772808576",
     "script": "sync_xdungeon_db",
-    "estimated_seconds": 21
+    "estimated_seconds": 32
   },
   {
     "script": "sync_xdungeon_db",
     "cafe_id": "2070160321",
-    "estimated_seconds": 18
+    "estimated_seconds": 30
   },
   {
     "script": "sync_xdungeon_db",
     "cafe_id": "27413263",
-    "estimated_seconds": 19
+    "estimated_seconds": 35
   },
   {
     "script": "sync_xdungeon_db",
     "cafe_id": "436025860",
-    "estimated_seconds": 17
+    "estimated_seconds": 30
   },
   {
     "script": "sync_xdungeon_db",
     "cafe_id": "629764977",
-    "estimated_seconds": 24
+    "estimated_seconds": 38
   },
   {
     "cafe_id": "1654390566",
     "script": "sync_xescape_db",
-    "estimated_seconds": 15
+    "estimated_seconds": 17
   },
   {
     "script": "sync_xescape_db",
     "cafe_id": "1772415237",
-    "estimated_seconds": 15
+    "estimated_seconds": 25
   },
   {
     "cafe_id": "1345840219",
     "script": "sync_zeroworld_current_db",
-    "estimated_seconds": 36
+    "estimated_seconds": 50
   },
   {
     "cafe_id": "1732671994",
     "script": "sync_zeroworld_current_db",
-    "estimated_seconds": 32
+    "estimated_seconds": 31
   },
   {
     "cafe_id": "official_zeroworld_1",
     "script": "sync_zeroworld_current_db",
-    "estimated_seconds": 59
+    "estimated_seconds": 58
   },
   {
     "cafe_id": "official_zeroworld_2",
     "script": "sync_zeroworld_current_db",
-    "estimated_seconds": 23
+    "estimated_seconds": 26
   }
 ]
